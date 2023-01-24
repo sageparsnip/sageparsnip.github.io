@@ -45,6 +45,10 @@ body {
 	background-color: darkgreen;
 }
 
+#Downtime-Activities {
+	background-color: darkslategray;
+}
+
 .section-header {
 	padding: 6px;
 	border-radius: 10px;
