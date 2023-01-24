@@ -1,0 +1,150 @@
+/**********************************
+*  Page Container *
+**********************************/
+body {
+	display: flex;
+	flex-direction: column;
+    justify-content: space-around;
+    background-color: black;
+    padding-left: 25px;
+    padding-right: 50px;
+    position: relative;
+    max-width: 1200px;
+    padding-top: 20px;
+    margin: auto;
+}
+
+/**********************************
+*  Containers *
+**********************************/
+
+.section-div {
+	display: flex;
+	border: 2px solid purple;
+	background-color: maroon;
+	border-radius: 10px;
+	position: relative;
+	flex-direction: column;
+	font-family: 'Cambria';
+	font-size: 16pt;
+	color: white;
+	width: 100%;
+	margin-bottom: 16px;
+	padding: 10px;
+}
+
+#Standard-Actions {
+	background-color: navy;
+}
+
+#Skill-Actions {
+	background-color: brown;
+}
+
+#Exploration-Activities {
+	background-color: darkgreen;
+}
+
+.section-header {
+	padding: 6px;
+	border-radius: 10px;
+	background-color: inherit;
+	border-color: inherit;
+	font-size: inherit;
+	font-weight: bold;
+}
+
+.section-text {
+	font-size: 12pt;
+	padding-left: 6px;
+	padding-bottom: 5px;
+	font-style: italic;
+}
+
+/**********************************
+*  Standard Items Grid            *
+**********************************/
+
+.item-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	gap: 1rem;
+	place-items: middle;
+	margin-bottom: 10px;
+}
+
+.item {
+	justify-content: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.item-icon {
+	float: left;
+	font-size: 8pt;
+	width: 55px;
+}
+
+.item-icon skill{
+	font-size: 12pt;
+	font-weight:bold;
+	padding-right: 8px;
+}
+
+.item-header {
+	font-size: 14pt;
+	font-weight: bold;
+}
+.item-header d {
+	color: lightgrey;
+	font-size:11pt;
+}
+
+.item-text {
+	font-size: 12pt;
+	font-weight: normal;
+	overflow:hidden;
+}
+
+/**********************************
+*  Skill Items Grid               *
+**********************************/
+
+.skill-item-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+	gap: 1rem;
+	place-items: middle;
+	margin-bottom: 10px;
+}
+
+.skill-item-icon{
+	float: left;
+	font-size: 8pt;
+	width: 100px;
+}
+
+.skill-item-icon skill{
+	font-size: 12pt;
+	font-weight:bold;
+	padding-right: 8px;
+}
+
+
+/**********************************
+*  Additional Grid Formatting     *
+**********************************/
+
+
+img {
+	height: 35px;
+	padding-right: 10px;
+}
+
+h2 {
+	padding-left: 15px;
+	font-size: 15pt;
+	font-weight: bold;
+}
+
+
