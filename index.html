@@ -2,9 +2,20 @@
 <html>
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<script>
+		function showOverlay(){
+			document.getElementById("overlay").style.display = "flex";
+		}
+		function hideOverlay(){
+			document.getElementById("overlay").style.display = "none";
+		}
+	</script>
 	<title> PF2e Quick Reference </title>
 </head>
 <body >
+	<div class="overlay" id="overlay">
+		This is the overlay. Ain't it cool?
+	</div>
 	<!-- Start of Section 1 -->
 	<div class="section-div" id="Standard-Actions">
 		<div class="section-header"> Standard Actions </div>

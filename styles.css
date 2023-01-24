@@ -14,6 +14,24 @@ body {
     margin: auto;
 }
 
+#overlay {
+	display: none;
+	background-color: darkgoldenrod;
+	transform: translate(-50%, -50%);
+	color: white;
+	border: 8px solid purple;
+	border-radius: 10px;
+	position: fixed;
+	height: 50%;
+	width: 50%;
+	top: 50%;
+	left: 50%;
+	font-size: 15pt;
+	z-index: 2;
+	vertical-align: center;
+	text-align: center;
+}
+
 /**********************************
 *  Containers *
 **********************************/
