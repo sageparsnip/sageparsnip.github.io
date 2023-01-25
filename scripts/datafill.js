@@ -51,6 +51,19 @@ function loadJSON(){
 				"</div>"
 			});
 		};
+		console.log("There are " + Object.keys(data.SkillActions).length + " skill actions loaded");
+		for(var i = 0; i< Object.keys(data.SkillActions).length; i++){
+			$("#SkillActions").html(function(k, oldHTML){
+				//Modify the "SkillActions" div to reflect the existing data, plus whatever is below.
+				return oldHTML + 
+				"<div class='item'>" +
+					"<div class='skill-item-icon'><img src='icons/" + data.SkillActions[i].action + ".png'><br><skill>" + data.SkillActions[i].skill + "</skill><br>" + data.SkillActions[i].subaction + "<br></div>" +
+					"<div class='item-header'>" + data.SkillActions[i].name + " <d>" + data.SkillActions[i].subname + "</d></div>" +
+					"<div class='item-text'>" + data.SkillActions[i].text + "</div>" +
+					"<div class='item-hidden'>" + data.SkillActions[i].type + data.SkillActions[i].subtype + "</div>" + 
+				"</div>"
+			});
+		};
 	});
 	openOverlays();
 }
