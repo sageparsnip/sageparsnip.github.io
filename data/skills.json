@@ -277,6 +277,160 @@
 			"type": "Skill",
 			"subtype": "Action",
 			"page": "240"
+		},
+		{
+			"name": "Maneuver in Flight",
+			"subname": "(move)",
+			"action": "one",
+			"subaction": "Trained",
+			"skill": "Acrobatics",
+			"text": "Perform a difficult maneuver while flying.",
+			"type": "Skill",
+			"subtype": "Action",
+			"page": "240"
+		},
+		{
+			"name": "Recall Knowledge",
+			"subname": "",
+			"action": "one",
+			"subaction": "Conc. Secret",
+			"skill": "Arcana Crafting Lore Medicine Nature Occultism Religion Society",
+			"text": "Remember a bit of knowledge.",
+			"type": "Skill",
+			"subtype": "Action",
+			"page": "240"
+		},
+		{
+			"name": "Climb",
+			"subname": "(move)",
+			"action": "one",
+			"subaction": "",
+			"skill": "Athletics",
+			"text": "Move up, down, or across an incline.",
+			"type": "Skill",
+			"subtype": "Action",
+			"page": "241"
+		},
+		{
+			"name": "Force Open",
+			"subname": "(attack)",
+			"action": "one",
+			"subaction": "",
+			"skill": "Athletics",
+			"text": "Forcefully open a door, window, or container.",
+			"type": "Skill",
+			"subtype": "Action",
+			"page": "242"
+		},
+		{
+			"name": "Grapple",
+			"subname": "(attack)",
+			"action": "one",
+			"subaction": "",
+			"skill": "Athletics",
+			"text": "Grab an opponent with your free hand.",
+			"type": "Skill",
+			"subtype": "Action",
+			"page": "242"
+		},
+		{
+			"name": "High Jump",
+			"subname": "(move)",
+			"action": "two",
+			"subaction": "",
+			"skill": "Athletics",
+			"text": "Stride and then make a vertical Leap.",
+			"type": "Skill",
+			"subtype": "Action",
+			"page": "242"
+		},
+		{
+			"name": "Long Jump",
+			"subname": "(move)",
+			"action": "two",
+			"subaction": "",
+			"skill": "Athletics",
+			"text": "Stride and then make a horizontal Leap.",
+			"type": "Skill",
+			"subtype": "Action",
+			"page": "242"
+		},
+		{
+			"name": "Shove",
+			"subname": "(attack)",
+			"action": "one",
+			"subaction": "",
+			"skill": "Athletics",
+			"text": "Push an opponent away from you.",
+			"type": "Skill",
+			"subtype": "Action",
+			"page": "243"
+		},
+		{
+			"name": "Swim",
+			"subname": "(move)",
+			"action": "one",
+			"subaction": "",
+			"skill": "Athletics",
+			"text": "Propel yourself through water.",
+			"type": "Skill",
+			"subtype": "Action",
+			"page": "243"
+		},
+		{
+			"name": "Trip",
+			"subname": "(attack)",
+			"action": "one",
+			"subaction": "",
+			"skill": "Athletics",
+			"text": "Knock an opponent to the ground.",
+			"type": "Skill",
+			"subtype": "Action",
+			"page": "243"
+		},
+		{
+			"name": "Disarm",
+			"subname": "(attack)",
+			"action": "one",
+			"subaction": "Trained",
+			"skill": "Athletics",
+			"text": "Knock something out of an opponent’s grasp.",
+			"type": "Skill",
+			"subtype": "Action",
+			"page": "243"
+		},
+		{
+			"name": "Create a Diversion",
+			"subname": "",
+			"action": "one",
+			"subaction": "",
+			"skill": "Deception",
+			"text": "Draw creatures’ attention elsewhere.",
+			"type": "Skill",
+			"subtype": "Action",
+			"page": "245"
+		},
+		{
+			"name": "Lie",
+			"subname": "",
+			"action": "three",
+			"subaction": "Conc. Secret",
+			"skill": "Deception",
+			"text": "Fool someone with an untruth.",
+			"type": "Skill",
+			"subtype": "Action",
+			"page": "246"
+		},
+		{
+			"name": "Feint",
+			"subname": "",
+			"action": "one",
+			"subaction": "Trained",
+			"skill": "Deception",
+			"text": "Leave an opponent unprepared for your attack.",
+			"type": "Skill",
+			"subtype": "Action",
+			"page": "246"
 		}
 	]
 }
