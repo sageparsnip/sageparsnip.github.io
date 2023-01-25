@@ -2,6 +2,8 @@
 <html>
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<script src="/scripts/jquery-3.6.3.min.js"></script>
+	<script src="/scripts/datafill.js" type="text/javascript" ></script>
 	<script>
 		function showOverlay(){
 			document.getElementById("overlay").style.display = "flex";
@@ -9,13 +11,14 @@
 		function hideOverlay(){
 			document.getElementById("overlay").style.display = "none";
 		}
+
 	</script>
 	<title> PF2e Quick Reference </title>
 </head>
 <body >
-	<div class="overlay" id="overlay">
-		This is the overlay. Ain't it cool?
-	</div>
+	<div class="overlayback" id="overlayback">Lorem</div>
+	<div class="overlay" id="overlay"></div>
+	<button onclick="loadJSON()">Click</button>
 	<!-- Start of Section 1 -->
 	<div class="section-div" id="Standard-Actions">
 		<div class="section-header"> Standard Actions </div>
@@ -25,143 +28,21 @@
 
 		<h2>Basic Actions (Common)</h2>
 		<div class="item-grid" id="StandardCommon"> 
-			<div class="item"> 
-				<div class="item-icon"><img src="icons/one.png"></div>
-				<div class="item-header">Stride <d>(move)</d></div>
-				<div class="item-text">Move up to your speed.</div>
-			</div>
-			<div class="item"> 
-				<div class="item-icon"><img src="icons/one.png"></div>
-				<div class="item-header">Strike <d>(attack)</d></div>
-				<div class="item-text">Attack with a weapon or unarmed attack.</div>
-			</div>
-			<div class="item"> 
-				<div class="item-icon"><img src="icons/two.png"><br>(typically)</div>
-				<div class="item-header">Cast a Spell</div>
-				<div class="item-text">Cast a spell you have prepared or in your repertoire.</div>
-			</div>
-			<div class="item"> 
-				<div class="item-icon"><img src="icons/one.png"></div>
-				<div class="item-header">Step <d>(move)</d></div>
-				<div class="item-text">Move 5 feet without triggering reactions.</div>
-			</div>
-			<div class="item"> 
-				<div class="item-icon"><img src="icons/one.png"></div>
-				<div class="item-header">Raise a Shield</div>
-				<div class="item-text">Put up a shield to get its bonus to AC.</div>
-			</div>
+			<!-- Populated by the loadJSON function in datafill.js -->
 		</div>
 
 		<!--Basic Actions (Uncommon) -->
 
 		<h2>Basic Actions (Uncommon)</h2>
-		<div class="item-grid"> 
-			<div class="item"> 
-				<div class="item-icon"><img src="icons/one.png"><br>or more</div>
-				<div class="item-header">Activate An Item</div>
-				<div class="item-text">Call forth the effect of an item by properly activating it.</div>
-			</div>
-			<div class="item"> 
-				<div class="item-icon"><img src="icons/one.png"><h2>+</h2><img src="icons/reaction.png"></div>
-				<div class="item-header">Aid</div>
-				<div class="item-text">DC 20 check to give a +1 circumstance bonus to assisted skill check or attack roll (crit success: +2, +3 if master, +4 if legendary).</div>
-			</div>
-			<div class="item"> 
-				<div class="item-icon"><img src="icons/free.png"></div>
-				<div class="item-header">Delay</div>
-				<div class="item-text">Select this when your turn begins; take your turn later.</div>
-			</div>
-			<div class="item"> 
-				<div class="item-icon"><img src="icons/one.png"><br>Conc.</div>
-				<div class="item-header">Dismiss</div>
-				<div class="item-text">End one spell effect or magic item effect.</div>
-			</div>
-			<div class="item"> 
-				<div class="item-icon"><img src="icons/one.png"><br><br></div>
-				<div class="item-header">Interact <d>(manipulate)</d></div>
-				<div class="item-text">Grab an object, open a door, draw an item, or do a similar action.</div>
-			</div>
-			<div class="item"> 
-				<div class="item-icon"><img src="icons/one.png"></div>
-				<div class="item-header">Mount <d>(move)</d></div>
-				<div class="item-text">Get on an allied animal bigger than you to ride it.</div>
-			</div>
-			<div class="item"> 
-				<div class="item-icon"><img src="icons/two.png"><br>Conc.</div>
-				<div class="item-header">Ready</div>
-				<div class="item-text">Prepare to take a single/free action as a reaction with a given trigger.</div>
-			</div>
-			<div class="item"> 
-				<div class="item-icon"><img src="icons/free.png"><br><br><br></div>
-				<div class="item-header">Release <d>(manipulate)</d></div>
-				<div class="item-text">Release something you’re holding without triggering reactions.</div>
-			</div>
-			<div class="item"> 
-				<div class="item-icon"><img src="icons/one.png"><br>Conc.</div>
-				<div class="item-header">Sustain a Spell/Activation</div>
-				<div class="item-text">Extend a spell or item effect until the end of your next turn.</div>
-			</div>
-			<div class="item"> 
-				<div class="item-icon"><img src="icons/one.png"></div>
-				<div class="item-header">Take Cover</div>
-				<div class="item-text">Gain cover (or get greater cover if you have cover).</div>
-			</div>
+		<div class="item-grid" id="standardUncommon"> 
+			<!-- Populated by the loadJSON function in datafill.js -->
 		</div>
 
 		<!--Basic Actions (Situational) -->
 
 		<h2>Basic Actions (Situational)</h2>
-		<div class="item-grid"> 
-			<div class="item"> 
-				<div class="item-icon"><img src="icons/one.png"></div>
-				<div class="item-header">Avert Gaze</div>
-				<div class="item-text">Get a +2 circumstance bonus against visual abilities.</div>
-			</div>
-			<div class="item"> 
-				<div class="item-icon"><img src="icons/one.png"></div>
-				<div class="item-header">Crawl <d>(move)</d></div>
-				<div class="item-text">Move 5 feet while prone.</div>
-			</div>
-			<div class="item"> 
-				<div class="item-icon"><img src="icons/one.png"></div>
-				<div class="item-header">Drop Prone <d>(move)</d></div>
-				<div class="item-text">Fall prone.</div>
-			</div>
-			<div class="item"> 
-				<div class="item-icon"><img src="icons/one.png"></div>
-				<div class="item-header">Esape <d>(attack)</d></div>
-				<div class="item-text">Attempt to get free when grabbed, restrained, or immobilized. Use unarmed attack modifier, Acrobatics, or Athletics.</div>
-			</div>
-			<div class="item"> 
-				<div class="item-icon"><img src="icons/reaction.png"><br><br></div>
-				<div class="item-header">Grab an Edge <d>(manipulate)</d></div>
-				<div class="item-text">Try to catch something to stop a fall.</div>
-			</div>
-			<div class="item"> 
-				<div class="item-icon"><img src="icons/one.png"><br><br></div>
-				<div class="item-header">Leap <d>(move)</d></div>
-				<div class="item-text">Jump horizontally 10 feet (15 feet if your Speed is 30 feet or more), or vertically 3 feet and horizontally 5 feet.</div>
-			</div>
-			<div class="item"> 
-				<div class="item-icon"><img src="icons/one.png"><br><br></div>
-				<div class="item-header">Point Out <d>(manipulate)</d></div>
-				<div class="item-text">Reveal unobserved creature.</div>
-			</div>
-			<div class="item"> 
-				<div class="item-icon"><img src="icons/one.png"><br>Conc.<br>Secret</div>
-				<div class="item-header">Seek</div>
-				<div class="item-text">Scan an area for signs of creatures/objects using Perception.</div>
-			</div>
-			<div class="item"> 
-				<div class="item-icon"><img src="icons/one.png"><br>Conc.<br>Secret</div>
-				<div class="item-header">Sense Motive</div>
-				<div class="item-text">See if a creature is lying.</div>
-			</div>
-			<div class="item"> 
-				<div class="item-icon"><img src="icons/one.png"><br><br></div>
-				<div class="item-header">Stand <d>(move)</d></div>
-				<div class="item-text">You stand up from prone.</div>
-			</div>
+		<div class="item-grid" id="StandardSituational"> 
+			<!-- Populated by the loadJSON function in datafill.js -->
 		</div>
 	</div>
 	<!-- End of Section 1 -->

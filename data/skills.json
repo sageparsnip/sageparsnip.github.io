@@ -1,0 +1,282 @@
+{
+	"standardCommon": [
+		{
+			"name": "Stride",
+			"subname": "(move)",
+			"action": "one",
+			"subaction": "",
+			"text": "Move up to your speed.",
+			"type": "Standard",
+			"subtype": "Common",
+			"page": "471"
+		},
+		{
+			"name" : "Strike",
+			"subname" : "(attack)",
+			"action" : "one",
+			"subaction": "",
+			"text" : "Attack with a weapon or unarmed attack.",
+			"type" : "Standard",
+			"subtype" : "Common",
+			"page" : "471"
+		},
+		{
+			"name" : "Cast a Spell",
+			"subname" : "",
+			"action" : "two",
+			"subaction" : "(typically)",
+			"text" : "Cast a spell you have prepared or in your repertoire.",
+			"type" : "Standard",
+			"subtype" : "Common",
+			"page" : "302"
+		},
+		{
+			"name" : "Step",
+			"subname" : "(move)",
+			"action" : "one",
+			"subaction": "",
+			"text" : "Move 5 feet without triggering reactions.",
+			"type" : "Standard",
+			"subtype" : "Common",
+			"page" : "471"
+		},
+		{
+			"name" : "Raise a Shield",
+			"subname" : "",
+			"action" : "one",
+			"subaction": "",
+			"text" : "Put up a shield to get its bonus to AC.",
+			"type" : "Standard",
+			"subtype" : "Common",
+			"page" : "472"
+		}
+	],
+	"standardUncommon": [
+		{
+			"name": "Activate An Item",
+			"subname": "",
+			"action": "one",
+			"subaction": "or more",
+			"text": "Call forth the effect of an item by properly activating it.",
+			"type": "Standard",
+			"subtype": "Uncommon",
+			"page": "532"
+		},
+		{
+			"name": "Aid",
+			"subname": "",
+			"action": "onereaction",
+			"subaction": "",
+			"text": "DC 20 check to give a +1 circumstance bonus to assisted skill check or attack roll (crit success: +2, +3 if master, +4 if legendary).",
+			"type": "Standard",
+			"subtype": "Uncommon",
+			"page": "470"
+		},
+		{
+			"name": "Delay",
+			"subname": "",
+			"action": "free",
+			"subaction": "",
+			"text": "Select this when your turn begins; take your turn later.",
+			"type": "Standard",
+			"subtype": "Uncommon",
+			"page": "470"
+		},
+		{
+			"name": "Dismiss",
+			"subname": "",
+			"action": "one",
+			"subaction": "Conc.",
+			"text": "End one spell effect or magic item effect.",
+			"type": "Standard",
+			"subtype": "Uncommon",
+			"page": "305"
+		},
+		{
+			"name": "Interact",
+			"subname": "(manipulate)",
+			"action": "one",
+			"subaction": "",
+			"text": "Grab an object, open a door, draw an item, or do a similar action.",
+			"type": "Standard",
+			"subtype": "Uncommon",
+			"page": "470"
+		},
+		{
+			"name": "Mount",
+			"subname": "(move)",
+			"action": "one",
+			"subaction": "",
+			"text": "Get on an allied animal bigger than you to ride it.",
+			"type": "Standard",
+			"subtype": "Uncommon",
+			"page": "472"
+		},
+		{
+			"name": "Ready",
+			"subname": "",
+			"action": "two",
+			"subaction": "Conc.",
+			"text": "Prepare to take a single/free action as a reaction with a given trigger.",
+			"type": "Standard",
+			"subtype": "Uncommon",
+			"page": "470"
+		},
+		{
+			"name": "Release",
+			"subname": "(manipulate)",
+			"action": "free",
+			"subaction": "",
+			"text": "Release something you’re holding without triggering reactions.",
+			"type": "Standard",
+			"subtype": "Uncommon",
+			"page": "470"
+		},
+		{
+			"name": "Sustain a Spell/Activation",
+			"subname": "",
+			"action": "one",
+			"subaction": "Conc.",
+			"text": "Extend a spell or item effect until the end of your next turn.",
+			"type": "Standard",
+			"subtype": "Uncommon",
+			"page": "304/534"
+		},
+		{
+			"name": "Take Cover",
+			"subname": "",
+			"action": "one",
+			"subaction": "",
+			"text": "Gain cover (or get greater cover if you have cover).",
+			"type": "Standard",
+			"subtype": "Uncommon",
+			"page": "471"
+		}
+	],
+	"StandardSituational":[
+		{
+			"name": "Avert Gaze",
+			"subname": "",
+			"action": "one",
+			"subaction": "",
+			"text": "Get a +2 circumstance bonus against visual abilities.",
+			"type": "Standard",
+			"subtype": "Situational",
+			"page": "472"
+		},
+		{
+			"name": "Crawl",
+			"subname": "(move)",
+			"action": "one",
+			"subaction": "",
+			"text": "Move 5 feet while prone.",
+			"type": "Standard",
+			"subtype": "Situational",
+			"page": "470"
+		},
+		{
+			"name": "Drop Prone",
+			"subname": "(move)",
+			"action": "one",
+			"subaction": "",
+			"text": "Fall prone.",
+			"type": "Standard",
+			"subtype": "Situational",
+			"page": "470"
+		},
+		{
+			"name": "Escape",
+			"subname": "(attack)",
+			"action": "one",
+			"subaction": "",
+			"text": "Attempt to get free when grabbed, restrained, or immobilized. Use unarmed attack modifier, Acrobatics, or Athletics.",
+			"type": "Standard",
+			"subtype": "Situational",
+			"page": "470"
+		},
+		{
+			"name": "Grab an Edge",
+			"subname": "(manipulate)",
+			"action": "reaction",
+			"subaction": "",
+			"text": "Try to catch something to stop a fall.",
+			"type": "Standard",
+			"subtype": "Situational",
+			"page": "472"
+		},
+		{
+			"name": "Leap",
+			"subname": "(move)",
+			"action": "one",
+			"subaction": "",
+			"text": "Jump horizontally 10 feet (15 feet if your Speed is 30 feet or more), or vertically 3 feet and horizontally 5 feet.",
+			"type": "Standard",
+			"subtype": "Situational",
+			"page": "470"
+		},
+		{
+			"name": "Point Out",
+			"subname": "(manipulate)",
+			"action": "one",
+			"subaction": "",
+			"text": "Reveal unobserved creature.",
+			"type": "Standard",
+			"subtype": "Situational",
+			"page": "472"
+		},
+		{
+			"name": "Seek",
+			"subname": "",
+			"action": "one",
+			"subaction": "Conc. Secret",
+			"text": "Scan an area for signs of creatures/objects using Perception.",
+			"type": "Standard",
+			"subtype": "Situational",
+			"page": "471"
+		},
+		{
+			"name": "Sense Motive",
+			"subname": "",
+			"action": "one",
+			"subaction": "Conc. Secret",
+			"text": "See if a creature is lying.",
+			"type": "Standard",
+			"subtype": "Situational",
+			"page": "471"
+		},
+		{
+			"name": "Stand",
+			"subname": "(move)",
+			"action": "one",
+			"subaction": "",
+			"text": "You stand up from prone.",
+			"type": "Standard",
+			"subtype": "Situational",
+			"page": "471"
+		}
+	],
+	"Skill":[
+		{
+			"name": "Balance",
+			"subname": "(move)",
+			"action": "one",
+			"subaction": "",
+			"skill": "Acrobatics",
+			"text": "Move across narrow surface or uneven ground.",
+			"type": "Skill",
+			"subtype": "Action",
+			"page": "240"
+		},
+		{
+			"name": "Tumble Through",
+			"subname": "(move)",
+			"action": "one",
+			"subaction": "",
+			"skill": "Acrobatics",
+			"text": "Move through the space of one enemy.",
+			"type": "Skill",
+			"subtype": "Action",
+			"page": "240"
+		}
+	]
+}

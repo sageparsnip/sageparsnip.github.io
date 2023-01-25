@@ -27,9 +27,22 @@ body {
 	top: 50%;
 	left: 50%;
 	font-size: 15pt;
-	z-index: 2;
+	z-index: 3;
 	vertical-align: center;
 	text-align: center;
+}
+
+#overlayback {
+	display: none;
+	background-color: black;
+	opacity: 0.40;
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	height: 300%;
+	width: 300%;
+	z-index: 2;
+	vertical-align: center;
 }
 
 /**********************************
@@ -128,6 +141,10 @@ body {
 	overflow:hidden;
 }
 
+.item-hidden {
+	font-size: 0pt;
+}
+
 /**********************************
 *  Skill Items Grid               *
 **********************************/
@@ -159,7 +176,7 @@ body {
 
 
 img {
-	height: 35px;
+	width: 35px;
 	padding-right: 10px;
 }
 
