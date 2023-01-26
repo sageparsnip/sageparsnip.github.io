@@ -86,7 +86,6 @@ function loadJSON(){
 			});
 		};
 	});
-	openOverlays();
 	hideSections();
 }
 
