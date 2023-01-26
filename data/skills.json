@@ -652,5 +652,117 @@
 			"subtype": "Action",
 			"page": "253"
 		}
+	],
+	"ExplorationGeneral" : [
+		{
+			"name": "Avoid Notice",
+			"subname": "",
+			"action": "free",
+			"subaction": "Secret",
+			"skill": "Stealth",
+			"text": "Travel stealthily at half speed and use Stealth for initiative.",
+			"type": "Exploration",
+			"subtype": "General",
+			"page": "479"
+		},
+		{
+			"name": "Defend",
+			"subname": "",
+			"action": "free",
+			"subaction": "",
+			"skill": "",
+			"text": "Move at half speed with your shield raised.",
+			"type": "Exploration",
+			"subtype": "General",
+			"page": "479"
+		},
+		{
+			"name": "Detect Magic",
+			"subname": "",
+			"action": "free",
+			"subaction": "Conc.",
+			"skill": "",
+			"text": "Cast <i>detect magic</i> regularly while moving at half speed.",
+			"type": "Exploration",
+			"subtype": "General",
+			"page": "479"
+		},
+		{
+			"name": "Follow the Expert",
+			"subname": "",
+			"action": "free",
+			"subaction": "Conc.",
+			"skill": "",
+			"text": "Match the tactic of an expert to gain a bonus to a skill check.",
+			"type": "Exploration",
+			"subtype": "General",
+			"page": "479"
+		},
+		{
+			"name": "Hustle",
+			"subname": "(move)",
+			"action": "free",
+			"subaction": "",
+			"skill": "",
+			"text": "Move at double speed for Con (min. 1) × 10 minutes.",
+			"type": "Exploration",
+			"subtype": "General",
+			"page": "480"
+		},
+		{
+			"name": "Investigate",
+			"subname": "",
+			"action": "free",
+			"subaction": "Conc. Secret",
+			"skill": "",
+			"text": "Seek out information about your surroundings at half speed.",
+			"type": "Exploration",
+			"subtype": "General",
+			"page": "480"
+		},
+		{
+			"name": "Refocus",
+			"subname": "",
+			"action": "free",
+			"subaction": "Conc.",
+			"skill": "",
+			"text": "Perform deeds to restore 1 focus point to your focus pool.",
+			"type": "Exploration",
+			"subtype": "General",
+			"page": "300"
+		},
+		{
+			"name": "Repeat a Spell",
+			"subname": "",
+			"action": "free",
+			"subaction": "Conc.",
+			"skill": "",
+			"text": "Cast the same spell (usually a cantrip) repeatedly at half speed.",
+			"type": "Exploration",
+			"subtype": "General",
+			"page": "480"
+		},
+		{
+			"name": "Scout",
+			"subname": "",
+			"action": "free",
+			"subaction": "Conc.",
+			"skill": "",
+			"text": "Scout ahead and behind to watch for danger at half speed.",
+			"type": "Exploration",
+			"subtype": "General",
+			"page": "480"
+		},
+		{
+			"name": "Search",
+			"subname": "",
+			"action": "free",
+			"subaction": "Conc. Secret",
+			"skill": "",
+			"text": "Seek meticulously for hidden features at half speed (or slower).",
+			"type": "Exploration",
+			"subtype": "General",
+			"page": "480"
+		}
 	]
 }
