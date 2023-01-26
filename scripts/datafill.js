@@ -25,6 +25,8 @@ function loadJSON(){
 				"</div>"
 			});
 		};
+
+		//"standardUncommon" div creation.
 		console.log("There are " + Object.keys(data.standardUncommon).length + " standard, uncommon skills loaded");
 		for(var i = 0; i< Object.keys(data.standardUncommon).length; i++){
 			$("#standardUncommon").html(function(k, oldHTML){
@@ -38,6 +40,8 @@ function loadJSON(){
 				"</div>"
 			});
 		};
+
+		//"standardSituational" div creation.
 		console.log("There are " + Object.keys(data.StandardSituational).length + " standard, situational skills loaded");
 		for(var i = 0; i< Object.keys(data.StandardSituational).length; i++){
 			$("#StandardSituational").html(function(k, oldHTML){
@@ -51,6 +55,8 @@ function loadJSON(){
 				"</div>"
 			});
 		};
+
+		//"SkillActions" div creation.
 		console.log("There are " + Object.keys(data.SkillActions).length + " skill actions loaded");
 		for(var i = 0; i< Object.keys(data.SkillActions).length; i++){
 			$("#SkillActions").html(function(k, oldHTML){
@@ -61,6 +67,21 @@ function loadJSON(){
 					"<div class='item-header'>" + data.SkillActions[i].name + " <d>" + data.SkillActions[i].subname + "</d></div>" +
 					"<div class='item-text'>" + data.SkillActions[i].text + "</div>" +
 					"<div class='item-hidden'>" + data.SkillActions[i].type + data.SkillActions[i].subtype + "</div>" + 
+				"</div>"
+			});
+		};
+
+		//"ExplorationGeneral" div creation.
+		console.log("There are " + Object.keys(data.ExplorationGeneral).length + " general Exploration skills loaded");
+		for(var i = 0; i< Object.keys(data.ExplorationGeneral).length; i++){
+			$("#ExplorationGeneral").html(function(k, oldHTML){
+				//Modify the "ExplorationGeneral" div to reflect the existing data, plus whatever is below.
+				return oldHTML + 
+				"<div class='item'>" +
+					"<div class='item-icon'><img src='icons/" + data.ExplorationGeneral[i].action + ".png'><br>" + data.ExplorationGeneral[i].subaction + "<br></div>" +
+					"<div class='item-header'>" + data.ExplorationGeneral[i].name + " <d>" + data.ExplorationGeneral[i].subname + "</d></div>" +
+					"<div class='item-text'>" + data.ExplorationGeneral[i].text + "</div>" +
+					"<div class='item-hidden'>" + data.ExplorationGeneral[i].type + data.ExplorationGeneral[i].subtype + "</div>" + 
 				"</div>"
 			});
 		};
