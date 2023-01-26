@@ -1,0 +1,533 @@
+{
+	"Action":[
+		{
+			"name": "Aid",
+			"page": "470",
+			"type": "Basic Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=75",
+			"trigger": "An ally is about to use an action that requires a skill check or attack roll.",
+			"requirements": "The ally is willing to accept your aid, and you have prepared to help (see below).",
+			"text": [
+				"You try to help your ally with a task. To use this reaction, you must first prepare to help, usually by using an action during your turn. You must explain to the GM exactly how you’re trying to help, and they determine whether you can Aid your ally.",
+				"When you use your Aid reaction, attempt a skill check or attack roll of a type decided by the GM. The typical DC is 20, but the GM might adjust this DC for particularly hard or easy tasks. The GM can add any relevant traits to your preparatory action or to your Aid reaction depending on the situation, or even allow you to Aid checks other than skill checks and attack rolls."
+			],
+			"critSuccess": "You grant your ally a +2 circumstance bonus to the triggering check. If you’re a master with the check you attempted, the bonus is +3, and if you’re legendary, it’s +4.",
+			"success": "You grant your ally a +1 circumstance bonus to the triggering check.",
+			"critFailure": "Your ally takes a –1 circumstance penalty to the triggering check."
+		},
+		{
+			"name": "Crawl (move)",
+			"page": "470",
+			"type": "Basic Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=76",
+			"trigger": "",
+			"requirements": "You are prone and your Speed is at least 10 feet.",
+			"text": [
+				"You move 5 feet by crawling and continue to stay prone."
+			],
+			"critSuccess": "",
+			"success": "",
+			"critFailure": ""
+		},
+		{
+			"name": "Delay",
+			"page": "470",
+			"type": "Basic Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=77",
+			"trigger": "Your turn begins.",
+			"requirements": "",
+			"text": [
+				"You wait for the right moment to act. The rest of your turn doesn’t happen yet. Instead, you’re removed from the initiative order. You can return to the initiative order as a free action triggered by the end of any other creature’s turn. This permanently changes your initiative to the new position. You can’t use reactions until you return to the initiative order. If you Delay an entire round without returning to the initiative order, the actions from the Delayed turn are lost, your initiative doesn’t change, and your next turn occurs at your original position in the initiative order.",
+				"When you Delay, any persistent damage or other negative effects that normally occur at the start or end of your turn occur immediately when you use the Delay action. Any beneficial effects that would end at any point during your turn also end. The GM might determine that other effects end when you Delay as well. Essentially, you can’t Delay to avoid negative consequences that would happen on your turn or to extend beneficial effects that would end on your turn."
+			],
+			"critSuccess": "",
+			"success": "",
+			"critFailure": ""
+		},
+		{
+			"name": "Drop Prone (move)",
+			"page": "470",
+			"type": "Basic Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=78",
+			"trigger": "",
+			"requirements": "",
+			"text": [
+				""
+			],
+			"critSuccess": "",
+			"success": "",
+			"critFailure": ""
+		},
+		{
+			"name": "Escape (attack)",
+			"page": "470",
+			"type": "Basic Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=79",
+			"trigger": "",
+			"requirements": "",
+			"text": [
+				""
+			],
+			"critSuccess": "",
+			"success": "",
+			"critFailure": ""
+		},
+		{
+			"name": "Interact (manipulate)",
+			"page": "470",
+			"type": "Basic Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=80",
+			"trigger": "",
+			"requirements": "",
+			"text": [
+				""
+			],
+			"critSuccess": "",
+			"success": "",
+			"critFailure": ""
+		},
+		{
+			"name": "Invest an Item",
+			"page": "531",
+			"type": "Basic Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=289",
+			"trigger": "",
+			"requirements": "",
+			"text": [
+				""
+			],
+			"critSuccess": "",
+			"success": "",
+			"critFailure": ""
+		},
+		{
+			"name": "Leap (move)",
+			"page": "470",
+			"type": "Basic Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=81",
+			"trigger": "",
+			"requirements": "",
+			"text": [
+				""
+			],
+			"critSuccess": "",
+			"success": "",
+			"critFailure": ""
+		},
+		{
+			"name": "Ready",
+			"page": "470",
+			"type": "Basic Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=82",
+			"trigger": "",
+			"requirements": "",
+			"text": [
+				""
+			],
+			"critSuccess": "",
+			"success": "",
+			"critFailure": ""
+		},
+		{
+			"name": "Release (manipulate)",
+			"page": "470",
+			"type": "Basic Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=83",
+			"trigger": "",
+			"requirements": "",
+			"text": [
+				""
+			],
+			"critSuccess": "",
+			"success": "",
+			"critFailure": ""
+		},
+		{
+			"name": "Seek",
+			"page": "471",
+			"type": "Basic Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=84",
+			"trigger": "",
+			"requirements": "",
+			"text": [
+				""
+			],
+			"critSuccess": "",
+			"success": "",
+			"critFailure": ""
+		},
+		{
+			"name": "Sense Motive",
+			"page": "471",
+			"type": "Basic Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=85",
+			"trigger": "",
+			"requirements": "",
+			"text": [
+				""
+			],
+			"critSuccess": "",
+			"success": "",
+			"critFailure": ""
+		},
+		{
+			"name": "Stand",
+			"page": "471",
+			"type": "Basic Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=86",
+			"trigger": "",
+			"requirements": "",
+			"text": [
+				""
+			],
+			"critSuccess": "",
+			"success": "",
+			"critFailure": ""
+		},
+		{
+			"name":"Step (move)",
+			"page" : "471",
+			"type": "Basic Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=87",
+			"trigger": "",
+			"requirements": "",
+			"text": [
+				""
+			],
+			"critSuccess": "",
+			"success": "",
+			"critFailure": ""
+		},
+		{
+			"name":"Stride (move)",
+			"page": "471",
+			"type": "Basic Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=88",
+			"trigger": "",
+			"requirements": "",
+			"text": [
+				""
+			],
+			"critSuccess": "",
+			"success": "",
+			"critFailure": ""
+		},
+		{
+			"name":"Strike (attack)",
+			"page" : "471",
+			"type": "Basic Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=89",
+			"trigger": "",
+			"requirements": "",
+			"text": [
+				""
+			],
+			"critSuccess": "",
+			"success": "",
+			"critFailure": ""
+		},
+		{
+			"name": "Take Cover",
+			"page": "471",
+			"type": "Basic Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=90",
+			"trigger": "",
+			"requirements": "",
+			"text": [
+				""
+			],
+			"critSuccess": "",
+			"success": "",
+			"critFailure": ""
+		},
+		{
+			"name": "Dismiss",
+			"page": "305",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=79",
+			"trigger": "",
+			"requirements": "",
+			"text": [
+				""
+			],
+			"critSuccess": "",
+			"success": "",
+			"critFailure": ""
+		},
+		{
+			"name":"Cast a Spell",
+			"page" : "302"
+		},
+		{
+			"name":"Raise a Shield",
+			"page" : "472"
+		},
+		{
+			"name": "Activate An Item",
+			"page": "532"
+		},
+		{
+			"name": "Mount (move)",
+			"page": "472"
+		},
+		{
+			"name": "Sustain a Spell/Activation",
+			"page": "304/534"
+		},
+		{
+			"name": "Avert Gaze",
+			"page": "472"
+		},
+		{
+			"name": "Grab an Edge (manipulate)",
+			"page": "472"
+		},
+		{
+			"name": "Point Out (manipulate)",
+			"page": "472"
+		},
+		{
+			"name": "Balance (move)",
+			"page": "240"
+		},
+		{
+			"name": "Tumble Through (move)",
+			"page": "240"
+		},
+		{
+			"name": "Maneuver in Flight (move)",
+			"page": "240"
+		},
+		{
+			"name": "Recall Knowledge",
+			"page": "239"
+		},
+		{
+			"name": "Climb (move)",
+			"page": "241"
+		},
+		{
+			"name": "Force Open (attack)",
+			"page": "242"
+		},
+		{
+			"name": "Grapple (attack)",
+			"page": "242"
+		},
+		{
+			"name": "High Jump (move)",
+			"page": "242"
+		},
+		{
+			"name": "Long Jump (move)",
+			"page": "242"
+		},
+		{
+			"name": "Shove (attack)",
+			"page": "243"
+		},
+		{
+			"name": "Swim (move)",
+			"page": "243"
+		},
+		{
+			"name": "Trip (attack)",
+			"page": "243"
+		},
+		{
+			"name": "Disarm (attack)",
+			"page": "243"
+		},
+		{
+			"name": "Create a Diversion",
+			"page": "245"
+		},
+		{
+			"name": "Lie",
+			"page": "246"
+		},
+		{
+			"name": "Feint",
+			"page": "246"
+		},
+		{
+			"name": "Request",
+			"page": "247"
+		},
+		{
+			"name": "Demoralize",
+			"page": "247"
+		},
+		{
+			"name": "Administer First Aid (manipulate)",
+			"page": "248"
+		},
+		{
+			"name": "Treat Poison",
+			"page": "248"
+		},
+		{
+			"name": "Command an Animal",
+			"page": "249"
+		},
+		{
+			"name": "Perform",
+			"page": "250"
+		},
+		{
+			"name": "Conceal an Object (manipulate)",
+			"page": "251"
+		},
+		{
+			"name": "Hide",
+			"page": "251"
+		},
+		{
+			"name": "Sneak (move)",
+			"page": "252"
+		},
+		{
+			"name": "Palm an Object (manipulate)",
+			"page": "253"
+		},
+		{
+			"name": "Steal (manipulate)",
+			"page": "253"
+		},
+		{
+			"name": "Disable Device (manipulate)",
+			"page": "253"
+		},
+		{
+			"name": "Pick a Lock (manipulate)",
+			"page": "253"
+		},
+		{
+			"name": "Avoid Notice",
+			"page": "479"
+		},
+		{
+			"name": "Defend",
+			"page": "479"
+		},
+		{
+			"name": "Detect Magic",
+			"page": "479"
+		},
+		{
+			"name": "Follow the Expert",
+			"page": "479"
+		},
+		{
+			"name": "Hustle (move)",
+			"page": "480"
+		},
+		{
+			"name": "Investigate",
+			"page": "480"
+		},
+		{
+			"name": "Refocus",
+			"page": "300"
+		},
+		{
+			"name": "Repeat a Spell",
+			"page": "480"
+		},
+		{
+			"name": "Scout",
+			"page": "480"
+		},
+		{
+			"name": "Search",
+			"page": "480"
+		},
+		{
+			"name": "Borrow an Arcane Spell",
+			"page": "241"
+		},
+		{
+			"name": "Coerce",
+			"page": "247"
+		},
+		{
+			"name": "Cover Tracks (move)",
+			"page": "252"
+		},
+		{
+			"name": "Decipher Writing",
+			"page": "234"
+		},
+		{
+			"name": "Gather Information",
+			"page": "246"
+		},
+		{
+			"name": "Identify Alchemy",
+			"page": "245"
+		},
+		{
+			"name": "Identify Magic",
+			"page": "238"
+		},
+		{
+			"name": "Impersonate (manipulate)",
+			"page": "245"
+		},
+		{
+			"name": "Learn a Spell",
+			"page": "238"
+		},
+		{
+			"name": "Make an Impression",
+			"page": "246"
+		},
+		{
+			"name": "Repair (manipulate)",
+			"page": "243"
+		},
+		{
+			"name": "Sense Direction",
+			"page": "252"
+		},
+		{
+			"name": "Squeeze (move)",
+			"page": "241"
+		},
+		{
+			"name": "Track (move)",
+			"page": "252"
+		},
+		{
+			"name": "Treat Wounds (manipulate)",
+			"page": "249"
+		},
+		{
+			"name": "Craft (manipulate)",
+			"page": "244"
+		},
+		{
+			"name": "Create Forgery",
+			"page": "251"
+		},
+		{
+			"name": "Earn Income",
+			"page": "236"
+		},
+		{
+			"name": "Long-Term Rest",
+			"page": "481"
+		},
+		{
+			"name": "Retraining",
+			"page": "481"
+		},
+		{
+			"name": "Subsist",
+			"page": "240"
+		},
+		{
+			"name": "Treat Disease",
+			"page": "248"
+		}
+	]
+}

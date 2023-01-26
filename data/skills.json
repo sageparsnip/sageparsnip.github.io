@@ -15,7 +15,7 @@
 			"subname" : "(attack)",
 			"action" : "one",
 			"subaction": "",
-			"text" : "Attack with a weapon or unarmed attack.",
+			"text" : "Attack one creature with a weapon or unarmed attack.",
 			"type" : "Standard",
 			"subtype" : "Common",
 			"page" : "471"
@@ -35,39 +35,39 @@
 			"subname" : "(move)",
 			"action" : "one",
 			"subaction": "",
-			"text" : "Move 5 feet without triggering reactions.",
+			"text" : "Carefully move 5 feet without triggering reactions.",
 			"type" : "Standard",
 			"subtype" : "Common",
 			"page" : "471"
 		},
 		{
-			"name" : "Raise a Shield",
-			"subname" : "",
-			"action" : "one",
+			"name": "Interact",
+			"subname": "(manipulate)",
+			"action": "one",
 			"subaction": "",
-			"text" : "Put up a shield to get its bonus to AC.",
-			"type" : "Standard",
-			"subtype" : "Common",
-			"page" : "472"
+			"text": "Use your hand(s) to manipulate an object or the terrain.",
+			"type": "Standard",
+			"subtype": "Uncommon",
+			"page": "470"
 		}
 	],
 	"standardUncommon": [
-		{
-			"name": "Activate An Item",
-			"subname": "",
-			"action": "one",
-			"subaction": "or more",
-			"text": "Call forth the effect of an item by properly activating it.",
-			"type": "Standard",
-			"subtype": "Uncommon",
-			"page": "532"
-		},
 		{
 			"name": "Aid",
 			"subname": "",
 			"action": "onereaction",
 			"subaction": "",
 			"text": "DC 20 check to give a +1 circumstance bonus to assisted skill check or attack roll (crit success: +2, +3 if master, +4 if legendary).",
+			"type": "Standard",
+			"subtype": "Uncommon",
+			"page": "470"
+		},
+		{
+			"name": "Crawl",
+			"subname": "(move)",
+			"action": "one",
+			"subaction": "",
+			"text": "Move 5 feet while prone.",
 			"type": "Standard",
 			"subtype": "Uncommon",
 			"page": "470"
@@ -83,34 +83,44 @@
 			"page": "470"
 		},
 		{
-			"name": "Dismiss",
-			"subname": "",
-			"action": "one",
-			"subaction": "Conc.",
-			"text": "End one spell effect or magic item effect.",
-			"type": "Standard",
-			"subtype": "Uncommon",
-			"page": "305"
-		},
-		{
-			"name": "Interact",
-			"subname": "(manipulate)",
+			"name": "Drop Prone",
+			"subname": "(move)",
 			"action": "one",
 			"subaction": "",
-			"text": "Grab an object, open a door, draw an item, or do a similar action.",
+			"text": "Fall prone.",
 			"type": "Standard",
 			"subtype": "Uncommon",
 			"page": "470"
 		},
 		{
-			"name": "Mount",
+			"name": "Escape",
+			"subname": "(attack)",
+			"action": "one",
+			"subaction": "",
+			"text": "Attempt to get free when grabbed, restrained, or immobilized. Use unarmed attack modifier, Acrobatics, or Athletics.",
+			"type": "Standard",
+			"subtype": "Uncommon",
+			"page": "470"
+		},
+		{
+			"name": "Invest an Item",
+			"subname": "",
+			"action": "one",
+			"subaction": "or more",
+			"text": "Use the required trait to invest energy in an item.",
+			"type": "Standard",
+			"subtype": "Uncommon",
+			"page": "531"
+		},
+		{
+			"name": "Leap",
 			"subname": "(move)",
 			"action": "one",
 			"subaction": "",
-			"text": "Get on an allied animal bigger than you to ride it.",
+			"text": "Jump horizontally 10 feet (15 feet if your Speed is 30 feet or more), or vertically 3 feet and horizontally 5 feet.",
 			"type": "Standard",
 			"subtype": "Uncommon",
-			"page": "472"
+			"page": "470"
 		},
 		{
 			"name": "Ready",
@@ -133,14 +143,34 @@
 			"page": "470"
 		},
 		{
-			"name": "Sustain a Spell/Activation",
+			"name": "Seek",
 			"subname": "",
 			"action": "one",
-			"subaction": "Conc.",
-			"text": "Extend a spell or item effect until the end of your next turn.",
+			"subaction": "Conc. Secret",
+			"text": "Scan an area for signs of creatures/objects using Perception.",
 			"type": "Standard",
 			"subtype": "Uncommon",
-			"page": "304/534"
+			"page": "471"
+		},
+		{
+			"name": "Sense Motive",
+			"subname": "",
+			"action": "one",
+			"subaction": "Conc. Secret",
+			"text": "See if a creature is lying.",
+			"type": "Standard",
+			"subtype": "Uncommon",
+			"page": "471"
+		},
+		{
+			"name": "Stand",
+			"subname": "(move)",
+			"action": "one",
+			"subaction": "",
+			"text": "You stand up from prone.",
+			"type": "Standard",
+			"subtype": "Uncommon",
+			"page": "471"
 		},
 		{
 			"name": "Take Cover",
@@ -155,6 +185,26 @@
 	],
 	"StandardSituational":[
 		{
+			"name": "Activate An Item",
+			"subname": "",
+			"action": "one",
+			"subaction": "or more",
+			"text": "Call forth the effect of an item by properly activating it.",
+			"type": "Standard",
+			"subtype": "Situational",
+			"page": "532"
+		},
+		{
+			"name": "Arrest A Fell",
+			"subname": "",
+			"action": "reaction",
+			"subaction": "Fly Speed",
+			"text": "Attempt an Acrobatics check to slow your fall, mitigating fall damage.",
+			"type": "Standard",
+			"subtype": "Situational",
+			"page": "472"
+		},
+		{
 			"name": "Avert Gaze",
 			"subname": "",
 			"action": "one",
@@ -165,34 +215,34 @@
 			"page": "472"
 		},
 		{
-			"name": "Crawl",
+			"name": "Burrow",
 			"subname": "(move)",
 			"action": "one",
-			"subaction": "",
-			"text": "Move 5 feet while prone.",
+			"subaction": "Burrow Speed",
+			"text": "Dig through loose earth up to your burrow speed.",
 			"type": "Standard",
 			"subtype": "Situational",
-			"page": "470"
+			"page": "472"
 		},
 		{
-			"name": "Drop Prone",
+			"name": "Dismiss",
+			"subname": "",
+			"action": "one",
+			"subaction": "Conc.",
+			"text": "End one spell effect or magic item effect.",
+			"type": "Standard",
+			"subtype": "Situational",
+			"page": "305"
+		},
+		{
+			"name": "Fly",
 			"subname": "(move)",
 			"action": "one",
-			"subaction": "",
-			"text": "Fall prone.",
+			"subaction": "Fly Speed",
+			"text": "Move through the air up to your Fly speed.",
 			"type": "Standard",
 			"subtype": "Situational",
-			"page": "470"
-		},
-		{
-			"name": "Escape",
-			"subname": "(attack)",
-			"action": "one",
-			"subaction": "",
-			"text": "Attempt to get free when grabbed, restrained, or immobilized. Use unarmed attack modifier, Acrobatics, or Athletics.",
-			"type": "Standard",
-			"subtype": "Situational",
-			"page": "470"
+			"page": "472"
 		},
 		{
 			"name": "Grab an Edge",
@@ -205,14 +255,14 @@
 			"page": "472"
 		},
 		{
-			"name": "Leap",
+			"name": "Mount",
 			"subname": "(move)",
 			"action": "one",
 			"subaction": "",
-			"text": "Jump horizontally 10 feet (15 feet if your Speed is 30 feet or more), or vertically 3 feet and horizontally 5 feet.",
+			"text": "Get on an allied animal bigger than you to ride it.",
 			"type": "Standard",
 			"subtype": "Situational",
-			"page": "470"
+			"page": "472"
 		},
 		{
 			"name": "Point Out",
@@ -225,34 +275,34 @@
 			"page": "472"
 		},
 		{
-			"name": "Seek",
-			"subname": "",
-			"action": "one",
-			"subaction": "Conc. Secret",
-			"text": "Scan an area for signs of creatures/objects using Perception.",
-			"type": "Standard",
-			"subtype": "Situational",
-			"page": "471"
-		},
-		{
-			"name": "Sense Motive",
-			"subname": "",
-			"action": "one",
-			"subaction": "Conc. Secret",
-			"text": "See if a creature is lying.",
-			"type": "Standard",
-			"subtype": "Situational",
-			"page": "471"
-		},
-		{
-			"name": "Stand",
-			"subname": "(move)",
-			"action": "one",
+			"name" : "Raise a Shield",
+			"subname" : "",
+			"action" : "one",
 			"subaction": "",
-			"text": "You stand up from prone.",
+			"text" : "Put up a shield to get its bonus to AC.",
+			"type" : "Standard",
+			"subtype" : "Situational",
+			"page" : "472"
+		},
+		{
+			"name": "Sustain a Spell",
+			"subname": "",
+			"action": "one",
+			"subaction": "Conc.",
+			"text": "Extend a spell effect until the end of your next turn.",
 			"type": "Standard",
 			"subtype": "Situational",
-			"page": "471"
+			"page": "304"
+		},
+		{
+			"name": "Sustain an Activation",
+			"subname": "",
+			"action": "one",
+			"subaction": "Conc.",
+			"text": "Extend an item effect until the end of your next turn.",
+			"type": "Standard",
+			"subtype": "Situational",
+			"page": "534"
 		}
 	],
 	"SkillActions":[

@@ -86,7 +86,8 @@ function loadJSON(){
 			});
 		};
 
-		//"ExplorationGeneral" div creation.
+		//"ExplorationSkill" div creation.
+		console.log("There are " + Object.keys(data.ExplorationSkill).length + " general Exploration skills loaded");
 		for(var i = 0; i< Object.keys(data.ExplorationSkill).length; i++){
 			$("#ExplorationSkill").html(function(k, oldHTML){
 				//Modify the "ExplorationSkill" div to reflect the existing data, plus whatever is below.
@@ -96,6 +97,21 @@ function loadJSON(){
 					"<div class='item-header'>" + data.ExplorationSkill[i].name + " <d>" + data.ExplorationSkill[i].subname + "</d></div>" +
 					"<div class='item-text'>" + data.ExplorationSkill[i].text + "</div>" +
 					"<div class='item-hidden'>" + data.ExplorationSkill[i].type + data.ExplorationSkill[i].subtype + "</div>" + 
+				"</div>"
+			});
+		};
+
+		//"DowntimeActivities" div creation.
+		console.log("There are " + Object.keys(data.DowntimeActivities).length + " general Exploration skills loaded");
+		for(var i = 0; i< Object.keys(data.DowntimeActivities).length; i++){
+			$("#DowntimeActivities").html(function(k, oldHTML){
+				//Modify the "DowntimeActivities" div to reflect the existing data, plus whatever is below.
+				return oldHTML + 
+				"<div class='item'>" +
+					"<div class='skill-item-icon'><img src='icons/" + data.DowntimeActivities[i].action + ".png'><br><skill>" + data.DowntimeActivities[i].skill + "</skill><br>" + data.SkillActions[i].subaction + "<br></div>" +
+					"<div class='item-header'>" + data.DowntimeActivities[i].name + " <d>" + data.DowntimeActivities[i].subname + "</d></div>" +
+					"<div class='item-text'>" + data.DowntimeActivities[i].text + "</div>" +
+					"<div class='item-hidden'>" + data.DowntimeActivities[i].type + data.DowntimeActivities[i].subtype + "</div>" + 
 				"</div>"
 			});
 		};
