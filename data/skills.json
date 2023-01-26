@@ -764,5 +764,251 @@
 			"subtype": "General",
 			"page": "480"
 		}
+	],
+	"ExplorationSkill":[
+		{
+			"name": "Borrow an Arcane Spell",
+			"subname": "",
+			"action": "free",
+			"subaction": "Conc. Trained",
+			"skill": "Arcana",
+			"text": "Prepare a spell from someone else’s spellbook.",
+			"type": "Exploration",
+			"subtype": "Skill",
+			"page": "241"
+		},
+		{
+			"name": "Coerce",
+			"subname": "",
+			"action": "free",
+			"subaction": "Conc.",
+			"skill": "Intimidation",
+			"text": "Threaten a creature so it does what you want.",
+			"type": "Exploration",
+			"subtype": "Skill",
+			"page": "247"
+		},
+		{
+			"name": "Cover Tracks",
+			"subname": "(move)",
+			"action": "free",
+			"subaction": "Conc. Trained",
+			"skill": "Survival",
+			"text": "Obscure your passing.",
+			"type": "Exploration",
+			"subtype": "Skill",
+			"page": "252"
+		},
+		{
+			"name": "Decipher Writing",
+			"subname": "",
+			"action": "free",
+			"subaction": "Trained Secret",
+			"skill": "Arcana Occultism Religion Society",
+			"text": "Understand archaic, esoteric, or obscure texts.",
+			"type": "Exploration",
+			"subtype": "Skill",
+			"page": "234"
+		},
+		{
+			"name": "Gather Information",
+			"subname": "",
+			"action": "free",
+			"subaction": "Secret",
+			"skill": "Diplomacy",
+			"text": "Canvass the area to learn about an individual/topic.",
+			"type": "Exploration",
+			"subtype": "Skill",
+			"page": "246"
+		},
+		{
+			"name": "Identify Alchemy",
+			"subname": "",
+			"action": "free",
+			"subaction": "Conc. Secret Trained",
+			"skill": "Crafting",
+			"text": "Identify an alchemical item using alchemist’s tools.",
+			"type": "Exploration",
+			"subtype": "Skill",
+			"page": "245"
+		},
+		{
+			"name": "Identify Magic",
+			"subname": "",
+			"action": "free",
+			"subaction": "Conc. Secret Trained",
+			"skill": "Arcana Nature Occultism Religion",
+			"text": "Learn about a magic item, location, or ongoing effect.",
+			"type": "Exploration",
+			"subtype": "Skill",
+			"page": "238"
+		},
+		{
+			"name": "Impersonate",
+			"subname": "(manipulate)",
+			"action": "free",
+			"subaction": "Conc. Secret",
+			"skill": "Deception",
+			"text": "Create a disguise, usually with a disguise kit.",
+			"type": "Exploration",
+			"subtype": "Skill",
+			"page": "245"
+		},
+		{
+			"name": "Learn a Spell",
+			"subname": "",
+			"action": "free",
+			"subaction": "Conc. Trained",
+			"skill": "Arcana Nature Occultism Religion",
+			"text": "Gain access to a new spell.",
+			"type": "Exploration",
+			"subtype": "Skill",
+			"page": "238"
+		},
+		{
+			"name": "Make an Impression",
+			"subname": "",
+			"action": "free",
+			"subaction": "Conc.",
+			"skill": "Diplomacy",
+			"text": "Make a good impression on someone.",
+			"type": "Exploration",
+			"subtype": "Skill",
+			"page": "246"
+		},
+		{
+			"name": "Repair",
+			"subname": "(manipulate)",
+			"action": "free",
+			"subaction": "",
+			"skill": "Crafting",
+			"text": "Fix a damaged item using a repair kit.",
+			"type": "Exploration",
+			"subtype": "Skill",
+			"page": "243"
+		},
+		{
+			"name": "Sense Direction",
+			"subname": "",
+			"action": "free",
+			"subaction": "Secret",
+			"skill": "Survival",
+			"text": "Get a sense of where you are and where is north.",
+			"type": "Exploration",
+			"subtype": "Skill",
+			"page": "252"
+		},
+		{
+			"name": "Squeeze",
+			"subname": "(move)",
+			"action": "free",
+			"subaction": "Trained",
+			"skill": "Acrobatics",
+			"text": "Squeeze though very tight spaces.",
+			"type": "Exploration",
+			"subtype": "Skill",
+			"page": "241"
+		},
+		{
+			"name": "Track",
+			"subname": "(move)",
+			"action": "free",
+			"subaction": "Conc. Trained",
+			"skill": "Survival",
+			"text": "Find and follow creatures’ tracks.",
+			"type": "Exploration",
+			"subtype": "Skill",
+			"page": "252"
+		},
+		{
+			"name": "Treat Wounds",
+			"subname": "(manipulate)",
+			"action": "free",
+			"subaction": "",
+			"skill": "Medicine",
+			"text": "Treat a living creature’s wounds.",
+			"type": "Exploration",
+			"subtype": "Skill",
+			"page": "249"
+		}
+	],
+	"DowntimeActivities":[
+		{
+			"name": "Craft",
+			"subname": "(manipulate)",
+			"action": "free",
+			"subaction": "Trained",
+			"skill": "Crafting",
+			"text": "Create items from raw materials.",
+			"type": "Exploration",
+			"subtype": "Skill",
+			"page": "244"
+		},
+		{
+			"name": "Create Forgery",
+			"subname": "",
+			"action": "free",
+			"subaction": "Secret",
+			"skill": "Deception",
+			"text": "Forge a document.",
+			"type": "Exploration",
+			"subtype": "Skill",
+			"page": "251"
+		},
+		{
+			"name": "Earn Income",
+			"subname": "",
+			"action": "free",
+			"subaction": "Trained",
+			"skill": "Crafting Lore Performance",
+			"text": "Earn money.",
+			"type": "Exploration",
+			"subtype": "Skill",
+			"page": "236"
+		},
+		{
+			"name": "Long-Term Rest",
+			"subname": "",
+			"action": "free",
+			"subaction": "",
+			"skill": "",
+			"text": "Spend an entire day resting to recover Con (min. 1) × twice your level.",
+			"type": "Exploration",
+			"subtype": "Skill",
+			"page": "481"
+		},
+		{
+			"name": "Retraining",
+			"subname": "",
+			"action": "free",
+			"subaction": "",
+			"skill": "",
+			"text": "Alter some of your character choices (feats, skills, class features).",
+			"type": "Exploration",
+			"subtype": "Skill",
+			"page": "481"
+		},
+		{
+			"name": "Subsist",
+			"subname": "",
+			"action": "free",
+			"subaction": "",
+			"skill": "Survival Society",
+			"text": "Find food/shelter in the wilderness (Survival) or a settlement (Society).",
+			"type": "Exploration",
+			"subtype": "Skill",
+			"page": "240"
+		},
+		{
+			"name": "Treat Disease",
+			"subname": "(manipulate)",
+			"action": "free",
+			"subaction": "",
+			"skill": "Medicine",
+			"text": "Spend time caring for a diseased creature to cure them.",
+			"type": "Exploration",
+			"subtype": "Skill",
+			"page": "248"
+		}
 	]
 }

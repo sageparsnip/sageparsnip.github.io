@@ -85,6 +85,20 @@ function loadJSON(){
 				"</div>"
 			});
 		};
+
+		//"ExplorationGeneral" div creation.
+		for(var i = 0; i< Object.keys(data.ExplorationSkill).length; i++){
+			$("#ExplorationSkill").html(function(k, oldHTML){
+				//Modify the "ExplorationSkill" div to reflect the existing data, plus whatever is below.
+				return oldHTML + 
+				"<div class='item'>" +
+					"<div class='skill-item-icon'><img src='icons/" + data.ExplorationSkill[i].action + ".png'><br><skill>" + data.ExplorationSkill[i].skill + "</skill><br>" + data.SkillActions[i].subaction + "<br></div>" +
+					"<div class='item-header'>" + data.ExplorationSkill[i].name + " <d>" + data.ExplorationSkill[i].subname + "</d></div>" +
+					"<div class='item-text'>" + data.ExplorationSkill[i].text + "</div>" +
+					"<div class='item-hidden'>" + data.ExplorationSkill[i].type + data.ExplorationSkill[i].subtype + "</div>" + 
+				"</div>"
+			});
+		};
 	});
 	hideSections();
 }
