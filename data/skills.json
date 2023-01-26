@@ -294,11 +294,11 @@
 			"subname": "",
 			"action": "one",
 			"subaction": "Conc. Secret",
-			"skill": "Arcana Crafting Lore Medicine Nature Occultism Religion Society",
+			"skill": "Arcana",
 			"text": "Remember a bit of knowledge.",
 			"type": "Skill",
 			"subtype": "Action",
-			"page": "240"
+			"page": "239"
 		},
 		{
 			"name": "Climb",
@@ -400,6 +400,17 @@
 			"page": "243"
 		},
 		{
+			"name": "Recall Knowledge",
+			"subname": "",
+			"action": "one",
+			"subaction": "Conc. Secret",
+			"skill": "Crafting",
+			"text": "Remember a bit of knowledge.",
+			"type": "Skill",
+			"subtype": "Action",
+			"page": "239"
+		},
+		{
 			"name": "Create a Diversion",
 			"subname": "",
 			"action": "one",
@@ -431,6 +442,116 @@
 			"type": "Skill",
 			"subtype": "Action",
 			"page": "246"
+		},
+		{
+			"name": "Request",
+			"subname": "",
+			"action": "one",
+			"subaction": "Conc.",
+			"skill": "Diplomacy",
+			"text": "Make a request of a friendly or helpful creature.",
+			"type": "Skill",
+			"subtype": "Action",
+			"page": "247"
+		},
+		{
+			"name": "Demoralize",
+			"subname": "",
+			"action": "one",
+			"subaction": "Conc.",
+			"skill": "Intimidation",
+			"text": "Shake an enemy’s resolve.",
+			"type": "Skill",
+			"subtype": "Action",
+			"page": "247"
+		},
+		{
+			"name": "Recall Knowledge",
+			"subname": "",
+			"action": "one",
+			"subaction": "Conc. Secret",
+			"skill": "Lore",
+			"text": "Remember a bit of knowledge.",
+			"type": "Skill",
+			"subtype": "Action",
+			"page": "239"
+		},
+		{
+			"name": "Administer First Aid",
+			"subname": "(manipulate)",
+			"action": "two",
+			"subaction": "",
+			"skill": "Medicine",
+			"text": "Perform first aid on a dying/bleeding creature.",
+			"type": "Skill",
+			"subtype": "Action",
+			"page": "248"
+		},
+		{
+			"name": "Recall Knowledge",
+			"subname": "",
+			"action": "one",
+			"subaction": "Conc. Secret",
+			"skill": "Medicine",
+			"text": "Remember a bit of knowledge.",
+			"type": "Skill",
+			"subtype": "Action",
+			"page": "239"
+		},
+		{
+			"name": "Treat Poison",
+			"subname": "(manipulate)",
+			"action": "one",
+			"subaction": "Trained",
+			"skill": "Medicine",
+			"text": "Treat a patient to prevent the spread of poison.",
+			"type": "Skill",
+			"subtype": "Action",
+			"page": "248"
+		},
+		{
+			"name": "Command an Animal",
+			"subname": "",
+			"action": "one",
+			"subaction": "Conc.",
+			"skill": "Nature",
+			"text": "Issue an order to an animal.",
+			"type": "Skill",
+			"subtype": "Action",
+			"page": "249"
+		},
+		{
+			"name": "Recall Knowledge",
+			"subname": "",
+			"action": "one",
+			"subaction": "Conc. Secret",
+			"skill": "Nature",
+			"text": "Remember a bit of knowledge.",
+			"type": "Skill",
+			"subtype": "Action",
+			"page": "239"
+		},
+		{
+			"name": "Recall Knowledge",
+			"subname": "",
+			"action": "one",
+			"subaction": "Conc. Secret",
+			"skill": "Occultism",
+			"text": "Remember a bit of knowledge.",
+			"type": "Skill",
+			"subtype": "Action",
+			"page": "239"
+		},
+		{
+			"name": "Perform",
+			"subname": "",
+			"action": "one",
+			"subaction": "Conc.",
+			"skill": "Occultism",
+			"text": "Make a brief performance (song, dance, joke).",
+			"type": "Skill",
+			"subtype": "Action",
+			"page": "250"
 		}
 	]
 }
