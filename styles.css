@@ -87,6 +87,8 @@ body {
 	border-color: inherit;
 	font-size: inherit;
 	font-weight: bold;
+	float: left;
+	width: 90%;
 }
 
 .section-text {
@@ -94,6 +96,20 @@ body {
 	padding-left: 6px;
 	padding-bottom: 5px;
 	font-style: italic;
+	float: left;
+	width: 90%;
+}
+
+.section-collapse{
+	max-height: 40px;
+	max-width: 40px;
+	right: 2%;
+	top: 20px;
+	position: absolute;
+}
+
+.grid-container {
+	display: block;
 }
 
 /**********************************

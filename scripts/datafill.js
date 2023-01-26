@@ -66,6 +66,7 @@ function loadJSON(){
 		};
 	});
 	openOverlays();
+	hideSections();
 }
 
 function openOverlays(){
@@ -83,6 +84,32 @@ function openOverlays(){
 			console.log("hiding overlay");
 			$("#overlay").css("display", "none");
 			$("#overlayback").css("display", "none");
+
+		});
+	});
+}
+
+function hideSections(){
+	$(document).ready(function(){
+		$('.section-collapse').click(function(){
+			console.log("You clicked the collapser for " + this.parentNode.getAttribute("id"));
+			//Get the name of the section we're in.
+			var parentDiv = this.parentNode.getAttribute("id");
+			var showHide = "";
+			//Decide which of the grid containers to hide/show based on above
+			switch(parentDiv) {
+				case "Standard-Actions": showHide = "StandardContainer"; break;
+				case "Skill-Actions": showHide = "SkillContainer"; break;
+				case "Exploration-Activities": showHide = "ExplorationContainer"; break;
+				case "Downtime-Activities": showHide = "DowntimeContainer"; break;
+			}
+
+			if($("#" + showHide).css("display") == "block") {
+				$("#" + showHide).css("display", "none");
+			}
+			else if($("#" + showHide).css("display") == "none") {
+				$("#" + showHide).css("display", "block");
+			};
 
 		});
 	});
