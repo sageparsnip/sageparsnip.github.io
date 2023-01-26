@@ -552,6 +552,105 @@
 			"type": "Skill",
 			"subtype": "Action",
 			"page": "250"
+		},
+		{
+			"name": "Recall Knowledge",
+			"subname": "",
+			"action": "one",
+			"subaction": "Conc. Secret",
+			"skill": "Religion",
+			"text": "Remember a bit of knowledge.",
+			"type": "Skill",
+			"subtype": "Action",
+			"page": "239"
+		},
+		{
+			"name": "Recall Knowledge",
+			"subname": "",
+			"action": "one",
+			"subaction": "Conc. Secret",
+			"skill": "Society",
+			"text": "Remember a bit of knowledge.",
+			"type": "Skill",
+			"subtype": "Action",
+			"page": "239"
+		},
+		{
+			"name": "Conceal an Object",
+			"subname": "(manipulate)",
+			"action": "one",
+			"subaction": "Secret",
+			"skill": "Stealth",
+			"text": "Hide a small object (light bulk) on your person.",
+			"type": "Skill",
+			"subtype": "Action",
+			"page": "251"
+		},
+		{
+			"name": "Hide",
+			"subname": "",
+			"action": "one",
+			"subaction": "Secret",
+			"skill": "Stealth",
+			"text": "Use cover or concealment to become hidden.",
+			"type": "Skill",
+			"subtype": "Action",
+			"page": "251"
+		},
+		{
+			"name": "Sneak",
+			"subname": "(move)",
+			"action": "one",
+			"subaction": "Secret",
+			"skill": "Stealth",
+			"text": "Move to another place while being undetected.",
+			"type": "Skill",
+			"subtype": "Action",
+			"page": "252"
+		},
+		{
+			"name": "Palm an Object",
+			"subname": "(manipulate)",
+			"action": "one",
+			"subaction": "",
+			"skill": "Thievery",
+			"text": "Palm a small, unattended object.",
+			"type": "Skill",
+			"subtype": "Action",
+			"page": "253"
+		},
+		{
+			"name": "Steal",
+			"subname": "(manipulate)",
+			"action": "one",
+			"subaction": "",
+			"skill": "Thievery",
+			"text": "Take a small object from another creature.",
+			"type": "Skill",
+			"subtype": "Action",
+			"page": "253"
+		},
+		{
+			"name": "Disable Device",
+			"subname": "(manipulate)",
+			"action": "two",
+			"subaction": "Trained",
+			"skill": "Thievery",
+			"text": "Disarm a trap or another complex device.",
+			"type": "Skill",
+			"subtype": "Action",
+			"page": "253"
+		},
+		{
+			"name": "Pick a Lock",
+			"subname": "(manipulate)",
+			"action": "two",
+			"subaction": "Trained",
+			"skill": "Thievery",
+			"text": "Open a lock without a key.",
+			"type": "Skill",
+			"subtype": "Action",
+			"page": "253"
 		}
 	]
 }
