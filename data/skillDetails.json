@@ -307,20 +307,46 @@
 			"type": "Specialty Action",
 			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=100",
 			"trigger": "",
-			"requirements": "You can Activate an Item with the invested trait only if it’s invested by you. If the item requires you to Interact with it, you must be wielding it (if it’s a held item) or touching it with a free hand (if it’s another type of item)."
+			"requirements": "You can Activate an Item with the invested trait only if it’s invested by you. If the item requires you to Interact with it, you must be wielding it (if it’s a held item) or touching it with a free hand (if it’s another type of item).",
+			"text":[
+				"You call forth the effect of an item by properly activating it. This is a special activity that takes a variable number of actions, as listed in the item's stat block.",
+				"Some items can be activated as a reaction or free action. In this case, you Activate the Item as a reaction or free action (as appropriate) instead of as an activity. Such cases are noted in the item's Activate entry in its stat block—for example, “<b>Activate</b> command.”",
+				"<b>Long Activation Times</b> Some items take minutes or hours to activate. The Activate an Item activity for these items includes a mix of the listed activation components, but it's not necessary to break down which one you're providing at a given time. You can't use other actions or reactions while activating such an item, though at the GM's discretion, you might be able to speak a few sentences. As with other activities that take a long time, these activations have the exploration trait, and you can't activate them in an encounter. If combat breaks out while you're activating one, your activation is disrupted (see the Disrupting Activations sidebar).",
+				"<b>Activation Components</b> Each activation entry lists any components involved in the activation after the action icons or text. The activation components, described below, add traits (listed in parentheses) and requirements to the activation. If you can't provide the components, you fail to Activate the Item. ",
+				"• Command (auditory, concentrate)",
+				"• Envision (concentrate)",
+				"• Interact (manipulate)",
+				"• Cast a Spell",
+				"<br><hr>",
+				"<b>Activation Components</b>",
+				"An item's activate entry lists the components required to activate its abilities. Each component adds certain traits to the Activate an Item activity, and some components have special requirements. The components that appear in this book are listed below.",
+				"<b>Command: </b>",
+				"This component is a specific utterance you must make in a loud and strong voice. Activate an Item gains the auditory and concentrate traits. You must be able to speak to provide this component.",
+				"<b>Envision: </b>",
+				" This component is a specific image or phenomenon you need to imagine. Activate an Item gains the concentrate trait.",
+				"<b>Interact: </b>",
+				"This component works like the Interact basic action. Activate an Item gains the manipulate trait and requires you to use your hands, just like with any Interact action. ",
+				"<b>Cast a Spell: </b>",
+				"If an item lists “Cast a Spell” after “Activate,” the activation requires you to use the Cast a Spell activity to Activate the Item. This happens when the item replicates a spell. You must have a spellcasting class feature to Activate an Item with this activation component. If the item can be used for a specific spell, the action icon for that spell is provided. If it's an item like a staff, which can be used for many spells, the icon is omitted, and you must refer to each spell to determine which actions you must spend to Activate the Item to cast it.",
+				"In this case, Activate an Item gains all the traits from the relevant components of the Cast a Spell activity."
+			],
+			"critSuccess": "",
+			"success": "",
+			"failure": "",
+			"critFailure": ""
 		},
 		{
 			"name": "Arrest A Fall",
 			"page": "472",
 			"type": "Specialty Action",
-			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=",
-			"trigger": "",
-			"requirements":"",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=91",
+			"trigger": "You fall.",
+			"requirements":"You have a fly Speed.",
 			"text":[
-				""
+				"You attempt an Acrobatics check to slow your fall. The DC is typically 15, but it might be higher due to air turbulence or other circumstances. "
 			],
 			"critSuccess": "",
-			"success": "",
+			"success": "You fall gently, taking no damage from the fall.",
 			"failure": "",
 			"critFailure": ""			
 		},
@@ -328,11 +354,12 @@
 			"name": "Avert Gaze",
 			"page": "472",
 			"type": "Specialty Action",
-			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=92",
 			"trigger": "",
 			"requirements":"",
 			"text":[
-				""
+				"You avert your gaze from danger.",
+				"You gain a +2 circumstance bonus to saves against visual abilities that require you to look at a creature or object, such as a medusa's petrifying gaze. Your gaze remains averted until the start of your next turn. "
 			],
 			"critSuccess": "",
 			"success": "",
@@ -343,11 +370,12 @@
 			"name": "Burrow (move)",
 			"page": "472",
 			"type": "Specialty Action",
-			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=93",
 			"trigger": "",
-			"requirements":"",
+			"requirements":"You have a burrow Speed.",
 			"text":[
-				""
+				"You dig your way through dirt, sand, or a similar loose material at a rate up to your burrow Speed.",
+				"You can’t burrow through rock or other substances denser than dirt unless you have an ability that allows you to do so."
 			],
 			"critSuccess": "",
 			"success": "",
@@ -358,11 +386,13 @@
 			"name": "Dismiss",
 			"page": "305",
 			"type": "Specialty Action",
-			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=74",
 			"trigger": "",
 			"requirements":"",
 			"text":[
-				""
+				"You end one spell effect or magic item effect.",
+				"This must be an effect you are allowed to dismiss, as defined by the spell or item.",
+				"Dismissal might end the effect entirely or might end it just for a certain target or targets, depending on the spell or item."
 			],
 			"critSuccess": "",
 			"success": "",
@@ -373,11 +403,13 @@
 			"name": "Fly (move)",
 			"page": "472",
 			"type": "Specialty Action",
-			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=94",
 			"trigger": "",
-			"requirements":"",
+			"requirements":"You have a fly Speed.",
 			"text":[
-				""
+				"You move through the air up to your fly Speed.",
+				"Moving upward (straight up or diagonally) uses the rules for moving through difficult terrain. You can move straight down 10 feet for every 5 feet of movement you spend. If you Fly to the ground, you don’t take falling damage. You can use an action to Fly 0 feet to hover in place.",
+				"If you’re airborne at the end of your turn and didn’t use a Fly action this round, you fall."
 			],
 			"critSuccess": "",
 			"success": "",
@@ -388,26 +420,26 @@
 			"name": "Grab an Edge (manipulate)",
 			"page": "472",
 			"type": "Specialty Action",
-			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=",
-			"trigger": "",
-			"requirements":"",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=95",
+			"trigger": "You fall from or past an edge or handhold.",
+			"requirements":"Your hands are not tied behind your back or otherwise restrained",
 			"text":[
-				""
+				"When you fall off or past an edge or other handhold, you can try to grab it, potentially stopping your fall. You must succeed at a Reflex save, usually at the Climb DC. If you grab the edge or handhold, you can then Climb up using Athletics. "
 			],
-			"critSuccess": "",
-			"success": "",
+			"critSuccess": "You grab the edge or handhold, whether or not you have a hand free, typically by using a suitable held item to catch yourself (catching a battle axe on a ledge, for example). You still take damage from the distance fallen so far, but you treat the fall as though it were 30 feet shorter.",
+			"success": "If you have at least one hand free, you grab the edge or handhold, stopping your fall. You still take damage from the distance fallen so far, but you treat the fall as though it were 20 feet shorter. If you have no hands free, you continue to fall as if you had failed the check.",
 			"failure": "",
-			"critFailure": ""	
+			"critFailure": "You continue to fall, and if you’ve fallen 20 feet or more before you use this reaction, you take 10 bludgeoning damage from the impact for every 20 feet fallen."	
 		},
 		{
 			"name": "Mount (move)",
 			"page": "472",
 			"type": "Specialty Action",
-			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=96",
 			"trigger": "",
-			"requirements":"",
+			"requirements":"You are adjacent to a creature that is at least one size larger than you and is willing to be your mount.",
 			"text":[
-				""
+				"You move onto the creature and ride it. If you’re already mounted, you can instead use this action to dismount, moving off the mount into a space adjacent to it."
 			],
 			"critSuccess": "",
 			"success": "",
@@ -418,11 +450,12 @@
 			"name": "Point Out (manipulate)",
 			"page": "472",
 			"type": "Specialty Action",
-			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=97",
 			"trigger": "",
-			"requirements":"",
+			"requirements":" A creature is undetected by one or more of your allies but isn’t undetected by you.",
 			"text":[
-				""
+				"You indicate a creature that you can see to one or more allies, gesturing in a direction and describing the distance verbally. That creature is hidden to your allies, rather than undetected.",
+				"This works only for allies who can see you and are in a position where they could potentially detect the target. If your allies can't hear or understand you, they must succeed at a Perception check against the creature's Stealth DC or they misunderstand and believe the target is in a different location. "
 			],
 			"critSuccess": "",
 			"success": "",
@@ -433,11 +466,11 @@
 			"name":"Raise a Shield",
 			"page" : "472",
 			"type": "Specialty Action",
-			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=98",
 			"trigger": "",
-			"requirements":"",
+			"requirements":"You are wielding a shield.",
 			"text":[
-				""
+				"You position your shield to protect yourself. When you have Raised a Shield, you gain its listed circumstance bonus to AC. Your shield remains raised until the start of your next turn."
 			],
 			"critSuccess": "",
 			"success": "",
@@ -448,11 +481,12 @@
 			"name": "Sustain a Spell",
 			"page": "304",
 			"type": "Specialty Action",
-			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=73",
 			"trigger": "",
-			"requirements":"",
+			"requirements":"You have at least one spell active with a sustained duration, and you are not fatigued.",
 			"text":[
-				""
+				"Choose one spell with a sustained duration you have in effect. The duration of that spell continues until the end of your next turn. Some spells might have slightly different or expanded effects if you sustain them. Sustaining a Spell for more than 10 minutes (100 rounds) ends the spell and makes you fatigued unless the spell lists a different maximum duration (such as “sustained up to 1 minute” or “sustained up to 1 hour”).",
+				"If your Sustain a Spell action is disrupted, the spell immediately ends."
 			],
 			"critSuccess": "",
 			"success": "",
@@ -463,11 +497,12 @@
 			"name": "Sustain an Activation",
 			"page": "534",
 			"type": "Specialty Action",
-			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=99",
 			"trigger": "",
-			"requirements":"",
+			"requirements":"You have at least one magic item activation that you can sustain and you are not fatigued.",
 			"text":[
-				""
+				"Choose one magic item activation with a sustained duration you have in effect. The duration of that activation continues until the end of your next turn. Some activations may have slightly different or expanded effects if you sustain them. Sustaining an Activation for more than 10 minutes (100 rounds) ends the activation and makes you fatigued unless the item's description states a different maximum duration (such as “up to 1 minute” or “up to 1 hour”).",
+				"If your Sustain an Activation action is disrupted, the item's effect immediately ends. "
 			],
 			"critSuccess": "",
 			"success": "",
@@ -478,259 +513,946 @@
 			"name":"------------------------Skill Actions------------------------"
 		},
 		{
-			"name": "Balance (move)",
-			"page": "240",
-			"type": "Specialty Action",
-			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=",
-			"trigger": "",
-			"requirements":"",
+			"name": 		"Balance (move)",
+			"page": 		"240",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=28",
+			"trigger": 		"You are in a square that contains a narrow surface, uneven ground, or another similar feature.",
+			"requirements":	"",
 			"text":[
-				""
+				"You move across a narrow surface or uneven ground, attempting an Acrobatics check against its Balance DC. You are flat-footed while on a narrow surface or uneven ground."
 			],
-			"critSuccess": "",
-			"success": "",
-			"failure": "",
-			"critFailure": ""
+			"critSuccess": 	"You move up to your Speed.",
+			"success": 		"You move up to your Speed, treating it as difficult terrain (every 5 feet costs 10 feet of movement).",
+			"failure": 		"You must remain stationary to keep your balance (wasting the action) or you fall. If you fall, your turn ends.",
+			"critFailure": 	"You fall and your turn ends."
 		},
 		{
 			"name": "Tumble Through (move)",
-			"page": "240"
+			"page": "240",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=29",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"You Stride up to your Speed. During this movement, you can try to move through the space of one enemy.",
+				"Attempt an Acrobatics check against the enemy’s Reflex DC as soon as you try to enter its space. You can Tumble Through using Climb, Fly, Swim, or another action instead of Stride in the appropriate environment."
+			],
+			"critSuccess": 	"",
+			"success": 		"You move through the enemy’s space, treating the squares in its space as difficult terrain (every 5 feet costs 10 feet of movement). If you don’t have enough Speed to move all the way through its space, you get the same effect as a failure.",
+			"failure": 		"Your movement ends, and you trigger reactions as if you had moved out of the square you started in.",
+			"critFailure": 	""
 		},
 		{
 			"name": "Maneuver in Flight (move)",
-			"page": "240"
+			"page": "240",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=30",
+			"trigger": 		"",
+			"requirements":	"You have a fly Speed.",
+			"text":[
+				"You try a difficult maneuver while flying. Attempt an Acrobatics check. The GM determines what maneuvers are possible, but they rarely allow you to move farther than your fly Speed."
+			],
+			"critSuccess": 	"",
+			"success": 		"You succeed at the maneuver.",
+			"failure": 		"Your maneuver fails. The GM chooses if you simply can’t move or if some other detrimental effect happens. The outcome should be appropriate for the maneuver you attempted (for instance, being blown off course if you were trying to fly against a strong wind).",
+			"critFailure": 	"As failure, but the consequence is more dire."
 		},
 		{
 			"name": "Recall Knowledge",
-			"page": "239"
+			"page": "239",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Skills.aspx?ID=5&General=true",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"You attempt a skill check to try to remember a bit of knowledge regarding a topic related to that skill. The GM determines the DCs for such checks and which skills apply.",
+				"[Arcana] Recall Knowledge about arcane theories; magic traditions; creatures of arcane significance (like dragons and beasts); and the Elemental, Astral, and Shadow Planes.",
+				"[Crafting] Recall Knowledge about alchemical reactions, the value of items, engineering, unusual materials, and alchemical or mechanical creatures. The GM determines which creatures this applies to, but it usually includes constructs.",
+				"[Lore] Recall Knowledge about the subject of your Lore skill’s subcategory.",
+				"[Medicine] Recall Knowledge about diseases, injuries, poisons, and other ailments. You can use this to perform forensic examinations if you spend 10 minutes (or more, as determined by the GM) checking for evidence such as wound patterns. This is most useful when determining how a body was injured or killed.",
+				"[Nature] Recall Knowledge about fauna, flora, geography, weather, the environment, creatures of natural origin (like animals, beasts, fey, and plants), the First World, the Material Plane, and the Elemental Planes.",
+				"[Occultism] Recall Knowledge about ancient mysteries; obscure philosophies; creatures of occult significance (like aberrations, spirits, and oozes); and the Positive Energy, Negative Energy, Shadow, Astral, and Ethereal Planes.",
+				"[Religion] Recall Knowledge about divine agents, the finer points of theology, obscure myths regarding a faith, and creatures of religious significance (like celestials, fiends, and undead), the Outer Sphere, and the Positive and Negative Energy Planes.",
+				"[Society] Recall Knowledge about local history, important personalities, legal institutions, societal structure, and humanoid cultures. The GM might allow Society to apply to other creatures that are major elements of society in your region, such as the draconic nobility in a kingdom of humans ruled by dragons."
+			],
+			"critSuccess": 	"You recall the knowledge accurately and gain additional information or context.",
+			"success": 		"You recall the knowledge accurately or gain a useful clue about your current situation.",
+			"failure": 		"",
+			"critFailure": 	"You recall incorrect information or gain an erroneous or misleading clue. "
 		},
 		{
 			"name": "Climb (move)",
-			"page": "241"
+			"page": "241",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=33",
+			"trigger": 		"",
+			"requirements":	"You have both hands free.",
+			"text":[
+				"You move up, down, or across an incline. Unless it’s particularly easy, you must attempt an Athletics check. The GM determines the DC based on the nature of the incline and environmental circumstances. You’re flat-footed unless you have a climb Speed."
+			],
+			"critSuccess": 	"You move up, across, or safely down the incline for 5 feet plus 5 feet per 20 feet of your land Speed (a total of 10 feet for most PCs).",
+			"success": 		"You move up, across, or safely down the incline for 5 feet per 20 feet of your land Speed (a total of 5 feet for most PCs, minimum 5 feet if your Speed is below 20 feet).",
+			"failure": 		"",
+			"critFailure": 	"You fall. If you began the climb on stable ground, you fall and land prone."
 		},
 		{
 			"name": "Force Open (attack)",
-			"page": "242"
+			"page": "242",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Grapple (attack)",
-			"page": "242"
+			"page": "242",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "High Jump (move)",
-			"page": "242"
+			"page": "242",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Long Jump (move)",
-			"page": "242"
+			"page": "242",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Shove (attack)",
-			"page": "243"
+			"page": "243",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Swim (move)",
-			"page": "243"
+			"page": "243",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Trip (attack)",
-			"page": "243"
+			"page": "243",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Disarm (attack)",
-			"page": "243"
+			"page": "243",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Create a Diversion",
-			"page": "245"
+			"page": "245",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Lie",
-			"page": "246"
+			"page": "246",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Feint",
-			"page": "246"
+			"page": "246",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Request",
-			"page": "247"
+			"page": "247",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Demoralize",
-			"page": "247"
+			"page": "247",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Administer First Aid (manipulate)",
-			"page": "248"
+			"page": "248",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Treat Poison",
-			"page": "248"
+			"page": "248",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Command an Animal",
-			"page": "249"
+			"page": "249",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Perform",
-			"page": "250"
+			"page": "250",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Conceal an Object (manipulate)",
-			"page": "251"
+			"page": "251",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Hide",
-			"page": "251"
+			"page": "251",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Sneak (move)",
-			"page": "252"
+			"page": "252",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Palm an Object (manipulate)",
-			"page": "253"
+			"page": "253",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Steal (manipulate)",
-			"page": "253"
+			"page": "253",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Disable Device (manipulate)",
-			"page": "253"
+			"page": "253",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Pick a Lock (manipulate)",
-			"page": "253"
+			"page": "253",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Avoid Notice",
-			"page": "479"
+			"page": "479",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Defend",
-			"page": "479"
+			"page": "479",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Detect Magic",
-			"page": "479"
+			"page": "479",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Follow the Expert",
-			"page": "479"
+			"page": "479",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Hustle (move)",
-			"page": "480"
+			"page": "480",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Investigate",
-			"page": "480"
+			"page": "480",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Refocus",
-			"page": "300"
+			"page": "300",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Repeat a Spell",
-			"page": "480"
+			"page": "480",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Scout",
-			"page": "480"
+			"page": "480",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Search",
-			"page": "480"
+			"page": "480",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Borrow an Arcane Spell",
-			"page": "241"
+			"page": "241",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Coerce",
-			"page": "247"
+			"page": "247",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Cover Tracks (move)",
-			"page": "252"
+			"page": "252",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Decipher Writing",
-			"page": "234"
+			"page": "234",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Skills.aspx?ID=1&General=true",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"You attempt to decipher complicated writing or literature on an obscure topic. This usually takes 1 minute per page of text, but might take longer (typically an hour per page for decrypting ciphers or the like). The text must be in a language you can read, though the GM might allow you to attempt to decipher text written in an unfamiliar language using Society instead.",
+				"The DC is determined by the GM based on the state or complexity of the document. The GM might have you roll one check for a short text or a check for each section of a larger text.",
+				"[Arcana] Decipher Writing about arcane theory.",
+				"[Occultism] Decipher Writing on occult topics, including complex metaphysical systems, syncretic principles, weird philosophies, and incoherent ramblings.",
+				"[Religion] Decipher Writing of a religious nature, including allegories, homilies, and proverbs.",
+				"[Society] Decipher Writing that’s a coded message, text written in an incomplete or archaic form, or in some cases, text in a language you don’t know."
+			],
+			"critSuccess": 	"You understand the true meaning of the text.",
+			"success": 		"You understand the true meaning of the text. If it was a coded document, you know the general meaning but might not have a word-for-word translation.",
+			"failure": 		"You can’t understand the text and take a –2 circumstance penalty to further checks to decipher it.",
+			"critFailure": 	"You believe you understand the text on that page, but you have in fact misconstrued its message."
 		},
 		{
 			"name": "Gather Information",
-			"page": "246"
+			"page": "246",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Identify Alchemy",
-			"page": "245"
+			"page": "245",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Identify Magic",
-			"page": "238"
+			"page": "238",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Skills.aspx?ID=3&General=true=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"Once you discover that an item, location, or ongoing effect is magical, you can spend 10 minutes to try to identify the particulars of its magic. If your attempt is interrupted, you must start over. The GM sets the DC for your check. Cursed or esoteric subjects usually have higher DCs or might even be impossible to identify using this activity alone. Heightening a spell doesn’t increase the DC to identify it.",
+				"[Arcana] Identify Magic, particularly arcane magic.",
+				"[Nature] Identify Magic, particularly primal magic.",
+				"[Occultism] Identify Magic, particularly occult magic.",
+				"[Religion] Identify Magic, particularly divine magic."
+			],
+			"critSuccess": 	"You learn all the attributes of the magic, including its name (for an effect), what it does, any means of activating it (for an item or location), and whether it is cursed.",
+			"success": 		"For an item or location, you get a sense of what it does and learn any means of activating it. For an ongoing effect (such as a spell with a duration), you learn the effect’s name and what it does. You can’t try again in hopes of getting a critical success.",
+			"failure": 		"You fail to identify the magic and can’t try again for 1 day.",
+			"critFailure": 	"You misidentify the magic as something else of the GM’s choice."
 		},
 		{
 			"name": "Impersonate (manipulate)",
-			"page": "245"
+			"page": "245",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Learn a Spell",
-			"page": "238"
+			"page": "238",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Skills.aspx?ID=4&General=true",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"You can gain access to a new spell of your tradition from someone who knows that spell or from magical writing like a spellbook or scroll. If you can cast spells of multiple traditions, you can Learn a Spell of any of those traditions, but you must use the corresponding skill to do so. For example, if you were a cleric with the bard multiclass archetype, you couldn't use Religion to add an occult spell to your bardic spell repertoire.",
+				"To learn the spell, you must do the following:",
+				"• Spend 1 hour per level of the spell, during which you must remain in conversation with a person who knows the spell or have the magical writing in your possession.",
+				"• Have materials with the Price indicated in Table 4–3.",
+				"• Attempt a skill check for the skill corresponding to your tradition (DC determined by the GM, often close to the DC on Table 4–3). Uncommon or rare spells have higher DCs.",
+				"If you have a spellbook, Learning a Spell lets you add the spell to your spellbook; if you prepare spells from a list, it's added to your list; if you have a spell repertoire, you can select it when you add or swap spells.",
+				"[Arcana] Learn a Spell from the arcane tradition.",
+				"[Nature] Learn a Spell from the primal tradition.",
+				"[Occultism] Learn a Spell from the occult tradition.",
+				"[Religion] Learn a Spell from the divine tradition."
+			],
+			"critSuccess": 	"You expend half the materials and learn the spell.",
+			"success": 		"You expend the materials and learn the spell.",
+			"failure": 		"You fail to learn the spell but can try again after you gain a level. The materials aren’t expended.",
+			"critFailure": 	"As failure, plus you expend half the materials."
 		},
 		{
 			"name": "Make an Impression",
-			"page": "246"
+			"page": "246",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Repair (manipulate)",
-			"page": "243"
+			"page": "243",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Sense Direction",
-			"page": "252"
+			"page": "252",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Squeeze (move)",
-			"page": "241"
+			"page": "241",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=31",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"You contort yourself to squeeze through a space so small you can barely fit through. This action is for exceptionally small spaces; many tight spaces are difficult terrain that you can move through more quickly and without a check. "
+			],
+			"critSuccess": 	"You squeeze through the tight space in 1 minute per 10 feet of squeezing.",
+			"success": 		"You squeeze through in 1 minute per 5 feet.",
+			"failure": 		"",
+			"critFailure": 	"You become stuck in the tight space. While you’re stuck, you can spend 1 minute attempting another Acrobatics check at the same DC. Any result on that check other than a critical failure causes you to become unstuck."
 		},
 		{
 			"name": "Track (move)",
-			"page": "252"
+			"page": "252",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Treat Wounds (manipulate)",
-			"page": "249"
+			"page": "249",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Craft (manipulate)",
-			"page": "244"
+			"page": "244",
+			"type": 		"Downtime Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Create Forgery",
-			"page": "251"
+			"page": "251",
+			"type": 		"Downtime Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Earn Income",
-			"page": "236"
+			"page": "236",
+			"type": 		"Downtime Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Long-Term Rest",
-			"page": "481"
+			"page": "481",
+			"type": 		"Downtime Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Retraining",
-			"page": "481"
+			"page": "481",
+			"type": 		"Downtime Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Subsist",
-			"page": "240"
+			"page": "240",
+			"type": 		"Downtime Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		},
 		{
 			"name": "Treat Disease",
-			"page": "248"
+			"page": "248",
+			"type": 		"Downtime Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				""
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
 		}
 	]
 }

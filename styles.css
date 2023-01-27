@@ -20,7 +20,7 @@ body {
 
 #overlay {
 	display: none;
-	background-color: darkgoldenrod;
+	background-color: teal;
 	transform: translate(-50%, -50%);
 	color: white;
 	border: 8px solid purple;
@@ -147,6 +147,13 @@ body {
 
 .grid-container {
 	display: none;
+}
+
+.disclaimer {
+	bottom: 30px;
+	font-size:10pt;
+	text-align: center;
+	color: white;
 }
 
 /**********************************
