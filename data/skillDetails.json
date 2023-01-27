@@ -1,7 +1,37 @@
 {
 	"Action":[
 		{
-			"name":"Blank"
+			"name":"------------------------Common Basic Actions------------------------"
+		},
+		{
+			"name":"Stride (move)",
+			"page": "471",
+			"type": "Basic Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=88",
+			"trigger": "",
+			"requirements": "",
+			"text": [
+				"You move up to your Speed."
+			],
+			"critSuccess": "",
+			"success": "",
+			"failure": "",
+			"critFailure": ""
+		},
+		{
+			"name":"Strike (attack)",
+			"page" : "471",
+			"type": "Basic Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=89",
+			"trigger": "",
+			"requirements": "",
+			"text": [
+				"You attack with a weapon you're wielding or with an unarmed attack, targeting one creature within your reach (for a melee attack) or within range (for a ranged attack). Roll the attack roll for the weapon or unarmed attack you are using, and compare the result to the target creature's AC to determine the effect. See Attack Rolls and Damage for details on calculating your attack and damage rolls."
+			],
+			"critSuccess": "As success, but you deal double damage.",
+			"success": "You deal damage according to the weapon or unarmed attack, including any modifiers, bonuses, and penalties you have to damage.",
+			"failure": "",
+			"critFailure": ""
 		},
 		{
 			"name":"Cast a Spell",
@@ -25,6 +55,40 @@
 			"success": "",
 			"failure": "",
 			"critFailure": ""
+		},
+		{
+			"name":"Step (move)",
+			"page" : "471",
+			"type": "Basic Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=87",
+			"trigger": "",
+			"requirements": "Your Speed is at least 10 feet.",
+			"text": [
+				"You carefully move 5 feet. Unlike most types of movement, Stepping doesn't trigger reactions, such as Attacks of Opportunity, that can be triggered by move actions or upon leaving or entering a square.",
+				"You can't Step into difficult terrain, and you can't Step using a Speed other than your land Speed."
+			],
+			"critSuccess": "",
+			"success": "",
+			"failure": "",
+			"critFailure": ""
+		},
+		{
+			"name": "Interact (manipulate)",
+			"page": "470",
+			"type": "Basic Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=80",
+			"trigger": "",
+			"requirements": "",
+			"text": [
+				"You use your hand or hands to manipulate an object or the terrain. You can grab an unattended or stored object, open a door, or produce some similar effect. You might have to attempt a skill check to determine if your Interact action was successful."
+			],
+			"critSuccess": "",
+			"success": "",
+			"failure": "",
+			"critFailure": ""
+		},
+		{
+			"name":"------------------------Uncommon Basic Actions------------------------"
 		},
 		{
 			"name": "Aid",
@@ -104,21 +168,6 @@
 			"success": "You get free and remove the grabbed, immobilized, and restrained conditions imposed by your chosen target.",
 			"failure": "",
 			"critFailure": "You don’t get free, and you can’t attempt to Escape again until your next turn."
-		},
-		{
-			"name": "Interact (manipulate)",
-			"page": "470",
-			"type": "Basic Action",
-			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=80",
-			"trigger": "",
-			"requirements": "",
-			"text": [
-				"You use your hand or hands to manipulate an object or the terrain. You can grab an unattended or stored object, open a door, or produce some similar effect. You might have to attempt a skill check to determine if your Interact action was successful."
-			],
-			"critSuccess": "",
-			"success": "",
-			"failure": "",
-			"critFailure": ""
 		},
 		{
 			"name": "Invest an Item",
@@ -235,52 +284,6 @@
 			"critFailure": ""
 		},
 		{
-			"name":"Step (move)",
-			"page" : "471",
-			"type": "Basic Action",
-			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=87",
-			"trigger": "",
-			"requirements": "Your Speed is at least 10 feet.",
-			"text": [
-				"You carefully move 5 feet. Unlike most types of movement, Stepping doesn't trigger reactions, such as Attacks of Opportunity, that can be triggered by move actions or upon leaving or entering a square.",
-				"You can't Step into difficult terrain, and you can't Step using a Speed other than your land Speed."
-			],
-			"critSuccess": "",
-			"success": "",
-			"failure": "",
-			"critFailure": ""
-		},
-		{
-			"name":"Stride (move)",
-			"page": "471",
-			"type": "Basic Action",
-			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=88",
-			"trigger": "",
-			"requirements": "",
-			"text": [
-				"You move up to your Speed."
-			],
-			"critSuccess": "",
-			"success": "",
-			"failure": "",
-			"critFailure": ""
-		},
-		{
-			"name":"Strike (attack)",
-			"page" : "471",
-			"type": "Basic Action",
-			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=89",
-			"trigger": "",
-			"requirements": "",
-			"text": [
-				"You attack with a weapon you're wielding or with an unarmed attack, targeting one creature within your reach (for a melee attack) or within range (for a ranged attack). Roll the attack roll for the weapon or unarmed attack you are using, and compare the result to the target creature's AC to determine the effect. See Attack Rolls and Damage for details on calculating your attack and damage rolls."
-			],
-			"critSuccess": "As success, but you deal double damage.",
-			"success": "You deal damage according to the weapon or unarmed attack, including any modifiers, bonuses, and penalties you have to damage.",
-			"failure": "",
-			"critFailure": ""
-		},
-		{
 			"name": "Take Cover",
 			"page": "471",
 			"type": "Basic Action",
@@ -296,58 +299,198 @@
 			"critFailure": ""
 		},
 		{
+			"name":"------------------------Specialty Basic Actions------------------------"
+		},
+		{
 			"name": "Activate An Item",
-			"page": "532"
+			"page": "532",
+			"type": "Specialty Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=100",
+			"trigger": "",
+			"requirements": "You can Activate an Item with the invested trait only if it’s invested by you. If the item requires you to Interact with it, you must be wielding it (if it’s a held item) or touching it with a free hand (if it’s another type of item)."
 		},
 		{
 			"name": "Arrest A Fall",
-			"page": "472"
+			"page": "472",
+			"type": "Specialty Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": "",
+			"requirements":"",
+			"text":[
+				""
+			],
+			"critSuccess": "",
+			"success": "",
+			"failure": "",
+			"critFailure": ""			
 		},
 		{
 			"name": "Avert Gaze",
-			"page": "472"
+			"page": "472",
+			"type": "Specialty Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": "",
+			"requirements":"",
+			"text":[
+				""
+			],
+			"critSuccess": "",
+			"success": "",
+			"failure": "",
+			"critFailure": ""	
 		},
 		{
-			"name": "Burrow",
-			"page": "472"
+			"name": "Burrow (move)",
+			"page": "472",
+			"type": "Specialty Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": "",
+			"requirements":"",
+			"text":[
+				""
+			],
+			"critSuccess": "",
+			"success": "",
+			"failure": "",
+			"critFailure": ""	
 		},
 		{
 			"name": "Dismiss",
 			"page": "305",
-			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=79",
+			"type": "Specialty Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=",
 			"trigger": "",
-			"requirements": "",
-			"text": [
+			"requirements":"",
+			"text":[
+				""
+			],
+			"critSuccess": "",
+			"success": "",
+			"failure": "",
+			"critFailure": ""	
+		},
+		{
+			"name": "Fly (move)",
+			"page": "472",
+			"type": "Specialty Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": "",
+			"requirements":"",
+			"text":[
+				""
+			],
+			"critSuccess": "",
+			"success": "",
+			"failure": "",
+			"critFailure": ""	
+		},
+		{
+			"name": "Grab an Edge (manipulate)",
+			"page": "472",
+			"type": "Specialty Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": "",
+			"requirements":"",
+			"text":[
+				""
+			],
+			"critSuccess": "",
+			"success": "",
+			"failure": "",
+			"critFailure": ""	
+		},
+		{
+			"name": "Mount (move)",
+			"page": "472",
+			"type": "Specialty Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": "",
+			"requirements":"",
+			"text":[
+				""
+			],
+			"critSuccess": "",
+			"success": "",
+			"failure": "",
+			"critFailure": ""	
+		},
+		{
+			"name": "Point Out (manipulate)",
+			"page": "472",
+			"type": "Specialty Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": "",
+			"requirements":"",
+			"text":[
+				""
+			],
+			"critSuccess": "",
+			"success": "",
+			"failure": "",
+			"critFailure": ""	
+		},
+		{
+			"name":"Raise a Shield",
+			"page" : "472",
+			"type": "Specialty Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": "",
+			"requirements":"",
+			"text":[
+				""
+			],
+			"critSuccess": "",
+			"success": "",
+			"failure": "",
+			"critFailure": ""	
+		},
+		{
+			"name": "Sustain a Spell",
+			"page": "304",
+			"type": "Specialty Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": "",
+			"requirements":"",
+			"text":[
+				""
+			],
+			"critSuccess": "",
+			"success": "",
+			"failure": "",
+			"critFailure": ""	
+		},
+		{
+			"name": "Sustain an Activation",
+			"page": "534",
+			"type": "Specialty Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": "",
+			"requirements":"",
+			"text":[
+				""
+			],
+			"critSuccess": "",
+			"success": "",
+			"failure": "",
+			"critFailure": ""	
+		},
+		{
+			"name":"------------------------Skill Actions------------------------"
+		},
+		{
+			"name": "Balance (move)",
+			"page": "240",
+			"type": "Specialty Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": "",
+			"requirements":"",
+			"text":[
 				""
 			],
 			"critSuccess": "",
 			"success": "",
 			"failure": "",
 			"critFailure": ""
-		},
-		{
-			"name":"Raise a Shield",
-			"page" : "472"
-		},
-		{
-			"name": "Mount (move)",
-			"page": "472"
-		},
-		{
-			"name": "Sustain a Spell/Activation",
-			"page": "304/534"
-		},
-		{
-			"name": "Grab an Edge (manipulate)",
-			"page": "472"
-		},
-		{
-			"name": "Point Out (manipulate)",
-			"page": "472"
-		},
-		{
-			"name": "Balance (move)",
-			"page": "240"
 		},
 		{
 			"name": "Tumble Through (move)",
