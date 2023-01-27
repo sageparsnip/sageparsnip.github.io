@@ -34,6 +34,8 @@ body {
 	z-index: 3;
 	vertical-align: center;
 	text-align: center;
+	overflow-x: none;
+	overflow-y: auto;
 }
 
 .overlay-header {
@@ -43,6 +45,10 @@ body {
 	float: left;
 	width: 100%;
 	padding-top: 20px;
+}
+
+.overlay-header a {
+	color: white;
 }
 
 .overlay-page {
@@ -59,8 +65,6 @@ body {
 	font-size: normal;
 	text-align: justify;
 	padding: 20px;
-	overflow-y: auto;
-	overflow-x: none;
 	max-height: 70%;
 	max-width: 92%;
 }

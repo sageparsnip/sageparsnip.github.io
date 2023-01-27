@@ -149,11 +149,20 @@ function openOverlays(){
 						for(var j = 0; j < data.Action[index].text.length;j++){
 							bodyText += data.Action[index].text[j] + "<br>";
 						}
+						//get possible pieces
+							if(data.Action[index].trigger != "" && data.Action[index].trigger != undefined) { 
+								var triggerFound = "<b>Trigger: </b>" + data.Action[index].trigger + "<br>"; 
+							} else { var triggerFound = ""; };
+
+						//actually set the overlay
 						$("#overlay").html(function(k, oldHTML){
 							return "" + 
-							"<div class='overlay-header'>" + data.Action[index].name + "</div>" +
+							"<div class='overlay-header'><a href='" + data.Action[index].aonlink + "'>" + data.Action[index].name + "</a></div>" +
 							"<div class='overlay-page'>p. " + data.Action[index].page + "</div>" +
-							"<div class='overlay-body'>" + bodyText + "</div>"
+							"<div class='overlay-body'>" +
+								triggerFound +  
+								"<br>" + bodyText + "<br>" + 
+							"</div>"
 						});
 					}
 					else {
