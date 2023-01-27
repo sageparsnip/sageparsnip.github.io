@@ -123,11 +123,44 @@ function openOverlays(){
 	$(document).ready(function(){
 		$(".item-header").click(function()
 		{
-			$("#overlay").html("<h1>" + $(this).text() + "</h1>");
+			var actionName = $(this).text().trim();
+			console.log(actionName);
+			$("#overlay").html("<h1>" + actionName + "</h1>");
 			if($("#overlay").css("display") == "none") {
 				console.log("showing overlay");
 				$("#overlay").css("display", "block");
 				$("#overlayback").css("display", "flex");
+				//Fill overlay with content
+				
+				$.getJSON("/data/skillDetails.json", function (data){
+					var index = 0;
+					var keyFound = false;
+					var upperBound = Object.keys(data.Action).length;
+					while(keyFound == false && index < upperBound){
+						if(data.Action[index].name.trim() == actionName){
+							keyFound = true;
+						}
+						index++;
+					};
+					if(keyFound == true) {
+						index--;
+						//get paragraphs
+						var bodyText = "";
+						for(var j = 0; j < data.Action[index].text.length;j++){
+							bodyText += data.Action[index].text[j] + "<br>";
+						}
+						$("#overlay").html(function(k, oldHTML){
+							return "" + 
+							"<div class='overlay-header'>" + data.Action[index].name + "</div>" +
+							"<div class='overlay-page'>p. " + data.Action[index].page + "</div>" +
+							"<div class='overlay-body'>" + bodyText + "</div>"
+						});
+					}
+					else {
+						//Entry not found in skillDetails, fill overlay with false detail.
+						$("#overlay").html("<h1> Entry not found. </h1>");
+					};
+				});
 			};
 		});
 		$("#overlayback").click(function(){

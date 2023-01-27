@@ -1,6 +1,31 @@
 {
 	"Action":[
 		{
+			"name":"Blank"
+		},
+		{
+			"name":"Cast a Spell",
+			"page" : "302",
+			"type":"Basic Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=72",
+			"requirements": "",
+			"text": [
+				"You cast a spell you have prepared or in your repertoire. Casting a Spell is a special activity that takes a variable number of actions depending on the spell, as listed in each spell's stat block. As soon as the spellcasting actions are complete, the spell effect occurs.",
+				"Some spells are cast as a reaction or free action. In those cases, you Cast the Spell as a reaction or free action (as appropriate) instead of as an activity. Such cases will be noted in the spell's stat block—for example, “ verbal.”",
+				"<b>Long Casting Times</b> Some spells take minutes or hours to cast. The Cast a Spell activity for these spells includes a mix of the listed spell components, but it's not necessary to break down which one you're providing at a given time. You can't use other actions or reactions while casting such a spell, though at the GM's discretion, you might be able to speak a few sentences. As with other activities that take a long time, these spells have the exploration trait, and you can't cast them in an encounter. If combat breaks out while you're casting one, your spell is disrupted (see Disrupted and Lost Spells below).",
+				"<b>Spell Components</b> Each spell lists the spell components required to cast it after the action icons or text, such as “ material, somatic, verbal.” The spell components, described in detail below, add traits and requirements to the Cast a Spell activity. If you can't provide the components, you fail to Cast the Spell.",
+				" • Material (manipulate)",
+				" • Somatic (manipulate)",
+				" • Verbal (concentrate)",
+				" • Focus (manipulate)",
+				"<b>Disrupted and Lost Spells</b> Some abilities and spells can disrupt a spell, causing it to have no effect and be lost. When you lose a spell, you've already expended the spell slot, spent the spell's costs and actions, and used the Cast a Spell activity. If a spell is disrupted during a Sustain a Spell action, the spell immediately ends. The full rules for disrupting actions appear here."
+			],
+			"critSuccess": "",
+			"success": "",
+			"failure": "",
+			"critFailure": ""
+		},
+		{
 			"name": "Aid",
 			"page": "470",
 			"type": "Basic Action",
@@ -13,6 +38,7 @@
 			],
 			"critSuccess": "You grant your ally a +2 circumstance bonus to the triggering check. If you’re a master with the check you attempted, the bonus is +3, and if you’re legendary, it’s +4.",
 			"success": "You grant your ally a +1 circumstance bonus to the triggering check.",
+			"failure": "",
 			"critFailure": "Your ally takes a –1 circumstance penalty to the triggering check."
 		},
 		{
@@ -27,6 +53,7 @@
 			],
 			"critSuccess": "",
 			"success": "",
+			"failure": "",
 			"critFailure": ""
 		},
 		{
@@ -42,6 +69,7 @@
 			],
 			"critSuccess": "",
 			"success": "",
+			"failure": "",
 			"critFailure": ""
 		},
 		{
@@ -52,10 +80,11 @@
 			"trigger": "",
 			"requirements": "",
 			"text": [
-				""
+				"You fall prone."
 			],
 			"critSuccess": "",
 			"success": "",
+			"failure": "",
 			"critFailure": ""
 		},
 		{
@@ -66,11 +95,14 @@
 			"trigger": "",
 			"requirements": "",
 			"text": [
-				""
+				"You attempt to escape from being grabbed, immobilized, or restrained.",
+				"Choose one creature, object, spell effect, hazard, or other impediment imposing any of those conditions on you. Attempt a check using your unarmed attack modifier against the DC of the effect. This is typically the Athletics DC of a creature grabbing you, the Thievery DC of a creature who tied you up, the spell DC for a spell effect, or the listed Escape DC of an object, hazard, or other impediment.",
+				"You can attempt an Acrobatics or Athletics check instead of using your attack modifier if you choose (but this action still has the attack trait)."
 			],
-			"critSuccess": "",
-			"success": "",
-			"critFailure": ""
+			"critSuccess": "You get free and remove the grabbed, immobilized, and restrained conditions imposed by your chosen target. You can then Stride up to 5 feet.",
+			"success": "You get free and remove the grabbed, immobilized, and restrained conditions imposed by your chosen target.",
+			"failure": "",
+			"critFailure": "You don’t get free, and you can’t attempt to Escape again until your next turn."
 		},
 		{
 			"name": "Interact (manipulate)",
@@ -80,10 +112,11 @@
 			"trigger": "",
 			"requirements": "",
 			"text": [
-				""
+				"You use your hand or hands to manipulate an object or the terrain. You can grab an unattended or stored object, open a door, or produce some similar effect. You might have to attempt a skill check to determine if your Interact action was successful."
 			],
 			"critSuccess": "",
 			"success": "",
+			"failure": "",
 			"critFailure": ""
 		},
 		{
@@ -94,10 +127,12 @@
 			"trigger": "",
 			"requirements": "",
 			"text": [
-				""
+				"You invest your energy in an item with the invested trait as you don it. This process requires 1 or more Interact actions, usually taking the same amount of time it takes to don the item. Once you’ve Invested the Item, you benefit from its constant magical abilities as long as you meet its other requirements (for most invested items, the only other requirement is that you must be wearing the item). This investiture lasts until you remove the item.",
+				"You can invest no more than 10 items per day. If you remove an invested item, it loses its investiture. The item still counts against your daily limit after it loses its investiture. You reset the limit during your daily preparations, at which point you Invest your Items anew. If you’re still wearing items you had invested the previous day, you can typically keep them invested on the new day, but they still count against your limit."
 			],
 			"critSuccess": "",
 			"success": "",
+			"failure": "",
 			"critFailure": ""
 		},
 		{
@@ -108,10 +143,13 @@
 			"trigger": "",
 			"requirements": "",
 			"text": [
-				""
+				"You take a careful, short jump. You can Leap up to 10 feet horizontally if your Speed is at least 15 feet, or up to 15 feet horizontally if your Speed is at least 30 feet. You land in the space where your Leap ends (meaning you can typically clear a 5-foot gap, or a 10-foot gap if your Speed is 30 feet or more).",
+				"If you Leap vertically, you can move up to 3 feet vertically and 5 feet horizontally onto an elevated surface.",
+				"Jumping a greater distance requires using the Athletics skill."
 			],
 			"critSuccess": "",
 			"success": "",
+			"failure": "",
 			"critFailure": ""
 		},
 		{
@@ -122,10 +160,12 @@
 			"trigger": "",
 			"requirements": "",
 			"text": [
-				""
+				"You prepare to use an action that will occur outside your turn. Choose a single action or free action you can use, and designate a trigger. Your turn then ends. If the trigger you designated occurs before the start of your next turn, you can use the chosen action as a reaction (provided you still meet the requirements to use it). You can’t Ready a free action that already has a trigger.",
+				"If you have a multiple attack penalty and your readied action is an attack action, your readied attack takes the multiple attack penalty you had at the time you used Ready. This is one of the few times the multiple attack penalty applies when it’s not your turn."
 			],
 			"critSuccess": "",
 			"success": "",
+			"failure": "",
 			"critFailure": ""
 		},
 		{
@@ -136,10 +176,12 @@
 			"trigger": "",
 			"requirements": "",
 			"text": [
-				""
+				"You release something you're holding in your hand or hands. This might mean dropping an item, removing one hand from your weapon while continuing to hold it in another hand, releasing a rope suspending a chandelier, or performing a similar action. Unlike most manipulate actions, Release does not trigger reactions that can be triggered by actions with the manipulate trait (such as Attack of Opportunity).",
+				"If you want to prepare to Release something outside of your turn, use the Ready activity."
 			],
 			"critSuccess": "",
 			"success": "",
+			"failure": "",
 			"critFailure": ""
 		},
 		{
@@ -150,10 +192,13 @@
 			"trigger": "",
 			"requirements": "",
 			"text": [
-				""
+				"You scan an area for signs of creatures or objects. If you're looking for creatures, choose an area you're scanning. If precision is necessary, the GM can have you select a 30-foot cone or a 15-foot burst within line of sight. You might take a penalty if you choose an area that's far away.",
+				"If you're using Seek to search for objects (including secret doors and hazards), you search up to a 10-foot square adjacent to you. The GM might determine you need to Seek as an activity, taking more actions or even minutes or hours if you're searching a particularly cluttered area.",
+				"The GM attempts a single secret Perception check for you and compares the result to the Stealth DCs of any undetected or hidden creatures in the area or the DC to detect each object in the area (as determined by the GM or by someone Concealing the Object). A creature you detect might remain hidden, rather than becoming observed, if you're using an imprecise sense or if an effect (such as invisibility) prevents the subject from being observed."
 			],
-			"critSuccess": "",
-			"success": "",
+			"critSuccess": "If you were searching for creatures, any undetected or hidden creature you critically succeeded against becomes observed by you. If you were searching for an object, you learn its location.",
+			"success": "If you were searching for creatures, any undetected creature you succeeded against becomes hidden from you instead of undetected, and any hidden creature you succeeded against becomes observed by you. If you were searching for an object, you learn its location or get a clue to its whereabouts, as determined by the GM.",
+			"failure": "",
 			"critFailure": ""
 		},
 		{
@@ -164,11 +209,12 @@
 			"trigger": "",
 			"requirements": "",
 			"text": [
-				""
+				"You try to tell whether a creature's behavior is abnormal. Choose one creature, and assess it for odd body language, signs of nervousness, and other indicators that it might be trying to deceive someone. The GM attempts a single secret Perception check for you and compares the result to the Deception DC of the creature, the DC of a spell affecting the creature's mental state, or another appropriate DC determined by the GM. You typically can't try to Sense the Motive of the same creature again until the situation changes significantly."
 			],
-			"critSuccess": "",
-			"success": "",
-			"critFailure": ""
+			"critSuccess": " You determine the creature’s true intentions and get a solid idea of any mental magic affecting it.",
+			"success": " You can tell whether the creature is behaving normally, but you don’t know its exact intentions or what magic might be affecting it.",
+			"failure": "You detect what a deceptive creature wants you to believe. If they’re not being deceptive, you believe they’re behaving normally.",
+			"critFailure": "You get a false sense of the creature’s intentions."
 		},
 		{
 			"name": "Stand",
@@ -178,10 +224,11 @@
 			"trigger": "",
 			"requirements": "",
 			"text": [
-				""
+				"You stand up from prone."
 			],
 			"critSuccess": "",
 			"success": "",
+			"failure": "",
 			"critFailure": ""
 		},
 		{
@@ -190,12 +237,14 @@
 			"type": "Basic Action",
 			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=87",
 			"trigger": "",
-			"requirements": "",
+			"requirements": "Your Speed is at least 10 feet.",
 			"text": [
-				""
+				"You carefully move 5 feet. Unlike most types of movement, Stepping doesn't trigger reactions, such as Attacks of Opportunity, that can be triggered by move actions or upon leaving or entering a square.",
+				"You can't Step into difficult terrain, and you can't Step using a Speed other than your land Speed."
 			],
 			"critSuccess": "",
 			"success": "",
+			"failure": "",
 			"critFailure": ""
 		},
 		{
@@ -206,10 +255,11 @@
 			"trigger": "",
 			"requirements": "",
 			"text": [
-				""
+				"You move up to your Speed."
 			],
 			"critSuccess": "",
 			"success": "",
+			"failure": "",
 			"critFailure": ""
 		},
 		{
@@ -220,10 +270,11 @@
 			"trigger": "",
 			"requirements": "",
 			"text": [
-				""
+				"You attack with a weapon you're wielding or with an unarmed attack, targeting one creature within your reach (for a melee attack) or within range (for a ranged attack). Roll the attack roll for the weapon or unarmed attack you are using, and compare the result to the target creature's AC to determine the effect. See Attack Rolls and Damage for details on calculating your attack and damage rolls."
 			],
-			"critSuccess": "",
-			"success": "",
+			"critSuccess": "As success, but you deal double damage.",
+			"success": "You deal damage according to the weapon or unarmed attack, including any modifiers, bonuses, and penalties you have to damage.",
+			"failure": "",
 			"critFailure": ""
 		},
 		{
@@ -232,13 +283,30 @@
 			"type": "Basic Action",
 			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=90",
 			"trigger": "",
-			"requirements": "",
+			"requirements": " You are benefiting from cover, are near a feature that allows you to take cover, or are prone.",
 			"text": [
-				""
+				"You press yourself against a wall or duck behind an obstacle to take better advantage of cover. If you would have standard cover, you instead gain greater cover, which provides a +4 circumstance bonus to AC; to Reflex saves against area effects; and to Stealth checks to Hide, Sneak, or otherwise avoid detection. Otherwise, you gain the benefits of standard cover (a +2 circumstance bonus instead). This lasts until you move from your current space, use an attack action, become unconscious, or end this effect as a free action."
 			],
 			"critSuccess": "",
 			"success": "",
+			"failure": "",
 			"critFailure": ""
+		},
+		{
+			"name": "Activate An Item",
+			"page": "532"
+		},
+		{
+			"name": "Arrest A Fall",
+			"page": "472"
+		},
+		{
+			"name": "Avert Gaze",
+			"page": "472"
+		},
+		{
+			"name": "Burrow",
+			"page": "472"
 		},
 		{
 			"name": "Dismiss",
@@ -251,19 +319,12 @@
 			],
 			"critSuccess": "",
 			"success": "",
+			"failure": "",
 			"critFailure": ""
-		},
-		{
-			"name":"Cast a Spell",
-			"page" : "302"
 		},
 		{
 			"name":"Raise a Shield",
 			"page" : "472"
-		},
-		{
-			"name": "Activate An Item",
-			"page": "532"
 		},
 		{
 			"name": "Mount (move)",
@@ -272,10 +333,6 @@
 		{
 			"name": "Sustain a Spell/Activation",
 			"page": "304/534"
-		},
-		{
-			"name": "Avert Gaze",
-			"page": "472"
 		},
 		{
 			"name": "Grab an Edge (manipulate)",
