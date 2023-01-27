@@ -645,76 +645,78 @@
 			"name": "Long Jump (move)",
 			"page": "242",
 			"type": 		"Specialty Action",
-			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=37",
 			"trigger": 		"",
 			"requirements":	"",
 			"text":[
-				""
+				"You Stride, then make a horizontal Leap and attempt an Athletics check to increase the length of your jump. The DC of the Athletics check is equal to the total distance in feet you’re attempting to move during your Leap (so you’d need to succeed at a DC 20 check to Leap 20 feet). You can’t Leap farther than your Speed.",
+				"If you didn’t Stride at least 10 feet, or if you attempt to jump in a different direction than your Stride, you automatically fail your check. This DC might be increased or decreased due to the situation, as determined by the GM."
 			],
 			"critSuccess": 	"",
-			"success": 		"",
-			"failure": 		"",
-			"critFailure": 	""
+			"success": 		"Increase the maximum horizontal distance you Leap to the desired distance.",
+			"failure": 		"You Leap normally.",
+			"critFailure": 	"You Leap normally, but then fall and land prone."
 		},
 		{
 			"name": "Shove (attack)",
 			"page": "243",
 			"type": 		"Specialty Action",
-			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=38",
 			"trigger": 		"",
-			"requirements":	"",
+			"requirements":	"You have at least one hand free. The target can’t be more than one size larger than you.",
 			"text":[
-				""
+				"You push a creature away from you. Attempt an Athletics check against your target's Fortitude DC."
 			],
-			"critSuccess": 	"",
-			"success": 		"",
+			"critSuccess": 	"You push your target up to 10 feet away from you. You can Stride after it, but you must move the same distance and in the same direction.",
+			"success": 		"You push your target back 5 feet. You can Stride after it, but you must move the same distance and in the same direction.",
 			"failure": 		"",
-			"critFailure": 	""
+			"critFailure": 	"You lose your balance, fall, and land prone."
 		},
 		{
 			"name": "Swim (move)",
 			"page": "243",
 			"type": 		"Specialty Action",
-			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=39",
 			"trigger": 		"",
 			"requirements":	"",
 			"text":[
-				""
+				"You propel yourself through water. In most calm water, you succeed at the action without needing to attempt a check. If you must breathe air and you’re submerged in water, you must hold your breath each round. If you fail to hold your breath, you begin to drown. If the water you are swimming in is turbulent or otherwise dangerous, you might have to attempt an Athletics check to Swim.",
+				"If you end your turn in water and haven’t succeeded at a Swim action that turn, you sink 10 feet or get moved by the current, as determined by the GM. However, if your last action on your turn was to enter the water, you don’t sink or move with the current that turn."
 			],
-			"critSuccess": 	"",
-			"success": 		"",
+			"critSuccess": 	"You move through the water 10 feet, plus 5 feet per 20 feet of your land Speed (a total of 15 feet for most PCs).",
+			"success": 		"You move through the water 5 feet, plus 5 feet per 20 feet of your land Speed (a total of 10 feet for most PCs).",
 			"failure": 		"",
-			"critFailure": 	""
+			"critFailure": 	"You make no progress, and if you’re holding your breath, you lose 1 round of air."
 		},
 		{
 			"name": "Trip (attack)",
 			"page": "243",
 			"type": 		"Specialty Action",
-			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=40",
 			"trigger": 		"",
-			"requirements":	"",
+			"requirements":	"You have at least one hand free. Your target can’t be more than one size larger than you.",
 			"text":[
-				""
+				"You try to knock a creature to the ground. Attempt an Athletics check against the target’s Reflex DC."
 			],
-			"critSuccess": 	"",
-			"success": 		"",
+			"critSuccess": 	"The target falls and lands prone and takes 1d6 bludgeoning damage.",
+			"success": 		"The target falls and lands prone.",
 			"failure": 		"",
-			"critFailure": 	""
+			"critFailure": 	"You lose your balance and fall and land prone."
 		},
 		{
 			"name": "Disarm (attack)",
 			"page": "243",
 			"type": 		"Specialty Action",
-			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=41",
 			"trigger": 		"",
-			"requirements":	"",
+			"requirements":	"You have at least one hand free. The target can’t be more than one size larger than you.",
 			"text":[
-				""
+				"You try to knock something out of a creature’s grasp. Attempt an Athletics check against the target’s Reflex DC."
 			],
-			"critSuccess": 	"",
-			"success": 		"",
+			"critSuccess": 	"You knock the item out of the target's grasp. It falls to the ground in the target's space. ",
+			"success": 		"You weaken your target's grasp on the item. Until the start of that creature's turn, attempts to Disarm the target of that item gain a +2 circumstance bonus, and the target takes a –2 circumstance penalty to attacks with the item or other checks requiring a firm grasp on the item.",
 			"failure": 		"",
-			"critFailure": 	""
+			"critFailure": 	"You lose your balance and become flat-footed until the start of your next turn."
 		},
 		{
 			"name": "Create a Diversion",
