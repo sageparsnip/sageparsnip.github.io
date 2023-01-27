@@ -153,6 +153,21 @@ function openOverlays(){
 							if(data.Action[index].trigger != "" && data.Action[index].trigger != undefined) { 
 								var triggerFound = "<b>Trigger: </b>" + data.Action[index].trigger + "<br>"; 
 							} else { var triggerFound = ""; };
+							if(data.Action[index].requirements != "" && data.Action[index].requirements != undefined) { 
+								var requirementFound = "<b>Requirements: </b>" + data.Action[index].requirements + "<br>"; 
+							} else { var requirementFound = ""; };
+							if(data.Action[index].critSuccess != "" && data.Action[index].critSuccess != undefined) { 
+								var critSuccessFound = "<b>Critical Success: </b>" + data.Action[index].critSuccess + "<br>"; 
+							} else { var critSuccessFound = ""; };
+							if(data.Action[index].success != "" && data.Action[index].success != undefined) { 
+								var successFound = "<b>Success: </b>" + data.Action[index].success + "<br>"; 
+							} else { var successFound = ""; };
+							if(data.Action[index].failure != "" && data.Action[index].failure != undefined) { 
+								var failureFound = "<b>Failure: </b>" + data.Action[index].failure + "<br>"; 
+							} else { var failureFound = ""; };
+							if(data.Action[index].critFailure != "" && data.Action[index].critFailure != undefined) { 
+								var critFailureFound = "<b>Critical Failure: </b>" + data.Action[index].critFailure + "<br>"; 
+							} else { var critFailureFound = ""; };
 
 						//actually set the overlay
 						$("#overlay").html(function(k, oldHTML){
@@ -160,8 +175,9 @@ function openOverlays(){
 							"<div class='overlay-header'><a href='" + data.Action[index].aonlink + "'>" + data.Action[index].name + "</a></div>" +
 							"<div class='overlay-page'>p. " + data.Action[index].page + "</div>" +
 							"<div class='overlay-body'>" +
-								triggerFound +  
+								triggerFound +  requirementFound +
 								"<br>" + bodyText + "<br>" + 
+								critSuccessFound + successFound + failureFound + critFailureFound +
 							"</div>"
 						});
 					}
