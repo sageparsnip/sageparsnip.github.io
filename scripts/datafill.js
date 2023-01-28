@@ -116,6 +116,11 @@ function loadJSON(){
 			});
 		};
 	});
+
+	$.getJSON("data/conditions.json", function (data){
+		//JSON file loaded to var "data"
+		console.log("There are " + Object.keys(data.FullList).length + " conditions to be loaded");
+	});
 	hideSections();
 }
 
@@ -199,7 +204,7 @@ function openOverlays(){
 
 function hideSections(){
 	$(document).ready(function(){
-		$('.section-collapse').click(function(){
+		$('.section-header-container').click(function(){
 			console.log("You clicked the collapser for " + this.parentNode.getAttribute("id"));
 			//Get the name of the section we're in.
 			var parentDiv = this.parentNode.getAttribute("id");
@@ -210,6 +215,7 @@ function hideSections(){
 				case "Skill-Actions": showHide = "SkillContainer"; break;
 				case "Exploration-Activities": showHide = "ExplorationContainer"; break;
 				case "Downtime-Activities": showHide = "DowntimeContainer"; break;
+				case "Conditions": showHide = "ConditionsContainer"; break;
 			}
 
 			if($("#" + showHide).css("display") == "block") {

@@ -22,9 +22,11 @@
 	<!--<button onclick="loadJSON()">Click</button>-->
 	<!-- Start of Section 1 -->
 	<div class="section-div" id="Standard-Actions">
-		<div class="section-header"> Standard Actions </div>
-		<div class="section-text">The standard actions that can be taken during combat. </div>
-		<div class="section-collapse"><img src="icons/dropdown.png"></div>
+		<div class="section-header-container">
+			<div class="section-header"> Standard Actions </div>
+			<div class="section-text">The standard actions that can be taken during combat. </div>
+			<div class="section-collapse"><img src="icons/dropdown.png"></div>
+		</div>
 		<div class="grid-container" id="StandardContainer">
 			<!--Basic Actions (Common) -->
 
@@ -52,9 +54,11 @@
 	<br><br>
 	<!-- Start of Section 2 -->
 	<div class="section-div" id="Skill-Actions">
-		<div class="section-header"> Skill Actions </div>
-		<div class="section-text">The skill actions that can be taken during combat.</div>
-		<div class="section-collapse"><img src="icons/dropdown.png"></div>
+		<div class="section-header-container">
+			<div class="section-header"> Skill Actions </div>
+			<div class="section-text">The skill actions that can be taken during combat.</div>
+			<div class="section-collapse"><img src="icons/dropdown.png"></div>
+		</div>
 		<div class="grid-container" id="SkillContainer">
 			<div class="skill-item-grid" id="SkillActions">
 				<!-- Populated by the loadJSON function in datafill.js -->
@@ -65,9 +69,11 @@
 	<br><br>
 	<!-- Start of Section 3 -->
 	<div class="section-div" id="Exploration-Activities">
-		<div class="section-header"> Explation Activities </div>
-		<div class="section-text">The activities that can be taken while exploring.</div>
-		<div class="section-collapse"><img src="icons/dropdown.png"></div>
+		<div class="section-header-container">
+			<div class="section-header"> Explation Activities </div>
+			<div class="section-text">The activities that can be taken while exploring.</div>
+			<div class="section-collapse"><img src="icons/dropdown.png"></div>
+		</div>
 		<div class="grid-container" id="ExplorationContainer">
 
 			<!-- General Exploration -->
@@ -86,11 +92,25 @@
 		</div>
 	</div>
 	<div class="section-div" id="Downtime-Activities">
-		<div class="section-header"> Downtime Activities </div>
-		<div class="section-text">The activities that can be taken during downtime.</div>
-		<div class="section-collapse"><img src="icons/dropdown.png"></div>
+		<div class="section-header-container">
+			<div class="section-header"> Downtime Activities </div>
+			<div class="section-text">The activities that can be taken during downtime.</div>
+			<div class="section-collapse"><img src="icons/dropdown.png"></div>
+		</div>
 		<div class="grid-container" id="DowntimeContainer">
 			<div class="skill-item-grid" id="DowntimeActivities">
+				<!-- Populated by the loadJSON function in datafill.js -->		
+			</div>
+		</div>
+	</div>
+	<div class="section-div" id="Conditions">
+		<div class="section-header-container">
+			<div class="section-header"> Conditions </div>
+			<div class="section-text">The conditions that can apply to characters, NPCs, and objects.</div>
+			<div class="section-collapse"><img src="icons/dropdown.png"></div>
+		</div>
+		<div class="grid-container" id="ConditionsContainer">
+			<div class="skill-item-grid" id="ConditionsGrid">
 				<!-- Populated by the loadJSON function in datafill.js -->		
 			</div>
 		</div>

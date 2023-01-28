@@ -117,10 +117,13 @@ body {
 	background-color: darkslategray;
 }
 
+#Conditions {
+	background-color: indigo;
+}
+
 .section-header {
 	padding: 6px;
 	border-radius: 10px;
-	background-color: inherit;
 	border-color: inherit;
 	font-size: inherit;
 	font-weight: bold;
@@ -143,6 +146,13 @@ body {
 	right: 2%;
 	top: 20px;
 	position: absolute;
+}
+
+.section-header-container {
+	background-color: rgba(255,255,255, 0.05);
+	z-index: 2;
+	border-radius: 16px;
+	margin-bottom: 4px;
 }
 
 .grid-container {
