@@ -221,7 +221,7 @@ function openOverlays(){
 				if(containerName != "ConditionsContainer") {
 					$.getJSON("/data/skillDetails.json", function (data){
 						var index = 0;
-						var keyFound = false;
+						var keyFound = false; 
 						var upperBound = Object.keys(data.Action).length;
 						while(keyFound == false && index < upperBound){
 							if(data.Action[index].name.trim() == actionName){
