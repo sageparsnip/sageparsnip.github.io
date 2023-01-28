@@ -276,7 +276,7 @@ function openOverlays(){
 				}
 				else if (containerName == "ConditionsContainer") {
 					//console.log("I haven't actually defined this yet, sorry");
-					$.getJSON("/data/Conditions.json", function (data){
+					$.getJSON("/data/conditions.json", function (data){
 						var FLindex = 0;
 						var keyFound = false;
 						var upperBound = Object.keys(data.FullList).length;
