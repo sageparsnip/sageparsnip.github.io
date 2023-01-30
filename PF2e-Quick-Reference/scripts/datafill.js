@@ -9,7 +9,7 @@ function consoleTest () {
 
 
 function loadJSON(){
-	$.getJSON("/data/skills.json", function (data){
+	$.getJSON("./data/skills.json", function (data){
 		//JSON file loaded to var "data"
 		console.log("There are " + Object.keys(data.standardCommon).length + " standard, common skills loaded");
 		//Will loop through every element of the "standardCommon" array in the JSON file.
@@ -117,7 +117,7 @@ function loadJSON(){
 		};
 	});
 
-	$.getJSON("data/conditions.json", function (data){
+	$.getJSON("./data/conditions.json", function (data){
 		//JSON file loaded to var "data"
 		console.log("There are " + Object.keys(data.FullList).length + " conditions to be loaded");
 		for(var i = 0; i< Object.keys(data.Senses).length; i++){
@@ -219,7 +219,7 @@ function openOverlays(){
 				//Fill overlay with content
 				
 				if(containerName != "ConditionsContainer") {
-					$.getJSON("/data/skillDetails.json", function (data){
+					$.getJSON("./data/skillDetails.json", function (data){
 						var index = 0;
 						var keyFound = false; 
 						var upperBound = Object.keys(data.Action).length;
@@ -276,7 +276,7 @@ function openOverlays(){
 				}
 				else if (containerName == "ConditionsContainer") {
 					//console.log("I haven't actually defined this yet, sorry");
-					$.getJSON("/data/conditions.json", function (data){
+					$.getJSON("./data/conditions.json", function (data){
 						var FLindex = 0;
 						var keyFound = false;
 						var upperBound = Object.keys(data.FullList).length;
