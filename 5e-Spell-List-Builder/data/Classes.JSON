@@ -1,0 +1,27 @@
+{
+	"Classes":
+	[
+		{
+			"Name": 		"Alchemist",
+			"Subclasses": 	[
+				"Amorist",
+				"Apothecary",
+				"Dynamo Engineer",
+				"Mad Bomber",
+				"Mutagenist",
+				"Ooze Rancher",
+				"Venomsmith",
+				"Xenoalchemist"
+			]
+		},
+		{
+			"Name": 		"Artificer",
+			"Subclasses": 	[
+				"Alchemist",
+				"Armorer",
+				"Artillerist",
+				"Battle Smith"
+			]
+		}
+	]
+}

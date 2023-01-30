@@ -1,0 +1,22 @@
+body{
+	display: flex;
+	flex-direction: column;
+    justify-content: space-around;
+    background-color: black;
+    padding-left: 25px;
+    padding-right: 50px;
+    position: relative;
+    max-width: 800px;
+    padding-top: 20px;
+    margin: auto;
+    color: white;
+}
+
+a {
+	color: white;
+}
+
+select {
+    color: white;
+    font-family: "Cambria";
+}
