@@ -52,14 +52,16 @@
 				"You use all your actions to Strike or cast offensive cantrips, though the GM can have you use other actions to facilitate attack, such as draw a weapon, move so that a target is in reach, and so forth. Your targets are determined randomly by the GM. If you have no other viable targets, you target yourself, automatically hitting but not scoring a critical hit. If it’s impossible for you to attack or cast spells, you babble incoherently, wasting your actions.",
 				"Each time you take damage from an attack or spell, you can attempt a DC 11 flat check to recover from your confusion and end the condition."
 			],
-			"aonlink":"https://2e.aonprd.com/Conditions.aspx?ID=5"
+			"aonlink":"https://2e.aonprd.com/Conditions.aspx?ID=5",
+			"icon":"face-meh-blank"
 		},
 		{"name": "Controlled", 				"type": "Mental State", 	"page": "618",
 			"summary": "Someone else is making your decisions for you.",
 			"text":[
 				"Someone else is making your decisions for you, usually because you’re being commanded or magically dominated. The controller dictates how you act and can make you use any of your actions, including attacks, reactions, or even Delay. The controller usually does not have to spend their own actions when controlling you."
 			],
-			"aonlink":"https://2e.aonprd.com/Conditions.aspx?ID=6"
+			"aonlink":"https://2e.aonprd.com/Conditions.aspx?ID=6",
+			"icon":"gamepad"
 		},
 		{"name": "Fascinated", 				"type": "Mental State", 	"page": "619",
 			"summary": "You are compelled to focus your attention on something.",
@@ -68,21 +70,24 @@
 				"For instance, you might be able to Seek and Recall Knowledge about the subject, but you likely couldn’t cast a spell targeting a different creature.",
 				"This condition ends if a creature uses hostile actions against you or any of your allies."
 			],
-			"aonlink":"https://2e.aonprd.com/Conditions.aspx?ID=14"
+			"aonlink":"https://2e.aonprd.com/Conditions.aspx?ID=14",
+			"icon":"face-grin-hearts"
 		},
 		{"name": "Frightened", 				"type": "Mental State", 	"page": "620",
 			"summary": "You’re gripped by fear and struggle to control your nerves.",
 			"text":[
 				"You’re gripped by fear and struggle to control your nerves. The frightened condition always includes a value. You take a status penalty equal to this value to all your checks and DCs. Unless specified otherwise, at the end of each of your turns, the value of your frightened condition decreases by 1."
 			],
-			"aonlink":"https://2e.aonprd.com/Conditions.aspx?ID=19"
+			"aonlink":"https://2e.aonprd.com/Conditions.aspx?ID=19",
+			"icon":"face-flushed"
 		},
 		{"name": "Stupefied", 				"type": "Mental State", 	"page": "622",
 			"summary": "Your thoughts and instincts are clouded.",
 			"text":[
 				"Your thoughts and instincts are clouded. Stupefied always includes a value. You take a status penalty equal to this value on Intelligence-, Wisdom-, and Charisma-based checks and DCs, including Will saving throws, spell attack rolls, spell DCs, and skill checks that use these ability scores. Any time you attempt to Cast a Spell while stupefied, the spell is disrupted unless you succeed at a flat check with a DC equal to 5 + your stupefied value."
 			],
-			"aonlink":"https://2e.aonprd.com/Conditions.aspx?ID=37"
+			"aonlink":"https://2e.aonprd.com/Conditions.aspx?ID=37",
+			"icon":"circle"
 		}
 	],
 	"Physical State": [
@@ -91,21 +96,24 @@
 			"text":[
 				"Your movements become clumsy and inexact. Clumsy always includes a value. You take a status penalty equal to the condition value to Dexterity-based checks and DCs, including AC, Reflex saves, ranged attack rolls, and skill checks using Acrobatics, Stealth, and Thievery."
 			],
-			"aonlink":"https://2e.aonprd.com/Conditions.aspx?ID=3"
+			"aonlink":"https://2e.aonprd.com/Conditions.aspx?ID=3",
+			"icon":"socks"
 		},
 		{"name": "Encumbered", 				"type": "Physical State", 	"page": "619",
 			"summary": "You are carrying more weight than you can manage.",
 			"text":[
 				"You are carrying more weight than you can manage. While you’re encumbered, you’re clumsy 1 and take a 10-foot penalty to all your Speeds. As with all penalties to your Speed, this can’t reduce your Speed below 5 feet."
 			],
-			"aonlink":"https://2e.aonprd.com/Conditions.aspx?ID=12"
+			"aonlink":"https://2e.aonprd.com/Conditions.aspx?ID=12",
+			"icon":"weight-hanging"
 		},
 		{"name": "Enfeebled", 				"type": "Physical State", 	"page": "619",
 			"summary": "You’re physically weakened.",
 			"text":[
 				"You’re physically weakened. Enfeebled always includes a value. When you are enfeebled, you take a status penalty equal to the condition value to Strength-based rolls and DCs, including Strength-based melee attack rolls, Strength-based damage rolls, and Athletics checks."
 			],
-			"aonlink":"https://2e.aonprd.com/Conditions.aspx?ID=13"
+			"aonlink":"https://2e.aonprd.com/Conditions.aspx?ID=13",
+			"icon":"child-reaching"
 		},
 		{"name": "Fatigued", 				"type": "Physical State", 	"page": "620",
 			"summary": "You’re tired and can’t summon much energy.",
@@ -113,7 +121,8 @@
 				"You’re tired and can’t summon much energy. You take a –1 status penalty to AC and saving throws. While exploring, you can’t choose an exploration activity.",
 				"You recover from fatigue after a full night’s rest."
 			],
-			"aonlink":"https://2e.aonprd.com/Conditions.aspx?ID=15"
+			"aonlink":"https://2e.aonprd.com/Conditions.aspx?ID=15",
+			"icon":"moon"
 		},
 		{"name": "Flat-Footed", 			"type": "Physical State", 	"page": "620",
 			"summary": "You’re distracted or otherwise unable to focus your full attention on defense.",
