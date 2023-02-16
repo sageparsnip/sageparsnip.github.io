@@ -125,6 +125,7 @@ function loadJSON(){
 				//Modify the "Senses" div to reflect the existing data, plus whatever is below.
 				return oldHTML + 
 				"<div class='item'>" +
+					"<div class='skill-item-icon'><i class='fa-solid fa-" + data.Senses[i].icon + "'></i><br></div>" +
 					"<div class='item-header'>" + data.Senses[i].name + "</div>" +
 					"<div class='item-text'>" + data.Senses[i].summary + "</div>" + 
 				"</div>"

@@ -318,7 +318,8 @@
 			"text":[
 				"Your eyes are overstimulated. If vision is your only precise sense, all creatures and objects are concealed from you."
 			],
-			"aonlink":"https://2e.aonprd.com/Conditions.aspx?ID=7"
+			"aonlink":"https://2e.aonprd.com/Conditions.aspx?ID=7",
+			"icon":"snowflake"
 		},
 		{"name": "Deafened", 				"type": "Senses", 			"page": "619",
 			"summary": "You can’t hear.",
