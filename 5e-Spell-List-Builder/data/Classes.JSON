@@ -22,6 +22,367 @@
 				"Artillerist",
 				"Battle Smith"
 			]
+		},
+		{
+			"Name": 		"Barbarian",
+			"Subclasses":	[
+				"Ancestral Guardian",
+				"Battlerager",
+				"Beast",
+				"Berserker",
+				"Colossus",
+				"Fin",
+				"Heavy Metal",
+				"Muscle Wizard",
+				"Rage Mage",
+				"Storm Herald",
+				"Totem Warrior",
+				"Tranquility",
+				"Wild Magic",
+				"Zealot"
+			]
+		},
+		{
+			"Name": 		"Bard",
+			"Subclasses":	[
+				"Cantors",
+				"Creation",
+				"Eloquence",
+				"Glamour",
+				"Graffiti",
+				"Jesters",
+				"Lore",
+				"Mad God",
+				"Masks",
+				"Romance",
+				"Spirits",
+				"Swords",
+				"Valor",
+				"Whispers"
+			]
+		},
+		{
+			"Name": 		"Captain",
+			"Subclasses":	[
+				"Dragon",
+				"Eagle",
+				"Jolly Roger",
+				"Lion",
+				"Ram",
+				"Raven",
+				"Turtle"
+			]
+		},
+		{
+			"Name": 		"Cleric",
+			"Subclasses":	[
+				"Arcana",
+				"Death",
+				"Destruction",
+				"Forge",
+				"Grave",
+				"Knowledge",
+				"Life",
+				"Light",
+				"Madness",
+				"Nature",
+				"Order",
+				"Peace",
+				"Pestilence",
+				"Rum",
+				"Tempest",
+				"Travel",
+				"Trickery",
+				"Twilight",
+				"War",
+				"Wealth"
+			]
+		},
+		{
+			"Name": 		"Craftsman",
+			"Subclasses":	[
+				"Arcane Maesters",
+				"Armigers",
+				"Bladeworkers",
+				"Calibarons",
+				"Forgeknights",
+				"Mechanauts",
+				"Thunderlords",
+				"Trappers"
+			]
+		},
+		{
+			"Name": 		"Druid",
+			"Subclasses":	[
+				"City",
+				"Deep",
+				"Dreams",
+				"Fist",
+				"Land",
+				"Moon",
+				"Shepherd",
+				"Spores",
+				"Stars",
+				"Stones",
+				"Vermin",
+				"Wildfire",
+				"Wyrm"
+			]
+		},
+		{
+			"Name": 		"Fighter",
+			"Subclasses":	[
+				"Arcane Archer",
+				"Battle Master",
+				"Bone Knight",
+				"Brawler",
+				"Cavalier",
+				"Celestial Lancer",
+				"Champion",
+				"Corsair",
+				"Dungeoneer",
+				"Echo Knight",
+				"Eldritch Knight",
+				"Mage Hand Magus",
+				"Psi Warrior",
+				"Purple Dragon Knight",
+				"Rune Knight",
+				"Samurai"
+			]
+		},
+		{
+			"Name": 		"Gunslinger",
+			"Subclasses":	[
+				"Gun Tank",
+				"Gun-Ko Master",
+				"High Roller",
+				"Musketeer",
+				"Pistolero",
+				"Sharpshooter",
+				"Spellslinger",
+				"Trick Shot",
+				"White Hat"
+			]
+		},
+		{
+			"Name": 		"Investigator",
+			"Subclasses":	[
+				"Antiquarian",
+				"Archivist",
+				"Detective",
+				"Exterminator",
+				"Inquisitor",
+				"Medium",
+				"Occultist",
+				"Spy"
+			]
+		},
+		{
+			"Name": 		"Martyr",
+			"Subclasses":	[
+				"Atonement",
+				"Discord",
+				"Mercy",
+				"Rebirth",
+				"Revolution",
+				"The End",
+				"Truth",
+				"Tyranny"
+			]
+		},
+		{
+			"Name": 		"Monk",
+			"Subclasses":	[
+				"Ascendant Dragon",
+				"Astral Self",
+				"Bow",
+				"Drunken Master",
+				"Flagellant",
+				"Four Elements",
+				"Four Fists",
+				"Kensei",
+				"Long Death",
+				"Mask",
+				"Mercy",
+				"Open Hand",
+				"Rose",
+				"Shadow",
+				"Street Fighting",
+				"Sun Soul"
+			]
+		},
+		{
+			"Name": 		"Necromancer",
+			"Subclasses":	[
+				"Blood Ascendant",
+				"Death Knight",
+				"Overlord",
+				"Pale Master",
+				"Pharaoh",
+				"Plague Lord",
+				"Reanimator",
+				"Reaper"
+			]
+		},
+		{
+			"Name": 		"Paladin",
+			"Subclasses":	[
+				"Ancients",
+				"Conquest",
+				"Crown",
+				"Devotion",
+				"Eternal Knight",
+				"Glory",
+				"Heresy",
+				"Oathbreaker",
+				"Redemption",
+				"Revelry",
+				"Storms",
+				"Sun",
+				"Vengeance",
+				"Watchers",
+				"Winter"
+			]
+		},
+		{
+			"Name": 		"Ranger",
+			"Subclasses":	[
+				"Beast Master",
+				"Beastborne",
+				"Drakewarden",
+				"Fey Wanderer",
+				"Freerunner",
+				"Gloom Stalker",
+				"Highwayman",
+				"Horizon Walker",
+				"Hunter",
+				"Monster Slayer",
+				"Spellbreaker",
+				"Swarmkeeper",
+				"Trophy Hunter",
+				"Vigilante"
+			]
+		},
+		{
+			"Name": 		"Rogue",
+			"Subclasses":	[
+				"Arachnoid Stalker",
+				"Arcane Trickster",
+				"Assassin",
+				"Enforcer",
+				"Grifter",
+				"Inquisitive",
+				"Mastermind",
+				"Phantom",
+				"Scout",
+				"Shadow Master",
+				"Soulknife",
+				"Swashbuckler",
+				"Temporal Trickster",
+				"Thief",
+				"Titan Slayer"
+			]
+		},
+		{
+			"Name": 		"Sorcerer",
+			"Subclasses":	[
+				"Aberrant Mind",
+				"Clockwork Soul",
+				"Divine Soul",
+				"Draconic",
+				"Emotion Lord",
+				"Lunar",
+				"Mirrorkin",
+				"Reincarnated Hero",
+				"Shadow",
+				"Spiritborn",
+				"Storm",
+				"Toon Magic",
+				"Wild"
+			]
+		},
+		{
+			"Name": 		"Warden",
+			"Subclasses":	[
+				"Bloodwrath Guardian",
+				"Grey Watchman",
+				"Nightgaunt",
+				"Soulblood Shaman",
+				"Stoneheart Defender",
+				"Storm Sentinel",
+				"Verdant Protector"
+			]
+		},
+		{
+			"Name": 		"Warlock",
+			"Subclasses":	[
+				"Archfey",
+				"Celestial",
+				"Dead Mists",
+				"Fathomless",
+				"Fiend",
+				"Future You",
+				"Genie",
+				"Great Old One",
+				"Hexblade",
+				"The GM",
+				"The Legacy",
+				"The Magician",
+				"The Symbiont",
+				"Undead",
+				"Undying"
+			]
+		},
+		{
+			"Name": 		"Warmage",
+			"Subclasses":	[
+				"Bishop",
+				"Cards",
+				"Dice",
+				"King",
+				"Knight",
+				"Lancer",
+				"Pawn",
+				"Rook"
+			]
+		},
+		{
+			"Name": 		"Witch",
+			"Subclasses":	[
+				"Black",
+				"Blood",
+				"Green",
+				"Purple",
+				"Red", 
+				"Steel",
+				"Tea",
+				"Technicolor",
+				"White"
+			]
+		},
+		{
+			"Name": 		"Wizard",
+			"Subclasses":	[
+				"Abjuration",
+				"Bladesinging",
+				"Chronomancy",
+				"Chronurgy",
+				"Conjuration",
+				"Divination",
+				"Enchantment",
+				"Evocation",
+				"Familiar Master",
+				"Gastromancy",
+				"Graviturgy",
+				"Illusion",
+				"Missile Mage",
+				"Mystic Savant",
+				"Necromancy",
+				"Scribes",
+				"Somnomancy",
+				"Transmutation",
+				"War"
+			]
 		}
 	]
 }

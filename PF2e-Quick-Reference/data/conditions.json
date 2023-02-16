@@ -310,7 +310,8 @@
 				"You are immune to visual effects.",
 				"Blinded overrides dazzled."
 			],
-			"aonlink":"https://2e.aonprd.com/Conditions.aspx?ID=1"
+			"aonlink":"https://2e.aonprd.com/Conditions.aspx?ID=1",
+			"icon":"eye-slash"
 		},
 		{"name": "Dazzled", 				"type": "Senses", 			"page": "619",
 			"summary": "Your eyes are overstimulated.",
@@ -324,7 +325,8 @@
 			"text":[
 				"You can’t hear. You automatically critically fail Perception checks that require you to be able to hear. You take a –2 status penalty to Perception checks for initiative and checks that involve sound but also rely on other senses. If you perform an action with the auditory trait, you must succeed at a DC 5 flat check or the action is lost; attempt the check after spending the action but before any effects are applied. You are immune to auditory effects."
 			],
-			"aonlink":"https://2e.aonprd.com/Conditions.aspx?ID=8"
+			"aonlink":"https://2e.aonprd.com/Conditions.aspx?ID=8",
+			"icon":"ear-deaf"
 		}
 	],
 	"Visibility": [
