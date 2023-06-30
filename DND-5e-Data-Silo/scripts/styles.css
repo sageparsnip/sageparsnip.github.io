@@ -1,0 +1,150 @@
+P {
+	text-align: center;
+	vertical-align: middle;
+	align-items: center;
+}
+
+#dice-roller-container{
+	top:10vh;
+	right:5vh;
+	bottom:0;
+}
+
+.header-row {
+	height: 10vh;
+}
+
+.header-btn {
+	height: 			100%;
+	width:  			100%;
+	display:			flex;
+	justify-content: 	center;
+	align-items: 		center;
+}
+
+.grid-col{
+	max-width: 10rem;
+	text-align: left;
+}
+
+.grid-input{
+	max-width: 100%;
+}
+
+.prof-input{
+	align-items: center;
+}
+
+.clickable{
+	cursor: pointer;
+}
+
+.prof-box{
+	max-width: 100%;
+}
+
+.prof-col{
+	align-items: center;
+}
+
+.stat-col{
+	max-width: 4.73rem;
+	align-items: left;
+}
+
+.playerSelect {
+	height: inherit;
+	width: 100%;
+}
+
+select {
+	height: 100%;
+	width:	100%;
+}
+
+
+
+.custom-button {
+	height: 100%;
+	width: 100%;
+}
+
+.fileInput {
+	height: 100%;
+	width: 	100%;
+	font-size:			1.5rem;
+}
+
+.ImpExpBtn {
+	height: 			100%;
+	width:  			100%;
+	display:			flex;
+	justify-content: 	center;
+	align-items: 		center;
+	font-size:			1.5rem;
+}
+
+.dice-col {
+	padding: 0;
+}
+
+.dice {
+	background-color:	var(--bs-dark);
+	color: 				var(--bs-light);
+	border: 			0px;
+	height: 			100%;
+	width:  			100%;
+	display:			flex;
+	justify-content: 	center;
+	align-items: 		center;;
+}
+
+:root {
+	--bs-primary: #007bff;
+    --bs-secondary: #6c757d;
+    --bs-success: #28a745;
+    --bs-info: #17a2b8;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #343a40;
+    --bs-white: #fff;
+    --bs-black: #000;
+}
+
+body.dark {
+	background-color: var(--bs-dark);
+	color: var(--bs-light);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: var(--bs-light);
+}
+
+.navbar-dark .navbar-brand {
+	color: var(--bs-light);
+}
+
+.bg-dark {
+	background-color: var(--bs-dark) !important;
+}
+
+.btn-primary {
+	background-color: var(--bs-primary);
+	border-color: var(--bs-primary);
+}
+
+.btn-primary:hover {
+	background-color: var(--bs-primary);
+	border-color: var(--bs-primary);
+}
+
+.btn-secondary {
+	background-color: var(--bs-secondary);
+	border-color: var(--bs-secondary);
+}
+
+.btn-secondary:hover {
+	background-color: var(--bs-secondary);
+	border-color: var(--bs-secondary);
+}

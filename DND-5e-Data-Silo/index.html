@@ -1,0 +1,147 @@
+<!DOCTYPE HTML>
+<html lang="en" data-theme="dark">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./scripts/bootstrap.css">
+	<link rel="stylesheet" href="./scripts/styles.css">
+	<title>DND 5e Data Silo</title>
+	<script src="./scripts/jquery-3.6.3.min.js"></script>
+	<script src="./scripts/bootstrap.js"></script>
+	<script src="./scripts/diceRoller.js"></script>
+	<script src="./scripts/homePage.js"></script>
+	<script src="./scripts/characterPage.js"></script>
+	<script src="./scripts/monsterPage.js"></script>
+	<script src="./scripts/draftPage.js"></script>
+	<script src="./scripts/main.js"></script>
+</head>
+<body class="dark">
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="javascript:showHomePage()">DND Data Silo </a>
+    	<ul class="navbar-nav me-auto mb-2 mb-sm-0">
+        	<li class="nav-item">
+        		<a class="nav-link active" aria-current="page" href="javascript:showHomePage()">Home</a>
+        	</li>
+        	<li class="nav-item">
+        		<a class="nav-link" href="javascript:showCharacterPage()">Characters</a>
+        	</li>
+        	<li class="nav-item">
+        		<a class="nav-link" href="javascript:showDraftPage()">Draft</a>
+        	</li>        	
+        	<li class="nav-item">
+        		<a class="nav-link" href="javascript:showMonsterPage()">Monsters</a>
+        	</li>
+    	</ul>
+	</div>
+</nav><br>
+<div class="modal" id="diceRollPopup">
+	<div class="modal-dialog">
+		<div class="modal-content bg-dark">
+			<div class="modal-header text-light">
+				<h5 class="modal-title" id="diceRollPopupHeader">Choose</h5>
+				<button type="button" class="close text-light bg-dark" onclick="hideModal()">&times;</button>
+			</div>
+			<div class="modal-body">
+				<div class="container">
+					<div class="row">
+						<div class="col-4">
+							<div class="form-check">
+								<input class="form-check-input modal-input" type="radio" name="flexRadioDefault" id="RadioSTR">
+								<label class="form-check-label" for="flexRadioDefault">
+									STR
+								</label>
+							</div>
+						</div>
+						<div class="col-4">
+							<div class="form-check">
+								<input class="form-check-input modal-input" type="radio" name="flexRadioDefault" id="RadioDEX">
+								<label class="form-check-label" for="flexRadioDefault">
+									DEX
+								</label>
+							</div>
+						</div>
+						<div class="col-4">
+							<div class="form-check">
+								<input class="form-check-input modal-input" type="radio" name="flexRadioDefault" id="RadioCON">
+								<label class="form-check-label" for="flexRadioDefault">
+									CON
+								</label>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-4">
+							<div class="form-check">
+								<input class="form-check-input modal-input" type="radio" name="flexRadioDefault" id="RadioINT">
+								<label class="form-check-label" for="flexRadioDefault">
+									INT
+								</label>
+							</div>
+						</div>
+						<div class="col-4">
+							<div class="form-check">
+								<input class="form-check-input modal-input" type="radio" name="flexRadioDefault" id="RadioWIS">
+								<label class="form-check-label" for="flexRadioDefault">
+									WIS
+								</label>
+							</div>
+						</div>
+						<div class="col-4">
+							<div class="form-check">
+								<input class="form-check-input modal-input" type="radio" name="flexRadioDefault" id="RadioCHA">
+								<label class="form-check-label" for="flexRadioDefault">
+									CHA
+								</label>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="modal-footer bg-dark">
+				<button type="button" class="btn btn-secondary" onclick="hideModal()">Close</button>
+				<button type="button" class="btn btn-primary" onclick="rollDiceSkillConfirmed(1)">Roll</button>
+				<button type="button" class="btn btn-primary" onclick="rollDiceSkillConfirmed(2)">Roll (Dis)Advantage</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid g-4" style="padding-top: 4rem; width:100%">
+	<div class="row"> 
+		<!-- This is the main content holder -->
+		<div class="col-md-9" id="primary-content">
+			
+		</div>
+		<!--  Dice Roller Section -->
+		<div class="col-md-3 position-fixed" id="dice-roller-container">
+			<h3 style="text-align: center;"> Dice Roller </h3>
+			<br>
+			<p style="text-align: left;"> Your dice rolls will appear below here! To roll a dice, choose from the below dice: </p>
+			<div class="container">
+				<div class="row" style="height:40px;">
+					<div class="col dice-col"><button class="dice" onclick="rollDice('d4')">d4</button></div>
+					<div class="col dice-col"><button class="dice" onclick="rollDice('d6')">d6</button></div>
+					<div class="col dice-col"><button class="dice" onclick="rollDice('d8')">d8</button></div>
+					<div class="col dice-col"><button class="dice" onclick="rollDice('d10')">d10</button></div>
+				</div>
+				<div class="row" style="height:40px;">
+					<div class="col dice-col"><button class="dice" onclick="rollDice('d12')">d12</button></div>
+					<div class="col dice-col"><button class="dice" onclick="rollDice('d20')">d20</button></div>
+					<div class="col dice-col"><button class="dice" onclick="rollDice('d100')">d100</button></div>
+				</div>
+			</div>
+			<br>
+			<div class="container">
+				<div class="row" style="height:40px">
+					<div class="col"><b>Modifier: </b></div>
+					<div class="col"><input id="dice-roller-modifier" class="modal-input" style="width: 40px"></div>
+				</div>
+			</div>
+			<br>
+			<p id="dice-roller-results" style="height:200px; overflow-y:auto;"></p>
+		</div>
+	</div>
+</div>
+</body>
+</html>
