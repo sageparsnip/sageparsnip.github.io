@@ -504,7 +504,7 @@ function createGrid(){
 		<div class="row"><div class="col-12"><hr></div>
 	`;
 
-	////////////////////////////// CLASS/RACIAL/BACKGROUND FEATURES //////////////////////////////
+	////////////////////////////// CLASS/RACIAL/BACKGROUND/DRAFT FEATURES //////////////////////////////
 	loadGrid += `
 		<div class="row features" style="padding:0.5rem">
 			<div class="col-1" style="padding:0"><h6>Class Features</h6></div>
@@ -519,6 +519,11 @@ function createGrid(){
 		<div class="row features" style="padding:0.5rem">
 			<div class="col-1" style="padding:0"><h6>Racial & Background Features</h6></div>
 			<div class="col-11" style="padding:0"><textarea class="charSave featureBox" id="Racial-Background Features" rows="3" style="width:100%"></textarea></div>
+		</div>
+		<br>
+		<div class="row features" style="padding:0.5rem">
+			<div class="col-1" style="padding:0"><h6>Draft Notes</h6></div>
+			<div class="col-11" style="padding:0"><textarea class="charSave featureBox" id="Draft Notes" rows="1" style="width:100%"></textarea></div>
 		</div>
 		</div></div>
 		<div class="row" style="padding:0"><div class="col-12"><hr></div></div>

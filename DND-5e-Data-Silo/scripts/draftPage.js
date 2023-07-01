@@ -1,13 +1,64 @@
 function showDraftPage() {
 	const ContentDiv = document.getElementById("primary-content");
 	ContentDiv.innerHTML = `
-		<!-- Add JS to populate savedCharacters select element here -->
+		<div class="modal" id="draftRulesPopup">
+			<div class="modal-dialog-scrollable">
+				<div class="modal-content bg-dark">
+					<div class="modal-header text-light">
+						<h5 class="modal-title" id="diceRollPopupHeader">Draft Rules</h5>
+						<button type="button" class="close text-light bg-dark" onclick="hideDraftModal()">&times;</button>
+					</div>
+					<div class="modal-body">
+						<div class="container">
+							<!--Main Draft rules go here! -->
+							<p style="text-align:justify">
+								There are two main ways of running a draft: DM-lead, and DM-less. I recommend using DM-led where there are an odd number of players, and DM-less where you have an even number.<br>
+								In a DM-lead draft, one player is selected as the DM, who will act as a referee on rule calls. In a DM-less draft, there is no referee, and judgments are made by consensus. DM-less is a little tougher, as consensus may be harder to come by in a PVP setting - make it clear at the start that rules must be enforced fairly.<br>
+								<br>After deciding the setup, decide on the number of teams and players per team. It is recommended to have an equal number of players per team.<br>
+								Input your choices into the select dropdowns, and press "Generate Teams".<br>
+								If you are choosing team members manually, list them in their respective teams. If not, assign a player to each dropdown, and hit "Shuffle". Once assigned, hit "Create Draft".<br>
+								At this stage, we're onto the veto-and-lock stage. Alternate vetos and locks as follows: <br>
+								Stage 1: Veto: Each team captain gets to call a veto on one character on each other team. Once vetos are called, moved to stage 2.<br>
+								Stage 2: Lock: Each team captain gets to lock one of their own characters as "chosen" for the combat. <br>
+								(if desired, you can enforce more or less vetos per round - agree on this beforehand!)<br>
+								Repeat these stages until all necessary characters are locked. Note that, if multiple characters are being played per player, captains may not lock such that a player cannot choose a character.<br>
+								If you're struggling to select characters, feel free to click on the various characters to view what is listed under "Draft Notes" for that character.<br>
+								Have fun!
+							</p>
+						</div>
+					</div>
+					<div class="modal-footer bg-dark">
+						<button type="button" class="btn btn-primary" onclick="hideDraftModal()">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal" id="characterDraftNotes">
+			<div class="modal-dialog">
+				<div class="modal-content bg-dark">
+					<div class="modal-header text-light">
+						<h5 class="modal-title" id="characterDraftNotesPopupHeader"></h5>
+						<button type="button" class="close text-light bg-dark" onclick="hideDraftCharacterModal()">&times;</button>
+					</div>
+					<div class="modal-body">
+						<div class="container">
+							<!--Character Notes go here! -->
+							<p style="text-align:justify" id="characterDraftNotesPopupBody"></p>
+						</div>
+					</div>
+					<div class="modal-footer bg-dark">
+						<button type="button" class="btn btn-primary" onclick="hideDraftCharacterModal()">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
 		<div class="container">
 			<h6 style="text-align:center"> 
-				Welcome to the DND Draft!
-				This page will function as a means of creating a draft that can then be played via 5eTools.<br>
-				The options presented for the teams are provided via the Characters JSON file in local storage; this can be loaded on the homepage.<br>
-				Let's start by defining the size of the teams!
+				<b>Welcome to the DND Draft!</b><br>
+				This page will function as a means of creating a draft that can then be played via your preferred VTT.<br>
+				The options presented for the teams are provided via the Characters JSON file in local storage.<br>
+				To load these, head to the homepage.<br>
+				<h6 onclick="showDraftModal()" style="text-align:center; font-weight:bold; cursor:pointer">Please click here to learn how to use this page!</h6>
 			</h6>
 			<hr>
 		</div>
@@ -185,10 +236,10 @@ function createDraft(){
 			for(let charNum=0;charNum < characterData["characters"].length;charNum++){
 				if(characterData["characters"][charNum]["Player"] == $(`#team${teamNum}Player${playerNum}`).val()){
 					var charName = characterData["characters"][charNum]["Name"];
-					console.log(charName + " is a character for " + playerName);
+					//console.log(charName + " is a character for " + playerName); //This was just for testing.
 					HTMLToAdd += `
 						<div class="row">
-						<div class="col-8"><h6>${charName}</h6></div>
+						<div class="col-8" onclick="showDraftCharacterModal(this)"><h6>${charName}</h6></div>
 						<div class="col-2"><input type="checkbox" onclick="vetoClick(this)" /></div>
 						<div class="col-2"><input type="checkbox" onclick="lockClick(this)" /></div>
 						</div>
@@ -233,7 +284,48 @@ function lockClick(buttonRef){
 	}
 }
 
+function hideDraftModal() {
+	var modal = document.getElementById("draftRulesPopup");
+	modal.style.display = "none";
+}
 
+function showDraftModal(){
+	var modal = document.getElementById("draftRulesPopup");
+  modal.style.display = "block";
+}
+
+function hideDraftCharacterModal(){
+	var modal = document.getElementById("characterDraftNotes");
+	modal.style.display = "none";
+}
+
+function showDraftCharacterModal(characterClick){
+	var searchName = characterClick.childNodes[0].innerHTML;
+	var characterData = JSON.parse(localStorage.getItem("characterData"));
+	//Set the modal's title to this character's name.
+	document.getElementById("characterDraftNotesPopupHeader").innerHTML = searchName;
+	//Set the modal's content to the character's Draft Notes.
+	var content = document.getElementById("characterDraftNotesPopupBody");
+	var foundChar = false;
+	var i = 0;
+	while(!foundChar && i<characterData["characters"].length){
+		//Look for the character selected in the characterData.
+		if(characterData["characters"][i]["Name"] == searchName){
+			foundChar = true;
+		}
+		else{
+			i++;
+		}
+	}
+	if(foundChar && characterData["characters"][i]["Draft Notes"] != "undefined"){
+		content.innerHTML = characterData["characters"][i]["Draft Notes"];
+	}
+	else{
+		content.innerHTML = "No data found";
+	}
+	var modal = document.getElementById("characterDraftNotes");
+  modal.style.display = "block";
+}
 
 function shuffle(array) {
   //FUNCTION OBTAINED FROM https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
