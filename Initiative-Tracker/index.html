@@ -20,6 +20,24 @@
 		<a class="navbar-brand" href="javascript:resetPage()">Initiative Tracker </a>
 	</div>
 </nav>
+<div class="modal" id="actorModal">
+	<div class="modal-dialog">
+		<div class="modal-content bg-dark">
+			<div class="modal-header text-light">
+				<h5 class="modal-title" id="diceRollPopupHeader">Actor Editor</h5>
+				<button type="button" class="close text-light bg-dark" onclick="hideActorModal()">&times;</button>
+			</div>
+			<div class="modal-body">
+			</div>
+
+			<div class="modal-footer bg-dark">
+				<button type="button" class="btn btn-secondary" onclick="hideActorModal()">Close</button>
+				<button type="button" class="btn btn-primary" onclick="saveCharacter()">Save Character</button>
+				<button type="button" class="btn btn-primary" onclick="deleteCharacter()">Delete Character</button>
+			</div>
+		</div>
+	</div>
+</div>
 <div class="container-fluid g-4" style="padding-top: 4rem; width:100%">
 	<div class="row"> 
 		<!-- This is the main content holder -->
@@ -68,6 +86,8 @@
 			<p id="dice-roller-results" style="height:200px; overflow-y:auto;"></p>
 		</div>
 	</div>
+</div>
+<div class="modal" id="newActorModal">
 </div>
 </body>
 </html>
