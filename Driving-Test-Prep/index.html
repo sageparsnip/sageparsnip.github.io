@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="en" data-theme="dark">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./scripts/bootstrap.css">
+	<link rel="stylesheet" href="./styles.css">
+	<title>Irish Driving Test Prep</title>
+	<script src="./scripts/jquery-3.6.3.min.js"></script>
+	<script src="./scripts/bootstrap.js"></script>
+	<script>
+		//import questions from './data/questions.json' assert {type: 'json'};
+
+		function SeeQuestions(){
+			console.log("See Questions!");
+			var contentDiv = document.getElementById("content-main");
+			var content = '<table style="border:solid 1px white"><tr><th>Question</th><th>Answer</th></tr>';
+
+			$.getJSON('data/questions.JSON', function(data){
+				//console.log(data);
+				data["Pre-Test Questions"].forEach(function(pair) {
+					content += `<tr style="border:solid 1px white"><td>${pair["Question"]}</td><td>${pair["Answer"]}</td><tr>`
+				})
+				content += `</table>`;
+				contentDiv.innerHTML = content;
+			});
+
+			//
+
+			//Finally, put content into the content space.
+			
+		}
+	</script>
+</head>
+<body class="bg-dark text-light">
+	<div id="main-container" class="container-fluid g-4 bg-dark">
+		<h5>Welcome!</h5>
+		<p>I'm putting this page together to test myself on aspects of the practical (NOT THEORY) test in Ireland. Feel free to use this to test yourself! Refresh the page to return to this screen.</p>
+		<br>
+		<div class="row" id="content-main">
+			<div class="col-3">
+				<a onClick="SeeQuestions()"><h4>See Questions</h4></a>
+			</div>
+			<div class="col-3">
+				<h4>Test Questions [NOT IMPLEMENTED]</h4>
+			</div>
+			<div class="col-3">
+				<h4>See Road Signs [NOT IMPLEMENTED]</h4>
+			</div>
+			<div class="col-3">
+				<h4>Test Road Signs [NOT IMPLEMENTED]</h4>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

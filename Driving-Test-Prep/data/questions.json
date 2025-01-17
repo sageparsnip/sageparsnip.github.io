@@ -1,0 +1,208 @@
+{
+	"Pre-Test Questions": [
+		{
+			"Question":"When can you overtake on the left?",
+			"Answer":"You can overtake on the left when: the vehicle ahead is turning right, if you are turning left immediately after overtaking, or in slow moving lanes of traffic."
+		},
+		{
+			"Question":"At an uncontrolled junction of equal importance, to whom would you give the right of way?",
+			"Answer":"Traffic on your right or traffic already in the junction."
+		},
+		{
+			"Question":"What is a box junction and what rules apply?",
+			"Answer":"Area marked with criss-cross yellow lines meaning you may not enter unless your exit is clear. You may wait in the junction if you are turning right provided you would not cause an obstruction."
+		},
+		{
+			"Question":"What is a clearway?",
+			"Answer":"An area at the side of the road where you may not stop or park during the times listed except for buses or taxis."
+		},
+		{
+			"Question":"When should you dip your headlights?",
+			"Answer":"Oncoming traffic, behind another vehicle, in a well lit area, in dense fog or falling snow, and at the beginning and end of the lighting hour."
+		},
+		{
+			"Question":"What is a safe distance to travel behind another vehicle?",
+			"Answer":"Always allow a gap of 2 seconds between the vehicles and double in wet weather."
+		},
+		{
+			"Question":"What is the minimum depth of thread on a tyre?",
+			"Answer":"1.6 millimeters (1 millimeter for motor cycles and vintage cars)."
+		},
+		{
+			"Question":"What is the legal parking distance from the kerb?",
+			"Answer":"Within 45cms."
+		},
+		{
+			"Question":"What is the legal parking distance from a junction?",
+			"Answer":"5 metres."
+		},
+		{
+			"Question":"What regulations apply to the use of a horn?",
+			"Answer":"Do not use the horn in a built up area between 11.30PM and 07:00AM except in an emergency."
+		},
+		{
+			"Question":"What does an amber traffic light mean?",
+			"Answer":"Stop if you can safely do so."
+		},
+		{
+			"Question":"What does a red traffic light mean?",
+			"Answer":"Stop."
+		},
+		{
+			"Question":"What does a green traffic light mean?",
+			"Answer":"Proceed with caution if it is safe to do so."
+		},
+		{
+			"Question":"What does a flashing amber traffic light mean?",
+			"Answer":"Proceed if the crossing is clear, but pedestrians still have the right of way."
+		},
+		{
+			"Question":"What does flashing red lights mean?",
+			"Answer":"Stop, train approaching."
+		},
+		{
+			"Question":"What does a continuous white line/lines in the middle of the road mean?",
+			"Answer":"You must not cross the line/lines or park opposite."
+		},
+		{
+			"Question":"What does a continuous white line with a broken white line alongside mean?",
+			"Answer":"Overtaking allowed on the broken side only."
+		},
+		{
+			"Question":"What does a continuous yellow line at the side of the road mean?",
+			"Answer":"No parking during certain hours."
+		},
+		{
+			"Question":"What do double continuous yellow lines mean?",
+			"Answer":"No parking at any time."
+		},
+		{
+			"Question":"What does a broken yellow line mean?",
+			"Answer":"It marks the edge of the road or hard shoulder."
+		},
+		{
+			"Question":"What do white zigzag lines mean and where would you see them?",
+			"Answer":"No stopping, no parking or overtaking on approach to a pedestrian crossing."
+		},
+		{
+			"Question":"How would you know you were entering a one-way street from the wrong end?",
+			"Answer":"No entry sign, no entry on road and continuous white line with a broken white line behind."
+		},
+		{
+			"Question":"Where would you stop if a stop sign did not have a white line?",
+			"Answer":"At the sign."
+		},
+		{
+			"Question":"Give examples of where you should not park.",
+			"Answer":"Brow of a hill, hump back bridge, near a bend, near a junction, obstructing a road sign, at a bus stop, at an entrance, opposite another vehicle on a narrow road, at a taxi rank, opposite a single or double continuous white line, in a bus lane, or on a footpath."
+		},
+		{
+			"Question":"What should you do if you had an accident?",
+			"Answer":"Stop."
+		},
+		{
+			"Question":"What does the island in the centre of a pedestrian crossing mean?",
+			"Answer":"Each side of the island is a separate crossing."
+		},
+		{
+			"Question":"When can you drive in the hard shoulder?",
+			"Answer":"Temporarily to let someone overtake providing the hard shoulder is clear."
+		},
+		{
+			"Question":"What is the maximum distance allowed between the drawing vehicle and trailer or vehicle being towed?",
+			"Answer":"A distance of no more than 4.5 meters."
+		},
+		{
+			"Question":"When towing if the distance between the vehicles is more than 1.5 metres what procedure must be followed?",
+			"Answer":"A warning device such as a white flag or at least 30 square centimetre must be placed to draw attention to the tow bar or rope."
+		},
+		{
+			"Question":"You may not park within what distance of a pedestrian crossing?",
+			"Answer":"15 metres before or 5 metres after."
+		},
+		{
+			"Question":"What procedure must you adopt if crossing a dual carriageway with a narrow central median?",
+			"Answer":"If the median is too narrow for your vehicle you must wait until you can complete the crossing."
+		},
+		{
+			"Question":"What is the main difference between a motor way and a dual carriageway?",
+			"Answer":"You can only turn off to the left, there is no right turning traffic, speed limits, no stopping, no traffic lights, and no roundabouts."
+		},
+		{
+			"Question":"What would you look out for on country roads?",
+			"Answer":"Pedestrians, animals, muddy surfaces, concealed entrances, slow moving farm machinery, etc."
+		},
+		{
+			"Question":"What is the maximum speed limit on a motorway?",
+			"Answer":"120kph."
+		},
+		{
+			"Question":"When being overtaken what must you not do?",
+			"Answer":"Increase your speed."
+		},
+		{
+			"Question":"How would you recognise a zebra crossing at night?",
+			"Answer":"By the yellow flashing beacons."
+		},
+		{
+			"Question":"What position would you take up to make a right turn out of a one-way street?",
+			"Answer":"The extreme right lane."
+		},
+		{
+			"Question":"Where would you never do a U-turn?",
+			"Answer":"In a one-way street, where there is a continuous white line, or where a sign directs you not to do so."
+		},
+		{
+			"Question":"What is a contra flow bus lane?",
+			"Answer":"A bus lane running in the opposite direction to the traffic which may never be used by other vehicles."
+		},
+		{
+			"Question":"What is a with flow bus lane?",
+			"Answer":"A bus lane running in the same direction as traffic and may not be used at certain times of day."
+		},
+		{
+			"Question":"What is meant by tailgating?",
+			"Answer":"Driving too close to the vehicle in front; i.e. not keeping the stopping distance."
+		},
+		{
+			"Question":"What are the main factors that can affect your driving?",
+			"Answer":"Alcohol, drugs (prescription and non prescription), tiredness and fatigue, road rage, and other forms of aggression."
+		},
+		{
+			"Question":"When may you use the outside lane of a dual carriageway?",
+			"Answer":"When overtaking or when intending to turn right a short distance ahead."
+		},
+		{
+			"Question":"What does a red triangle indicate?",
+			"Answer":"Dangerous hazard i.e. accident or vehicle breakdown."
+		},
+		{
+			"Question":"What is coasting and why is it potentially dangerous?",
+			"Answer":"Coasting is when the vehicle is not being driven by the engine, i.e. the clutch pedal is held down or the gear level is in neutral. It is dangerous because it reduces the driver’s control of the vehicle, particularly breaking and steering. Also, if anything unexpected happened it could be difficult to engage gear."
+		},
+		{
+			"Question":"How far away from a pedestrian crossing must you be if you are crossing the road without using the crossing?",
+			"Answer":"Not within the white zigzag lines or in their absence 15 metres form the crossing."
+		},
+		{
+			"Question":"Seat belts – who is responsible?",
+			"Answer":"The driver is responsible for themselves and any passengers under the age of 17; all passengers over the age of 16 are responsible for themselves."
+		},
+		{
+			"Question":"Where should you not overtake? Give examples.",
+			"Answer":"At a bend, the brow of a hill, a humpback bridge, at a continuous white line, at a pedestrian crossing, or anywhere your view is obstructed."
+		},
+		{
+			"Question":"What must you check before starting the engine?",
+			"Answer":"Check that the handbrake is on and the vehicle is in neutral."
+		},
+		{
+			"Question":"What colour traffic light follows amber?",
+			"Answer":"Red."
+		},
+		{
+			"Question":"What is the national speed limit of Ireland?",
+			"Answer":"100kph."
+		}
+	]
+}
