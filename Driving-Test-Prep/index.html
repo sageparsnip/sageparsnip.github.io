@@ -8,7 +8,28 @@
 	<script src="./scripts/jquery-3.6.3.min.js"></script>
 	<script src="./scripts/bootstrap.js"></script>
 	<script>
+		function shuffle(array) {
+			let currentIndex = array.length;
+
+			// While there remain elements to shuffle...
+			while (currentIndex != 0) {
+
+			  // Pick a remaining element...
+			  let randomIndex = Math.floor(Math.random() * currentIndex);
+			  currentIndex--;
+
+			  // And swap it with the current element.
+			  [array[currentIndex], array[randomIndex]] = [
+			    array[randomIndex], array[currentIndex]];
+			}
+			return array;
+		}
 		//import questions from './data/questions.json' assert {type: 'json'};
+		var questionLog = []
+		for(let i=0;i<51;i++){
+			questionLog.push(i+1);
+		}
+		shuffle(questionLog); //Randomise question order.
 
 		function SeeQuestions(){
 			console.log("See Questions!");
@@ -22,12 +43,48 @@
 				})
 				content += `</table>`;
 				contentDiv.innerHTML = content;
+			});	
+		}
+
+		function ShowAnswer(para){
+			para.style = "background-color:dark-grey";
+		}
+
+		function TestQuestions(){
+			console.log("Test Questions!");
+			var contentDiv = document.getElementById("content-main");
+
+			//Idea is to blank what is currently in the page, and replace with 2 things:
+			//1: A randomly drawn question (already shuffled) is pulled and displayed.
+			//2: The answer is displayed below, in a grey-box to hide it that shows on click.
+			//There should also be a button to go to next question.
+			var content = '';
+			content += `
+				<table style="padding-left:2rem;padding-right:2rem;padding-top:2rem">
+					<td style="max-width: 5rem; min-width: 5rem;padding-left:2rem;padding-right:2rem;padding-top:2rem"><p id="TableQuestion">Question</td>
+					<td style="max-width: 5rem; min-width: 5rem;padding-left:2rem;padding-right:2rem;padding-top:2rem"><p id="TableAnswer" style="background-color:#aaa; color:#aaa" onclick="ShowAnswer(this)">Show Answer</td>
+					<td style="max-width: 5rem; min-width: 5rem; position: fixed; top: 0px; right: 0px;"><button onclick="NextQuestion()">Next Question</button></td>
+				</table>
+			`;
+			contentDiv.innerHTML = content;
+			NextQuestion();
+		}
+
+		function NextQuestion(){
+			var questionPara = document.getElementById("TableQuestion");
+			var answerPara = document.getElementById("TableAnswer");
+			answerPara.style = "background-color:#aaa; color:#aaa";
+
+			var nextQ = questionLog.pop();
+			//We now know the index of our next question - time to find it in the JSON!
+
+			$.getJSON('./data/questions.json', function(data){
+				//console.log(data);
+				var question = data["Pre-Test Questions"][nextQ-1]["Question"];
+				var answer = data["Pre-Test Questions"][nextQ-1]["Answer"];
+				answerPara.innerHTML = answer;
+				questionPara.innerHTML = question;
 			});
-
-			//
-
-			//Finally, put content into the content space.
-			
 		}
 	</script>
 </head>
@@ -41,7 +98,7 @@
 				<a onClick="SeeQuestions()"><h4>See Questions</h4></a>
 			</div>
 			<div class="col-3">
-				<h4>Test Questions [NOT IMPLEMENTED]</h4>
+				<a onClick="TestQuestions()"><h4>Test Questions</h4></a>
 			</div>
 			<div class="col-3">
 				<h4>See Road Signs [NOT IMPLEMENTED]</h4>
