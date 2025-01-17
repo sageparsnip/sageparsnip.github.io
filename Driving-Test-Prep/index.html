@@ -18,7 +18,7 @@
 			$.getJSON('./data/questions.json', function(data){
 				//console.log(data);
 				data["Pre-Test Questions"].forEach(function(pair) {
-					content += `<tr style="border:solid 1px white"><td>${pair["Question"]}</td><td>${pair["Answer"]}</td><tr>`
+					content += `<tr style="border:solid 1px white"><td style="padding-left: 8px; padding-right: 8px; padding-top: 2px; padding-bottom: 2px">${pair["Question"]}</td><td style="padding-left: 8px; padding-right: 8px; padding-top: 2px; padding-bottom: 2px">${pair["Answer"]}</td><tr>`
 				})
 				content += `</table>`;
 				contentDiv.innerHTML = content;
