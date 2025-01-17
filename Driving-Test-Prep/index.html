@@ -15,7 +15,7 @@
 			var contentDiv = document.getElementById("content-main");
 			var content = '<table style="border:solid 1px white"><tr><th>Question</th><th>Answer</th></tr>';
 
-			$.getJSON('./data/questions.JSON', function(data){
+			$.getJSON('./data/questions.json', function(data){
 				//console.log(data);
 				data["Pre-Test Questions"].forEach(function(pair) {
 					content += `<tr style="border:solid 1px white"><td>${pair["Question"]}</td><td>${pair["Answer"]}</td><tr>`
