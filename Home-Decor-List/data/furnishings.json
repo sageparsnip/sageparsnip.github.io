@@ -1,0 +1,34 @@
+{
+	"bedroom": [
+		{
+			"item": "Small Double Bed /w Storage",
+			"source": "Love Furniture",
+			"link": "https://www.lovefurniture.ie/fusion-storage-small-double-bed-4ft-brown",
+			"price": "€166"
+		}
+		
+	],
+	"bathroom":[
+		
+	],
+	"livingroom":[
+		{
+			"item": "3-Seater Sofa",
+			"source": "Love Furniture",
+			"link": "https://www.lovefurniture.ie/brody-fabric-recliner-3-seater-sofa-light-grey",
+			"price": "€760"
+		},
+		{
+			"item": "Floating Shelves",
+			"source": "IKEA",
+			"link": "https://www.ikea.com/ie/en/p/fryksas-wall-shelf-rattan-10549348/",
+			"price": "€29"
+		}
+	],
+	"diningroom":[
+		
+	],
+	"kitchen":[
+		
+	]
+}
