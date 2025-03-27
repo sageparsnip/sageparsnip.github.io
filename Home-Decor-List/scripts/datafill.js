@@ -167,24 +167,29 @@ function hideModalOverlay(){
 function hideSections(){
 	$(document).ready(function(){
 		$('.section-header-container').click(function(){
-			console.log("You clicked the collapser for " + this.parentNode.getAttribute("id"));
-			//Get the name of the section we're in.
 			var parentDiv = this.parentNode.getAttribute("id");
+			console.log("You clicked the collapser for " + parentDiv);
+			//Get the name of the section we're in.
+			//console.log(parentDiv);
 			var showHide = "";
 			//Decide which of the grid containers to hide/show based on above
 			switch(parentDiv) {
-				case "Standard-Actions": showHide = "StandardContainer"; break;
-				case "Skill-Actions": showHide = "SkillContainer"; break;
-				case "Exploration-Activities": showHide = "ExplorationContainer"; break;
-				case "Downtime-Activities": showHide = "DowntimeContainer"; break;
-				case "Conditions": showHide = "ConditionsContainer"; break;
+				case "Standard-Actions": showHide = "#StandardContainer"; break;
+				case "Things-To-Acquire": showHide = "#ThingsContainer"; break;
+				case "Exploration-Activities": showHide = "#ExplorationContainer"; break;
+				case "Downtime-Activities": showHide = "#DowntimeContainer"; break;
+				case "Conditions": showHide = "#ConditionsContainer"; break;
 			}
+			
+			if(parentDiv == "Things-To-Acquire"){
+				showHide = "#ThingsContainer";
+			};
 
-			if($("#" + showHide).css("display") == "block") {
-				$("#" + showHide).css("display", "none");
+			if($(showHide).css("display") == "block") {
+				$(showHide).css("display", "none");
 			}
-			else if($("#" + showHide).css("display") == "none") {
-				$("#" + showHide).css("display", "block");
+			else if($(showHide).css("display") == "none") {
+				$(showHide).css("display", "block");
 			};
 
 		});
