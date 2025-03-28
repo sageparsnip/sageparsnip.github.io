@@ -82,8 +82,9 @@
                 let dataHeader  = "";
                 let dataFooter  = "";
                 if (item.category === "Thedes Letters") {
-                    previewInfo = `<p><strong>From:</strong> ${item.from}</p>
-                    			   <p><strong>To:</strong> ${item.to}</p>`;
+                    previewInfo = `<p><strong>#${item.index}</p>
+                                  <p><strong>From:</strong> ${item.from}</p>
+                    			  <p><strong>To:</strong> ${item.to}</p>`;
                     dataFooter = `<p><strong>From:</strong> ${item.from}</p>`;
                     dataHeader = `<p><strong>To:</strong> ${item.to}</p>`;
                 } else if (item.category === "People") {
