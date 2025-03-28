@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet"      href="./scripts/bootstrap.css">
+	<link rel="text/javascript" href="./scripts/bootstrap.js">
+	<script src="./scripts/jquery-3.6.0.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SOGGY DND Data Viewer</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: white;
+        }
+        .container {
+            display: flex;
+            gap: 20px;
+        }
+        .filter-panel {
+            width: 25%;
+            overflow-y: auto;
+            max-height: 90vh;
+        }
+        .content-panel {
+            width: 75%;
+            border-left: 2px solid #444;
+            padding-left: 20px;
+        }
+        .card {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <div class="filter-panel">
+            <h4>Filter</h4>
+            <select id="category" class="form-select mb-3">
+                <option value="">Select Category</option>
+                <option value="Thedes Letters">Thedes Letters</option>
+                <option value="New Limnsworth Dossier">New Limnsworth Dossier</option>
+            </select>
+            <input type="text" id="search" class="form-control mb-3" placeholder="Search tags...">
+            <div id="card-container" class="mt-3">
+                <!-- Cards will be injected here dynamically -->
+            </div>
+        </div>
+        <div class="content-panel">
+            <h4>Details</h4>
+            <div id="detail-view">Select an item to view details.</div>
+        </div>
+    </div>
+
+    <script>
+    	let jsonData = [];
+        // Sample JSON data representing letters and people
+        function loadJsonData() {
+            $.getJSON("data/data.json", function(data) {
+                jsonData = data["cards"];
+                renderCards(); // Initial render after loading data
+            }).fail(function() {
+                console.error("Failed to load JSON data.");
+            });
+        }
+
+        // Function to render filtered cards in the left panel
+        function renderCards() {
+            const selectedCategory = $("#category").val();
+            const searchQuery = $("#search").val().toLowerCase();
+            
+            // Filter JSON data based on selected category and search input
+            const filteredData = jsonData.filter(item => 
+                (!selectedCategory || item.category === selectedCategory) &&
+                (!searchQuery || item.meta.toLowerCase().includes(searchQuery))
+            );
+
+            $("#card-container").empty(); // Clear existing cards
+            
+            // Loop through filtered data and create cards
+            filteredData.forEach(item => {
+                let previewInfo = "";
+                let dataHeader  = "";
+                let dataFooter  = "";
+                if (item.category === "Thedes Letters") {
+                    previewInfo = `<p><strong>From:</strong> ${item.from}</p>
+                    			   <p><strong>To:</strong> ${item.to}</p>`;
+                    dataFooter = `<p><strong>From:</strong> ${item.from}</p>`;
+                    dataHeader = `<p><strong>To:</strong> ${item.to}</p>`;
+                } else if (item.category === "People") {
+                    previewInfo = `<p><strong>Full Name:</strong> ${item.fullName}</p>
+                                   <p><strong>Address:</strong> ${item.address}</p>
+                                   <p><strong>DOB:</strong> ${item.dob}</p>`;
+                    dataHeader = ""; //Define New Limnian data headers here.
+                    dataFooter = ""; //Define New Limnian data footer here.
+                }
+                
+                // Append card to the left panel
+                let dataContent = item.content.replace(/"/g, '&quot;');
+                $("#card-container").append(`
+                    <div class="card text-white bg-dark mb-3" data-content="${dataContent}" data-header="${dataHeader}" data-footer="${dataFooter}">
+                        <div class="card-body">
+                            ${previewInfo}
+                        </div>
+                    </div>
+                `);
+            });
+        }
+
+        $(document).ready(() => {
+        	loadJsonData();
+
+            // Trigger card rendering when category or search input changes
+            $("#category, #search").on("input change", renderCards);
+            
+            // Event listener for clicking on a card to display full details
+            $(document).on("click", ".card", function() {
+                const content = $(this).attr("data-header") + "<p>" +  $(this).attr("data-content") + "</p>" + $(this).attr("data-footer");
+                $("#detail-view").html(`${content.replace(/\n/g, '<br>')}`);
+            });
+        });
+    </script>
+</body>
+</html>
