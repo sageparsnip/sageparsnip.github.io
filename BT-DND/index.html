@@ -55,7 +55,7 @@
     	let jsonData = [];
         // Sample JSON data representing letters and people
         function loadJsonData() {
-            $.getJSON("data/data.json", function(data) {
+            $.getJSON("data/data.json?nocache=" + (new Date()).getTime(), function(data) {
                 jsonData = data["cards"];
                 renderCards(); // Initial render after loading data
             }).fail(function() {
