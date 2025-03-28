@@ -1,12 +1,12 @@
 {
 	"cards":[
 		{
-			"category":"Template",
-			"from":"",
-			"to":"",
-			"content":"",
+			"category":"Thedes Letters",
+			"from":"Our Wonderful DM Chance",
+			"to":"We Lucky Players",
+			"content":"This is a placeholder letter that Bob is going to use to outline the complete timeline of the campaign so far, noting all of the major characters. Bob should update this periodically - if he doesn't, tell him to get the lead out.\n<strong>Starting Out:</strong>\nFrom an assortment of backgrounds, <character onclick='charDetails(`Iona`)')>Warden Commander Iona</character> rescues each of the player characters and invites us to join the Grey Wardens. Our motley crew is, in order of joining the Wardens, Bastien, Leucite, Sweel, Kim, Nine, and Nina. Our other Warden companion is Estell Gornemant, bastard son of the recently-deceased King of Ferelden, King Tristram II. We represent the entirety of the Grey Wardens, a group which until recently numbered in the hundreds, as the entirety of the rest of the outfit was recently lost in a massive battle against the impending Darkspawn invasion. We are joined by a merchant caravan duo, Dieudonnée and Rainier. With our group assembled, we are tasked with travelling around Ferelden to complete Treaties, agreements made centuries ago by various groups who pledged to help the Grey Wardens in their hour of need, an hour now at hand.",
 			"index":"0",
-			"meta":""
+			"meta":"Timeline"
 		},
 		{
 			"category":"Thedes Letters",
