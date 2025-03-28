@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet"      href="./scripts/bootstrap.css">
-	<link rel="text/javascript" href="./scripts/bootstrap.js">
+	<script src="./scripts/bootstrap.js"></script>
 	<script src="./scripts/jquery-3.6.0.min.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SOGGY DND Data Viewer</title>
@@ -28,7 +28,47 @@
         }
         .card {
             cursor: pointer;
-        }
+        }/* Dark modal background */
+		.modal-content {
+		    background-color: #333;  /* Dark background for the modal */
+		    color: white;  /* Text color */
+		}
+
+		/* Modal header styling */
+		.modal-header {
+		    border-bottom: 1px solid #444; /* Slightly lighter border */
+		}
+
+		/* Modal footer styling */
+		.modal-footer {
+		    border-top: 1px solid #444; /* Slightly lighter border */
+		}
+
+		/* Close button style (light color on dark background) */
+		.modal-header .btn-close {
+		    color: white;  /* Close button color */
+		}
+
+		/* Modal body styling */
+		.modal-body {
+		    background-color: #444;  /* Dark background for the body */
+		    color: white;  /* Text color */
+		}
+
+		/* Button styling in modal */
+		.modal-footer .btn-secondary {
+		    background-color: #555;  /* Dark button background */
+		    border-color: #444;  /* Dark border */
+		}
+
+		.modal-footer .btn-secondary:hover {
+		    background-color: #666;  /* Lighter hover effect */
+		}
+		character {
+			color:lightblue;
+			cursor: help;
+		}
+
     </style>
 </head>
 <body>
@@ -50,6 +90,22 @@
             <div id="detail-view">Select an item to view details.</div>
         </div>
     </div>
+    <div class="modal fade bg-dark" id="bioModal" tabindex="-1" aria-labelledby="bioModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-lg">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="bioModalLabel">Biography</h5>
+	        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+	      </div>
+	      <div class="modal-body" id="bioModalBody">
+	        <!-- Biography content will go here -->
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
 
     <script>
     	let jsonData = [];
@@ -119,6 +175,18 @@
                 $("#detail-view").html(`${content.replace(/\n/g, '<br>')}`);
             });
         });
+
+        function charDetails(searchStr){
+        	const charBio  = jsonData.find(item => item.name === searchStr);
+        	if(charBio){
+        		//console.log(charBio.content);
+        		$("#bioModalBody").html(`<h5>${charBio.name}</h5><p>${charBio.content}</p>`);
+        		$("#bioModal").modal('show');
+        	}
+        	else{
+        		console.log("No info found for this character!");
+        	}
+        }
     </script>
 </body>
 </html>

@@ -12,14 +12,14 @@
 			"category":"Thedes Letters",
 			"from":"Knight Commander Elouan Yannick",
 			"to":"Esteemed Nobility",
-			"content":"I have gotten several letters regarding the men serving under the Arl of Redcliffe. I'm as concerned with the blight as the rest of you, and my lord would be too. But I cannot release my lord's men to any one of you, no matter the position of the person asking. While it's unfortunate that these men aren't able to come to the aid of our kingdom, when the Arl is well, he will see to his troops. Until then, he cannot sign anything, and I'm not leaving Redcliffe undefended from the blight. All the consequences would be on my head if something were to breach the walls. Or happen to the Arl.\n If one of you tries to make yourself anything less than a genteel member of the nobility, if any one of you tries blackguarding your way in with some official excuse, I will consider it an act of aggression. This is my right as the Commander of an arldom in which the Arl is unable to act. Any move on Redcliffe will be taken as one of aggression and my men and I will gladly die in defense of the keep and its Arl. Let that be my final word , we die in defense of this keep and take a body of you with us, or, when the Arl is well, he will take the reins of diplomacy.\n With thanks for your consideration,",
+			"content":"I have gotten several letters regarding the men serving under the <character onmouseover='charDetails(this)'>Arl of Redcliffe</character>. I'm as concerned with the blight as the rest of you, and my lord would be too. But I cannot release my lord's men to any one of you, no matter the position of the person asking. While it's unfortunate that these men aren't able to come to the aid of our kingdom, when the Arl is well, he will see to his troops. Until then, he cannot sign anything, and I'm not leaving Redcliffe undefended from the blight. All the consequences would be on my head if something were to breach the walls. Or happen to the Arl.\n If one of you tries to make yourself anything less than a genteel member of the nobility, if any one of you tries blackguarding your way in with some official excuse, I will consider it an act of aggression. This is my right as the Commander of an arldom in which the Arl is unable to act. Any move on Redcliffe will be taken as one of aggression and my men and I will gladly die in defense of the keep and its Arl. Let that be my final word , we die in defense of this keep and take a body of you with us, or, when the Arl is well, he will take the reins of diplomacy.\n With thanks for your consideration,",
 			"index":"1",
 			"meta":"Knight Commander Elouan Yannick, Esteemed Nobility"
 		},
 		{
 			"category":"Thedes Letters",
 			"from":"Lord Commander Connomor Katell",
-			"to":"Knight Commander Iona",
+			"to":"<character onclick='charDetails(`Iona`)'>Knight Commander Iona</character>",
 			"content":"The service and sacrifice of the Grey Wardens is honored with the same spirit which it is given. Requisitioning forces from your command allows us to present a united front against the enemy I and you, more so than any other, understand the importance of this. When the Grey Wardens stand, they will stand with the kingdom. When they fall, they will fall with those it is their duty to defend. Such is the fate all wardens aspire too.\nPreparations proceed well. Your order of command will be to defend the mountain keep which has served your retiring forces for generations. While this position is distant from the battle lines, you understand the importance of defending all fronts, even those which may be low and unexpected. While His Grace would have wanted you with your men, there are certain handicaps that prevent this. One of His Grace's men has been put in command of the warden vanguard; his energy and speed makes him well suited to leading a sally against the foe. Your skills will ensure the keep and recruits remain.\nWith this, all fronts are attended to.These will be your final orders from His Grace regarding this matter. May the walls of the keep hold strong around you.\nBeneath the seal & signet of King Tristram Gornemant,",
 			"index":"2",
 			"meta":"Connomor Katell, Iona"
@@ -52,7 +52,7 @@
 			"category":"Thedes Letters",
 			"from":"Parsifal Bethune",
 			"to":"Dear Captain",
-			"content":"You're right, it has been some time since we've seen each other. Almost a year, now, is it? Back when those wanderers brought what looked like trouble with them, and you know my motto, better safe than sorry. Really, if it were up to me, Nacron would have our own branch of the order much closer, more available. I've written to Knight Commander Trahan about it several times over the years, but it seems she's been too busy to give it serious consideration. Ah, perhaps my next letter. \nA closer branch of the order would mean less travel for you, as well, back and forth on that winding road. That's what I worry about, now, with all that trouble with the king's men and the wardens. The death of the king's men means less of them guarding and patrolling, and means the worst elements are seizing the opportunity for, for skulduggery. Did you hear about the merchant caravan robbed of everything, including the shirts on their backs? Or the caravan found dead in their wagon, no signs of a struggle, nothing stolen? These are dangerous times. While I would love a visit, I wouldn't have you risk yourself on a road where anything might happen. When all this settles down, months or a year, we will see then, yes? It'll be a more pleasant conversation then, anyway; everything seems to be one dreadful thing after another. I would say I hope that your days are as quiet as ours here, but I'm sure you've found your hands full with all of it! \nSincerely yours,",
+			"content":"You're right, it has been some time since we've seen each other. Almost a year, now, is it? Back when those wanderers brought what looked like trouble with them, and you know my motto, better safe than sorry. Really, if it were up to me, Nacron would have our own branch of the order much closer, more available. I've written to <character onclick='charDetails(`Trahan`)'>Knight Commander Trahan</character> about it several times over the years, but it seems she's been too busy to give it serious consideration. Ah, perhaps my next letter. \nA closer branch of the order would mean less travel for you, as well, back and forth on that winding road. That's what I worry about, now, with all that trouble with the king's men and the wardens. The death of the king's men means less of them guarding and patrolling, and means the worst elements are seizing the opportunity for, for skulduggery. Did you hear about the merchant caravan robbed of everything, including the shirts on their backs? Or the caravan found dead in their wagon, no signs of a struggle, nothing stolen? These are dangerous times. While I would love a visit, I wouldn't have you risk yourself on a road where anything might happen. When all this settles down, months or a year, we will see then, yes? It'll be a more pleasant conversation then, anyway; everything seems to be one dreadful thing after another. I would say I hope that your days are as quiet as ours here, but I'm sure you've found your hands full with all of it! \nSincerely yours,",
 			"index":"6",
 			"meta":"Captain, Parsifal Bethune, Nacron"
 		},
@@ -82,7 +82,7 @@
 		},
 		{
 			"category":"Thedes Letters",
-			"from":"Commander Trahan",
+			"from":"<character onclick='charDetails(`Trahan`)'>Commander Trahan</character>",
 			"to":"Unnamed Templar",
 			"content":"It is ridiculous to imply that my concerns regarding the Wardens are overblown. I can only assume you do so because you have a misguided face in an organization as old and respected as the Grey Wardens, with little knowledge of their current commander. Are you aware that the Fereldan sect of the Warden order contains more vile apostates and renegade mages than any of the other orders? Are you aware that these apostates are taken in and given shelter with no regard for templar orders? Do you think Orlais, and Orlais' templars, have to tolerate an order that constantly flaunts their position above the law? I keep regular correspondence with the commander of Orlais' templars, and their Warden Commander is tractable and cooperative. He will surrender heretics at the order of the Templars, as is right and just. \nOur Warden Commander is a doddering, sentimental old fool with no respect for order or authority. She takes these fiends in as if they were any Denim street urchin, and not marked dangers that could explode at any moment. Apostates, criminals, the condemned, any sordid sob story she can find, she feels the need to take under her wing. Would that she were a dowdy old countess with an estate to indulge her savior fancies, instead of a commander whose delusional charity could kill us all. I hope my opinion is clear, Knight, and you cease your evangelism for her deranged cause.",
 			"index":"10",
@@ -90,15 +90,15 @@
 		},
 		{
 			"category":"Thedes Letters",
-			"from":"Commander Trahan",
-			"to":"Warden Commander Iona",
+			"from":"<character onclick='charDetails(`Trahan`)'>Commander Trahan</character>",
+			"to":"<character onclick='charDetails(`Iona`)'>Warden Commander Iona</character>",
 			"content":"If you do not wish me to refer to your once noble order as a nest of abominations and mosstroopers, then perhaps you should correct your own failings. I would not have to say this if you had not deliberately bolstered the ranks of the wardens with every condemned criminal and vile apostate that was fortunate enough to be on this side of the Pereldan border. If you have deluded yourself into thinking this is some kind of m, or that you are nobly keeping the ranks thriving, allow me to dispel your delusion.  \nYou are doing nothing but weakening the wardens by deliberately putting mines in your own foundation, setting the stage for unrest and massacre. You are creating messes my order will have to clean up, while refusing to work with my offeil help. Let me make this clear I if we are in opposition, it is your choice. I would find it an honor to present a united front with the Grey Wardens and the Circle. I find myself unable to do so, because you have made your order a harboring place for the most dangerous and abominable creatures known to man. When your luck runs out, and one of those beasts slaughters your men to the last, I hope you know you only have yourself to blame. If you change your mind, my order will gladly assist you. We need not be foes, Warden Commander.",
 			"index":"11",
 			"meta":"Trahan, Iona, Wardens, Templars"
 		},
 		{
 			"category":"Thedes Letters",
-			"from":"Unsigned (Probably Iona)",
+			"from":"<character onclick='charDetails(`Iona`)'>Unsigned (Probably Iona)</character>",
 			"to":"Armel",
 			"content":"It's been a while, friend. I hope all that Orlesian luxury hasn't made you go soft, though you deserve the brief rest. After your years of exile with us, it must be nice to return home to a kingdom that wants to fete and honor you in its own way. I only wish you weren't stuck there by political conflicts and I could get more wardens on the ground. No, I wasn't exaggerating. There are seven grey wardens remaining in Fereldan; eight if you include myself. The others are dead. I've failed as a commander, and the wardens are dangerously close to complete collapse. Seven. Seven all-but-children I recruited myself, and they are all that stands between the world and the blight. \nWhat a burden for them to hear. I didn't think that I would be laying this much on their shoulders — being a Warden is enough. Being a Warden is a fresh start with a doomed end; it's a solution for people who are doomed no matter what. The question is whether someone deems the end worth the freedom. It's a devil's bargain, but it's better than death. I hope. But this? To have the same fate of a Warden, and to become responsible for the fate of the world in the same breath? To become the last remnants of an alwaysIdoomed order and have that responsibility on their shoulders? It isn't fair. It isn't fair to have done to them - but the alternative was no better, unless merciful. There's never any good solution - and yet I still keep trying to find one. In any case. I hope Orlais fairs better, friend. The Blight comes, and I'm sure you are preparing. If you can find some time, I would like to hear from you. I've enclosed some Fereldan aged tea - in case you're feeling nostalgic.",
 			"index":"12",
@@ -107,7 +107,7 @@
 		{
 			"category":"Thedes Letters",
 			"from":"Aarre",
-			"to":"Iona",
+			"to":"<character onclick='charDetails(`Iona`)'>Iona</character>",
 			"content":"At it again, Commander? It seems like I can't even be away for a month to Orzammar without you getting up to the same old shenanigans as ever. Here I was, hoping for a quiet and crucial month treating with the dwarves and enjoying their excellent cuisine (hardly a distraction from the Blight, but a man must keep sane somehow), and it takes less than half that time to get a letter about your antics. While I won't reveal my snitch, needless to say, details were forthcoming. Iona, you're running the Grey Wardens, not Commander Iona's Home For Wayward Youth. I can hardly turn around without my sword pommel smacking some street rat or apostate you've found and taken in. While it keeps the ranks of an otherwise unpopular job from being depleted, I question the intelligence of these repeated decisions. \nYou've probably heard this all before. You can't save everyone, and all that, and the other rejoinder I but you , can try. But that isn't a one woman job, and I doubt the ‘ Wardens is the place to do it. Knowing their ultimate fate makes it altogether more difficult than it otherwise would be. Maybe let someone else do the picking, or take comfort in the fact that you've tried hard enough, and stop giving yourself grief by trying to do more. We hardly need more darkspawn fodder, and that's what we are. Then again, who am I to complain? I certainly prefer this to being killed for having the temerity to raise my hand against a human. Just think about it, will you?  \nOne of your wayward youths,",
 			"index":"13",
 			"meta":"Iona, Wardens, Aarre"
@@ -115,14 +115,14 @@
 		{
 			"category":"Thedes Letters",
 			"from":"Leucite Aeducan",
-			"to":"Commander Iona",
+			"to":"<character onclick='charDetails(`Iona`)'>Commander Iona</character>",
 			"content":"{Exact contents unknown, Leucite ratted on Kim}",
 			"index":"14",
 			"meta":"Leucite, Iona, Wardens, Maroon Hills, Kim"
 		},
 		{
 			"category":"Thedes Letters",
-			"from":"Iona",
+			"from":"<character onclick='charDetails(`Iona`)'>Iona</character>",
 			"to":"Kim",
 			"content":"I've received a letter recently.  \nI understand you are committed to your beliefs, but I would like you to keep your current cause in mind as you act. I am hard pressed to consider a scene where it would be warranted to cast a spell in the Arlessa of Marron Hill's chambers.  \nYou are the last of my wardens. I don't have anyone else if something happens to y'all. The kingdom doesn't have anyone left if something else happens to the Grey Wardens— regardless of their opinions on the matter.  \nYou are one of the last hopes of Ferelden. I know you're befitting of the station, I believe that you show this to our allies.",
 			"index":"15",
@@ -131,14 +131,14 @@
 		{
 			"category":"Thedes Letters",
 			"from":"Kim Keeper",
-			"to":"Iona",
+			"to":"<character onclick='charDetails(`Iona`)'>Iona</character>",
 			"content":"It is only natural that you would be hard pressed to consider the scene, given I was not provided the opportunity to represent my perspective on the matter at the time. I will explain in greater detail when next we speak in person (an occasion I greatly look forward to); to speak in brief, allow me to outline my position below:  \nOn speaking out against yourself, my esteemed colleague besmirched not only your own reputation, but that of our group as a whole and our mission. Our work has been hard enough from the outset - to have a member of our own group cast doubts and aspersions about your leadership makes our work undoubtedly more difficult yet. The very fundament of our success rests upon our reputation - we cannot hope for, let alone expect, success without maintaining the integrity of your reputation. My hope, in this instance, was to give a sharp lesson to my colleague, to make future work with those in powerful positions run smoothly.  \nI would make two further comments in this regard - in the first instance, that I gave several explicit opportunities for my colleague to recant their statements, warning of the consequence of their action. Were they to take the prescribed action to preserve the reputation of the group as directed, this would not have occurred. In the second instance, I am deeply wounded that you would simply accept the word of my other colleague at face value. Since the beginning of our journey, Leucite has not proven her opinion to be worthwhile; refusing to communicate with the group, taking action without consultation with the group, and regularly isolating herself. As I write this letter we are sitting in a wagon bound for the Dwarven capital, and Leucite has just attempted grevious assault on our dear NINA with a deadly weapon! For you to simply take her word at face value, without seeking out my own, implies to me that you value the opinion of one so untrustworthy over my own - I do not know what I have done in the past to earn such rebuke, but it cuts me to the very quick.  \nI will reiterate my steadfast devotion to you, and my sincere desire to see you once more and discuss in person. I would hope that, at some stage, you will take the time to meditate on whose opinion of events here is truly worthwhile.  \nEternally yours,",
 			"index":"16",
 			"meta":"Kim, Iona, Leucite, Wardens"
 		},
 		{
 			"category":"Thedes Letters",
-			"from":"Knight Commander Trahan, of the Templar",
+			"from":"<character onclick='charDetails(`Trahan`)'>Knight Commander Trahan, of the Templar</character>",
 			"to":"Estelle",
 			"content":"It is my honor, with this introductory letter, to welcome you to our ranks. The Templar Order is one of the most venerable knightly orders one can join, and one infinitely more necessary than any brigade of king's men idling in a guardhouse. Even the Grey Wardens stand idle for years at a time while nothing threatens the surface. The Templars are our only vanguard against the constant threat of abomination. We, as Templars, are constant defenders of the kingdom and homestead, and defenders of the mage from the very thing they should most fear. There are few nobler orders. Your induction will give you a brotherhood and a purpose that will eclipse any background or burden that troubled you before. It is a brotherhood, and Order, a creed, and a way to structure the world. \nI look forward to your induction, recruit. You come highly recommended, and I expect to see those recommendations born out.",
 			"index":"17",
@@ -147,7 +147,7 @@
 		{
 			"category":"Thedes Letters",
 			"from":"Kim Keeper",
-			"to":"Iona",
+			"to":"<character onclick='charDetails(`Iona`)'>Iona</character>",
 			"content":"{contents unknown, retraction of previous letter}",
 			"index":"18",
 			"meta":"Kim, Leucite, Iona, Wardens"
@@ -178,7 +178,7 @@
 		},
 		{
 			"category":"Thedes Letters",
-			"from":"Commander Trahan",
+			"from":"<character onclick='charDetails(`Trahan`)'>Commander Trahan</character>",
 			"to":"Commander of the Templar Order, the Circle",
 			"content":"I doubt even if I should grant you the honor of your title. I would have you stripped of it and paraded through the streets for the farce you've been making of our order. Do I need to remind you of the tenets of the Templars? Of the importance of the Tower? It seems you've forgotten and grown lax in your security. The Circle is a symbol of our order's necessity, and its regimented control. The last thing we need in a time of unrest is an incident throwing doubt on the bedrock of the Templars. The very kind of incident you let happen, right before your eyes. fl let a keg of powder and a lit match out amongst the people of our kingdom. When it explodes, however many it kills, I w_ill have you paraded in chains and thrown somewhere so dark you would think the deep roads a mercy. I will not cover for you, I will give you no quarter, I will not let your failure reflect on the rest of us. Consider yourself anathema, and expect no personal aid. \nYou had the *gall* to ask for advice. I will give it. If I was in your place, I would swallow lyrium or fall on my sword rather than let my dishonor reflect on the order. If only you had the dignity to consider the same.",
 			"index":"22",
@@ -219,7 +219,7 @@
 		{
 			"category":"Thedes Letters",
 			"from":"Divine Dioscore XVII",
-			"to":"Knight Commander L. Lowen Trahan of the Templar Order",
+			"to":"<character onclick='charDetails(`Trahan`)'>Knight Commander L. Lowen Trahan of the Templar Order</character>",
 			"content":"May the Maker bless and keep His Chantry, which spreads His Light into the world through open doors and open hands. May the Maker bless and keep His Templars, who are set before the world as a bulwark against iniquity. May the Maker bless and keep you, Knight-Commander, who has dedicated her life to the order and the tenets that it represents. The Chantry knows you are a loyal and devoted servant of the Maker, and considers your petitions in that light. There will be no Exalted March. The dwarven gates would close, and would not be opened within our lifetimes. Your frustrations regarding lyrium shipments are understandable, reasonable, even, but such a thing cannot and will not be done when the Maker does not will it. \nKeep your faith strong, Knight-Commander. These are turbulent times, and it is natural to find oneself troubled in mind and body. The Maker will see your trials and gives you strength and solace. Turn your eyes to Him, and let rest and prayer carry you forward. Enclosed is a chaplet blessed by my own hands at the Grand Cathedral. I pray it will give you ease.  \nBy the Maker's Grace,",
 			"index":"27",
 			"meta":"Trahan, Dioscore, Divine, Chantry, Templar, Lyrium"
@@ -283,8 +283,8 @@
 		{
 			"category":"Thedes Letters",
 			"from":"Paragon Brezinaite Parison",
-			"to":"Knight-Commander Trahan",
-			"content":"Templar Knight-Commander Trahan,\nAs our newly crowned King [may the Stone guide her] has more pressing matters to attend to, I have volunteered to tackle the reply to your mountain of letters. This reply is a simple one:\nYou are going to have to wait!\nDwarvezammar needs time to recover from our months without a king and settle in with our new one. The gates will remain all-but closed, this letter being one of the exceptions, in part because of the consistent rotation of Templars at our gates. Actually! If you want to send your soldiers to do something useful, I can send you a follow-up about a month before we set to open the gates again so they're not wasting any more of their time standing out there.\nAlso, because your letters had repeatedly brought up the Wardens: Dwarvezammar's relationship with the Grey Wardens is one of mutual respect and is also none of your concern. If our gates are closed to all but one I don't see how that's any of your business. Dwarvezammar's contracts with the templars have always included the clause for closed gates, and the current commander's lack of understanding will be noted.\nWe don't expect a reply!\nPargon of Dwavezammar, Brezinaite Parison",
+			"to":"<character onclick='charDetails(`Trahan`)'>Knight-Commander Trahan</character>",
+			"content":"<character onclick='charDetails(`Trahan`)'>Templar Knight-Commander Trahan</character>,\nAs our newly crowned King [may the Stone guide her] has more pressing matters to attend to, I have volunteered to tackle the reply to your mountain of letters. This reply is a simple one:\nYou are going to have to wait!\nDwarvezammar needs time to recover from our months without a king and settle in with our new one. The gates will remain all-but closed, this letter being one of the exceptions, in part because of the consistent rotation of Templars at our gates. Actually! If you want to send your soldiers to do something useful, I can send you a follow-up about a month before we set to open the gates again so they're not wasting any more of their time standing out there.\nAlso, because your letters had repeatedly brought up the Wardens: Dwarvezammar's relationship with the Grey Wardens is one of mutual respect and is also none of your concern. If our gates are closed to all but one I don't see how that's any of your business. Dwarvezammar's contracts with the templars have always included the clause for closed gates, and the current commander's lack of understanding will be noted.\nWe don't expect a reply!\nPargon of Dwavezammar, Brezinaite Parison",
 			"index":"35",
 			"meta":"Brezinaite, Trahan, Dwarveszammar"
 		},
@@ -298,11 +298,23 @@
 		},
 		{
 			"category":"Thedes Letters",
-			"from":"Knight-Commander Trahan, of the Templar Order, Denim",
+			"from":"<character onclick='charDetails(`Trahan`)'>Knight-Commander Trahan, of the Templar Order, Denim</character>",
 			"to":"Viscountess Islay Charteris",
 			"content":"You knew what I meant. I gave you the binding order of a Templar Knight-Commander not to discuss it and the incident. I graciously allowed you to speak about it to close confidants, after you asked for this leniency. And you took this allowance and used it to flagrantly disobey my orders to crow like an overgrown rooster to your entire airheaded social circle. It seems the entire kingdom of Ferelden now knows about what was supposed to be a secret. The Templar Order has the situation completely under control - but this is being jeopardized by your rumormongering. Hysteria is the enemy of security. If the people panic, the people will die. Perhaps those deaths would weigh down your wagging tongue.\nMy orders are meant to be followed. I have full authority to jail you for flaunting my orders and endangering lives. I will not. Do not make me regret giving you leniency again. When I told you I hoped you had no reason to contact me again, it was because I did not want to contact you again. Do not give me reason to.",
 			"index":"37",
 			"meta":"Lady Islay, Trahan, Gossip"
+		},
+		{
+			"category":"Character",
+			"campaign":"Thedes",
+			"name":"Iona",
+			"content":"Commander of the Grey Wardens. A woman in her late-50s/early-60s, Iona is a kind but stern figure who cares deeply about stopping the impending Blight. "
+		},
+		{
+			"category":"Character",
+			"campaign":"Thedes",
+			"name":"Trahan",
+			"content":"Knight Commander of the Ferelden Templars. A young woman with a fierce hatred of apostates and very strong attachment to Chantry doctrine. Opposes the Wardens for our use of magic and our devotion to what she sees as a lost cause."
 		}
 	]
 }
