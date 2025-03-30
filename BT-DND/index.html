@@ -109,10 +109,12 @@
 
     <script>
     	let jsonData = [];
+        let jsonChars = [];
         // Sample JSON data representing letters and people
         function loadJsonData() {
             $.getJSON("data/data.json?nocache=" + (new Date()).getTime(), function(data) {
                 jsonData = data["cards"];
+                jsonChars = data["characters"];
                 renderCards(); // Initial render after loading data
             }).fail(function() {
                 console.error("Failed to load JSON data.");
@@ -177,7 +179,7 @@
         });
 
         function charDetails(searchStr){
-        	const charBio  = jsonData.find(item => item.name === searchStr);
+        	const charBio  = jsonChars.find(item => item.name === searchStr);
         	if(charBio){
         		//console.log(charBio.content);
         		$("#bioModalBody").html(`<h5>${charBio.name}</h5><p>${charBio.content}</p>`);
