@@ -4,7 +4,7 @@
 			"category":"Thedes Letters",
 			"from":"Our Wonderful DM Chance",
 			"to":"We Lucky Players",
-			"content":"This is a placeholder letter that Bob is going to use to outline the complete timeline of the campaign so far, noting all of the major characters. Bob should update this periodically - if he doesn't, tell him to get the lead out.\n\n<strong>Starting Out:</strong>\nFrom an assortment of backgrounds, <character onclick='charDetails(`Iona`)')>Warden Commander Iona</character> rescues each of the player characters and invites us to join the Grey Wardens. Our motley crew is, in order of joining the Wardens, Bastien, Leucite, Sweel, Kim, Nine, and Nina. Our other Warden companion is <character onclick='charDetails(`Estell Gornemant`)'>Estell Gornemant</character>, bastard son of the recently-deceased King of Ferelden, King Tristram II. We represent the entirety of the Grey Wardens, a group which until recently numbered in the hundreds, as the entirety of the rest of the outfit was recently lost in a massive battle against the impending Darkspawn invasion. We are joined by a merchant caravan duo, <character onclick='charDetails(`Dieudonnée`)'>Dieudonnée</character> and <character onclick='charDetails(`Rainier`)'>Rainier</character>. With our group assembled, we are tasked with travelling around Ferelden to complete Treaties, agreements made centuries ago by various groups who pledged to help the Grey Wardens in their hour of need, an hour now at hand.\n\n<strong>First Treaty:</strong>\nOur first treaty saw us travelling to Maroon Hills; the Grey Wardens have a long-standing promise from the <character onclick='charDetails(`Arl Pelham Gornemant`)'>Arl of Maroon Hills, Pelham Gornmenat</character>, to provide soldiers to the Grey Wardens in the event of a Blight. Our motley crew set out to Maroon Hills, Estell voicing some hesitance to go there. On arrival, we found a sizable town surrounding a keep, the gates to which are shut to the public. We asked around and could not determine why the keep was shut, but ran into <character onclick='charDetails(`Elouan Yannick`)'>Knight Commander Elouan Yannick</character> who informed us of shady goings-on in the keep, and advised us of a backdoor inside via the stables. Estell was hesitant to go near the stables, for reasons that would soon become clear.\nWe made our way into the keep, and got introduced to <character onclick='charDetails(`Arlessa Carina`)'>Arlessa Carina</character>. She explained that the keep has been closed to the public as her husband, the Arl, has fallen deathly ill. She suspects <character onclick='charDetails(`Shou Tucker`)'>Shou Tucker</character>, a lapsed Circle Tower mage who she recently enlisted to help tutor her son, <character onclick='charDetails(`Tristram Gornemant III`)'>Tristram Gornemant III</character>, in his budding magical powers. This mage's name rings a bell with Nina, who remembers him as the mage that transformed her into her half-abomination form. We do some heinous acts of torture to Mr. Tucker, who has been locked up in the dungeon, and he confesses to poisoning the Arl. Kim attempts to heal the Arl, and manages to stabilise his condition, but not fully cure him; the Arl will not fulfil the contract until he is fully cured, and to fully cure him, we will need to acquire the ashes of <character onclick='charDetails(`Androste`)'>Saint Androste</character>. The Arlessa explains that they have sent several detachments of soldiers to retrieve these ashes; Sweel tests his mettle against one such soldier and gets his ass soundly kicked. With this, we determine that we are not yet skilled enough to attempt such a task and inform the Arlessa that we will return to retrieve the ashes at a later point in time.\n\n<strong>First Interlude:</strong>",
+			"content":"This is a placeholder letter that Bob is going to use to outline the complete timeline of the campaign so far, noting all of the major characters. Bob should update this periodically - if he doesn't, tell him to get the lead out.\n\n<strong>Starting Out:</strong>\nFrom an assortment of backgrounds, <character onclick='charDetails(`Iona`)')>Warden Commander Iona</character> rescues each of the player characters and invites us to join the Grey Wardens. Our motley crew is, in order of joining the Wardens, Bastien, Leucite, Sweel, <character onclick='charDetails(`Kim Keeper`)'>Kim</character>, Nine, and Nina (later joined by <character onclick='charDetails(`Arvek`)'>Arvek</character>). Our other Warden companion is <character onclick='charDetails(`Estell Gornemant`)'>Estell Gornemant</character>, bastard son of the recently-deceased King of Ferelden, King Tristram II. We represent the entirety of the Grey Wardens, a group which until recently numbered in the hundreds, as the entirety of the rest of the outfit was recently lost in a massive battle against the impending Darkspawn invasion. We are joined by a merchant caravan duo, <character onclick='charDetails(`Dieudonnée`)'>Dieudonnée</character> and <character onclick='charDetails(`Rainier`)'>Rainier</character>. With our group assembled, we are tasked with travelling around Ferelden to complete Treaties, agreements made centuries ago by various groups who pledged to help the Grey Wardens in their hour of need, an hour now at hand.\n\n<strong>First Treaty:</strong>\nOur first treaty saw us travelling to Maroon Hills; the Grey Wardens have a long-standing promise from the <character onclick='charDetails(`Arl Pelham Gornemant`)'>Arl of Maroon Hills, Pelham Gornmenat</character>, to provide soldiers to the Grey Wardens in the event of a Blight. Our motley crew set out to Maroon Hills, Estell voicing some hesitance to go there. On arrival, we found a sizable town surrounding a keep, the gates to which are shut to the public. We asked around and could not determine why the keep was shut, but ran into <character onclick='charDetails(`Elouan Yannick`)'>Knight Commander Elouan Yannick</character> who informed us of shady goings-on in the keep, and advised us of a backdoor inside via the stables. Estell was hesitant to go near the stables, for reasons that would soon become clear.\nWe made our way into the keep, and got introduced to <character onclick='charDetails(`Arlessa Carina`)'>Arlessa Carina</character>. She explained that the keep has been closed to the public as her husband, the Arl, has fallen deathly ill. She suspects <character onclick='charDetails(`Shou Tucker`)'>Shou Tucker</character>, a lapsed Circle Tower mage who she recently enlisted to help tutor her son, <character onclick='charDetails(`Tristram Gornemant III`)'>Tristram Gornemant III</character>, in his budding magical powers. This mage's name rings a bell with Nina, who remembers him as the mage that transformed her into her half-abomination form. We do some heinous acts of torture to Mr. Tucker, who has been locked up in the dungeon, and he confesses to poisoning the Arl. <character onclick='charDetails(`Kim Keeper`)'>Kim</character> attempts to heal the Arl, and manages to stabilise his condition, but not fully cure him; the Arl will not fulfil the contract until he is fully cured, and to fully cure him, we will need to acquire the ashes of <character onclick='charDetails(`Androste`)'>Saint Androste</character>. The Arlessa explains that they have sent several detachments of soldiers to retrieve these ashes; Sweel tests his mettle against one such soldier and gets his ass soundly kicked. With this, we determine that we are not yet skilled enough to attempt such a task and inform the Arlessa that we will return to retrieve the ashes at a later point in time.\n\n<strong>First Interlude:</strong>\nWe opt not to head back to Lovering and, after a brief discussion regarding our options, decide to proceed to Dwarveszammar to see about their fulfilling the treaty. While making our way, we come across a group of aurochs (vicious wild cattle) and during the ensuing meleé a giant spider joins the combat on our side of the fight from underneath our wagon. At the end of the battle this creature reveals their true form - a druid named <character onclick='charDetails(`Rowan`)'>Rowan</character>. Rowan explains that he has been keeping an eye on our group through the eyes of his familiar Chamomile (a white raven) for a while now, and entreats us to add him to our group. Some debate ensues, but at Nine's pleas, we opt to take him in.\n",
 			"index":"0",
 			"meta":"Timeline"
 		},
@@ -123,14 +123,14 @@
 		{
 			"category":"Thedes Letters",
 			"from":"<character onclick='charDetails(`Iona`)'>Iona</character>",
-			"to":"Kim",
+			"to":"<character onclick='charDetails(`Kim Keeper`)'>Kim</character>",
 			"content":"I've received a letter recently.  \nI understand you are committed to your beliefs, but I would like you to keep your current cause in mind as you act. I am hard pressed to consider a scene where it would be warranted to cast a spell in the Arlessa of Marron Hill's chambers.  \nYou are the last of my wardens. I don't have anyone else if something happens to y'all. The kingdom doesn't have anyone left if something else happens to the Grey Wardens— regardless of their opinions on the matter.  \nYou are one of the last hopes of Ferelden. I know you're befitting of the station, I believe that you show this to our allies.",
 			"index":"15",
 			"meta":"Iona, Kim, Leucite, Wardens"
 		},
 		{
 			"category":"Thedes Letters",
-			"from":"Kim Keeper",
+			"from":"<character onclick='charDetails(`Kim Keeper`)'>Kim Keeper</character>",
 			"to":"<character onclick='charDetails(`Iona`)'>Iona</character>",
 			"content":"It is only natural that you would be hard pressed to consider the scene, given I was not provided the opportunity to represent my perspective on the matter at the time. I will explain in greater detail when next we speak in person (an occasion I greatly look forward to); to speak in brief, allow me to outline my position below:  \nOn speaking out against yourself, my esteemed colleague besmirched not only your own reputation, but that of our group as a whole and our mission. Our work has been hard enough from the outset - to have a member of our own group cast doubts and aspersions about your leadership makes our work undoubtedly more difficult yet. The very fundament of our success rests upon our reputation - we cannot hope for, let alone expect, success without maintaining the integrity of your reputation. My hope, in this instance, was to give a sharp lesson to my colleague, to make future work with those in powerful positions run smoothly.  \nI would make two further comments in this regard - in the first instance, that I gave several explicit opportunities for my colleague to recant their statements, warning of the consequence of their action. Were they to take the prescribed action to preserve the reputation of the group as directed, this would not have occurred. In the second instance, I am deeply wounded that you would simply accept the word of my other colleague at face value. Since the beginning of our journey, Leucite has not proven her opinion to be worthwhile; refusing to communicate with the group, taking action without consultation with the group, and regularly isolating herself. As I write this letter we are sitting in a wagon bound for the Dwarven capital, and Leucite has just attempted grevious assault on our dear NINA with a deadly weapon! For you to simply take her word at face value, without seeking out my own, implies to me that you value the opinion of one so untrustworthy over my own - I do not know what I have done in the past to earn such rebuke, but it cuts me to the very quick.  \nI will reiterate my steadfast devotion to you, and my sincere desire to see you once more and discuss in person. I would hope that, at some stage, you will take the time to meditate on whose opinion of events here is truly worthwhile.  \nEternally yours,",
 			"index":"16",
@@ -146,7 +146,7 @@
 		},
 		{
 			"category":"Thedes Letters",
-			"from":"Kim Keeper",
+			"from":"<character onclick='charDetails(`Kim Keeper`)'>Kim Keeper</character>",
 			"to":"<character onclick='charDetails(`Iona`)'>Iona</character>",
 			"content":"{contents unknown, retraction of previous letter}",
 			"index":"18",
@@ -260,7 +260,7 @@
 			"category":"Thedes Letters",
 			"from":"<character onclick='charDetails(`Estell Gornemant`)'>Estell Gornemant</character>",
 			"to":"Connomor Katell",
-			"content":"Dear Sir,\nI am sorry it took so long for me to write my return. I know you said you didn't expect a quick reply, but I owe you much more than this. I am gracious for the opportunities you’ve given me, so I’ll consider what you’ve asked. I don't know if the position should be mine, however. I'm no royal, just some half-knight with some strangers' blood in my veins. Does the stranger matter enough to deserve me a crown? I'd believe Leucy on a throne - she has leadership and practicality to spare. And Kim is one of those whose birth status you wouldn't doubt…\nI just don't know if I'm up for this. Would Ferelden nobility even accept someone who's slept on hay more than a bed?\nThere's something else, sir.\nBut, sorry if the letter smells any, we got caught up in a fight with some foul plant-beast that stored corpses. I don't know how easily a reply can be sent, seeing how deep in the forest we are.\nI heard report that the southern part of the forest is crawling with darkspawn. Some people around here were asking if we heard any news from the nearby Dwarven city, Gwaren. I hope it's fine, but I fear the worst.\nThe… “something else”\nI don't know how to say this, but there's a Carrec Katell living in the forest. He told a story of deserting after waking up among the dead, and living a new life in the forest, among those who find refuge here.\nHe was elated to hear your name.\nI don't know what to tell him. I'm trying to avoid him for now but… what do you suggest I do about this? I suppose, if cornered I might share your marriage. That one should be fine?",
+			"content":"Dear Sir,\nI am sorry it took so long for me to write my return. I know you said you didn't expect a quick reply, but I owe you much more than this. I am gracious for the opportunities you’ve given me, so I’ll consider what you’ve asked. I don't know if the position should be mine, however. I'm no royal, just some half-knight with some strangers' blood in my veins. Does the stranger matter enough to deserve me a crown? I'd believe Leucy on a throne - she has leadership and practicality to spare. And <character onclick='charDetails(`Kim Keeper`)'>Kim</character> is one of those whose birth status you wouldn't doubt…\nI just don't know if I'm up for this. Would Ferelden nobility even accept someone who's slept on hay more than a bed?\nThere's something else, sir.\nBut, sorry if the letter smells any, we got caught up in a fight with some foul plant-beast that stored corpses. I don't know how easily a reply can be sent, seeing how deep in the forest we are.\nI heard report that the southern part of the forest is crawling with darkspawn. Some people around here were asking if we heard any news from the nearby Dwarven city, Gwaren. I hope it's fine, but I fear the worst.\nThe… “something else”\nI don't know how to say this, but there's a Carrec Katell living in the forest. He told a story of deserting after waking up among the dead, and living a new life in the forest, among those who find refuge here.\nHe was elated to hear your name.\nI don't know what to tell him. I'm trying to avoid him for now but… what do you suggest I do about this? I suppose, if cornered I might share your marriage. That one should be fine?",
 			"index":"32",
 			"meta":"Estell, Connomor Katell, Gwaren"
 		},
@@ -324,28 +324,28 @@
 			"category":"Character",
 			"campaign":"Thedes",
 			"name":"Dieudonnée",
-			"content":"Top-tier merchant and information broker travelling with our group as we complete our treaties. She and her brother Rainier are originally from Orlais, but fled the country following a falling out with Dieudonnée's former mentor, La Dame, over Rainier's arranged marraige.",
+			"content":"Top-tier merchant and information broker travelling with our group as we complete our treaties. She and her brother <character onclick='charDetails(`Rainier`)'>Rainier</character> are originally from Orlais, but fled the country following a falling out with Dieudonnée's former mentor, La Dame, over Rainier's arranged marraige.",
 			"link":"<character onclick='charDetails(`Dieudonnée`)'>"
 		},
 		{
 			"category":"Character",
 			"campaign":"Thedes",
 			"name":"Rainier",
-			"content":"Bodyguard to Dieudonnée travelling with our group as we complete our treaties. He and his sister Dieudonnée are originally from Orlais, but fled the country following a falling out with Dieudonnée's former mentor, La Dame, over Rainier's arranged marraige.\nCurrently in a situationship with Nine (alongside Rowan).",
+			"content":"Bodyguard to Dieudonnée travelling with our group as we complete our treaties. He and his sister <character onclick='charDetails(`Dieudonnée`)'>Dieudonnée</character> are originally from Orlais, but fled the country following a falling out with Dieudonnée's former mentor, La Dame, over Rainier's arranged marraige.\nCurrently in a situationship with Nine (alongside Rowan).",
 			"link":"<character onclick='charDetails(`Rainier`)'>"
 		},
 		{
 			"category":"Character",
 			"campaign":"Thedes",
 			"name":"Estell Gornemant",
-			"content":"Bastard son of the late king of Ferelden, King Tristram Gornemant II. Inducted as a Grey Warden before any of the party members, Estell was a former knight in Commander Trahan's Templar outfit.",
+			"content":"Bastard son of the late king of Ferelden, King Tristram Gornemant II. Inducted as a Grey Warden before any of the party members, Estell was a former knight in <character onclick='charDetails(`Trahan`)'>Commander Trahan's</character> Templar outfit.",
 			"link":"<character onclick='charDetails(`Estell Gornemant`)'>"
 		},
 		{
 			"category":"Character",
 			"campaign":"Thedes",
 			"name":"Arl Pelham Gornemant",
-			"content":"Arl of Maroon Hills. Married to the Arlessa Carina and father of Tristram Gornemant III, brother of the late king Tristram Gornemant II (and thereby uncle to Estell Gornemant). Currently sick (due to a lingering poison) and bedbound as a result. Brought back from the brink of death by our party, but remains seriously ill. Our treaty with Maroon Hills hinges on curing him of his malaise."
+			"content":"Arl of Maroon Hills. Married to the <character onclick='charDetails(`Arlessa Carina`)'>Arlessa Carina</character> and father of <character onclick='charDetails(`Tristam Gornemant III`)'>Tristram Gornemant III</character>, brother of the late king Tristram Gornemant II (and thereby uncle to <character onclick='charDetails(`Estell Gornemant`)'>Estell Gornemant</character>). Currently sick (due to a lingering poison) and bedbound as a result. Brought back from the brink of death by our party, but remains seriously ill. Our treaty with Maroon Hills hinges on curing him of his malaise."
 		},
 		{
 			"category":"Character",
@@ -357,25 +357,43 @@
 			"category":"Character",
 			"campaign":"Thedes",
 			"name":"Arlessa Carina",
-			"content":"Arlessa of Maroon Hills, wife of Arl Pelham, and mother of Tristram Gornemant III. Ill-advisedly leaned on Shou Tucker for her son's magical education, letting the snake who poisoned her husband into the house. Slightly wary of the Grey Warden's due to Kim's castings, but ultimately relying on us to save her husband."
+			"content":"Arlessa of Maroon Hills, wife of <character onclick='charDetails(`Arl Pelham Gornemant`)'>Arl Pelham</character>, and mother of <character onclick='charDetails(`Tristram Gornemant III`)'>Tristram Gornemant III</character>. Ill-advisedly leaned on <character onclick='charDetails(`Shou Tucker`)'>Shou Tucker</character> for her son's magical education, letting the snake who poisoned her husband into the house. Slightly wary of the Grey Warden's due to <character onclick='charDetails(`Kim Keeper`)'>Kim's</character> castings, but ultimately relying on us to save her husband."
 		},
 		{
 			"category":"Character",
 			"campaign":"Thedes",
 			"name":"Shou Tucker",
-			"content":"Former Circle-Tower mage who fled the Tower in unknown circumstances. One of the researchers who made Nina into her current half-abomination form. Former magical tutor to Tristam Gornemant III."
+			"content":"Former Circle-Tower mage who fled the Tower in unknown circumstances. One of the researchers who made Nina into her current half-abomination form. Former magical tutor to <character onclick='charDetails(`Tristram Gornemant III`)'>Tristram Gornemant III</character>."
 		},
 		{
 			"category":"Character",
 			"campaign":"Thedes",
 			"name":"Tristram Gornemant III",
-			"content":"Son of the Arl and Arlessa of Maroon Hills, heir apparent to the Arldom of Maroon Hills, and second in line to the throne of Ferelden. Affectionately nicknamed 'The Boy', our party picked him up in Maroon Hills to provide magical education after his previous mentor, Shou Tucker, turned traitor. Travelled with us for a while, but was recently left in the care of Na Dathanna of the Fforest Fawr, who are adequate magical teachers."
+			"content":"Son of <character onclick='charDetails(`Arl Pelham Gornemant`)'>the Arl</character> and <character onclick='charDetails(`Arlessa Carina`)'>Arlessa</character> of Maroon Hills, heir apparent to the Arldom of Maroon Hills, and second in line to the throne of Ferelden. Affectionately nicknamed 'The Boy', our party picked him up in Maroon Hills to provide magical education after his previous mentor, <character onclick='charDetails(`Shou Tucker`)'>Shou Tucker</character>, turned traitor. Travelled with us for a while, but was recently left in the care of Na Dathanna of the Fforest Fawr, who are adequate magical teachers."
 		},
 		{
 			"category":"Character",
 			"campaign":"Thedes",
 			"name":"Androste",
 			"content":"The messianic Christ-figure of this world and former favourite of the Maker. Died approximately 1,000 years ago, also referred to as the Bride of the Maker. Was burned alive by the Tivinter Imperium for preaching the doctrine of the Maker (advocating for slavery abolition). Sold out to Tivinter by her mortal husband. Born roughly 500 years after the Second Sin, bringing the Maker's attention back to Thedes. Her death led to the Maker's abandonment of the world, according to Chantry canon."
+		},
+		{
+			"category":"Character",
+			"campaign":"Thedes",
+			"name":"Kim Keeper",
+			"content":"Daughter of Bann Harold and Dorothea Keeper, former heir apparant to the family holdings and title. Rescued by <character onclick='charDetails(`Iona`)'>Iona</character> following the Templars raiding the family's home for her father's supposed crimes (as yet unproven in a court of law). Received a sterling education in magick from her mother, and became a devotee of the Cult of the Wolf Mother in the same stroke. Fiercely devoted to Iona for her rescuing Kim in her hour of direst need. Enthusiastic but slightly unbalanced member of the Grey Wardens."
+		},
+		{
+			"category":"Character",
+			"campaign":"Thedes",
+			"name":"Arvek",
+			"content":"A Qunari from Par Volen in the north. Due to catastrophic climate damage to the continent, Arvek, his brother Calder, and a group of their community fled in search of safety. They landed in Denim, where they were searched and weapons taken from them, before being sent to live in the Elvish slums. Arvek and Calder’s weapons were both taken by the city. Without his sword, Calder will never be a fully developed and respected member of the community, so Arvek swears to find it and heads out. He meets the party in Nacron, where he was the victim of racism, and the party promise the locals to keep and eye on him."
+		},
+		{
+			"category":"Character",
+			"campaign":"Thedes",
+			"name":"Rowan",
+			"content":"Youngest child of the ancient high mage <character onclick='charDetails(`Malgwyn`)'>Malgwyn</character>, a nervous and deeply introverted man. Cut off from most socialisation outside of his mother for the majority of his life, Rowan has only recently ventured into the wider world. Joined up with the party after spying on us via his familiar, Chamomile, for a while. A powerful druid in his own right, but requires lots of reassurance and guidance as he makes his way through the world.\nCurrently dating Nine."
 		}
 	]
 }
