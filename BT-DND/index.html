@@ -78,7 +78,7 @@
             <select id="category" class="form-select mb-3">
                 <option value="">Select Category</option>
                 <option value="Thedes Letters">Thedes Letters</option>
-                <option value="New Limnsworth Dossier">New Limnsworth Dossier</option>
+                <option value="TGF Dossier 1) La Sur-Arbre">TGF Dossier 1) La Sur-Arbre</option>
             </select>
             <input type="text" id="search" class="form-control mb-3" placeholder="Search tags...">
             <div id="card-container" class="mt-3">
@@ -129,7 +129,8 @@
             // Filter JSON data based on selected category and search input
             const filteredData = jsonData.filter(item => 
                 (!selectedCategory || item.category === selectedCategory) &&
-                (!searchQuery || item.meta.toLowerCase().includes(searchQuery))
+                (!searchQuery || item.meta.toLowerCase().includes(searchQuery)) &&
+                (item.detail !== 'Yes')
             );
 
             $("#card-container").empty(); // Clear existing cards
@@ -151,10 +152,14 @@
                                    <p><strong>DOB:</strong> ${item.dob}</p>`;
                     dataHeader = ""; //Define New Limnian data headers here.
                     dataFooter = ""; //Define New Limnian data footer here.
+                } else if (item.category === "TGF Dossier 1) La Sur-Arbre") {
+                    previewInfo = `<p><strong>${item.title}</strong></p>`;
+                    dataHeader = `<p><strong>${item.title}</strong></p>`; //Define New Limnian data headers here.
+                    dataFooter = ""; //Define New Limnian data footer here.
                 }
                 
-                // Append card to the left panel
                 let dataContent = item.content.replace(/"/g, '&quot;');
+                // Append card to the left panel
                 $("#card-container").append(`
                     <div class="card text-white bg-dark mb-3" data-content="${dataContent}" data-header="${dataHeader}" data-footer="${dataFooter}">
                         <div class="card-body">
@@ -188,6 +193,20 @@
         	else{
         		console.log("No info found for this character!");
         	}
+        }
+        function collapse(div){
+            console.log(div);
+            if(div.parentNode.childNodes[1].style.display == "none"){
+                console.log("Setting display to block");
+                for(let i=1;i<div.parentNode.childNodes.length;i++){ //Start at 1 to continue showing the header to click
+                    div.parentNode.childNodes[i].style.display = 'block';
+                }
+            }else{
+                console.log("Setting display to none");
+                for(let i=1;i<div.parentNode.childNodes.length;i++){
+                    div.parentNode.childNodes[i].style.display = 'none';
+                }
+            }
         }
     </script>
 </body>
