@@ -179,7 +179,7 @@
             // Event listener for clicking on a card to display full details
             $(document).on("click", ".card", function() {
                 const content = $(this).attr("data-header") + "<p>" +  $(this).attr("data-content") + "</p>" + $(this).attr("data-footer");
-                $("#detail-view").html(`${content.replace(/\n/g, '<br>')}`);
+                $("#detail-view").html(`${content.replace(/\n/g, '<br><br>')}`);
             });
         });
 
