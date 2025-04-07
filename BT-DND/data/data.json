@@ -442,6 +442,70 @@
 		},
 		{
 			"category":"Thedes Letters",
+			"from":"Connomor",
+			"to":"Sir Estell",
+			"content":"I had forgotten how difficult it is to ensure letters reach people who are constantly traveling, an ironic thing to forget given how often I was in your position. This isn’t an excuse for the tardiness of this letter, mind, but perhaps reflects the general state of confusion that the city and I both have been in. My duties have been pulling me in one direction, then another, and I have finally found something to pull me towards the writing desk. My personal letters have all been gathering dust, I regret, with Orlais, the Wardens, and our mutual friend the Templar.  Maker save us from politics.\nI am beginning with the subject you do not like to broach, as there is no avoiding it now. I will keep it brief. Under the current circumstances, you must seriously consider what it would mean to take it, and what that would entail for you. If you finish this consideration and decide that you will, know that I would aid you. Please consider this with the same gravity I do. I thank you, Estell. Now to what I do not wish to discuss: I need you to trust me, and my actions. There are pieces in motion I cannot explain now, but will be clear later; I do nothing without reason. One day I will explain, but for now, I ask you to trust me. Let us move to more pleasant subjects.\n	I know your last letter was some time ago, but I would feel wrong to go without replying to it. It makes me proud to see the knight you have become in spite of the training you disliked. If dislike is a strong enough word, hm? I regret that I wasn’t able to have you join and train in my own company of knights, rather than the order. The training you are receiving now, however, is going to be more valuable to you than that would have been. What’s most important for a good knight is to learn what it means to travel the roads, to meet people, to see what you can do for those people, to try to do good.  You’re only starting to come into your own, Estell. Even if you don’t, you’ve come far.\nMost of my business does not bear mention; I am incredibly busy, so much of it frivolous. I hope that one of my duties will allow me to visit Kanevedenn in time for Tenenan’s birthday; to make sure the flowers are ready. I doubt our paths will cross in person soon, but I hope that you will write when you are able - I understand that you are as busy as I am, if not more. While I can hold myself to standards of tardiness, it would be absurd to do that to a young knight on the road. I’m not sure if I sent a letter in a timely fashion until I was far too old to have a good excuse. You, however, have a very good excuse, and don’t have an old soldier’s bad habits. I hope you are well, Estell, and I look forward to your reply.",
+			"index":"66",
+			"meta":"Connomor Katell, Estell Gornemant"
+		},
+		{
+			"category":"Thedes Letters",
+			"from":"Estell",
+			"to":"Sir Connomor",
+			"content":"I have about a dozen sheets of scrap paper next to me that I'll have to burn after this, but it feels like there's no good way to write this letter.\nI don't know if you heard I've finally graduated from Templar-Recruit. It seems that this was only the beginning of my luck, because I have been deemed fit to receive \"a special education\" from Knight-Commander Trahan herself. \nSir, I think if I fail this she will kill me.\nThat is actually not the point of my letter. My first lesson was Commander Trahan trying to convince me the Templar Order's Way was the only way to stay alive. She shared a story of when she was a girl and her father brought her on her first abomination hunt. She shared that even before she was 10 she was well trained enough to use her shield and distract the abomination that used to be her friend well enough for her father to kill it. She then went on about the importance of knowing how to use my shield, constance vigilance, and that she was <u>lucky</u> to be trained so well at such a young age or else \"that <u>thing</u> that pretended to be [her] friend\" would have \"torn [her] throat open and cracked [her] skull to get at the meat.\"\nSir. What <u>was</u> that? What am I supposed to do about that?",
+			"index":"67",
+			"meta":"Connomor Katell, Estell Gornemant"
+		},
+		{
+			"category":"Thedes Letters",
+			"from":"Lady Islay",
+			"to":"My darling Lilias",
+			"content":"Oh how are you, darling? Is darling Ivor well, and please tell me he’s going to be called back from whatever diplomatic tomfoolery he has to do in Orlais soon? Denim is positively dead without you, darling! And what would you do without me to tell you what’s been happening on the social scene? You would be so woefully out of date. It’s just dreadful that the biggest social event of the season was for something so terribly tragic. Oh, our poor dead King! It feels like he was cut down in the height of his prime, doesn’t it? Oh, I know he was in his fifties but it was all so sudden and public that it makes it feel positively tragic, like something in one of the plays they put on in Denim! I must tell you about it - of course I was in attendance, everyone who is anyone in Denim was in attendance in their best and most funereal. It was so terribly sad, darling, like any proper funeral should be. \nReally, darling Lilias, my heart bleeds for poor Conn - the Lord Commander lets me call him Conn, you know. The King’s death has affected him so terribly and he was already in such a state! He read the most touching eulogy about the King, his dearest friend and closest companion - did you know he saved the King’s life during the war when he lost that arm? I had no idea, darling! They were inseparable! When he started weeping you know I can never stop myself from weeping too. Oh, poor Conn! After, you know, the funeral things, was what everyone was looking forward to - the feast. And oh, Lili, the poor man was blind drunk when the feast was barely started - he came up to talk to me, you know, and I felt terribly for him. He showed me the ring the king gave him, you know (and what a ring, Lilias, the prettiest pale blue sapphires and gold you’ve ever seen)! He was saying something tragic about this being the last time he could kiss Tristram’s ring, and how unfair it was that he had to bury his best friend when he loved him so much, when one of those other knight types came and took his arm. Conn was put out, but the knight was so apologetic and I told him nonsense, he had nothing to apologize for but loving his best friend! Well, that made the poor man sob and by then my love was back from dreary conversation and we had our meals to worry about, you know. Oh, Lilias, isn’t it just tragic? And you missing all of it in stuffy old Orlais is doubly tragic! Write soon, darling, and come sooner.",
+			"index":"68",
+			"meta":"Lilias Spens, Lady Islay, Gossip, Connomor, Rumours, Gossip"
+		},
+		{
+			"category":"Thedes Letters",
+			"from":"<character onclick='charDetails(`Shou Tucker`)'>A friend (Shou Tucker)</character>",
+			"to":"<character onclick='charDetails(`Arlessa Carina`)'>Honored Arlessa</character>",
+			"content":"You know me, but discretion requires the artifice of disguise, both of my handwriting and my name. The topic of this missive is a sensitive one, and I urge you, read no further unless you are in private or amongst loyal friends. Our mutual secrets must remain as such, honored Arlessa.\nWith solitude assured, I know of the trouble you're having, my Arlessa. I have seen this before, though do not let that statement provoke as much fear as it may have previously. This mother's nightmare is one that has happened before, to noble ladies like you, of the most august rank. I also know your hope - that this might be somehow resolved without the loss of your son and heir, and without the looming shadow that bears not mentioning. The purpose of this letter is hope, honored Arlessa, and a solution. The man who bears this letter is a mage who has spent time in noble households, training scions or siblings in the careful art of mastery and concealment. There is no con, I offer his services to you, with the only charge being ensuring his living needs and concealment. Don't let this recommendation surprise you - again, you know me, honored Arlessa. I wish nothing but health and happiness for you and the young lordling.",
+			"index":"69",
+			"meta":"Shou Tucker, Arlessa Carina, Tristram Gornemant III, Arl Pelham"
+		},
+		{
+			"category":"Thedes Letters",
+			"from":"<character onclick='charDetails(`Arlessa Carina`)'>Arlessa Carina</character>",
+			"to":"Ma chère dame",
+			"content":"Ah, you have a way of making the most tempting invitations. What a truly delightful soiree you have planned for your anniversary! The guest list, it is impeccable. I would add my name, and the name of my son to it, but I am too busy with him and the Arl to be able to come. Mon ange has a new tutor, and oh, I practically must attend the lessons to be able to keep up. Such an intelligent man, so thorough, and yet still young and handsome - it quite strikes one. I had not known that you could get such good tutors here, but I am to be surprised yet. \nAnd you know how boys may be at that age, all focus and ready one moment, out the window woolgathering at the next. I tell you, ma chére, I positively have my hands full here with this boy and his lessons and ah, all the things he needs to be Arl! They do not teach you this, you know? Or warn you, truly, that motherhood is the most exciting job a noble woman will have. Oh, to be young and carefree once more, no worries and no tutors, and free to go to any ball I please. Not that I would trade chèr Tristram for anything in the world, never, nothing could induce me to. But ah, we had some fun, you and I, before les hommes came around. I miss those days, chérie. We should write more, don't you think? It is nice to hear of Orlais, and the perfume of your paper smells like home. \nJe vous envoie mes amicales pensées,",
+			"index":"70",
+			"meta":"Arlessa Carina, Tristram Gornemant III, Shou Tucker, Arl Pelham, Orlais, La Dame"
+		},
+		{
+			"category":"Thedes Letters",
+			"from":"Lord-Commander Connomor Katell",
+			"to":"<character onclick='charDetails(`Trahan`)'>Knight-Commander Trahan</click>",
+			"content":"Let the seal you broke marks how seriously I take the confidentiality of this letter and any correspondence between us. This matter is extremely delicate, and I am trying to avoid a wider panic within or without my own household. Please do not mention this to anyone outside your order until the situation is taken care of - both for my sake, and for the sake of others. My castellan hired a series of new servants over several months, to fill positions vacated due to death or marriage. One of these maids claimed to be an Orlesian girl from the borderlands named Rosine, with the expected references for a girl of her status seeking her position. I vet my castellan's hires - the habit of a meddling old commander, I’ll admit, but one I find indispensable - and found no issues with the girl.\nThere was no trouble until one of the other serving girls came terrified to our Templar garrison, reporting what she'd seen the Orlesian doing. She was an apostate mage practicing baneful spells, Knight-Commander, placed within my household. If Tenenan was alive, an Orlesian girl with her skills would have been made one of her ladies' maids. Perhaps she escaped from the Circle, I had heard a rumor to that effect, but I keep thinking of her Orlesian accent. I would like to play it off as the paranoia of an old veteran, but -  an Orlesian mage is a strange thing in Ferelden, and I know you will agree with me. Please give me some peace of mind, Commander - examine other recent hires to noble households, make sure no one else is in danger. Write as soon as you can.\nBeneath my seal,",
+			"index":"71",
+			"meta":"Connomor Katell, Commander Trahan, Tenenan, Orlais, Rosine"
+		},
+		{
+			"category":"Thedes Letters",
+			"from":"Your Fifi",
+			"to":"Bedrock of my heart,",
+			"content":"I've had this sent by courier across the city so you won't have to come back for the list and be delayed. Tip the girl, for me, if you please. What we need for the preparations are as follows, and accept no substitutes:\n<ul><li>10 warriors under different, but well-respected patrons, to bear the king's sarcophagus to the tomb.</li><li>One wrought iron brazier for each Aeducan king to rule Dwarvezammar to illuminate the palace for his lying-in-stone.</li><li>5 jars of my namesake from Bitumen's distillery.</li><li>1 pound of mica dust. </li><li>Funerary robes, fully beaded (must include amethyst & onyx & the most common stone types) and embroidered with gold and silver thread. </li><li>Funerary crown from the royal treasury (stone).</li><li>The Heir's funeral raiment from the royal treasury. Do not pick the wrong raiment; each is stored and labeled with the name of each one of the king's children and grandchildren. The other heir's raiment shouldn't be an issue, since she wore it to her funeral. </li><li>An update from the assistant stonecarver on the progress for the plinth. Your stone effigy is almost the spitting image of King Aeducan, and you aren't even done. </li><li>A meal for yourself, for the sake of the stone.</li></ul>\nThe good thing about royal funerals, bedrock of my heart, is that there is a formula for them. This one was thrown off somewhat by the preceding one, but the formula is the same. Yes, there are many steps and preparations involved, but this is our job. Worrying yourself sick over the preparations won't make a good funeral; trusting yourself will. There's no finer stonecarver and planner to give our king the ceremony he deserves.",
+			"index":"72",
+			"meta":"Dwarveszammar, bedrock, Fifi, King Aeducan, Funeral"
+		},
+		{
+			"category":"Thedes Letters",
+			"from":"",
+			"to":"",
+			"content":"",
+			"index":"",
+			"meta":""
+		},
+		{
+			"category":"Thedes Letters",
 			"from":"",
 			"to":"",
 			"content":"",
