@@ -79,6 +79,7 @@
                 <option value="">Select Category</option>
                 <option value="Thedes Letters">Thedes Letters</option>
                 <option value="TGF Dossier 1) La Sur-Arbre">TGF Dossier 1) La Sur-Arbre</option>
+                <option value="TGF Dossier 2) New Limnsworth University">TGF Dossier 2) New Limnsworth University</option>
             </select>
             <input type="text" id="search" class="form-control mb-3" placeholder="Search tags...">
             <div id="card-container" class="mt-3">
@@ -153,6 +154,10 @@
                     dataHeader = ""; //Define New Limnian data headers here.
                     dataFooter = ""; //Define New Limnian data footer here.
                 } else if (item.category === "TGF Dossier 1) La Sur-Arbre") {
+                    previewInfo = `<p><strong>${item.title}</strong></p>`;
+                    dataHeader = `<p><strong>${item.title}</strong></p>`; //Define New Limnian data headers here.
+                    dataFooter = ""; //Define New Limnian data footer here.
+                } else if (item.category === "TGF Dossier 2) New Limnsworth University") {
                     previewInfo = `<p><strong>${item.title}</strong></p>`;
                     dataHeader = `<p><strong>${item.title}</strong></p>`; //Define New Limnian data headers here.
                     dataFooter = ""; //Define New Limnian data footer here.
