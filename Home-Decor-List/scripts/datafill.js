@@ -9,7 +9,7 @@ function consoleTest () {
 
 
 function loadJSON(){
-	const rooms = ["bedroom","bathroom","livingroom","diningroom","kitchen"];
+	const rooms = ["bedroom","bathroom","livingroom","kitchen"];
 	$.getJSON("./data/furnishings.json?foo=" + new Date().getSeconds, function (data){
 		//JSON file loaded to var "data"
 		

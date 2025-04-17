@@ -5,6 +5,12 @@
 			"source": "Love Furniture",
 			"link": "https://www.lovefurniture.ie/fusion-storage-small-double-bed-4ft-brown",
 			"price": "€166"
+		},
+		{
+			"item": "Floating Shelves",
+			"source": "IKEA",
+			"link": "https://www.ikea.com/ie/en/p/fryksas-wall-shelf-rattan-10549348/",
+			"price": "€29"
 		}
 		
 	],
@@ -17,12 +23,6 @@
 			"source": "Love Furniture",
 			"link": "https://www.lovefurniture.ie/brody-fabric-recliner-3-seater-sofa-light-grey",
 			"price": "€760"
-		},
-		{
-			"item": "Floating Shelves",
-			"source": "IKEA",
-			"link": "https://www.ikea.com/ie/en/p/fryksas-wall-shelf-rattan-10549348/",
-			"price": "€29"
 		}
 	],
 	"kitchen":[
@@ -37,6 +37,30 @@
 			"source":"IKEA",
 			"link":"https://www.ikea.com/ie/en/p/godmiddag-18-piece-service-white-10564683/",
 			"price":"€25"
+		},
+		{
+			"item":"Pint Glass x6",
+			"source":"IKEA",
+			"link":"https://www.ikea.com/ie/en/p/lodraet-beer-glass-clear-glass-50209337/",
+			"price":"€6"
+		},
+		{
+			"item":"Wine Glass x6",
+			"source":"IKEA",
+			"link":"https://www.ikea.com/ie/en/p/aenkeblomster-wine-glass-clear-glass-60591839/",
+			"price":"€6"
+		},
+		{
+			"item":"Pots x3",
+			"source":"IKEA",
+			"link":"https://www.ikea.com/ie/en/p/annons-5-piece-cookware-set-glass-stainless-steel-90207402/",
+			"price":"€12"
+		},
+		{
+			"item":"Pans x2",
+			"source":"IKEA",
+			"link":"https://www.ikea.com/ie/en/p/middagsmat-frying-pan-set-of-2-non-stick-coating-stainless-steel-00596477/",
+			"price":"€15"
 		}
 	]
 }
