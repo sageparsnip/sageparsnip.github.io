@@ -25,10 +25,18 @@
 			"price": "€29"
 		}
 	],
-	"diningroom":[
-		
-	],
 	"kitchen":[
-		
+		{
+			"item":"Countertop Dishwasher",
+			"source":"buyitdirect",
+			"link":"https://www.buyitdirect.ie/p/electriq-8-place-settings-table-top-dishwasher-white-eqdwttxl",
+			"price":"€290"
+		},
+		{
+			"item":"Crockery Set (6x6x6)",
+			"source":"IKEA",
+			"link":"https://www.ikea.com/ie/en/p/godmiddag-18-piece-service-white-10564683/",
+			"price":"€25"
+		}
 	]
 }

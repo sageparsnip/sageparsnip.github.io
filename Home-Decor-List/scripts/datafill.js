@@ -10,7 +10,7 @@ function consoleTest () {
 
 function loadJSON(){
 	const rooms = ["bedroom","bathroom","livingroom","diningroom","kitchen"];
-	$.getJSON("./data/furnishings.json", function (data){
+	$.getJSON("./data/furnishings.json?foo=" + new Date().getSeconds, function (data){
 		//JSON file loaded to var "data"
 		
 		//For each room, we should loop through it's section of data and fill it's div.
