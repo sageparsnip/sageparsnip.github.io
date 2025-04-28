@@ -3,9 +3,15 @@
 		{
 			"item": "Small Double Bed /w Storage",
 			"source": "Love Furniture",
-			"link": "https://www.lovefurniture.ie/fusion-storage-small-double-bed-4ft-brown",
-			"price": "€166"
+			"link": "https://www.lovefurniture.ie/waverley-storage-small-double-bed-4ft-black",
+			"price": "€318.50"
 		},
+		{
+			"item":"Double Bed /w Storage",
+			"source":"Love Furniture",
+			"link":"https://www.lovefurniture.ie/waverley-double-storage-bed-4-6ft-black",
+			"price":"€322.50"
+		}
 		{
 			"item": "Floating Shelves",
 			"source": "IKEA",
