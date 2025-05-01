@@ -35,6 +35,12 @@
 			"source":"Love Furniture",
 			"link":"https://www.lovefurniture.ie/luna-fabric-sofa-bed-grey",
 			"price":"€481"
+		},
+		{
+			"item":"Exercise Bike",
+			"source":"Decathlon",
+			"link":"https://www.decathlon.ie/p/311976-368521-silent-ultra-compact-smart-exercise-bike-initial-bike.html",
+			"price":"€260"
 		}
 	],
 	"kitchen":[
