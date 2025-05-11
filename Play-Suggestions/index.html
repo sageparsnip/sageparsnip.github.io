@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="./scripts/bootstrap.css">
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://kit.fontawesome.com/51bd3cf8c8.js" crossorigin="anonymous"></script>
+	<script src="./scripts/jquery-3.6.3.min.js"></script>
+	<script src="./scripts/bootstrap.js"></script>
+	<script src="./scripts/datafill.js" type="text/javascript" ></script>
+	<script>
+		function showOverlay(){
+			document.getElementById("overlay").style.display = "flex";
+		}
+		function hideOverlay(){
+			document.getElementById("overlay").style.display = "none";
+		}
+
+	</script>
+	<style>
+		a{
+			color:white;
+		}
+		.need{
+			color:white;
+		}
+		.notneed{
+			color:dimgrey;
+		}
+	</style>
+	<title>Insight Play Suggestions</title>
+</head>
+<body>
+	<!--<button onclick="loadJSON()">Click</button>-->
+	<!-- Start of Section 1 -->
+	<div class="section-div" id="One-Act-Comedies">
+		<div class="section-header-container" style="min-height:50px">
+			<div class="section-header">One Act Comedies</div>
+			<div class="section-collapse"><img src="icons/dropdown.png"></div>
+		</div>
+		<div class="grid-container" id="One-Act-Comedies-Container">
+			<!-- Fill this in with datafill.js -->
+		</div>
+	</div>
+	<div class="section-div" id="One-Act-Dramas">
+		<div class="section-header-container" style="min-height:50px">
+			<div class="section-header">One Act Dramas</div>
+			<div class="section-collapse"><img src="icons/dropdown.png"></div>
+		</div>
+		<div class="grid-container" id="One-Act-Dramas-Container">
+			<!-- Fill this in with datafill.js -->
+		</div>
+	</div>
+	<div class="section-div" id="Full-Slot-Comedies">
+		<div class="section-header-container" style="min-height:50px">
+			<div class="section-header">Full Slot Comedies</div>
+			<div class="section-collapse"><img src="icons/dropdown.png"></div>
+		</div>
+		<div class="grid-container" id="Full-Slot-Comedies-Container">
+			<!-- Fill this in with datafill.js -->
+		</div>
+	</div>
+	<div class="section-div" id="Full-Slot-Dramas">
+		<div class="section-header-container" style="min-height:50px">
+			<div class="section-header">Full Slot Dramas</div>
+			<div class="section-collapse"><img src="icons/dropdown.png"></div>
+		</div>
+		<div class="grid-container" id="Full-Slot-Dramas-Container">
+			<!-- Fill this in with datafill.js -->
+		</div>
+	</div>
+	<div class="section-div" id="Other">
+		<div class="section-header-container" style="min-height:50px">
+			<div class="section-header">Other</div>
+			<div class="section-collapse"><img src="icons/dropdown.png"></div>
+		</div>
+		<div class="grid-container" id="Others-Container">
+			<!-- Fill this in with datafill.js -->
+		</div>
+	</div>
+</body>

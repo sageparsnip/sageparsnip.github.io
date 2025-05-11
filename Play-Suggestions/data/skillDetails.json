@@ -1,0 +1,1498 @@
+{
+	"Action":[
+		{
+			"name":"------------------------Common Basic Actions------------------------"
+		},
+		{
+			"name":"Stride (move)",
+			"page": "471",
+			"type": "Basic Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=88",
+			"trigger": "",
+			"requirements": "",
+			"text": [
+				"You move up to your Speed."
+			],
+			"critSuccess": "",
+			"success": "",
+			"failure": "",
+			"critFailure": ""
+		},
+		{
+			"name":"Strike (attack)",
+			"page" : "471",
+			"type": "Basic Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=89",
+			"trigger": "",
+			"requirements": "",
+			"text": [
+				"You attack with a weapon you're wielding or with an unarmed attack, targeting one creature within your reach (for a melee attack) or within range (for a ranged attack). Roll the attack roll for the weapon or unarmed attack you are using, and compare the result to the target creature's AC to determine the effect. See Attack Rolls and Damage for details on calculating your attack and damage rolls."
+			],
+			"critSuccess": "As success, but you deal double damage.",
+			"success": "You deal damage according to the weapon or unarmed attack, including any modifiers, bonuses, and penalties you have to damage.",
+			"failure": "",
+			"critFailure": ""
+		},
+		{
+			"name":"Cast a Spell",
+			"page" : "302",
+			"type":"Basic Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=72",
+			"trigger": "",
+			"requirements": "",
+			"text": [
+				"You cast a spell you have prepared or in your repertoire. Casting a Spell is a special activity that takes a variable number of actions depending on the spell, as listed in each spell's stat block. As soon as the spellcasting actions are complete, the spell effect occurs.",
+				"Some spells are cast as a reaction or free action. In those cases, you Cast the Spell as a reaction or free action (as appropriate) instead of as an activity. Such cases will be noted in the spell's stat block—for example, “ verbal.”",
+				"<b>Long Casting Times</b> Some spells take minutes or hours to cast. The Cast a Spell activity for these spells includes a mix of the listed spell components, but it's not necessary to break down which one you're providing at a given time. You can't use other actions or reactions while casting such a spell, though at the GM's discretion, you might be able to speak a few sentences. As with other activities that take a long time, these spells have the exploration trait, and you can't cast them in an encounter. If combat breaks out while you're casting one, your spell is disrupted (see Disrupted and Lost Spells below).",
+				"<b>Spell Components</b> Each spell lists the spell components required to cast it after the action icons or text, such as “ material, somatic, verbal.” The spell components, described in detail below, add traits and requirements to the Cast a Spell activity. If you can't provide the components, you fail to Cast the Spell.",
+				" • Material (manipulate)",
+				" • Somatic (manipulate)",
+				" • Verbal (concentrate)",
+				" • Focus (manipulate)",
+				"<b>Disrupted and Lost Spells</b> Some abilities and spells can disrupt a spell, causing it to have no effect and be lost. When you lose a spell, you've already expended the spell slot, spent the spell's costs and actions, and used the Cast a Spell activity. If a spell is disrupted during a Sustain a Spell action, the spell immediately ends. The full rules for disrupting actions appear here."
+			],
+			"critSuccess": "",
+			"success": "",
+			"failure": "",
+			"critFailure": ""
+		},
+		{
+			"name":"Step (move)",
+			"page" : "471",
+			"type": "Basic Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=87",
+			"trigger": "",
+			"requirements": "Your Speed is at least 10 feet.",
+			"text": [
+				"You carefully move 5 feet. Unlike most types of movement, Stepping doesn't trigger reactions, such as Attacks of Opportunity, that can be triggered by move actions or upon leaving or entering a square.",
+				"You can't Step into difficult terrain, and you can't Step using a Speed other than your land Speed."
+			],
+			"critSuccess": "",
+			"success": "",
+			"failure": "",
+			"critFailure": ""
+		},
+		{
+			"name": "Interact (manipulate)",
+			"page": "470",
+			"type": "Basic Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=80",
+			"trigger": "",
+			"requirements": "",
+			"text": [
+				"You use your hand or hands to manipulate an object or the terrain. You can grab an unattended or stored object, open a door, or produce some similar effect. You might have to attempt a skill check to determine if your Interact action was successful."
+			],
+			"critSuccess": "",
+			"success": "",
+			"failure": "",
+			"critFailure": ""
+		},
+		{
+			"name":"------------------------Uncommon Basic Actions------------------------"
+		},
+		{
+			"name": "Aid",
+			"page": "470",
+			"type": "Basic Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=75",
+			"trigger": "An ally is about to use an action that requires a skill check or attack roll.",
+			"requirements": "The ally is willing to accept your aid, and you have prepared to help (see below).",
+			"text": [
+				"You try to help your ally with a task. To use this reaction, you must first prepare to help, usually by using an action during your turn. You must explain to the GM exactly how you’re trying to help, and they determine whether you can Aid your ally.",
+				"When you use your Aid reaction, attempt a skill check or attack roll of a type decided by the GM. The typical DC is 20, but the GM might adjust this DC for particularly hard or easy tasks. The GM can add any relevant traits to your preparatory action or to your Aid reaction depending on the situation, or even allow you to Aid checks other than skill checks and attack rolls."
+			],
+			"critSuccess": "You grant your ally a +2 circumstance bonus to the triggering check. If you’re a master with the check you attempted, the bonus is +3, and if you’re legendary, it’s +4.",
+			"success": "You grant your ally a +1 circumstance bonus to the triggering check.",
+			"failure": "",
+			"critFailure": "Your ally takes a –1 circumstance penalty to the triggering check."
+		},
+		{
+			"name": "Crawl (move)",
+			"page": "470",
+			"type": "Basic Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=76",
+			"trigger": "",
+			"requirements": "You are prone and your Speed is at least 10 feet.",
+			"text": [
+				"You move 5 feet by crawling and continue to stay prone."
+			],
+			"critSuccess": "",
+			"success": "",
+			"failure": "",
+			"critFailure": ""
+		},
+		{
+			"name": "Delay",
+			"page": "470",
+			"type": "Basic Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=77",
+			"trigger": "Your turn begins.",
+			"requirements": "",
+			"text": [
+				"You wait for the right moment to act. The rest of your turn doesn’t happen yet. Instead, you’re removed from the initiative order. You can return to the initiative order as a free action triggered by the end of any other creature’s turn. This permanently changes your initiative to the new position. You can’t use reactions until you return to the initiative order. If you Delay an entire round without returning to the initiative order, the actions from the Delayed turn are lost, your initiative doesn’t change, and your next turn occurs at your original position in the initiative order.",
+				"When you Delay, any persistent damage or other negative effects that normally occur at the start or end of your turn occur immediately when you use the Delay action. Any beneficial effects that would end at any point during your turn also end. The GM might determine that other effects end when you Delay as well. Essentially, you can’t Delay to avoid negative consequences that would happen on your turn or to extend beneficial effects that would end on your turn."
+			],
+			"critSuccess": "",
+			"success": "",
+			"failure": "",
+			"critFailure": ""
+		},
+		{
+			"name": "Drop Prone (move)",
+			"page": "470",
+			"type": "Basic Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=78",
+			"trigger": "",
+			"requirements": "",
+			"text": [
+				"You fall prone."
+			],
+			"critSuccess": "",
+			"success": "",
+			"failure": "",
+			"critFailure": ""
+		},
+		{
+			"name": "Escape (attack)",
+			"page": "470",
+			"type": "Basic Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=79",
+			"trigger": "",
+			"requirements": "",
+			"text": [
+				"You attempt to escape from being grabbed, immobilized, or restrained.",
+				"Choose one creature, object, spell effect, hazard, or other impediment imposing any of those conditions on you. Attempt a check using your unarmed attack modifier against the DC of the effect. This is typically the Athletics DC of a creature grabbing you, the Thievery DC of a creature who tied you up, the spell DC for a spell effect, or the listed Escape DC of an object, hazard, or other impediment.",
+				"You can attempt an Acrobatics or Athletics check instead of using your attack modifier if you choose (but this action still has the attack trait)."
+			],
+			"critSuccess": "You get free and remove the grabbed, immobilized, and restrained conditions imposed by your chosen target. You can then Stride up to 5 feet.",
+			"success": "You get free and remove the grabbed, immobilized, and restrained conditions imposed by your chosen target.",
+			"failure": "",
+			"critFailure": "You don’t get free, and you can’t attempt to Escape again until your next turn."
+		},
+		{
+			"name": "Invest an Item",
+			"page": "531",
+			"type": "Basic Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=289",
+			"trigger": "",
+			"requirements": "",
+			"text": [
+				"You invest your energy in an item with the invested trait as you don it. This process requires 1 or more Interact actions, usually taking the same amount of time it takes to don the item. Once you’ve Invested the Item, you benefit from its constant magical abilities as long as you meet its other requirements (for most invested items, the only other requirement is that you must be wearing the item). This investiture lasts until you remove the item.",
+				"You can invest no more than 10 items per day. If you remove an invested item, it loses its investiture. The item still counts against your daily limit after it loses its investiture. You reset the limit during your daily preparations, at which point you Invest your Items anew. If you’re still wearing items you had invested the previous day, you can typically keep them invested on the new day, but they still count against your limit."
+			],
+			"critSuccess": "",
+			"success": "",
+			"failure": "",
+			"critFailure": ""
+		},
+		{
+			"name": "Leap (move)",
+			"page": "470",
+			"type": "Basic Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=81",
+			"trigger": "",
+			"requirements": "",
+			"text": [
+				"You take a careful, short jump. You can Leap up to 10 feet horizontally if your Speed is at least 15 feet, or up to 15 feet horizontally if your Speed is at least 30 feet. You land in the space where your Leap ends (meaning you can typically clear a 5-foot gap, or a 10-foot gap if your Speed is 30 feet or more).",
+				"If you Leap vertically, you can move up to 3 feet vertically and 5 feet horizontally onto an elevated surface.",
+				"Jumping a greater distance requires using the Athletics skill."
+			],
+			"critSuccess": "",
+			"success": "",
+			"failure": "",
+			"critFailure": ""
+		},
+		{
+			"name": "Ready",
+			"page": "470",
+			"type": "Basic Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=82",
+			"trigger": "",
+			"requirements": "",
+			"text": [
+				"You prepare to use an action that will occur outside your turn. Choose a single action or free action you can use, and designate a trigger. Your turn then ends. If the trigger you designated occurs before the start of your next turn, you can use the chosen action as a reaction (provided you still meet the requirements to use it). You can’t Ready a free action that already has a trigger.",
+				"If you have a multiple attack penalty and your readied action is an attack action, your readied attack takes the multiple attack penalty you had at the time you used Ready. This is one of the few times the multiple attack penalty applies when it’s not your turn."
+			],
+			"critSuccess": "",
+			"success": "",
+			"failure": "",
+			"critFailure": ""
+		},
+		{
+			"name": "Release (manipulate)",
+			"page": "470",
+			"type": "Basic Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=83",
+			"trigger": "",
+			"requirements": "",
+			"text": [
+				"You release something you're holding in your hand or hands. This might mean dropping an item, removing one hand from your weapon while continuing to hold it in another hand, releasing a rope suspending a chandelier, or performing a similar action. Unlike most manipulate actions, Release does not trigger reactions that can be triggered by actions with the manipulate trait (such as Attack of Opportunity).",
+				"If you want to prepare to Release something outside of your turn, use the Ready activity."
+			],
+			"critSuccess": "",
+			"success": "",
+			"failure": "",
+			"critFailure": ""
+		},
+		{
+			"name": "Seek",
+			"page": "471",
+			"type": "Basic Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=84",
+			"trigger": "",
+			"requirements": "",
+			"text": [
+				"You scan an area for signs of creatures or objects. If you're looking for creatures, choose an area you're scanning. If precision is necessary, the GM can have you select a 30-foot cone or a 15-foot burst within line of sight. You might take a penalty if you choose an area that's far away.",
+				"If you're using Seek to search for objects (including secret doors and hazards), you search up to a 10-foot square adjacent to you. The GM might determine you need to Seek as an activity, taking more actions or even minutes or hours if you're searching a particularly cluttered area.",
+				"The GM attempts a single secret Perception check for you and compares the result to the Stealth DCs of any undetected or hidden creatures in the area or the DC to detect each object in the area (as determined by the GM or by someone Concealing the Object). A creature you detect might remain hidden, rather than becoming observed, if you're using an imprecise sense or if an effect (such as invisibility) prevents the subject from being observed."
+			],
+			"critSuccess": "If you were searching for creatures, any undetected or hidden creature you critically succeeded against becomes observed by you. If you were searching for an object, you learn its location.",
+			"success": "If you were searching for creatures, any undetected creature you succeeded against becomes hidden from you instead of undetected, and any hidden creature you succeeded against becomes observed by you. If you were searching for an object, you learn its location or get a clue to its whereabouts, as determined by the GM.",
+			"failure": "",
+			"critFailure": ""
+		},
+		{
+			"name": "Sense Motive",
+			"page": "471",
+			"type": "Basic Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=85",
+			"trigger": "",
+			"requirements": "",
+			"text": [
+				"You try to tell whether a creature's behavior is abnormal.",
+				"Choose one creature, and assess it for odd body language, signs of nervousness, and other indicators that it might be trying to deceive someone. The GM attempts a single secret Perception check for you and compares the result to the Deception DC of the creature, the DC of a spell affecting the creature's mental state, or another appropriate DC determined by the GM.",
+				"You typically can't try to Sense the Motive of the same creature again until the situation changes significantly."
+			],
+			"critSuccess": " You determine the creature’s true intentions and get a solid idea of any mental magic affecting it.",
+			"success": " You can tell whether the creature is behaving normally, but you don’t know its exact intentions or what magic might be affecting it.",
+			"failure": "You detect what a deceptive creature wants you to believe. If they’re not being deceptive, you believe they’re behaving normally.",
+			"critFailure": "You get a false sense of the creature’s intentions."
+		},
+		{
+			"name": "Stand",
+			"page": "471",
+			"type": "Basic Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=86",
+			"trigger": "",
+			"requirements": "",
+			"text": [
+				"You stand up from prone."
+			],
+			"critSuccess": "",
+			"success": "",
+			"failure": "",
+			"critFailure": ""
+		},
+		{
+			"name": "Take Cover",
+			"page": "471",
+			"type": "Basic Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=90",
+			"trigger": "",
+			"requirements": " You are benefiting from cover, are near a feature that allows you to take cover, or are prone.",
+			"text": [
+				"You press yourself against a wall or duck behind an obstacle to take better advantage of cover. If you would have standard cover, you instead gain greater cover, which provides a +4 circumstance bonus to AC; to Reflex saves against area effects; and to Stealth checks to Hide, Sneak, or otherwise avoid detection. Otherwise, you gain the benefits of standard cover (a +2 circumstance bonus instead). This lasts until you move from your current space, use an attack action, become unconscious, or end this effect as a free action."
+			],
+			"critSuccess": "",
+			"success": "",
+			"failure": "",
+			"critFailure": ""
+		},
+		{
+			"name":"------------------------Specialty Basic Actions------------------------"
+		},
+		{
+			"name": "Activate An Item",
+			"page": "532",
+			"type": "Specialty Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=100",
+			"trigger": "",
+			"requirements": "You can Activate an Item with the invested trait only if it’s invested by you. If the item requires you to Interact with it, you must be wielding it (if it’s a held item) or touching it with a free hand (if it’s another type of item).",
+			"text":[
+				"You call forth the effect of an item by properly activating it. This is a special activity that takes a variable number of actions, as listed in the item's stat block.",
+				"Some items can be activated as a reaction or free action. In this case, you Activate the Item as a reaction or free action (as appropriate) instead of as an activity. Such cases are noted in the item's Activate entry in its stat block—for example, “<b>Activate</b> command.”",
+				"<b>Long Activation Times</b> Some items take minutes or hours to activate. The Activate an Item activity for these items includes a mix of the listed activation components, but it's not necessary to break down which one you're providing at a given time. You can't use other actions or reactions while activating such an item, though at the GM's discretion, you might be able to speak a few sentences. As with other activities that take a long time, these activations have the exploration trait, and you can't activate them in an encounter. If combat breaks out while you're activating one, your activation is disrupted (see the Disrupting Activations sidebar).",
+				"<b>Activation Components</b> Each activation entry lists any components involved in the activation after the action icons or text. The activation components, described below, add traits (listed in parentheses) and requirements to the activation. If you can't provide the components, you fail to Activate the Item. ",
+				"• Command (auditory, concentrate)",
+				"• Envision (concentrate)",
+				"• Interact (manipulate)",
+				"• Cast a Spell",
+				"<br><hr>",
+				"<b>Activation Components</b>",
+				"An item's activate entry lists the components required to activate its abilities. Each component adds certain traits to the Activate an Item activity, and some components have special requirements. The components that appear in this book are listed below.",
+				"<b>Command: </b>",
+				"This component is a specific utterance you must make in a loud and strong voice. Activate an Item gains the auditory and concentrate traits. You must be able to speak to provide this component.",
+				"<b>Envision: </b>",
+				" This component is a specific image or phenomenon you need to imagine. Activate an Item gains the concentrate trait.",
+				"<b>Interact: </b>",
+				"This component works like the Interact basic action. Activate an Item gains the manipulate trait and requires you to use your hands, just like with any Interact action. ",
+				"<b>Cast a Spell: </b>",
+				"If an item lists “Cast a Spell” after “Activate,” the activation requires you to use the Cast a Spell activity to Activate the Item. This happens when the item replicates a spell. You must have a spellcasting class feature to Activate an Item with this activation component. If the item can be used for a specific spell, the action icon for that spell is provided. If it's an item like a staff, which can be used for many spells, the icon is omitted, and you must refer to each spell to determine which actions you must spend to Activate the Item to cast it.",
+				"In this case, Activate an Item gains all the traits from the relevant components of the Cast a Spell activity."
+			],
+			"critSuccess": "",
+			"success": "",
+			"failure": "",
+			"critFailure": ""
+		},
+		{
+			"name": "Arrest A Fall",
+			"page": "472",
+			"type": "Specialty Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=91",
+			"trigger": "You fall.",
+			"requirements":"You have a fly Speed.",
+			"text":[
+				"You attempt an Acrobatics check to slow your fall. The DC is typically 15, but it might be higher due to air turbulence or other circumstances. "
+			],
+			"critSuccess": "",
+			"success": "You fall gently, taking no damage from the fall.",
+			"failure": "",
+			"critFailure": ""			
+		},
+		{
+			"name": "Avert Gaze",
+			"page": "472",
+			"type": "Specialty Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=92",
+			"trigger": "",
+			"requirements":"",
+			"text":[
+				"You avert your gaze from danger.",
+				"You gain a +2 circumstance bonus to saves against visual abilities that require you to look at a creature or object, such as a medusa's petrifying gaze. Your gaze remains averted until the start of your next turn. "
+			],
+			"critSuccess": "",
+			"success": "",
+			"failure": "",
+			"critFailure": ""	
+		},
+		{
+			"name": "Burrow (move)",
+			"page": "472",
+			"type": "Specialty Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=93",
+			"trigger": "",
+			"requirements":"You have a burrow Speed.",
+			"text":[
+				"You dig your way through dirt, sand, or a similar loose material at a rate up to your burrow Speed.",
+				"You can’t burrow through rock or other substances denser than dirt unless you have an ability that allows you to do so."
+			],
+			"critSuccess": "",
+			"success": "",
+			"failure": "",
+			"critFailure": ""	
+		},
+		{
+			"name": "Dismiss",
+			"page": "305",
+			"type": "Specialty Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=74",
+			"trigger": "",
+			"requirements":"",
+			"text":[
+				"You end one spell effect or magic item effect.",
+				"This must be an effect you are allowed to dismiss, as defined by the spell or item.",
+				"Dismissal might end the effect entirely or might end it just for a certain target or targets, depending on the spell or item."
+			],
+			"critSuccess": "",
+			"success": "",
+			"failure": "",
+			"critFailure": ""	
+		},
+		{
+			"name": "Fly (move)",
+			"page": "472",
+			"type": "Specialty Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=94",
+			"trigger": "",
+			"requirements":"You have a fly Speed.",
+			"text":[
+				"You move through the air up to your fly Speed.",
+				"Moving upward (straight up or diagonally) uses the rules for moving through difficult terrain. You can move straight down 10 feet for every 5 feet of movement you spend. If you Fly to the ground, you don’t take falling damage. You can use an action to Fly 0 feet to hover in place.",
+				"If you’re airborne at the end of your turn and didn’t use a Fly action this round, you fall."
+			],
+			"critSuccess": "",
+			"success": "",
+			"failure": "",
+			"critFailure": ""	
+		},
+		{
+			"name": "Grab an Edge (manipulate)",
+			"page": "472",
+			"type": "Specialty Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=95",
+			"trigger": "You fall from or past an edge or handhold.",
+			"requirements":"Your hands are not tied behind your back or otherwise restrained",
+			"text":[
+				"When you fall off or past an edge or other handhold, you can try to grab it, potentially stopping your fall. You must succeed at a Reflex save, usually at the Climb DC. If you grab the edge or handhold, you can then Climb up using Athletics. "
+			],
+			"critSuccess": "You grab the edge or handhold, whether or not you have a hand free, typically by using a suitable held item to catch yourself (catching a battle axe on a ledge, for example). You still take damage from the distance fallen so far, but you treat the fall as though it were 30 feet shorter.",
+			"success": "If you have at least one hand free, you grab the edge or handhold, stopping your fall. You still take damage from the distance fallen so far, but you treat the fall as though it were 20 feet shorter. If you have no hands free, you continue to fall as if you had failed the check.",
+			"failure": "",
+			"critFailure": "You continue to fall, and if you’ve fallen 20 feet or more before you use this reaction, you take 10 bludgeoning damage from the impact for every 20 feet fallen."	
+		},
+		{
+			"name": "Mount (move)",
+			"page": "472",
+			"type": "Specialty Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=96",
+			"trigger": "",
+			"requirements":"You are adjacent to a creature that is at least one size larger than you and is willing to be your mount.",
+			"text":[
+				"You move onto the creature and ride it. If you’re already mounted, you can instead use this action to dismount, moving off the mount into a space adjacent to it."
+			],
+			"critSuccess": "",
+			"success": "",
+			"failure": "",
+			"critFailure": ""	
+		},
+		{
+			"name": "Point Out (manipulate)",
+			"page": "472",
+			"type": "Specialty Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=97",
+			"trigger": "",
+			"requirements":" A creature is undetected by one or more of your allies but isn’t undetected by you.",
+			"text":[
+				"You indicate a creature that you can see to one or more allies, gesturing in a direction and describing the distance verbally. That creature is hidden to your allies, rather than undetected.",
+				"This works only for allies who can see you and are in a position where they could potentially detect the target. If your allies can't hear or understand you, they must succeed at a Perception check against the creature's Stealth DC or they misunderstand and believe the target is in a different location. "
+			],
+			"critSuccess": "",
+			"success": "",
+			"failure": "",
+			"critFailure": ""	
+		},
+		{
+			"name":"Raise a Shield",
+			"page" : "472",
+			"type": "Specialty Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=98",
+			"trigger": "",
+			"requirements":"You are wielding a shield.",
+			"text":[
+				"You position your shield to protect yourself. When you have Raised a Shield, you gain its listed circumstance bonus to AC. Your shield remains raised until the start of your next turn."
+			],
+			"critSuccess": "",
+			"success": "",
+			"failure": "",
+			"critFailure": ""	
+		},
+		{
+			"name": "Sustain a Spell",
+			"page": "304",
+			"type": "Specialty Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=73",
+			"trigger": "",
+			"requirements":"You have at least one spell active with a sustained duration, and you are not fatigued.",
+			"text":[
+				"Choose one spell with a sustained duration you have in effect. The duration of that spell continues until the end of your next turn. Some spells might have slightly different or expanded effects if you sustain them. Sustaining a Spell for more than 10 minutes (100 rounds) ends the spell and makes you fatigued unless the spell lists a different maximum duration (such as “sustained up to 1 minute” or “sustained up to 1 hour”).",
+				"If your Sustain a Spell action is disrupted, the spell immediately ends."
+			],
+			"critSuccess": "",
+			"success": "",
+			"failure": "",
+			"critFailure": ""	
+		},
+		{
+			"name": "Sustain an Activation",
+			"page": "534",
+			"type": "Specialty Action",
+			"aonlink": "https://2e.aonprd.com/Actions.aspx?ID=99",
+			"trigger": "",
+			"requirements":"You have at least one magic item activation that you can sustain and you are not fatigued.",
+			"text":[
+				"Choose one magic item activation with a sustained duration you have in effect. The duration of that activation continues until the end of your next turn. Some activations may have slightly different or expanded effects if you sustain them. Sustaining an Activation for more than 10 minutes (100 rounds) ends the activation and makes you fatigued unless the item's description states a different maximum duration (such as “up to 1 minute” or “up to 1 hour”).",
+				"If your Sustain an Activation action is disrupted, the item's effect immediately ends. "
+			],
+			"critSuccess": "",
+			"success": "",
+			"failure": "",
+			"critFailure": ""	
+		},
+		{
+			"name":"------------------------Skill Actions------------------------"
+		},
+		{
+			"name": 		"Balance (move)",
+			"page": 		"240",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=28",
+			"trigger": 		"You are in a square that contains a narrow surface, uneven ground, or another similar feature.",
+			"requirements":	"",
+			"text":[
+				"You move across a narrow surface or uneven ground, attempting an Acrobatics check against its Balance DC. You are flat-footed while on a narrow surface or uneven ground."
+			],
+			"critSuccess": 	"You move up to your Speed.",
+			"success": 		"You move up to your Speed, treating it as difficult terrain (every 5 feet costs 10 feet of movement).",
+			"failure": 		"You must remain stationary to keep your balance (wasting the action) or you fall. If you fall, your turn ends.",
+			"critFailure": 	"You fall and your turn ends."
+		},
+		{
+			"name": "Tumble Through (move)",
+			"page": "240",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=29",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"You Stride up to your Speed. During this movement, you can try to move through the space of one enemy.",
+				"Attempt an Acrobatics check against the enemy’s Reflex DC as soon as you try to enter its space. You can Tumble Through using Climb, Fly, Swim, or another action instead of Stride in the appropriate environment."
+			],
+			"critSuccess": 	"",
+			"success": 		"You move through the enemy’s space, treating the squares in its space as difficult terrain (every 5 feet costs 10 feet of movement). If you don’t have enough Speed to move all the way through its space, you get the same effect as a failure.",
+			"failure": 		"Your movement ends, and you trigger reactions as if you had moved out of the square you started in.",
+			"critFailure": 	""
+		},
+		{
+			"name": "Maneuver in Flight (move)",
+			"page": "240",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=30",
+			"trigger": 		"",
+			"requirements":	"You have a fly Speed.",
+			"text":[
+				"You try a difficult maneuver while flying. Attempt an Acrobatics check. The GM determines what maneuvers are possible, but they rarely allow you to move farther than your fly Speed."
+			],
+			"critSuccess": 	"",
+			"success": 		"You succeed at the maneuver.",
+			"failure": 		"Your maneuver fails. The GM chooses if you simply can’t move or if some other detrimental effect happens. The outcome should be appropriate for the maneuver you attempted (for instance, being blown off course if you were trying to fly against a strong wind).",
+			"critFailure": 	"As failure, but the consequence is more dire."
+		},
+		{
+			"name": "Recall Knowledge",
+			"page": "239",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Skills.aspx?ID=5&General=true",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"You attempt a skill check to try to remember a bit of knowledge regarding a topic related to that skill. The GM determines the DCs for such checks and which skills apply.",
+				"[Arcana] Recall Knowledge about arcane theories; magic traditions; creatures of arcane significance (like dragons and beasts); and the Elemental, Astral, and Shadow Planes.",
+				"[Crafting] Recall Knowledge about alchemical reactions, the value of items, engineering, unusual materials, and alchemical or mechanical creatures. The GM determines which creatures this applies to, but it usually includes constructs.",
+				"[Lore] Recall Knowledge about the subject of your Lore skill’s subcategory.",
+				"[Medicine] Recall Knowledge about diseases, injuries, poisons, and other ailments. You can use this to perform forensic examinations if you spend 10 minutes (or more, as determined by the GM) checking for evidence such as wound patterns. This is most useful when determining how a body was injured or killed.",
+				"[Nature] Recall Knowledge about fauna, flora, geography, weather, the environment, creatures of natural origin (like animals, beasts, fey, and plants), the First World, the Material Plane, and the Elemental Planes.",
+				"[Occultism] Recall Knowledge about ancient mysteries; obscure philosophies; creatures of occult significance (like aberrations, spirits, and oozes); and the Positive Energy, Negative Energy, Shadow, Astral, and Ethereal Planes.",
+				"[Religion] Recall Knowledge about divine agents, the finer points of theology, obscure myths regarding a faith, and creatures of religious significance (like celestials, fiends, and undead), the Outer Sphere, and the Positive and Negative Energy Planes.",
+				"[Society] Recall Knowledge about local history, important personalities, legal institutions, societal structure, and humanoid cultures. The GM might allow Society to apply to other creatures that are major elements of society in your region, such as the draconic nobility in a kingdom of humans ruled by dragons."
+			],
+			"critSuccess": 	"You recall the knowledge accurately and gain additional information or context.",
+			"success": 		"You recall the knowledge accurately or gain a useful clue about your current situation.",
+			"failure": 		"",
+			"critFailure": 	"You recall incorrect information or gain an erroneous or misleading clue. "
+		},
+		{
+			"name": "Climb (move)",
+			"page": "241",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=33",
+			"trigger": 		"",
+			"requirements":	"You have both hands free.",
+			"text":[
+				"You move up, down, or across an incline. Unless it’s particularly easy, you must attempt an Athletics check. The GM determines the DC based on the nature of the incline and environmental circumstances. You’re flat-footed unless you have a climb Speed."
+			],
+			"critSuccess": 	"You move up, across, or safely down the incline for 5 feet plus 5 feet per 20 feet of your land Speed (a total of 10 feet for most PCs).",
+			"success": 		"You move up, across, or safely down the incline for 5 feet per 20 feet of your land Speed (a total of 5 feet for most PCs, minimum 5 feet if your Speed is below 20 feet).",
+			"failure": 		"",
+			"critFailure": 	"You fall. If you began the climb on stable ground, you fall and land prone."
+		},
+		{
+			"name": "Force Open (attack)",
+			"page": "242",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=34",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"Using your body, a lever, or some other tool, you attempt to forcefully open a door, window, container or heavy gate. With a high enough result, you can even smash through walls. Without a crowbar, prying something open takes a –2 item penalty to the Athletics check to Force Open. "
+			],
+			"critSuccess": 	"You open the door, window, container, or gate and can avoid damaging it in the process.",
+			"success": 		"You break the door, window, container, or gate open, and the door, window, container, or gate gains the broken condition. If it’s especially sturdy, the GM might have it take damage but not be broken.",
+			"failure": 		"",
+			"critFailure": 	"Your attempt jams the door, window, container, or gate shut, imposing a –2 circumstance penalty on future attempts to Force it Open."
+		},
+		{
+			"name": "Grapple (attack)",
+			"page": "242",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=35",
+			"trigger": 		"",
+			"requirements":	"You have at least one free hand or have your target grappled or restrained. Your target isn't more than one size larger than you.",
+			"text":[
+				"You attempt to grab a creature or object with your free hand. Attempt an Athletics check against the target's Fortitude DC. You can Grapple a target you already have grabbed or restrained without having a hand free. "
+			],
+			"critSuccess": 	"Your target is restrained until the end of your next turn unless you move or your target Escapes.",
+			"success": 		"Your target is grabbed until the end of your next turn unless you move or your target Escapes.",
+			"failure": 		"You fail to grab your target. If you already had the target grabbed or restrained using a Grapple, those conditions on that creature or object end.",
+			"critFailure": 	"If you already had the target grabbed or restrained, it breaks free. Your target can either grab you, as if it succeeded at using the Grapple action against you, or force you to fall and land prone."
+		},
+		{
+			"name": "High Jump (move)",
+			"page": "242",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=36",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"You Stride, then make a vertical Leap and attempt a DC 30 Athletics check to increase the height of your jump. If you didn’t Stride at least 10 feet, you automatically fail your check. This DC might be increased or decreased due to the situation, as determined by the GM."
+			],
+			"critSuccess": 	"Increase the maximum vertical distance to 8 feet, or increase the maximum vertical distance to 5 feet and maximum horizontal distance to 10 feet.",
+			"success": 		"Increase the maximum vertical distance to 5 feet.",
+			"failure": 		"You Leap normally.",
+			"critFailure": 	"You don’t Leap at all, and instead you fall prone in your space."
+		},
+		{
+			"name": "Long Jump (move)",
+			"page": "242",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=37",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"You Stride, then make a horizontal Leap and attempt an Athletics check to increase the length of your jump. The DC of the Athletics check is equal to the total distance in feet you’re attempting to move during your Leap (so you’d need to succeed at a DC 20 check to Leap 20 feet). You can’t Leap farther than your Speed.",
+				"If you didn’t Stride at least 10 feet, or if you attempt to jump in a different direction than your Stride, you automatically fail your check. This DC might be increased or decreased due to the situation, as determined by the GM."
+			],
+			"critSuccess": 	"",
+			"success": 		"Increase the maximum horizontal distance you Leap to the desired distance.",
+			"failure": 		"You Leap normally.",
+			"critFailure": 	"You Leap normally, but then fall and land prone."
+		},
+		{
+			"name": "Shove (attack)",
+			"page": "243",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=38",
+			"trigger": 		"",
+			"requirements":	"You have at least one hand free. The target can’t be more than one size larger than you.",
+			"text":[
+				"You push a creature away from you. Attempt an Athletics check against your target's Fortitude DC."
+			],
+			"critSuccess": 	"You push your target up to 10 feet away from you. You can Stride after it, but you must move the same distance and in the same direction.",
+			"success": 		"You push your target back 5 feet. You can Stride after it, but you must move the same distance and in the same direction.",
+			"failure": 		"",
+			"critFailure": 	"You lose your balance, fall, and land prone."
+		},
+		{
+			"name": "Swim (move)",
+			"page": "243",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=39",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"You propel yourself through water. In most calm water, you succeed at the action without needing to attempt a check. If you must breathe air and you’re submerged in water, you must hold your breath each round. If you fail to hold your breath, you begin to drown. If the water you are swimming in is turbulent or otherwise dangerous, you might have to attempt an Athletics check to Swim.",
+				"If you end your turn in water and haven’t succeeded at a Swim action that turn, you sink 10 feet or get moved by the current, as determined by the GM. However, if your last action on your turn was to enter the water, you don’t sink or move with the current that turn."
+			],
+			"critSuccess": 	"You move through the water 10 feet, plus 5 feet per 20 feet of your land Speed (a total of 15 feet for most PCs).",
+			"success": 		"You move through the water 5 feet, plus 5 feet per 20 feet of your land Speed (a total of 10 feet for most PCs).",
+			"failure": 		"",
+			"critFailure": 	"You make no progress, and if you’re holding your breath, you lose 1 round of air."
+		},
+		{
+			"name": "Trip (attack)",
+			"page": "243",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=40",
+			"trigger": 		"",
+			"requirements":	"You have at least one hand free. Your target can’t be more than one size larger than you.",
+			"text":[
+				"You try to knock a creature to the ground. Attempt an Athletics check against the target’s Reflex DC."
+			],
+			"critSuccess": 	"The target falls and lands prone and takes 1d6 bludgeoning damage.",
+			"success": 		"The target falls and lands prone.",
+			"failure": 		"",
+			"critFailure": 	"You lose your balance and fall and land prone."
+		},
+		{
+			"name": "Disarm (attack)",
+			"page": "243",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=41",
+			"trigger": 		"",
+			"requirements":	"You have at least one hand free. The target can’t be more than one size larger than you.",
+			"text":[
+				"You try to knock something out of a creature’s grasp. Attempt an Athletics check against the target’s Reflex DC."
+			],
+			"critSuccess": 	"You knock the item out of the target's grasp. It falls to the ground in the target's space. ",
+			"success": 		"You weaken your target's grasp on the item. Until the start of that creature's turn, attempts to Disarm the target of that item gain a +2 circumstance bonus, and the target takes a –2 circumstance penalty to attacks with the item or other checks requiring a firm grasp on the item.",
+			"failure": 		"",
+			"critFailure": 	"You lose your balance and become flat-footed until the start of your next turn."
+		},
+		{
+			"name": "Create a Diversion",
+			"page": "245",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=45",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"With a gesture, a trick, or some distracting words, you can create a diversion that draws creatures' attention elsewhere. If you use a gesture or trick, this action gains the manipulate trait. If you use distracting words, it gains the auditory and linguistic traits.",
+				"Attempt a single Deception check and compare it to the Perception DCs of the creatures whose attention you're trying to divert. Whether or not you succeed, creatures you attempt to divert gain a +4 circumstance bonus to their Perception DCs against your attempts to Create a Diversion for 1 minute."
+			],
+			"critSuccess": 	"",
+			"success": 		"You become hidden to each creature whose Perception DC is less than or equal to your result. (The hidden condition allows you to Sneak away.) This lasts until the end of your turn or until you do anything except Step or use the Hide or the Sneak action of the Stealth skill. If you Strike a creature, the creature remains flat-footed against that attack, and you then become observed. If you do anything else, you become observed just before you act unless the GM determines otherwise.",
+			"failure": 		"You don’t divert the attention of any creatures whose Perception DC exceeds your result, and those creatures are aware you were trying to trick them.",
+			"critFailure": 	""
+		},
+		{
+			"name": "Lie",
+			"page": "246",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=47",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"You try to fool someone with an untruth. Doing so takes at least 1 round, or longer if the lie is elaborate. You roll a single Deception check and compare it against the Perception DC of every creature you are trying to fool. The GM might give them a circumstance bonus based on the situation and the nature of the lie you are trying to tell. Elaborate or highly unbelievable lies are much harder to get a creature to believe than simpler and more believable lies, and some lies are so big that it’s impossible to get anyone to believe them.",
+				"At the GM’s discretion, if a creature initially believes your lie, it might attempt a Perception check later to Sense Motive against your Deception DC to realize it’s a lie. This usually happens if the creature discovers enough evidence to counter your statements."
+			],
+			"critSuccess": 	"",
+			"success": 		"The target believes your lie.",
+			"failure": 		"The target doesn’t believe your lie and gains a +4 circumstance bonus against your attempts to Lie for the duration of your conversation. The target is also more likely to be suspicious of you in the future.",
+			"critFailure": 	""
+		},
+		{
+			"name": "Feint",
+			"page": "246",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=48",
+			"trigger": 		"",
+			"requirements":	"You are within melee reach of the opponent you attempt to Feint.",
+			"text":[
+				"With a misleading flourish, you leave an opponent unprepared for your real attack. Attempt a Deception check against that opponent’s Perception DC."
+			],
+			"critSuccess": 	"You throw your enemy’s defenses against you entirely off. The target is flat-footed against melee attacks that you attempt against it until the end of your next turn.",
+			"success": 		"Your foe is fooled, but only momentarily. The target is flat-footed against the next melee attack that you attempt against it before the end of your current turn.",
+			"failure": 		"Your feint backfires. You are flat-footed against melee attacks the target attempts against you until the end of your next turn.",
+			"critFailure": 	""
+		},
+		{
+			"name": "Request",
+			"page": "247",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=51",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"You can make a request of a creature that’s friendly or helpful to you. You must couch the request in terms that the target would accept given their current attitude toward you. The GM sets the DC based on the difficulty of the request. Some requests are unsavory or impossible, and even a helpful NPC would never agree to them."
+			],
+			"critSuccess": 	"The target agrees to your request without qualifications.",
+			"success": 		"The target agrees to your request, but they might demand added provisions or alterations to the request.",
+			"failure": 		"The target refuses the request, though they might propose an alternative that is less extreme.",
+			"critFailure": 	"Not only does the target refuse the request, but their attitude toward you decreases by one step due to the temerity of the request."
+		},
+		{
+			"name": "Demoralize",
+			"page": "247",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=53",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"With a sudden shout, a well-timed taunt, or a cutting putdown, you can shake an enemy's resolve. Choose a creature within 30 feet of you who you're aware of. Attempt an Intimidation check against that target's Will DC. If the target does not understand the language you are speaking, or you're not speaking a language, you take a –4 circumstance penalty to the check. Regardless of your result, the target is temporarily immune to your attempts to Demoralize it for 10 minutes."
+			],
+			"critSuccess": 	"The target becomes frightened 2.",
+			"success": 		"The target becomes frightened 1.",
+			"failure": 		"",
+			"critFailure": 	""
+		},
+		{
+			"name": "Administer First Aid (manipulate)",
+			"page": "248",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=54",
+			"trigger": 		"",
+			"requirements":	"You are holding healer's tools, or you are wearing them and have a hand free",
+			"text":[
+				"You perform first aid on an adjacent creature that is dying or bleeding. If a creature is both dying and bleeding, choose which ailment you’re trying to treat before you roll. You can Administer First Aid again to attempt to remedy the other effect.",
+				"• <b>Stabilize</b> Attempt a Medicine check on a creature that has 0 Hit Points and the dying condition. The DC is equal to 5 + that creature’s recovery roll DC (typically 15 + its dying value).",
+				"• <b>Stop Bleeding</b> Attempt a Medicine check on a creature that is taking persistent bleed damage, giving them a chance to make another flat check to remove the persistent damage. The DC is usually the DC of the effect that caused the bleed."
+			],
+			"critSuccess": 	"",
+			"success": 		"If you’re trying to stabilize, the creature loses the dying condition (but remains unconscious). If you’re trying to stop bleeding, the creature attempts a flat check to end the bleeding.",
+			"failure": 		"",
+			"critFailure": 	"If you were trying to stabilize, the creature’s dying value increases by 1. If you were trying to stop bleeding, it immediately takes an amount of damage equal to its persistent bleed damage."
+		},
+		{
+			"name": "Treat Poison",
+			"page": "248",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=56",
+			"trigger": 		"",
+			"requirements":	"You are holding healer's tools, or you are wearing them and have a hand free",
+			"text":[
+				"You treat a patient to prevent the spread of poison. Attempt a Medicine check against the poison’s DC. After you attempt to Treat a Poison for a creature, you can’t try again until after the next time that creature attempts a save against the poison."
+			],
+			"critSuccess": 	"You grant the creature a +4 circumstance bonus to its next saving throw against the poison.",
+			"success": 		"You grant the creature a +2 circumstance bonus to its next saving throw against the poison.",
+			"failure": 		"",
+			"critFailure": 	"Your efforts cause the creature to take a –2 circumstance penalty to its next save against the poison."
+		},
+		{
+			"name": "Command an Animal",
+			"page": "249",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=58",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"You issue an order to an animal. Attempt a Nature check against the animal's Will DC. The GM might adjust the DC if the animal has a good attitude toward you, you suggest a course of action it was predisposed toward, or you offer it a treat.",
+				"You automatically fail if the animal is hostile or unfriendly to you. If the animal is helpful to you, increase your degree of success by one step. You might be able to Command an Animal more easily with a feat like Ride.",
+				"Most animals know the Drop Prone, Leap, Seek, Stand, Stride, and Strike basic actions. If an animal knows an activity, such as a horse's Gallop, you can Command the Animal to perform the activity, but you must spend as many actions on Command an Animal as the activity's number of actions. You can also spend multiple actions to Command the Animal to perform that number of basic actions on its next turn; for instance, you could spend 3 actions to Command an Animal to Stride three times or to Stride twice and then Strike."
+			],
+			"critSuccess": 	"",
+			"success": 		"The animal does as you command on its next turn.",
+			"failure": 		"The animal is hesitant or resistant, and it does nothing.",
+			"critFailure": 	"The animal misbehaves or misunderstands, and it takes some other action determined by the GM."
+		},
+		{
+			"name": "Perform",
+			"page": "250",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=59",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"When making a brief performance—one song, a quick dance, or a few jokes—you use the Perform action. This action is most useful when you want to prove your capability or impress someone quickly. Performing rarely has an impact on its own, but it might influence the DCs of subsequent Diplomacy checks against the observers—or even change their attitudes—if the GM sees fit."
+			],
+			"critSuccess": 	"Your performance impresses the observers, and they’re likely to share stories of your ability.",
+			"success": 		"You prove yourself, and observers appreciate the quality of your performance.",
+			"failure": 		"Your performance falls flat.",
+			"critFailure": 	"You demonstrate only incompetence."
+		},
+		{
+			"name": "Conceal an Object (manipulate)",
+			"page": "251",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=61",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"You hide a small object on your person (such as a weapon of light Bulk). When you try to sneak a concealed object past someone who might notice it, the GM rolls your Stealth check and compares it to this passive observer’s Perception DC. Once the GM rolls your check for a concealed object, that same result is used no matter how many passive observers you try to sneak it past. If a creature is specifically searching you for an item, it can attempt a Perception check against your Stealth DC (finding the object on success).",
+				"You can also conceal an object somewhere other than your person, such as among undergrowth or in a secret compartment within a piece of furniture. In this case, characters Seeking in an area compare their Perception check results to your Stealth DC to determine whether they find the object. "
+			],
+			"critSuccess": 	"",
+			"success": 		"The object remains undetected.",
+			"failure": 		"The searcher finds the object.",
+			"critFailure": 	""
+		},
+		{
+			"name": "Hide",
+			"page": "251",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=62",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"You huddle behind cover or greater cover or deeper into concealment to become hidden, rather than observed. The GM rolls your Stealth check in secret and compares the result to the Perception DC of each creature you’re observed by but that you have cover or greater cover against or are concealed from. You gain the circumstance bonus from cover or greater cover to your check."
+			],
+			"critSuccess": 	"",
+			"success": 		"If the creature could see you, you’re now hidden from it instead of observed. If you were hidden from or undetected by the creature, you retain that condition.<br>If you successfully become hidden to a creature but then cease to have cover or greater cover against it or be concealed from it, you become observed again. You cease being hidden if you do anything except Hide, Sneak, or Step. If you attempt to Strike a creature, the creature remains flat-footed against that attack, and you then become observed. If you do anything else, you become observed just before you act unless the GM determines otherwise. The GM might allow you to perform a particularly unobtrusive action without being noticed, possibly requiring another Stealth check.<br>If a creature uses Seek to make you observed by it, you must successfully Hide to become hidden from it again.",
+			"failure": 		"",
+			"critFailure": 	""
+		},
+		{
+			"name": "Sneak (move)",
+			"page": "252",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=63",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"You can attempt to move to another place while becoming or staying undetected. Stride up to half your Speed. (You can use Sneak while Burrowing, Climbing, Flying, or Swimming instead of Striding if you have the corresponding movement type; you must move at half that Speed.)",
+				"If you’re undetected by a creature and it’s impossible for that creature to observe you (for a typical creature, this includes when you’re invisible, the observer is blinded, or you’re in darkness and the creature can’t see in darkness), for any critical failure you roll on a check to Sneak, you get a failure instead. You also continue to be undetected if you lose cover or greater cover against or are no longer concealed from such a creature.",
+				"At the end of your movement, the GM rolls your Stealth check in secret and compares the result to the Perception DC of each creature you were hidden from or undetected by at the start of your movement. If you have cover or greater cover from the creature throughout your Stride, you gain the +2 circumstance bonus from cover (or +4 from greater cover) to your Stealth check. Because you’re moving, the bonus increase from Taking Cover doesn’t apply. You don’t get to roll against a creature if, at the end of your movement, you neither are concealed from it nor have cover or greater cover against it. You automatically become observed by such a creature."
+			],
+			"critSuccess": 	"",
+			"success": 		"You’re undetected by the creature during your movement and remain undetected by the creature at the end of it.<br>You become observed as soon as you do anything other than Hide, Sneak, or Step. If you attempt to Strike a creature, the creature remains flat-footed against that attack, and you then become observed. If you do anything else, you become observed just before you act unless the GM determines otherwise. The GM might allow you to perform a particularly unobtrusive action without being noticed, possibly requiring another Stealth check. If you speak or make a deliberate loud noise, you become hidden instead of undetected.<br>If a creature uses Seek and you become hidden to it as a result, you must Sneak if you want to become undetected by that creature again.",
+			"failure": 		"A telltale sound or other sign gives your position away, though you still remain unseen. You’re hidden from the creature throughout your movement and remain so.",
+			"critFailure": 	"You’re spotted! You’re observed by the creature throughout your movement and remain so. If you’re invisible and were hidden from the creature, instead of being observed you’re hidden throughout your movement and remain so."
+		},
+		{
+			"name": "Palm an Object (manipulate)",
+			"page": "253",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=67",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"Palming a small, unattended object without being noticed requires you to roll a single Thievery check against the Perception DCs of all creatures who are currently observing you. You take the object whether or not you successfully conceal that you did so. You can typically only Palm Objects of negligible Bulk, though the GM might determine otherwise depending on the situation."
+			],
+			"critSuccess": 	"",
+			"success": 		"The creature does not notice you Palming the Object.",
+			"failure": 		"The creature notices you Palming the Object, and the GM determines the creature’s response.",
+			"critFailure": 	""
+		},
+		{
+			"name": "Steal (manipulate)",
+			"page": "253",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=68",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"You try to take a small object from another creature without being noticed. Typically, you can Steal only an object of negligible Bulk, and you automatically fail if the creature who has the object is in combat or on guard.",
+				"Attempt a Thievery check to determine if you successfully Steal the object. The DC to Steal is usually the Perception DC of the creature wearing the object. This assumes the object is worn but not closely guarded (like a loosely carried pouch filled with coins, or an object within such a pouch). If the object is in a pocket or similarly protected, you take a –5 penalty to your Thievery check. The GM might increase the DC of your check if the nature of the object makes it harder to steal (such as a very small item in a large pack, or a sheet of parchment mixed in with other documents).",
+				"You might also need to compare your Thievery check result against the Perception DCs of observers other than the person wearing the object. The GM may increase the Perception DCs of these observers if they’re distracted."
+			],
+			"critSuccess": 	"",
+			"success": 		"You steal the item without the bearer noticing, or an observer doesn’t see you take or attempt to take the item.",
+			"failure": 		"The item’s bearer notices your attempt before you can take the object, or an observer sees you take or attempt to take the item. The GM determines the response of any creature that notices your theft.",
+			"critFailure": 	""
+		},
+		{
+			"name": "Disable a Device (manipulate)",
+			"page": "253",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=69",
+			"trigger": 		"",
+			"requirements":	"Some devices require you to use thieves’ tools when disabling them.",
+			"text":[
+				"This action allows you to disarm a trap or another complex device. Often, a device requires numerous successes before becoming disabled, depending on its construction and complexity. Thieves’ tools are helpful and sometimes even required to Disable a Device, as determined by the GM, and sometimes a device requires a higher proficiency rank in Thievery to disable it.",
+				"Your Thievery check result determines how much progress you make."
+			],
+			"critSuccess": 	"You disable the device, or you achieve two successes toward disabling a complex device. You leave no trace of your tampering, and you can rearm the device later, if that type of device can be rearmed.",
+			"success": 		"You disable the device, or you achieve one success toward disabling a complex device.",
+			"failure": 		"",
+			"critFailure": 	"You trigger the device."
+		},
+		{
+			"name": "Pick a Lock (manipulate)",
+			"page": "253",
+			"type": 		"Specialty Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=70",
+			"trigger": 		"",
+			"requirements":	"You have thieves’ tools.",
+			"text":[
+				"Opening a lock without a key is very similar to Disabling a Device, but the DC of the check is determined by the complexity and construction of the lock you are attempting to pick (locks and their DCs are found in their description). Locks of higher qualities might require multiple successes to unlock, since otherwise even an unskilled burglar could easily crack the lock by attempting the check until they rolled a natural 20. If you lack the proper tools, the GM might let you used improvised picks, which are treated as shoddy tools, depending on the specifics of the lock. "
+			],
+			"critSuccess": 	"You unlock the lock, or you achieve two successes toward opening a complex lock. You leave no trace of your tampering.",
+			"success": 		"You open the lock, or you achieve one success toward opening a complex lock.",
+			"failure": 		"You break your tools. Fixing them requires using Crafting to Repair them or else swapping in replacement picks (costing 3 sp, or 3 gp for infiltrator thieves’ tools).",
+			"critFailure": 	""
+		},
+		{
+			"name":"------------------------Exploration Actions------------------------"
+		},
+		{
+			"name": "Avoid Notice",
+			"page": "479",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=511",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"You attempt a Stealth check to avoid notice while traveling at half speed. If you have the Swift Sneak feat, you can move at full Speed rather than half, but you still can’t use another exploration activity while you do so. If you have the Legendary Sneak feat, you can move at full Speed and use a second exploration activity. If you’re Avoiding Notice at the start of an encounter, you usually roll a Stealth check instead of a Perception check both to determine your initiative and to see if the enemies notice you (based on their Perception DCs, as normal for Sneak, regardless of their initiative check results)."
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
+		},
+		{
+			"name": "Defend",
+			"page": "479",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=512",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"You move at half your travel speed with your shield raised. If combat breaks out, you gain the benefits of Raising a Shield before your first turn begins."
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
+		},
+		{
+			"name": "Detect Magic",
+			"page": "479",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=513",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"You cast detect magic at regular intervals. You move at half your travel speed or slower. You have no chance of accidentally overlooking a magic aura at a travel speed up to 300 feet per minute, but must be traveling no more than 150 feet per minute to detect magic auras before the party moves into them."
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
+		},
+		{
+			"name": "Follow the Expert",
+			"page": "479",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=514",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"Choose an ally attempting a recurring skill check while exploring, such as climbing, or performing a different exploration tactic that requires a skill check (like Avoiding Notice). The ally must be at least an expert in that skill and must be willing to provide assistance. While Following the Expert, you match their tactic or attempt similar skill checks. Thanks to your ally’s assistance, you can add your level as a proficiency bonus to the associated skill check, even if you’re untrained. Additionally, you gain a circumstance bonus to your skill check based on your ally’s proficiency (+2 for expert, +3 for master, and +4 for legendary)."
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
+		},
+		{
+			"name": "Hustle (move)",
+			"page": "480",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=515",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"You strain yourself to move at double your travel speed. You can Hustle only for a number of minutes equal to your Constitution modifier × 10 (minimum 10 minutes). If you are in a group that is Hustling, use the lowest Constitution modifier among everyone to determine how fast the group can Hustle together. "
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
+		},
+		{
+			"name": "Investigate",
+			"page": "480",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=516",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"You seek out information about your surroundings while traveling at half speed. You use Recall Knowledge as a secret check to discover clues among the various things you can see and engage with as you journey along. You can use any skill that has a Recall Knowledge action while Investigating, but the GM determines whether the skill is relevant to the clues you could find."
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
+		},
+		{
+			"name": "Refocus",
+			"page": "300",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=71",
+			"trigger": 		"",
+			"requirements":	"You have a focus pool, and you have spent at least 1 Focus Point since you last regained any Focus Points.",
+			"text":[
+				"You spend 10 minutes performing deeds to restore your magical connection. This restores 1 Focus Point to your focus pool. The deeds you need to perform are specified in the class or ability that gives you your focus spells. These deeds can usually overlap with other tasks that relate to the source of your focus spells. For instance, a cleric with focus spells from a good deity can usually Refocus while tending the wounds of their allies, and a wizard of the illusionist school might be able to Refocus while attempting to Identify Magic of the illusion school."
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
+		},
+		{
+			"name": "Repeat a Spell",
+			"page": "480",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=517",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"You repeatedly cast the same spell while moving at half speed. Typically, this spell is a cantrip that you want to have in effect in the event a combat breaks out, and it must be one you can cast in 2 actions or fewer. In order to prevent fatigue due to repeated casting, you’ll likely use this activity only when something out of the ordinary occurs.",
+				"You can instead use this activity to continue Sustaining a Spell or Activation with a sustained duration. Most such spells or item effects can be sustained for 10 minutes, though some specify they can be sustained for a different duration."
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
+		},
+		{
+			"name": "Scout",
+			"page": "480",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=518",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"You scout ahead and behind the group to watch danger, moving at half speed. At the start of the next encounter, every creature in your party gains a +1 circumstance bonus to their initiative rolls."
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
+		},
+		{
+			"name": "Search",
+			"page": "480",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=519",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"You Seek meticulously for hidden doors, concealed hazards, and so on. You can usually make an educated guess as to which locations are best to check and move at half speed, but if you want to be thorough and guarantee you checked everything, you need to travel at a Speed of no more than 300 feet per minute, or 150 feet per minute to ensure you check everything before you walk into it. You can always move more slowly while Searching to cover the area more thoroughly, and the Expeditious Search feat increases these maximum Speeds. If you come across a secret door, item, or hazard while Searching, the GM will attempt a free secret check to Seek to see if you notice the hidden object or hazard. In locations with many objects to search, you have to stop and spend significantly longer to search thoroughly."
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
+		},
+		{
+			"name": "Borrow an Arcane Spell",
+			"page": "241",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=32",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"If you’re an arcane spellcaster who prepares from a spellbook, you can attempt to prepare a spell from someone else’s spellbook. The GM sets the DC for the check based on the spell’s level and rarity; it’s typically a bit easier than Learning the Spell."
+			],
+			"critSuccess": 	"",
+			"success": 		"You prepare the borrowed spell as part of your normal spell preparation.",
+			"failure": 		"You fail to prepare the spell, but the spell slot remains available for you to prepare a different spell. You can’t try to prepare this spell until the next time you prepare spells.",
+			"critFailure": 	""
+		},
+		{
+			"name": "Coerce",
+			"page": "247",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=52",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"With threats either veiled or overt, you attempt to bully a creature into doing what you want. You must spend at least 1 minute of conversation with a creature you can see and that can either see or sense you. At the end of the conversation, attempt an Intimidation check against the target's Will DC, modified by any circumstances the GM determines."
+			],
+			"critSuccess": 	"The target gives you the information you seek or agrees to follow your directives so long as they aren't likely to harm the target in any way. The target continues to comply for an amount of time determined by the GM but not exceeding 1 day, at which point the target becomes unfriendly (if they weren't already unfriendly or hostile). However, the target is too scared of you to retaliate—at least in the short term.",
+			"success": 		"As critical success, but once the target becomes unfriendly, they might decide to act against you—for example, by reporting you to the authorities or assisting your enemies.",
+			"failure": 		"The target doesn’t do what you say, and if they were not already unfriendly or hostile, they become unfriendly.",
+			"critFailure": 	"The target refuses to comply, becomes hostile if they weren’t already, and can’t be Coerced by you for at least 1 week."
+		},
+		{
+			"name": "Cover Tracks (move)",
+			"page": "252",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=65",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"You cover your tracks, moving up to half your travel speed. You don’t need to attempt a Survival check to cover your tracks, but anyone tracking you must succeed at a Survival check against your Survival DC if it is higher than the normal DC to Track.",
+				"In some cases, you might Cover Tracks in an encounter. In this case, Cover Tracks is a single action and doesn’t have the exploration trait."
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
+		},
+		{
+			"name": "Decipher Writing",
+			"page": "234",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Skills.aspx?ID=1&General=true",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"You attempt to decipher complicated writing or literature on an obscure topic. This usually takes 1 minute per page of text, but might take longer (typically an hour per page for decrypting ciphers or the like). The text must be in a language you can read, though the GM might allow you to attempt to decipher text written in an unfamiliar language using Society instead.",
+				"The DC is determined by the GM based on the state or complexity of the document. The GM might have you roll one check for a short text or a check for each section of a larger text.",
+				"[Arcana] Decipher Writing about arcane theory.",
+				"[Occultism] Decipher Writing on occult topics, including complex metaphysical systems, syncretic principles, weird philosophies, and incoherent ramblings.",
+				"[Religion] Decipher Writing of a religious nature, including allegories, homilies, and proverbs.",
+				"[Society] Decipher Writing that’s a coded message, text written in an incomplete or archaic form, or in some cases, text in a language you don’t know."
+			],
+			"critSuccess": 	"You understand the true meaning of the text.",
+			"success": 		"You understand the true meaning of the text. If it was a coded document, you know the general meaning but might not have a word-for-word translation.",
+			"failure": 		"You can’t understand the text and take a –2 circumstance penalty to further checks to decipher it.",
+			"critFailure": 	"You believe you understand the text on that page, but you have in fact misconstrued its message."
+		},
+		{
+			"name": "Gather Information",
+			"page": "246",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=49",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"You canvass local markets, taverns, and gathering places in an attempt to learn about a specific individual or topic. The GM determines the DC of the check and the amount of time it takes (typically 2 hours, but sometimes more), along with any benefit you might be able to gain by spending coin on bribes, drinks, or gifts."
+			],
+			"critSuccess": 	"",
+			"success": 		"You collect information about the individual or topic. The GM determines the specifics.",
+			"failure": 		"",
+			"critFailure": 	"You collect incorrect information about the individual or topic."
+		},
+		{
+			"name": "Identify Alchemy",
+			"page": "245",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=44",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"You can identify the nature of an alchemical item with 10 minutes of testing using alchemist’s tools. If your attempt is interrupted in any way, you must start over."
+			],
+			"critSuccess": 	"",
+			"success": 		"You identify the item and the means of activating it.",
+			"failure": 		"You fail to identify the item but can try again.",
+			"critFailure": 	"You misidentify the item as another item of the GM’s choice."
+		},
+		{
+			"name": "Identify Magic",
+			"page": "238",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Skills.aspx?ID=3&General=true=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"Once you discover that an item, location, or ongoing effect is magical, you can spend 10 minutes to try to identify the particulars of its magic. If your attempt is interrupted, you must start over. The GM sets the DC for your check. Cursed or esoteric subjects usually have higher DCs or might even be impossible to identify using this activity alone. Heightening a spell doesn’t increase the DC to identify it.",
+				"[Arcana] Identify Magic, particularly arcane magic.",
+				"[Nature] Identify Magic, particularly primal magic.",
+				"[Occultism] Identify Magic, particularly occult magic.",
+				"[Religion] Identify Magic, particularly divine magic."
+			],
+			"critSuccess": 	"You learn all the attributes of the magic, including its name (for an effect), what it does, any means of activating it (for an item or location), and whether it is cursed.",
+			"success": 		"For an item or location, you get a sense of what it does and learn any means of activating it. For an ongoing effect (such as a spell with a duration), you learn the effect’s name and what it does. You can’t try again in hopes of getting a critical success.",
+			"failure": 		"You fail to identify the magic and can’t try again for 1 day.",
+			"critFailure": 	"You misidentify the magic as something else of the GM’s choice."
+		},
+		{
+			"name": "Impersonate (manipulate)",
+			"page": "245",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=46",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"You create a disguise to pass yourself off as someone or something you are not. Assembling a convincing disguise takes 10 minutes and requires a disguise kit, but a simpler, quicker disguise might do the job if you’re not trying to imitate a specific individual, at the GM’s discretion.",
+				"In most cases, creatures have a chance to detect your deception only if they use the Seek action to attempt Perception checks against your Deception DC. If you attempt to directly interact with someone while disguised, the GM rolls a secret Deception check for you against that creature’s Perception DC instead. If you’re disguised as a specific individual, the GM might give creatures you interact with a circumstance bonus based on how well they know the person you’re imitating, or the GM might roll a secret Deception check even if you aren’t directly interacting with others."
+			],
+			"critSuccess": 	"",
+			"success": 		"You trick the creature into thinking you’re the person you’re disguised as. You might have to attempt a new check if your behavior changes.",
+			"failure": 		"The creature can tell you’re not who you claim to be.",
+			"critFailure": 	"The creature can tell you’re not who you claim to be, and it recognizes you if it would know you without a disguise."
+		},
+		{
+			"name": "Learn a Spell",
+			"page": "238",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Skills.aspx?ID=4&General=true",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"You can gain access to a new spell of your tradition from someone who knows that spell or from magical writing like a spellbook or scroll. If you can cast spells of multiple traditions, you can Learn a Spell of any of those traditions, but you must use the corresponding skill to do so. For example, if you were a cleric with the bard multiclass archetype, you couldn't use Religion to add an occult spell to your bardic spell repertoire.",
+				"To learn the spell, you must do the following:",
+				"• Spend 1 hour per level of the spell, during which you must remain in conversation with a person who knows the spell or have the magical writing in your possession.",
+				"• Have materials with the Price indicated in Table 4–3.",
+				"• Attempt a skill check for the skill corresponding to your tradition (DC determined by the GM, often close to the DC on Table 4–3). Uncommon or rare spells have higher DCs.",
+				"If you have a spellbook, Learning a Spell lets you add the spell to your spellbook; if you prepare spells from a list, it's added to your list; if you have a spell repertoire, you can select it when you add or swap spells.",
+				"[Arcana] Learn a Spell from the arcane tradition.",
+				"[Nature] Learn a Spell from the primal tradition.",
+				"[Occultism] Learn a Spell from the occult tradition.",
+				"[Religion] Learn a Spell from the divine tradition."
+			],
+			"critSuccess": 	"You expend half the materials and learn the spell.",
+			"success": 		"You expend the materials and learn the spell.",
+			"failure": 		"You fail to learn the spell but can try again after you gain a level. The materials aren’t expended.",
+			"critFailure": 	"As failure, plus you expend half the materials."
+		},
+		{
+			"name": "Make an Impression",
+			"page": "246",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=50",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"With at least 1 minute of conversation, during which you engage in charismatic overtures, flattery, and other acts of goodwill, you seek to make a good impression on someone to make them temporarily agreeable. At the end of the conversation, attempt a Diplomacy check against the Will DC of one target, modified by any circumstances the GM sees fit. Good impressions (or bad impressions, on a critical failure) last for only the current social interaction unless the GM decides otherwise."
+			],
+			"critSuccess": 	"The target’s attitude toward you improves by two steps.",
+			"success": 		"The target’s attitude toward you improves by one step.",
+			"failure": 		"",
+			"critFailure": 	"The target’s attitude toward you decreases by one step."
+		},
+		{
+			"name": "Repair (manipulate)",
+			"page": "243",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=42",
+			"trigger": 		"",
+			"requirements":	"You have a repair kit.",
+			"text":[
+				"You spend 10 minutes attempting to fix a damaged item, placing the item on a stable surface and using the repair kit with both hands. The GM sets the DC, but it’s usually about the same DC to Repair a given item as it is to Craft it in the first place. You can’t Repair a destroyed item."
+			],
+			"critSuccess": 	"You restore 10 Hit Points to the item, plus an additional 10 Hit Points per proficiency rank you have in Crafting (a total of 20 HP if you’re trained, 30 HP if you’re an expert, 40 HP if you’re a master, or 50 HP if you’re legendary).",
+			"success": 		"You restore 5 Hit Points to the item, plus an additional 5 per proficiency rank you have in Crafting (for a total of 10 HP if you are trained, 15 HP if you’re an expert, 20 HP if you’re a master, or 25 HP if you’re legendary).",
+			"failure": 		"",
+			"critFailure": 	"You deal 2d6 damage to the item. Apply the item’s Hardness to this damage."
+		},
+		{
+			"name": "Sense Direction",
+			"page": "252",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=64",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"Using the stars, the position of the sun, traits of the geography or flora, or the behavior of fauna, you can stay oriented in the wild. Typically, you attempt a Survival check only once per day, but some environments or changes might necessitate rolling more often. The GM determines the DC and how long this activity takes (usually just a minute or so). More unusual locales or those you’re unfamiliar with might require you to have a minimum proficiency rank to Sense Direction. Without a compass, you take a –2 item penalty to checks to Sense Direction."
+			],
+			"critSuccess": 	"You get an excellent sense of where you are. If you are in an environment with cardinal directions, you know them exactly.",
+			"success": 		"You gain enough orientation to avoid becoming hopelessly lost. If you are in an environment with cardinal directions, you have a sense of those directions.",
+			"failure": 		"",
+			"critFailure": 	""
+		},
+		{
+			"name": "Squeeze (move)",
+			"page": "241",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=31",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"You contort yourself to squeeze through a space so small you can barely fit through. This action is for exceptionally small spaces; many tight spaces are difficult terrain that you can move through more quickly and without a check. "
+			],
+			"critSuccess": 	"You squeeze through the tight space in 1 minute per 10 feet of squeezing.",
+			"success": 		"You squeeze through in 1 minute per 5 feet.",
+			"failure": 		"",
+			"critFailure": 	"You become stuck in the tight space. While you’re stuck, you can spend 1 minute attempting another Acrobatics check at the same DC. Any result on that check other than a critical failure causes you to become unstuck."
+		},
+		{
+			"name": "Track (move)",
+			"page": "252",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=66",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"You follow tracks, moving at up to half your travel speed. After a successful check to Track, you can continue following the tracks at half your Speed without attempting additional checks for up to 1 hour. In some cases, you might Track in an encounter. In this case, Track is a single action and doesn’t have the exploration trait, but you might need to roll more often because you’re in a tense situation. The GM determines how often you must attempt this check.",
+				"You attempt your Survival check when you start Tracking, once every hour you continue tracking, and any time something significant changes in the trail. The GM determines the DCs for such checks, depending on the freshness of the trail, the weather, and the type of ground."
+			],
+			"critSuccess": 	"",
+			"success": 		"You find the trail or continue to follow the one you’re already following.",
+			"failure": 		"You lose the trail but can try again after a 1-hour delay.",
+			"critFailure": 	"You lose the trail and can’t try again for 24 hours."
+		},
+		{
+			"name": "Treat Wounds (manipulate)",
+			"page": "249",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=57",
+			"trigger": 		"",
+			"requirements":	"You are holding healer's tools, or you are wearing them and have a hand free.",
+			"text":[
+				"You spend 10 minutes treating one injured living creature (targeting yourself, if you so choose). The target is then temporarily immune to Treat Wounds actions for 1 hour, but this interval overlaps with the time you spent treating (so a patient can be treated once per hour, not once per 70 minutes).",
+				"The Medicine check DC is usually 15, though the GM might adjust it based on the circumstances, such as treating a patient outside in a storm, or treating magically cursed wounds. If you’re an expert in Medicine, you can instead attempt a DC 20 check to increase the Hit Points regained by 10; if you’re a master of Medicine, you can instead attempt a DC 30 check to increase the Hit Points regained by 30; and if you’re legendary, you can instead attempt a DC 40 check to increase the Hit Points regained by 50. The damage dealt on a critical failure remains the same.",
+				"If you succeed at your check, you can continue treating the target to grant additional healing. If you treat them for a total of 1 hour, double the Hit Points they regain from Treat Wounds.",
+				"The result of your Medicine check determines how many Hit Points the target regains."
+			],
+			"critSuccess": 	"The target regains 4d8 Hit Points, and its wounded condition is removed.",
+			"success": 		"The target regains 2d8 Hit Points, and its wounded condition is removed.",
+			"failure": 		"",
+			"critFailure": 	"The target takes 1d8 damage."
+		},
+		{
+			"name":"------------------------Downtime Actions------------------------"
+		},
+		{
+			"name": "Craft (manipulate)",
+			"page": "244",
+			"type": 		"Downtime Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"The item is your level or lower. An item that doesn't list a level is level 0. If the item is 9th level or higher, you must be a master in Crafting, and if it's 16th or higher, you must be legendary. <br>You have the formula for the item; see Getting Formulas for more information. <br>You have an appropriate set of tools and, in many cases, a workshop. For example, you need access to a smithy to forge a metal shield, or an alchemist's lab to produce alchemical items. <br>You must supply raw materials worth at least half the item's Price. You always expend at least that amount of raw materials when you Craft successfully. If you're in a settlement, you can usually spend currency to get the amount of raw materials you need, except in the case of rarer precious materials.",
+			"text":[
+				"You must spend 4 days at work, at which point you attempt a Crafting check. The GM determines the DC to Craft the item based on its level, rarity, and other circumstances.",
+				"If your attempt to create the item is successful, you expend the raw materials you supplied. You can pay the remaining portion of the item's Price in materials to complete the item immediately, or you can spend additional downtime days working on it. For each additional day you spend, reduce the value of the materials you need to expend to complete the item. This amount is determined using Table 4–2: Income Earned, based on your proficiency rank in Crafting and using your own level instead of a task level. After any of these downtime days, you can complete the item by spending the remaining portion of its Price in materials. If the downtime days you spend are interrupted, you can return to finish the item later, continuing where you left off."
+			],
+			"critSuccess": 	"Your attempt is successful. Each additional day spent Crafting reduces the materials needed to complete the item by an amount based on your level + 1 and your proficiency rank in Crafting.",
+			"success": 		"Your attempt is successful. Each additional day spent Crafting reduces the materials needed to complete the item by an amount based on your level and your proficiency rank.",
+			"failure": 		"You fail to complete the item. You can salvage the raw materials you supplied for their full value. If you want to try again, you must start over.",
+			"critFailure": 	"You fail to complete the item. You ruin 10% of the raw materials you supplied, but you can salvage the rest. If you want to try again, you must start over."
+		},
+		{
+			"name": "Create Forgery",
+			"page": "251",
+			"type": 		"Downtime Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=60",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"You create a forged document, usually over the course of a day or a week. You must have the proper writing material to create a forgery. When you Create a Forgery, the GM rolls a secret DC 20 Society check. If you succeed, the forgery is of good enough quality that passive observers can’t notice the fake. Only those who carefully examine the document and attempt a Perception or Society check against your Society DC can do so.",
+				"If the document’s handwriting doesn’t need to be specific to a person, you need only to have seen a similar document before, and you gain up to a +4 circumstance bonus to your check, as well as to your DC (the GM determines the bonus). To forge a specific person’s handwriting, you need a sample of that person’s handwriting.",
+				"If your check result was below 20, the forgery has some obvious signs of being a fake, so the GM compares your result to each passive observer’s Perception DC or Society DC, whichever is higher, using the success or failure results below. Once the GM rolls your check for a document, that same result is used against all passive observers’ DCs no matter how many creatures passively observe that document.",
+				"An observer who was fooled on a passive glance can still choose to closely scrutinize the documents on the lookout for a forgery, using different techniques and analysis methods beyond the surface elements you successfully forged with your original check. In that case, the observer can attempt a Perception or Society check against your Society DC (if they succeed, they know your document is a forgery)."
+			],
+			"critSuccess": 	"",
+			"success": 		"The observer does not detect the forgery.",
+			"failure": 		"The observer knows your document is a forgery.",
+			"critFailure": 	""
+		},
+		{
+			"name": "Earn Income",
+			"page": "235",
+			"type": 		"Downtime Action",
+			"aonlink": 		"https://2e.aonprd.com/Skills.aspx?ID=2&General=true",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"You can use a skill—typically Crafting, Lore, or Performance—to earn money during downtime. You must be trained in the skill to do so. This takes time to set up, and your income depends on your proficiency rank and how lucrative a task you can find. Because this process requires a significant amount of time and involves tracking things outside the progress of adventures, it won’t come up in every campaign.",
+				"In some cases, the GM might let you use a different skill to Earn Income through specialized work. Usually, this is scholarly work, such as using Religion in a monastery to study old texts—but giving sermons at a church would still fall under Performance instead of Religion. You also might be able to use physical skills to make money, such as using Acrobatics to perform feats in a circus or Thievery to pick pockets. If you’re using a skill other than Crafting, Lore, or Performance, the DC tends to be significantly higher.",
+				"[Crafting] Earn Income by crafting goods for the market.",
+				"[Lore] Earn Income by using your knowledge to practice a trade.",
+				"[Performance] Earn Income by staging a performance."
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
+		},
+		{
+			"name": "Long-Term Rest",
+			"page": "481",
+			"type": 		"Downtime Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=521",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"You can spend an entire day and night resting during downtime to recover Hit Points equal to your Constitution modifier (minimum 1) multiplied by twice your level."
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
+		},
+		{
+			"name": "Retraining",
+			"page": "481",
+			"type": 		"Downtime Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=522",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"Retraining offers a way to alter some of your character choices, which is helpful when you want to take your character in a new direction or change decisions that didn't meet your expectations. You can retrain feats, skills, and some selectable class features. You can't retrain your ancestry, heritage, background, class, or ability scores. You can't perform other downtime activities while retraining.",
+				"Retraining usually requires you to spend time learning from a teacher, whether that entails physical training, studying at a library, or falling into shared magical trances. Your GM determines whether you can get proper training or whether something can be retrained at all. In some cases, you'll have to pay your instructor.",
+				"Some abilities can be difficult or impossible to retrain (for instance, a sorcerer can retrain their bloodline only in extraordinary circumstances).",
+				"When retraining, you generally can't make choices you couldn't make when you selected the original option. For instance, you can't exchange a 2nd-level skill feat for a 4th-level one, or for one that requires prerequisites you didn't meet at the time you took the original feat. If you don't remember whether you met the prerequisites at the time, ask your GM to make the call. If you cease to meet the prerequisites for an ability due to retraining, you can't use that ability. You might need to retrain several abilities in sequence in order to get all the abilities you want. "
+			],
+			"critSuccess": 	"",
+			"success": 		"",
+			"failure": 		"",
+			"critFailure": 	""
+		},
+		{
+			"name": "Subsist",
+			"page": "240",
+			"type": 		"Downtime Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=",
+			"trigger": 		"",
+			"requirements":	"",
+			"text":[
+				"You try to provide food and shelter for yourself, and possibly others as well, with a standard of living. The GM determines the DC based on the nature of the place where you're trying to Subsist. You might need a minimum proficiency rank to Subsist in particularly strange environments. Unlike most downtime activities, you can Subsist after 8 hours or less of exploration, but if you do, you take a –5 penalty.",
+				"[Society] Subsist in a settlement by finding shelter, scrounging, or begging for food.",
+				"[Survival] Subsist in the wild by foraging for food and building shelter."
+			],
+			"critSuccess": 	"You either provide a subsistence living for yourself and one additional creature, or you improve your own food and shelter, granting yourself a comfortable living.",
+			"success": 		"You find enough food and shelter with basic protection from the elements to provide you a subsistence living.",
+			"failure": 		"You’re exposed to the elements and don’t get enough food, becoming fatigued until you attain sufficient food and shelter.",
+			"critFailure": 	"You attract trouble, eat something you shouldn’t, or otherwise worsen your situation. You take a –2 circumstance penalty to checks to Subsist for 1 week. You don’t find any food at all; if you don’t have any stored up, you’re in danger of starving or dying of thirst if you continue failing."
+		},
+		{
+			"name": "Treat Disease (manipulate)",
+			"page": "248",
+			"type": 		"Exploration Action",
+			"aonlink": 		"https://2e.aonprd.com/Actions.aspx?ID=55",
+			"trigger": 		"",
+			"requirements":	"You are holding healer's tools, or you are wearing them and have a hand free.",
+			"text":[
+				"You spend at least 8 hours caring for a diseased creature. Attempt a Medicine check against the disease’s DC. After you attempt to Treat a Disease for a creature, you can’t try again until after that creature’s next save against the disease."
+			],
+			"critSuccess": 	"You grant the creature a +4 circumstance bonus to its next saving throw against the disease.",
+			"success": 		"You grant the creature a +2 circumstance bonus to its next saving throw against the disease.",
+			"failure": 		"",
+			"critFailure": 	"Your efforts cause the creature to take a –2 circumstance penalty to its next save against the disease."
+		}
+	]
+}

@@ -1,0 +1,60 @@
+{
+	"plays": [
+		{
+			"name":"Smoking Is Bad For You",
+			"playwright":"Anton Chekhov",
+			"category":"One Act Comedy",
+			"actorsM":"1",
+			"actorsF":"0",
+			"actorsU":"0",
+			"length":"10 minutes",
+			"notes":"Short tragicomic monologue about an extremely henpecked husband. Needs a man of 50+ years.",
+			"link":"https://drive.google.com/file/d/1JGCh7mmAbwmeI6T6fR-7vHCaiYfYygcG/view?usp=drive_link"
+		},
+		{
+			"name":"A Lonely Impulse Of Delight",
+			"playwright":"John Patrick Shanley",
+			"category":"One Act Comedy",
+			"actorsM":"0",
+			"actorsF":"0",
+			"actorsU":"2",
+			"length":"10 minutes",
+			"notes":"Written as two men, but could be done genderblind. Excellent surreal short piece about a man who falls in love with a mermaid - initially comedic but turns dark. Reads as a metaphor for depression or anxiety. Ambiguously suicidal ending.",
+			"link":"https://drive.google.com/file/d/1ps4yNmYBVlv4l-Jg-8KgYcCHEoekvCVp/view?usp=sharing"
+		},
+		{
+			"name":"Two",
+			"playwright":"Jim Cartwright",
+			"category":"One Act Comedy",
+			"actorsM":"1",
+			"actorsF":"1",
+			"actorsU":"0",
+			"length":"60 minutes",
+			"notes":"Collection of short vignettes giving insight into the lives of various individuals and couples who enter a pub over the span of an evening. Could be done as a complete collection, or could take scenes as excerpts. Very challenging as requires each actor to play 6 roles in rapid succession.",
+			"link":"https://drive.google.com/file/d/1olLoV1-hmh6LxQkFw5epQSF08SxaUKMW/view"
+		},
+		{
+			"name":"No Exit",
+			"playwright":"Jean-Paul Sartre",
+			"category":"One Act Drama",
+			"actorsM":"1",
+			"actorsF":"2",
+			"actorsU":"1",
+			"length":"1 hour 15 minutes",
+			"notes":"Iconic piece. Challening but extremely well-written, an exploration of the deepest flaws of three of the characters in the piece. Could be seen as slightly outdated in its presentation of gender roles, but these are also exposed for their fault. Very wordy, would require three versatile actors with a strong range of emotions. Chilling read.",
+			"link":"https://drive.google.com/file/d/12Vdf09KQP6iKqzbu6sHOGZGbV8Zn0HAX/view"
+		},
+		{
+			"name":"Living Hours",
+			"playwright":"Arthur Schnitzler",
+			"category":"One Act Drama",
+			"actorsM":"3",
+			"actorsF":"0",
+			"actorsU":"0",
+			"length":"20 minutes",
+			"notes":"Deeply moving piece about grief, the arrogance of youth, the need to move on with life and struggling with mortality.",
+			"link":"https://drive.google.com/file/d/1njWGT153QOjA8yzUuWuxi7jTO8g9ku_t/view?usp=sharing"
+		}
+	]
+}
+
