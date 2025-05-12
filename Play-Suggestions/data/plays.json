@@ -54,6 +54,39 @@
 			"length":"20 minutes",
 			"notes":"Deeply moving piece about grief, the arrogance of youth, the need to move on with life and struggling with mortality.",
 			"link":"https://drive.google.com/file/d/1njWGT153QOjA8yzUuWuxi7jTO8g9ku_t/view?usp=sharing"
+		},
+		{
+			"name":"King Arthur's Socks",
+			"playwright":"Floyd Dell",
+			"category":"One Act Drama",
+			"actorsM":"1",
+			"actorsF":"3",
+			"actorsU":"0",
+			"length":"25-ish minutes",
+			"notes":"Short comedy that modernises characters from Arthurian legend.",
+			"link":"https://drive.google.com/file/d/1pP2XwG5vRUi9hWX6j7aPKxTMRtZ4L1I5/view?usp=sharing"
+		},
+		{
+			"name":"Debit & Credit",
+			"playwright":"August Strindberg",
+			"category":"One Act Drama",
+			"actorsM":"4",
+			"actorsF":"3",
+			"actorsU":"2",
+			"length":"30-ish minutes",
+			"notes":"Interesting short piece about climbing social ladders, the faults of aspiration, and familial ties.",
+			"link":"https://drive.google.com/file/d/1A3BgmnQuftkmTN_MbC8QJrbQwASxdYpQ/view?usp=drive_link"
+		},
+		{
+			"name":"Fam & Yam",
+			"playwright":"Edward Albee",
+			"category":"One Act Comedy",
+			"actorsM":"0",
+			"actorsF":"0",
+			"actorsU":"2",
+			"length":"10 minutes",
+			"notes":"Very short piece about an established playwright, grown comfortable, and an upstart new playwright having an interview. Funny.",
+			"link":"https://drive.google.com/file/d/15dhqnNYUumsJ0pGif5xlmGH8A3Mubtae/view?usp=sharing"
 		}
 	]
 }
