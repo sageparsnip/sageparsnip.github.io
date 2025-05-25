@@ -510,15 +510,15 @@
 			"to":"<character onclick='charDetails(`Rowan`)'>Son.</character>",
 			"content":"What has come over you in your absence?\nYou are not acting like yourself, and I fail to see a reason for this. After all, a reason would imply a benefit to yourself or your plans, whatever they may be. Such is how I raised thee. Yet there is no benefit plain before my eyes when I look on from afar. The people with you are of no consequence, yet. Yes, yes, I will admit that anyone can become significant given enough time, and even I do not always spy the future. But, really, my child - Wardens, and none of them with more than a few years’ service? What can guising your character from them do for you? Gain you the approval of a motley party of no account?  You play at pleasing them and garnering their attention as if it has any material benefit. It is as baffling to watch as it is irritating to my sensibilities.\nThere comes a point I must ask: do you plan on becoming some kind of mystic adviser to these, frankly, third rate Wardens? What else could you expect to gain from this otherwise? Your reward, I suppose, being a position conditional on the approval of others, a marginal connection to true power. Really, now. To be constantly putting up a meek facade to please cheap conjurers and journeyman adventurers, knowing your place might be lost because of their inconsequential disapproval. You know as well as I do that that is not what you want, and more than that - what a miserable fate for someone so talented! Even more so, what a diabolical waste of the magic I weaned you on.\nThis is beneath your dignity as my child and as someone with magic in your very blood. Your power comes from within, not from being a sycophant to inconsequential pieces on a wider board. I do not speak lightly when I say you need not prove yourself to others. Your magic and your wits are within you, not in the amusement and approval of others. Draw from that. Act like who you are: my son, and someone who magic is strong in. That will never betray you.",
 			"index":"74",
-			"meta":""
+			"meta":"Malgwyn, Rowan"
 		},
 		{
 			"category":"Thedes Letters",
 			"from":"<character onclick='charDetails(`Lady Rohesia Roskelley`)'>Lady Rohesia Roskelley, Arling of the High Coast</character>",
 			"to":"<character onclick='charDetails(`Trahan`)'>Knight Commander Trahan</character>",
 			"content":"You have no right to talk to me that way. I am the fullborn daughter of the Arlessa of the High Coast. My ancestresses have been ruling over your home since the good Maker raised it from the sea. You will show me the respect due to me regardless of my minority.\nI wrote you one letter prior to this, my <i>good</i> commander, and if you consider one letter wasting time - well, it reflects on the Order, not on my conduct. It is not <i>espionage</i> to wish to know where my betrothed will be stationed and why he will be stationed there! I wrote to you as a courtesy, in deference to your role as his commander and respect for your position. What did this respect for Templar authority earn me? A threat that my beloved will be “reprimanded” for my “wasting Templar time.” Would that I skipped that ordeal and just wrote to my love - but he does not know why he is stationed in Jader, either! We are not commonly in the business of sending ships to ports without informing the hands of cargo or destination. I am not questioning the Maker’s shields, my good commander - but a Lady must inquire. \nAnd inquire I will. No Templars have been stationed at the Circle for some time, it seems - even the new Orlesian reinforcements invited into the kingdom, which are chiefly in Denim. Those that are stationed at the Circle remain guarding the docks. Interesting. In turn, a significant detachment of Ferelden Templars have gone to Jader to be posted to the Templar building there. But they do not know why - as my love shows. There must be a reason, yes? Something which needs Templar attention? And for some reason, the Templars attending to this <i>need</i> to be Fereldan, as my betrothed? The Orlesian Templars go straight to Denim, passing Jader. It <i>is</i> interesting! \nI am aware of your reaction to criticisms from Lady Charteris. I invite you to <i>dance</i> if you want to, commander.\nUnder my mother's seal,",
-			"index":"",
-			"meta":""
+			"index":"75",
+			"meta":"Rohesia Roskelley, Commander Trahan, Essie"
 		},
 		{
 			"category":"Thedes Letters",
@@ -527,6 +527,30 @@
 			"content":"I understand why you chose to meddle in Templar affairs. Nosy wench. I should have known all along. Your paltry excuses of wedding plans never held water. If you write trying to interfere again, I will have your accomplice court martialed for his role in this. I know you are friends with that little witch and her whore of a mother. You see where their iniquity has led them. Your willingness to write openly shows you share their lack of shame. You should pray to Our Maker for forgiveness for your disobedience to His Will. His Mercy is the only mercy you and that beldam apostate should expect to receive. When I finally put her and her mother to the sword, I will make sure you are watching.\nNo Templars will be re-stationed. Their posts are set for a reason and it is not the will of man that sets them. If your accomplice was a man even worthy of marriage he would want to remain at his post and do his duty to Our Maker. I will make sure he learns what being a Templar means. Do not write to him. You should respect this order and your Maker enough to avoid meddling in Holy affairs again.",
 			"index":"76",
 			"meta":"Essie, Rohesia, Kim Keeper, Dorothea Keeper, Trahan, Templars"
+		},
+		{
+			"category":"Thedes Letters",
+			"from":"Your mama",
+			"to":"My Little Girl",
+			"content":"I know a lady’s education is a change of pace for you, darling, but you will adjust to the circumstances. You miss your mama, your bedroom, and the comforts of home - but I can already tell you’re making friends with the other young people just from your letter. Soon you’ll be having too much fun and learning too much to rush off to your room in the evening and write your mama about every little thing. It sounds like you are doing splendidly, you’re just a little restless. I remember being your age, darling, and worrying about impressing a score of other lords and ladies - well, they are worrying the same thing, so it’s all very silly. You see, your worries are natural, we have all had them.\nWhich means, no, you cannot come home yet, darling. You only just started. A letter from home should make you feel better - I know I felt like the west was the middle of nowhere, but the best education is found on the old estates, you know. Society hasn’t been very active, but I can answer one of your questions. I know you were quite fond of the Marquise Latreille’s protege - you admired her, at least, and I think a girl that smart is a splendid one to admire. Why, she herself is abroad from Orlais polishing her skills right now - answering your question as to how she was. I’ll let the Marquise know you asked after her. Think, by the time you’re done with your schooling, she might be back from Antiva or wherever she is, and won’t you be very impressive then? All the more reason to stay at your studies, darling. Mama will mail you your favorite coverlet and maybe a flacon of your favorite scent from la rue des parfumeurs. Doesn’t that make things sound easier?\nVisiting soon,",
+			"index":"77",
+			"meta":"La Dame, Marquise, Nobility, Orlais"
+		},
+		{
+			"category":"Thedes Letters",
+			"from":"",
+			"to":"",
+			"content":"",
+			"index":"",
+			"meta":""
+		},
+		{
+			"category":"Thedes Letters",
+			"from":"",
+			"to":"",
+			"content":"",
+			"index":"",
+			"meta":""
 		},
 		{
 			"category":"Thedes Letters",
