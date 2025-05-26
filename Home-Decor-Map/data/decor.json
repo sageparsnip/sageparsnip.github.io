@@ -88,6 +88,18 @@
 				"source":"Decathlon",
 				"link":"https://www.decathlon.ie/p/311976-368521-silent-ultra-compact-smart-exercise-bike-initial-bike.html",
 				"price":"€260"
+			},
+			{
+				"item":"Sideboard",
+				"source":"EZ Living",
+				"link":"https://www.ezlivingfurniture.ie/2-door-reclaimed-pine-sideboard-baltimore-139724.html",
+				"price":"€549"
+			},
+			{
+				"item":"Area Rug",
+				"source":"Etsy",
+				"link":"https://www.etsy.com/ie/listing/1781513201/red-floral-distressed-boho-rug-vintage",
+				"price":"€165 (approx)"
 			}
 		],
 		"image":"LivingRoom.jpg"
@@ -96,7 +108,36 @@
 		"title":"Dining Room",
 		"description":"Completely unfurnished. Need to acquire table, 4-6 chairs, tablecloths, place mats, and vase",
 		"furniture":[
-			
+			{
+				"item":"Dining Table",
+				"source":"Michael Murphy",
+				"link":"https://michaelmurphy.ie/dining-tables/kingston-extending-dining-table-1-2m1-65m/",
+				"price":"€699"
+			},
+			{
+				"item":"Dining Chair",
+				"source":"Michael Murphy",
+				"link":"https://michaelmurphy.ie/dining-chairs/birmingham-dining-chair/",
+				"price":"€149 (per)"
+			},
+			{
+				"item":"Dining Table",
+				"source":"EZ Living",
+				"link":"https://www.ezlivingfurniture.ie/150cm-reclaimed-pine-dining-table-baltimore-139720.html",
+				"price":"€499"
+			},
+			{
+				"item":"Dining Chair",
+				"source":"EZ Living",
+				"link":"https://www.ezlivingfurniture.ie/tan-real-leather-dining-chair-athy-140340.html",
+				"price":"€299 (per)"
+			},
+			{
+				"item":"Dining Chair",
+				"source":"EZ Living",
+				"link":"https://www.ezlivingfurniture.ie/vintage-green-fabric-dining-chair-athy-140341.html",
+				"price":"€179 (per)"
+			}
 		],
 		"image":"DiningRoom.jpg"
 	},
@@ -104,7 +145,7 @@
 		"title":"Bathroom",
 		"description":"Comes with toilet, sink, bath, and shower. Need to get shower curtain (and rods?), cabinet of some description.",
 		"furniture":[
-			
+
 		],
 		"image":"Bathroom.jpg"
 	},
