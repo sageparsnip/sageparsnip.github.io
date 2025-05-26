@@ -3,7 +3,24 @@
 		"title":"Bedroom",
 		"description":"In-built set of 6 wardrobes taking up western wall. Need to acquire bed, mattress, linens etc. Will host my desk and PC (possibly printer also). Shelf to be installed above bed to project onto opposite (northern) wall.",
 		"furniture":[
-			
+			{
+			"item": "Small Double Bed /w Storage",
+			"source": "Love Furniture",
+			"link": "https://www.lovefurniture.ie/waverley-storage-small-double-bed-4ft-black",
+			"price": "€318.50"
+			},
+			{
+				"item":"Double Bed /w Storage",
+				"source":"Love Furniture",
+				"link":"https://www.lovefurniture.ie/waverley-double-storage-bed-4-6ft-black",
+				"price":"€322.50"
+			},
+			{
+				"item": "Floating Shelves",
+				"source": "IKEA",
+				"link": "https://www.ikea.com/ie/en/p/fryksas-wall-shelf-rattan-10549348/",
+				"price": "€29"
+			}	
 		],
 		"image":"Bedroom.jpg"
 	},
@@ -11,7 +28,42 @@
 		"title":"Kitchen",
 		"description":"Cooker, Fridge (Small Freezer), Hobs, Washing Machine, Sink. Lots of cabinets, desktop dishwasher (yet to be purchased) and a small shelf to be installed on RHS of cooker.",
 		"furniture":[
-			
+			{
+				"item":"Countertop Dishwasher",
+				"source":"buyitdirect",
+				"link":"https://www.buyitdirect.ie/p/electriq-8-place-settings-table-top-dishwasher-white-eqdwttxl",
+				"price":"€290"
+			},
+			{
+				"item":"Crockery Set (6x6x6)",
+				"source":"IKEA",
+				"link":"https://www.ikea.com/ie/en/p/godmiddag-18-piece-service-white-10564683/",
+				"price":"€25"
+			},
+			{
+				"item":"Pint Glass x6",
+				"source":"IKEA",
+				"link":"https://www.ikea.com/ie/en/p/lodraet-beer-glass-clear-glass-50209337/",
+				"price":"€6"
+			},
+			{
+				"item":"Wine Glass x6",
+				"source":"IKEA",
+				"link":"https://www.ikea.com/ie/en/p/aenkeblomster-wine-glass-clear-glass-60591839/",
+				"price":"€6"
+			},
+			{
+				"item":"Pots x3",
+				"source":"IKEA",
+				"link":"https://www.ikea.com/ie/en/p/annons-5-piece-cookware-set-glass-stainless-steel-90207402/",
+				"price":"€12"
+			},
+			{
+				"item":"Pans x2",
+				"source":"IKEA",
+				"link":"https://www.ikea.com/ie/en/p/middagsmat-frying-pan-set-of-2-non-stick-coating-stainless-steel-00596477/",
+				"price":"€15"
+			}
 		],
 		"image":"Kitchen.jpg"
 	},
@@ -19,7 +71,24 @@
 		"title":"Living Room",
 		"description":"Completely unfurnished",
 		"furniture":[
-			
+			{
+			"item": "3-Seater Sofa",
+			"source": "Love Furniture",
+			"link": "https://www.lovefurniture.ie/brody-fabric-recliner-3-seater-sofa-light-grey",
+			"price": "€760"
+			},
+			{
+				"item":"2-Seater Sofa Bed",
+				"source":"Love Furniture",
+				"link":"https://www.lovefurniture.ie/luna-fabric-sofa-bed-grey",
+				"price":"€481"
+			},
+			{
+				"item":"Exercise Bike",
+				"source":"Decathlon",
+				"link":"https://www.decathlon.ie/p/311976-368521-silent-ultra-compact-smart-exercise-bike-initial-bike.html",
+				"price":"€260"
+			}
 		],
 		"image":"LivingRoom.jpg"
 	},
