@@ -1,0 +1,50 @@
+{
+	"bedroom":{
+		"title":"Bedroom",
+		"description":"In-built set of 6 wardrobes taking up western wall. Need to acquire bed, mattress, linens etc. Will host my desk and PC (possibly printer also). Shelf to be installed above bed to project onto opposite (northern) wall.",
+		"furniture":[
+			
+		],
+		"image":"Bedroom.jpg"
+	},
+	"kitchen":{
+		"title":"Kitchen",
+		"description":"Cooker, Fridge (Small Freezer), Hobs, Washing Machine, Sink. Lots of cabinets, desktop dishwasher (yet to be purchased) and a small shelf to be installed on RHS of cooker.",
+		"furniture":[
+			
+		],
+		"image":"Kitchen.jpg"
+	},
+	"living room":{
+		"title":"Living Room",
+		"description":"Completely unfurnished",
+		"furniture":[
+			
+		],
+		"image":"LivingRoom.jpg"
+	},
+	"dining room":{
+		"title":"Dining Room",
+		"description":"Completely unfurnished. Need to acquire table, 4-6 chairs, tablecloths, place mats, and vase",
+		"furniture":[
+			
+		],
+		"image":"DiningRoom.jpg"
+	},
+	"bathroom":{
+		"title":"Bathroom",
+		"description":"Comes with toilet, sink, bath, and shower. Need to get shower curtain (and rods?), cabinet of some description.",
+		"furniture":[
+			
+		],
+		"image":"Bathroom.jpg"
+	},
+	"hallway":{
+		"title":"Hallway",
+		"description":"Unfurnished; needs paintings/mirror/photos, whiteboard, coat hooks, small table",
+		"furniture":[
+			
+		],
+		"image":"Hallway.jpg"
+	}
+}
