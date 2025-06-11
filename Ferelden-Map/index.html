@@ -5,95 +5,327 @@
   <title>Interactive Apartment Map</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
-    .image-container {
-      position: relative;
-      display: inline-block;
-      max-width: 100%;
+    html, body {
+      height: 100%;
+      margin: 0;
+      overflow: hidden;
     }
-    .sky-image {
+
+    #countries, #arldoms{
+      display:none;
+    }
+
+    #map-container {
+      height: 100vh;
+      width: 100vw;
+      padding: 1rem;
+      box-sizing: border-box;
+      position: relative; /* This makes absolutely positioned children like controls anchor here */
+    }
+
+    .map-box {
       width: 100%;
-      height: auto;
-      display: block;
+      height: 100%;
+      overflow: hidden;
+      border: 2px solid #6c757d;
+      position: relative;
+      background-color: #000;
+      cursor: grab;
     }
-    .hotspot {
+
+    .map-layer {
       position: absolute;
-      width: 15px;
-      height: 15px;
+      top: 0;
+      left: 0;
+      transform-origin: top left;
+      max-width: none;
+      pointer-events: none;
+    }
+
+    .zoom-controls, .layer-controls {
+      position: absolute;
+      top: 1rem;
+      z-index: 1000; /* Ensure they're above everything else */
+    }
+
+    .zoom-controls {
+      right: 1rem;
+    }
+
+    .layer-controls {
+      left: 1rem;
+    }
+
+    .layer-controls label {
+      display: block;
+      font-size: 0.9rem;
+    }
+
+    .map-marker {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background-color: red;
       border-radius: 50%;
-      background-color: rgba(255, 255, 255, 0.6);
-      border: 2px solid #00f;
+      border: 2px solid white;
       cursor: pointer;
+      z-index: 20;
       transform: translate(-50%, -50%);
     }
+
+    .marker-popup {
+      position: absolute;
+      background: #222;
+      color: #fff;
+      padding: 8px 12px;
+      font-size: 1.2rem;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      white-space: nowrap;
+      pointer-events: none;
+      transform: translate(-50%, -100%);
+      z-index: 25;
+      opacity: 0;
+      pointer-events: none;
+      visibility: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+      transition: opacity 0.2s ease;
+      opacity: 0;
+    }
+
+    .marker-popup.show {
+      opacity: 1;
+      pointer-events: auto;
+      visibility: visible;
+    }
+
+    .marker-popup::after {
+      content: "";
+      position: absolute;
+      bottom: -10px; /* position tail at bottom */
+      left: 50%;
+      transform: translateX(-50%);
+      border-width: 10px 8px 0 8px; /* triangle */
+      border-style: solid;
+      border-color: #222 transparent transparent transparent; /* same as bubble bg */
+    }
+
+    #markerLayer {
+      width: 100%;
+      height: 100%;
+    }
+
+
   </style>
 </head>
 <body class="bg-dark text-white text-center p-4">
 
-  <h1>My Apartment</h1>
-  <div class="image-container">
-    <img src="assets/Ferelden Map.png" class="sky-image" style="max-height:100vh;" alt="8C The Lawn">
+   <div id="map-container" class="container-fluid">
+    <div class="zoom-controls">
+      <button id="zoomIn" class="btn btn-sm btn-light">Zoom In +</button><br/>
+      <button id="zoomOut" class="btn btn-sm btn-light">Zoom Out −</button>
+    </div>
 
-    <!-- Hotspots with data-id -->
-    <div class="hotspot" style="top: 20%; left: 50%;" data-id="kitchen" title="Kitchen"></div>
-    <div class="hotspot" style="top: 20%; left: 25%;" data-id="bathroom" title="Bathroom"></div>
-    <div class="hotspot" style="top: 67%; left: 65%;" data-id="living room" title="Living Room"></div>
-    <div class="hotspot" style="top: 20%; left: 76%;" data-id="dining room" title="Dining Room"></div>
-    <div class="hotspot" style="top: 47%; left: 25%;" data-id="hallway" title="Hallway"></div>
-    <div class="hotspot" style="top: 82%; left: 27%;" data-id="bedroom" title="Bedroom"></div>
-  </div>
+    <div class="layer-controls bg-dark p-2 rounded border border-light">
+      <label><input type="checkbox" class="layer-toggle" data-layer="#countries" unchecked> Countries</label>
+      <label><input type="checkbox" class="layer-toggle" data-layer="#arldoms" unchecked> Arldoms</label>
+    </div>
 
-  <!-- Single Reusable Modal with Dark Theme -->
-  <div class="modal fade" id="constellationModal" tabindex="-1" aria-labelledby="constellationModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg">
-      <div class="modal-content bg-dark text-white border border-light shadow-lg">
-        <div class="modal-header border-bottom border-light">
-          <h5 class="modal-title" id="constellationModalLabel">Constellation Name</h5>
-          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <p id="modalDescription">Constellation description...</p>
-          <img id="modalImage" src="" alt="" class="img-fluid rounded mt-3 border border-secondary">
-        </div>
+    <div class="map-box" id="mapBox">
+      <div id="mapContent" style="position: absolute; top: 0; left: 0;">
+        <div id="markerLayer" class="position-absolute top-0 start-0"></div>
+
+        <!-- Map images -->
+        <img src="assets/Full-Thedes-Map-With-Campaign-Names.png" id="base" class="map-layer" alt="DND Map" />
+        <img src="assets/Country-Overlay.png" id="countries" class="map-layer" />
+        <img src="assets/Arldom-Overlay.png"  id="arldoms" class="map-layer" />
       </div>
     </div>
   </div>
-
 
   <!-- Scripts -->
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script>
-    let constellationData = {};
+    let scale = 1;
+    const scaleStep = 0.1;
+    const minScale = 0.2;
+    const maxScale = 3;
 
-    $.getJSON('data/decor.json', function(data) {
-      constellationData = data;
+    let isDragging = false;
+    let startX, startY;
+    let scrollLeft, scrollTop;
+
+    let panX = -1750, panY = -2050;
+
+    const $mapBox = $('#mapBox');
+    const $mapLayers = $('.map-layer');
+
+    const markerData = [
+      { x: 2172, y: 2318, type:"Location", text: "<b>Dwarveszammar: </b><br>Capital City of Dwarven people living in Ferelden.<br> Birthplace of Leucite Aeducan and Sweel. <br>Home to the Deep Roads, site of rebirth of Old God of Magic." },
+      { x: 2575, y: 2530, type:"Location", text: "<b>Lovering: </b><br>Headquarters of the Ferelden Grey Wardens.<br> Operated by Knight-Commander Iona. <br>Starting point of the whole campaign" },
+      { x: 2990, y: 2308, type:"Location", text: "<b>Denim: </b><br>Capital of Ferelden and palace of the King.<br>Currently ruled by Lord-Commander Connomor Katell." }
+    ];
+
+    function renderMarkers() {
+      const $markerLayer = $('#markerLayer');
+      const $mapBox = $('#mapBox');
+      $markerLayer.empty();
+      $('.marker-popup').remove(); // remove old popups if re-rendering
+
+      markerData.forEach((marker) => {
+        const $marker = $('<div class="map-marker"></div>');
+        const $popup = $('<div class="marker-popup"></div>').html(marker.text);
+
+        switch(marker.type){
+        case "Location":
+          $marker[0].style.backgroundColor = "Green"; break;
+        default:
+          $marker[0].style.backgroundColor = "Red";   break;
+        }
+
+        const left = marker.x * scale;
+        const top = marker.y * scale;
+
+        $marker.css({ left: `${left}px`, top: `${top}px` });
+
+        // Attach popup to mapBox (not to the scaled marker layer)
+        $popup.css({
+          left: `${left}px`,
+          top: `${top - 10}px`
+        });
+
+        // Store reference to update later
+        $marker.data('popup', $popup);
+
+        $marker.on('click', function (e) {
+          e.stopPropagation();
+          $('.marker-popup').removeClass('show'); // hide other popups
+
+          const markerRect = $marker[0].getBoundingClientRect();
+
+          // Position the popup using the actual screen position of the marker
+          $popup.css({
+            left: `${markerRect.left - 40 + markerRect.width / 2}px`,
+            top: `${markerRect.top - 40}px`
+          });
+
+          $popup.addClass('show');
+        });
+
+
+
+
+        $markerLayer.append($marker);
+        $mapBox.append($popup); // append outside of scaled layer
+      });
+    }
+
+    $(document).ready(function () {
+      renderMarkers();
+      applyZoom();
     });
 
 
-    $(document).ready(function () {
-      $('.hotspot').on('click', function () {
-        const id = $(this).data('id');
-        const data = constellationData[id];
+   function updateMarkerPositions() {
+      const $markers = $('#markerLayer .map-marker');
 
-        if (data) {
-          $('#constellationModalLabel').text(data.title);
-          $('#modalImage').attr('src', "./assets/" + data.image).attr('alt', data.title);
-          let descText = data.description + "<br>";
-          const modal = new bootstrap.Modal(document.getElementById('constellationModal'));
-          if(data.furniture.length > 0){
-            //console.log("There's furniture in here!");
-            descText += "<br><div class='row'>";
-            data.furniture.forEach(item => {
-              descText += `
-                <div class="col-4"><a href="${item.link}"><b>${item.item}</b><br>${item.price}</a></div>
-              `;
-            })
-            descText += "</div>";
-          }
-          $('#modalDescription').html(descText);
-          modal.show();
+      const screenPanX = panX * scale;
+      const screenPanY = panY * scale;
+
+      $markers.each(function (i) {
+        const marker = markerData[i];
+        const left = marker.x * scale;
+        const top = marker.y * scale;
+
+        $(this).css({
+          left: `${left}px`,
+          top: `${top}px`
+        });
+
+        const $popup = $(this).data('popup');
+        if ($popup) {
+          $popup.css({
+            left: `${left + screenPanX}px`,
+            top: `${top + screenPanY - 30}px`
+          });
         }
       });
+    }
+
+
+
+
+
+    // Extend zoom function
+    function applyZoom() {
+      $('#mapContent').css('transform', `translate(${panX}px, ${panY}px) scale(${scale})`);
+      //updateMarkerPositions();
+    }
+
+    $('#zoomIn').on('click', function () {
+      if (scale < maxScale) {
+        scale += scaleStep;
+        applyZoom();
+      }
+    });
+
+    $('#zoomOut').on('click', function () {
+      if (scale > minScale) {
+        scale -= scaleStep;
+        applyZoom();
+      }
+    });
+
+    $(document).on('click', function () {
+      $('.marker-popup').removeClass('show');
+    });
+
+
+    // Mouse drag panning
+    $mapBox.on('mousedown', function (e) {
+      isDragging = true;
+      startX = e.clientX;
+      startY = e.clientY;
+      $mapBox.css('cursor', 'grabbing');
+    });
+
+    $(document).on('mousemove', function (e) {
+      if (!isDragging) return;
+      e.preventDefault();
+      const dx = e.clientX - startX;
+      const dy = e.clientY - startY;
+      startX = e.clientX;
+      startY = e.clientY;
+      panX += dx;
+      panY += dy;
+      applyZoom();
+      //updateMarkerPositions(); 
+    });
+
+    $(document).on('mouseup', function () {
+      isDragging = false;
+      $mapBox.css('cursor', 'grab');
+    });
+
+
+    // Ctrl+mousewheel zoom
+    $mapBox.on('wheel', function (e) {
+      if (e.originalEvent.ctrlKey) {
+        e.preventDefault();
+        if (e.originalEvent.deltaY < 0 && scale < maxScale) {
+          scale += scaleStep;
+        } else if (e.originalEvent.deltaY > 0 && scale > minScale) {
+          scale -= scaleStep;
+        }
+        applyZoom();
+      }
+    });
+
+    // Layer toggle
+    $('.layer-toggle').on('change', function () {
+      const target = $(this).data('layer');
+      $(target).toggle(this.checked);
     });
   </script>
 </body>
