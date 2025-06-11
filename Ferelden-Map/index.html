@@ -162,9 +162,16 @@
     const $mapLayers = $('.map-layer');
 
     const markerData = [
-      { x: 2172, y: 2318, type:"Location", text: "<b>Dwarveszammar: </b><br>Capital City of Dwarven people living in Ferelden.<br> Birthplace of Leucite Aeducan and Sweel. <br>Home to the Deep Roads, site of rebirth of Old God of Magic." },
+      { x: 2145, y: 2227, type:"Location", text: "<b>Jader: </b><br>Thriving port city and likely first site of incursion in the event of war with Orlais.<br>Last known whereabouts of Arvek's brother Caulder's soul." },
+      { x: 2172, y: 2318, type:"Location", text: "<b>Dwarveszammar: </b><br>Capital City of Dwarven people living in Ferelden.<br> Birthplace of Leucite Aeducan and Sweel. <br>Home to the Deep Roads, site of rebirth of Old God of Magic.<br>First successful treaty for the Grey Wardens." },
       { x: 2575, y: 2530, type:"Location", text: "<b>Lovering: </b><br>Headquarters of the Ferelden Grey Wardens.<br> Operated by Knight-Commander Iona. <br>Starting point of the whole campaign" },
-      { x: 2990, y: 2308, type:"Location", text: "<b>Denim: </b><br>Capital of Ferelden and palace of the King.<br>Currently ruled by Lord-Commander Connomor Katell." }
+      { x: 2990, y: 2308, type:"Location", text: "<b>Denim: </b><br>Capital of Ferelden and palace of the King.<br>Currently ruled by Lord-Commander Connomor Katell." },
+      { x: 2345, y: 2620, type:"Location", text: "<b>Maroon Hills: </b><br>Homestead of Arl Pelham Gornemant and Arlessa Carina Gornemant.</br>Former home of Tristram Gornemant IV (the boy).<br>First treaty attempted by the Grey Wardens (currently on hold)." },
+      { x: 2350, y: 2320, type:"Location", text: "<b>Ferelden Circle Tower: </b><br>Birthplace of NINA.<br>Apostates mages are sent here for imprisonment and processing into tranquils.<br>One of four treaties to be fulfilled by the Grey Wardens." },
+      { x: 3080, y: 2470, type:"Location", text: "<b>Na Dathanna Village: </b><br>Birthplace of Strychnine and their siblings.<br>Presumed birthplace of Wolf.<br>Current whereabouts of Tristram Gornemant IV (the boy).<br>Third treaty (with the Daelish Elves) fulfilled here." },
+      { x: 1080, y: 2275, type:"Country", text: "<b>Orlais: </b><br>Former colonisers of Ferelden with possible intent of retaking Ferelden for itself.<br>Extreme zealotry for the Chantry, including hosting it's leader the Divine Dioscore.<br>Birthplace of Bastien Varuk." },
+      { x: 2520, y: 2730, type:"Faction", text: "<b>Arldom of Maroon Hills: </b><br>Currently headed by Arl Pelham Gornemant, though due to his illness his wife Arlessa Carina carries out day-to-day duties.<br>Birthplace of Tristram Gornemant IV.<br><b>Party Status:</b> On Good Terms" },
+      { x: 3060, y: 2640, type:"Faction", text: "<b>Arldom of Gwaren: </b><br>Current status of Arl is unknown.<br>Capital of Arldom, Gwaren, considered lost following overrun by Darkspawn.<br><b>Party Status:</b> Unaffiliated" }
     ];
 
     function renderMarkers() {
@@ -179,9 +186,21 @@
 
         switch(marker.type){
         case "Location":
-          $marker[0].style.backgroundColor = "Green"; break;
+          $marker[0].style.backgroundColor = "Silver"; 
+          break;
+        case "Country":
+          $marker[0].style.backgroundColor = "Black"; 
+          $marker[0].style.width = "40px";
+          $marker[0].style.height = "40px";
+          break;
+        case "Faction":
+          $marker[0].style.backgroundColor = "Maroon"; 
+          $marker[0].style.width = "25px";
+          $marker[0].style.height = "25px";
+          break;
         default:
-          $marker[0].style.backgroundColor = "Red";   break;
+          $marker[0].style.backgroundColor = "Red";   
+          break;
         }
 
         const left = marker.x * scale;
