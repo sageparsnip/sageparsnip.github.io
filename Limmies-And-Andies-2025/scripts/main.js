@@ -83,6 +83,8 @@ function hideModal() {
 function retrieveWinner(div){
 	//console.log(div.childNodes[0].textContent);
 	var selected = div.childNodes[0].textContent;
+	div.childNodes[0].style.textDecoration = "line-through";
+	div.childNodes[0].style.textDecorationThickness = "35%";
 	var modal = document.getElementById("diceRollPopup");
 	var modalHeader = document.getElementById("diceRollPopupHeader");
 	var modalContent = document.getElementById("diceRollPopupContent");
