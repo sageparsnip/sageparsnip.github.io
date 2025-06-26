@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html lang="en" data-theme="dark">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+	<link rel="stylesheet" href="./scripts/bootstrap.css">
+	<link rel="stylesheet" href="./scripts/styles.css">
+	<title>Limmies And Andies 2025</title>
+	<script src="./scripts/jquery-3.6.3.min.js"></script>
+	<script src="./scripts/bootstrap.js"></script>
+	<script src="./scripts/homePage.js"></script>
+	<script src="./scripts/main.js"></script>
+	<style>
+		b{
+			font-size:16pt;
+			text-align: center;
+		}
+		.col-2,.col-3{
+			border:3px dotted cornflowerblue;
+			border-top-width: 0px;
+			border-bottom-width: 0px;
+		}
+		.award{
+			border: 2px solid white;
+			border-top-width: 1px;
+			border-left-width: 2px;
+			border-right-width: 2px;
+			border-bottom-width: 1px;
+		}
+		.topaward{
+			border-top-width: 2px;
+		}
+		.bottomaward{
+			border-bottom-width: 2px;
+		}
+		.awardText{
+			background-color:white;
+			font-color:white;
+			text-color:white;
+			font-size:14pt;
+		}
+		.row{
+			padding-top: 1rem;
+			padding-bottom: 1rem;
+		}
+		.modal-dialog{
+			max-width:60%;
+		}
+	</style>
+</head>
+<body class="dark">
+<div class="modal" id="diceRollPopup">
+	<div class="modal-dialog">
+		<div class="modal-content bg-dark">
+			<div class="modal-header text-light">
+				<h5 class="modal-title" id="diceRollPopupHeader">Modal Header</h5>
+				<button type="button" class="close text-light bg-dark" onclick="hideModal()">&times;</button>
+			</div>
+			<div class="modal-body" id="diceRollPopupContent">
+				Modal Content
+			</div>
+
+			<div class="modal-footer bg-dark">
+				<button type="button" class="btn btn-secondary" onclick="hideModal()">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid g-4" style="padding-top: 4rem; width:95%;">
+	<div class="row">
+		<div class="col-12"><h2 style="text-align: center;">Limmies & Andies 2025</h2></div>
+	</div>
+	<div class="row award topaward"> 
+		<div class="col-2 d-flex justify-content-center" onclick="retrieveWinner(this)"><b>Favourite PC - Bob Campaign</b></div>
+		<div class="col-2 d-flex justify-content-center" onclick="retrieveWinner(this)"><b>Favourite NPC - Bob Campaign</b></div>
+		<div class="col-2 d-flex justify-content-center" onclick="retrieveWinner(this)"><b>Best Moment - Bob Campaign</b></div>
+		<div class="col-2 d-flex justify-content-center" onclick="retrieveWinner(this)"><b>Worst Decision - Bob Campaign</b></div>
+		<div class="col-2 d-flex justify-content-center" onclick="retrieveWinner(this)"><b>Favourite RP - Bob Campaign</b></div>
+		<div class="col-2 d-flex justify-content-center" onclick="retrieveWinner(this)"><b>Favourite Encounter - Bob Campaign</b></div>
+	</div>
+	<div class="row award"> 
+		<div class="col-2 d-flex justify-content-center" onclick="retrieveWinner(this)"><b>Favourite PC - Chance Campaign</b></div>
+		<div class="col-2 d-flex justify-content-center" onclick="retrieveWinner(this)"><b>Favourite NPC - Chance Campaign</b></div>
+		<div class="col-2 d-flex justify-content-center" onclick="retrieveWinner(this)"><b>Best Moment - Chance Campaign</b></div>
+		<div class="col-2 d-flex justify-content-center" onclick="retrieveWinner(this)"><b>Worst Decision - Chance Campaign</b></div>
+		<div class="col-2 d-flex justify-content-center" onclick="retrieveWinner(this)"><b>Favourite RP - Chance Campaign</b></div>
+		<div class="col-2 d-flex justify-content-center" onclick="retrieveWinner(this)"><b>Favourite Encounter - Chance Campaign</b></div>
+	</div>
+	<div class="row award"> 
+		<div class="col-2 d-flex justify-content-center" onclick="retrieveWinner(this)"><b>The Jocawinq Wewf Memorial Award</b></div>
+		<div class="col-2 d-flex justify-content-center" onclick="retrieveWinner(this)"><b>The Blayn Brightcloak Award for Excellence in Strategy</b></div>
+		<div class="col-2 d-flex justify-content-center" onclick="retrieveWinner(this)"><b>The Halia Thornton Award for Dastardly Devils</b></div>
+		<div class="col-2 d-flex justify-content-center" onclick="retrieveWinner(this)"><b>The Mayor of Beantown Memorial Award</b></div>
+		<div class="col-2 d-flex justify-content-center" onclick="retrieveWinner(this)"><b>The Cyber Crumbles The Time Wizard</b></div>
+		<div class="col-2 d-flex justify-content-center" onclick="retrieveWinner(this)"><b>The Children's Choice (Cocaine) Award</b></div>
+	</div>
+	<div class="row award"> 
+		<div class="col-2 d-flex justify-content-center" onclick="retrieveWinner(this)"><b>Luke's Bread Prize</b></div>
+		<div class="col-2 d-flex justify-content-center" onclick="retrieveWinner(this)"><b>Cowabummer</b></div>
+		<div class="col-2 d-flex justify-content-center" onclick="retrieveWinner(this)"><b>Paiste's Favourite</b></div>
+		<div class="col-2 d-flex justify-content-center" onclick="retrieveWinner(this)"><b>Tasha's Hideous Award</b></div>
+		<div class="col-2 d-flex justify-content-center" onclick="retrieveWinner(this)"><b>The "Cracker" Award</b></div>
+		<div class="col-2 d-flex justify-content-center" onclick="retrieveWinner(this)"><b>Sometimes It's Sad Too</b></div>
+	</div>
+	<div class="row award bottomaward"> 
+		<div class="col-3 d-flex justify-content-center" onclick="retrieveWinner(this)"><b>I'm Telling Iona!</b></div>
+		<div class="col-3 d-flex justify-content-center" onclick="retrieveWinner(this)"><b>Best Quote (IC)</b></div>
+		<div class="col-3 d-flex justify-content-center" onclick="retrieveWinner(this)"><b>Best Quote (OoC)</b></div>
+		<div class="col-3 d-flex justify-content-center" onclick="retrieveWinner(this)"><b>Wildest Choice</b></div>
+	</div>
+</div>
+</body>
+</html>
