@@ -132,7 +132,7 @@ function retrieveWinner(div){
 		},
 		"Favourite NPC - Chance Campaign": {
 			"winner":       "Medo",
-			"winnerImage":  "",
+			"winnerImage":  "assets/Medo-Portrait.png",
 			"runner-up":    "Dieudonnée & Tristram Gornemant III",
 			"honorables":   "Estell, Trahan"
 		},
@@ -180,7 +180,7 @@ function retrieveWinner(div){
 		},
 		"The Mayor of Beantown Memorial Award": {
 			"winner":       "Emil",
-			"winnerImage":  "",
+			"winnerImage":  "assets/Emil.png",
 			"runner-up":    "Quipcxy Jox",
 			"honorables":   "Hyacinth, The Badgers, Wilem"
 		},
@@ -204,7 +204,7 @@ function retrieveWinner(div){
 		},
 		"Cowabummer": {
 			"winner":       "Hershel the 16-year old prostitute",
-			"winnerImage":  "",
+			"winnerImage":  "assets/Hershel-Prostitute.png",
 			"runner-up":    "The Tortles have been feebleminded",
 			"honorables":   "Lucian is crying behind the door, Jeanette, in general"
 		},
