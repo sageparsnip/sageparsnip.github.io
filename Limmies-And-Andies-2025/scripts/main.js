@@ -56,9 +56,9 @@ function retrieveWinner(div){
 			"honorables":   "Scholar, Augustine, Primakera"
 		},
 		"Best Moment - Bob Campaign": {
-			"winner":       "Damasyndra Resolves Her Childhood Trauma",
-			"winnerImage":  "assets/Dama Better.png",
-			"runner-up":    "Yartleby's Big Night Out",
+			"winner":       "Yartleby's Big Night Out",
+			"winnerImage":  "assets/Bartleby At The Gaslight.png",
+			"runner-up":    "Damasyndra Resolves Her Childhood Trauma",
 			"honorables":   "The Porridge Miracle, Phyll delivering the manifesto, Damasyndra Burns Down Woof"
 		},
 		"Worst Decision - Bob Campaign": {
@@ -86,10 +86,10 @@ function retrieveWinner(div){
 			"honorables":   "Leucite, Arvek"
 		},
 		"Favourite NPC - Chance Campaign": {
-			"winner":       "Medo",
-			"winnerImage":  "assets/Medo-Portrait.png",
-			"runner-up":    "Dieudonnée & Tristram Gornemant III",
-			"honorables":   "Estell, Trahan"
+			"winner":       "Dieudonnée",
+			"winnerImage":  "assets/Dieudonnee-Portrait.png",
+			"runner-up":    "Medo & Tristram Gornemant III",
+			"honorables":   "Estell, Trahan, Iona"
 		},
 		"Best Moment - Chance Campaign": {
 			"winner":       "Reawakening of Magic",
@@ -98,9 +98,9 @@ function retrieveWinner(div){
 			"honorables":   "NINA speaks with Shou Tucker"
 		},
 		"Worst Decision - Chance Campaign": {
-			"winner":       "Kim Is Firing Her Gun Indoors",
-			"winnerImage":  "assets/Kim Indoors.png",
-			"runner-up":    "Sendings to Trahan",
+			"winner":       "Sendings to Trahan",
+			"winnerImage":  "assets/Sendings To Trahan.png",
+			"runner-up":    "Kim Is Firing Her Gun Indoors",
 			"honorables":   "Sweel trapping a snake in a fuckin' barrel, Nine's Around The Forest Tour"
 		},
 		"Favourite RP - Chance Campaign": {
@@ -116,16 +116,16 @@ function retrieveWinner(div){
 			"honorables":   "Medo intro encounter, The Mayor's Diary "
 		},
 		"The Jocawinq Wewf Memorial Award": {
-			"winner":       "Niall's Gift of Good Egg To Tortellini",
-			"winnerImage":  "assets/Good Egg.png",
-			"runner-up":    "Jocawinq Hunts The Cyranos",
-			"honorables":   "Tortellini fully shitting himself in the torture chamber"
+			"winner":       "Jocawinq Hunts The Cyranos",
+			"winnerImage":  "assets/Jocawinq Conspiracy Board.png",
+			"runner-up":    "Niall's Gift of Good Egg To Tortellini",
+			"honorables":   "Tortellini fully shitting himself in the torture chamber, Laura and Chance make a whole spreadsheet of ways to torture their friends"
 		},
 		"The Blayn Brightcloak Award for Excellence in Strategy": {
 			"winner":       "Damasyndra's Wall Of Force in Wewf's Christian Torture Chamber",
 			"winnerImage":  "assets/Wall of Force.png",
-			"runner-up":    "Bartleby beats the hedgehogs by... shutting the door.",
-			"honorables":   "Tortellini tanks the Peacekeeper fight"
+			"runner-up":    "MR-08's entire character build",
+			"honorables":   "Bartleby beats the hedgehogs by... shutting the door, Tortellini tanks the Peacekeeper fight"
 		},
 		"The Halia Thornton Award for Dastardly Devils": {
 			"winner":       "The Peacekeeper",
@@ -136,14 +136,14 @@ function retrieveWinner(div){
 		"The Mayor of Beantown Memorial Award": {
 			"winner":       "Emil",
 			"winnerImage":  "assets/Emil.png",
-			"runner-up":    "Quipcxy Jox",
-			"honorables":   "Hyacinth, The Badgers, Wilem"
+			"runner-up":    "Hyacinth",
+			"honorables":   "Quipcxy Jox, The Badgers, Wilem"
 		},
 		"The Cyber Crumbles The Time Wizard": {
-			"winner":       "Tony (Head of the Rat Mafia)",
-			"winnerImage":  "assets/Tony.png",
-			"runner-up":    "Lieutenant Fuk Wot & Tippy, Lady Islay, Shagman 'Shaggy' Tokeman, La Bomboncita",
-			"honorables":   "El Mimo"
+			"winner":       "Tony (Head of the Rat Mafia) & La Bomboncita",
+			"winnerImage":  "assets/Tony & Bomboncita.png",
+			"runner-up":    "Lady Islay",
+			"honorables":   "Lieutenant Fuk Wot & Tippy,  Shagman 'Shaggy' Tokeman"
 		},
 		"The Children's Choice (Cocaine) Award": {
 			"winner":       "Good Egg",
@@ -160,8 +160,8 @@ function retrieveWinner(div){
 		"Cowabummer": {
 			"winner":       "Hershel the 16-year old prostitute",
 			"winnerImage":  "assets/Hershel-Prostitute.png",
-			"runner-up":    "The Tortles have been feebleminded",
-			"honorables":   "Lucian is crying behind the door, Jeanette, in general"
+			"runner-up":    "The Tortles have been feebleminded & Jeanette, in general",
+			"honorables":   "Lucian is crying behind the door"
 		},
 		"Paiste's Favourite": {
 			"winner":       "Puzzler",
@@ -185,7 +185,7 @@ function retrieveWinner(div){
 			"winner":       "Damasyndra Says Goodbye To Paiste",
 			"winnerImage":  "assets/Dama + Paiste.png",
 			"runner-up":    "Phyll Can't Save You, Jeanette",
-			"honorables":   "You've Gone Soft, Molly., Mossback Says Goodbye, Tortellini dying for his family in Visions"
+			"honorables":   "Who paid the rent, Lucian?, Mossback Says Goodbye"
 		},
 		"I'm Telling Iona!": {
 			"winner":       "Tortellini vs Jeanette/MR-08 (and Damasyndra)",
