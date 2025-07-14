@@ -1615,17 +1615,49 @@
             "Notes":"Ritual For Dolls and Wanda's Visits were both staged on the One-Act Circuit, 2001."
         },
         {
-            "Play": "Sharon’s Grave",
+            "Play": "Sharon's Grave",
             "Year": "2002",
-            "Month": "",
-            "DetailsComplete":"No",
+            "Month": "March",
+            "DetailsComplete":"Yes",
             "ImageFolder":"",
             "Playwright": "JB Keane",
             "Length": "Full Slot",
-            "Location": "",
-            "Director": "Unknown",
-            "Cast": [],
-            "Crew": []
+            "Location": "Kildrought Lounge",
+            "Director": "Frank Houlihan",
+            "Cast": [
+                {"name":"Donal Healy","role":"Donal Conlee"},
+                {"name":"John Heveran","role":"Peader Minogue"},
+                {"name":"Mary Higgins","role":"Trassie Conlee"},
+                {"name":"Eugene Molumby","role":"Neelus Conlee"},
+                {"name":"Paul Mescal","role":"Dinzie Conlee"},
+                {"name":"Brian Carroll","role":"Jack Conlee"},
+                {"name":"Lorna Mooney","role":"Miss Dee"},
+                {"name":"Bill Elliffe","role":"Pats Bo Bwee"},
+                {"name":"Donal Downes","role":"Tom Shaun"},
+                {"name":"Valerie Kennelly","role":"Moll"},
+                {"name":"Darragh Toner","role":"Doanalin"},
+                {"name":"Dave Foley","role":"Mickeen Mick"}
+            ],
+            "Crew": [
+                {"name":"Donal Healy","role":"Songwriter"},
+                {"name":"Gayle Thompson","role":"Stage Manager"},
+                {"name":"Jan Davies","role":"Stage Crew"},
+                {"name":"Ann Dempsey","role":"Production Assistant"},
+                {"name":"Joe Canavan","role":"Lights, Set Design"},
+                {"name":"Kevin Campion","role":"Lighting Operator"},
+                {"name":"Herbie Corkey","role":"Sound"},
+                {"name":"Gorretti Slavin","role":"Costumes"},
+                {"name":"Martin Moran","role":"Set Construction"},
+                {"name":"Brendan O'Sullivan","role":"Set Construction"},
+                {"name":"Sean Woods","role":"Set Construction"},
+                {"name":"Martin Higgins","role":"Set Construction"},
+                {"name":"Michael Giblin","role":"Front of House"},
+                {"name":"Kate Houlihan","role":"Front of House"},
+                {"name":"Alison Campbell","role":"Front of House"},
+                {"name":"Tim McAuliffe","role":"Posters"},
+                {"name":"Saidhbh Houlihan","role":"Poster Distribution"},
+                {"name":"Margaret Cosgrove","role":"Programme"}
+            ]
         },
         {
             "Play": "St Patrick’s Day",
@@ -1808,7 +1840,7 @@
             "Playwright": "Barry McKinley",
             "Length": "Full Slot",
             "Location": "",
-            "Director": "Unknown",
+            "Director": "Tom Byrne",
             "Cast": [],
             "Crew": []
         },
@@ -1841,28 +1873,79 @@
         {
             "Play": "Da",
             "Year": "2005",
-            "Month": "",
-            "DetailsComplete":"No",
+            "Month": "April",
+            "DetailsComplete":"Yes",
             "ImageFolder":"",
             "Playwright": "Hugh Leonard",
             "Length": "Full Slot",
-            "Location": "",
-            "Director": "Unknown",
-            "Cast": [],
-            "Crew": []
+            "Location": "Kildrought Lounge",
+            "Director": "Tom Byrne",
+            "Cast": [
+                {"name":"Bill Elliffe","role":"Da"},
+                {"name":"George Hogan","role":"Charlie"},
+                {"name":"Bob Armstrong","role":"Young Charlie"},
+                {"name":"Dave Foley","role":"Drumm"},
+                {"name":"Carol Greene","role":"Mother"},
+                {"name":"Eugene Molumby","role":"Oliver"},
+                {"name":"Breda Donnellan","role":"Mary Tate"},
+                {"name":"Gayle Thompson","role":"Mrs Prynne"},
+                {"name":"Brian Byrne","role":"Youngest Charlie"}
+            ],
+            "Crew": [
+                {"name":"Joe Canavan","role":"Set Design & Lighting, Set Construction"},
+                {"name":"Herbie Corkey","role":"Sound"},
+                {"name":"Frank Houlihan","role":"Costumes"},
+                {"name":"Anne Mynes","role":"Stage Manager"},
+                {"name":"Martina Blessing","role":"ASM"},
+                {"name":"Breda Konstantin","role":"Backstage"},
+                {"name":"Ciaran Molumby","role":"Backstage"},
+                {"name":"Viv Butler-Rees","role":"Backstage"},
+                {"name":"Sean Woods","role":"Set Construction"},
+                {"name":"Dave Foley","role":"Set Construction"},
+                {"name":"George Hogan","role":"Set Construction"},
+                {"name":"Pete Butler","role":"Set Construction"},
+                {"name":"Gorretti Slavin","role":"Front of House"},
+                {"name":"Michael Giblin","role":"Front of House"},
+                {"name":"Rachel O'Connor","role":"Front of House"},
+                {"name":"Ursula Bracken","role":"Front of House"},
+                {"name":"Lorna Mooney","role":"Front of House"},
+                {"name":"Geraldine O'Brien","role":"Front of House"},
+                {"name":"Mary Higgins","role":"Front of House"},
+                {"name":"Ger Corkey","role":"Front of House"}
+            ]
         },
         {
             "Play": "Dangerous Corner",
             "Year": "2005",
-            "Month": "",
-            "DetailsComplete":"No",
+            "Month": "October",
+            "DetailsComplete":"Yes",
             "ImageFolder":"",
             "Playwright": "JB Priestly",
             "Length": "Full Slot",
-            "Location": "",
-            "Director": "Unknown",
-            "Cast": [],
-            "Crew": []
+            "Location": "Kildrought Lounge",
+            "Director": "Michael Giblin",
+            "Cast": [
+                {"name":"Ruth Brennan","role":"Freda Caplan, Olwen Peel"},
+                {"name":"Martina Blessing","role":"Miss Mookridge"},
+                {"name":"Breda Donnellan","role":"Betty Waterhouse"},
+                {"name":"Rob Habington","role":"Charles Stanton"},
+                {"name":"Bob Armstrong","role":"Gordon Waterhouse"},
+                {"name":"Dave Foley","role":"Robert Caplan"}
+            ],
+            "Crew": [
+                {"name":"Joe Canavan","role":"Set Design & Lighting"},
+                {"name":"Herbie Corkey","role":"Sound"},
+                {"name":"Gorretti Slavin","role":"Stage Manager"},
+                {"name":"Mary Higgins","role":"Costumes"},
+                {"name":"Gayle Thompson","role":"Backstage/Front of House/Set Building"},
+                {"name":"Eugene Molumby","role":"Backstage/Front of House/Set Building"},
+                {"name":"Martin Higgins","role":"Backstage/Front of House/Set Building"},
+                {"name":"Dave Foley","role":"Backstage/Front of House/Set Building"},
+                {"name":"Catherine McGuinness","role":"Backstage/Front of House/Set Building"},
+                {"name":"Pete Butler","role":"Backstage/Front of House/Set Building"},
+                {"name":"Sean Woods","role":"Backstage/Front of House/Set Building"},
+                {"name":"Bill Elliffe","role":"Backstage/Front of House/Set Building"}
+            ]
         },
         {
             "Play": "A Midsummer Nights Dream",
@@ -1893,15 +1976,34 @@
         {
             "Play": "On Such as We",
             "Year": "2007",
-            "Month": "",
-            "DetailsComplete":"No",
+            "Month": "April",
+            "DetailsComplete":"Yes",
             "ImageFolder":"",
             "Playwright": "Billy Roche",
             "Length": "Full Slot",
-            "Location": "",
-            "Director": "Unknown",
-            "Cast": [],
-            "Crew": []
+            "Location": "Kildrought Lounge",
+            "Director": "Frank Houlihan",
+            "Cast": [
+                {"name":"John Heveran","role":"Oweney"},
+                {"name":"Shaun Nugent","role":"Leonard"},
+                {"name":"Ian Cummins","role":"Matt"},
+                {"name":"Eugene Molumby","role":"Ritchie"},
+                {"name":"Noel Wade","role":"Eddie"},
+                {"name":"Breda Donnellan","role":"Maeve"},
+                {"name":"Ruth Mannion","role":"Sally"}
+            ],
+            "Crew": [
+                {"name":"Lorna Mooney","role":"Co-Director"},
+                {"name":"Viv Butler-Rees","role":"Stage Manager"},
+                {"name":"Julie McHugh","role":"ASM"},
+                {"name":"Frank Houlihan","role":"Set Design"},
+                {"name":"Martina Blessing","role":"Lighting"},
+                {"name":"Barry Donaldson","role":"Lighting"},
+                {"name":"Joan Healy","role":"Sound"},
+                {"name":"Terry Nealon","role":"Sound"},
+                {"name":"Herbie Corkey","role":"Sound"},
+                {"name":"Ruth Brennan","role":"Front of House"}
+            ]
         },
         {
             "Play":"Two One-Act Plays (2007)",
@@ -1962,15 +2064,31 @@
         {
             "Play": "The Memory of Water",
             "Year": "2007",
-            "Month": "",
-            "DetailsComplete":"No",
+            "Month": "April",
+            "DetailsComplete":"Yes",
             "ImageFolder":"",
             "Playwright": "Shelagh Stephenson",
             "Length": "Full Slot",
-            "Location": "",
-            "Director": "Unknown",
-            "Cast": [],
-            "Crew": []
+            "Location": "Kildrought Lounge",
+            "Director": "Bill Elliffe",
+            "Cast": [
+                {"name":"Geraldine O'Brien","role":"Mary"},
+                {"name":"Orla Gildea","role":"Vi"},
+                {"name":"Gayle Thompson","role":"Teresa"},
+                {"name":"Ursula Bracken","role":"Catherine"},
+                {"name":"Frank Houlihan","role":"Mike"},
+                {"name":"Brian King","role":"Frank"}
+            ],
+            "Crew": [
+                {"name":"Bill Elliffe","role":"Set Design"},
+                {"name":"Martina Blessing","role":"Lighting"},
+                {"name":"Barry Donaldson","role":"Lighting"},
+                {"name":"Terry Nealon","role":"Sound"},
+                {"name":"Herbie Corkey","role":"Sound"},
+                {"name":"Valerie Nohilly","role":"Stage Manager"},
+                {"name":"Rachel O'Connor","role":"ASM"},
+                {"name":"Ruth Brennan","role":"Front of House"}
+            ]
         },
         {
             "Play":"Two One-Act Plays",
@@ -2047,30 +2165,58 @@
             ]
         },
         {
-            "Play": "From These Green Heights",
-            "Year": "2008",
-            "Month": "",
-            "DetailsComplete":"No",
-            "ImageFolder":"",
-            "Playwright": "Dermot Bolger",
-            "Length": "Full Slot",
-            "Location": "",
-            "Director": "Unknown",
-            "Cast": [],
-            "Crew": []
-        },
-        {
             "Play": "Trad",
             "Year": "2008",
-            "Month": "",
-            "DetailsComplete":"No",
+            "Month": "April",
+            "DetailsComplete":"Yes",
             "ImageFolder":"",
             "Playwright": "Mark Doherty",
             "Length": "Full Slot",
-            "Location": "",
-            "Director": "Unknown",
-            "Cast": [],
-            "Crew": []
+            "Location": "Kildrought Lounge",
+            "Director": "Pete Butler",
+            "Cast": [
+                {"name":"Frank Houlihan","role":"Da"},
+                {"name":"John Heveran","role":"Son"},
+                {"name":"Eugene Molumby","role":"Sal/Rice"},
+                {"name":"Brian King","role":"Musician (Guitar)"},
+                {"name":"Liam Roe","role":"Musifican (Fiddle)"}
+            ],
+            "Crew": [
+                {"name":"Joe Canavan","role":"Lighting Design, Set Building"},
+                {"name":"Breda Donnellan","role":"Stage Crew"},
+                {"name":"Ciaran Molumby","role":"Stage Crew"},
+                {"name":"Viv Butler-Rees","role":"Stage Crew"},
+                {"name":"Noel Wade","role":"Photography"},
+                {"name":"Pete Butler","role":"Set Design"}
+            ]
+        },
+        {
+            "Play": "From These Green Heights",
+            "Year": "2008",
+            "Month": "May",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Dermot Bolger",
+            "Length": "Full Slot",
+            "Location": "Kildrought",
+            "Director": "Joe Canavan",
+            "Cast": [
+                {"name":"Bill Elliffe","role":"Christy"},
+                {"name":"George Hogan","role":"Dessie"},
+                {"name":"Miriam O'Brien","role":"Carmel"},
+                {"name":"Martina Murphy","role":"Marie"},
+                {"name":"Mary Higgins","role":"Jane"},
+                {"name":"Colette Kinsella","role":"Sharon"},
+                {"name":"Niamh Ryan","role":"Junkie"},
+                {"name":"Fiona Crilly","role":"Tara"},
+                {"name":"Shauna O'Grady","role":"Tara"}
+            ],
+            "Crew": [
+                {"name":"Helena Stout","role":"Stage Manager"},
+                {"name":"Sean Woods","role":"Set Building"},
+                {"name":"Brendan O'Sullivan","role":"Set Building"},
+                {"name":"Joe Canavan","role":"Set Building"}
+            ]
         },
         {
             "Play":"One Acts 2009",
@@ -3369,14 +3515,8 @@
                     "Playwright": "Don Nigro",
                     "Director": "Joe Canavan",
                     "Cast": [
-                        {
-                            "name": "Michelle O'Dea",
-                            "role": ""
-                        },
-                        {
-                            "name": "Bob Tysall",
-                            "role": ""
-                        }
+                        {"name": "Michelle O'Dea","role": "Marla"},
+                        {"name": "Bob Tysall","role": "Norris"}
                     ]
                 },
                 {
@@ -3386,11 +3526,11 @@
                     "Cast": [
                         {
                             "name": "Christopher Brogan",
-                            "role": ""
+                            "role": "Angel of Death"
                         },
                         {
                             "name": "Chris Fenlon",
-                            "role": ""
+                            "role": "John"
                         },
                         {
                             "name": "Leanne Reilly",
