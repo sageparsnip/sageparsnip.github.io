@@ -444,7 +444,7 @@
                     "role":"Lady Matheson"
                 },
                 {
-                    "name":"Carol Green",
+                    "name":"Carol Greene",
                     "role":"Mrs. Railton-Bell"
                 },
                 {
@@ -503,11 +503,11 @@
                 },
                 {
                     "name":"Geraldine Reidy",
-                    "role":"Properties"
+                    "role":"Properties, Publicity Committee"
                 },
                 {
                     "name":"Brendan O'Sullivan",
-                    "role":"Set Construction"
+                    "role":"Set Construction, Front of House"
                 },
                 {
                     "name":"Lorcan Madsen",
@@ -515,7 +515,7 @@
                 },
                 {
                     "name":"Dennis Thompson",
-                    "role":"Set Construction"
+                    "role":"Set Construction, Publicity Committee"
                 },
                 {
                     "name":"Jim Campion",
@@ -542,23 +542,11 @@
                     "role":"Front of House"
                 },
                 {
-                    "name":"Brendan O'Sullivan",
-                    "role":"Front of House"
-                },
-                {
-                    "name":"Chrstine Harte",
-                    "role":"Publicity Committee"
-                },
-                {
-                    "name":"Geraldine Reidy",
+                    "name":"Christine Harte",
                     "role":"Publicity Committee"
                 },
                 {
                     "name":"Fergal Reidy",
-                    "role":"Publicity Committee"
-                },
-                {
-                    "name":"Dennis Thompson",
                     "role":"Publicity Committee"
                 }
             ]
@@ -642,11 +630,11 @@
                 },
                 {
                     "name":"Gayle Thompson",
-                    "role":"P.R.O."
+                    "role":"P.R.O., Front of House"
                 },
                 {
-                    "name":"Set/Lighting Design",
-                    "role":"Dermot Cummins"
+                    "name":"Dermot Cummins",
+                    "role":"Set/Lighting Design"
                 },
                 {
                     "name":"Brendan O'Sullivan",
@@ -675,10 +663,6 @@
                 {
                     "name":"Gerald Mooney",
                     "role":"Stage Crew"
-                },
-                {
-                    "name":"Gayle Thompson",
-                    "role":"Front of House"
                 },
                 {
                     "name":"Chrstine Harte",
@@ -719,18 +703,18 @@
                 {"name":"Steve O'Brien","role":"Manolo"},{"name":"Bobby Barr","role":"Jesus"}
             ],
             "Crew": [
-                {"name":"Penny Smith","role":"Production Assistant"},{"name":"Miriam Breslin","role":"Stage Manager"},
+                {"name":"Penny Smith","role":"Production Assistant, Lighting Operator"},{"name":"Miriam Breslin","role":"Stage Manager, Set Design"},
                 {"name":"Des McCloskey","role":"Assistant Stage Manager"},{"name":"Carol Greene","role":"Properties Manager"},
-                {"name":"John Breslin","role":"Lighting Technician/Rigger"},{"name":"Penny Smith","role":"Lighting Operator"},
-                {"name":"June Galligan","role":"Wardrobe"},{"name":"Miriam Breslin","role":"Set Design"},
-                {"name":"Sean Woods","role":"Set Construction"},{"name":"John Breslin","role":"Set Construction"},
-                {"name":"Lorcan Madsen","role":"Set Construction"},{"name":"Dennis Thompson","role":"Set Construction"},
+                {"name":"John Breslin","role":"Lighting Technician/Rigger, Set Construction"},
+                {"name":"June Galligan","role":"Wardrobe"},
+                {"name":"Sean Woods","role":"Set Construction"},
+                {"name":"Lorcan Madsen","role":"Set Construction, Public Relations"},{"name":"Dennis Thompson","role":"Set Construction"},
                 {"name":"Gerald Mooney","role":"Set Construction"},{"name":"Brendan O'Sullivan","role":"Set Construction"},
-                {"name":" Michael Greene","role":"Set Construction"},
+                {"name":"Michael Greene","role":"Set Construction"},
                 {"name":"Liz Maxwell","role":"Stage Crew"},{"name":"Neil Farrell","role":"Stage Crew"},
-                {"name":"Gayle Thompson","role":"Public Relations"},{"name":"Roisin McDermott","role":"Public Relations"},
-                {"name":"Lorcan Madsen","role":"Public Relations"},{"name":"Noreen McNamara","role":"Front of House"},
-                {"name":"Roisin McDermott","role":"Front of House"},{"name":"Jess O'Boyle","role":"Front of House"},
+                {"name":"Gayle Thompson","role":"Public Relations"},{"name":"Roisin McDermott","role":"Public Relations, Front of House"},
+                {"name":"Noreen McNamara","role":"Front of House"},
+                {"name":"Jess O'Boyle","role":"Front of House"},
                 {"name":"Seamus Henry","role":"Front of House"},{"name":"Betty Holliday","role":"Front of House"},
                 {"name":"Jenny Thompson","role":"Front of House"},{"name":"Michelle O'Boyle","role":"Front of House"}
             ]
@@ -815,12 +799,11 @@
                 {"name":"Cathy O'Loughlin","role":"Costumes"},
                 {"name":"Deirdre Hennigan","role":"Costumes"},
                 {"name":"Joe Canavan","role":"Sound Recordist/Lighting"},
-                {"name":"Steve O'Brien","role":"Sound Operator"},
+                {"name":"Steve O'Brien","role":"Sound Operator, Set Construction"},
                 {"name":"John Breslin","role":"Lighting Assistant"},
                 {"name":"Brendan O'Sullivan","role":"Set Construction"},
                 {"name":"Bobby Barr","role":"Set Construction"},
                 {"name":"Joe Butler","role":"Set Construction"},
-                {"name":"Steve O'Brien","role":"Set Construction"},
                 {"name":"Des McCloskey","role":"Publicity"},
                 {"name":"Roisin McDermott","role":"Front of House"},
                 {"name":"Maura Reidy","role":"Front of House"},
@@ -866,10 +849,9 @@
                 {"name":"Miriam Breslin","role":"Stage Manager"},
                 {"name":"Tommy O'Rourke","role":"Lighting"},
                 {"name":"Margaret Doyle","role":"Sound"},
-                {"name":"Jeremy Clarke","role":"Set Construction"},
+                {"name":"Jeremy Clarke","role":"Set Construction, Front of House"},
                 {"name":"Sean Woods","role":"Set Construction"},
                 {"name":"Jeremy Clarke","role":"Props"},
-                {"name":"Maura Reidy","role":"Front of House"},
                 {"name":"Roisin McDermott","role":"Front of House"},
                 {"name":"Ann McCloskey","role":"Front of House"},
                 {"name":"June Galligan","role":"Front of House"},
@@ -914,7 +896,7 @@
                 {"name":"Donal Hughes","role":"Button Accordion"},
                 {"name":"Sean Woods","role":"Set Construction"},
                 {"name":"Jeremy Clarke","role":"Set Construction"},
-                {"name":"Publicity","role":"Penny Smith"},
+                {"name":"Penny Smith","role":"Publicity"},
                 {"name":"Maura Reidy","role":"Front of House"},
                 {"name":"Roisin McDermott","role":"Front of House"},
                 {"name":"Cathy O'Loughlin","role":"Front of House"},
@@ -955,7 +937,7 @@
                     "Playwright":"Julia Kearsley",
                     "Director":"John Breslin",
                     "Cast": [
-                        {"name":"Conn Delaney","role":""},
+                        {"name":"Con Delaney","role":""},
                         {"name":"Breda Donnellan","role":""},
                         {"name":"Kate Butler","role":""},
                         {"name":"Lorna Mooney","role":""},
@@ -979,9 +961,8 @@
             ],
             "Crew": [
                 {"name":"Miriam Breslin","role":"Stage Manager"},
-                {"name":"Kate Butler","role":"Props"},
-                {"name":"Kate Butler","role":"State Crew"},
-                {"name":"Gabriel Martin","role":"State Crew"},
+                {"name":"Kate Butler","role":"Props, Stage Crew"},
+                {"name":"Gabriel Martin","role":"Stage Crew"},
                 {"name":"Jennifer Killian","role":"Lighting"},
                 {"name":"John Breslin","role":"Lighting"}
             ]
@@ -1008,13 +989,11 @@
                 {"name":"Brian O'Donoghue","role":"Carthalawn"}
             ],
             "Crew": [
-                {"name":"John Breslin","role":"Assistant Director"},
-                {"name":"Miriam Breslin","role":"Stage Manager"},
-                {"name":"Miriam Breslin","role":"Set Design"},
+                {"name":"John Breslin","role":"Assistant Director, Set Construction"},
+                {"name":"Miriam Breslin","role":"Stage Manager, Set Design"},
                 {"name":"Jeremy Clarke","role":"Set Construction"},
                 {"name":"Sean Woods","role":"Set Construction"},
                 {"name":"George Greene","role":"Set Construction"},
-                {"name":"John Breslin","role":"Set Construction"},
                 {"name":"Joe Butler","role":"Set Construction"},
                 {"name":"Christine Harte","role":"Lighting"},
                 {"name":"Kate Butler","role":"Properties"},
@@ -1057,8 +1036,8 @@
                 {"name":"Lucy Bell","role":"Wardrobe"},
                 {"name":"Tommy O'Rourke","role":"Lighting"},
                 {"name":"Robbie Galavan","role":"Lighting"},
-                {"name":"Viv Butler","role":"Stage Crew"},
-                {"name":"Lisa Breslin","role":"Stage Crew"},
+                {"name":"Lisa Breslin","role":"Programme Artwork, Stage Crew"},
+                {"name":"Viv Butler-Rees","role":"Stage Crew"},
                 {"name":"George Greene","role":"Set Construction"},
                 {"name":"Sean Woods","role":"Set Construction"},
                 {"name":"Joe Butler","role":"Set Construction"},
@@ -1067,8 +1046,7 @@
                 {"name":"Ann McCloskey","role":"Front of House"},
                 {"name":"June Galligan","role":"Front of House"},
                 {"name":"Miriam Breslin","role":"Publicity"},
-                {"name":"Carol Greene","role":"Publicity"},
-                {"name":"Lisa Breslin","role":"Programme Artwork"}
+                {"name":"Carol Greene","role":"Publicity"}
             ]
         },
         {
@@ -1086,7 +1064,7 @@
                 {"name":"Leonard Jackson","role":"Jerome \"Jerry\" Dunbar"},
                 {"name":"Con Delaney","role":"Henry Benish"},
                 {"name":"Linda Jackson","role":"Polly Benish"},
-                {"name":"Susan Costelloe","role":"Marla \"Smitty\" Smith"},
+                {"name":"Susan Costello","role":"Marla \"Smitty\" Smith"},
                 {"name":"Bert Carruthers","role":"Saul Watson"},
                 {"name":"Gavin Poole","role":"Billy Carewe"},
                 {"name":"Caroline Flanagan","role":"Violet Imbry"},
@@ -1094,13 +1072,12 @@
                 {"name":"Carol Greene","role":"Phyllis Montague"}
             ],
             "Crew": [
-                {"name":"Miriam Breslin","role":"Stage Manager"},
+                {"name":"Miriam Breslin","role":"Stage Manager, Set Design"},
                 {"name":"Pauline Breen","role":"Production Assistant"},
                 {"name":"Tommy O'Rourke","role":"Lighting"},
                 {"name":"Lucy Bell","role":"Sound Effects"},
                 {"name":"Kate Butler","role":"Sound Operator"},
-                {"name":"Mary King","role":"Properties"},
-                {"name":"Miriam Breslin","role":"Set Design"},
+                {"name":"Mary King","role":"Properties, Front of House"},
                 {"name":"George Greene","role":"Set Construction"},
                 {"name":"Joe Butler","role":"Set Construction"},
                 {"name":"Sean Woods","role":"Set Construction"},
@@ -1112,7 +1089,6 @@
                 {"name":"John Breslin","role":"Set Construction"},
                 {"name":"Seamus Henry","role":"Front of House Manager"},
                 {"name":"Ann McCloskey","role":"Front of House"},
-                {"name":"Mary King","role":"Front of House"},
                 {"name":"June Galligan","role":"Front of House"},
                 {"name":"June McGarr","role":"Front of House"},
                 {"name":"Laura Greene","role":"Front of House"},
@@ -1220,7 +1196,7 @@
             ],
             "Crew": [
                 {"name":"Miriam Breslin","role":"Stage Manager"},
-                {"name":"Bride Donnellan","role":"Production Assist."},
+                {"name":"Breda Donnellan","role":"Production Assist."},
                 {"name":"Tommy O'Rourke","role":"Lighting"},
                 {"name":"Con Delaney","role":"Properties"},
                 {"name":"Caroline Flanagan","role":"Costume"},
@@ -1284,7 +1260,7 @@
                 {"name":"Aine Kelly", "role":"Sound"},
                 {"name":"Pete Butler", "role":"Publicity"},
                 {"name":"John Breslin", "role":"Set Construction"},
-                {"name":"George Green", "role":"Set Construction"},
+                {"name":"George Greene", "role":"Set Construction"},
                 {"name":"Joe Butler", "role":"Set Construction"},
                 {"name":"Sean Woods", "role":"Set Construction"},
                 {"name":"Trevor Griffin", "role":"Set Construction"},
@@ -1309,45 +1285,35 @@
                 {"name":"Martina Blessing","role":"Peace Cleary"},
                 {"name":"Breda Donnellan","role":"Bridie Barnes"},
                 {"name":"Martin Higgins","role":"Desmond Barnes"},
-                {"name":"Dave Lynch","role":"Bartender"},
-                {"name":"Dave Foley","role":"Mooney"},
+                {"name":"Dave Lynch","role":"Bartender, Priest, Kevin Cleary"},
+                {"name":"Dave Foley","role":"Mooney, Enrico Caruso, Mark"},
                 {"name":"Lorna Mooney","role":"Mother Superior"},
-                {"name":"Anne Mynes","role":"Bella Rafferty"},
+                {"name":"Anne Mynes","role":"Bella Rafferty, Andrews Sister"},
                 {"name":"Noreen Gray","role":"Granny Cleary"},
-                {"name":"Dave Lynch","role":"Priest"},
-                {"name":"Aine Kelly","role":"Cafe Daphne"},
-                {"name":"Dave Foley","role":"Enrico Caruso"},
-                {"name":"Eugene Molumby","role":"Postman"},
-                {"name":"Dave Lynch","role":"Kevin Cleary"},
-                {"name":"Eugene Molumby","role":"Mr Mullen"},
-                {"name":"Aine Kelly","role":"Mrs Geeney"},
-                {"name":"Viv Butler-Rees","role":"Mrs Brown"},
-                {"name":"Laura Greene","role":"Di (At 12)"},
-                {"name":"Viv Butler-Rees","role":"Dl (At 21)"},
+                {"name":"Aine Kelly","role":"Cafe Daphne, Mrs Geeney, Andrews Sister"},
+                {"name":"Eugene Molumby","role":"Postman, Mr Mullen"},
+                {"name":"Viv Butler-Rees","role":"Mrs Brown, Di (At 21)"},
+                {"name":"Laura Greene","role":"Di (At 12), Andrews Sister"},
                 {"name":"Aisling Nolan","role":"Trish"},
-                {"name":"Dave Foley","role":"Mark"},
-                {"name":"Rosemary Donohue","role":"Nurse"},
-                {"name":"Laura Greene","role":"Andrews Sister"},
-                {"name":"Aine Kelly","role":"Andrews Sister"},
-                {"name":"Anne Mynes","role":"Andrews Sister"}
+                {"name":"Rosemary Donohue","role":"Nurse"}
             ],
             "Crew": [
                 {"name":"Miriam Breslin","role":"Stage Manager"},
-                {"name":"Carol Green","role":"Ass. Stage Manager"},
-                {"name":"Tommy O'Rourke ","role":"Lighting "},
+                {"name":"Carol Greene","role":"Ass. Stage Manager"},
+                {"name":"Tommy O'Rourke","role":"Lighting"},
                 {"name":"Joe Canavan","role":"Lighting"},
-                {"name":"Pete Butler ","role":"Sound "},
+                {"name":"Pete Butler","role":"Sound"},
                 {"name":"Gayle Thompson","role":"Sound"},
-                {"name":"Miriam Breslin ","role":"Props "},
+                {"name":"Miriam Breslin","role":"Props"},
                 {"name":"Carol Greene","role":"Props"},
-                {"name":"George Greene ","role":"Set Building"},
+                {"name":"George Greene","role":"Set Building"},
                 {"name":"John Breslin","role":"Set Building"},
                 {"name":"Sean Woods","role":"Set Building"},
                 {"name":"Dylan Breslin","role":"Set Building"},
                 {"name":"Brendan O'Sullivan","role":"Set Building"},
-                {"name":"Caroline Flanagan ","role":"Front Of House"},
-                {"name":"Anne Mc Closkey","role":"Front Of House"},
-                {"name":"Mary King ","role":"Front Of House"},
+                {"name":"Caroline Flanagan","role":"Front Of House"},
+                {"name":"Anne McCloskey","role":"Front Of House"},
+                {"name":"Mary King","role":"Front Of House"},
                 {"name":"Seamus Henry","role":"Front Of House"},
                 {"name":"Con Delaney","role":"PR"},
                 {"name":"Pete Butler","role":"PR"},
@@ -1386,32 +1352,24 @@
                 {"name":"Caroline Flanagan","role":"Edna"}
             ],
             "Crew": [
-                {"name":"Bill Elliffe","role":"Set Design"},
+                {"name":"Bill Elliffe","role":"Set Design, Set/Seating Construction"},
+                {"name":"Aine Kelly","role":"PR, Props/Set,Set/Seating Construction"},
                 {"name":"George Greene","role":"Set/Seating Construction"},
-                {"name":"Bill Elliffe","role":"Set/Seating Construction"},
-                {"name":"Pete Butler","role":"Set/Seating Construction"},
                 {"name":"Dave Foley","role":"Set/Seating Construction"},
                 {"name":"Dave Lynch","role":"Set/Seating Construction"},
-                {"name":"Aine Kelly","role":"Set/Seating Construction"},
-                {"name":"Carol Greene","role":"Set/Seating Construction"},
+                {"name":"Carol Greene","role":"Set/Seating Construction, Props/Set"},
                 {"name":"Con Delaney","role":"Set/Seating Construction"},
-                {"name":"Brendan O'Sullivan","role":"Set/Seating Construction"},
-                {"name":"Aine Kelly","role":"Props/Set"},
-                {"name":"Anne Mynes","role":"Props/Set"},
-                {"name":"Carol Greene","role":"Props/Set"},
-                {"name":"Pete Butler","role":"Props/Set"},
+                {"name":"Brendan O'Sullivan","role":"Set/Seating Construction, Front of House"},
+                {"name":"Anne Mynes","role":"Props/Set, Programme/Poster"},
                 {"name":"Martina Blessing","role":"Props/Set"},
                 {"name":"Tommy O'Rourke","role":"Lighting"},
                 {"name":"Eugene Molumby","role":"Sound"},
-                {"name":"Pete Butler","role":"Sound"},
-                {"name":"Brendan O'Sullivan","role":"Front of House"},
+                {"name":"Pete Butler","role":"Sound, Set/Seating Construction, Props/Set"},
                 {"name":"Mary Higgins","role":"Front of House"},
                 {"name":"Mary King","role":"Front of House"},
                 {"name":"Helena Clements","role":"Front of House"},
                 {"name":"Breda Donnellan","role":"Production Assistant"},
-                {"name":"Caroline Flanagan","role":"Production Assistant"},
-                {"name":"Aine Kelly","role":"P.R."},
-                {"name":"Anne Mynes","role":"Programme/Poster"}
+                {"name":"Caroline Flanagan","role":"Production Assistant"}
             ]
         },
         {
@@ -1429,7 +1387,7 @@
                         {"name":"Dave Lynch","role":"Brindsley Miller"},
                         {"name":"Anne Mynes","role":"Carol Melkett"},
                         {"name":"Aine Grace Kelly","role":"Miss Furnival"},
-                        {"name":"Mike Giblin","role":"Harold Gorringe"},
+                        {"name":"Michael Giblin","role":"Harold Gorringe"},
                         {"name":"Dave Foley","role":"Colonel Melkett"},
                         {"name":"Caroline Flanagan","role":"Clea"},
                         {"name":"Martin Higgins","role":"Mr. Schupanzaig"},
@@ -1536,12 +1494,10 @@
                 {"name":"Michael Giblin","role":"'Needle' Nugent"},
                 {"name":"Anne Mynes","role":"Mrs. Tancred"},
                 {"name":"Dave Foley","role":"Charles Bentham"},
-                {"name":"Niall Campion","role":"Irregular Mobiliser"},
+                {"name":"Niall Campion","role":"Irregular Mobiliser, Furniture Removal Man"},
                 {"name":"Brendan O'Sullivan","role":"Irregular #1"},
                 {"name":"Donal Downes","role":"Irregular #2"},
-                {"name":"Brendan Walshe","role":"Coal Block Vendor"},
-                {"name":"Niall Campion","role":"Furniture Removal Man"},
-                {"name":"Brendan Walshe","role":"Furniture Removal Man"},
+                {"name":"Brendan Walshe","role":"Coal Block Vendor, Furniture Removal Man"},
                 {"name":"Esther Muldowney","role":"Neighbour #1"},
                 {"name":"Siadbh Houlihan","role":"Bridget"},
                 {"name":"Donal O'Sullivan","role":"Thomas"},
@@ -1552,26 +1508,23 @@
                 {"name":"Anne Dempsey","role":"Production Assistant"},
                 {"name":"Niall Campion","role":"Lighting"},
                 {"name":"Tim McAuliffe","role":"Sound"},
-                {"name":"Lorna Mooney","role":"Costumes"},
+                {"name":"Lorna Mooney","role":"Costumes, Front of House"},
                 {"name":"Donal Downes","role":"Photography"},
-                {"name":"Dave Lynch","role":"Programme Design"},
+                {"name":"Dave Lynch","role":"Programme Design, Front of House"},
                 {"name":"Gayle Thompson","role":"Stage Management"},
                 {"name":"Ann Marie Blessing","role":"Stage Management"},
                 {"name":"Laura Ward","role":"Stage Management"},
                 {"name":"Viv Butler-Rees","role":"Front of House"},
                 {"name":"Breda Donnellan","role":"Front of House"},
-                {"name":"Lorna Mooney","role":"Front of House"},
-                {"name":"Dave Lynch","role":"Front of House"},
                 {"name":"Mary Cahill","role":"Front of House"},
                 {"name":"Kate Houlihan","role":"Front of House"},
                 {"name":"Roisin O'Sullivan","role":"Front of House"},
-                {"name":"Miriam Breslin","role":"Set Design"},
+                {"name":"Miriam Breslin","role":"Set Design, Set Construction"},
                 {"name":"Frank Houlihan","role":"Set Design"},
                 {"name":"George Greene","role":"Set Construction"},
                 {"name":"Pete Butler","role":"Set Construction"},
                 {"name":"Sean Woods","role":"Set Construction"},
-                {"name":"John Breslin","role":"Set Construction"},
-                {"name":"Miriam Breslin","role":"Set Construction"}
+                {"name":"John Breslin","role":"Set Construction"}
             ],
             "Notes":"Was staged in London in October of same year."
         },
@@ -1643,13 +1596,12 @@
                 {"name":"Sean Woods","role":"Ritual For Dolls Crew"},
                 {"name":"George Greene","role":"Ritual For Dolls Crew"},
                 {"name":"Mary King","role":"Ritual For Dolls Crew"},
-                {"name":"Dylan Breslin","role":"Ritual For Dolls Crew"},
                 {"name":"Niall Campion","role":"Ritual For Dolls Crew"},
+                {"name":"Dylan Breslin","role":"Ritual For Dolls Crew, Lady of Larkspur Lotion Crew"},
                 {"name":"Roisin O'Sullivan","role":"Lady of Larkspur Lotion Crew"},
                 {"name":"Niamh O'Sullivan","role":"Lady of Larkspur Lotion Crew"},
                 {"name":"Breda Donnellan","role":"Lady of Larkspur Lotion Crew"},
                 {"name":"Viv Butler-Rees","role":"Lady of Larkspur Lotion Crew"},
-                {"name":"Mary King","role":"Lady of Larkspur Lotion Crew"},
                 {"name":"Anne Campion","role":"Lady of Larkspur Lotion Crew"},
                 {"name":"Aisling Nolan","role":"Lady of Larkspur Lotion Crew"},
                 {"name":"Anne Dempsey","role":"Wanda's Visit Crew"},
@@ -1691,13 +1643,13 @@
                 {"name":"Valerie Kennelly","role":"Lauretta Credulous"},
                 {"name":"Mary Higgins","role":"Bridget Credulous"},
                 {"name":"John Heveran","role":"Lieutenant O'connor"},
-                {"name":"Brian Caroll","role":"Justice Credulous"},
+                {"name":"Brian Carroll","role":"Justice Credulous"},
                 {"name":"Michael Giblin","role":"Dr Rosy"}
             ],
             "Crew": [
-                {"name":"Joe Canavan","role":"Lighting"},
+                {"name":"Joe Canavan","role":"Lighting, Set Construction"},
                 {"name":"Niall Campion","role":"Lighting"}, 
-                {"name":"Herbie Corkey","role":"Sound"}, 
+                {"name":"Herbie Corkey","role":"Sound, Set Construction"}, 
                 {"name":"Gorretti Slavin","role":"Costumes"},
                 {"name":"Roberta Carey","role":"Costumes"}, 
                 {"name":"Ann Dempsey","role":"Production Assistant"},
@@ -1705,12 +1657,10 @@
                 {"name":"Donal Downes","role":"Photography"}, 
                 {"name":"Joe Canavan","role":"Set Design"},
                 {"name":"Ann Devine","role":"Props"},
-                {"name":"Herbie Corkey","role":"Set Construction"},
                 {"name":"Michael Giblin","role":"Set Construction"}, 
                 {"name":"Brendan O'Sullivan","role":"Set Construction"},
                 {"name":"Sean Woods","role":"Set Construction"},
                 {"name":"Dave Foley","role":"Set Construction"},
-                {"name":"Joe Canavan","role":"Set Construction"},
                 {"name":"Frank Houlihan","role":"Set Construction"},
                 {"name":"Martin Higgins","role":"Set Construction"},
                 {"name":"Tom Madden","role":"Advisor"},
@@ -1731,7 +1681,6 @@
                 {"name":"Lorna Mooney","role":"Helping Hands"},
                 {"name":"Noreen Gray","role":"Helping Hands"},
                 {"name":"Niamh O'Sullivan","role":"Helping Hands"},
-                {"name":"Kate Houlihan","role":"Helping Hands"},
                 {"name":"Marie Gormley","role":"Helping Hands"},
                 {"name":"Tony McKeown","role":"Helping Hands"},
                 {"name":"Donal Murphy","role":"Helping Hands"}
@@ -1769,13 +1718,13 @@
                 {"name":"Dave Foley","role":"Michael (the Englishman)"}
             ],
             "Crew": [
-                {"name":"Gorretti Slavin","role":"Stage Director"},
-                {"name":"Joe Canavan","role":"Lighting"},
-                {"name":"Frank Houlihan","role":"Crew"},
-                {"name":"Anne Dempsey","role":"Crew"},
+                {"name":"Gorretti Slavin","role":"Stage Director, Set Construction"},
+                {"name":"Joe Canavan","role":"Lighting, Set Construction"},
+                {"name":"Frank Houlihan","role":"Crew, Set Construction"},
+                {"name":"Anne Dempsey","role":"Crew, Front of House"},
                 {"name":"Michael Giblin","role":"Crew"},
-                {"name":"Herbie Corkey","role":"Sound"},
-                {"name":"Margaret Cosgrove","role":"Front of House"},
+                {"name":"Herbie Corkey","role":"Sound, Set Construction"},
+                {"name":"Margaret Cosgrove","role":"Front of House, Set Construction"},
                 {"name":"Geraldine Corkey","role":"Front of House"},
                 {"name":"Kate Houlihan","role":"Front of House"},
                 {"name":"Alison Campbell","role":"Front of House"},
@@ -1785,15 +1734,9 @@
                 {"name":"Lorna Mooney","role":"Front of House"},
                 {"name":"Noreen Gray","role":"Front of House"},
                 {"name":"Roisin O'Sullivan","role":"Front of House"},
-                {"name":"Anne Dempsey","role":"Front of House"},
-                {"name":"Joe Canavan","role":"Set Construction"},
-                {"name":"Frank Houlihan","role":"Set Construction"},
-                {"name":"Herbie Corkey","role":"Set Construction"},
-                {"name":"Gorretti Slavin","role":"Set Construction"},
                 {"name":"Dave Foley","role":"Set Construction"},
                 {"name":"Brendan O'Sullivan","role":"Set Construction"},
-                {"name":"Bill Ellifle","role":"Set Construction"},
-                {"name":"Margaret Cosgrove","role":"Set Construction"},
+                {"name":"Bill Elliffe","role":"Set Construction"},
                 {"name":"Ger Corkey","role":"Set Construction"},
                 {"name":"Pete Butler","role":"Set Construction"}
             ]
@@ -1853,8 +1796,6 @@
                 {"name":"Clara Higgins","role":""},
                 {"name":"Sean Woods","role":""},
                 {"name":"Lisa Corcoran","role":""},
-                {"name":"Kate Houlihan","role":""},
-                {"name":"Alison Campbell","role":""},
                 {"name":"Breda O'Shea","role":""}
             ]
         },
@@ -1963,17 +1904,60 @@
             "Crew": []
         },
         {
-            "Play": "Tartuffe",
-            "Year": "2007",
-            "Month": "",
-            "DetailsComplete":"No",
-            "ImageFolder":"",
-            "Playwright": "Molière",
-            "Length": "Full Slot",
-            "Location": "",
-            "Director": "Unknown",
-            "Cast": [],
-            "Crew": []
+            "Play":"Two One-Act Plays (2007)",
+            "Year":"2007",
+            "Month":"October",
+            "DetailsComplete":"Yes",
+            "Length":"Collection",
+            "Location":"Kildrought Lounge",
+            "Crew":[
+                {"name":"Joe Canavan","role":"Set Design & Lighting, Set Building"},
+                {"name":"Herbie Corkey","role":"Sound"},
+                {"name":"Gorretti Slavin","role":"Stage Manager, Backstage"},
+                {"name":"Adrienne O'Reilly","role":"Backstage"},
+                {"name":"Frances Galligan","role":"Backstage"},
+                {"name":"Viv Butler-Rees","role":"Backstage"},
+                {"name":"Breda Donnellan","role":"Backstage"},
+                {"name":"Ian Cummins","role":"Backstage"},
+                {"name":"Lorna Mooney","role":"Backstage"},
+                {"name":"Dave Foley","role":"Set Building"},
+                {"name":"Martin Higgins","role":"Set Building"},
+                {"name":"Pete Butler","role":"Set Building"},
+                {"name":"Martina Blessing","role":"Set Building"}
+            ],
+            "Performances":[
+                {
+                    "Play": "Tartuffe",
+                    "Playwright": "Jean Baptiste Poquelin Molière (Jeffries/Munoz adaptation)",
+                    "Length": "One-Act",
+                    "Director": "Michael Giblin",
+                    "Cast": [
+                        {"name":"Ruth Brennan","role":"Mme Pernelle"},
+                        {"name":"Catriona Higgins","role":"Flipote"},
+                        {"name":"Mary Higgins","role":"Doreen"},
+                        {"name":"Shaun Nugent","role":"Damis"},
+                        {"name":"Jacinta Hayes","role":"Marianne"},
+                        {"name":"Geraldine O'Brien","role":"Elmire"},
+                        {"name":"Dave Foley","role":"Orgon"},
+                        {"name":"Vini Casey","role":"Valiere"},
+                        {"name":"Noel Wade","role":"Tartuffe"},
+                        {"name":"Frank Houlihan","role":"Laurent"},
+                        {"name":"Bill Elliffe","role":"Loyal"}
+                    ]
+                },
+                {
+                    "Play": "The Other Side",
+                    "Playwright": "Martina Reilly",
+                    "Length": "One-Act",
+                    "Location": "Kildrought Lounge",
+                    "Director": "Martina Reilly",
+                    "Cast": [
+                        {"name":"John Heveran","role":"Anthony St Clare"},
+                        {"name":"Brian King","role":"Larry"},
+                        {"name":"Martina Blessing","role":"Maureen"}
+                    ]
+                }                
+            ]
         },
         {
             "Play": "The Memory of Water",
@@ -1982,19 +1966,6 @@
             "DetailsComplete":"No",
             "ImageFolder":"",
             "Playwright": "Shelagh Stephenson",
-            "Length": "Full Slot",
-            "Location": "",
-            "Director": "Unknown",
-            "Cast": [],
-            "Crew": []
-        },
-        {
-            "Play": "The Other Side",
-            "Year": "2007",
-            "Month": "",
-            "DetailsComplete":"No",
-            "ImageFolder":"",
-            "Playwright": "Ariel Dorfman",
             "Length": "Full Slot",
             "Location": "",
             "Director": "Unknown",
@@ -2023,14 +1994,13 @@
                     "Director": "Bill Elliffe",
                     "Cast": [
                         {"name":"Shaun Nugent","role":"Justin Thyme"},
-                        {"name":"Ciaran Molumby","role":"Effie"},
+                        {"name":"Ciaran Molumby","role":"Effie, Latasha"},
                         {"name":"Michael Giblin","role":"Malcolm"},
                         {"name":"Gaile Thompson","role":"Hecate"},
                         {"name":"Finbarr Coughlan","role":"Castle Guard"},
                         {"name":"Mary Higgins","role":"Lady Macbeth"},
                         {"name":"Tony Connolly","role":"Macduff"},
                         {"name":"Noel Wade","role":"Macbeth"},
-                        {"name":"Ciaran Molumby","role":"Latasha"},
                         {"name":"Orla Gildea","role":"Latoyah"},
                         {"name":"Eugene Molumby","role":"Lufthansa"}                        
                     ]
@@ -2045,7 +2015,7 @@
                         {"name":"Vinnie Casey","role":"Kal"},
                         {"name":"Frank Houlihan","role":"Harold"},
                         {"name":"Catriona Higgins","role":"Rozlon"},
-                        {"name":"Breda Donellan","role":"Waitress"}
+                        {"name":"Breda Donnellan","role":"Waitress"}
                     ]
                 }
             ]
@@ -2135,7 +2105,7 @@
                         {"name":"Helena Stout","role":"Mrs. Holly"},
                         {"name":"Bob Armstrong","role":"George Holly"},
                         {"name":"Niamh Ryan","role":"Catherine Holly"},
-                        {"name":"Collette Kinsella","role":"Sister Felicity"}
+                        {"name":"Colette Kinsella","role":"Sister Felicity"}
                     ]
                 },
                 {
@@ -2163,22 +2133,18 @@
                 {"name":"Ruth Shine","role":"Stage Manager"},
                 {"name":"Sean Woods","role":""},
                 {"name":"Joe Canavan","role":""},
-                {"name":"Helena Stout","role":""},
                 {"name":"Pete Butler","role":""},
                 {"name":"Dave Foley","role":""},
                 {"name":"John Heveran","role":""},
                 {"name":"Gorretti Slavin","role":""},
-                {"name":"Bill Ellifie","role":""},
-                {"name":"Viv Butler-Rees","role":""},
+                {"name":"Bill Elliffe","role":""},
                 {"name":"Martin Moran","role":""},
                 {"name":"Breda Donnellan","role":""},
                 {"name":"Tony Connolly","role":""},
                 {"name":"Michael Giblin","role":""},
                 {"name":"Frank Houlihan","role":""},
-                {"name":"Brian King","role":""},
                 {"name":"Stephen King","role":""},
-                {"name":"Anne Kelly","role":""},
-                {"name":"Niall O'Connor","role":""},
+                {"name":"Ann Kelly","role":""},
                 {"name":"Eugene Molumby","role":""}
             ]
         },
@@ -2202,15 +2168,14 @@
                 {"name":"Joe Canavan","role":"Set Design & Lighting"},
                 {"name":"Martin Higgins","role":""},
                 {"name":"Sean Woods","role":""},
-                {"name":"Goretti Slavin","role":""},
-                {"name":"Joe Canavan","role":""},
+                {"name":"Gorretti Slavin","role":""},
                 {"name":"Viv Butler-Rees","role":""},
                 {"name":"Pete Butler","role":""},
                 {"name":"Breda Donnellan","role":""},
                 {"name":"Martina Blessing","role":""},
                 {"name":"Valerie Nohilly","role":""},
                 {"name":"Martina Murphy","role":""},
-                {"name":"Bill Elliffee","role":""},
+                {"name":"Bill Elliffe","role":""},
                 {"name":"Michael Giblin","role":""},
                 {"name":"Colette Kinsella","role":""},
                 {"name":"Ann Kelly","role":""},
@@ -2272,24 +2237,23 @@
                 {"name":"Finbar Coghlan","role":"An Auxiliary"}
             ],
             "Crew": [
-                {"name":"Collette Kinsella","role":"Costumes"},
+                {"name":"Colette Kinsella","role":"Costumes"},
                 {"name":"Mirriam O'Brien","role":"Costumes"},
                 {"name":"Herbie Corkey","role":"Sound"},
                 {"name":"Liam Roe","role":"Music"},
                 {"name":"Niall O'Connor","role":"Lighting"},
                 {"name":"Breda Donnellan","role":"Stage Manager"},
-                {"name":"Viv Butler-Rees","role":"Prompter"},
+                {"name":"Viv Butler-Rees","role":"Prompter, Set Building"},
                 {"name":"Pete Butler","role":"Set Building"},
                 {"name":"Sean Woods","role":"Set Building"},
                 {"name":"Mick Cussen","role":"Set Building"},
                 {"name":"Frank Houlihan","role":"Set Building"},
-                {"name":"John Heveren","role":"Set Building"},
+                {"name":"John Heveran","role":"Set Building"},
                 {"name":"Brian King","role":"Set Building"},
                 {"name":"Brendan O'Sullivan","role":"Set Building"},
                 {"name":"Tony Connolly","role":"Set Building"},
                 {"name":"Dave Foley","role":"Set Building"},
-                {"name":"Breda Donnellan ","role":"Set Building"},
-                {"name":"Viv Butler-Rees","role":"Set Building"}
+                {"name":"Breda Donnellan","role":"Set Building"}
             ]
         },
         {
@@ -2346,7 +2310,7 @@
                         {"name":"Edel Hutchinson","role":"Kay, Kelly, Actors"},
                         {"name":"Tina O'Connor","role":"Usher, Samantha, Actors"},
                         {"name":"Brian King","role":"Tybalt, Directors, Inner voice and Actors"},
-                        {"name":"Collette Kinsella","role":"Terry, Actors"},
+                        {"name":"Colette Kinsella","role":"Terry, Actors"},
                         {"name":"Miriam O'Brien","role":"Warm up coach, Actors"},
                         {"name":"Viv Butler-Rees","role":"Francis, Actors and Inner voice"},
                         {"name":"Terry Nealon","role":"Bill, Romeo and Actors"},
@@ -2385,7 +2349,7 @@
                 {"name":"John Heveran","role":"Brendan"},
                 {"name":"Tony Connolly","role":"Jim"},
                 {"name":"Frank Houlihan","role":"Finbar"},
-                {"name":"Collette Kinsella","role":"Valerie"}
+                {"name":"Colette Kinsella","role":"Valerie"}
             ],
             "Crew": []
         },
@@ -2436,7 +2400,7 @@
                 {"name":"Bill Elliffe","role":""},
                 {"name":"Frank Houlihan","role":""},
                 {"name":"John Heveran","role":""},
-                {"name":"Mike Giblin","role":""}
+                {"name":"Michael Giblin","role":""}
             ],
             "Notes":"All Ireland One-Act Finalist, 2012"
         },
@@ -2477,7 +2441,7 @@
                 {
                     "Play": "My Narrator",
                     "Playwright": "Norm Foster",
-                    "Director": "Mike Giblin",
+                    "Director": "Michael Giblin",
                     "Cast": [
                         
                     ]
@@ -2593,7 +2557,7 @@
                     "role": ""
                 },
                 {
-                    "name": " Lorna Mooney",
+                    "name": "Lorna Mooney",
                     "role": ""
                 },
                 {
@@ -2691,10 +2655,8 @@
                 }
             ],
             "Crew": [
-                {"name":"Pete Butler","role":"Set Design"},
-                {"name":"Joe Canavan","role":"Lighting"},
-                {"name":"Pete Butler","role":"Sound"},
-                {"name":"Joe Canavan","role":"Sound"},
+                {"name":"Pete Butler","role":"Set Design, Sound"},
+                {"name":"Joe Canavan","role":"Lighting, Sound"},
                 {"name":"Miriam O'Brien","role":"Stage Manager"},
                 {"name":"Sean Woods","role":"Set Construction"}
             ]
@@ -2708,7 +2670,7 @@
             "Playwright": "Ken Bourke",
             "Length": "Full Slot",
             "Location": "Kildrought Lounge",
-            "Director": "Mike Giblin",
+            "Director": "Michael Giblin",
             "Promo": "https://www.youtube.com/watch?v=qp6ardZ2aDc",
             "Cast": [
                 {
@@ -2791,7 +2753,7 @@
             "Playwright": "Brian Shnipper, Mo Gaffney, Jordan Harrison, Moses Kaufman, Wendy MacLeod, Jose Rivera, Paul Rudnick, Doug Wright",
             "Length": "Full Slot",
             "Location": "Kildrought Lounge",
-            "Director": "Mike Giblin",
+            "Director": "Michael Giblin",
             "Cast": [
                 {
                     "name": "Mark Dooley",
@@ -3072,7 +3034,7 @@
                     "role": "Goodwife Elizabeth Proctor"
                 },
                 {
-                    "name": "Mike Giblin",
+                    "name": "Michael Giblin",
                     "role": "Francis Nurse"
                 },
                 {
@@ -3231,7 +3193,7 @@
                             "role": "The Sailor"
                         },
                         {
-                            "name": "Collette Kinsella",
+                            "name": "Colette Kinsella",
                             "role": "Woman 2"
                         },
                         {
@@ -3266,7 +3228,7 @@
                 {
                     "Play": "Babels in Arms",
                     "Playwright": "David Ives",
-                    "Director": "Mike Giblin",
+                    "Director": "Michael Giblin",
                     "Cast": [
                         {
                             "name": "Miriam O'Brien",
@@ -3420,7 +3382,7 @@
                 {
                     "Play": "The Death Of Me",
                     "Playwright": "Norm Foster",
-                    "Director": "Mike Giblin",
+                    "Director": "Michael Giblin",
                     "Cast": [
                         {
                             "name": "Christopher Brogan",
@@ -3520,7 +3482,7 @@
                 {
                     "Play": "Home Sweet Home",
                     "Playwright": "Joe Bergin",
-                    "Director": "Mike Giblin",
+                    "Director": "Michael Giblin",
                     "Cast": [
                         {
                             "name": "Tina Hughes",
@@ -3741,7 +3703,7 @@
             "Playwright": "Thornton Wilder",
             "Length": "Full Slot",
             "Location": "Kildrought Lounge",
-            "Director": "Mike Giblin",
+            "Director": "Michael Giblin",
             "Cast": [
                 {
                     "name": "John Heveran",
@@ -3960,7 +3922,7 @@
         {
             "Play":"Don't Dress For Dinner",
             "Playwright":"Marc Carmoletti",
-            "DetailsComplete":"No",
+            "DetailsComplete":"Yes",
             "Year":"2024",
             "Length":"Full Slot",
             "Director":"Martha Giblin",
@@ -3970,10 +3932,40 @@
                 {"name":"Julie O'Neill","role":"Jacqueline"},
                 {"name":"Graham Twomey","role":"Robert"},
                 {"name":"Abina Guinan","role":"Suzette"},
-                {"name":"Lisa <LASTNAME>","role":"Suzanne"},
+                {"name":"Lisa Siddle","role":"Suzanne"},
                 {"name":"Cathal Hayes","role":"George"}
             ],
             "Crew":[
+                {"name":"Leanne Reilly","role":"Stage Manager"}
+            ]
+        },
+        {
+            "Play":"Dublin By Lamplight",
+            "Playwright":"Michael West",
+            "DetailsComplete":"Yes",
+            "Year":"2025",
+            "Length":"Full Slot",
+            "Director":"Helena Stout",
+            "Location":"Kildrought Lounge",
+            "Cast":[
+                {"name":"Cathal Hayes","role":"Frank Hayes"},
+                {"name":"Fran O'Connor","role":"Maggie"},
+                {"name":"Breda Donnellan","role":"Eva St. John"},
+                {"name":"George Hogan","role":"Martyn Wallace"},
+                {"name":"Chris Fenlon","role":"Willie Hayes"},
+                {"name":"Bob Tysall","role":"Jimmy Finnegan, Castle Agent"},
+                {"name":"Rachel Butler","role":"Mrs. Madden, Angry Mother, Waster, Whore 2"},
+                {"name":"Gillian Lake","role":"Maggies Mother, Trench, Whore 1"},
+                {"name":"Finbarr Coughlan","role":"Doherty, Maloney, Mr. Nobbs, Dung Dodger 2"},
+                {"name":"Eugene Molumby","role":"Boylan, Dung Dodger 1, Mendicant"},
+                {"name":"Abina Guinan","role":"Sergeant Kearns, Waster, Nora"},
+                {"name":"Michelle O'Dea","role":"Constable Flowers, Huzzar, Constable Eddie"},
+                {"name":"Leanne Reilly","role":"Floozie in Bar, Passerby, Whore 3"},
+                {"name":"Michael Comer","role":"Young Boy, Barman"}
+            ],
+            "Crew":[
+                {"name":"Pete Butler","role":"Assistant Director, Choreography"},
+                {"name":"Michael Giblin","role":"Prompter, Backstage"},
                 {"name":"Leanne Reilly","role":"Stage Manager"}
             ]
         }
