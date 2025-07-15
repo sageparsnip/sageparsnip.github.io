@@ -375,6 +375,94 @@
 			getStats();
 		};
 
+		function getMemberStatsFromButton(buttonClick){
+			getMemberStats(buttonClick.parentNode.parentNode.childNodes[1].childNodes[1].value)
+		}
+
+		function getMemberStats(name){
+			//Name argument passed is the name of the member to get stats for.
+			$.getJSON("./data/productions.json?timestamp=" + new Date().getTime(), function(data) {
+				//Need to loop through all productions, marking down whenever this member was an actor, director, or crew.
+				var crew = [];
+				var director = [];
+				var actor = [];
+				data["productions"].forEach(show => {
+					//First check Crew
+					show["Crew"].forEach(crewMember => {
+						if(crewMember["name"] == name){
+							let crewAdd = {
+								"show":show["Play"],
+								"role":crewMember["role"]
+							};
+							crew.push(crewAdd);
+						}
+					});
+					if(show["Length"] != 'Collection'){
+						//Full slot play - no need to check for Performances
+						if(show["Director"] == name){
+							director.push(show["Play"]);
+						}
+						show["Cast"].forEach(castMember => {
+							if(castMember["name"] == name){
+								let castAdd = {
+									"show":show["Play"],
+									"role":castMember["role"]
+								};
+								actor.push(castAdd);
+							}
+						})
+					}
+					else{
+						//Collection of One-Acts; delve deeper.
+						show["Performances"].forEach(oneAct => {
+							if(oneAct["Director"] == name){
+								director.push(oneAct["Play"]);
+							}
+							oneAct["Cast"].forEach(castMember => {
+								if(castMember["name"] == name){
+									let castAdd = {
+										"show":oneAct["Play"],
+										"role":castMember["role"]
+									};
+									actor.push(castAdd);
+								}
+							})
+						})
+					}
+				});
+				//Got all the stats; final var here is whether to route to console or to modal (1 = console, else modal)
+				showMemberModal(name, crew, director, actor, 1);
+			});
+		}
+
+		function showMemberModal(name, crew, director, actor, showConsole){
+			if(showConsole = 1){
+				console.log('---------------------------------------------------------------');
+				console.log('***Stats for ' + name + ' are as follows:');
+				if(crew.length > 0){
+					console.log('Worked as crew in ' + crew.length + ' shows:');
+					crew.forEach(crewShow =>{
+						console.log('Worked as ' + (crewShow["role"] || 'Crew') + ' in ' + crewShow["show"]);
+					})
+				}
+				if(director.length > 0){
+					console.log('***Directed ' + director.length + ' shows:');
+					director.forEach(directShow =>{
+						console.log('Directed ' + directShow);
+					})
+				}
+				if(actor.length > 0){
+					console.log('***Acted in ' + actor.length + ' shows:');
+					actor.forEach(actorShow =>{
+						console.log('Acted as ' + (actorShow["role"] || 'Unnamed') + ' in ' + actorShow["show"]);
+					})
+				}
+			}
+			else{
+
+			}
+		}
+
 		function getPlayList(){
 			$.getJSON("./data/productions.json?timestamp=" + new Date().getTime(), function(data) {
 				data["productions"].forEach(show => {
@@ -419,14 +507,48 @@
 				content.classList.add('d-inline');
 			}
 		}
+
+		function showModal(){
+			var modal = document.getElementById('infoModal');
+			modal.style.display = 'inline';
+		}
+
+		function hideModal(){
+			var modal = document.getElementById('infoModal');
+			modal.style.display = 'none';
+		}
 	</script>
 </head>
 <body class="bg-dark text-white">
+	<div class="modal" id="infoModal">
+		<div class="modal-dialog">
+			<div class="modal-content  text-light bg-dark">
+				<div class="modal-header text-light bg-dark" id="modalHeader">
+					<h3>Insight Member Info:</h3>
+				</div>
+				<div class="modal-body text-light bg-dark" id="modalBody" style="margin:auto; display:block;background-color: black;">
+
+				</div>
+				<div class="modal-footer text-light bg-dark" id="modalFooter">
+					<button type="button" class="btn btn-secondary" onclick="hideModal()">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+			
 	<div id="list-wrapper" class="container-lg">
 		<!-- This should be populated with individual collapsibles
 		     There should be a collapsible per year
 		     Each yeah should have 2 columns of equal width, which contain show information. This will allow each show to be defined in a div of col=6, which should let them float into place. The shows should not be collapsible, just show the content (but they shouldn't show pictures until "Show Slideshow" is pressed, which is a modal anyway).
 		-->
+	</div>
+	<div class="row" id="get-stats">
+		<div class="col-6 d-flex justify-content-center">
+			<input type="text" hint="Type a name here to get their stats!">
+		</div>
+		<div class="col-6 d-flex justify-content-center">
+			<button onclick="getMemberStatsFromButton(this)">Get Stats!</button>
+		</div>		
 	</div>
 	<div id="main-list"></div>
 	<div id="leaderboards" class="container-lg"></div>
