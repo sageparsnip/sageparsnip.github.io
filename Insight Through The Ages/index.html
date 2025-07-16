@@ -431,12 +431,12 @@
 					}
 				});
 				//Got all the stats; final var here is whether to route to console or to modal (1 = console, else modal)
-				showMemberModal(name, crew, director, actor, 1);
+				showMemberModal(name, crew, director, actor, 0);
 			});
 		}
 
 		function showMemberModal(name, crew, director, actor, showConsole){
-			if(showConsole = 1){
+			if(showConsole == 1){
 				console.log('---------------------------------------------------------------');
 				console.log('***Stats for ' + name + ' are as follows:');
 				if(crew.length > 0){
@@ -459,8 +459,59 @@
 				}
 			}
 			else{
+				//Showing details in the Modal!
+				//Start by putting all the details into the modal, then run showModal()
+				var headerDiv  = document.getElementById('modalHeader');
+				headerDiv.innerHTML = '';
+				var contentDiv = document.getElementById('modalBody');
+				contentDiv.innerHTML = '';
+				console.log(crew.length)
+				if(crew.length == 0 & director.length == 0 & actor.length == 0){
+					console.log("Inputted name is not in our database!");
+					headerDiv.innerHTML = '<h3>No info found for ' + name + '</h3>';
+					showModal();
+				} else{
+					headerDiv.innerHTML = '<h3>Stats for ' + name + '</h3>';
+					var content = '';
+					if(director.length > 0) {
+						content += `<h4> Plays Directed: </h4><ul>`
+						director.forEach(show => {
+							console.log(show);
+							content += `<li>${show}</li>`;
+						})
+						content += `</ul>`;
+					}
+					if(actor.length > 0){
+						content += `<h4> Acting Roles: </h4><ul>`
+						actor.forEach(role => {
+							//console.log(role);
+							content += `<li>${(role["role"] || 'Cast')} in ${role["show"]}</li>`;
+						})
+						content += `</ul>`;
+					}
+					if(crew.length > 0){
+						content += `<h4> Crew Roles: </h4><ul>`
+						crew.forEach(role => {
+							//console.log(role);
+							content += `<li>${(role["role"] || 'Crew')} for ${role["show"]}</li>`;
+						})
+						content += `</ul>`;
+					}
+					contentDiv.innerHTML = content;
+					showModal();
+				}
 
 			}
+		}
+
+		function showModal(){
+			var modal = document.getElementById('infoModal');
+			modal.style.display = 'inline';
+		}
+
+		function hideModal(){
+			var modal = document.getElementById('infoModal');
+			modal.style.display = 'none';
 		}
 
 		function getPlayList(){
@@ -508,15 +559,6 @@
 			}
 		}
 
-		function showModal(){
-			var modal = document.getElementById('infoModal');
-			modal.style.display = 'inline';
-		}
-
-		function hideModal(){
-			var modal = document.getElementById('infoModal');
-			modal.style.display = 'none';
-		}
 	</script>
 </head>
 <body class="bg-dark text-white">
