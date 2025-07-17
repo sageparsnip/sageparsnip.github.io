@@ -1234,7 +1234,7 @@
             "Playwright": "Bernard Farrell",
             "Length": "Full Slot",
             "Location": "Kildrought Lounge",
-            "Director": "Noreen Gray",
+            "Director": "Noreen Grey",
             "Cast": [
                 {"name":"Con Delaney","role":"Gilbert"},
                 {"name":"Bill Elliffe","role":"Christy"},
@@ -1289,7 +1289,7 @@
                 {"name":"Dave Foley","role":"Mooney, Enrico Caruso, Mark"},
                 {"name":"Lorna Mooney","role":"Mother Superior"},
                 {"name":"Anne Mynes","role":"Bella Rafferty, Andrews Sister"},
-                {"name":"Noreen Gray","role":"Granny Cleary"},
+                {"name":"Noreen Grey","role":"Granny Cleary"},
                 {"name":"Aine Kelly","role":"Cafe Daphne, Mrs Geeney, Andrews Sister"},
                 {"name":"Eugene Molumby","role":"Postman, Mr Mullen"},
                 {"name":"Viv Butler-Rees","role":"Mrs Brown, Di (At 21)"},
@@ -1404,7 +1404,7 @@
                         {"name":"Dylan Breslin","role":"Elevator Boy"},
                         {"name":"Bert Carruthers","role":"Mr. Abrahms"},
                         {"name":"Brendan O'Sullivan","role":"Mr. Abrahms"},
-                        {"name":"Noreen Gray","role":"Doctor"},
+                        {"name":"Noreen Grey","role":"Doctor"},
                         {"name":"Martina Blessing","role":"Nurse"}
                     ]
                 }
@@ -1464,15 +1464,44 @@
         {
             "Play": "The Cripple of Inishmaan",
             "Year": "2000",
-            "Month": "",
-            "DetailsComplete":"No",
+            "Month": "May",
+            "DetailsComplete":"Yes",
             "ImageFolder":"",
             "Playwright": "Martin McDonagh",
             "Length": "Full Slot",
             "Location": "",
-            "Director": "Unknown",
-            "Cast": [],
-            "Crew": []
+            "Director": "Michael Giblin",
+            "Cast": [
+                {"name":"Frank Houlihan","role":"Johnnypateen Mike"},
+                {"name":"Brian Gorman","role":"Cripple Billy"},
+                {"name":"Carol Greene","role":"Kate"},
+                {"name":"Noreen Grey","role":"Mammy"},
+                {"name":"Caroline Flanagan","role":"Helen"},
+                {"name":"Bill Elliffe","role":"The Doctor"},
+                {"name":"Andrew Greene","role":"Bartley"},
+                {"name":"Breda Donnellan","role":"Eileen"},
+                {"name":"Dave Foley","role":"BabbyBobby Bennett"}
+            ],
+            "Crew": [
+                {"name":"Miriam Breslin","role":"Stage Manager"},
+                {"name":"Helena Clements","role":"Assistant Stage Manager"},
+                {"name":"Anne Mynes","role":"Stage Crew"},
+                {"name":"Elizabeth O'Sullivan","role":"Stage Crew"},
+                {"name":"Viv Butler-Rees","role":"Stage Crew"},
+                {"name":"Martina Blessing","role":"Lighting"},
+                {"name":"Gayle Thompson","role":"Sound"},
+                {"name":"Ann McCloskey","role":"Front of House"},
+                {"name":"Brendan O'Sullivan","role":"Front of House"},
+                {"name":"George Greene","role":"Set Construction"},
+                {"name":"John Breslin","role":"Set Construction"},
+                {"name":"John Foley","role":"Set Construction"},
+                {"name":"Pete Butler","role":"Set Construction"},
+                {"name":"Dylan Breslin","role":"Set Construction"},
+                {"name":"Emer O'Boyle","role":"Set Construction"},
+                {"name":"Sean Woods","role":"Set Construction"},
+                {"name":"Lorna Mooney","role":"Costumes"},
+                {"name":"Dave Lynch","role":"Programme"}
+            ]
         },
         {
             "Play": "Juno and the Paycock",
@@ -1711,7 +1740,7 @@
                 {"name":"Eugene Molumby","role":"Helping Hands"},
                 {"name":"Gayle Thompson","role":"Helping Hands"},
                 {"name":"Lorna Mooney","role":"Helping Hands"},
-                {"name":"Noreen Gray","role":"Helping Hands"},
+                {"name":"Noreen Grey","role":"Helping Hands"},
                 {"name":"Niamh O'Sullivan","role":"Helping Hands"},
                 {"name":"Marie Gormley","role":"Helping Hands"},
                 {"name":"Tony McKeown","role":"Helping Hands"},
@@ -1764,7 +1793,7 @@
                 {"name":"Niamh O'Sullivan","role":"Front of House"},
                 {"name":"Siobhan O'Sullivan","role":"Front of House"},
                 {"name":"Lorna Mooney","role":"Front of House"},
-                {"name":"Noreen Gray","role":"Front of House"},
+                {"name":"Noreen Grey","role":"Front of House"},
                 {"name":"Roisin O'Sullivan","role":"Front of House"},
                 {"name":"Dave Foley","role":"Set Construction"},
                 {"name":"Brendan O'Sullivan","role":"Set Construction"},
@@ -1816,7 +1845,7 @@
                 {"name":"Bill Elliffe","role":""},
                 {"name":"Lorna Mooney","role":""},
                 {"name":"Ann Dempsey","role":""},
-                {"name":"Noreen Gray","role":""},
+                {"name":"Noreen Grey","role":""},
                 {"name":"Pete Butler","role":""},
                 {"name":"Joe Canavan","role":""},
                 {"name":"Martin Higgins","role":""},
@@ -2554,14 +2583,39 @@
             "Play": "The Field",
             "Year": "2012",
             "Month": "",
-            "DetailsComplete":"No",
+            "DetailsComplete":"Yes",
             "ImageFolder":"",
             "Playwright": "JB Keane",
             "Length": "Full Slot",
-            "Location": "",
-            "Director": "Unknown",
-            "Cast": [],
-            "Crew": []
+            "Location": "Kildrought Lounge",
+            "Director": "Frank Houlihan",
+            "Cast": [
+                {"name":"Emmet Stout","role":"Leamy Flanagan"},
+                {"name":"Eugene Molumby","role":"'The Bird' O'Donnell"},
+                {"name":"Paul Mescal","role":"Mick Flanagan"},
+                {"name":"Breda Donnellan","role":"Maggie Butler"},
+                {"name":"Helena Stout","role":"Maimie Flanagan"},
+                {"name":"Bill Elliffe","role":"'The Bull' McCabe"},
+                {"name":"John Heveran","role":"Tadgh McCabe"},
+                {"name":"Donal Downes","role":"Sergeant Tom Leahy"},
+                {"name":"Donal Healy","role":"Dandy McCabe"},
+                {"name":"Tina O'Connor","role":"Mrs. McCabe"},
+                {"name":"Vini Casey","role":"William Dee"},
+                {"name":"Tony Murphy","role":"Father Murphy"},
+                {"name":"Terry Nealon","role":"His Lordship the Bishop"}
+            ],
+            "Crew": [
+                {"name":"Viv Butler-Rees","role":"Assistant Director"},
+                {"name":"Edel Hutchinson","role":"Stage Manager"},
+                {"name":"Miriam O'Brien","role":"Costumes"},
+                {"name":"Frances Galligan","role":"Make-Up"},
+                {"name":"Joe Canavan","role":"Set Design & Lighting"},
+                {"name":"Colette Kinsella","role":"Front of House"},
+                {"name":"Herbie Corkey","role":"Sound"},
+                {"name":"Michael Giblin","role":"Festival Secretary"},
+                {"name":"Sean Woods","role":"Set Building"},
+                {"name":"Pete Butler","role":"Set Building"}
+            ]
         },
         {
             "Play": "One Acts [MISSING DETAILS]",
@@ -2918,7 +2972,7 @@
                     "role": ""
                 },
                 {
-                    "name": "Miriam O’Brien",
+                    "name": "Miriam O'Brien",
                     "role": ""
                 },
                 {
