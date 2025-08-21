@@ -428,7 +428,7 @@
             "Play": "Separate Tables",
             "Year": "1990",
             "Month": "May",
-            "DetailsComplete":"No",
+            "DetailsComplete":"Yes",
             "ImageFolder":"",
             "Playwright": "Terrence Rattigan",
             "Length": "Full Slot",
@@ -1221,7 +1221,7 @@
             "Playwright": "Oscar Wilde",
             "Length": "Full Slot",
             "Location": "",
-            "Director": "Unknown",
+            "Director": "Michael Giblin",
             "Cast": [],
             "Crew": []
         },
@@ -1882,7 +1882,7 @@
             "Playwright": "Peter Tolan",
             "Length": "Full Slot",
             "Location": "",
-            "Director": "Unknown",
+            "Director": "Michael Giblin",
             "Cast": [],
             "Crew": []
         },
@@ -1985,7 +1985,7 @@
             "Playwright": "William Shakespeare",
             "Length": "Full Slot",
             "Location": "",
-            "Director": "Unknown",
+            "Director": "Gorretti Slavin",
             "Cast": [],
             "Crew": []
         },
@@ -1998,7 +1998,7 @@
             "Playwright": "Marina Carr",
             "Length": "Full Slot",
             "Location": "",
-            "Director": "Unknown",
+            "Director": "Frank Houlihan",
             "Cast": [],
             "Crew": []
         },
@@ -2371,7 +2371,7 @@
             "Playwright": "Arthur Miller",
             "Length": "Full Slot",
             "Location": "",
-            "Director": "Unknown",
+            "Director": "Geraldine O'Brien",
             "Cast": [],
             "Crew": []
         },
@@ -2384,7 +2384,7 @@
             "Playwright": "JM Synge",
             "Length": "Full Slot",
             "Location": "",
-            "Director": "Unknown",
+            "Director": "Gorretti Slavin",
             "Cast": [],
             "Crew": []
         },
@@ -4160,7 +4160,8 @@
             "Crew":[
                 {"name":"Pete Butler","role":"Assistant Director, Choreography"},
                 {"name":"Michael Giblin","role":"Prompter, Backstage"},
-                {"name":"Leanne Reilly","role":"Stage Manager"}
+                {"name":"Leanne Reilly","role":"Stage Manager"},
+                {"name":"Joe Canavan","role":"Lighting and Sound Design"}
             ]
         }
     ]
