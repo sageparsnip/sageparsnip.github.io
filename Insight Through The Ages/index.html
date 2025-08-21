@@ -254,7 +254,7 @@
 						myDivs += `
 							<div class="row">
 								<div class="col">
-									<h4 onclick="toggleVis(this)">${year}</h4><hr>
+									<h4 onclick="toggleVis(this)" id="div${year}">${year}</h4><hr>
 									<div class="row production-holder d-none" id="${year}Holder">
 									</div>
 								</div>
@@ -376,7 +376,45 @@
 		};
 
 		function getMemberStatsFromButton(buttonClick){
-			getMemberStats(buttonClick.parentNode.parentNode.childNodes[1].childNodes[1].value)
+			getMemberStats(buttonClick.parentNode.parentNode.childNodes[3].childNodes[1].value)
+		}
+
+		function findPlayFromButton(buttonClick){
+			//console.log(buttonClick.parentNode.parentNode.childNodes[3].childNodes[1].value);
+			//This function should loop through the productions until it finds one that 
+			//matches the input value. On finding it, it should snap the browser view up to 
+			//that year and (ideally) open that year's div.
+			let searchTerm = buttonClick.parentNode.parentNode.childNodes[3].childNodes[1].value.toUpperCase();
+			let yearFound = '0';
+			$.getJSON("./data/productions.json?timestamp=" + new Date().getTime(), function(data) {
+				data["productions"].forEach(show => {
+					if(show["Length"] == 'Full Slot'){
+						if(show["Play"].toUpperCase() == searchTerm){
+							yearFound = show["Year"];
+						}
+					}
+					else if(show["Length"] == 'Collection'){
+						show["Performances"].forEach(subshow => {
+							if(subshow["Play"].toUpperCase() == searchTerm){
+								yearFound = show["Year"];
+							}
+						});
+					};
+				});
+				if(yearFound != '0'){
+					//alert(yearFound);
+					let yearDiv = 'div' + yearFound;
+					let isVisible = document.getElementById(yearDiv).parentNode.childNodes[4].classList.contains("d-inline");
+					if(isVisible == false){
+						toggleVis(document.getElementById(yearDiv));
+					}
+					document.getElementById(yearDiv).scrollIntoView();
+				}
+				else{
+					alert('Play ' + searchTerm + ' not found')
+				}
+			});
+
 		}
 
 		function getMemberStats(name){
@@ -584,15 +622,29 @@
 		     Each yeah should have 2 columns of equal width, which contain show information. This will allow each show to be defined in a div of col=6, which should let them float into place. The shows should not be collapsible, just show the content (but they shouldn't show pictures until "Show Slideshow" is pressed, which is a modal anyway).
 		-->
 	</div>
+	<div id="main-list"></div>
 	<div class="row" id="get-stats">
-		<div class="col-6 d-flex justify-content-center">
+		<div class="col-4 d-flex justify-content-center">
+			<p>Get Member Stats:</p>
+		</div>
+		<div class="col-4 d-flex justify-content-center">
 			<input type="text" hint="Type a name here to get their stats!">
 		</div>
-		<div class="col-6 d-flex justify-content-center">
+		<div class="col-4 d-flex justify-content-center">
 			<button onclick="getMemberStatsFromButton(this)">Get Stats!</button>
 		</div>		
 	</div>
-	<div id="main-list"></div>
+	<div class="row" id="get-stats">
+		<div class="col-4 d-flex justify-content-center">
+			<p>Find a Play:</p>
+		</div>
+		<div class="col-4 d-flex justify-content-center">
+			<input type="text" hint="Type a play here to find it!">
+		</div>
+		<div class="col-4 d-flex justify-content-center">
+			<button onclick="findPlayFromButton(this)">Find Play!</button>
+		</div>		
+	</div>
 	<div id="leaderboards" class="container-lg"></div>
 	<div id="missing-table"></div>
 </body>
