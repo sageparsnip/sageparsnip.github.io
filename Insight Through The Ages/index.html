@@ -376,7 +376,7 @@
 		};
 
 		function getMemberStatsFromButton(buttonClick){
-			getMemberStats(buttonClick.parentNode.parentNode.childNodes[3].childNodes[1].value)
+			getMemberStats(document.getElementById("memberFinder").value)
 		}
 
 		function findPlayFromButton(buttonClick){
@@ -384,7 +384,7 @@
 			//This function should loop through the productions until it finds one that 
 			//matches the input value. On finding it, it should snap the browser view up to 
 			//that year and (ideally) open that year's div.
-			let searchTerm = buttonClick.parentNode.parentNode.childNodes[3].childNodes[1].value.toUpperCase();
+			let searchTerm = document.getElementById("playFinder").value.toUpperCase();
 			let yearFound = '0';
 			$.getJSON("./data/productions.json?timestamp=" + new Date().getTime(), function(data) {
 				data["productions"].forEach(show => {
@@ -404,7 +404,7 @@
 				if(yearFound != '0'){
 					//alert(yearFound);
 					let yearDiv = 'div' + yearFound;
-					let isVisible = document.getElementById(yearDiv).parentNode.childNodes[4].classList.contains("d-inline");
+					let isVisible = document.getElementById(yearFound + 'Holder').classList.contains("d-inline");
 					if(isVisible == false){
 						toggleVis(document.getElementById(yearDiv));
 					}
@@ -628,7 +628,7 @@
 			<p>Get Member Stats:</p>
 		</div>
 		<div class="col-4 d-flex justify-content-center">
-			<input type="text" hint="Type a name here to get their stats!">
+			<input type="text" hint="Type a name here to get their stats!" id="memberFinder">
 		</div>
 		<div class="col-4 d-flex justify-content-center">
 			<button onclick="getMemberStatsFromButton(this)">Get Stats!</button>
@@ -639,7 +639,7 @@
 			<p>Find a Play:</p>
 		</div>
 		<div class="col-4 d-flex justify-content-center">
-			<input type="text" hint="Type a play here to find it!">
+			<input type="text" hint="Type a play here to find it!" id="playFinder">
 		</div>
 		<div class="col-4 d-flex justify-content-center">
 			<button onclick="findPlayFromButton(this)">Find Play!</button>
