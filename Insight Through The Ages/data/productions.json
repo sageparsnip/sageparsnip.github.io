@@ -402,27 +402,97 @@
             "Play": "The Factory Girls",
             "Year": "1989",
             "Month": "March",
-            "DetailsComplete":"No",
+            "DetailsComplete":"Yes",
             "ImageFolder":"",
             "Playwright": "Frank McGuinness",
             "Length": "Full Slot",
-            "Location": "",
-            "Director": "Unknown",
-            "Cast": [],
-            "Crew": []
+            "Location": "Abbey Hall",
+            "Director": "Dermot Cummins",
+            "Cast": [
+                {"name":"Pauline Harte","role":"Ellen"},
+                {"name":"Martina Blessing","role":"Vera"},
+                {"name":"Hazel Talbot","role":"Rebecca"},
+                {"name":"Liz Maxwell","role":"Una"},
+                {"name":"Nikki Killian","role":"Rosemary"},
+                {"name":"Des McCloskey","role":"Rohan"},
+                {"name":"Bert Carruthers","role":"Bonner"}
+            ],
+            "Crew": [
+                {"name":"Carol Greene","role":"Production Assistant"},
+                {"name":"Maggie Higgins","role":"Stage Manager"},
+                {"name":"Kathleen O'Connor","role":"Assistant Stage Manager, Set Construction"},
+                {"name":"Marie Madsen","role":"Assistant Stage Manager"},
+                {"name":"Dermot Cummins","role":"Set Design"},
+                {"name":"Mick Higgins","role":"Set Construction"},
+                {"name":"Brendan O'Sullivan","role":"Set Construction, Front of House"},
+                {"name":"Maria Ryan","role":"Set Construction"},
+                {"name":"Leo Reilly","role":"Set Construction"},
+                {"name":"Jenny Higgins","role":"Set Construction"},
+                {"name":"Lorcan Madsen","role":"Set Construction"},
+                {"name":"Miriam Breslin","role":"Lighting"},
+                {"name":"Christine Harte","role":"Sound"},
+                {"name":"Gayle Thompson","role":"Wardrobe, Stage Crew"},
+                {"name":"Monica Heksch","role":"Stage Crew"},
+                {"name":"Ger Reidy","role":"Front of House"},
+                {"name":"Gary O'Herlihy","role":"Front of House"},
+                {"name":"Maura Reidy","role":"Front of House"},
+                {"name":"Lillian Byrne","role":"Front of House"},
+                {"name":"Olwyn Keenan","role":"Front of House"},
+                {"name":"Jennifer Killian","role":"Front of House"},
+                {"name":"Maria Ryan","role":"Front of House"},
+                {"name":"Angie O'Duffy","role":"Front of House"},
+                {"name":"Nikki Killian","role":"PRO"}
+            ]
         },
         {
             "Play": "Semi Private",
             "Year": "1989",
             "Month": "November",
-            "DetailsComplete":"No",
+            "DetailsComplete":"Yes",
             "ImageFolder":"",
             "Playwright": "Mary Halpin",
             "Length": "Full Slot",
-            "Location": "",
-            "Director": "Unknown",
-            "Cast": [],
-            "Crew": []
+            "Location": "Abbey Hall",
+            "Director": "Mary Halpin",
+            "Cast": [
+                {"name":"Christine Harte","role":"Betty Hogan"},
+                {"name":"Liz Maxwell","role":"Mrs. O'Meara Hardy"},
+                {"name":"Martina Blessing","role":"Sr. Agnes Paul"},
+                {"name":"Sinead Flynn","role":"Nurse Farrell"},
+                {"name":"Geraldine Reidy","role":"Samantha Daly"},
+                {"name":"Penny Smith","role":"Sr. Monica"},
+                {"name":"Maria Martella","role":"Maggie (Old Lady)"},
+                {"name":"Des McCloskey","role":"Fr. O'Brien"},
+                {"name":"Fergal Reidy","role":"Dr. Prendergast"},
+                {"name":"Hazel Talbot","role":"Nurse Coughlan"},
+                {"name":"Aisling Mulreid","role":"Intern"},
+                {"name":"Neil Farrell","role":"Mr. Gilhooley"},
+                {"name":"Brendan O'Sullivan","role":"Frank Kavanagh"},
+                {"name":"Carol Greene","role":"Mrs. Quirke"},
+                {"name":"Karl Shiels","role":"Brendan Daly"}
+            ],
+            "Crew": [
+                {"name":"Miriam Breslin","role":"Stage Manager"},
+                {"name":"Gayle Thompson","role":"Properties Manager"},
+                {"name":"Sean Woods","role":"Set Construction"},
+                {"name":"Jim Campion","role":"Set Construction"},
+                {"name":"Lorcan Madsen","role":"Set Construction"},
+                {"name":"Kevin Chaney","role":"Set Construction"},
+                {"name":"Dermot Clarke","role":"Set Construction"},
+                {"name":"Marie Madsen","role":"Lighting/Sound"},
+                {"name":"John Breslin","role":"Lighting Technician"},
+                {"name":"Dermot Cummins","role":"Lighting Design"},
+                {"name":"Neil Farrell","role":"Stage Crew"},
+                {"name":"Maura Reidy","role":"Front of House"},
+                {"name":"Ann McCloskey","role":"Front of House"},
+                {"name":"Karen McClean","role":"Front of House"},
+                {"name":"Lillian Byrne","role":"Front of House"},
+                {"name":"Angie O'Duffy","role":"Front of House"},
+                {"name":"Angela Butler-Clarke","role":"Front of House"},
+                {"name":"Catriona Butler","role":"Front of House"},
+                {"name":"Betty Holliday","role":"Front of House"},
+                {"name":"Christine Harte","role":"PRO"}
+            ]
         },
         {
             "Play": "Separate Tables",
@@ -1861,30 +1931,57 @@
             ]
         },
         {
-            "Play": "Small Box Psychosis",
+            "Play": "A Bite of the Big Apple",
             "Year": "2004",
-            "Month": "",
-            "DetailsComplete":"No",
+            "Month": "October",
+            "DetailsComplete":"Yes",
             "ImageFolder":"",
-            "Playwright": "Barry McKinley",
-            "Length": "Full Slot",
-            "Location": "",
-            "Director": "Tom Byrne",
-            "Cast": [],
-            "Crew": []
-        },
-        {
-            "Play": "Stay Carl Stay",
-            "Year": "2004",
-            "Month": "",
-            "DetailsComplete":"No",
-            "ImageFolder":"",
-            "Playwright": "Peter Tolan",
-            "Length": "Full Slot",
-            "Location": "",
-            "Director": "Michael Giblin",
-            "Cast": [],
-            "Crew": []
+            "Length": "Collection",
+            "Location": "Kildrought Lounge",
+            "Performances":[
+                {
+                    "Play":"Small Box Psychosis",
+                    "Playwright":"Barry McKinley",
+                    "Length":"One-Act",
+                    "Director":"Tom Byrne",
+                    "Cast":[
+                        {"name":"Pete Butler","role":"Charlie"},
+                        {"name":"Brian King","role":"Mr Schact"},
+                        {"name":"George Hogan","role":"Eddie"}
+                    ]
+                },
+                {
+                    "Play":"Stay Carl Stay",
+                    "Playwright":"Peter Tolan",
+                    "Length":"One-Act",
+                    "Director":"Bill Elliffe",
+                    "Cast":[
+                        {"name":"Rachel O'Connor","role":"Caroline"},
+                        {"name":"John Heveran","role":"Brian"},
+                        {"name":"Ursula Bracken","role":"Marysue"},
+                        {"name":"Mary Higgins","role":"Dr Weiss"},
+                        {"name":"Noel Wade","role":"Carl"},
+                        {"name":"Michael Giblin","role":"Bingo"}
+                    ]
+                },
+                {
+                    "Play":"Stranded",
+                    "Playwright":"Margaret Cosgrove",
+                    "Length":"One-Act",
+                    "Director":"Margaret Cosgrove and Helen McGlynn",
+                    "Cast":[
+
+                    ]
+                }
+            ],
+            "Crew": [
+                {"name":"Joe Canavan","role":"Set Design/Lighting"},
+                {"name":"Bob Armstrong","role":"Sound (Small Box Psychosis)"},
+                {"name":"Dave Foley","role":"Sound (Stay Carl Stay"},
+                {"name":"Herbie Corkey","role":"Sound (Stay Carl Stay)"},
+                {"name":"Deirdre King","role":"Stage Manager (Small Box Psychosis)"},
+                {"name":"Gayle Thompson","role":"Stage Manager (Stay Carl Stay)"}
+            ]
         },
         {
             "Play": "The Plough and the Stars",
@@ -1992,15 +2089,51 @@
         {
             "Play": "By the Bog of Cats",
             "Year": "2006",
-            "Month": "",
-            "DetailsComplete":"No",
+            "Month": "November",
+            "DetailsComplete":"Yes",
             "ImageFolder":"",
             "Playwright": "Marina Carr",
             "Length": "Full Slot",
-            "Location": "",
-            "Director": "Frank Houlihan",
-            "Cast": [],
-            "Crew": []
+            "Location": "Kildrought Lounge",
+            "Director": "Bill Elliffe",
+            "Cast": [
+                {"name":"Valerie Nohilly","role":"Hester Swane"},
+                {"name":"Frank Houlihan","role":"Ghost Fancier"},
+                {"name":"Ann Kelly","role":"Monica Murray"},
+                {"name":"Lorna Mooney","role":"Catwoman"},
+                {"name":"Marion Gildea","role":"Josie Swane"},
+                {"name":"Saidhbh Houlihan","role":"Josie Swane"},
+                {"name":"Madeleine Martin","role":"Josie Swane"},
+                {"name":"Martina Blessing","role":"Mrs Kilbride"},
+                {"name":"Rob Habington","role":"Carthage Kilbride"},
+                {"name":"Martina Murphy","role":"Caroline Cassidy"},
+                {"name":"John Heveran","role":"Xavier Cassidy"},
+                {"name":"Ian Cummins","role":"Joseph Swane"},
+                {"name":"Ciaran O'Mahony","role":"Waiter"},
+                {"name":"Terry Nealon","role":"Father Willow"},
+                {"name":"Geraldine O'Brien","role":"Voice of Josie Swane"}
+            ],
+            "Crew": [
+                {"name":"Joe Canavan","role":"Set Design/Lighting, Set Building"},
+                {"name":"Brian King","role":"Set Design/Lighting, Sound"},
+                {"name":"Herbie Corkey","role":"Sound"},
+                {"name":"Gayle Thompson","role":"Stage Manager"},
+                {"name":"Julie McHugh","role":"Assistant Stage Manager"},
+                {"name":"Geraldine O'Brien","role":"Assistant Stage Manager"},
+                {"name":"Gorretti Slavin","role":"Costumes, Front of House"},
+                {"name":"Ann Kelly","role":"Costumes"},
+                {"name":"Frances Galligan","role":"Costumes"},
+                {"name":"Sean Woods","role":"Set Building"},
+                {"name":"Bill Elliffe","role":"Set Building"},
+                {"name":"Noel Wade","role":"Set Building"},
+                {"name":"Ruth Brennan","role":"Front of House"},
+                {"name":"Anne Mynes","role":"Front of House"},
+                {"name":"Mia Martin","role":"Front of House"},
+                {"name":"Dave Foley","role":"Front of House"},
+                {"name":"Michael Giblin","role":"Front of House"},
+                {"name":"Rose Landys","role":"Front of House"},
+                {"name":"June Galligan","role":"Front of House"}
+            ]
         },
         {
             "Play": "On Such as We",
@@ -2363,19 +2496,6 @@
             ]
         },
         {
-            "Play": "Clara",
-            "Year": "2010",
-            "Month": "",
-            "DetailsComplete":"No",
-            "ImageFolder":"",
-            "Playwright": "Arthur Miller",
-            "Length": "Full Slot",
-            "Location": "",
-            "Director": "Geraldine O'Brien",
-            "Cast": [],
-            "Crew": []
-        },
-        {
             "Play": "Playboy of the Western World",
             "Year": "2010",
             "Month": "",
@@ -2432,17 +2552,40 @@
             ]
         },
         {
-            "Play": "Tough Cookies",
-            "Year": "2010",
-            "Month": "",
-            "DetailsComplete":"No",
+            "Play":"Two One-Act Plays (2010)",
+            "Location":"Kildrought Lounge",
+            "Year":"2010",
+            "Month":"March",
+            "Length":"Collection",
+            "DetailsComplete":"Yes",
             "ImageFolder":"",
-            "Playwright": "Edward Crosby Wells",
-            "Length": "Full Slot",
-            "Location": "",
-            "Director": "Unknown",
-            "Cast": [],
-            "Crew": []
+            "Crew":[
+                {"name":"Herbie Corkey","role":""},
+                {"name":"Sean Woods","role":""}
+            ],
+            "Performances":[
+                {
+                    "Play":"Tough Cookies",
+                    "Playwright":"Edward Crosby Wells",
+                    "Director":"Michael Giblin",
+                    "Cast":[
+                        {"name":"Helena Stout","role":"Jo"},
+                        {"name":"Mary Higgins","role":"Billie"},
+                        {"name":"Lorna Mooney","role":"Mammaw"}
+                    ]
+                },
+                {
+                    "Play":"Clara",
+                    "Playwright":"Arthur Miller",
+                    "Director":"Geraldine O'Brien",
+                    "Cast":[
+                        {"name":"Bill Elliffe","role":"Kroll"},
+                        {"name":"Tina O'Connor","role":"Clara"},
+                        {"name":"Adam Connolly","role":"Tierney"},
+                        {"name":"John Heveran","role":"Fine"}
+                    ]
+                }
+            ]
         },
         {
             "Play": "Three One-Act Productions",
