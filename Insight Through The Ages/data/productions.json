@@ -2498,15 +2498,38 @@
         {
             "Play": "Playboy of the Western World",
             "Year": "2010",
-            "Month": "",
-            "DetailsComplete":"No",
+            "Month": "October",
+            "DetailsComplete":"Yes",
             "ImageFolder":"",
             "Playwright": "JM Synge",
             "Length": "Full Slot",
-            "Location": "",
+            "Location": "Kildrought Lounge",
             "Director": "Gorretti Slavin",
-            "Cast": [],
-            "Crew": []
+            "Cast": [
+                {"name":"Shaun Nugent","role":"Christy Mahon"},
+                {"name":"Tony Connolly","role":"Old Mahon"},
+                {"name":"Dave Foley","role":"Michael James Flaherty"},
+                {"name":"Helena Stout","role":"Pegeen Mike"},
+                {"name":"Shane Brennan","role":"Sean Keogh"},
+                {"name":"Pete Butler","role":"Philly Cullen"},
+                {"name":"Eugene Molumby","role":"Jimmy Farrell"},
+                {"name":"Rosemary Landys","role":"Widow Quinn"},
+                {"name":"Niamh Ryan","role":"Sara Tansey"},
+                {"name":"Sylvia Beatley","role":"Susan Brady"},
+                {"name":"Colette Kinsella","role":"Honor Blake"},
+                {"name":"Tina O'Connor","role":"Nelly"},
+                {"name":"Viv Butler-Rees","role":"Villager"},
+                {"name":"Edel Hutchinson","role":"Villager"},
+                {"name":"Niall O'Connor","role":"Villager"},
+                {"name":"Vini Casey","role":"Villager"},
+                {"name":"Mick Farrelly","role":"Villager"}
+            ],
+            "Crew": [
+                {"name":"Joe Canavan","role":"Set Design & Lighting"},
+                {"name":"Brian King","role":"Stage Manager"},
+                {"name":"Rosemary Landys","role":"Costumes"},
+                {"name":"Geraldine O'Brien","role":"Front of House"}
+            ]
         },
         {
             "Play": "Shadow of a Gunman",
@@ -2672,55 +2695,60 @@
             "Crew": []
         },
         {
-            "Play": "Babels in Arms",
-            "Year": "2012",
-            "Month": "",
-            "DetailsComplete":"No",
-            "ImageFolder":"",
-            "Playwright": "David Ives",
-            "Length": "Full Slot",
-            "Location": "",
-            "Director": "Unknown",
-            "Cast": [],
-            "Crew": []
-        },
-        {
-            "Play": "Pedalling to Paradise",
-            "Year": "2012",
-            "Month": "",
-            "DetailsComplete":"No",
-            "ImageFolder":"",
-            "Playwright": "Unclear",
-            "Length": "Full Slot",
-            "Location": "",
-            "Director": "Unknown",
-            "Cast": [],
-            "Crew": []
-        },
-        {
-            "Play": "Play",
-            "Year": "2012",
-            "Month": "",
+            "Play":"Three One-Act Productions 2012",
+            "Year":"2012",
+            "Month":"October",
             "DetailsComplete":"Yes",
             "ImageFolder":"",
-            "Playwright": "Samuel Beckett",
-            "Length": "Full Slot",
-            "Location": "Kildrought Lounge",
-            "Director": "Joe Canavan",
-            "Cast": [
-                {"name":"Gayle Thompson","role":""},
-                {"name":"Vini Casey","role":""},
-                {"name":"Michelle Reade","role":""}
+            "Playwright": "Various",
+            "Location":"Kildrought Lounge",
+            "Length":"Collection",
+            "Performances":[
+                {
+                    "Play": "Play",
+                    "Playwright": "Samuel Beckett",
+                    "Length": "One-Act",
+                    "Director": "Joe Canavan",
+                    "Cast": [
+                        {"name":"Vini Casey","role":"M"},
+                        {"name":"Gayle Thompson","role":"W1"},
+                        {"name":"Michelle Reade","role":"W2"}
+                    ],
+                    "Notes":"All Ireland One-Act Finalist, 2012"
+                },
+                {
+                    "Play": "Babel's In Arms",
+                    "Playwright": "David Ives",
+                    "Length": "One-Act",
+                    "Director": "Bill Elliffe",
+                    "Cast": [
+                        {"name":"Eugene Molumby","role":"Gorph"},
+                        {"name":"Terry Nealon","role":"Cannapflit"},
+                        {"name":"Donal Healy","role":"Eunuch"},
+                        {"name":"Miriam O'Brien","role":"Priestess"},
+                        {"name":"Edel Hutchinson","role":"Businesswoman"}
+                    ]
+                },
+                {
+                    "Play": "Pedalling to Paradise",
+                    "Playwright": "Edward Crosby",
+                    "Length": "One-Act",
+                    "Director": "Michael Giblin",
+                    "Cast": [
+                        {"name":"Miriam O'Brien","role":"Teddy"},
+                        {"name":"Orla Gildea","role":"Sally"}
+                    ]
+                }
             ],
             "Crew": [
                 {"name":"Frances Galligan","role":"Make-Up"},
-                {"name":"Breda Donnellan","role":""},
+                {"name":"Joe Canavan","role":"Lighting"},
+                {"name":"Breda Donnellan","role":"Stage Management"},
                 {"name":"Bill Elliffe","role":""},
                 {"name":"Frank Houlihan","role":""},
                 {"name":"John Heveran","role":""},
                 {"name":"Michael Giblin","role":""}
-            ],
-            "Notes":"All Ireland One-Act Finalist, 2012"
+            ]
         },
         {
             "Play": "The Field",
@@ -2802,15 +2830,34 @@
         {
             "Play": "Translations",
             "Year": "2013",
-            "Month": "",
-            "DetailsComplete":"No",
+            "Month": "April",
+            "DetailsComplete":"Yes",
             "ImageFolder":"",
             "Playwright": "Brian Friel",
             "Length": "Full Slot",
-            "Location": "",
-            "Director": "Unknown",
-            "Cast": [],
-            "Crew": []
+            "Location": "Kildrought Lounge",
+            "Director": "Pete Butler",
+            "Cast": [
+                {"name":"Vini Casey","role":"Manus"},
+                {"name":"Martina Murphy","role":"Sarah"},
+                {"name":"Terry Nealon","role":"Jimmy Jack"},
+                {"name":"Martina O'Connor","role":"Maire"},
+                {"name":"Dave Foley","role":"Doalty"},
+                {"name":"Breda Donnellan","role":"Bridget"},
+                {"name":"Bill Elliffe","role":"Hugh"},
+                {"name":"Donal O'Sullivan","role":"Owen"},
+                {"name":"Joe Bergin","role":"Captain Lancey"},
+                {"name":"Liam Cooney","role":"Lieutenant Yolland"}
+            ],
+            "Crew": [
+                {"name":"Frank Houlihan","role":"Assistant Director"},
+                {"name":"Joe Canavan","role":"Set Design & Lighting"},
+                {"name":"Pete Butler","role":"Sound"},
+                {"name":"Liam Roe","role":"Live Music"},
+                {"name":"Viv Butler-Rees","role":"Stage Manager"},
+                {"name":"Frances Galligan","role":"Make-Up & Costumes"},
+                {"name":"Sean Woods","role":"Set Construction"}
+            ]
         },
         {
             "Play": "Blood Relations",
