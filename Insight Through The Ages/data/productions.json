@@ -343,7 +343,11 @@
             "Length": "Full Slot",
             "Location": "",
             "Director": "Unknown",
-            "Cast": [],
+            "Cast": [
+                {"name":"Christine Harte","role":""},
+                {"name":"Helena Fagan","role":""},
+                {"name":"Kieran Kane","role":""}
+            ],
             "Crew": []
         },
         {
@@ -363,14 +367,25 @@
             "Play": "Bedroom Farce",
             "Year": "1987",
             "Month": "May",
-            "DetailsComplete":"No",
+            "DetailsComplete":"Yes",
             "ImageFolder":"",
             "Playwright": "Alan Ayckbourn",
             "Length": "Full Slot",
             "Location": "",
-            "Director": "Unknown",
-            "Cast": [],
-            "Crew": []
+            "Director": "Ann Makitaria",
+            "Cast": [
+                {"name":"Brendan O'Sullivan","role":""},
+                {"name":"Christine Harte","role":""},
+                {"name":"Des McCloskey","role":""},
+                {"name":"Eugene","role":""},
+                {"name":"Liz Maxwell","role":""},
+                {"name":"Conor Holmes","role":""},
+                {"name":"Geraldine Reidy","role":""},
+                {"name":"Helena Fagan","role":""}
+            ],
+            "Crew": [
+                
+            ]
         },
         {
             "Play": "Brush with a Body",
