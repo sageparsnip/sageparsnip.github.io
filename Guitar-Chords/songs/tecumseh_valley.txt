@@ -1,0 +1,20 @@
+# Tecumseh Valley chord sheet example
+
+TITLE: Tecumseh Valley
+ARTIST: Townes Van Zandt
+KEY: G
+CAPO: 2
+TEMPO: 120
+GENRE: Folk
+
+G                     C
+The name she gave was Caroline
+
+D             G
+Daughter of a miner
+
+        G                     G  Gdim7  Em
+And her ways were free and it seemed to me
+
+C               C7
+The sunshine walked beside her

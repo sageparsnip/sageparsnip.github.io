@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>BT's Guitar Chords Repo</title>
+<style>
+  /* General page styles */
+  body { background-color: #111; color: #eee; font-family: sans-serif; padding: 20px; }
+  h1 { text-align: center; }
+
+  /* Controls: search bar, transpose dropdown, color picker */
+  #controls { margin-bottom: 1em; }
+  #searchBar { width: 60%; padding: 0.5em; margin-right: 1em; border-radius: 4px; border: 1px solid #444; background-color: #222; color: #eee; font-size: 1em; }
+  button, select, input[type=color] { padding: 0.5em 1em; margin: 0.2em; border-radius: 4px; border: none; background-color: #444; color: #fff; cursor: pointer; }
+  button:hover, select:hover, input[type=color]:hover { background-color: #666; }
+
+  /* Song list buttons */
+  .song-list button { display: block; margin: 0.3em 0; padding: 0.5em 1em; border: none; background-color: #444; color: #fff; cursor: pointer; border-radius: 4px; text-align: left; }
+  .song-list button:hover { background-color: #666; }
+
+  /* Song display area */
+  .song { font-family: monospace; white-space: pre; line-height: 1.2; background-color: #222; padding: 1em; border-radius: 8px; margin-top: 1em; }
+  .metadata { font-family: sans-serif; margin-bottom: 0.5em; }
+</style>
+</head>
+<body>
+
+<h1>BT's Guitar Chords Repo</h1>
+
+<!-- Controls -->
+<div id="controls">
+  <input type="text" id="searchBar" placeholder="Search by title, artist, key, capo, tempo, genre...">
+
+  <label>Transpose:</label>
+  <select id="transposeSelect">
+    <option value="0">0</option>
+    <option value="1">+1</option>
+    <option value="2">+2</option>
+    <option value="3">+3</option>
+    <option value="4">+4</option>
+    <option value="5">+5</option>
+    <option value="6">+6</option>
+    <option value="-1">-1</option>
+    <option value="-2">-2</option>
+    <option value="-3">-3</option>
+    <option value="-4">-4</option>
+    <option value="-5">-5</option>
+    <option value="-6">-6</option>
+  </select>
+
+  <label for="chordColorPicker">Chord Color:</label>
+  <input type="color" id="chordColorPicker" value="#FFD700">
+</div>
+
+<!-- Song list -->
+<div class="song-list" id="songList">Loading songs...</div>
+
+<!-- Song display -->
+<div class="song" id="songViewer">Select a song to view chords.</div>
+
+<script>
+// -----------------------------
+// Global Variables
+// -----------------------------
+let songs = [];
+let currentSong = null;
+let transpose = 0;
+let chordColor = "#FFD700"; // default chord color
+
+// -----------------------------
+// Notes and chord detection
+// -----------------------------
+const NOTES_SHARP = ['C','C#','D','D#','E','F','F#','G','G#','A','A#','B'];
+const NOTES_FLAT  = ['C','Db','D','Eb','E','F','Gb','G','Ab','A','Bb','B'];
+
+// Simple regex to detect chord tokens (A-G with optional b/#)
+const CHORD_REGEX_SIMPLE = /^[A-G][b#]?/;
+
+// Transpose a single chord token
+function transposeChordToken(token, semitones) {
+  const regex = /^([A-G][b#]?)(.*)$/;
+  const match = token.match(regex);
+  if (!match) return token; // leave lyrics/unknown text unchanged
+  let [_, root, modifier] = match;
+
+  let index = NOTES_SHARP.indexOf(root);
+  let useSharp = true;
+  if (index === -1) { index = NOTES_FLAT.indexOf(root); useSharp = false; }
+  if (index === -1) return token;
+
+  let newIndex = (index + semitones + 12) % 12;
+  let newRoot = useSharp ? NOTES_SHARP[newIndex] : NOTES_FLAT[newIndex];
+  return newRoot + modifier;
+}
+
+// Transpose a whole chord line while preserving spacing
+function transposeChordLine(line, semitones) {
+  // Split into tokens and spaces
+  const parts = line.match(/\S+|\s+/g) || [];
+  for (let i = 0; i < parts.length; i++) {
+    const part = parts[i];
+    if (!part.trim()) continue; // skip spaces
+
+    if (CHORD_REGEX_SIMPLE.test(part)) {
+      const origLen = part.length;
+      const transposed = transposeChordToken(part, semitones);
+      const newLen = transposed.length;
+      parts[i] = transposed;
+
+      // Adjust the next whitespace token if it exists
+      if (i + 1 < parts.length && parts[i + 1].trim() === "") {
+        let ws = parts[i + 1];
+        const diff = origLen - newLen;
+        if (diff > 0) {
+          // chord got shorter → add spaces
+          parts[i + 1] = ws + " ".repeat(diff);
+        } else if (diff < 0) {
+          // chord got longer → remove spaces if possible
+          parts[i + 1] = ws.slice(0, Math.max(0, ws.length + diff));
+        }
+      }
+    }
+  }
+  return parts.join("");
+}
+
+// -----------------------------
+// Load JSON dynamically
+// -----------------------------
+fetch("songs.json")
+  .then(r => r.json())
+  .then(data => {
+    songs = data;
+    renderSongList(songs);
+  })
+  .catch(err => {
+    console.error("Failed to load songs.json", err);
+    document.getElementById("songList").textContent = "Failed to load songs.";
+  });
+
+// -----------------------------
+// Render song list buttons
+// -----------------------------
+function renderSongList(list) {
+  const songList = document.getElementById("songList");
+  songList.innerHTML = "";
+  if (list.length === 0) {
+    songList.textContent = "No songs match your search.";
+    return;
+  }
+  list.forEach(song => {
+    const btn = document.createElement("button");
+    btn.textContent = `${song.title} - ${song.artist}`;
+    btn.onclick = () => {
+      currentSong = song;
+      renderSong(song);
+    };
+    songList.appendChild(btn);
+  });
+}
+
+// -----------------------------
+// Render song in viewer
+// -----------------------------
+function renderSong(song) {
+  const viewer = document.getElementById("songViewer");
+  viewer.innerHTML = "";
+
+  // Metadata
+  const metaDiv = document.createElement("div");
+  metaDiv.className = "metadata";
+  metaDiv.innerHTML = `<strong>${song.title}</strong> by ${song.artist} 
+Key: ${song.key} | Capo: ${song.capo} | Tempo: ${song.tempo} | Genre: ${song.genre}`;
+  viewer.appendChild(metaDiv);
+
+  // Lyrics and chords
+  song.lines.forEach(line => {
+    const div = document.createElement("div");
+    div.style.fontFamily = "monospace";
+    div.style.whiteSpace = "pre";
+    div.style.lineHeight = "1.2";
+
+    if (line.is_chord) {
+      div.style.fontWeight = "bold";
+      div.style.color = chordColor; // apply user-selected color
+      div.textContent = transpose !== 0 ? transposeChordLine(line.text, transpose) : line.text;
+    } else {
+      div.style.fontWeight = "normal";
+      div.style.color = "#eee"; // regular lyrics color
+      div.textContent = line.text;
+    }
+
+    viewer.appendChild(div);
+  });
+}
+
+// -----------------------------
+// Search/filter functionality
+// -----------------------------
+document.getElementById("searchBar").addEventListener("input", function() {
+  const query = this.value.trim().toLowerCase();
+  renderSongList(
+    songs.filter(song => Object.values(song).some(v => typeof v === "string" && v.toLowerCase().includes(query)))
+  );
+});
+
+// -----------------------------
+// Transpose select
+// -----------------------------
+document.getElementById("transposeSelect").addEventListener("change", function() {
+  transpose = parseInt(this.value);
+  if (currentSong) renderSong(currentSong);
+});
+
+// -----------------------------
+// Chord color picker
+// -----------------------------
+document.getElementById("chordColorPicker").addEventListener("input", function() {
+  chordColor = this.value;
+  if (currentSong) renderSong(currentSong);
+});
+</script>
+</body>
+</html>

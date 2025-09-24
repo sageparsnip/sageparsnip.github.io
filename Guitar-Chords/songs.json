@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Tecumseh Valley",
+    "artist": "Townes Van Zandt",
+    "key": "G",
+    "capo": "2",
+    "tempo": "120",
+    "genre": "Folk",
+    "lines": [
+      {
+        "text": "G                     C",
+        "is_chord": true
+      },
+      {
+        "text": "The name she gave was Caroline",
+        "is_chord": false
+      },
+      {
+        "text": "D             G",
+        "is_chord": true
+      },
+      {
+        "text": "Daughter of a miner",
+        "is_chord": false
+      },
+      {
+        "text": "        G                     G  Gdim7  Em",
+        "is_chord": true
+      },
+      {
+        "text": "And her ways were free and it seemed to me",
+        "is_chord": false
+      },
+      {
+        "text": "C               C7",
+        "is_chord": true
+      },
+      {
+        "text": "The sunshine walked beside her",
+        "is_chord": false
+      }
+    ]
+  }
+]
