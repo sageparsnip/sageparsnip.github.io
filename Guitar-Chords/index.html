@@ -74,24 +74,46 @@ const NOTES_SHARP = ['C','C#','D','D#','E','F','F#','G','G#','A','A#','B'];
 const NOTES_FLAT  = ['C','Db','D','Eb','E','F','Gb','G','Ab','A','Bb','B'];
 
 // Simple regex to detect chord tokens (A-G with optional b/#)
-const CHORD_REGEX_SIMPLE = /^[A-G][b#]?/;
+// Regex to detect chord tokens including optional slash bass notes
+// Matches: G, D#, F#m, G/B, D/F#
+const CHORD_REGEX_SIMPLE = /^[A-G][b#]?(m|min|maj|dim|aug|sus|add)?(?:\/[A-G][b#]?)?/i;
 
-// Transpose a single chord token
+// Transpose function for tokens with optional slash
 function transposeChordToken(token, semitones) {
+  // Check for slash
+  const parts = token.split("/");
+  const rootPart = parts[0];
+  const bassPart = parts[1] || null;
+
+  // Transpose root
+  const transposedRoot = transposeSingleChord(rootPart, semitones);
+
+  // Transpose bass if exists
+  if (bassPart) {
+    const transposedBass = transposeSingleChord(bassPart, semitones);
+    return `${transposedRoot}/${transposedBass}`;
+  } else {
+    return transposedRoot;
+  }
+}
+
+// Helper for transposing a single chord (no slash)
+function transposeSingleChord(chord, semitones) {
   const regex = /^([A-G][b#]?)(.*)$/;
-  const match = token.match(regex);
-  if (!match) return token; // leave lyrics/unknown text unchanged
+  const match = chord.match(regex);
+  if (!match) return chord;
   let [_, root, modifier] = match;
 
   let index = NOTES_SHARP.indexOf(root);
   let useSharp = true;
   if (index === -1) { index = NOTES_FLAT.indexOf(root); useSharp = false; }
-  if (index === -1) return token;
+  if (index === -1) return chord;
 
   let newIndex = (index + semitones + 12) % 12;
   let newRoot = useSharp ? NOTES_SHARP[newIndex] : NOTES_FLAT[newIndex];
   return newRoot + modifier;
 }
+
 
 // Transpose a whole chord line while preserving spacing
 function transposeChordLine(line, semitones) {

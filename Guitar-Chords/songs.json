@@ -1,14 +1,334 @@
 [
   {
+    "title": "Waiting For My Real Life To Begin",
+    "artist": "Colin Hay",
+    "key": "B",
+    "capo": "IV",
+    "tempo": "85",
+    "genre": "Pop Rock",
+    "lines": [
+      {
+        "text": "G\t   C    D",
+        "is_chord": true
+      },
+      {
+        "text": "Any minute now",
+        "is_chord": false
+      },
+      {
+        "text": "\t   G\t  D",
+        "is_chord": true
+      },
+      {
+        "text": "My ship is coming in",
+        "is_chord": false
+      },
+      {
+        "text": "G\t\t       C    G  Am     G",
+        "is_chord": true
+      },
+      {
+        "text": "I'll keep checking the hori-izo--on",
+        "is_chord": false
+      },
+      {
+        "text": "\t   C \t\tD",
+        "is_chord": true
+      },
+      {
+        "text": "I'll stand on the bow",
+        "is_chord": false
+      },
+      {
+        "text": "\t   G\t    C\t\tG",
+        "is_chord": true
+      },
+      {
+        "text": "Feel the waves come crashing",
+        "is_chord": false
+      },
+      {
+        "text": "\t      C     G     Am      G  C  G",
+        "is_chord": true
+      },
+      {
+        "text": "Come crashing down, down, down on me",
+        "is_chord": false
+      },
+      {
+        "text": "----------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "               C  G        D",
+        "is_chord": true
+      },
+      {
+        "text": "And you'll say be still my love",
+        "is_chord": false
+      },
+      {
+        "text": "\t     C\t    D\t    G",
+        "is_chord": true
+      },
+      {
+        "text": "Open up your heart, let the light shine in",
+        "is_chord": false
+      },
+      {
+        "text": "C        G\tD\t\t C",
+        "is_chord": true
+      },
+      {
+        "text": "Don't you understand, I already have a pla-an",
+        "is_chord": false
+      },
+      {
+        "text": "    D              C            G     C",
+        "is_chord": true
+      },
+      {
+        "text": "I'm waiting for my real life to begin",
+        "is_chord": false
+      },
+      {
+        "text": "----------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "When I awoke today,",
+        "is_chord": false
+      },
+      {
+        "text": "Suddenly nothing happened",
+        "is_chord": false
+      },
+      {
+        "text": "But in my dreams, I slew the dragon",
+        "is_chord": false
+      },
+      {
+        "text": "And down this beaten path, up this cobbled lane",
+        "is_chord": false
+      },
+      {
+        "text": "I'm walking in my old footsteps, once again",
+        "is_chord": false
+      },
+      {
+        "text": "----------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "And you say, just be here now",
+        "is_chord": false
+      },
+      {
+        "text": "Forget about the past, your mask is wearing thin",
+        "is_chord": false
+      },
+      {
+        "text": "Just let me throw one more dice",
+        "is_chord": false
+      },
+      {
+        "text": "I know that I can win",
+        "is_chord": false
+      },
+      {
+        "text": "I'm waiting for my real life to begin",
+        "is_chord": false
+      },
+      {
+        "text": "----------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "Any minute now, my ship is coming in",
+        "is_chord": false
+      },
+      {
+        "text": "I'll keep checking the horizon",
+        "is_chord": false
+      },
+      {
+        "text": "And I'll check my machine, there's sure to be that call",
+        "is_chord": false
+      },
+      {
+        "text": "It's gonna happen soon, soon, oh so very soon",
+        "is_chord": false
+      },
+      {
+        "text": "It's just that times are lean",
+        "is_chord": false
+      },
+      {
+        "text": "----------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "And you say, be still my love",
+        "is_chord": false
+      },
+      {
+        "text": "Open up your heart, let the light shine",
+        "is_chord": false
+      },
+      {
+        "text": "Don't you understand",
+        "is_chord": false
+      },
+      {
+        "text": "I already have a plan",
+        "is_chord": false
+      },
+      {
+        "text": "I'm waiting for my real life to begin",
+        "is_chord": false
+      },
+      {
+        "text": "----------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "On a clear day",
+        "is_chord": false
+      },
+      {
+        "text": "I can see",
+        "is_chord": false
+      },
+      {
+        "text": "See a very long way",
+        "is_chord": false
+      }
+    ]
+  },
+  {
+    "title": "Lucy",
+    "artist": "The Divine Comedy",
+    "key": "E",
+    "capo": "4",
+    "tempo": "98",
+    "genre": "Baroque Pop",
+    "lines": [
+      {
+        "text": "C           G            F      G",
+        "is_chord": true
+      },
+      {
+        "text": "I traveled among unknown men in lands beyond the sea;",
+        "is_chord": false
+      },
+      {
+        "text": "C            G               F         F",
+        "is_chord": true
+      },
+      {
+        "text": "Nor, England did I know till then what love I bore to thee.",
+        "is_chord": false
+      },
+      {
+        "text": "C               G          F          G",
+        "is_chord": true
+      },
+      {
+        "text": "'Tis past, that melancholy dream! Nor will I quit thy shore",
+        "is_chord": false
+      },
+      {
+        "text": "C        G                 F       G",
+        "is_chord": true
+      },
+      {
+        "text": "A second time; for I still seem to love thee more and more.",
+        "is_chord": false
+      },
+      {
+        "text": "-----------------------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "Among thy mountains did I feel the joy of my desire;",
+        "is_chord": false
+      },
+      {
+        "text": "And she I cherished turned her wheel beside an English fire.",
+        "is_chord": false
+      },
+      {
+        "text": "By mornings showed, by nights concealed the bowers where Lucy played;",
+        "is_chord": false
+      },
+      {
+        "text": "And thine too is the last green field that Lucy's eye surveyed.",
+        "is_chord": false
+      },
+      {
+        "text": "-----------------------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "She dwelt among the untrodden ways beside the springs of Dove,",
+        "is_chord": false
+      },
+      {
+        "text": "A Maid whom there were none to praise and very few to love:",
+        "is_chord": false
+      },
+      {
+        "text": "A violet by a mossy stone half hidden from the eye",
+        "is_chord": false
+      },
+      {
+        "text": "Fair as a star, when only one is shining in the sky.",
+        "is_chord": false
+      },
+      {
+        "text": "-----------------------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "She lived unknown, and few could know when Lucy ceased to be;",
+        "is_chord": false
+      },
+      {
+        "text": "But she is in her grave and, oh the difference to me",
+        "is_chord": false
+      },
+      {
+        "text": "A slumber did my spirit seal; I had no human fears.",
+        "is_chord": false
+      },
+      {
+        "text": "She seemed a thing that could not feel the touch of earthly years.",
+        "is_chord": false
+      },
+      {
+        "text": "No motion has she now, no force; she neither hears nor sees;",
+        "is_chord": false
+      },
+      {
+        "text": "Dm              Em              F            G                      C",
+        "is_chord": true
+      },
+      {
+        "text": "Rolled round in earth's diurnal course, with rocks, and stones, and trees.",
+        "is_chord": false
+      }
+    ]
+  },
+  {
     "title": "Tecumseh Valley",
     "artist": "Townes Van Zandt",
-    "key": "G",
-    "capo": "2",
-    "tempo": "120",
+    "key": "C",
+    "capo": "0",
+    "tempo": "98",
     "genre": "Folk",
     "lines": [
       {
-        "text": "G                     C",
+        "text": "C                     F   C",
         "is_chord": true
       },
       {
@@ -16,7 +336,7 @@
         "is_chord": false
       },
       {
-        "text": "D             G",
+        "text": "F             C",
         "is_chord": true
       },
       {
@@ -24,7 +344,7 @@
         "is_chord": false
       },
       {
-        "text": "        G                     G  Gdim7  Em",
+        "text": "        F                     C  G/B    Am",
         "is_chord": true
       },
       {
@@ -32,7 +352,259 @@
         "is_chord": false
       },
       {
-        "text": "C               C7",
+        "text": "    G                 F         C",
+        "is_chord": true
+      },
+      {
+        "text": "The sunshine walked beside her",
+        "is_chord": false
+      },
+      {
+        "text": "------------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "C                       F         C",
+        "is_chord": true
+      },
+      {
+        "text": "She come from Spencer, across the hill",
+        "is_chord": false
+      },
+      {
+        "text": "    F               C",
+        "is_chord": true
+      },
+      {
+        "text": "She said her pa had sent her",
+        "is_chord": false
+      },
+      {
+        "text": "           F                C  G/B   Am",
+        "is_chord": true
+      },
+      {
+        "text": "'Cause the coal was low and soon the snow",
+        "is_chord": false
+      },
+      {
+        "text": "      G                 F         C",
+        "is_chord": true
+      },
+      {
+        "text": "Would turn the skies to winter.",
+        "is_chord": false
+      },
+      {
+        "text": "------------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "C                      F        C",
+        "is_chord": true
+      },
+      {
+        "text": "She said she'd come to look for work",
+        "is_chord": false
+      },
+      {
+        "text": "    F               C",
+        "is_chord": true
+      },
+      {
+        "text": "She was not seeking favors",
+        "is_chord": false
+      },
+      {
+        "text": "          F                C   G/B  Am",
+        "is_chord": true
+      },
+      {
+        "text": "And for a dime a day and a place to stay",
+        "is_chord": false
+      },
+      {
+        "text": "      G                   F        C",
+        "is_chord": true
+      },
+      {
+        "text": "She'd turn those hands to labor",
+        "is_chord": false
+      },
+      {
+        "text": "------------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "C                                  F         C",
+        "is_chord": true
+      },
+      {
+        "text": "But the times were hard, Lord, the jobs were few",
+        "is_chord": false
+      },
+      {
+        "text": "    F                C",
+        "is_chord": true
+      },
+      {
+        "text": "All through Tecumseh valley",
+        "is_chord": false
+      },
+      {
+        "text": "        F                  C   G/B Am",
+        "is_chord": true
+      },
+      {
+        "text": "But she asked around and a job she found",
+        "is_chord": false
+      },
+      {
+        "text": "        G            F        C",
+        "is_chord": true
+      },
+      {
+        "text": "Tending bar at Gypsy Sally's",
+        "is_chord": false
+      },
+      {
+        "text": "------------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "C                   F        C",
+        "is_chord": true
+      },
+      {
+        "text": "She saved enough to get back home",
+        "is_chord": false
+      },
+      {
+        "text": "     F                   C",
+        "is_chord": true
+      },
+      {
+        "text": "When spring replaced the winter",
+        "is_chord": false
+      },
+      {
+        "text": "        F                    C  G/B     Am",
+        "is_chord": true
+      },
+      {
+        "text": "But her dreams were denied - her pa had died",
+        "is_chord": false
+      },
+      {
+        "text": "    G                   F         C",
+        "is_chord": true
+      },
+      {
+        "text": "The word come down from Spencer",
+        "is_chord": false
+      },
+      {
+        "text": "------------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "C                            F      C",
+        "is_chord": true
+      },
+      {
+        "text": "So she turned to whorin' out on the streets",
+        "is_chord": false
+      },
+      {
+        "text": "     F              C",
+        "is_chord": true
+      },
+      {
+        "text": "With all the lust inside her",
+        "is_chord": false
+      },
+      {
+        "text": "       F              C  G/B   Am",
+        "is_chord": true
+      },
+      {
+        "text": "And it was many a man returned again",
+        "is_chord": false
+      },
+      {
+        "text": "   G             F         C",
+        "is_chord": true
+      },
+      {
+        "text": "To lay himself beside her",
+        "is_chord": false
+      },
+      {
+        "text": "------------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "C                   F           C",
+        "is_chord": true
+      },
+      {
+        "text": "They found her down beneath the stairs",
+        "is_chord": false
+      },
+      {
+        "text": "     F            C",
+        "is_chord": true
+      },
+      {
+        "text": "That led to Gypsy Sally's",
+        "is_chord": false
+      },
+      {
+        "text": "       F                        C    G/B  Am",
+        "is_chord": true
+      },
+      {
+        "text": "In her hand when she died was a note that cried",
+        "is_chord": false
+      },
+      {
+        "text": "          G              F       C",
+        "is_chord": true
+      },
+      {
+        "text": "Fare thee well, Tecumseh Valley",
+        "is_chord": false
+      },
+      {
+        "text": "------------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "C                     F   C",
+        "is_chord": true
+      },
+      {
+        "text": "The name she gave was Caroline",
+        "is_chord": false
+      },
+      {
+        "text": "F             C",
+        "is_chord": true
+      },
+      {
+        "text": "Daughter of a miner",
+        "is_chord": false
+      },
+      {
+        "text": "        F                     C  G/B    Am",
+        "is_chord": true
+      },
+      {
+        "text": "And her ways were free and it seemed to me",
+        "is_chord": false
+      },
+      {
+        "text": "    G                 F         C",
         "is_chord": true
       },
       {

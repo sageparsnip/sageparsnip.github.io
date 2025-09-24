@@ -2,13 +2,44 @@ import json
 import re
 from pathlib import Path
 
-CHORD_RE = re.compile(r"^(?:[A-G](?:#|b)?(?:m|maj|min|dim|aug|sus|add|[0-9])*)"
-                      r"(?:\s+[A-G](?:#|b)?(?:m|maj|min|dim|aug|sus|add|[0-9])*)*$")
+# Regex to match chords including optional bass slash (e.g., G, C#m, G/B, D/F#)
+CHORD_RE = re.compile(r"""
+    ^\s*                              # optional leading spaces
+    ([A-G][b#]?                       # root note
+     (?:m|min|maj|dim|aug|sus|add)?  # optional chord modifier
+     (?:/[A-G][b#]?)?                 # optional slash bass note
+    (\s+|$))+                          # one or more spaces or end of line
+""", re.VERBOSE)
+
+import re
+
+# Match chords with optional modifiers and optional slash bass
+CHORD_TOKEN_RE = re.compile(r'^[A-G][b#]?(?:m|min|maj|dim|aug|sus|add)?(?:/[A-G][b#]?)?$')
 
 def is_chord_line(line):
-    """Return True if the line looks like a chord line."""
-    line = line.strip()
-    return bool(line) and bool(CHORD_RE.match(line))
+    """
+    Return True if the line looks like a chord line.
+    Requires either multiple chord tokens or at least one token with a modifier.
+    """
+    tokens = line.strip().split()
+    if not tokens:
+        return False
+
+    chord_tokens = [t for t in tokens if CHORD_TOKEN_RE.match(t)]
+
+    # Line is a chord line if:
+    # 1. At least 2 chord tokens, or
+    # 2. Single chord token with a modifier
+    if len(chord_tokens) >= 2:
+        return True
+    if len(chord_tokens) == 1:
+        # check for modifier (anything beyond just the root note)
+        t = chord_tokens[0]
+        if len(t) > 1:  # e.g., Am, G#, D/F#, etc.
+            return True
+    return False
+
+
 
 def parse_txt_song(txt_path):
     """
