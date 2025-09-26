@@ -320,6 +320,1190 @@
     ]
   },
   {
+    "title": "Another New World",
+    "artist": "Josh Ritter",
+    "key": "Bm",
+    "capo": "7",
+    "tempo": "130",
+    "genre": "Folk Americana",
+    "lines": [
+      {
+        "text": "Em     F#dim/C B7     E",
+        "is_chord": true
+      },
+      {
+        "text": "022000 003431  x21202 022100",
+        "is_chord": false
+      },
+      {
+        "text": "Am     D7      G",
+        "is_chord": true
+      },
+      {
+        "text": "x02210 xx0212  320003",
+        "is_chord": false
+      },
+      {
+        "text": "---------------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "---------------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "            Em",
+        "is_chord": true
+      },
+      {
+        "text": "The leading light of the age all wondered amongst",
+        "is_chord": false
+      },
+      {
+        "text": "           F#dim/C",
+        "is_chord": true
+      },
+      {
+        "text": "Themselves what I would do next",
+        "is_chord": false
+      },
+      {
+        "text": "      D7",
+        "is_chord": false
+      },
+      {
+        "text": "After all that I'd found in my travels around",
+        "is_chord": false
+      },
+      {
+        "text": "          Em",
+        "is_chord": true
+      },
+      {
+        "text": "The world was there anything left?",
+        "is_chord": false
+      },
+      {
+        "text": "E",
+        "is_chord": false
+      },
+      {
+        "text": "\"Gentlemen\", I said, \"I've studied the maps\"",
+        "is_chord": false
+      },
+      {
+        "text": "        Am",
+        "is_chord": true
+      },
+      {
+        "text": "\"And if what I'm thinking is right\"",
+        "is_chord": false
+      },
+      {
+        "text": "          D7",
+        "is_chord": false
+      },
+      {
+        "text": "\"There's another new world at the top of the world\"",
+        "is_chord": false
+      },
+      {
+        "text": "     G                             B7",
+        "is_chord": false
+      },
+      {
+        "text": "\"For whoever can break through the ice\"",
+        "is_chord": false
+      },
+      {
+        "text": "---------------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "I looked around the room in that way I once had",
+        "is_chord": false
+      },
+      {
+        "text": "And I saw that they wanted belief",
+        "is_chord": false
+      },
+      {
+        "text": "So I said \"All I've got are my guts and my God\"",
+        "is_chord": false
+      },
+      {
+        "text": "Then I paused, \"and the Annabelle Lee\"",
+        "is_chord": false
+      },
+      {
+        "text": "Oh the Annabelle Lee, I saw their eyes shine",
+        "is_chord": false
+      },
+      {
+        "text": "The most beautiful ship in the sea",
+        "is_chord": false
+      },
+      {
+        "text": "My Nina, My Pinta, My Santa Maria",
+        "is_chord": false
+      },
+      {
+        "text": "My beautiful Annabelle Lee",
+        "is_chord": false
+      },
+      {
+        "text": "---------------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "That spring I set sail as the crowd waved from shore",
+        "is_chord": false
+      },
+      {
+        "text": "And on board the crew waved their hats",
+        "is_chord": false
+      },
+      {
+        "text": "But I never had family just the Annabelle Lee",
+        "is_chord": false
+      },
+      {
+        "text": "So I'd never have cause to look back",
+        "is_chord": false
+      },
+      {
+        "text": "I just set the course north and I studied the charts",
+        "is_chord": false
+      },
+      {
+        "text": "And towards dark I drifted toward sleep",
+        "is_chord": false
+      },
+      {
+        "text": "And I dreamed of the fine deep harbor I'd find",
+        "is_chord": false
+      },
+      {
+        "text": "Past the ice for my Annabelle Lee",
+        "is_chord": false
+      },
+      {
+        "text": "---------------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "After that it got colder the world got quiet",
+        "is_chord": false
+      },
+      {
+        "text": "It was never quite day or quite night",
+        "is_chord": false
+      },
+      {
+        "text": "And the sea turned the color of sky turned the color",
+        "is_chord": false
+      },
+      {
+        "text": "Of sea turned the color of ice",
+        "is_chord": false
+      },
+      {
+        "text": "'Til at last all around us was fastness",
+        "is_chord": false
+      },
+      {
+        "text": "One vast glassy desert of arsenic white",
+        "is_chord": false
+      },
+      {
+        "text": "And the waves that once lifted us",
+        "is_chord": false
+      },
+      {
+        "text": "Sifted instead into drifts against Annabelle's sides",
+        "is_chord": false
+      },
+      {
+        "text": "---------------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "And the crew gathered closer at first for the comfort",
+        "is_chord": false
+      },
+      {
+        "text": "But each morning would bring a new set",
+        "is_chord": false
+      },
+      {
+        "text": "Of the tracks in the snow leading over the edge",
+        "is_chord": false
+      },
+      {
+        "text": "Of the world 'til I was the only one left",
+        "is_chord": false
+      },
+      {
+        "text": "And after that it gets cloudy but it feels like I lay there",
+        "is_chord": false
+      },
+      {
+        "text": "For days maybe for months",
+        "is_chord": false
+      },
+      {
+        "text": "But Annabelle held me the two of us happy",
+        "is_chord": false
+      },
+      {
+        "text": "Just to think back on all we had done",
+        "is_chord": false
+      },
+      {
+        "text": "---------------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "We talked of the other new worlds we'd discover",
+        "is_chord": false
+      },
+      {
+        "text": "As she gave up her body to me",
+        "is_chord": false
+      },
+      {
+        "text": "And as I chopped up her mainsail for timber",
+        "is_chord": false
+      },
+      {
+        "text": "I told her of all that we still had to see",
+        "is_chord": false
+      },
+      {
+        "text": "And as the frost turned her moorings to nine-tail",
+        "is_chord": false
+      },
+      {
+        "text": "And the wind lashed her sides in the cold",
+        "is_chord": false
+      },
+      {
+        "text": "I burned her to keep me alive every night",
+        "is_chord": false
+      },
+      {
+        "text": "In the loving embrace of her hold",
+        "is_chord": false
+      },
+      {
+        "text": "---------------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "And I won't call it rescue what brought me here back to",
+        "is_chord": false
+      },
+      {
+        "text": "The old world to drink and decline",
+        "is_chord": false
+      },
+      {
+        "text": "And pretend that the search for another new world",
+        "is_chord": false
+      },
+      {
+        "text": "Was well worth the burning of mine",
+        "is_chord": false
+      },
+      {
+        "text": "But sometimes at night in my dreams comes the singing",
+        "is_chord": false
+      },
+      {
+        "text": "Of some unknown tropical bird",
+        "is_chord": false
+      },
+      {
+        "text": "And I smile in my sleep thinking Annabelle Lee",
+        "is_chord": false
+      },
+      {
+        "text": "Has finally made it to another new world",
+        "is_chord": false
+      }
+    ]
+  },
+  {
+    "title": "Goodbye England, Covered In Snow",
+    "artist": "Laura Marling",
+    "key": "D",
+    "capo": "0",
+    "tempo": "",
+    "genre": "Indie Folk",
+    "lines": [
+      {
+        "text": "D Bm G D",
+        "is_chord": true
+      },
+      {
+        "text": "-----------------------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "            D                              Bm",
+        "is_chord": true
+      },
+      {
+        "text": "You were so smart then, in your jacket and coat,",
+        "is_chord": false
+      },
+      {
+        "text": "               A                      D",
+        "is_chord": true
+      },
+      {
+        "text": "My softest red scarf was warming your throat.",
+        "is_chord": false
+      },
+      {
+        "text": "           D                       Bm",
+        "is_chord": true
+      },
+      {
+        "text": "Winter was on us, at the end of my nose,",
+        "is_chord": false
+      },
+      {
+        "text": "                    G       A                         D",
+        "is_chord": true
+      },
+      {
+        "text": "And I'll never love England more than when covered in snow.",
+        "is_chord": false
+      },
+      {
+        "text": "-----------------------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "       Bm                       A",
+        "is_chord": true
+      },
+      {
+        "text": "Well a friend of mine said it's good to hear",
+        "is_chord": false
+      },
+      {
+        "text": "         G                            D",
+        "is_chord": true
+      },
+      {
+        "text": "That you believe in love even if it's set in fear, well I'll",
+        "is_chord": false
+      },
+      {
+        "text": "Bm                         A",
+        "is_chord": true
+      },
+      {
+        "text": "Hold you there brother and set you straight",
+        "is_chord": false
+      },
+      {
+        "text": "    G               D                         A",
+        "is_chord": true
+      },
+      {
+        "text": "I only believe true love is frail and willing to break.",
+        "is_chord": false
+      },
+      {
+        "text": "-----------------------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "            D                             Bm",
+        "is_chord": true
+      },
+      {
+        "text": "I will come back here, bring me back when I'm old",
+        "is_chord": false
+      },
+      {
+        "text": "         A                        D",
+        "is_chord": true
+      },
+      {
+        "text": "I want t lay here, forever in the cold.",
+        "is_chord": false
+      },
+      {
+        "text": "           D                           Bm",
+        "is_chord": true
+      },
+      {
+        "text": "I might be cold but, I'm just skin and bone,",
+        "is_chord": false
+      },
+      {
+        "text": "                    G       A                         D",
+        "is_chord": true
+      },
+      {
+        "text": "And I'll never love England more than when covered in snow.",
+        "is_chord": false
+      },
+      {
+        "text": "-----------------------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "D                             Bm",
+        "is_chord": true
+      },
+      {
+        "text": "I wrote my name in your book, only God knows why,",
+        "is_chord": false
+      },
+      {
+        "text": "         A",
+        "is_chord": true
+      },
+      {
+        "text": "And I'll bet you that he cracked a smile,",
+        "is_chord": false
+      },
+      {
+        "text": "        G                                D",
+        "is_chord": true
+      },
+      {
+        "text": "And I'm clearing all the stuff out of my room,",
+        "is_chord": false
+      },
+      {
+        "text": "       D                                 A",
+        "is_chord": true
+      },
+      {
+        "text": "Trying desperately to figure out what it is that makes me blue, and I",
+        "is_chord": false
+      },
+      {
+        "text": "G                       D",
+        "is_chord": true
+      },
+      {
+        "text": "Wrote an epic letter to you,",
+        "is_chord": false
+      },
+      {
+        "text": "                                           A",
+        "is_chord": true
+      },
+      {
+        "text": "And it's 22 pages front and back, and it's too good to be used, and I",
+        "is_chord": false
+      },
+      {
+        "text": "G                             D",
+        "is_chord": true
+      },
+      {
+        "text": "Tried to be a girl that likes to be used,",
+        "is_chord": false
+      },
+      {
+        "text": "            D                        G",
+        "is_chord": true
+      },
+      {
+        "text": "But I'm too good for that, there's a mind under this hat and I",
+        "is_chord": false
+      },
+      {
+        "text": "Bm          A                      D",
+        "is_chord": true
+      },
+      {
+        "text": "Called them all and told them I've got to move.",
+        "is_chord": false
+      },
+      {
+        "text": "-----------------------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "    D                 Bm            D               Bm",
+        "is_chord": true
+      },
+      {
+        "text": "I'm out of love, it's too hard, I'm all alone, it's too hard",
+        "is_chord": false
+      },
+      {
+        "text": "D         Bm       D         Bm       A",
+        "is_chord": true
+      },
+      {
+        "text": "Feel like running, feel like running, running off.",
+        "is_chord": false
+      },
+      {
+        "text": "D           Bm        D       Bm        A",
+        "is_chord": true
+      },
+      {
+        "text": "And we will keep you, we will keep you, little one",
+        "is_chord": false
+      },
+      {
+        "text": "G                       A                 D",
+        "is_chord": true
+      },
+      {
+        "text": "Safe from harm, like an extra arm you are part of us.",
+        "is_chord": false
+      },
+      {
+        "text": "-----------------------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "            D                              Bm",
+        "is_chord": true
+      },
+      {
+        "text": "You were so smart then, in your jacket and coat,",
+        "is_chord": false
+      },
+      {
+        "text": "               A                      D",
+        "is_chord": true
+      },
+      {
+        "text": "My softest red scarf was warming your throat.",
+        "is_chord": false
+      },
+      {
+        "text": "             D                            Bm",
+        "is_chord": true
+      },
+      {
+        "text": "Winter will leave us, leave the end of my nose,",
+        "is_chord": false
+      },
+      {
+        "text": "                    G       A                         D",
+        "is_chord": true
+      },
+      {
+        "text": "And I'll never love England more than when covered in snow.",
+        "is_chord": false
+      }
+    ]
+  },
+  {
+    "title": "Train In The Distance",
+    "artist": "Paul Simon",
+    "key": "D",
+    "capo": "0 (Drop D)",
+    "tempo": "80",
+    "genre": "Folk Rock Americana",
+    "lines": [
+      {
+        "text": "D      D9     D6     Dmaj9  Bm     F",
+        "is_chord": true
+      },
+      {
+        "text": "000232 000210 000430 000220 024232 x33210",
+        "is_chord": false
+      },
+      {
+        "text": "F#m    Am/C   B7     Em     Bb/A7  C",
+        "is_chord": true
+      },
+      {
+        "text": "042200 032210 021200 022000 x12320 x32010",
+        "is_chord": false
+      },
+      {
+        "text": "A11    G6     D/F#   Cmaj9  B11    Bb",
+        "is_chord": true
+      },
+      {
+        "text": "009000 554030 400200 032400 004200 x12221",
+        "is_chord": false
+      },
+      {
+        "text": "------------------------------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "D  D9  D6  Dmaj9  D (x2)",
+        "is_chord": true
+      },
+      {
+        "text": "------------------------------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "D       F#m          Am/C                         B7",
+        "is_chord": true
+      },
+      {
+        "text": "She was beautiful as Southern skies, the night he met her,",
+        "is_chord": false
+      },
+      {
+        "text": "Em                 A11",
+        "is_chord": true
+      },
+      {
+        "text": "she was married to someone...",
+        "is_chord": false
+      },
+      {
+        "text": "D      F#m      Am/C                     B7",
+        "is_chord": true
+      },
+      {
+        "text": "He was doggedly determined that he would get her,",
+        "is_chord": false
+      },
+      {
+        "text": "Em                  D6   G6",
+        "is_chord": true
+      },
+      {
+        "text": "she was old, he was young...",
+        "is_chord": false
+      },
+      {
+        "text": "D\t\t       D9        D6                      G6           D/F#",
+        "is_chord": true
+      },
+      {
+        "text": "From time to time he'd tip his heart, but each time she withdrew,",
+        "is_chord": false
+      },
+      {
+        "text": "------------------------------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "D   F#m             Am/C       B7",
+        "is_chord": true
+      },
+      {
+        "text": "Everybody loves the sound of a train in the distance,",
+        "is_chord": false
+      },
+      {
+        "text": "Em                    D6  G6  D",
+        "is_chord": true
+      },
+      {
+        "text": "Everybody thinks it's true…",
+        "is_chord": false
+      },
+      {
+        "text": "------------------------------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "D    F#m           Am/C                  B7",
+        "is_chord": true
+      },
+      {
+        "text": "Well eventually the boy and the girl get married,",
+        "is_chord": false
+      },
+      {
+        "text": "Em                     A11",
+        "is_chord": true
+      },
+      {
+        "text": "Sure enough they have a son...",
+        "is_chord": false
+      },
+      {
+        "text": "D               F#m      Am/C                B7",
+        "is_chord": true
+      },
+      {
+        "text": "And though they both were occupied, with the child she carried,",
+        "is_chord": false
+      },
+      {
+        "text": "Em               D6   G6",
+        "is_chord": true
+      },
+      {
+        "text": "Disagreements had begun...",
+        "is_chord": false
+      },
+      {
+        "text": "D\t\t    D9          D6                G6   D/F#",
+        "is_chord": true
+      },
+      {
+        "text": "And in a while they fell apart, It wasn't hard to do,",
+        "is_chord": false
+      },
+      {
+        "text": "------------------------------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "D   F#m            Am/C        B7",
+        "is_chord": true
+      },
+      {
+        "text": "Everybody loves the sound of a train in the distance,",
+        "is_chord": false
+      },
+      {
+        "text": "Em                   D6  G6  D",
+        "is_chord": true
+      },
+      {
+        "text": "Everybody thinks it's true...",
+        "is_chord": false
+      },
+      {
+        "text": "------------------------------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "Cmaj9            Bm7        Bb/A7                  B11",
+        "is_chord": false
+      },
+      {
+        "text": "Two disappointed believers, two people playing the game",
+        "is_chord": false
+      },
+      {
+        "text": "G6             D/F#             F       C          Bb         (Open)",
+        "is_chord": true
+      },
+      {
+        "text": "Negotiations and love songs are often mistaken for one and the same",
+        "is_chord": false
+      },
+      {
+        "text": "------------------------------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "D     F#m          Am/C             B7",
+        "is_chord": true
+      },
+      {
+        "text": "Now the man and the woman remain in contact,",
+        "is_chord": false
+      },
+      {
+        "text": "Em                      A11",
+        "is_chord": true
+      },
+      {
+        "text": "let us say it's for the child...",
+        "is_chord": false
+      },
+      {
+        "text": "D    F#m                     Am/C                   B7",
+        "is_chord": true
+      },
+      {
+        "text": "With disagreements about the meaning, of a marriage contract,",
+        "is_chord": false
+      },
+      {
+        "text": "Em            D6       G6",
+        "is_chord": true
+      },
+      {
+        "text": "Conversations hard and wild...",
+        "is_chord": false
+      },
+      {
+        "text": "         D\t\t D9                D6                  G6   D/F#",
+        "is_chord": true
+      },
+      {
+        "text": "But from time to time, he makes her laugh, she cooks a meal or two",
+        "is_chord": false
+      },
+      {
+        "text": "------------------------------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "D   F#m            Am/C        B7",
+        "is_chord": true
+      },
+      {
+        "text": "Everybody loves the sound of a train in the distance,",
+        "is_chord": false
+      },
+      {
+        "text": "Em                   D6  G6  D",
+        "is_chord": true
+      },
+      {
+        "text": "Everybody thinks it's true...",
+        "is_chord": false
+      },
+      {
+        "text": "D   F#m            Am/C        B7",
+        "is_chord": true
+      },
+      {
+        "text": "Everybody loves the sound of a train in the distance,",
+        "is_chord": false
+      },
+      {
+        "text": "Em                   D6  G6  D",
+        "is_chord": true
+      },
+      {
+        "text": "Everybody thinks it's true...",
+        "is_chord": false
+      },
+      {
+        "text": "------------------------------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "Cmaj9                    Bm7     Bb/A7            B11",
+        "is_chord": false
+      },
+      {
+        "text": "What is the point of this story, what information pertain,",
+        "is_chord": false
+      },
+      {
+        "text": "G6                            D/F#",
+        "is_chord": true
+      },
+      {
+        "text": "The thought that life could be better,",
+        "is_chord": false
+      },
+      {
+        "text": "   F       C                 Bb             (Open)",
+        "is_chord": true
+      },
+      {
+        "text": "Is woven indelibly, into our hearts, and our brains...",
+        "is_chord": false
+      },
+      {
+        "text": "------------------------------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "D  D9  D6  Dmaj9  D (x2)",
+        "is_chord": true
+      }
+    ]
+  },
+  {
+    "title": "Bury Me Under The Weeping Willow",
+    "artist": "Carter Family",
+    "key": "Eb",
+    "capo": "1",
+    "tempo": "",
+    "genre": "Country Americana Folk",
+    "lines": [
+      {
+        "text": "D                   G",
+        "is_chord": true
+      },
+      {
+        "text": "My heart is sad and I'm in sorrow",
+        "is_chord": false
+      },
+      {
+        "text": "        D          A",
+        "is_chord": true
+      },
+      {
+        "text": "For the only one I love",
+        "is_chord": false
+      },
+      {
+        "text": "     D               G",
+        "is_chord": true
+      },
+      {
+        "text": "When shall I see him oh no never",
+        "is_chord": false
+      },
+      {
+        "text": "       D           A7      D",
+        "is_chord": true
+      },
+      {
+        "text": "'Til I meet him in heaven above",
+        "is_chord": false
+      },
+      {
+        "text": "-------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "   D                 G",
+        "is_chord": true
+      },
+      {
+        "text": "Oh bury me under the weeping willow, yes",
+        "is_chord": false
+      },
+      {
+        "text": "D                        A    A7",
+        "is_chord": true
+      },
+      {
+        "text": "Under the weeping willow tree",
+        "is_chord": false
+      },
+      {
+        "text": "   D                 G",
+        "is_chord": true
+      },
+      {
+        "text": "So he may know where I am sleeping",
+        "is_chord": false
+      },
+      {
+        "text": "       D            A7       D",
+        "is_chord": true
+      },
+      {
+        "text": "And perhaps he will weep for me",
+        "is_chord": false
+      },
+      {
+        "text": "-------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "     D               G",
+        "is_chord": true
+      },
+      {
+        "text": "They told me that he did not love me",
+        "is_chord": false
+      },
+      {
+        "text": "  D                        A",
+        "is_chord": true
+      },
+      {
+        "text": "I could not believe it was true",
+        "is_chord": false
+      },
+      {
+        "text": "  D            G",
+        "is_chord": true
+      },
+      {
+        "text": "Until an angel softly whispered",
+        "is_chord": false
+      },
+      {
+        "text": "       D         A7      D",
+        "is_chord": true
+      },
+      {
+        "text": "\"He is proving untrue to you\"",
+        "is_chord": false
+      },
+      {
+        "text": "-------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "   D                 G",
+        "is_chord": true
+      },
+      {
+        "text": "Oh bury me under the weeping willow, yes",
+        "is_chord": false
+      },
+      {
+        "text": "D                        A    A7",
+        "is_chord": true
+      },
+      {
+        "text": "Under the weeping willow tree",
+        "is_chord": false
+      },
+      {
+        "text": "   D                 G",
+        "is_chord": true
+      },
+      {
+        "text": "So he may know where I am sleeping",
+        "is_chord": false
+      },
+      {
+        "text": "       D            A7       D",
+        "is_chord": true
+      },
+      {
+        "text": "And perhaps he will weep for me",
+        "is_chord": false
+      },
+      {
+        "text": "-------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "  D              G",
+        "is_chord": true
+      },
+      {
+        "text": "Tomorrow was our wedding day",
+        "is_chord": false
+      },
+      {
+        "text": "       D                A",
+        "is_chord": true
+      },
+      {
+        "text": "But oh lord oh where is he?",
+        "is_chord": false
+      },
+      {
+        "text": "     D                 G",
+        "is_chord": true
+      },
+      {
+        "text": "He's gone to seek him another bride",
+        "is_chord": false
+      },
+      {
+        "text": "       D        A7       D",
+        "is_chord": true
+      },
+      {
+        "text": "And he cares no more for me",
+        "is_chord": false
+      },
+      {
+        "text": "-------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "   D                 G",
+        "is_chord": true
+      },
+      {
+        "text": "Oh bury me under the weeping willow, yes",
+        "is_chord": false
+      },
+      {
+        "text": "D                        A    A7",
+        "is_chord": true
+      },
+      {
+        "text": "Under the weeping willow tree",
+        "is_chord": false
+      },
+      {
+        "text": "   D                 G",
+        "is_chord": true
+      },
+      {
+        "text": "So he may know where I am sleeping",
+        "is_chord": false
+      },
+      {
+        "text": "       D            A7       D",
+        "is_chord": true
+      },
+      {
+        "text": "And perhaps he will weep for me",
+        "is_chord": false
+      },
+      {
+        "text": "-------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "   D                 G",
+        "is_chord": true
+      },
+      {
+        "text": "Oh bury me under the violets blue",
+        "is_chord": false
+      },
+      {
+        "text": "   D                A",
+        "is_chord": true
+      },
+      {
+        "text": "To prove my love to him",
+        "is_chord": false
+      },
+      {
+        "text": "     D                G",
+        "is_chord": true
+      },
+      {
+        "text": "Tell him that I would die to save him",
+        "is_chord": false
+      },
+      {
+        "text": "        D      A7          D",
+        "is_chord": true
+      },
+      {
+        "text": "For his love I never could win",
+        "is_chord": false
+      },
+      {
+        "text": "-------------------------------------------",
+        "is_chord": false
+      },
+      {
+        "text": "   D                 G",
+        "is_chord": true
+      },
+      {
+        "text": "Oh bury me under the weeping willow, yes",
+        "is_chord": false
+      },
+      {
+        "text": "D                        A    A7",
+        "is_chord": true
+      },
+      {
+        "text": "Under the weeping willow tree",
+        "is_chord": false
+      },
+      {
+        "text": "   D                 G",
+        "is_chord": true
+      },
+      {
+        "text": "So he may know where I am sleeping",
+        "is_chord": false
+      },
+      {
+        "text": "       D            A7       D",
+        "is_chord": true
+      },
+      {
+        "text": "And perhaps he will weep for me",
+        "is_chord": false
+      }
+    ]
+  },
+  {
     "title": "Tecumseh Valley",
     "artist": "Townes Van Zandt",
     "key": "C",
