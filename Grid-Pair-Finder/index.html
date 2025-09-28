@@ -7,6 +7,8 @@
 	<script>
 		function generatePairs(){
 			var setting = document.getElementById("options").value;
+			var axis1LockStatus = document.getElementById("lock-axis-1").value;
+			var axis2LockStatus = document.getElementById("lock-axis-2").value;
 			$.getJSON("pairs.json", function(json) {
 			    console.log(json); // this will show the info it in firebug console
 			    //Get 4 random values
@@ -29,13 +31,21 @@
 			    //Now lookup what method.
 			    if(setting == "Pair + Pair"){
 			    	//Get A+B from A and B
-			    	document.getElementById("axis-1").innerHTML = json["pairs"][a]["A"] + " vs. " + json["pairs"][a]["B"];
-			    	document.getElementById("axis-2").innerHTML = json["pairs"][b]["A"] + " vs. " + json["pairs"][b]["B"];
+			    	if(axis1LockStatus == "Axis 1: Unlocked"){
+				    	document.getElementById("axis-1").innerHTML = json["pairs"][a]["A"] + " vs. " + json["pairs"][a]["B"];
+				    }
+				    if(axis2LockStatus == "Axis 2: Unlocked"){
+			    		document.getElementById("axis-2").innerHTML = json["pairs"][b]["A"] + " vs. " + json["pairs"][b]["B"];
+			    	}
 			    }
 			    else if (setting == "Node + Node + Node + Node"){
 			    	//Get A+B+C+D from A and B and C and D
-			    	document.getElementById("axis-1").innerHTML = json["pairs"][a]["A"] + " vs. " + json["pairs"][b]["B"];
-			    	document.getElementById("axis-2").innerHTML = json["pairs"][c]["A"] + " vs. " + json["pairs"][d]["B"];
+			    	if(axis1LockStatus == "Axis 1: Unlocked"){
+			    		document.getElementById("axis-1").innerHTML = json["pairs"][a]["A"] + " vs. " + json["pairs"][b]["B"];
+			    	}
+			    	if(axis2LockStatus == "Axis 2: Unlocked"){
+			    		document.getElementById("axis-2").innerHTML = json["pairs"][c]["A"] + " vs. " + json["pairs"][d]["B"];
+			    	}
 			    }
 			    else{
 			    	alert("Invalid setting!");
@@ -48,7 +58,15 @@
 		<option>Pair + Pair</option>
 		<option>Node + Node + Node + Node</option>
 	</select>
-	<button onclick="generatePairs()">Generate!</button>
+	<button onclick="generatePairs()">Generate!</button><br>
+	<select id="lock-axis-1">
+		<option>Axis 1: Unlocked</option>
+		<option>Axis 1: Locked</option>
+	</select>
+	<select id="lock-axis-2">
+		<option>Axis 2: Unlocked</option>
+		<option>Axis 2: Locked</option>
+	</select>
 	<h2>Axis 1:</h2>
 	<p id="axis-1"></p>
 	<h2>Axis 2:</h2>
