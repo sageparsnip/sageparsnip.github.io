@@ -1,0 +1,57 @@
+<html>
+<head>
+	<title>Pair Finder</title>
+	<script src="jquery-3.6.3.min.js"></script>
+</head>
+<body>
+	<script>
+		function generatePairs(){
+			var setting = document.getElementById("options").value;
+			$.getJSON("pairs.json", function(json) {
+			    console.log(json); // this will show the info it in firebug console
+			    //Get 4 random values
+			    var a = 0;
+			    var b = 0;
+			    var c = 0;
+			    var d = 0;
+			    do {
+			    	a = Math.floor(Math.random() * json["pairs"].length);
+			    } while (a == b || a == c || a == d);
+			    do {
+			    	b = Math.floor(Math.random() * json["pairs"].length);
+			    } while (a == b || b == c || b == d);
+			    do {
+			    	c = Math.floor(Math.random() * json["pairs"].length);
+			    } while (a == c || b == c || c == d);
+			    do {
+			    	d = Math.floor(Math.random() * json["pairs"].length);
+			    } while (a == d || b == d || c == d);
+			    //Now lookup what method.
+			    if(setting == "Pair + Pair"){
+			    	//Get A+B from A and B
+			    	document.getElementById("axis-1").innerHTML = json["pairs"][a]["A"] + " vs. " + json["pairs"][a]["B"];
+			    	document.getElementById("axis-2").innerHTML = json["pairs"][b]["A"] + " vs. " + json["pairs"][b]["B"];
+			    }
+			    else if (setting == "Node + Node + Node + Node"){
+			    	//Get A+B+C+D from A and B and C and D
+			    	document.getElementById("axis-1").innerHTML = json["pairs"][a]["A"] + " vs. " + json["pairs"][b]["B"];
+			    	document.getElementById("axis-2").innerHTML = json["pairs"][c]["A"] + " vs. " + json["pairs"][d]["B"];
+			    }
+			    else{
+			    	alert("Invalid setting!");
+			    }
+
+			});
+		}
+	</script>
+	<select id="options">
+		<option>Pair + Pair</option>
+		<option>Node + Node + Node + Node</option>
+	</select>
+	<button onclick="generatePairs()">Generate!</button>
+	<h2>Axis 1:</h2>
+	<p id="axis-1"></p>
+	<h2>Axis 2:</h2>
+	<p id="axis-2"></p>
+</body>
+</html>
