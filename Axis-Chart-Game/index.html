@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Axis Game</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+    display: flex;
+    height: 100vh;
+    margin: 0;
+  }
+
+  #game-container {
+    flex: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid #333;
+  }
+
+  #chart {
+    position: relative;
+    width: 80%;
+    height: 80%;
+    background-color: #2a2a2a;
+    border: 2px solid #555;
+  }
+
+  .axis-line {
+    position: absolute;
+    background-color: #ddd;
+  }
+
+  #x-axis { top: 50%; left: 0; width: 100%; height: 2px; }
+  #y-axis { left: 50%; top: 0; width: 2px; height: 100%; }
+
+  .axis-label {
+    position: absolute;
+    font-weight: bold;
+    font-size: 1em;
+    color: #fff;
+  }
+
+  #top-label { top: 5px; left: 50%; transform: translateX(-50%); }
+  #bottom-label { bottom: 5px; left: 50%; transform: translateX(-50%); }
+  #left-label { top: 50%; left: 5px; transform: translateY(-50%); }
+  #right-label { top: 50%; right: 5px; transform: translateY(-50%); }
+
+  #control-panel {
+    width: 300px;
+    background-color: #262626;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100vh;
+    overflow-y: auto; /* scrollable */
+  }
+
+  input, select, button {
+    padding: 5px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: none;
+  }
+
+  button {
+    cursor: pointer;
+    background-color: #444;
+    color: white;
+  }
+
+  button:hover { background-color: #666; }
+
+  #players { display: flex; flex-direction: column; gap: 5px; }
+  .player-row { display: flex; justify-content: space-between; }
+
+  .marker { position: absolute; border-radius: 50%; width: 10px; height: 10px; transform: translate(-50%, -50%); }
+  .player-label { position: absolute; font-size: 0.8em; color: #fff; transform: translate(-50%, -100%); }
+
+  .scoring-circle {
+    position: absolute;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+  }
+
+  #current-player { font-weight: bold; text-align: center; margin-top: 5px; color: #00bcd4; }
+</style>
+</head>
+<body>
+
+<div id="game-container">
+  <div id="chart">
+    <div id="x-axis" class="axis-line"></div>
+    <div id="y-axis" class="axis-line"></div>
+    <div id="top-label" class="axis-label">Top</div>
+    <div id="bottom-label" class="axis-label">Bottom</div>
+    <div id="left-label" class="axis-label">Left</div>
+    <div id="right-label" class="axis-label">Right</div>
+  </div>
+</div>
+
+<div id="control-panel">
+  <h2>Game Controls</h2>
+
+  <label>Top Axis:</label><input id="topInput" type="text" value="Top">
+  <label>Bottom Axis:</label><input id="bottomInput" type="text" value="Bottom">
+  <label>Left Axis:</label><input id="leftInput" type="text" value="Left">
+  <label>Right Axis:</label><input id="rightInput" type="text" value="Right">
+
+  <h3>Players</h3>
+  <div id="players"></div>
+  <button id="addPlayerBtn">Add Player</button>
+
+  <label>Leader:</label>
+  <select id="leaderSelect"></select>
+
+  <label>Turns per Round:</label><input id="turnsInput" type="number" value="3" min="1">
+
+  <label>Game Mode:</label>
+  <select id="gameModeSelect">
+    <option value="relaxed">Relaxed</option>
+    <option value="normal">Normal</option>
+    <option value="serious">Serious</option>
+  </select>
+
+  <button id="startRoundBtn">Start Round</button>
+  <button id="hidePointBtn" disabled>Hide Point</button>
+  <button id="nextTurnBtn" disabled>Next Turn</button>
+  <button id="nextRoundBtn" disabled>Next Round</button>
+
+  <div id="current-player">Currently Placing: -</div>
+</div>
+
+<script>
+const chart = document.getElementById("chart");
+const addPlayerBtn = document.getElementById("addPlayerBtn");
+const playersDiv = document.getElementById("players");
+const leaderSelect = document.getElementById("leaderSelect");
+const startRoundBtn = document.getElementById("startRoundBtn");
+const hidePointBtn = document.getElementById("hidePointBtn");
+const nextTurnBtn = document.getElementById("nextTurnBtn");
+const nextRoundBtn = document.getElementById("nextRoundBtn");
+const currentPlayerLabel = document.getElementById("current-player");
+const gameModeSelect = document.getElementById("gameModeSelect");
+
+let players = [];
+let leader = null;
+let turns = 0;
+let currentTurn = 0;
+let leaderPoint = null;
+let guesses = [];
+
+// Axis labels
+function updateAxisLabels() {
+  document.getElementById("top-label").textContent = document.getElementById("topInput").value;
+  document.getElementById("bottom-label").textContent = document.getElementById("bottomInput").value;
+  document.getElementById("left-label").textContent = document.getElementById("leftInput").value;
+  document.getElementById("right-label").textContent = document.getElementById("rightInput").value;
+}
+document.querySelectorAll("#topInput, #bottomInput, #leftInput, #rightInput").forEach(input =>
+  input.addEventListener("input", updateAxisLabels)
+);
+
+// Add player
+addPlayerBtn.addEventListener("click", () => {
+  const playerRow = document.createElement("div");
+  playerRow.classList.add("player-row");
+
+  const nameInput = document.createElement("input");
+  nameInput.type = "text";
+  nameInput.placeholder = "Player Name";
+
+  const scoreInput = document.createElement("input");
+  scoreInput.type = "number";
+  scoreInput.value = 0;
+  scoreInput.style.width = "60px";
+
+  nameInput.addEventListener("input", updateLeaderOptions);
+
+  playerRow.append(nameInput, scoreInput);
+  playersDiv.appendChild(playerRow);
+
+  players.push({ nameInput, scoreInput });
+  updateLeaderOptions();
+});
+
+function updateLeaderOptions() {
+  leaderSelect.innerHTML = "";
+  players.forEach((p, i) => {
+    const option = document.createElement("option");
+    option.value = i;
+    option.textContent = p.nameInput.value || `Player ${i + 1}`;
+    leaderSelect.appendChild(option);
+  });
+}
+
+leaderSelect.addEventListener("change", () => {
+  leader = players[leaderSelect.value];
+});
+
+// Start round
+startRoundBtn.addEventListener("click", () => {
+  if (players.length < 2) return alert("Add at least two players!");
+  leader = players[leaderSelect.value];
+  turns = parseInt(document.getElementById("turnsInput").value);
+  currentTurn = 1;
+  guesses = [];
+  chart.querySelectorAll(".marker, .player-label, .scoring-circle").forEach(el => el.remove());
+
+  const x = Math.random() * chart.clientWidth;
+  const y = Math.random() * chart.clientHeight;
+  leaderPoint = { x, y };
+
+  const point = document.createElement("div");
+  point.classList.add("marker");
+  point.style.backgroundColor = "yellow";
+  point.style.left = `${x}px`;
+  point.style.top = `${y}px`;
+  point.id = "leaderPoint";
+  chart.appendChild(point);
+
+  hidePointBtn.disabled = false;
+  startRoundBtn.disabled = true;
+  nextRoundBtn.disabled = true;
+});
+
+// Hide leader point
+hidePointBtn.addEventListener("click", () => {
+  const point = document.getElementById("leaderPoint");
+  if (point) point.remove();
+  hidePointBtn.disabled = true;
+  nextTurnBtn.disabled = false;
+  chart.addEventListener("click", handleBoardClick);
+  updateCurrentPlayerLabel();
+});
+
+// Turn order
+function getTurnPlayers() {
+  const nonLeaderPlayers = players.filter(p => p !== leader);
+  return (currentTurn % 2 === 0) ? [...nonLeaderPlayers].reverse() : nonLeaderPlayers;
+}
+
+function updateCurrentPlayerLabel() {
+  const turnGuesses = guesses.filter(g => g.turn === currentTurn);
+  const turnPlayers = getTurnPlayers();
+  const playerIndex = turnGuesses.length;
+  const nextPlayer = turnPlayers[playerIndex];
+  currentPlayerLabel.textContent = nextPlayer
+    ? `Currently Placing: ${nextPlayer.nameInput.value || "Unnamed"}`
+    : "All guesses placed!";
+}
+
+// Handle board clicks
+function handleBoardClick(e) {
+  if (currentTurn > turns) return;
+
+  const rect = chart.getBoundingClientRect();
+  const x = e.clientX - rect.left;
+  const y = e.clientY - rect.top;
+
+  const turnGuesses = guesses.filter(g => g.turn === currentTurn);
+  const turnPlayers = getTurnPlayers();
+  const playerIndex = turnGuesses.length;
+  const player = turnPlayers[playerIndex];
+  if (!player) return;
+
+  const marker = document.createElement("div");
+  marker.classList.add("marker");
+  marker.style.backgroundColor = "cyan";
+  marker.style.left = `${x}px`;
+  marker.style.top = `${y}px`;
+  chart.appendChild(marker);
+
+  const label = document.createElement("div");
+  label.classList.add("player-label");
+  label.style.left = `${x}px`;
+  label.style.top = `${y - 10}px`;
+  label.textContent = player.nameInput.value || `P${playerIndex + 1}`;
+  chart.appendChild(label);
+
+  guesses.push({ turn: currentTurn, player, x, y });
+  updateCurrentPlayerLabel();
+
+  if (turnGuesses.length + 1 === turnPlayers.length) {
+    setTimeout(() => {
+      alert(`Turn ${currentTurn} complete!`);
+      if (currentTurn < turns) {
+        currentTurn++;
+        updateCurrentPlayerLabel();
+      } else {
+        nextTurnBtn.disabled = true;
+        chart.removeEventListener("click", handleBoardClick);
+        showScoringCircles();
+      }
+    }, 200);
+  }
+}
+
+// Show scoring circles with color
+function showScoringCircles() {
+  let radii;
+  const mode = gameModeSelect.value;
+  if (mode === "relaxed") radii = [50, 100, 150];
+  else if (mode === "normal") radii = [35, 70, 110];
+  else radii = [20, 40, 60]; // serious
+
+  const colors = ["rgba(255,215,0,0.3)", "rgba(192,192,192,0.3)", "rgba(205,127,50,0.3)"]; // gold, silver, bronze
+
+  radii.forEach((r, i) => {
+    const circle = document.createElement("div");
+    circle.classList.add("scoring-circle");
+    circle.style.width = `${r*2}px`;
+    circle.style.height = `${r*2}px`;
+    circle.style.left = `${leaderPoint.x}px`;
+    circle.style.top = `${leaderPoint.y}px`;
+    circle.style.backgroundColor = colors[i];
+    chart.appendChild(circle);
+  });
+
+  const leaderMarker = document.createElement("div");
+  leaderMarker.classList.add("marker");
+  leaderMarker.style.backgroundColor = "yellow";
+  leaderMarker.style.left = `${leaderPoint.x}px`;
+  leaderMarker.style.top = `${leaderPoint.y}px`;
+  chart.appendChild(leaderMarker);
+
+  calculateScores(radii);
+  nextRoundBtn.disabled = false;
+}
+
+
+  function calculateScores() {
+    const radii = [50, 100, 150];
+    const points = [5, 3, 1];
+    let totalPoints = 0;
+    let scoringSummary = "Round Results:\n";
+
+    guesses.forEach(g => {
+      const dx = g.x - leaderPoint.x;
+      const dy = g.y - leaderPoint.y;
+      const dist = Math.sqrt(dx * dx + dy * dy);
+      let score = 0;
+      for (let i = 0; i < radii.length; i++) {
+        if (dist <= radii[i]) {
+          score = points[i];
+          break;
+        }
+      }
+      g.player.scoreInput.value = parseInt(g.player.scoreInput.value) + score;
+      totalPoints += score;
+      scoringSummary += `${g.player.nameInput.value || "Unnamed"}: +${score}\n`;
+    });
+
+    const leaderScore = Math.floor(totalPoints / (players.length - 1));
+    leader.scoreInput.value = parseInt(leader.scoreInput.value) + leaderScore;
+    scoringSummary += `${leader.nameInput.value || "Leader"} (leader): +${leaderScore}\n`;
+
+    alert(scoringSummary);
+  }
+
+  nextRoundBtn.addEventListener("click", () => {
+    chart.querySelectorAll(".marker, .player-label, .scoring-circle").forEach(el => el.remove());
+    leaderPoint = null;
+    guesses = [];
+    currentTurn = 0;
+    hidePointBtn.disabled = true;
+    nextTurnBtn.disabled = true;
+    startRoundBtn.disabled = false;
+    nextRoundBtn.disabled = true;
+    currentPlayerLabel.textContent = "Currently Placing: -";
+
+    // Rotate leader
+    const currentIndex = leaderSelect.selectedIndex;
+    const nextIndex = (currentIndex + 1) % players.length;
+    leaderSelect.selectedIndex = nextIndex;
+    leader = players[nextIndex];
+  });
+</script>
+</body>
+</html>
