@@ -120,6 +120,10 @@
 
   <label>Leader:</label>
   <select id="leaderSelect"></select>
+  <label>
+  <input type="checkbox" id="leaderSelectsPoint"> Leader selects starting point
+  </label>
+
 
   <label>Turns per Round:</label><input id="turnsInput" type="number" value="3" min="1">
 
@@ -205,6 +209,8 @@ leaderSelect.addEventListener("change", () => {
   leader = players[leaderSelect.value];
 });
 
+const leaderSelectsPointCheckbox = document.getElementById("leaderSelectsPoint");
+
 // Start round
 startRoundBtn.addEventListener("click", () => {
   if (players.length < 2) return alert("Add at least two players!");
@@ -214,10 +220,35 @@ startRoundBtn.addEventListener("click", () => {
   guesses = [];
   chart.querySelectorAll(".marker, .player-label, .scoring-circle").forEach(el => el.remove());
 
-  const x = Math.random() * chart.clientWidth;
-  const y = Math.random() * chart.clientHeight;
-  leaderPoint = { x, y };
+  hidePointBtn.disabled = true;
+  nextTurnBtn.disabled = false;
+  startRoundBtn.disabled = true;
+  nextRoundBtn.disabled = true;
 
+  if (leaderSelectsPointCheckbox.checked) {
+    currentPlayerLabel.textContent = `${leader.nameInput.value || "Leader"}, click to place starting point`;
+    chart.addEventListener("click", selectLeaderPointOnce);
+  } else {
+    // Random point
+    const x = Math.random() * chart.clientWidth;
+    const y = Math.random() * chart.clientHeight;
+    setLeaderPoint(x, y);
+    hidePointBtn.disabled = false;
+  }
+});
+
+function selectLeaderPointOnce(e) {
+  const rect = chart.getBoundingClientRect();
+  const x = e.clientX - rect.left;
+  const y = e.clientY - rect.top;
+  setLeaderPoint(x, y);
+  chart.removeEventListener("click", selectLeaderPointOnce);
+  hidePointBtn.disabled = false;
+  currentPlayerLabel.textContent = "Leader point placed, hide it to continue.";
+}
+
+function setLeaderPoint(x, y) {
+  leaderPoint = { x, y };
   const point = document.createElement("div");
   point.classList.add("marker");
   point.style.backgroundColor = "yellow";
@@ -225,11 +256,7 @@ startRoundBtn.addEventListener("click", () => {
   point.style.top = `${y}px`;
   point.id = "leaderPoint";
   chart.appendChild(point);
-
-  hidePointBtn.disabled = false;
-  startRoundBtn.disabled = true;
-  nextRoundBtn.disabled = true;
-});
+}
 
 // Hide leader point
 hidePointBtn.addEventListener("click", () => {
