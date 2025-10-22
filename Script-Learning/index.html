@@ -1,0 +1,80 @@
+<html>
+	<head>
+		<title>Sage Parsnip's Home Page </title>
+		<link rel="stylesheet" href="./bootstrap.css">
+		<script src="./jquery-3.6.3.min.js" type="text/javascript"></script>
+		<link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+		<style>
+			.container{
+				width: 80%;
+				padding-top: 1rem;
+			}
+		</style>
+	</head>
+	<body class="bg-dark text-light">
+		<div class="container align-items-center">
+			<h3>Learn Your Lines!</h3>
+			<select id="script-select" onclick="loadScene()"></select>
+			<div class="container" id="lineContainer">
+				<div class="row">
+					<div class="col-3"><b>Speaker:</b></div>
+					<div class="col-9"><b>Line:</b></div>
+				</div>
+			</div>
+			<button onclick="nextLine()">Next Line</button>
+			<script>
+				let lineNo = 0;
+				let i=0,found=0;
+				onload = (event) => {
+					$.getJSON("scripts.json", function(json) {
+						json.Scenes.forEach(scene => {
+							document.getElementById("script-select").insertAdjacentHTML("beforeend", `<option value="${scene["Scene"]}">${scene["Scene"]}</option>`);
+						});
+					})
+				}
+				function nextLine(){
+					$.getJSON("scripts.json", function(json) {
+							document.getElementById("lineContainer").insertAdjacentHTML("beforeend", `
+								<div class="row">
+									<div class="col-3"><b>${json.Scenes[i].Lines[lineNo].Speaker}</b></div>
+									<div class="col-9">${json.Scenes[i].Lines[lineNo].Line}</div>
+								</div>
+							`);
+							lineNo++;
+					});
+				}
+
+				function loadScene(){
+					var sceneName = document.getElementById("script-select").options[document.getElementById("script-select").selectedIndex].text;
+					$.getJSON("scripts.json", function(json) {
+						//Go to correct scene in JSON
+						i=0;
+						found=0;
+						while(i < json.Scenes.length && found == 0){
+							if(json.Scenes[i].Scene == sceneName){
+								found=1;
+							}
+							else{
+								i++;
+							}
+						}
+						/**
+						if(json.Scenes[i].Lines.length > 0){
+							//Here we actually display all the text.
+							json.Scenes[i].Lines.forEach(line => {
+								document.getElementById("lineContainer").insertAdjacentHTML("beforeend", `
+									<div class="row">
+										<div class="col-3"><b>${line.Speaker}</b></div>
+										<div class="col-9">${line.Line}</div>
+									</div>
+								`);
+							});
+						}
+						**/
+					})
+				}
+			</script>
+			<hr>
+		</div>
+	</body>
+</html>
