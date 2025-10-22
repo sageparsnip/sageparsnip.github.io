@@ -19,8 +19,12 @@ function createTrackerPane(){
 				<th scope="col">Conditions</th>
 				<th scope="col">HP</th>
 				<th scope="col">AC</th>
+				<th scope="col">Up</th>
+				<th scope="col">Dn</th>
 			</tr>
-			<thead>
+			</thead>
+			<tbody id="initiativeBody">
+			</tbody>
 		</table>
 		<div class="d-flex justify-content-around">
 			<button id="addUndeclaredInitiative" onclick="" class="btn btn-outline-secondary ml-auto" title="Add a non-actor to the initiative order">
