@@ -1,71 +1,109 @@
 <html>
 	<head>
 		<title>Sage Parsnip's Home Page </title>
-		<link rel="stylesheet" href="styles.css">
+		<link rel="stylesheet" href="BT-DND/scripts/bootstrap.css">
+		<link rel="javascript" href="BT-DND/scripts/jquery-3.6.3.min.js">
 		<link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+		<style>
+			.container{
+				width: 80%;
+				padding-top: 1rem;
+			}
+		</style>
 	</head>
-	<body>
-		<h1>Sage Parsnip's Home Page </h1>
-		<p>
-			Hey there! This is the homepage for my various Github-hosted web projects. 
-			<br>
-			Below, you'll find a table with a list of my ongoing projects - if any of them are of interest to you, please check them out! 
-			<br>
-			If you do end up checking something out and see room for improvement, please feel free to send me a message on Github and I'll take a look!
-		</p>
-		<table>
-			<tr>
-				<td><h2>Project Name </h2></td>
-				<td><h2>Description</h2></td>
-			</tr>
-			<tr>
-				<td><a href="PF2e-Quick-Reference/index.html">PF2e Quick Reference Sheet</a></td>
-				<td>A webpage showing a brief summary of all of the actions that can be taken in Pathfinder 2nd Edition, as well as all conditions, with full descriptions available on clicking an item name.</td>
-			</tr>
-			<tr>
-				<td><a href="DND-5e-Data-Silo/index.html">DND 5e Data Silo [In Progress]</a></td>
-				<td>A webpage through which you can define characters and monsters, import and export that data to/from JSON format, and build PVP drafts based on the characters you set up!</td>
-			</tr>
-			<tr>
-				<td><a href="Initiative-Tracker/index.html">Initiative Tracker [In Progress]</a></td>
-				<td>A webpage through which you can define actors, import and export that data to/from JSON format, and track initiatives. Aims to be as responsive and quick to use as possible.</td>
-			</tr>
-			<tr>
-				<td><a href="Driving-Test-Prep/index.html">Driving Test Prep Page [In Progress]</a></td>
-				<td>A webpage to test knowledge of practical questions for your Irish driving test! Should show the info of the questions you might get asked before taking your practical test, including road signs. </td>
-			</tr>
-			<tr>
-				<td><a href="Home-Decor-List/index.html">Home Decor List</a></td>
-				<td>List of furnishings I'm thinking about buying; not for public use</td>
-			</tr>
-			<tr>
-				<td><a href="Home-Decor-Map/index.html">Home Decor Map</a></td>
-				<td>Map-based approach to making a furnishings list to focus the mind</td>
-			</tr>
-			<tr>
-				<td><a href="BT-DND/index.html">Soggy DND Data Infodump</a></td>
-				<td>Repository for various things specific to the SOGGY DND campaign; if you aren't a player in that campaign, you won't find much of interest here.</td>
-			</tr>
-			<tr>
-				<td><a href="Play-Suggestions/index.html">Play Suggestions</a></td>
-				<td>List of various plays that I would recommend fellow Insight members put to stage</td>
-			</tr>
-			<tr>
-				<td><a href="Ferelden-Map/index.html">Map of Ferelden</a></td>
-				<td>Interactable map of Ferelden with key political figures marked</td>
-			</tr>
-			<tr>
-				<td><a href="Guitar-Chords/index.html">Guitar Chord Repo</a></td>
-				<td>Repository of guitar chords that I like and use for playing</td>
-			</tr>
-			<tr>
-				<td><a href="Gym-Links/index.html">Gym Links [BT Only]</a></td>
-				<td>Don't worry about it</td>
-			</tr>
-			<tr>
-				<td><a href="Axis-Chart-Game/index.html">Axis Chart Game</a></td>
-				<td>All credit to Chance for the idea for this game. <br>Define axes, then name characters that try to pick a random point on those axes to score points!</td>
-			</tr>
-		</table>
+	<body class="bg-dark text-light">
+		<div class="container align-items-center">
+			<h1 style="text-align: center;">Sage Parsnip's Home Page</h1>
+			<p style="text-align: center;padding-top: 1rem;">
+				Hey there! This is the homepage for my various Github-hosted web projects. <br>
+				I'm hopeful you'll find something useful from my ongoing projects.<br>
+				Please note that I am a hobbyist/enthusiast web designer; I make no guarantees that any of the below will be actively updated or that I'll respond to pull requests.<br>
+				Everything I make is licensed under the general MIT license, so feel free to take anything here for your own purposes.
+			</p>
+			<div class="container align-items-center" id="cardContainer">
+			</div>
+			<script>
+				var containerDiv = document.getElementById("cardContainer");
+				let i = 0;
+				var cards = {
+					"cards":[
+						{
+							"page":"PF2e Quick Reference Sheet",
+							"description":"A webpage showing a brief summary of all of the actions that can be taken in Pathfinder 2nd Edition, as well as all conditions, with full descriptions available on clicking an item name.",
+							"link":"PF2e-Quick-Reference/index.html"
+						},
+						{
+							"page":"DND 5e Data Silo",
+							"description":"A webpage through which you can define characters and monsters, import and export that data to/from JSON format, and build PVP drafts based on the characters you set up!",
+							"link":"DND-5e-Data-Silo/index.html"
+						},
+						{
+							"page":"Guitar Chord Repo",
+							"description":"Repository of guitar chords that I like and use for playing",
+							"link":"Guitar-Chords/index.html"
+						},
+						{
+							"page":"Initiative Tracker",
+							"description":"A webpage through which you can define actors, import and export that data to/from JSON format, and track initiatives. Aims to be as responsive and quick to use as possible.",
+							"link":"Initiative-Tracker/index.html"
+						},
+						{
+							"page":"Play Suggestions",
+							"description":"List of various plays that I would recommend fellow Insight members put to stage",
+							"link":"Play-Suggestions/index.html"
+						},
+						{
+							"page":"Home Decor Map",
+							"description":"Map-based approach to making a furnishings list to focus the mind",
+							"link":"Home-Decor-Map/index.html"
+						},
+						{
+							"page":"Soggy DND Data Infodump",
+							"description":"Repository for various things specific to the SOGGY DND campaign; if you aren't a player in that campaign, you won't find much of interest here.",
+							"link":"BT-DND/index.html"
+						},
+						{
+							"page":"Map of Ferelden",
+							"description":"Interactable map of Ferelden with key political figures marked",
+							"link":"Ferelden-Map/index.html"
+						},
+						{
+							"page":"Axis Chart Game",
+							"description":"All credit to Chance for the idea for this game. <br>Define axes, then name characters that try to pick a random point on those axes to score points!",
+							"link":"Axis-Chart-Game/index.html"
+						},
+						{
+							"page":"Driving Test Prep Page",
+							"description":"A webpage to test knowledge of practical questions for your Irish driving test! Should show the info of the questions you might get asked before taking your practical test, including road signs.",
+							"link":"Driving-Test-Prep/index.html"
+						},
+						{
+							"page":"Gym Links [BT Only]",
+							"description":"Don't worry about it",
+							"link":"Gym-Links/index.html"
+						}
+					]
+				}
+				cards["cards"].forEach(card => {
+					if (i % 2 == 0){
+						//Need to add a new row div
+						containerDiv.innerHTML += '<div class="row"></div>';
+					}
+					//Get bottom-most row
+					let currentRow = containerDiv.childNodes[containerDiv.childNodes.length - 1];
+					//Add card
+					currentRow.innerHTML += `
+						<div class="col-6">
+							<h3 style="text-align:center;"><a href="${card.link}">${card.page}</a></h3>
+							<p style="text-align:center;">${card.description}</p>
+						</div>
+					`;
+				i++;
+				});
+			</script>
+			<!--
+			
+			-->
+		</div>
 	</body>
 </html>
