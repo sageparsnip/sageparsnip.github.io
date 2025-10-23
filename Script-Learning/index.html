@@ -12,6 +12,7 @@
 		</style>
 	</head>
 	<body class="bg-dark text-light">
+		<button onclick="nextLine()" style="position:fixed;top: 16rem; left:2rem">Next Line</button>	
 		<div class="container align-items-center">
 			<h3>Learn Your Lines!</h3>
 			<select id="script-select" onclick="loadScene()"></select>
@@ -21,7 +22,6 @@
 					<div class="col-9"><b>Line:</b></div>
 				</div>
 			</div>
-			<button onclick="nextLine()">Next Line</button>
 			<script>
 				let lineNo = 0;
 				let i=0,found=0;
