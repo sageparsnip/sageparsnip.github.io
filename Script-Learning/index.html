@@ -47,6 +47,7 @@
 								</div>
 							`);
 							lineNo++;
+							window.scrollTo(0, document.body.scrollHeight);
 						}
 						else{
 							//Speaker has just changed; print the speaker's name if the flag is 0, line if 1
@@ -60,6 +61,7 @@
 									</div>
 								`);
 								lineNo++;
+								window.scrollTo(0, document.body.scrollHeight);
 							}
 							else{
 								speaking = true;
@@ -70,6 +72,7 @@
 										<div class="col-9"></div>
 									</div>
 								`);
+								window.scrollTo(0, document.body.scrollHeight);
 							}
 						}
 					});
@@ -86,6 +89,7 @@
 					lineDelete.remove();
 					var lineDelete = container.childNodes[container.childNodes.length - 2];
 					lineDelete.remove();
+					window.scrollTo(0, document.body.scrollHeight);
 				}
 
 				function loadScene(){
