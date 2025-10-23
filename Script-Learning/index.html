@@ -12,7 +12,8 @@
 		</style>
 	</head>
 	<body class="bg-dark text-light">
-		<button onclick="nextLine()" style="position:fixed;top: 16rem; left:2rem">Next Line</button>	
+		<button onclick="nextLine()" style="position:fixed;top: 16rem; left:2rem">Next Line</button>
+		<button onclick="previousLine()" style="position:fixed;top: 18rem; left:2rem">Previous Line</button>	
 		<div class="container align-items-center">
 			<h3>Learn Your Lines!</h3>
 			<select id="script-select" onclick="loadScene()"></select>
@@ -25,7 +26,8 @@
 			<script>
 				let lineNo = 0;
 				let i=0,found=0;
-					let speaking = false;
+				let flip=false;
+				let speaking = false;
 				onload = (event) => {
 					$.getJSON("scripts.json", function(json) {
 						json.Scenes.forEach(scene => {
@@ -34,7 +36,7 @@
 					})
 				}
 				function nextLine(){
-					console.log("LineNo: " + lineNo + ", speaking: " + speaking);
+					//console.log("LineNo: " + lineNo + ", speaking: " + speaking);
 					$.getJSON("scripts.json", function(json) {
 						if(json.Scenes[i].Lines[lineNo].Speaker.length == 0){
 							//Previous speaker continuing; print as normal
@@ -73,7 +75,21 @@
 					});
 				}
 
+				function previousLine(){
+					//find last row in the container and erase it.
+					var container = document.getElementById("lineContainer");
+					var lineDelete = container.childNodes[container.childNodes.length - 2];
+					if(String(lineDelete.childNodes[1].innerHTML).length > 0)
+						lineNo--;
+					lineDelete.remove();
+					var lineDelete = container.childNodes[container.childNodes.length - 2];
+					lineDelete.remove();
+					var lineDelete = container.childNodes[container.childNodes.length - 2];
+					lineDelete.remove();
+				}
+
 				function loadScene(){
+					lineNo = 0;
 					var sceneName = document.getElementById("script-select").options[document.getElementById("script-select").selectedIndex].text;
 					$.getJSON("scripts.json", function(json) {
 						//Go to correct scene in JSON
