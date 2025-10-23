@@ -25,6 +25,7 @@
 			<script>
 				let lineNo = 0;
 				let i=0,found=0;
+					let speaking = false;
 				onload = (event) => {
 					$.getJSON("scripts.json", function(json) {
 						json.Scenes.forEach(scene => {
@@ -33,7 +34,10 @@
 					})
 				}
 				function nextLine(){
+					console.log("LineNo: " + lineNo + ", speaking: " + speaking);
 					$.getJSON("scripts.json", function(json) {
+						if(json.Scenes[i].Lines[lineNo].Speaker.length == 0){
+							//Previous speaker continuing; print as normal
 							document.getElementById("lineContainer").insertAdjacentHTML("beforeend", `
 								<div class="row">
 									<div class="col-3"><b>${json.Scenes[i].Lines[lineNo].Speaker}</b></div>
@@ -41,6 +45,31 @@
 								</div>
 							`);
 							lineNo++;
+						}
+						else{
+							//Speaker has just changed; print the speaker's name if the flag is 0, line if 1
+							if(speaking){
+								speaking = false;
+								//Speaker's name printed last run; print line, and increment LineNo
+								document.getElementById("lineContainer").insertAdjacentHTML("beforeend", `
+									<div class="row">
+										<div class="col-3"></div>
+										<div class="col-9">${json.Scenes[i].Lines[lineNo].Line}</div>
+									</div>
+								`);
+								lineNo++;
+							}
+							else{
+								speaking = true;
+								//Just print the speaker's name
+								document.getElementById("lineContainer").insertAdjacentHTML("beforeend", `
+									<div class="row">
+										<div class="col-3"><b>${json.Scenes[i].Lines[lineNo].Speaker}</b></div>
+										<div class="col-9"></div>
+									</div>
+								`);
+							}
+						}
 					});
 				}
 
