@@ -1,0 +1,50 @@
+{
+	"plays":[
+		{
+			"title":"The Insanity of Mary Girard",
+			"director":"Joe Canavan",
+			"playwright":"Lanie Robertson",
+			"copyright":"presented with kind permission from Concord Theatricals",
+			"synopsis":"The real-life story of a Philadelphia woman who spent the last 25 years of her life in a mental institution. In 1790, Mary Girard is committed to an asylum. After she became pregnant by another man, her husband had her declared legally insane. Now, she sits in a chair as the \"furies\" dance around and impersonate people from her past.",
+			"icon":"Mary-Girard.png",
+			"cast":[
+				{"name":"Fran O'Connor","role":"Mary Girard"},
+				{"name":"Pete Butler","role":"Fury/Warder"},
+				{"name":"Katie Noone","role":"Fury/Mrs. Lum"},
+				{"name":"Chris Fenlon","role":"Fury/Stephen Girard"},
+				{"name":"Lisa Siddle","role":"Fury/Polly Kenton"},
+				{"name":"Abina Guinan","role":"Fury/Mrs. Hatcher"},
+				{"name":"Thandi Saul","role":"Fury"},
+				{"name":"Bob Tysall","role":"Mr. Phillips"}
+			]
+		},
+		{
+			"title":"There's Always Tomorrow",
+			"director":"Joe Bergin",
+			"playwright":"Joe Bergin",
+			"copyright":"presented with kind permission from the playwright",
+			"synopsis":"Set on a park bench in a small Irish Town in August 2023. In “There's Always Tomorrow”, a chance meeting between a young woman and an older man on a park bench may not be all that it seems. Why has Sarah come here and what is she looking for? As she attempts to uncover the truth, is she fully prepared for what she might find?",
+			"icon":"Always-Tomorrow.png",
+			"cast":[
+				{"name":"Brendan O'Sullivan","role":"Peter"},
+				{"name":"Madeleine Martin","role":"Sarah"},
+				{"name":"Bob Tysall","role":"Ken"}
+			]
+		},
+		{
+			"title":"A Little Box Of Oblivion",
+			"director":"Rachel Butler",
+			"playwright":"Stephen Bean",
+			"copyright":"presented with kind permission from StageScripts",
+			"synopsis":"Set in a different park! “A Little Box Of Oblivion” sees a man's peaceful afternoon in the park gets turned on its head when a woman makes a simple request - keep an eye on this box while she's gone but do not touch, move, or disturb the box in any way. What could possibly be inside the mysterious box? Chaos ensues when he is joined in his wondering by a trio of strangers, each with a more outlandish theory than the last!",
+			"icon":"Little-Box.png",
+			"cast":[
+				{"name":"Cathal Hayes","role":"Cool"},
+				{"name":"Dominique Gaydon-Pitts","role":"Woman"},
+				{"name":"Leanne Reilly","role":"Neuro"},
+				{"name":"Joy Murphy","role":"Doom"},
+				{"name":"Michelle O'Dea","role":"Dick"}
+			]
+		}
+	]
+}
