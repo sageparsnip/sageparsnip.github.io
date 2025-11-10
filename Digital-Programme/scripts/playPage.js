@@ -4,8 +4,8 @@ function showPlayPage(){
 		document.getElementById("main-container").innerHTML = `
 			<div class="row" id="header-row">
 				<div class="col-12" style="text-align: center;">
-					<h3 style="font-size: 2rem;" onclick="showMainPage()"><u>Insight Theatre Presents:</u></h3>
-					<h2 style="font-size: 3rem;" onclick="showMainPage()">Three One-Act Plays</h2>
+					<h3 onclick="showMainPage()"><u>Insight Theatre Presents:</u></h3>
+					<h2 onclick="showMainPage()">Three One-Act Plays</h2>
 				</div>
 			</div>
 			<div class="row" id="plays-row" style="justify-content:center;padding:1rem">
@@ -17,15 +17,15 @@ function showPlayPage(){
 			//console.log(play);
 			divContent += `
 				<div class="row" style="background-color: darkcyan; border-radius: 12px; max-width: 90%;padding:1rem">
-					<div class="col-4">
+					<div class="col-7">
 						<img src="assets\\${play.icon}" style="max-width:100%">
 					</div>
-					<div class="col-8">
+					<div class="col-5" style="display:grid; place-items:center;text-align:center">
 						<div class="row">
-							<b>${play.title}</b>
-							<p>${play.synopsis}</p>
+							<b style="font-size:120%">${play.title}</b>
 						</div>
 					</div>
+					<p style="text-align:justify">${play.synopsis}</p>
 				</div>
 				<div style="height:20px"></div>
 				
