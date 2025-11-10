@@ -90,7 +90,7 @@ function getActorModal(clicker){
 				})
 			}
 			if(!found){
-				i++;
+				play++;
 			}
 		}
 		modalHeader.innerHTML = `
