@@ -15,26 +15,29 @@ function showPlayPage(){
 		let divContent = '';
 		data["plays"].forEach(play =>{
 			//console.log(play);
-			divContent += `
-				<div class="row" style="background-color: darkcyan; border-radius: 12px; max-width: 90%;padding:1rem">
-					<div class="col-7">
-						<img src="assets\\${play.icon}" style="max-width:100%">
-					</div>
-					<div class="col-5" style="display:grid; place-items:center;text-align:center">
-						<div class="row">
-							<b style="font-size:120%">${play.title}</b>
+			if(play.title!="Crew"){
+				divContent += `
+					<div class="row" style="background-color: darkcyan; border-radius: 12px; max-width: 90%;padding:1rem">
+						<div class="col-7">
+							<img src="assets\\${play.icon}" style="max-width:100%">
 						</div>
+						<div class="col-5" style="display:grid; place-items:center;text-align:center">
+							<div class="row">
+								<b style="font-size:120%">${play.title}</b>
+							</div>
+						</div>
+						<p style="text-align:justify">${play.synopsis}</p>
 					</div>
-					<p style="text-align:justify">${play.synopsis}</p>
-				</div>
-				<div style="height:20px"></div>
-				
-			`;
+					<div style="height:20px"></div>
+					
+				`;
+			};
 		})
-		divContent += '<b style="text-align:center" onclick="showCastPage()">Click here to view the casts and crew!</b>';
-		divContent += '<b style="text-align:center" onclick="showMainPage()">Click here to return to the cover page</b>';
+		divContent += '<h4 style="text-align:center" onclick="showCastPage()">Click here to view the casts and crew!</h4>';
+		divContent += '<h4 style="text-align:center" onclick="showMainPage()">Click here to return to the cover page</h4>';
 		document.getElementById("plays-row").innerHTML = divContent;
-	})
+		window.scrollTo(0,0);
+	});
 	
 
 }

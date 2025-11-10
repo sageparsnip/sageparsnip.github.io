@@ -30,6 +30,7 @@ function showMainPage(){
 			</div>
 		</div>
 	`;
+	window.scrollTo(0,0);
 }
 
 $(document).ready(function() {

@@ -3,48 +3,71 @@
 		{
 			"title":"The Insanity of Mary Girard",
 			"director":"Joe Canavan",
+			"directorBio":"Joe Canavan (director) will be well known as the man behind the lighting / sound desk and is a pretty good hand at set design too! Joe has directed many plays over the years; more recently “The Quiet Land”. Others include “Someone Who'll Watch Over Me”, “Shadow of a Gunman”, “Unforgiven”, “Spectre”, “The Hebrew Lesson”,“Ghost Story” and “Life Sentence”. He also directed Samuel Beckets “Play” which qualified for the one act all Ireland finals in 2012. ",
 			"playwright":"Lanie Robertson",
 			"copyright":"presented with kind permission from Concord Theatricals",
 			"synopsis":"The real-life story of a Philadelphia woman who spent the last 25 years of her life in a mental institution. In 1790, Mary Girard is committed to an asylum. After she became pregnant by another man, her husband had her declared legally insane. Now, she sits in a chair as the \"furies\" dance around and impersonate people from her past.",
-			"icon":"Mary-Girard.png",
+			"icon":"Mary-Girard-2.jpg",
+			"background":"darkred",
 			"cast":[
-				{"name":"Fran O'Connor","role":"Mary Girard"},
-				{"name":"Pete Butler","role":"Fury/Warder"},
-				{"name":"Katie Noone","role":"Fury/Mrs. Lum"},
-				{"name":"Chris Fenlon","role":"Fury/Stephen Girard"},
-				{"name":"Lisa Siddle","role":"Fury/Polly Kenton"},
-				{"name":"Abina Guinan","role":"Fury/Mrs. Hatcher"},
-				{"name":"Thandi Saul","role":"Fury"},
-				{"name":"Bob Tysall","role":"Mr. Phillips"}
+				{"name":"Fran O'Connor","role":"Mary Girard", "bio":"Fran O'Connor began with Celbridge Youth Drama and then Wholly Idle where she appeared as Nora in “A Dolls House” and Mrs Higgins in “Pygmalion”. She made her debut with Insight in “Standing on Ceremony” and went on to play Elizabeth in “The Crucible” and Anne in “Bronte”. She last appeared as Maggie in “Dublin by Lamplight”"},
+				{"name":"Pete Butler","role":"Fury/Warder", "bio":"Pete Butler, a long standing member of Insight has both acted in and directed many plays, notably “Translations”, “Trad”, “No Romance” and was last seen in “The Risen People” and “The Crucible”. He was mime and movement director for “Dublin by Lamplight” and had to step out on stage when some of our cast members were incapacitated. Pete is also heavily involved with Explore Youth Theatre based in Leixlip. "},
+				{"name":"Katie Noone","role":"Fury/Mrs. Lum", "bio":"Katie Noone first appeared in the hugely successful “Alone it Stands” and was also seen as part of the ensemble in “Our Town” and has directed “Tarry Flynn” in 2023. She is also an active member of An Nuadha Players starring in many of their pantmimes. She directed the one act play “Blessed be the fruit” for them at our one act festival in 2019. In 2021, she toured the one act drama circuit with Lucan Drama’s play “Contractions”"},
+				{"name":"Chris Fenlon","role":"Fury/Stephen Girard", "bio":"Chris Fenlon last appeared in “Dublin by Lamplight”. He began with Celbridge Youth Drama and Wholly Idle appearing in “A Dolls House”, “Pygmalion” and “Stags and Hens” He has also appeared in “The Risen People”, “Standing on Ceremony”, “Babels in Arms”, “Bronte”, “The Death of Me”, “Philidelphia”, “Our Town”, “Actors Nightmare” and “Don’t Dress for Dinner”"},
+				{"name":"Lisa Siddle","role":"Fury/Polly Kenton", "bio":"Lisa Siddle made her Insight and indeed her stage debut playing Suzanne in “Don’t Dress for Dinner”. Lisa hails from The Lake District in the UK and has lived in Ireland for 14 years. She decided to take up acting a few years back and completed 30 weeks of classes at the Gaiety School of Acting. "},
+				{"name":"Abina Guinan","role":"Fury/Mrs. Hatcher", "bio":"Abina Guinan hails from Birr, Co. Offaly and this is her sixth appearance with Insight. She was last seen as part of the ensemble in “Dublin by Lamplight. Other roles include Suzette in “Don’t Dress for Dinner”, Ellen in “The Actors Nightmare”, Rebecca in “Our Town” and Eusebius in “Tarry Flynn”"},
+				{"name":"Thandi Saul","role":"Fury", "bio":"Thandi Saul hails from Johannesburg in South Africa. She was last seen as Ruby in “Ruby of Elsinore” back in 2018. She made her Insight debut as Tituba in “The Crucible” in 2017 and went on to play Bertha in “Bronte” that same year. "},
+				{"name":"Bob Tysall","role":"Mr. Phillips", "bio":"Bob Tysall last played Jimmy in “Dublin by Lamplight”. He also appeared as Tommy in “Tarry Flynn”, Norris in “Spectre”, George in “The Actors Nightmare” and Tom in “Philidelphia” He has also done panto with An Nuadha appearing in many of their shows including “Jack & the Beanstalk” and more recently as Bob Cratchit in “A Christmas Carol”. He has also acted with the Roscian Players, Maynooth and Clodiagh Players in Laois."}
 			]
 		},
 		{
 			"title":"There's Always Tomorrow",
 			"director":"Joe Bergin",
+			"directorBio":"Joe Bergin (director) joined in 2013 and has played in “Translations”, “The Hunt for Red Wille”, “The Crucible” “Philidelphia” and was last seen as the professor in “Our Town” He has directed many plays for Insight including “The Risen People” in 2016. Joe is also a member of Bradan Players and has appeared in many of their productions over the years. ",
 			"playwright":"Joe Bergin",
 			"copyright":"presented with kind permission from the playwright",
 			"synopsis":"Set on a park bench in a small Irish Town in August 2023. In “There's Always Tomorrow”, a chance meeting between a young woman and an older man on a park bench may not be all that it seems. Why has Sarah come here and what is she looking for? As she attempts to uncover the truth, is she fully prepared for what she might find?",
-			"icon":"Always-Tomorrow.png",
+			"icon":"Always-Tomorrow-2.png",
+			"background":"darkgoldenrod",
 			"cast":[
-				{"name":"Brendan O'Sullivan","role":"Peter"},
-				{"name":"Madeleine Martin","role":"Sarah"},
-				{"name":"Bob Tysall","role":"Ken"}
+				{"name":"Brendan O'Sullivan","role":"Peter", "bio":"Brendan O'Sullivan is well known as actor and director. Recent roles include Eamonn in “The Quiet Land”, Uncle Petey in “Tarry Flynn” and Doc Gibbs in “Our Town”. Other plays include “A Galway Girl”, “The Weir”, “No Romance”, “The Risen People”, and “All my Sons”. In recent years, he has directed “The Crucible”, “Philidelphia here I Come” and “Centipede”."},
+				{"name":"Madeleine Martin","role":"Sarah", "bio":"Madeleine Martin made her Insight debut in 2006 as Josie in Marina Carr's “By the Bog of Cats”. In 2017, she returned to Insight as Mary Warren in “The Crucible”. She has since performed with Bow Productions in “Car Show”, as Sophie in “Breathing Water” by Raymond Scannell, and “Legacy” by Reidin Dunne. Welcome back to Insight Madeleine!"},
+				{"name":"Bob Tysall","role":"Ken", "bio":"Bob Tysall last played Jimmy in “Dublin by Lamplight”. He also appeared as Tommy in “Tarry Flynn”, Norris in “Spectre”, George in “The Actors Nightmare” and Tom in “Philidelphia” He has also done panto with An Nuadha appearing in many of their shows including “Jack & the Beanstalk” and more recently as Bob Cratchit in “A Christmas Carol”. He has also acted with the Roscian Players, Maynooth and Clodiagh Players in Laois."}
 			]
 		},
 		{
 			"title":"A Little Box Of Oblivion",
 			"director":"Rachel Butler",
+			"directorBio":"Rachel Butler makes her debut as director. She first appeared with us in 2024 as Ger in “Bar and Ger” and recently in the ensemble in “Dublin by Lamplight”. She is another ex Celbridge Youth Drama member and was in “After Juliet” with them. She has performed in pantos with An Nuadha Players including “Beauty and the Beast”, “Sinbad” and more recently “A Christmas Carol!”.",
 			"playwright":"Stephen Bean",
 			"copyright":"presented with kind permission from StageScripts",
 			"synopsis":"Set in a different park! “A Little Box Of Oblivion” sees a man's peaceful afternoon in the park gets turned on its head when a woman makes a simple request - keep an eye on this box while she's gone but do not touch, move, or disturb the box in any way. What could possibly be inside the mysterious box? Chaos ensues when he is joined in his wondering by a trio of strangers, each with a more outlandish theory than the last!",
-			"icon":"Little-Box.png",
+			"icon":"Little-Box-2.png",
+			"background":"darkcyan",
 			"cast":[
-				{"name":"Cathal Hayes","role":"Cool"},
-				{"name":"Dominique Gaydon-Pitts","role":"Woman"},
-				{"name":"Leanne Reilly","role":"Neuro"},
-				{"name":"Joy Murphy","role":"Doom"},
-				{"name":"Michelle O'Dea","role":"Dick"}
+				{"name":"Cathal Hayes","role":"Cool", "bio":"Cathal Hayes was last seen in “Dublin by Lamplight”. Also as George in “Don’t dress for Dinner”, Bar in “Bar and Ger”, Hughie in “Tarry Flynn”, Joe in “Our Town” and Cannaphlit in “Babels in Arms”. He was in “Moll” and “Cass Maguire” with Baltinglass Drama group and did “Importance of being Earnest” and “Sleeping Beauty” with An Nuadha Players."},
+				{"name":"Dominique Gaydon-Pitts","role":"Woman", "bio":"Dominique Gaydon-Pitts makes her theatrical debut as ‘Woman’ in A Little Box of Oblivion. Although this is her first time acting, Dominique is no stranger to the stage. She performed multiple roles with various dance companies in her home of Johannesburg, SA. She completes her creative triple threat with her postgraduate studies in Fine Art."},
+				{"name":"Leanne Reilly","role":"Neuro", "bio":"Leanne Reilly began acting with Celbridge Youth Drama and Wholly Idle drama group. Her last appearance was as part of the ensemble in “Dublin by Lamplight” Also played Molly in “Our Town”, Meg in “The Actors Nightmare”, Susanna in “The Crucible”, Sheila in “Standing on Ceremony”, Juliet in “Ruby of Elsinore” and Cassie in “The Death of Me”"},
+				{"name":"Joy Murphy","role":"Doom", "bio":"Joy Murphy is making her Insight Theatre debut as the opposite of her namesake, the ever gloomy 'Doom' in “A Little Box of Oblivion”. Although she is new to acting, Joy is an experienced performer / spoken word poet who has stood on many stages across Dublin, including The Abbey Theatre when she was a finalist in The 2025 Dublin Story Slam."},
+				{"name":"Michelle O'Dea","role":"Dick", "bio":"Michelle O’ Dea also began in Celbridge Youth Drama and Wholly Idle. She was last seen in the ensemble of “Dublin by Lamplight”. Other roles include Mary in “Tarry Flynn”, Emily in “Our Town”, Sarah in “The Actors Nightmare”, Emily in “Bronte”, Bessy in “The Hunt for Red Willie” multiple roles in “Standing on Ceremony”, the Priestess in “Babels in Arms” and Marla in “Spectre”"}
+			]
+		},
+		{
+			"title":"Crew",
+			"background":"brown",
+			"cast":[
+				{"name":"Joe Canavan","role":"Lighting & Sound"},
+				{"name":"Joe Canavan","role":"Set Design"},
+				{"name":"Michael Giblin","role":"Stage Manager"},
+				{"name":"Insight members and friends","role":"Set Construction"},
+				{"name":"Insight members","role":"Front of House"}		
 			]
 		}
+	],
+	"thanks":[
+		{"to":"The O'Connor Family and the staff of the Kildrought", "for":"all their help and support throughout the years;"},
+		{"to":"Michaelangelo's Restaurant, the Village Inn, and Colourcare Crash Repairs", "for":"sponsoring the raffle;"},
+		{"to":"Kildare County Council", "for":"grant support for equipment upgrades in 2025;"},
+		{"to":"Special thanks to Séan Woods","for":"all his carpentry skills."}
 	]
 }
