@@ -1,0 +1,19 @@
+body {
+  padding-bottom: 90px; /* space for sticky player */
+}
+
+#playerBar {
+  z-index: 1030;
+}
+
+.track-title {
+  max-width: 70%;
+}
+
+.active-track {
+  background-color: #0d6efd !important;
+}
+
+.mb-player {
+  margin-bottom: 120px;
+}
