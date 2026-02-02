@@ -14,19 +14,9 @@
           "file": "audio/Chill-Conversational/albatross.mp3"
         },
         {
-          "title": "I'm Yours (Instrumental)",
-          "artist": "Jason Mraz",
-          "file": "audio/Chill-Conversational/yours.mp3"
-        },
-        {
           "title": "Moon River (Instrumental)",
           "artist": "Breakfast at Tiffany's OST",
           "file": "audio/Chill-Conversational/moon.mp3"
-        },
-        {
-          "title": "The Girl From Ipanema (Instrumental)",
-          "artist": "Astrud Gilberto",
-          "file": "audio/Chill-Conversational/ipanema.mp3"
         },
         {
           "title":"Everywhere at the end of time (Stage 1) - it's just a burning memory",
@@ -39,19 +29,34 @@
       "title":"Low Mood and Ominous",
       "tracks":[
         {
-          "title":"Down to the Waterline (Instrumental)",
-          "artist":"Dire Straits",
-          "file":"audio/Low-Mood-Ominous/waterline.mp3"
-        },
-        {
           "title":"Everywhere at the end of time (Stage 1) - Childishly Fresh Eyes",
           "artist":"The Caretaker",
           "file":"audio/Low-Mood-Ominous/childish.mp3"
         },
         {
+          "title":"Warszawa",
+          "artist":"David Bowie",
+          "file":"audio/Low-Mood-Ominous/warszawa.mp3"
+        },
+        {
           "title":"Everywhere at the end of time (Stage 3) - Bewildered in others eyes",
           "artist":"The Caretaker",
           "file":"audio/Low-Mood-Ominous/bewildered.mp3"
+        },
+        {
+          "title":"The Tower",
+          "artist":"Myst OST",
+          "file":"audio/Low-Mood-Ominous/tower.mp3"
+        },
+        {
+          "title":"Sirrus",
+          "artist":"Myst OST",
+          "file":"audio/Low-Mood-Ominous/sirrus.mp3"
+        },
+        {
+          "title":"The Mirror",
+          "artist":"It Follows OST",
+          "file":"audio/Low-Mood-Ominous/mirror.mp3"
         }
       ]
     },

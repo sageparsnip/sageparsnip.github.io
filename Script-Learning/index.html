@@ -28,13 +28,21 @@
 				let i=0,found=0;
 				let flip=false;
 				let speaking = false;
+				console.log("SCRIPT");
 				onload = (event) => {
+					console.log("ONLOAD");
+					getScenes();
+				}
+
+				function getScenes(){
 					$.getJSON("scripts.json", function(json) {
+						console.log(json);
 						json.Scenes.forEach(scene => {
 							document.getElementById("script-select").insertAdjacentHTML("beforeend", `<option value="${scene["Scene"]}">${scene["Scene"]}</option>`);
 						});
 					})
 				}
+
 				function nextLine(){
 					//console.log("LineNo: " + lineNo + ", speaking: " + speaking);
 					$.getJSON("scripts.json", function(json) {
