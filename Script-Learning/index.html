@@ -28,6 +28,7 @@
 				let i=0,found=0;
 				let flip=false;
 				let speaking = false;
+				let stageDirections = false;
 				console.log("SCRIPT");
 				onload = (event) => {
 					console.log("ONLOAD");
@@ -62,24 +63,43 @@
 							if(speaking){
 								speaking = false;
 								//Speaker's name printed last run; print line, and increment LineNo
-								document.getElementById("lineContainer").insertAdjacentHTML("beforeend", `
+								if(stageDirections) {
+									document.getElementById("lineContainer").insertAdjacentHTML("beforeend", `
 									<div class="row">
 										<div class="col-3"></div>
-										<div class="col-9">${json.Scenes[i].Lines[lineNo].Line}</div>
+										<div class="col-9"><i>${json.Scenes[i].Lines[lineNo].Line}</i></div>
 									</div>
 								`);
+								}
+								else{
+									document.getElementById("lineContainer").insertAdjacentHTML("beforeend", `
+										<div class="row">
+											<div class="col-3"></div>
+											<div class="col-9">${json.Scenes[i].Lines[lineNo].Line}</div>
+										</div>
+									`);
+								}
 								lineNo++;
 								window.scrollTo(0, document.body.scrollHeight);
 							}
 							else{
 								speaking = true;
+								if(json.Scenes[i].Lines[lineNo].Speaker == "SD")
+										{stageDirections = true;}
+								else
+										{stageDirections = false;}
 								//Just print the speaker's name
-								document.getElementById("lineContainer").insertAdjacentHTML("beforeend", `
-									<div class="row">
-										<div class="col-3"><b>${json.Scenes[i].Lines[lineNo].Speaker}</b></div>
-										<div class="col-9"></div>
-									</div>
-								`);
+								if(!stageDirections){
+									document.getElementById("lineContainer").insertAdjacentHTML("beforeend", `
+										<div class="row">
+											<div class="col-3"><b>${json.Scenes[i].Lines[lineNo].Speaker}</b></div>
+											<div class="col-9"></div>
+										</div>
+									`);
+								}
+								else{
+									nextLine();
+								}
 								window.scrollTo(0, document.body.scrollHeight);
 							}
 						}
