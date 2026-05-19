@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src=".\scripts\jquery-3.6.3.min.js"></script>	
 	<script src=".\scripts\bootstrap.js" type="text/javascript"></script>
-	<script src=".\scripts\jquery-3.6.3.min.js"></script>
 	<link rel="stylesheet" href="./scripts/bootstrap.css">
 	<title>Canadh Le Cheile Learning Tool</title>
 	<style>
@@ -142,13 +144,29 @@
 	</script>
 </head>
 <body class="bg-dark text-light">
-	<div class="container align-items-center">
+	<!-- Navbar with hamburger menu -->
+	<nav class="navbar navbar-dark bg-dark">
+		<div class="container-fluid">
+			<span class="navbar-brand mb-0 h1" style="width:100%;text-align:center">Canadh Le Cheile Practice Tool</span>
+			<button
+				class="navbar-toggler d-lg-none"
+				type="button"
+				data-bs-toggle="collapse"
+				data-bs-target="#sidebarContent"
+				aria-controls="sidebarContent"
+			><span class="navbar-toggler-icon"></span></button>
+		</div>
+	</nav>
+
+	<div class="container-fluid align-items-center">
+		<!--
 		<div class="row" id="header" style="padding-top: 1rem;text-align: center;">
 			<h2 style="padding-bottom:1rem">Canadh Le Cheile Learning Tool</h2>
 			<hr>
 		</div>
+		-->
 		<div class="row" id="main-content">
-			<div class="col-2" id="sidebar" align="center">
+			<div class="col-lg-2 collapse d-lg-block" id="sidebarContent" align="center">
 				<h4>Please Select:</h4>
 				<br>
 				<h5>Set:</h5>
@@ -173,23 +191,64 @@
 				<br>
 				<button onclick="getContent()" style="text-align: center;width:50%"><b>Go!</b></button>
 			</div>
-			<div class="col-10" id="mainContent" align="center">
+			<div class="col-12 col-lg-10 p-4" id="mainContent" align="center">
 				<div class="row">
-					<div class="col-4"><h5>Line Part:</h5></div>
-					<div class="col-8" id="linePartPlayer">Line Part Player</div>
+					<div class="col-2"><h5>Line Part:</h5></div>
+					<div class="col-10" id="linePartPlayer">Line Part Player</div>
 				</div>
 				<div class="row">
 					<div class="col-12" id="pdfViewer">PDF VIewer</div>
 				</div>
 				<div class="row">
-					<div class="col-4"><h5>Lyrics:</h5></div>
-					<div class="col-8" id="lyricsSheet">Lyrics Sheet</div>
+					<div class="col-2"><h5>Lyrics:</h5></div>
+					<div class="col-10" id="lyricsSheet">Lyrics Sheet</div>
 				</div>
 				<div class="row">
-					<div class="col-4"><h5>Video:</h5></div>
-					<div class="col-8"><div class="ratio ratio-16x9" id="videoHolder">Youtube Video</div></div>
+					<div class="col-2"><h5>Video:</h5></div>
+					<div class="col-10"><div class="ratio ratio-16x9" id="videoHolder">Youtube Video</div></div>
 				</div>
 			</div>
+		</div>
+	</div>
+	<div 
+		class="offcanvas offcanvas-start" 
+		tabindex="-1" 
+		id="sidebarOffcanvas" 
+		align="center"
+		aria-labelledby="sidebarOffcanvasLabel"
+	>
+		<div class="offcanvas-header">
+			<h4 class="offcanvas-title" id="sidebarOffcanvasLabel">Please Select:</h4>
+			<button
+				type="button"
+				class="btn-close"
+				data-bs-dismiss="offcanvas"
+				aria-label="Close"
+			></button>
+		</div>
+		<br>
+		<div class="offcanvas-body p-3">
+			<h5>Set:</h5>
+			<select id="setSelector" style="width:100%" onchange="getSongs()">
+			</select>
+			<br>
+			<br>
+			<h5>Song:</h5>
+			<select id="songSelector" style="width:100%" onchange="getParts()">
+			</select>
+			<br>
+			<br>
+			<h5>Line Part:</h5>
+			<select id="partSelector" style="width:100%">
+				<option>Soprano</option>
+				<option>Alto</option>
+				<option>Tenor</option>
+				<option>Bass</option>
+			</select>
+			<br>
+			<br>
+			<br>
+			<button onclick="getContent()" style="text-align: center;width:50%"><b>Go!</b></button>
 		</div>
 	</div>
 </body>
