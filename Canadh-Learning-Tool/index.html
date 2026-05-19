@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src=".\scripts\bootstrap.js" type="text/javascript"></script>
+	<script src=".\scripts\jquery-3.6.3.min.js"></script>
+	<link rel="stylesheet" href="./scripts/bootstrap.css">
+	<title>Canadh Le Cheile Learning Tool</title>
+	<style>
+		h5{
+			text-align: center;
+		}
+	</style>
+	<script>
+		//All of my Javascript will go here - fuck best practice
+		$( document ).ready(function() {
+		    onLoad();
+		});
+
+		function onLoad(){
+			//onLoad content here - probably getting the sets from the JSON?
+			$.getJSON("./data/sets.json", function(json) {
+				console.log(json);
+				document.getElementById("setSelector").innerHTML = "";
+				var setMe = "";
+				var i = 0;
+				while(i < json["sets"].length){
+					setMe += `<option value="${i}">${json["sets"][i]["name"]}</option>`;
+					i++;
+				};
+				document.getElementById("setSelector").innerHTML = setMe;
+			});
+
+			//Run getSongs() based on default value.
+			getSongs();
+		}
+
+		function getSongs(){
+			//User has selected the working Set; get the songs for that set
+			//Get the idx of the option selected
+			var idx = Number(document.getElementById("setSelector").value);
+
+			$.getJSON("./data/sets.json", function(json) {
+				//First, get the set that we'll be working through.
+				var sel = document.getElementById("songSelector");
+				var i = 0;
+				var sl = "";
+				while (i < json["sets"][idx]["songs"].length){
+					sl += `<option value="${i}">${json["sets"][idx]["songs"][i]["name"]}</option>`
+					i++;
+				};
+				sel.innerHTML = sl;
+			});
+
+			//Run getLineParts() based on default value.
+			getParts();
+		}
+
+		function getParts(){
+			//First get the set, then the song, then the list of parts
+			//We can get the Set and Song values straight away, as they should be populated.
+			$.getJSON("./data/sets.json", function(json) {
+				//Get the set
+				var partSelector = document.getElementById("partSelector");
+				var i = 0;
+				var setIdx = Number(document.getElementById("setSelector").value);
+				var songIdx = Number(document.getElementById("songSelector").value);
+				var song = json["sets"][setIdx]["songs"][songIdx];
+				var sl = "";
+				while(i < song["parts"].length){
+					sl += `<option value="${i}">${song["parts"][i]}</option>`;
+					i++;
+				}		
+				partSelector.innerHTML = sl;		
+			});
+		}
+
+		function getContent(){
+			var setName  = $("#setSelector option:selected").text();
+			var songName = $("#songSelector option:selected").text();
+			var partName = $("#partSelector option:selected").text();
+			var setIdx   = Number(document.getElementById("setSelector").value);
+			var songIdx  = Number(document.getElementById("songSelector").value);
+			var partIdx  = Number(document.getElementById("partSelector").value);
+
+			/** json format for this will be json["sets"][setIdx]["songs"][songIdx]["parts"][partIdx]
+			    Parts of page to populate (where possible):
+			    - Media Player (#linePartPlayer)
+			    - PDF Viewer (#pdfViewer)
+			    - Plaintext Lyrics (#lyricsSheet)
+			    - Embedded Youtube Video (#videoHolder)
+
+				PDF Path is always going to be "./assets/[set name]/Sheet Music/[song name].pdf"
+				Line Parts path is always "./assets/[set name]/Line Parts/[song name]/[part name].mp3"
+				Lyric Sheet path is always "./assets/[set name]/Lyric Sheets/[song name].txt"
+				Youtube Video must be gotten from the JSON of the song.
+
+			**/
+			var pdfPath   = `./assets/${setName}/Sheet Music/${songName}.pdf`;
+			var partPath  = `./assets/${setName}/Line Parts/${songName}/${partName}.mp3`;
+			var lyricPath = `./assets/${setName}/Lyric Sheets/${songName}.txt`;
+			var videoURL  = '';
+			$.getJSON("./data/sets.json", function(json) {
+				videoURL = json["sets"][setIdx]["songs"][songIdx]["videoPath"];
+				//Embed video in page
+				document.getElementById('videoHolder').innerHTML = `
+					<iframe width="560" height="315" src="${videoURL}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				`;
+			}); 
+			var lyrics = '';
+
+			$.get(lyricPath,{},function(content){
+			    let lines=content.split('\n');
+
+			    lines.forEach(line =>{
+			    	lyrics += `${line}<br>`;
+			    });
+			    console.log(lyrics);
+
+			    //Set lyrics in page
+				document.getElementById('lyricsSheet').innerHTML = `
+					<p>${lyrics}</p>
+				`;
+			});
+
+			//Set PDF in page
+			document.getElementById('pdfViewer').innerHTML = `
+				<iframe
+					src="${pdfPath}?charset=utf-8"
+					class="w-100 border"
+					style="height: 600px;"
+					title="Sheet Music"
+				></iframe>
+			`;
+			//Set MP3 in page
+			document.getElementById('linePartPlayer').innerHTML = `
+				<audio controls src="${partPath}"></audio>
+			`;
+			
+			
+
+		}
+	</script>
+</head>
+<body class="bg-dark text-light">
+	<div class="container align-items-center">
+		<div class="row" id="header" style="padding-top: 1rem;text-align: center;">
+			<h2 style="padding-bottom:1rem">Canadh Le Cheile Learning Tool</h2>
+			<hr>
+		</div>
+		<div class="row" id="main-content">
+			<div class="col-3" id="sidebar" align="center">
+				<h4>Please Select:</h4>
+				<br>
+				<h5>Set:</h5>
+				<select id="setSelector" style="width:100%" onchange="getSongs()">
+				</select>
+				<br>
+				<br>
+				<h5>Song:</h5>
+				<select id="songSelector" style="width:100%" onchange="getParts()">
+				</select>
+				<br>
+				<br>
+				<h5>Line Part:</h5>
+				<select id="partSelector" style="width:100%">
+					<option>Soprano</option>
+					<option>Alto</option>
+					<option>Tenor</option>
+					<option>Bass</option>
+				</select>
+				<br>
+				<br>
+				<br>
+				<button onclick="getContent()" style="text-align: center;width:50%"><b>Go!</b></button>
+			</div>
+			<div class="col-9" id="mainContent" align="center">
+				<div class="row">
+					<div class="col-4"><h5>Line Part:</h5></div>
+					<div class="col-8" id="linePartPlayer">Line Part Player</div>
+				</div>
+				<div class="row">
+					<div class="col-12" id="pdfViewer">PDF VIewer</div>
+				</div>
+				<div class="row">
+					<div class="col-4"><h5>Lyrics:</h5></div>
+					<div class="col-8" id="lyricsSheet">Lyrics Sheet</div>
+				</div>
+				<div class="row">
+					<div class="col-4"><h5>Video:</h5></div>
+					<div class="col-8"><div class="ratio ratio-16x9" id="videoHolder">Youtube Video</div></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+{
+	"sets":[
+		{
+			"name":"Music Around The World",
+			"songs":[
+				{
+					"name":"Amavolovolo",
+					"language":"Zulu",
+					"parts":[
+						"Soprano",
+						"Alto",
+						"Tenor",
+						"Bass"
+					],
+					"videoPath":"https://www.youtube.com/embed/legL0ShCz_4?si=DSLzoC1EHFjVNjln"
+				},
+				{
+					"name":"The Wellerman",
+					"language":"English",
+					"parts":[
+						"Soprano",
+						"Alto",
+						"Tenor",
+						"Bass"
+					],
+					"videoPath":"https://www.youtube-nocookie.com/embed/xbUXXlxyPGc?si=8JLzneV5IpqjcdKN"
+				},
+				{
+					"name":"For The Longest Time",
+					"language":"English",
+					"parts":[
+						"Tenor Solo",
+						"Soprano",
+						"Alto",
+						"Tenor",
+						"Bass"
+					],
+					"videoPath":"https://www.youtube.com/embed/_izt7vlJKM0?si=0YOcZm-rURefrhXr"
+				},
+				{
+					"name":"Petit Rocher",
+					"language":"Quebecois French",
+					"parts":[
+						"Descant Soprano",
+						"Soprano",
+						"Alto",
+						"Tenor",
+						"Bass"
+					],
+					"videoPath":"https://www.youtube.com/embed/dmZFVRBseqc?si=1kQinEwMyJAzUnfJ"
+				},
+				{
+					"name":"Te Iwi E",
+					"language":"Quebecois French",
+					"parts":[
+						"Descant Soprano",
+						"Soprano",
+						"Alto",
+						"Tenor",
+						"Bass"
+					],
+					"videoPath":"https://www.youtube.com/embed/lPPu6uxtqRA?si=mwnZVZaxgRxRRW_L"
+				},
+				{
+					"name":"Kaval Sviri",
+					"language":"Bulgarian",
+					"parts":[
+						"Soprano",
+						"Alto",
+						"Tenor",
+						"Bass"
+					],
+					"videoPath":"https://www.youtube.com/embed/hVqrW-fPOQ0?si=M1r10qmSVrupqIVq"
+				}
+			]
+		}
+	]
+}
