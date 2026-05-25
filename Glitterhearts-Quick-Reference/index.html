@@ -7,6 +7,11 @@
 	<script src=".\scripts\jquery-3.6.3.min.js"></script>	
 	<script src=".\scripts\bootstrap.js" type="text/javascript"></script>
 	<link rel="stylesheet" href="./scripts/bootstrap.css">
+	<style>
+		td{
+			border: 1px dashed;
+		}
+	</style>
 	<script>
 		$( document ).ready(function() {
 		    onLoad();
@@ -22,14 +27,21 @@
 
 		function getBasicMoves(){
 			var basicMovesRow = document.getElementById("basic-moves-content");
-			var sl = "";
-			sl += `
-				
-			`;
+			var sl = "";			
 			$.getJSON("./data/basic-moves.json?" + Date.now(), function(json) {
 				json["basic-moves"].forEach(move => {
+					if(move["name"] == "We can do this together!" || move["name"] == "Touch their heart" || move["name"] == "CLASH!" || move["name"] == "Glimpse the truth!"){
 					sl += `
-						<div class="col-3" style="padding-top:1rem; padding-left:2rem;padding-right:2rem;padding-bottom:1rem;border: 1px solid"><h4>${move.name}</h4><p>${move.content}</p><sub>p. ${move.page}</sub></div>
+						<div class="col-6" style="padding-top:1rem; padding-left:2rem;padding-right:2rem;padding-bottom:1rem;border: 1px solid">
+					`;
+					}
+					else{
+						sl += `
+							<div class="col-3" style="padding-top:1rem; padding-left:2rem;padding-right:2rem;padding-bottom:1rem;border: 1px solid">
+						`;
+					}
+					sl += `
+						<h4>${move.name}</h4><p>${move.content}</p><sub>p. ${move.page}</sub></div>
 					`;
 				});
 				basicMovesRow.innerHTML = sl;
@@ -95,8 +107,8 @@
 			$.getJSON("./data/mystical-connections.json?" + Date.now(), function(json) {
 				json["connections"].forEach(connection => {
 					console.log(connection["name"]);
+					sl += `<div class="col-3" style="border:1px solid">`;
 					sl += `
-						<div class="col-3" style="border:1px solid">
 							<h4 style="text-align:center"><b>${connection["name"]}</b> (${connection["type"]})<h4>
 							<h4 style="text-align:center">Moves:</h4>
 					`;
