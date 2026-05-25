@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" data-bs-theme="dark">
 <head>
 	<title>Glitterhearts Quick Reference</title>
 	<meta charset="UTF-8">
@@ -10,6 +10,9 @@
 	<style>
 		td{
 			border: 1px dashed;
+		}
+		modal{
+			max-width:60%;
 		}
 	</style>
 	<script>
@@ -25,6 +28,28 @@
 			getMysticalConnections();
 		}
 
+		function getFullDetails(moveName){
+			//console.log(referrer.innerText);
+			$.getJSON("./data/basic-moves.json?" + Date.now(), function(json) {
+				//Find the json entry for the move that we are looking for
+				var i = 0;
+				var found = false;
+				while(i<json["basic-moves"].length && found==false){
+					if(json["basic-moves"][i]["name"] == moveName){
+						found=true;
+						i--;
+					}
+					i++;
+				}
+				//console.log("Found: " + json["basic-moves"][i]["name"]);
+				var myMove = json["basic-moves"][i];
+				document.getElementById("detailsModalTitle").innerHTML = `${myMove.name}`;
+				document.getElementById("detailsModalBody").innerHTML = `${myMove.details}`;
+				var myModal = new bootstrap.Modal(document.getElementById("detailsModal"), {});
+				myModal.show();
+			});
+		}
+
 		function getBasicMoves(){
 			var basicMovesRow = document.getElementById("basic-moves-content");
 			var sl = "";			
@@ -32,12 +57,12 @@
 				json["basic-moves"].forEach(move => {
 					if(move["name"] == "We can do this together!" || move["name"] == "Touch their heart" || move["name"] == "CLASH!" || move["name"] == "Glimpse the truth!"){
 					sl += `
-						<div class="col-6" style="padding-top:1rem; padding-left:2rem;padding-right:2rem;padding-bottom:1rem;border: 1px solid">
+						<div class="col-3" style="padding-top:1rem; padding-left:2rem;padding-right:2rem;padding-bottom:1rem;border: 1px solid" onclick="getFullDetails('${move.name}')">
 					`;
 					}
 					else{
 						sl += `
-							<div class="col-3" style="padding-top:1rem; padding-left:2rem;padding-right:2rem;padding-bottom:1rem;border: 1px solid">
+							<div class="col-3" style="padding-top:1rem; padding-left:2rem;padding-right:2rem;padding-bottom:1rem;border: 1px solid" onclick="getFullDetails('${move.name}')">
 						`;
 					}
 					sl += `
@@ -222,6 +247,23 @@
 			<span class="navbar-brand mb-0 h1" style="width:100%;text-align:center">Glitterhearts Quick Reference</span>
 		</div>
 	</nav>
+	<div class="modal fade bg-dark text-light" tabindex="-1" id="detailsModal">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 id="detailsModalTitle">Basic Move Details</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+				</div>
+				<div class="modal-body" id="detailsModalBody">
+					<p>Text here</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
 	<div class="container-fluid d-flex flex-column align-items-center" id="basic-moves-container">
 		<div class="row" id="basic-moves" style="width:90%">
 			<div class="col-12" onclick="showHideBasicMoves()">
