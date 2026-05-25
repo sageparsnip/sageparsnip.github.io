@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Glitterhearts Quick Reference</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src=".\scripts\jquery-3.6.3.min.js"></script>	
+	<script src=".\scripts\bootstrap.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="./scripts/bootstrap.css">
+	<script>
+		$( document ).ready(function() {
+		    onLoad();
+		});
+
+		function onLoad(){
+			//Everything that should fire after page load goes here.
+			getBasicMoves();
+			getEverydayIdentities();
+			getMagicalArchetypes();
+			getMysticalConnections();
+		}
+
+		function getBasicMoves(){
+			var basicMovesRow = document.getElementById("basic-moves-content");
+			var sl = "";
+			sl += `
+				
+			`;
+			$.getJSON("./data/basic-moves.json?" + Date.now(), function(json) {
+				json["basic-moves"].forEach(move => {
+					sl += `
+						<div class="col-3" style="padding-top:1rem; padding-left:2rem;padding-right:2rem;padding-bottom:1rem;border: 1px solid"><h4>${move.name}</h4><p>${move.content}</p><sub>p. ${move.page}</sub></div>
+					`;
+				});
+				basicMovesRow.innerHTML = sl;
+			});
+		}
+
+		function getMagicalArchetypes(){
+			var archetypesRow = document.getElementById("magical-archetypes-content");
+			var sl = "";
+			sl += `
+				
+			`;
+			var bgcolor = "";
+			var textcolor = "";
+			$.getJSON("./data/magical-archetypes.json?" + Date.now(), function(json) {
+				json["magical-archetypes"].forEach(archetype => {
+					switch(archetype["name"]){
+					case("The Idol"):
+						bgcolor = "gold";
+						textcolor = "black";
+						break;
+					case("The Witch"):
+						bgcolor = "purple";
+						textcolor = "white";
+						break;
+					case("The Warrior"):
+						bgcolor = "red";
+						textcolor = "black";
+						break;
+					case("The Defender"):
+						bgcolor = "blue";
+						textcolor = "white";
+						break;
+					case("The Tactician"):
+						bgcolor = "green";
+						textcolor = "white";
+						break;
+					default:
+						bgcolor = "charcoal";
+					}
+					sl += `
+						<div class="col-12" style="background-color:${bgcolor};color:${textcolor}">
+							<h4 style="text-align:center"><b>${archetype.name}</b></h4>
+							<p>${archetype.description}</p>
+							<div class="row d-flex" >
+					`;
+					archetype["moves"].forEach(move => {
+						sl += `
+							<div class="col" style="border:1px solid"><h5>${move.name}</h5><p>${move.content}</p><p style="text-align:right">p. ${move.page}</p></div>
+						`;
+					});
+					sl += `
+						</div></div>
+					`;
+				});
+				archetypesRow.innerHTML = sl;
+			});
+		}
+
+		function getMysticalConnections(){
+			var mysticalConnectionsDiv = document.getElementById("mystical-connections-content");
+			var sl = "";
+			$.getJSON("./data/mystical-connections.json?" + Date.now(), function(json) {
+				json["connections"].forEach(connection => {
+					console.log(connection["name"]);
+					sl += `
+						<div class="col-3" style="border:1px solid">
+							<h4 style="text-align:center"><b>${connection["name"]}</b> (${connection["type"]})<h4>
+							<h4 style="text-align:center">Moves:</h4>
+					`;
+					connection["moves"].forEach(move => {
+						sl += `
+							<b>${move.name}</b><p style="text-align:right">${move.page}</p><br>
+							<p>${move.content}</p>
+						`
+					});
+					sl += `</div>`;
+				});
+				mysticalConnectionsDiv.innerHTML = sl;
+			});
+			
+		}
+
+		function getEverydayIdentities(){
+			var everydayIdentitiesRow = document.getElementById("everyday-identities-content");
+			var sl = "";
+			$.getJSON("./data/everyday-identities.json?"  + Date.now(), function(json) {
+				json["everyday-identities"].forEach(identity => {
+					var bgcolor = "";
+					var textcolor = "";
+					switch(identity["primary-stat"]) {
+					case "Physical":
+						bgcolor = "midnightblue";
+						textcolor = "white";
+						break;
+					case "Mental":
+						bgcolor = "darkkhaki";
+						textcolor = "black";
+						break;
+					case "Emotional":
+						bgcolor = "DarkRed";
+						textcolor = "white";
+						break;
+					case "Persona":
+						bgcolor = "ForestGreen";
+						textcolor = "black";
+						break;
+					case "Mystical":
+						bgcolor = "Indigo";
+						textcolor = "white";
+						break;
+					default:
+						bgcolor = "charcoal";
+						textcolor = "white";
+					}
+					//console.log(identity);
+					sl += `
+						<div class="col-6" style="padding-top:1rem; padding-left:2rem;padding-right:2rem;padding-bottom:1rem;border: 1px solid; background-color:${bgcolor}; color:${textcolor}">
+							<h4 style="text-align:center"><b>${identity.name}</b></h4>
+							<h5 style="text-align:center">Primary Stat: ${identity["primary-stat"]}</h5>
+							<h5 style="text-align:center">Stat Changes: ${identity["stat-changes"]}</h5>
+							<p>${identity.description}</p>
+							<h5 style="text-align:center">Moves:</h5>
+					`;
+					identity["moves"].forEach(move => {
+						sl += `
+							<h5>${move.name} <sub style="text-align:right">p. ${move.page}</sub></h5>
+							<p>${move.content}</p>
+							
+						`;
+					});
+					sl += `</div>`;
+				});
+				everydayIdentitiesRow.innerHTML = sl;
+			});
+		}
+
+		function showHideBasicMoves(){
+			if($("#basic-moves-content").is(':visible')){
+				$("#basic-moves-content").hide();
+			}
+			else{
+				$("#basic-moves-content").show();
+			}
+		}
+
+		function showHideEverydayIdentities(){
+			if($("#everyday-identities-content").is(':visible')){
+				$("#everyday-identities-content").hide();
+			}
+			else{
+				$("#everyday-identities-content").show();
+			}
+		}
+
+		function showHideMagicalArchetypes(){
+			if($("#magical-archetypes-content").is(':visible')){
+				$("#magical-archetypes-content").hide();
+			}
+			else{
+				$("#magical-archetypes-content").show();
+			}
+		}
+
+		function showHideMysticalConnections(){
+			if($("#mystical-connections-content").is(':visible')){
+				$("#mystical-connections-content").hide();
+			}
+			else{
+				$("#mystical-connections-content").show();
+			}
+		}
+	</script>
+</head>
+<body class="bg-dark text-light">
+	<nav class="navbar navbar-dark bg-dark">
+		<div class="container-fluid">
+			<span class="navbar-brand mb-0 h1" style="width:100%;text-align:center">Glitterhearts Quick Reference</span>
+		</div>
+	</nav>
+	<div class="container-fluid d-flex flex-column align-items-center" id="basic-moves-container">
+		<div class="row" id="basic-moves" style="width:90%">
+			<div class="col-12" onclick="showHideBasicMoves()">
+				<h3 style="text-align:center">Basic Moves</h3>
+			</div>
+		</div>
+		<div class="row" id="basic-moves-content" style="width:90%; display: none">
+		</div>
+	</div>
+	<div class="container-fluid d-flex flex-column align-items-center" id="everyday-identities-container">
+		<div class="row" id="everyday-identities" style="width:90%">
+			<div class="col-12" onclick="showHideEverydayIdentities()">
+				<h3 style="text-align:center">Everyday Identities</h3>
+			</div>
+		</div>
+		<div class="row" id="everyday-identities-content" style="width:90%; display: none">
+		</div>
+	</div>
+	<div class="container-fluid d-flex flex-column align-items-center" id="magical-archetypes-container">
+		<div class="row" id="magical-archetypes" style="width:90%">
+			<div class="col-12" onclick="showHideMagicalArchetypes()">
+				<h3 style="text-align:center">Magical Archetypes</h3>
+			</div>
+		</div>
+		<div class="row" id="magical-archetypes-content" style="width:90%; display: none">
+		</div>
+	</div>
+	<div class="container-fluid d-flex flex-column align-items-center" id="mystical-connections-container">
+		<div class="row" id="mystical-connections" style="width:90%">
+			<div class="col-12" onclick="showHideMysticalConnections()">
+				<h3 style="text-align:center">Mystical Connections</h3>
+			</div>
+		</div>
+		<div class="row" id="mystical-connections-content" style="width:90%; display: none">
+		</div>
+	</div>
+</body>
+</html>

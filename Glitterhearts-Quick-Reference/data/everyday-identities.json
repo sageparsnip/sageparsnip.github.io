@@ -1,0 +1,484 @@
+{
+	"everyday-identities":[
+		{
+			"name":"The Athlete",
+			"primary-stat":"Physical",
+			"stat-changes":"+2 Physical, -1 Mystical",
+			"description":"You excel at making your body do what you want and need it to do. When you call on your body, it answers easily and excels. You don’t need anything else to succeed, much less some mystical nonsense.",
+			"page":"17",
+			"moves":[
+				{
+					"name":"This is like that time when I...",
+					"content":"Once per session, if you can relate your action to a sports anecdote from your past, upgrade your result by one level.",
+					"page":"17"
+				},
+				{
+					"name":"Everything is a competition",
+					"content":"Whenever you are acting against someone with whom you have a Competitive relationship, gain +1.",
+					"page":"17"
+				},
+				{
+					"name":"The Quarterback",
+					"content":"When you act first in an encounter, take a +1 on your first action.",
+					"page":"17"
+				}
+			]
+		},
+		{
+			"name":"The Bodybuilder",
+			"primary-stat":"Physical",
+			"stat-changes":"+2 Physical, -1 Mental",
+			"description":"You've always been stronger, thicker, and beefier than everyone else. So what if your grades have suffered because of your pursuit of your body? You look amazing!",
+			"page":"17",
+			"moves":[
+				{
+					"name":"Sturdy",
+					"content":"Your hardy nature means you can’t be enfeebled.",
+					"page":"17"
+				},
+				{
+					"name":"Intimidating physique",
+					"content":"When trying to Convince Someone, if you make a physical threat to their safety, you can roll +1 Physical instead.",
+					"page":"17"
+				},
+				{
+					"name":"Overwhelming strength",
+					"content":"When you Clash with someone, you can choose two options, but cause significant collateral damage to the surrounding area.",
+					"page":"18"
+				}
+			]
+		},
+		{
+			"name":"The Boxer",
+			"primary-stat":"Physical",
+			"stat-changes":"+2 Physical, -1 Emotional",
+			"description":"You are in peak fitness, best in your weight class, and light on your feet. You work alone, fight alone, and don’t need a team to be your best.",
+			"page":"18",
+			"moves":[
+				{
+					"name":"I can take a hit",
+					"content":"You gain +1 to your total health.",
+					"page":"18"
+				},
+				{
+					"name":"Close quarters fighting",
+					"content":"You are used to hand to hand combat and gain a +1 to Clash when you are fighting with punches and kicks.",
+					"page":"18"
+				},
+				{
+					"name":"Float like a butterfly",
+					"content":"You are quick and light on your feet. Gain a +1 to Thwart peril checks.",
+					"page":"18"
+				}
+			]
+		},
+		{
+			"name":"The Coach",
+			"primary-stat":"Physical",
+			"stat-changes":"+2 Physical, -1 Persona",
+			"description":"You not only can do the job, but you are excellent at teaching and supporting others. However, you may tend to worry too much about those you are taking care of and forget to take care of yourself.",
+			"page":"18",
+			"moves":[
+				{
+					"name":"Lead by example",
+					"content":"When making a We can do this! check rolling with +Physical, a result of 6 or less has the same outcome as a 7–9.",
+					"page":"18"
+				},
+				{
+					"name":"Team player",
+					"content":"You gain a +1 to Clash rolls going forward when fighting alongside one or more other heroes.",
+					"page":"18"
+				},
+				{
+					"name":"Experienced judgement",
+					"content":"When you try to convince another hero on a course of action through Convince Someone, you gain +1 to your roll. However, on a 6 or less, you gain the self-doubting condition as well as the other outcomes from that roll.",
+					"page":"18"
+				}
+			]
+		},
+		{
+			"name":"The Intellectual",
+			"primary-stat":"Mental",
+			"stat-changes":"+2 Mental, -1 Physical",
+			"description":"Your life has been spent with books and in classes. You have honed your mind in the chess club, in debate, in logic class. You don’t need to be in tip top shape, because you can always think your way out of it.",
+			"page":"19",
+			"moves":[
+				{
+					"name":"Logic dictates that...",
+					"content":"Use +Mental when you attempt to Keep your wits about you.",
+					"page":"19"
+				},
+				{
+					"name":"I've got a plan",
+					"content":"At the start of a session, roll +Mental. On a 10+ hold 2, on a 7–9 hold 1. Spend 1 hold to be where you need to be, prepared and ready, or spend 2 to have an ally be where they are most needed. On a miss, the GM holds 1 they can spend to put you at the wrong place at the wrong time.",
+					"page":"19"
+				},
+				{
+					"name":"I've read about this",
+					"content":"When encountering something new, you can attempt to remember existing knowledge about it. Roll +Mental. On a 10+, the GM will tell you something interesting and useful about the subject relevant to your situation. On a 7–9, the GM will only tell you something interesting—it’s on you to make it useful. The GM might ask you how you know this. Tell them the truth.",
+					"page":"20"
+				}
+			]
+		},
+		{
+			"name":"The Unrivaled",
+			"primary-stat":"Mental",
+			"stat-changes":"+2 Mental, -1 Emotional",
+			"description":"You’re brilliant and you know it. Everyone else does, too, and you are sure to remind them when they forget. If you don’t show your brilliance, then how will anyone else know what to strive for?",
+			"page":"20",
+			"moves":[
+				{
+					"name":"Analytical",
+					"content":"When you try to Touch their heart, you can attempt to logically pick apart their actions and point out the flaws. Roll +Mental instead.",
+					"page":"20"
+				},
+				{
+					"name":"Pinpoint their weakness",
+					"content":"When you Clash with someone, you can roll +Mental to find their weakness. On a 10+, you can cause +2 damage to that target. On a 7–9, you can cause +1 damage. On a 6 or less, you were very wrong and expose yourself to the target for extra damage.",
+					"page":"20"
+				},
+				{
+					"name":"I’ve accounted for that",
+					"content":"You’ve thought of every outcome and every plan. You can spend 1 power point to upgrade your result when you try to Keep your wits about you or Thwart peril.",
+					"page":"20"
+				}
+			]
+		},
+		{
+			"name":"The Skeptic",
+			"primary-stat":"Mental",
+			"stat-changes":"+2 Mental, -1 Mystical",
+			"description":"OK, so maybe sometimes the reason is magic, but more often than not there is a solid, scientific explanation for everything.",
+			"page":"20",
+			"moves":[
+				{
+					"name":"It’s elementary",
+					"content":"Your investigative mind easily puts clues together. You gain a +1 when investigating a scene to Glimpse the truth.",
+					"page":"20"
+				},
+				{
+					"name":"I know what you did",
+					"content":"You keep tabs on everyone, foes and friends alike. You can roll +Mental to see if you have notes on any individuals you commonly interact with. On a 10+, the GM will tell you something interesting and useful about the person, such as their most likely location, likes, dislikes, or weaknesses. On a 7–9, the GM will only tell you something interesting—it’s on you to make it useful. On a 6 or less, your notes are incomplete, and you are obsessed with finding out more about them.",
+					"page":"20"
+				},
+				{
+					"name":"That’s not how reality works",
+					"content":"You are very convinced you know how the world works. You gain a +1 to your Mental stat, but a -1 to your Mystical stat.",
+					"page":"21"
+				}
+			]
+		},
+		{
+			"name":"The Savant",
+			"primary-stat":"Mental",
+			"stat-changes":"+2 Mental, -1 Persona",
+			"description":"Your mind is capable of amazing things, but your intelligence has made you feel like an outsider and oddity, especially when you make a leap of logic that others can’t seem to grasp.",
+			"page":"21",
+			"moves":[
+				{
+					"name":"Stroke of genius",
+					"content":"When you make a Glimpse the Truth check, you gain a power point on a 10+.",
+					"page":"21"
+				},
+				{
+					"name":"I know this about me",
+					"content":"You gain a +1 to any rolls to Keep your wits about you if the personal crisis would call your intelligence into doubt.",
+					"page":"21"
+				},
+				{
+					"name":"It’s all connected!",
+					"content":"You hold 3 on any Glimpse the truth check on a 7 or higher.",
+					"page":"21"
+				}
+			]
+		},
+		{
+			"name":"The Popular One",
+			"primary-stat":"Emotional",
+			"stat-changes":"+2 Emotional, -1 Mental",
+			"description":"Your gifts are obvious, and people want to be like you, with you, and around you at all times. You don’t have to rely on yourself much, because people are always willing to help you out.",
+			"page":"21",
+			"moves":[
+				{
+					"name":"I’ve got connections",
+					"content":"You have an uncanny ability to get into places. When you are attempting to access a location that is normally blocked to you, roll +Emotional. On a 10+, you know someone that can get you in at no cost to you. On a 7–9, your connection can get you in, but needs you to do something for them first. On a 6 or less, you and your contact are exposed and possibly banned from the locale.",
+					"page":"21"
+				},
+				{
+					"name":"Back me up!",
+					"content":"When you would suffer a social consequence, or one of your actions would reflect poorly on you, you can name someone you know to take the blame or take your side. Roll +Emotional. On a 10+, they corroborate your story or take the blame for you. On a 7–9, you are still implicated, but as an accomplice.",
+					"page":"22"
+				},
+				{
+					"name":"Admiration",
+					"content":"You are powered by the approval of others. When you are acting in front of your friends (excluding the other magical girls) or a crowd, you gain +1 to your actions. If you fail a roll while in front of this crowd, your fears get the better of you and you take the self-doubting condition until you can be comforted about your failure.",
+					"page":"22"
+				}
+			]
+		},
+		{
+			"name":"The Clown",
+			"primary-stat":"Emotional",
+			"stat-changes":"+2 Emotional, -1 Persona",
+			"description":"You can make anyone laugh, and people love you for it. Yeah, sometimes people don’t get the joke, but you’re quickly forgiven. Hey, so what if you have to be the butt of the joke sometimes. As long as people are happy, right?",
+			"page":"22",
+			"moves":[
+				{
+					"name":"A foolish heart",
+					"content":"Life’s a lark and you breeze through most situations, including dangerous ones. When you charge into danger without a plan, you can hold 2. You can spend them at any time on:<ul><li>Taking 1 less damage.</li><li>Add +2 to Keep your wits about you.</li><li>Add +1 to Touch their heart.</li></ul>",
+					"page":"22"
+				},
+				{
+					"name":"Loveable goof",
+					"content":"You may gain the benefits of a Cooperative relationship when you take the We can do this together action, regardless of the true nature of your relationship.",
+					"page":"22"
+				},
+				{
+					"name":"The fool's luck",
+					"content":"Sometimes, your proclivity for goofing around uncovers something useful. Let the GM know if you want to find something randomly useful and important. It may not be related to the immediate threat or situation.",
+					"page":"23"
+				}
+			]
+		},
+		{
+			"name":"The Counselor",
+			"primary-stat":"Emotional",
+			"stat-changes":"+2 Emotional, -1 Physical",
+			"description":"People think you are weak, and it may be true that you don’t work on your body as much. But you are centered, stable, and understand how people work.",
+			"page":"23",
+			"moves":[
+				{
+					"name":"Let's talk about it",
+					"content":"You are good at helping people work out their problems. When Resting and relaxing, you can roll +Emotional. On a 10+, you can remove another person’s condition and one of your own. On a 7–9, you can remove another person’s condition. On a 6 or less, you say all the wrong things and hurt that other person, gaining the isolated condition.",
+					"page":"23"
+				},
+				{
+					"name":"A peaceful soul",
+					"content":"You see the good in yourself and everyone else. You gain a +2 when you try to Touch their heart but have a -1 to Clash actions.",
+					"page":"23"
+				},
+				{
+					"name":"I know just what to say",
+					"content":"Gain a +1 to We can do it rolls when you are rolling with Emotional.",
+					"page":"23"
+				}
+			]
+		},
+		{
+			"name":"The Team Player",
+			"primary-stat":"Emotional",
+			"stat-changes":"+2 Emotional, -1 Mystical",
+			"description":"You trust in your fellow teammate, and all of humanity in general. Why look beyond that for answers?",
+			"page":"23",
+			"moves":[
+				{
+					"name":"We're all in this together",
+					"content":"You gain a +1 to Thwart peril! rolls when you are working with one or more other heroes or allies.",
+					"page":"23"
+				},
+				{
+					"name":"Better together",
+					"content":"You gain the most benefit from cooperative types of relationships. You gain a +1 to all We can do this together rolls, but you can't have a competitive relationship with anyone and your relationships break on a 7–9 result.",
+					"page":"23"
+				},
+				{
+					"name":"Take one for the team",
+					"content":"When you Protect someone who is one of your teammates, you can redirect the attack to yourself without spending a hold.",
+					"page":"23"
+				}
+			]
+		},
+		{
+			"name":"Most Likely to Succeed",
+			"primary-stat":"Persona",
+			"stat-changes":"+2 Persona, -1 Mystical",
+			"description":"Hard work, determination, and your own sweat—these are your greatest tools in life. You’re grounded in reality, you know who you are, and how the world works.",
+			"page":"24",
+			"moves":[
+				{
+					"name":"Natural Leader",
+					"content":"Something about you makes people trust you. When you try to Convince someone using charm, you gain a +1 to that roll.",
+					"page":"24"
+				},
+				{
+					"name":"Driven",
+					"content":"Your failures only make you stronger. When you fail a Persona or Emotional roll, you add 1 to your power pool.",
+					"page":"24"
+				},
+				{
+					"name":"The sky's the limit!",
+					"content":"You gain the option to spend 2 points from your power pool to upgrade the result to the next level, instead of gaining advantage on the roll. This must be chosen before the dice are rolled.",
+					"page":"24"
+				}
+			]
+		},
+		{
+			"name":"The Aloof",
+			"primary-stat":"Persona",
+			"stat-changes":"+2 Persona, -1 Physical",
+			"description":"You know who you are, you know what you like. Why bother with too much hard work, when you know you aren’t going to enjoy it anyway.",
+			"page":"24",
+			"moves":[
+				{
+					"name":"Self-Confidence",
+					"content":"You know yourself well, and others can be swayed by your strong self-assuredness. When you try to Touch their heart, you can spend a point from your power pool to upgrade the result.",
+					"page":"24"
+				},
+				{
+					"name":"That doesn't sound like me",
+					"content":"Anyone trying to use Convince someone on you suffers a -1 penalty. You also have a +1 to Keep your wits rolls.",
+					"page":"24"
+				},
+				{
+					"name":"I do care",
+					"content":"Your actions speak louder than words. You gain a +1 when you use Protect someone to save another person.",
+					"page":"25"
+				}
+			]
+		},
+		{
+			"name":"The Loner",
+			"primary-stat":"Persona",
+			"stat-changes":"+2 Persona, -1 Emotional",
+			"description":"You prefer to be by yourself. Other people are fine, in small amounts, but tend to be exhausting if you have to be around them too long.",
+			"page":"25",
+			"moves":[
+				{
+					"name":"I work better alone",
+					"content":"When you leave the group to do things on your own, you gain +1 forward until you are back with the group.",
+					"page":"25"
+				},
+				{
+					"name":"I'm fine on my own",
+					"content":"You are immune to the Isolated condition.",
+					"page":"25"
+				},
+				{
+					"name":"Not a team player",
+					"content":"You are used to working on your own, but still have a lot to offer. You take a -1 to any We can do it checks. However, you always give a +1 forward to whomever you are helping, even on a 6 or lower",
+					"page":"25"
+				}
+			]
+		},
+		{
+			"name":"The Overconfident",
+			"primary-stat":"Persona",
+			"stat-changes":"+2 Persona, -1 Mental",
+			"description":"Real truth is what you believe, and you always believe in yourself. You love nothing more than a good argument where facts are optional.",
+			"page":"25",
+			"moves":[
+				{
+					"name":"I know what's really going on",
+					"content":"When you Glimpse the truth, you gain a power point when you roll a 6 or less, and the outcome will reinforce your belief about the world no matter how wrong that belief is.",
+					"page":"25"
+				},
+				{
+					"name":"I know who I am",
+					"content":"You are immune to the self-doubt condition.",
+					"page":"25"
+				},
+				{
+					"name":"We are alike, you and I",
+					"content":"You can see yourself in everyone and are able to make strong connections with everyone. When you make a Touch their hearts roll, roll with +Persona instead.",
+					"page":"25"
+				}
+			]
+		},
+		{
+			"name":"The Goth",
+			"primary-stat":"Mystical",
+			"stat-changes":"+2 Mystical, -1 Emotional",
+			"description":"You know things—things that other people ignore. You can even sometimes make things happen that don’t fit into everyone’s sense of how the world works. They shun you for it, but who needs them when you have the truth.",
+			"page":"26",
+			"moves":[
+				{
+					"name":"What’s really going on?",
+					"content":"You are used to looking for the things that other don’t notice. When you Glimpse the truth,you can roll +Mystical instead. You may not like what you see though.",
+					"page":"26"
+				},
+				{
+					"name":"I live in darkness, too",
+					"content":"When you attempt to Touch their heart, you can gain +2 to the roll if you relate their life to something that happened in yours.",
+					"page":"26"
+				},
+				{
+					"name":"I’ve got a bad feeling about this",
+					"content":"You’re more attuned to the dark parts of the world. When something bad is happening, you can roll +Mystical. On a 10+, you knew this was coming, and arrived just in time to stop it. On a 7–9, you get there just after the event started, unable to prevent it, but with enough time to help. On a miss, you are very late but at least you’re out of danger.",
+					"page":"26"
+				}
+			]
+		},
+		{
+			"name":"The Dreamer",
+			"primary-stat":"Mystical",
+			"stat-changes":"+2 Mystical, -1 Persona",
+			"description":"You know there is more to this world; that the things found in fairy tales are probably true. Who are you when compared to them?",
+			"page":"27",
+			"moves":[
+				{
+					"name":"It all fits together",
+					"content":"In your dreams, you’ve seen the sands of time and the threads of fate. You can state that you are experiencing deja-vu and roll +Mystical. On a 10+ hold 2, or on a 7–9 hold 1. On a fail, the GM holds 2 over you. Choose from the following list to spend these holds:<ul><li>You can interfere with an enemy, giving one target a +1 to their next roll.</li><li>You can cause an accident, inflicting 1 damage on a target.</li><li>The target finds something that you had left for them, knowingly or not.</li><li>The target loses something important and you know where it is.</li><li>You lose something important and the villain knows where it is and why it’s important.</li><li>Your actions interfere with a friend, causing them to suffer -1 to their next roll.</li></ul>",
+					"page":"27"
+				},
+				{
+					"name":"Dreams of prophecy",
+					"content":"At the start of an arc, roll +Mystical. On a 10+, you get a clear vision of something terrible that is going to happen in the near future. Take +1 forward when acting to stop this future. On a 7–9, you have a tough time piecing together the fragments of your dream. You can hold 1 and use that hold to add a +1 to your roll, as you dreamt about it before. On a 6 or less, you dream of yourself in grave danger. The GM holds 3 and can spend them to hamper you during the arc.",
+					"page":"27"
+				},
+				{
+					"name":"A life of dreams",
+					"content":"Your experience with the worlds beyond helps you to fill in the blanks of this world better. You gain an extra hold whenever you attempt to Glimpse the truth.",
+					"page":"27"
+				}
+			]
+		},
+		{
+			"name":"The True Believer",
+			"primary-stat":"Mystical",
+			"stat-changes":"+2 Mystical, -1 Mental",
+			"description":"You are highly tuned into the weird side of the world and the places beyond. It’s hard for you to keep track of reality sometimes, as you can see more than just the mundane world.",
+			"page":"28",
+			"moves":[
+				{
+					"name":"Threads of fate",
+					"content":"You can see all the mystical connections in the world. Gain a +1 to We can do it rolls when using Mystical.",
+					"page":"28"
+				},
+				{
+					"name":"How did that get there",
+					"content":"Sometimes you lose things, only to have them reappear when you need them. At the start of the session, roll +Mystical. On a 10+, hold 2. On a 7–9, hold 1. You can spend these holds to suddenly find an everyday or common item that you suddenly need. Describe how you lost it, and how it may have gotten here. On a 6 or less, you have lost something vital and have no idea where it is.",
+					"page":"28"
+				},
+				{
+					"name":"I can do magic",
+					"content":"You can access your magical hero moves without transforming.",
+					"page":"28"
+				}
+			]
+		},
+		{
+			"name":"The Gifted",
+			"primary-stat":"Mystical",
+			"stat-changes":"+2 Mystical, -1 Physical",
+			"description":"Things have always just fallen into place for you. All you’ve ever had to do is imagine something into existing, without even the slightest hint of actual effort.",
+			"page":"28",
+			"moves":[
+				{
+					"name":"I wish",
+					"content":"You have an odd sense of control over the real world and can alter reality in small ways. You can make an Alter reality check with Mystical. On a 10+, hold 2, on a 7–9, hold 1. On a 6 or less, reality refuses to budge, and you take 2 harm. You can spend those holds on:<ul><li>You summon a small common item that can fit into your hand from somewhere, and you’re not sure where it came from.</li><li>Open or shut a door or window that is unlocked.</li><li>Unlock a simple, mechanical lock.</li><li>Lift or move an object weighing 5 pounds or less.</li><li>Cause the general light in an area to brighten or dim for a minute.</li><li>Increase or decrease the sound of your voice.</li></ul>",
+					"page":"28"
+				},
+				{
+					"name":"Magical assistance",
+					"content":"Whenever you must Thwart peril, you can try to use your natural magical ability instead. Roll +Mystical instead of Physical. On a 6 or lower, the villains may gain insight to your current location.",
+					"page":"29"
+				},
+				{
+					"name":"Magic has a price",
+					"content":"Whenever you roll a 6 or less on a check using Mystical, you can choose to take 3 harm and re-roll that check. You must take the result of the second check.",
+					"page":"29"
+				}
+			]
+		}
+	]
+}

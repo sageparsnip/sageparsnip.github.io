@@ -1,0 +1,59 @@
+{
+	"basic-moves":[
+		{
+			"name":"We can do this together!",
+			"content":"Teamwork is key and lending your support to another hero can change everything. This is used to aid another in hopes they succeed. This is also your main access to power points.",
+			"page":"8"
+		},
+		{
+			"name":"Touch their heart",
+			"content":"Everyone can be saved, and you have to at least try. Different than convincing someone, this is an attempt to change your adversary's outlook toward you and their actions.",
+			"page":"8"
+		},
+		{
+			"name":"CLASH!",
+			"content":"When diplomacy has failed, and you get into a fight.",
+			"page":"8"
+		},
+		{
+			"name":"Glimpse the truth!",
+			"content":"At any time, you can attempt to investigate deeper and try to see what’s really going on. This is the catchall action for any sort of investigation.",
+			"page":"8"
+		},
+		{
+			"name":"Be Vigilant",
+			"content":"When you are faced with a potentially dangerous or threatening situation, you can attempt to be vigilant. Use this to spot an ambush or know the best way to sneak past the guards.",
+			"page":"8"
+		},
+		{
+			"name":"Keep your wits about you!",
+			"content":"You may be faced with actions or situations that cause you to question yourself and hesitate. This is how well you resist and recover.",
+			"page":"8"
+		},
+		{
+			"name":"Thwart peril!",
+			"content":"Sometimes you find yourself trying to sneak past a mob of enemies, dodge an enemy's depression beam, or endure swimming in a swamp. This move sees how well you can do that.",
+			"page":"8"
+		},
+		{
+			"name":"Convince someone",
+			"content":"Through charm, coercion, or threat, this moves determines how well you are at getting your target to do what you want.",
+			"page":"8"
+		},
+		{
+			"name":"Protect someone",
+			"content":"When you stand in defense of a person, item, or location under attack, this move is how well you protect them.",
+			"page":"8"
+		},
+		{
+			"name":"Rest and relaxation",
+			"content":"Heal damage and remove any conditions that may have been placed on you during the game.",
+			"page":"9"
+		},
+		{
+			"name":"Behind the 8 ball",
+			"content":"When things have gone really poorly and your character has no hit points, this move helps mitigate how wrong things go.",
+			"page":"9"
+		}
+	]
+}

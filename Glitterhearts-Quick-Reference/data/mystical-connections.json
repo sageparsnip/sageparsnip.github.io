@@ -1,0 +1,517 @@
+{
+	"connections":[
+		{
+			"name":"Fire",
+			"type":"Elemental",
+			"page":"36",
+			"moves":[
+				{
+					"name":"Burn",
+					"content":"Add the burn tag to your Clash attacks or weapons. Your attacks set things on fire and will add ongoing +1 damage if you roll a 12+ on your Clash.",
+					"page":"36"
+				},
+				{
+					"name":"Intense",
+					"content":"Your fiery spirit manifests around you. You take 1 less damage from Clash results, but your intense personality gives you a -1 to Convince someone.",
+					"page":"36"
+				},
+				{
+					"name":"Flaming sword",
+					"content":"You can manifest a fire sword (hand, sharp).",
+					"page":"36"
+				},
+				{
+					"name":"Hot headed",
+					"content":"You lose your temper very easily and use that anger to drive you. You have a -1 to Persona rolls when you try to Keep your wits about you, but you have +2 to rolls involving people you have a competitive relationship with.",
+					"page":"36"
+				}
+			]
+		},
+		{
+			"name":"Water",
+			"type":"Elemental",
+			"page":"37",
+			"moves":[
+				{
+					"name":"Frost",
+					"content":"You also have access to ice-based affects and can cause people to move slowly. Add the retraining tag to your attacks.",
+					"page":"37"
+				},
+				{
+					"name":"Flow",
+					"content":"You are easy to get along with and come across as agreeable. You have a +1 when trying to Convince someone, but your gentle nature also tends to make you a target.",
+					"page":"37"
+				},
+				{
+					"name":"Water whip",
+					"content":"You can manifest a water whip (Close, wounding).",
+					"page":"37"
+				},
+				{
+					"name":"Full support",
+					"content":"You live to support others and their endeavors. Targets in a cooperative relationship with you get a +2 to their rolls instead of the +1 they normally get during We can do it together.",
+					"page":"37"
+				}
+			]
+		},
+		{
+			"name":"Air",
+			"type":"Elemental",
+			"page":"37",
+			"moves":[
+				{
+					"name":"Buffeting",
+					"content":"Your mastery of the air allows you to add forceful to any attack action.",
+					"page":"37"
+				},
+				{
+					"name":"Gliding",
+					"content":"Your control of the winds allows you to safely jump up and fall from heights.",
+					"page":"37"
+				},
+				{
+					"name":"Air arrows",
+					"content":"You can manifest a bow and arrow of air (Far, wounding).",
+					"page":"37"
+				},
+				{
+					"name":"One with air",
+					"content":"You can briefly turn yourself invisible, roughly for 30 seconds. If you use this to Thwart peril, you get a +1 to your roll. ",
+					"page":"37"
+				}
+			]
+		},
+		{
+			"name":"Earth",
+			"type":"Elemental",
+			"page":"37",
+			"moves":[
+				{
+					"name":"Solid",
+					"content":"Your affinity to rock makes you tougher and you take -1 damage.",
+					"page":"37"
+				},
+				{
+					"name":"Grounded",
+					"content":"People view you as level headed and very trustworthy. If you can protect someone by telling them what to do through Convince someone, you can roll +Persona instead.",
+					"page":"38"
+				},
+				{
+					"name":"Rock maul",
+					"content":"You can manifest a maul of solid rock (hand, sharp).",
+					"page":"38"
+				},
+				{
+					"name":"Tough as rock",
+					"content":"You are hearty and can endure anything. You gain a plus +1 to Thwart peril checks that involve enduring pain or difficult environmental conditions.",
+					"page":"38"
+				}
+			]
+		},
+		{
+			"name":"Lightning",
+			"type":"Elemental",
+			"page":"38",
+			"moves":[
+				{
+					"name":"Fast",
+					"content":"The power of lightning has enhanced your reflexes and speed. You are able get to any location you can see without having to make a Thwart peril check.",
+					"page":"38"
+				},
+				{
+					"name":"Static barrier",
+					"content":"You have an electrified aura around you. You always cause +1 damage when making a melee Clash check and cause 1 damage back to anything that hits you.",
+					"page":"38"
+				},
+				{
+					"name":"Ball lightning",
+					"content":"You shoot a bolt of lightning from your body. (far, wounding).",
+					"page":"38"
+				},
+				{
+					"name":"Quick thinking",
+					"content":"Gain an extra 1 hold on Be vigilant checks, even on a 6 or less.",
+					"page":"38"
+				}
+			]
+		},
+		{
+			"name":"Metal",
+			"type":"Elemental",
+			"page":"38",
+			"moves":[
+				{
+					"name":"Sword",
+					"content":"Manifest a sword. (Hand, sharp)",
+					"page":"38"
+				},
+				{
+					"name":"Shield",
+					"content":"Create shields of any size and shape. You gain a +1 to all Protect someone rolls.",
+					"page":"38"
+				},
+				{
+					"name":"Unbending",
+					"content":"You are strong and rigid in your beliefs. You can choose to roll +Persona to Convince someone and if you succeed, you gain +1 to that roll.",
+					"page":"38"
+				},
+				{
+					"name":"Tempered by fire",
+					"content":"You are hardier than most. You gain 2 health to your total health pool.",
+					"page":"39"
+				}
+			]
+		},
+		{
+			"name":"Light",
+			"type":"Elemental",
+			"page":"39",
+			"moves":[
+				{
+					"name":"Bright",
+					"content":"You can naturally create light, removing any setbacks imposed by darkness.",
+					"page":"39"
+				},
+				{
+					"name":"Beacon",
+					"content":"Your inner light inspires people to do better. You gain +1 on all Touch their heart checks.",
+					"page":"39"
+				},
+				{
+					"name":"Laser shot",
+					"content":"You can fire a beam of light as a laser (far, wounding).",
+					"page":"39"
+				},
+				{
+					"name":"Radiant soul",
+					"content":"Your inner peace is palpable to others around you. You can spend 1 point from your power pool to upgrade your result on Touch their heart checks.",
+					"page":"39"
+				}
+			]
+		},
+		{
+			"name":"Dark",
+			"type":"Elemental",
+			"page":"39",
+			"moves":[
+				{
+					"name":"See in the dark",
+					"content":"You can see naturally in the dark and at night with no restrictions.",
+					"page":"39"
+				},
+				{
+					"name":"Manifest shadows",
+					"content":"You can create shadows at will. You gain +1 to a roll if you somehow use shadows as part of your solution.",
+					"page":"39"
+				},
+				{
+					"name":"Dark dagger",
+					"content":"You can manifest a dagger of pure darkness (hand, sharp).",
+					"page":"39"
+				},
+				{
+					"name":"Darkness within",
+					"content":"It is very hard for you to trust people. You sometimes feel unworthy of friendships, but value strongly those friendships you have. You get a +1 to all We can do this together actions; but if your relationship breaks, you gain the isolated condition.",
+					"page":"39"
+				}
+			]
+		},
+		{
+			"name":"Life",
+			"type":"Elemental",
+			"page":"40",
+			"moves":[
+				{
+					"name":"Healing touch",
+					"content":"Your mastery of life allows you to heal simple damage. You can heal 2 damage without rolling.",
+					"page":"40"
+				},
+				{
+					"name":"Spontaneous growth",
+					"content":"Your connection to the living world allows you to cause plants to suddenly grow. You gain +1 to rolls when using plants in this way.",
+					"page":"40"
+				},
+				{
+					"name":"Restraining vines",
+					"content":"You can manifest vines to manipulate targets (forceful, restraining).",
+					"page":"40"
+				},
+				{
+					"name":"One world",
+					"content":"Your affinity to life helps you understand the connections between all living things. You only break your relationships if you roll a 4 or lower during the We can do this together action.",
+					"page":"40"
+				}
+			]
+		},
+		{
+			"name":"Death",
+			"type":"Elemental",
+			"page":"40",
+			"moves":[
+				{
+					"name":"Vampiric touch",
+					"content":"You can add life drain to your attacks. You heal back as many points as you inflict. Then roll +Persona. On a 10+, nothing happens. On a 7–9, you enjoy the taste of their life force and must continue attacking that target next turn. On a 6 or lower, you give into blood lust and will attack all people around you to sate your hunger.",
+					"page":"40"
+				},
+				{
+					"name":"Doom",
+					"content":"Your grim nature is terrifying to others. You gain a +1 to Convince someone through intimidation but have a -1 to Convince someone if you attempt to charm them.",
+					"page":"40"
+				},
+				{
+					"name":"Undead minion",
+					"content":"You can summon forth an undead minion to fight with you. They have +1 Physical, 3 health.",
+					"page":"40"
+				},
+				{
+					"name":"Life lines",
+					"content":"Your connection to death allows you to see someone’s life thread. You can Glimpse the truth while touching someone, allowing you to witness events in their past.",
+					"page":"41"
+				}
+			]
+		},
+		{
+			"name":"Joy",
+			"type":"Emotional",
+			"page":"41",
+			"moves":[
+				{
+					"name":"Palpable happiness",
+					"content":"Your connection to joy makes people love being around you. You can spend a Power Point to upgrade any Convince someone check that relies on charming them and not threatening them.",
+					"page":"41"
+				},
+				{
+					"name":"Unending positivity",
+					"content":"People can’t help but feel good about themselves when near you. Any other heroes that are near you get a +1 to all Keep your wits checks.",
+					"page":"41"
+				},
+				{
+					"name":"Happiness hammer",
+					"content":"You can manifest a large maul of joy (hand, forceful).",
+					"page":"41"
+				},
+				{
+					"name":"Happy place",
+					"content":"You can manifest a bubble around yourself, another person, or item that gives them armor equal to your Persona rating.",
+					"page":"41"
+				}
+			]
+		},
+		{
+			"name":"Sadness",
+			"type":"Emotional",
+			"page":"41",
+			"moves":[
+				{
+					"name":"Deep understanding",
+					"content":" — Your connection with the harder moments in life makes you more in touch with other people’s motivations. You always have a +1 when you try to Touch their hearts.",
+					"page":"41"
+				},
+				{
+					"name":"Heart piercer",
+					"content":"You can manifest a spear (close, wounding).",
+					"page":"41"
+				},
+				{
+					"name":"Tears",
+					"content":"You have limited control over water. You can mold it and shape nearby sources of liquid that are no more than 5 gallons of fluid. You gain a +1 to checks when you creatively use water in the solution.",
+					"page":"41"
+				},
+				{
+					"name":"Pensiveness",
+					"content":"You’re able to think clearly and deeply about any subject, even in stressful times. Gain a +1 to Glimpse the truth checks.",
+					"page":"42"
+				}
+			]
+		},
+		{
+			"name":"Love",
+			"type":"Emotional",
+			"page":"42",
+			"moves":[
+				{
+					"name":"Unconditional love",
+					"content":"You can roll +Emotional to remove a condition on yourself or another person. On a 10+, you clear that condition. On a 7–9, you transfer that condition from them to yourself. On a 6 or lower, you gain that condition without healing theirs.",
+					"page":"42"
+				},
+				{
+					"name":"Healing hug",
+					"content":"You can always heal 2 damage without having to roll by simply touching the target.",
+					"page":"42"
+				},
+				{
+					"name":"Cupid’s arrows",
+					"content":"You can manifest a bow and arrow (far, wounding).",
+					"page":"42"
+				},
+				{
+					"name":"Feel the love",
+					"content":"You always gain a Power Point for yourself when you use We can do it, as long as you are both in a cooperative relationship with each other.",
+					"page":"42"
+				}
+			]
+		},
+		{
+			"name":"Fear",
+			"type":"Emotional",
+			"page":"42",
+			"moves":[
+				{
+					"name":"Terrifying visage",
+					"content":"Your natural state is terrifying to others. You gain a +1 to Convince someone through intimidation but have a -1 to Convince someone if you attempt to charm them.",
+					"page":"42"
+				},
+				{
+					"name":"Worst case scenario",
+					"content":"You understand everything that can go wrong. You can spend a Power Point to upgrade your result on all Be vigilant checks.",
+					"page":"42"
+				},
+				{
+					"name":"Cold grip of fear",
+					"content":"You can encase your hands in ice allowing you to freeze people in place when you touch them (hand, restraining).",
+					"page":"43"
+				},
+				{
+					"name":"Fight or flight",
+					"content":"When you pick this option, choose one of the following:<ul><li>Fight — You get a +1 to all Clash checks.</li><li>Flight — You get a +1 to all Thwart peril checks.</li></ul>",
+					"page":"43"
+				}
+			]
+		},
+		{
+			"name":"Anger",
+			"type":"Emotional",
+			"page":"43",
+			"moves":[
+				{
+					"name":"Rage fueled attacks",
+					"content":"You can spend a Power Point to upgrade any Clash check.",
+					"page":"43"
+				},
+				{
+					"name":"Burning spirit",
+					"content":"You can activate your anger to push past any pain. When making a Keep your wits check or Behind the 8 ball check, you can use +Physical instead.",
+					"page":"43"
+				},
+				{
+					"name":"Flaming sword",
+					"content":"You can manifest a fire sword (hand, sharp).",
+					"page":"43"
+				},
+				{
+					"name":"Bellowing roar",
+					"content":"You let out a terrifying scream. Normal people will automatically flee the area without having to make a check. Roll +Persona to affect underlings. On a 10+, all underlings will stop fighting and flee. On a 7–9, they are scared, and you gain +1 armor against these minions. On a 6 or less, everyone is afraid of you. All heroes have a -1 to all checks while you are in the area.",
+					"page":"43"
+				}
+			]
+		},
+		{
+			"name":"Hope",
+			"type":"Emotional",
+			"page":"43",
+			"moves":[
+				{
+					"name":"Light at the end of the tunnel",
+					"content":"You can spend a Power Point to upgrade any Rest and relaxation checks and get a +1 when using Emotional in a We can do it check.",
+					"page":"43"
+				},
+				{
+					"name":"Radiant soul",
+					"content":"Your inner peace is palpable to others around you. You can spend 1 point from your power pool to upgrade your result on Touch their heart checks.",
+					"page":"44"
+				},
+				{
+					"name":"Beacon of hope",
+					"content":"You can manifest a bright beacon to fight alongside you. You can use it to blind your enemies in a Clash check (close, stunning).",
+					"page":"44"
+				},
+				{
+					"name":"Everything will be fine",
+					"content":"You can always see the bright side of things which allows you a unique view into bad situations. You can use +Mystical for any Be vigilant checks.",
+					"page":"44"
+				}
+			]
+		},
+		{
+			"name":"Desire",
+			"type":"Emotional",
+			"page":"44",
+			"moves":[
+				{
+					"name":"Irresistible",
+					"content":"You can evoke feelings of attraction in others. When you get a 10+ on a Convince someone check, always treat it as if you got a 12+.",
+					"page":"44"
+				},
+				{
+					"name":"Wish fulfillment",
+					"content":"You have a deep connection to how people work and understand their wants. You can always ask “What do they desire?” when making a Glimpse the truth check, even on a 6 or less.",
+					"page":"44"
+				},
+				{
+					"name":"Entangling whip",
+					"content":"You can manifest a whip for Clash attacks (close, restraining).",
+					"page":"44"
+				},
+				{
+					"name":"Deep attachments",
+					"content":"Your connections to others is deep and meaningful. When you Protect another hero or NPC, you can use +Emotional for that check.",
+					"page":"44"
+				}
+			]
+		},
+		{
+			"name":"Disgust",
+			"type":"Emotional",
+			"page":"44",
+			"moves":[
+				{
+					"name":"That’s so gross",
+					"content":"You find almost everything disgusting and are experienced in avoiding it all. You can spend a Power Point to upgrade all Thwart peril checks.",
+					"page":"44"
+				},
+				{
+					"name":"Slime armor",
+					"content":"You can manifest a layer of slime around yourself, giving you +1 armor.",
+					"page":"45"
+				},
+				{
+					"name":"Acid spit",
+					"content":"You can shoot blobs of acid from your mouth as a weapon for Clash checks (far, wounding).",
+					"page":"45"
+				},
+				{
+					"name":"Swarm of flies",
+					"content":"You can call forth a swarm of bugs to do your bidding. In combat, the swarm does 1 damage and has 3 health, and can move freely. It doesn’t need to be near you to be controlled. You can send your swarm to perform a simple task and roll +Mystical. On a 10+, your swarm completes the task successfully, and you can watch through its eyes and hear through its ears. On a 7–9, your familiar can complete the task, but the GM will offer you a hard choice, an extra cost, or the familiar attracts attention and danger.",
+					"page":"45"
+				}
+			]
+		},
+		{
+			"name":"Trust",
+			"type":"Emotional",
+			"page":"45",
+			"moves":[
+				{
+					"name":"Do you trust me?",
+					"content":"People immediately like and trust your hero. You have the benefit of rolling a 7–9 on a Convince someone check if you rolled a 6 or less.",
+					"page":"45"
+				},
+				{
+					"name":"I’ve got your back",
+					"content":"Your faith in others and others’ faith in you is unshakable. You can use +Persona on any We can do it together checks as your natural bond of support. However, if your relationship breaks, you gain the self-doubting condition as well.",
+					"page":"45"
+				},
+				{
+					"name":"Firm foundation",
+					"content":"Your relationships are rock solid. You can spend a Power Point to upgrade your result on any Protect someone checks.",
+					"page":"45"
+				},
+				{
+					"name":"Trust fall",
+					"content":"You are able to glide and fall from any distance without taking damage.",
+					"page":"45"
+				}
+			]
+		}
+	]
+}

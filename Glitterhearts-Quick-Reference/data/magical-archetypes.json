@@ -1,0 +1,164 @@
+{
+	"magical-archetypes":[
+		{
+			"name":"The Idol",
+			"description":"The world is a stage and you’re the center of it all. All eyes should be on you! Getting up close and personal would ruin your perfection, so you feel it’s best that you support the others to get the job done while looking good.",
+			"page":"29",
+			"moves":[
+				{
+					"name":"Gentle winds of healing",
+					"content":"Your gentle spirit allows you to send out waves of pure healing. Roll +Persona. On a 12+, heal 1d6+Persona to targets equal to your Mystical rating (minimum of 1). On 10+, 1d6+Persona to one target. On 7–9, heal +Persona to one target. On 6 or lower, you transfer +Emotional damage to yourself.",
+					"page":"29"
+				},
+				{
+					"name":"All eyes on me",
+					"content":"You demand attention from your target with your grand presence through charm, fear, or any number of other ways. Make a Convince someone roll with +Persona. Enthralled targets have no restrictions on what they will do.",
+					"page":"30"
+				},
+				{
+					"name":"Shimmering wings",
+					"content":"You can fly. Roll +Physical to carry someone with you. On a 10+, you can carry them with no problem. On a 7–9, you can carry them, but you leave yourself and your passenger open to danger.",
+					"page":"30"
+				},
+				{
+					"name":"Soothing voice",
+					"content":"You can calm a person down just by speaking to them. This gives you a +1 to your Convince someone rolls.",
+					"page":"30"
+				},
+				{
+					"name":"Purifying touch",
+					"content":"You can cure negative conditions with your touch. Roll +Persona. On a 10+, you remove the condition easily. On a 7–9, you remove the condition, but at a cost to yourself (gain the mundane condition). On a 6 or less, it takes everything you have, and still fails. You are left greatly weakened by the attempt, gaining the mundane and enfeebled conditions.",
+					"page":"30"
+				}
+			]
+		},
+		{
+			"name":"The Witch",
+			"description":"The safest place is far from the center of the action. Cleverness and a few well-placed ranged spells not only get the job done, but also keep harm to your person to a minimum.",
+			"page":"31",
+			"moves":[
+				{
+					"name":"Hex! ",
+					"content":"Roll +Mystical. On a 12+ hold 3, on a 10+ hold 2, on a 7–9, hold 1. On a 6 or lower, the hex backfires and the GM can use hold 1 against you. The holds can be spent on:<ul><li>Your hex causes 1 damage to the target.</li><li>The target can’t flee the battle or area.</li><li>The target is slowed somehow, so Clash actions gain +1 against the target.</li><li>The target must answer one question asked truthfully.</li><li>The target is forced to drop an item that it’s holding.</li><li>Inflict a negative condition on a target.</li></ul>",
+					"page":"31"
+				},
+				{
+					"name":"Magic beam",
+					"content":"You can make a Clash attack with a magical beam at close range. Roll +Mystical for the attack. Damage is equal to your Mystical rating.",
+					"page":"32"
+				},
+				{
+					"name":"Divination",
+					"content":"You can Glimpse the truth on a remote location, instead of being there. Roll +Mystical. On a 10+ hold 2, on 7–9, hold 1.",
+					"page":"32"
+				},
+				{
+					"name":"Discombobulating shriek",
+					"content":" You unleash a powerful and disorienting sound (yell, song, or command). Roll +Mystical. On a 10+, the target immediately attacks an ally. On a 7–9, the target attacks the ally, and they are aware that you caused this course of action.",
+					"page":"32"
+				},
+				{
+					"name":"Personal minion",
+					"content":"You can summon forth a personal minion. You choose what the minion looks like. Your minion offers two new actions:<ul><li>Knowledge from beyond — When you consult with your minion, roll +Mystical. On a 10+, you gain a piece of beneficial knowledge about the situation (tell the GM what it is). On a 7–9, the GM will tell you a piece of knowledge about the situation that may or may not be beneficial.</li><li>Assistant — When you send your minion to perform a simple task, roll +Mystical. On a 10+, your minion completes the task successfully, and you can watch through its eyes and hear through its ears. On a 7–9, your familiar can complete the task, but the GM will offer you a hard choice, an extra cost, or the familiar attracts attention and danger.</li></ul>",
+					"page":"32"
+				}
+			]
+		},
+		{
+			"name":"The Warrior",
+			"description":"Nothing beats a good fight—the thrill of putting evil in its place while you can see their eyes and smell their breath. The perfect dance of two foes in battle makes your heart sing.",
+			"page":"32",
+			"moves":[
+				{
+					"name":"I’m your opponent",
+					"content":"You force the target to fight you and only you. Roll +Persona. On a 12+ the target will only fight you, you gain +1 against the target, and you take 1 less damage from that target. On a 10+, pick two from above. On a 7–9, take 1 from the above. On a 6 or less, the target is eager to fight you, and you take 1 more damage from their attacks.",
+					"page":"32"
+				},
+				{
+					"name":"An accessory that is also a weapon",
+					"content":"Choose an item that is part of your costume and describe how it becomes a weapon. Choose three of the following tags (damage amounts can’t stack):<ul><li>Hand — effective in arm’s reach. </li><li>Sharp — +1 damage to physical melee Clash moves.</li><li>Close — within 60 feet.</li><li>Far — 300 feet away.</li><li>Wounding — causes 2 damage.</li><li>Forceful — can push things around or backward.</li><li>Restraining — a successful attack will grab the target.</li><li>Stun — a successful attack stuns the target.</li><li>Returning — weapon can be thrown and will return to<your hand.</li></ul>",
+					"page":"33"
+				},
+				{
+					"name":"Forceful punch and kick",
+					"content":"Your Clash action adds the forceful tag, allowing you to push the target away from you.",
+					"page":"33"
+				},
+				{
+					"name":"I’ve got the upper hand",
+					"content":"When you Clash against the same target, you gain +1 damage after the initial attack.",
+					"page":"34"
+				},
+				{
+					"name":"Catch your breath",
+					"content":"You are adept at fighting and know your limits. As an action, you can roll +Physical to gather your energy and attempt to ignore your wounds. On a 10+ you can heal yourself of damage equal to your Physical rating. On a 7–9, you don’t have as much time to gather yourself and only heal 1 point of damage. On a 6 or lower, you realize you are much worse off than expected. You don’t heal and gain the enfeebled condition.",
+					"page":"34"
+				}
+			]
+		},
+		{
+			"name":"The Defender",
+			"description":"People are fragile and need protection from the evils of the world. You’re built to withstand just about anything and aren’t afraid to face danger, look it in the eye, and say “Not today.”",
+			"page":"34",
+			"moves":[
+				{
+					"name":"Endure",
+					"content":"When you take the Protect someone action, you can roll +Physical instead. You also gain a new option to reduce all damage to 1.",
+					"page":"34"
+				},
+				{
+					"name":"Iron skin",
+					"content":"You are naturally tough and take -1 damage from all types of attacks.",
+					"page":"34"
+				},
+				{
+					"name":"Otherworldly defender",
+					"content":"When you take the Protect someone action, you always get a +1 hold, even on a 6 or less.",
+					"page":"34"
+				},
+				{
+					"name":"I’ll save you!",
+					"content":"You can spend 1 point from your power pool to immediately appear to defend someone you can see that you aren’t next to.",
+					"page":"34"
+				},
+				{
+					"name":"Noble defender",
+					"content":"When you take the Protect someone action, on a 12+ both you and your target are completely unharmed. If you are protecting a person, that person gains a cooperative relationship with you.",
+					"page":"34"
+				}
+			]
+		},
+		{
+			"name":"The Tactician",
+			"description":"You’re an expert at seeing everything around you, processing the information quickly, and acting upon it.",
+			"page":"35",
+			"moves":[
+				{
+					"name":"Telepathy",
+					"content":"You can link up your team’s minds, allowing you to quickly communicate. You can keep track of your team anywhere on Earth, but not beyond. Anyone in another dimension or out in space is too far away.",
+					"page":"35"
+				},
+				{
+					"name":"Perfect awareness",
+					"content":"You can share your allies’ points of view and synthesize them into a plan. Roll +Mental. On a 12+, you give 2 power points to an ally, allowing them to take advantage of the situation. On a 10+, you can move up to 2 power points from one or two heroes and give them to a third hero or yourself. On a 7–9, you can move 1 power point from a hero and give it to another hero or yourself. On a 6 or less, the shared experience causes chaos on the team and everyone loses 1 power point from their pool.",
+					"page":"35"
+				},
+				{
+					"name":"Well executed machine",
+					"content":"When you use the We can do this together action, you upgrade that hero’s result to the next level instead of giving the +1.",
+					"page":"35"
+				},
+				{
+					"name":"One step ahead",
+					"content":"You have thought about every outcome and always have a contingency. Roll +Mental. On a 12+, every ally gets an ongoing +1 in the current scene. On a 10+, one ally and you gain an ongoing +1 in the current scene. On a 7–9, one ally gains an ongoing +1 in the current situation. On a 6 or less, your “careful planning” puts your friends in danger. You gain the self-doubting and isolated conditions.",
+					"page":"35"
+				},
+				{
+					"name":"Coordination",
+					"content":"Your advice and tactical skills benefit everyone. When you call for a team attack, you can choose to roll +Mental instead.",
+					"page":"35"
+				}
+			]
+		}
+	]
+}
