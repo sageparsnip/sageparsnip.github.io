@@ -107,15 +107,15 @@
 			$.getJSON("./data/mystical-connections.json?" + Date.now(), function(json) {
 				json["connections"].forEach(connection => {
 					console.log(connection["name"]);
-					sl += `<div class="col-3" style="border:1px solid">`;
+					sl += `<div class="col-4" style="border:1px solid">`;
 					sl += `
 							<h4 style="text-align:center"><b>${connection["name"]}</b> (${connection["type"]})<h4>
 							<h4 style="text-align:center">Moves:</h4>
 					`;
 					connection["moves"].forEach(move => {
 						sl += `
-							<b>${move.name}</b><p style="text-align:right">${move.page}</p><br>
-							<p>${move.content}</p>
+							<b>${move.name}</b>
+							<p>${move.content}</p><p style="text-align:right">p. ${move.page}</p>
 						`
 					});
 					sl += `</div>`;
