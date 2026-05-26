@@ -57,12 +57,12 @@
 				json["basic-moves"].forEach(move => {
 					if(move["name"] == "We can do this together!" || move["name"] == "Touch their heart" || move["name"] == "CLASH!" || move["name"] == "Glimpse the truth!"){
 					sl += `
-						<div class="col-3" style="padding-top:1rem; padding-left:2rem;padding-right:2rem;padding-bottom:1rem;border: 1px solid" onclick="getFullDetails('${move.name}')">
+						<div class="col-6 col-md-6 col-lg-3" style="padding-top:1rem; padding-left:2rem;padding-right:2rem;padding-bottom:1rem;border: 1px solid" onclick="getFullDetails('${move.name}')">
 					`;
 					}
 					else{
 						sl += `
-							<div class="col-3" style="padding-top:1rem; padding-left:2rem;padding-right:2rem;padding-bottom:1rem;border: 1px solid" onclick="getFullDetails('${move.name}')">
+							<div class="col-6 col-md-6 col-lg-3" style="padding-top:1rem; padding-left:2rem;padding-right:2rem;padding-bottom:1rem;border: 1px solid" onclick="getFullDetails('${move.name}')">
 						`;
 					}
 					sl += `
@@ -115,7 +115,7 @@
 					`;
 					archetype["moves"].forEach(move => {
 						sl += `
-							<div class="col" style="border:1px solid"><h5>${move.name}</h5><p>${move.content}</p><p style="text-align:right">p. ${move.page}</p></div>
+							<div class="col col-md-6 col-lg" style="border:1px solid"><h5>${move.name}</h5><p>${move.content}</p><p style="text-align:right">p. ${move.page}</p></div>
 						`;
 					});
 					sl += `
@@ -132,7 +132,7 @@
 			$.getJSON("./data/mystical-connections.json?" + Date.now(), function(json) {
 				json["connections"].forEach(connection => {
 					console.log(connection["name"]);
-					sl += `<div class="col-4" style="border:1px solid">`;
+					sl += `<div class="col-4 col-lg-4 col-md-6" style="border:1px solid">`;
 					sl += `
 							<h4 style="text-align:center"><b>${connection["name"]}</b> (${connection["type"]})<h4>
 							<h4 style="text-align:center">Moves:</h4>
@@ -184,7 +184,7 @@
 					}
 					//console.log(identity);
 					sl += `
-						<div class="col-6" style="padding-top:1rem; padding-left:2rem;padding-right:2rem;padding-bottom:1rem;border: 1px solid; background-color:${bgcolor}; color:${textcolor}">
+						<div class="col-6 col-lg-3 col-md-6" style="padding-top:1rem; padding-left:2rem;padding-right:2rem;padding-bottom:1rem;border: 1px solid; background-color:${bgcolor}; color:${textcolor}">
 							<h4 style="text-align:center"><b>${identity.name}</b></h4>
 							<h5 style="text-align:center">Primary Stat: ${identity["primary-stat"]}</h5>
 							<h5 style="text-align:center">Stat Changes: ${identity["stat-changes"]}</h5>
