@@ -6,7 +6,7 @@
 		<link rel="icon" type="image/x-icon" href="assets/favicon.ico">
 		<style>
 			.container{
-				width: 80%;
+				width: 90%;
 				padding-top: 1rem;
 			}
 		</style>
@@ -53,11 +53,6 @@
 							"link":"Play-Suggestions/index.html"
 						},
 						{
-							"page":"Home Decor Map",
-							"description":"Map-based approach to making a furnishings list to focus the mind",
-							"link":"Home-Decor-Map/index.html"
-						},
-						{
 							"page":"Soggy DND Data Infodump",
 							"description":"Repository for various things specific to the SOGGY DND campaign; if you aren't a player in that campaign, you won't find much of interest here.",
 							"link":"BT-DND/index.html"
@@ -68,24 +63,9 @@
 							"link":"Ferelden-Map/index.html"
 						},
 						{
-							"page":"Audio of Ferelden",
-							"description":"Audio samples for Chance to consider for Ferelden",
-							"link":"Ferelden-Audio/index.html"
-						},
-						{
 							"page":"Axis Chart Game",
 							"description":"All credit to Chance for the idea for this game. <br>Define axes, then name characters that try to pick a random point on those axes to score points!",
 							"link":"Axis-Chart-Game/index.html"
-						},
-						{
-							"page":"Driving Test Prep Page",
-							"description":"A webpage to test knowledge of practical questions for your Irish driving test! Should show the info of the questions you might get asked before taking your practical test, including road signs.",
-							"link":"Driving-Test-Prep/index.html"
-						},
-						{
-							"page":"Gym Links [BT Only]",
-							"description":"Don't worry about it",
-							"link":"Gym-Links/index.html"
 						},
 						{
 							"page":"Script Learning [BT Only]",
@@ -101,14 +81,23 @@
 							"page":"Glitterhearts Quick Reference",
 							"description":"Quick reference page for the Glitterhearts TTRPG",
 							"link":"Glitterhearts-Quick-Reference/index.html"
+						},
+						{
+							"page":"PM IO Mapping",
+							"description":"Need-to-know basis",
+							"link":"PM-IO-Mapping/index.html"
 						}
 					]
 				}
+				containerDiv.innerHTML += '<div class="row"></div>';
 				cards["cards"].forEach(card => {
+					
+					/**
 					if (i % 2 == 0){
 						//Need to add a new row div
-						containerDiv.innerHTML += '<div class="row"></div>';
+						
 					}
+					**/
 					//Get bottom-most row
 					let currentRow = containerDiv.childNodes[containerDiv.childNodes.length - 1];
 					//Add card

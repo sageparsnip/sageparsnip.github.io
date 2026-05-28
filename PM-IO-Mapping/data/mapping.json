@@ -1,0 +1,91 @@
+{
+	"BI400":{
+		"IOs":[
+			{
+				"type":"Input",
+				"number":"1",
+				"description":"Positioning sensors (daisy chain road-side + site-side sensor)",
+				"hardware":"TOR slot 5 input 1",
+				"software":"1"
+			},
+			{
+				"type":"Input",
+				"number":"2",
+				"description":"Weighbridge zeroing input (road-side induction loop or push button)",
+				"hardware":"TOR slot 5 input 2",
+				"software":"2"
+			},
+			{
+				"type":"Input",
+				"number":"3",
+				"description":"Dual cabinet systems - other cabinet active",
+				"hardware":"TOR slot 6 input 1",
+				"software":"3"
+			},
+			{
+				"type":"Input",
+				"number":"4",
+				"description":"Weighbridge zeroing input (site-side induction loop or push button)",
+				"hardware":"TOR slot 6 input 2",
+				"software":"4"
+			},
+			{
+				"type":"Output",
+				"number":"1",
+				"description":"Traffic light (road side)",
+				"hardware":"TOR slot 5 output 1",
+				"software":"1"
+			},
+			{"type":"Output","number":"2","description":"Barrier open (road side)","hardware":"TOR slot 5 output 2","software":"2"},
+			{"type":"Output","number":"3","description":"Barrier close (road side)","hardware":"TOR slot 5 output 3","software":"3"},
+			{"type":"Output","number":"4","description":"NOT USED / SPARE","hardware":"TOR slot 5 output 4","software":"4"},
+			{"type":"Output","number":"5","description":"Traffic light (site side)","hardware":"TOR slot 6 output 1","software":"5"},
+			{"type":"Output","number":"6","description":"Barrier open (site side)","hardware":"TOR slot 6 output 2","software":"6"},
+			{"type":"Output","number":"7","description":"Barrier close (site side)","hardware":"TOR slot 6 output 3","software":"7"},
+			{"type":"Output","number":"8","description":"I'm active output","hardware":"TOR slot 6 output 4","software":"8"}
+
+		]
+	},
+	"DOT":{
+		"IOs":[
+				{"type":"Input","number":"1","description":"Weighbridge zeroing input (road-side induction loop or push button)","hardware":"RS ADAM-6060 input 1","software":"1","location":"I/O-D road-side JB"},
+				{"type":"Input","number":"2","description":"Barrier in horizontal / closed position (road-side)","hardware":"RS ADAM-6060 input 2","software":"2","location":"I/O-D road-side JB"},
+				{"type":"Input","number":"3","description":"Barrier in vertical / open position (road-side)","hardware":"RS ADAM-6060 input 3","software":"3","location":"I/O-D road-side JB"},
+				{"type":"Input","number":"4","description":"Barrier safety sensor(s) (road-side)","hardware":"RS ADAM-6060 input 4","software":"4","location":"I/O-D road-side JB"},
+				{"type":"Input","number":"5","description":"Positioning sensors (road-side)","hardware":"RS ADAM-6060 input 5","software":"5","location":"I/O-D road-side JB"},
+				{"type":"Input","number":"6","description":"Dual cabinet systems - road-side cabinet active","hardware":"RS ADAM-6060 input 6","software":"6","location":"I/O-D road-side JB"},
+				{"type":"Input","number":"7","description":"Weighbridge zeroing input (site-side induction loop or push button)","hardware":"SS ADAM-6060 input 1","software":"7","location":"I/O-D site-side JB"},
+				{"type":"Input","number":"8","description":"Barrier in horizontal / closed position (site-side)","hardware":"SS ADAM-6060 input 2","software":"8","location":"I/O-D site-side JB"},
+				{"type":"Input","number":"9","description":"Barrier in vertical / open position (site-side)","hardware":"SS ADAM-6060 input 3","software":"9","location":"I/O-D site-side JB"},
+				{"type":"Input","number":"10","description":"Barrier safety sensor(s) (site-side)","hardware":"SS ADAM-6060 input 4","software":"10","location":"I/O-D site-side JB"},
+				{"type":"Input","number":"11","description":"Positioning sensors (site-side)","hardware":"SS ADAM-6060 input 5","software":"11","location":"I/O-D site-side JB"},
+				{"type":"Input","number":"12","description":"Dual cabinet systems - site-side cabinet active","hardware":"SS ADAM-6060 input 6","software":"12","location":"I/O-D site-side JB"},
+				{"type":"Input","number":"13","description":"PLC enabled (from PLC when loading is available)","hardware":"CEM ADAM-6060 input 1","software":"13","location":"I/O-D inside DOT/Cement loading"},
+				{"type":"Input","number":"14","description":"Spout Up (from PLC when spout is at the top position)","hardware":"CEM ADAM-6060 input 2","software":"14","location":"I/O-D inside DOT/Cement loading"},
+				{"type":"Input","number":"15","description":"Loading enabled (from PLC when loading product)","hardware":"CEM ADAM-6060 input 3","software":"15","location":"I/O-D inside DOT/Cement loading"},
+				{"type":"Input","number":"16","description":"Product available (from PLC, e.g. chages from high to low when silo out of product or below a treshold - e.g. Breedon - silo below 30,000kg)","hardware":"CEM ADAM-6060 input 4","software":"16","location":"I/O-D inside DOT/Cement loading"},
+				{"type":"Input","number":"17","description":"","hardware":"CEM ADAM-6060 input 5","software":"17","location":"I/O-D inside DOT/Cement loading"},
+				{"type":"Input","number":"18","description":"","hardware":"CEM ADAM-6060 input 6","software":"18","location":"I/O-D inside DOT/Cement loading"},
+				{"type":"Input","number":"19","description":"","hardware":"i25 board input 1","software":"19","location":"i25 board inside DOT"},
+				{"type":"Input","number":"20","description":"","hardware":"i25 board input 2","software":"20","location":""},
+				{"type":"Output","number":"1","description":"Traffic light entry (road side)","hardware":"RS ADAM-6060 output 1","software":"1","location":"I/O-D road-side JB"},
+				{"type":"Output","number":"2","description":"Barrier open (road side)","hardware":"RS ADAM-6060 output 2","software":"2","location":"I/O-D road-side JB"},
+				{"type":"Output","number":"3","description":"Barrier close (road side)","hardware":"RS ADAM-6060 output 3","software":"3","location":"I/O-D road-side JB"},
+				{"type":"Output","number":"4","description":"Traffic light exit (road side)","hardware":"RS ADAM-6060 output 4","software":"4","location":"I/O-D road-side JB"},
+				{"type":"Output","number":"5","description":"","hardware":"RS ADAM-6060 output 5","software":"5","location":"I/O-D road-side JB"},
+				{"type":"Output","number":"6","description":"I'm active output (road-side)","hardware":"RS ADAM-6060 output 6","software":"6","location":"I/O-D road-side JB"},
+				{"type":"Output","number":"7","description":"Traffic light entry (site side)","hardware":"SS ADAM-6060 output 1","software":"7","location":"I/O-D site-side JB"},
+				{"type":"Output","number":"8","description":"Barrier open (site side)","hardware":"SS ADAM-6060 output 2","software":"8","location":"I/O-D site-side JB"},
+				{"type":"Output","number":"9","description":"Barrier close (site side)","hardware":"SS ADAM-6060 output 3","software":"9","location":"I/O-D site-side JB"},
+				{"type":"Output","number":"10","description":"Traffic light exit (site side)","hardware":"SS ADAM-6060 output 4","software":"10","location":"I/O-D site-side JB"},
+				{"type":"Output","number":"11","description":"","hardware":"SS ADAM-6060 output 5","software":"11","location":"I/O-D site-side JB"},
+				{"type":"Output","number":"12","description":"I'm active output (site-side)","hardware":"SS ADAM-6060 output 6","software":"12","location":"I/O-D site-side JB"},
+				{"type":"Output","number":"13","description":"Request  spout move (to PLC to enable spout to move)","hardware":"CEM ADAM-6060 output 1","software":"13","location":"I/O-D inside DOT/Cement loading"},
+				{"type":"Output","number":"14","description":"Start loading (to PLC to start loading)","hardware":"CEM ADAM-6060 output 2","software":"14","location":"I/O-D inside DOT/Cement loading"},
+				{"type":"Output","number":"15","description":"Coarse feed (to PLC for fas feed)","hardware":"CEM ADAM-6060 output 3","software":"15","location":"I/O-D inside DOT/Cement loading"},
+				{"type":"Output","number":"16","description":"Fine feed (to PLC for slow feed)","hardware":"CEM ADAM-6060 output 4","software":"16","location":"I/O-D inside DOT/Cement loading"}
+
+
+		]
+	}
+}
