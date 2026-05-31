@@ -1,3 +1,4 @@
+var allMoves = [];
 
 $( document ).ready(function() {
     onLoad();
@@ -5,32 +6,32 @@ $( document ).ready(function() {
 
 function onLoad(){
 	//Everything that should fire after page load goes here.
+	populateAllMoves();
 	getBasicMoves();
 	getEverydayIdentities();
 	getMagicalArchetypes();
 	getMysticalConnections();
 }
 
+
+
 function getFullDetails(moveName){
 	//console.log(referrer.innerText);
-	$.getJSON("./data/basic-moves.json?" + Date.now(), function(json) {
-		//Find the json entry for the move that we are looking for
-		var i = 0;
-		var found = false;
-		while(i<json["basic-moves"].length && found==false){
-			if(json["basic-moves"][i]["name"] == moveName){
-				found=true;
-				i--;
-			}
-			i++;
+	var i = 0;
+	var found = false;
+	while(i<allMoves.length && found==false){
+		if(allMoves[i]["name"] == moveName){
+			found=true;
+			i--;
 		}
-		//console.log("Found: " + json["basic-moves"][i]["name"]);
-		var myMove = json["basic-moves"][i];
-		document.getElementById("detailsModalTitle").innerHTML = `${myMove.name}`;
-		document.getElementById("detailsModalBody").innerHTML = `${myMove.details}`;
-		var myModal = new bootstrap.Modal(document.getElementById("detailsModal"), {});
-		myModal.show();
-	});
+		i++;
+	}
+	//console.log("Found: " + json["basic-moves"][i]["name"]);
+	var myMove = allMoves[i];
+	document.getElementById("detailsModalTitle").innerHTML = `${myMove.name}`;
+	document.getElementById("detailsModalBody").innerHTML = `${myMove.fullDetails}`;
+	var myModal = new bootstrap.Modal(document.getElementById("detailsModal"), {});
+	myModal.show();
 }
 
 function getBasicMoves(){
@@ -221,4 +222,78 @@ function showHideMysticalConnections(){
 	else{
 		$("#mystical-connections-content").show();
 	}
+}
+
+function searchChange(input){
+	var searchString = input.value;
+	//Need to loop over allMoves, pushing to new var where searchString in name
+	var filteredMoves = [];
+	allMoves.forEach(move => {
+		if(move["name"].toUpperCase().includes(searchString.toUpperCase())){
+			filteredMoves.push(move);
+		}
+	})
+	console.log(filteredMoves);
+	//Update the div to only show filtered moves
+	var col = document.getElementById("quickSearchCol");
+	col.innerHTML = '';
+	filteredMoves.forEach(move => {
+		col.innerHTML += `
+			<div class="card">
+				<h4 style="border:1px white; text-align:center" onclick="getFullDetails('${move.name}')">${move.name} [${move.source}]</h4>
+			</div>
+		`;
+	})
+}
+
+function populateAllMoves(){
+	//Get the full details of all moves from all sources.
+	$.getJSON("./data/basic-moves.json?" + Date.now(), function(json) {
+		//Add basic moves
+		json["basic-moves"].forEach(move => {
+			allMoves.push({
+				"name":`${move.name}`,
+				"source":"Basic Moves",
+				"fullDetails":`${move.details}`
+			});
+		});
+		//Get other JSONS as nests
+		$.getJSON("./data/magical-archetypes.json?" + Date.now(), function(json2) {
+			json2["magical-archetypes"].forEach(archetype => {
+				archetype["moves"].forEach(move => {
+							allMoves.push({
+						"name":`${move.name}`,
+						"source":"Magical Archetypes",
+						"fullDetails":`${move.content}`
+					});
+				})
+			});
+			$.getJSON('./data/everyday-identities.json?' + Date.now(), function(json3) {
+				json3["everyday-identities"].forEach(identity => {
+					identity["moves"].forEach(move => {
+								allMoves.push({
+							"name":`${move.name}`,
+							"source":"Everyday Identities",
+							"fullDetails":`${move.content}`
+						});
+					})
+				});
+				$.getJSON('./data/mystical-connections.json?' + Date.now(), function(json4) {
+					json4["connections"].forEach(connection => {
+						connection["moves"].forEach(move => {
+									allMoves.push({
+								"name":`${move.name}`,
+								"source":"Mystical Connections",
+								"fullDetails":`${move.content}`
+							});
+						})
+					});
+					searchChange({"value":""});
+				})
+			})
+		});
+	});
+	//console.log("allMoves:");
+	//console.log(allMoves);
+
 }

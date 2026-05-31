@@ -19,7 +19,7 @@
 		function load_js(){
 			var head= document.getElementsByTagName('head')[0];
 			var script= document.createElement('script');
-			script.src= './scripts/page.js';
+			script.src= './scripts/page.js?Date=' + Date.now();
 			head.appendChild(script);
 		}
 		load_js();
@@ -48,40 +48,51 @@
 			</div>
 		</div>
 	</div>
-	<div class="container-fluid d-flex flex-column align-items-center" id="basic-moves-container">
-		<div class="row" id="basic-moves" style="width:90%">
-			<div class="col-12" onclick="showHideBasicMoves()">
-				<h3 style="text-align:center">Basic Moves</h3>
+	<div class="container align-items-center" id="all-page-container" style="max-width: 90%;">
+		<div class="row">
+			<div class="col-3" style="overflow: auto;">
+				<h3 style="text-align:center">Quick Search:</h3>
+				<input type="text" style="width:100%" onchange="searchChange(this)"></input>
+				<div id="quickSearchCol" style="height:80vh;overflow:auto;"></div>
 			</div>
-		</div>
-		<div class="row" id="basic-moves-content" style="width:90%; display: none">
-		</div>
-	</div>
-	<div class="container-fluid d-flex flex-column align-items-center" id="everyday-identities-container">
-		<div class="row" id="everyday-identities" style="width:90%">
-			<div class="col-12" onclick="showHideEverydayIdentities()">
-				<h3 style="text-align:center">Everyday Identities</h3>
+			<div class="col-9" id="movesCol">
+				<div class="container-fluid d-flex flex-column align-items-center" id="basic-moves-container">
+					<div class="row" id="basic-moves" style="width:90%">
+						<div class="col-12" onclick="showHideBasicMoves()">
+							<h3 style="text-align:center">Basic Moves</h3>
+						</div>
+					</div>
+					<div class="row" id="basic-moves-content" style="width:90%; display: none">
+					</div>
+				</div>
+				<div class="container-fluid d-flex flex-column align-items-center" id="everyday-identities-container">
+					<div class="row" id="everyday-identities" style="width:90%">
+						<div class="col-12" onclick="showHideEverydayIdentities()">
+							<h3 style="text-align:center">Everyday Identities</h3>
+						</div>
+					</div>
+					<div class="row" id="everyday-identities-content" style="width:90%; display: none">
+					</div>
+				</div>
+				<div class="container-fluid d-flex flex-column align-items-center" id="magical-archetypes-container">
+					<div class="row" id="magical-archetypes" style="width:90%">
+						<div class="col-12" onclick="showHideMagicalArchetypes()">
+							<h3 style="text-align:center">Magical Archetypes</h3>
+						</div>
+					</div>
+					<div class="row" id="magical-archetypes-content" style="width:90%; display: none">
+					</div>
+				</div>
+				<div class="container-fluid d-flex flex-column align-items-center" id="mystical-connections-container">
+					<div class="row" id="mystical-connections" style="width:90%">
+						<div class="col-12" onclick="showHideMysticalConnections()">
+							<h3 style="text-align:center">Mystical Connections</h3>
+						</div>
+					</div>
+					<div class="row" id="mystical-connections-content" style="width:90%; display: none">
+					</div>
+				</div>
 			</div>
-		</div>
-		<div class="row" id="everyday-identities-content" style="width:90%; display: none">
-		</div>
-	</div>
-	<div class="container-fluid d-flex flex-column align-items-center" id="magical-archetypes-container">
-		<div class="row" id="magical-archetypes" style="width:90%">
-			<div class="col-12" onclick="showHideMagicalArchetypes()">
-				<h3 style="text-align:center">Magical Archetypes</h3>
-			</div>
-		</div>
-		<div class="row" id="magical-archetypes-content" style="width:90%; display: none">
-		</div>
-	</div>
-	<div class="container-fluid d-flex flex-column align-items-center" id="mystical-connections-container">
-		<div class="row" id="mystical-connections" style="width:90%">
-			<div class="col-12" onclick="showHideMysticalConnections()">
-				<h3 style="text-align:center">Mystical Connections</h3>
-			</div>
-		</div>
-		<div class="row" id="mystical-connections-content" style="width:90%; display: none">
 		</div>
 	</div>
 </body>

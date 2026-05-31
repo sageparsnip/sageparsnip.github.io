@@ -10,7 +10,7 @@
 			"name":"Touch their heart",
 			"content":"Everyone can be saved, and you have to at least try. Different than convincing someone, this is an attempt to change your adversary’s outlook toward you and their actions.",
 			"page":"8",
-			"details":"Everyone can be saved, and you have to at least try. Different than convincing someone, this is an attempt to change your adversary's outlook toward you and their actions.<br><ul><li>On a 12+, they see the error of their ways and remove themselves from the situation (surrender, flee, or switch sides). You form a relationship with them of your choice.</li><li>On a 10+, they doubt their chosen course of action. All team members gain +2 to actions against them. This +2 goes away if the target takes damage. You form a competitive relationship with them.</li><li>On a 7–9, they stumble or hesitate and are plagued with questions. The next action against this target gains a +1.</li><li>On a 6 or lower, they become more resolute in their actions. All non-Clash! actions against this target suffer a -1.</li></ul>"
+			"details":"Everyone can be saved, and you have to at least try. Different than convincing someone, this is an attempt to change your adversary’s outlook toward you and their actions.<br><ul><li>On a 12+, they see the error of their ways and remove themselves from the situation (surrender, flee, or switch sides). You form a relationship with them of your choice.</li><li>On a 10+, they doubt their chosen course of action. All team members gain +2 to actions against them. This +2 goes away if the target takes damage. You form a competitive relationship with them.</li><li>On a 7–9, they stumble or hesitate and are plagued with questions. The next action against this target gains a +1.</li><li>On a 6 or lower, they become more resolute in their actions. All non-Clash! actions against this target suffer a -1.</li></ul>"
 		},
 		{
 			"name":"CLASH!",
@@ -26,7 +26,7 @@
 		},
 		{
 			"name":"Be Vigilant",
-			"content":"When you are faced with a potentially dangerous or threatening situation, you can attempt to be vigilant. Use this to spot an ambush or know the best way to sneak past the guards.<br><b><h5 onclick='getFullDetails(this)' style='text-align:center;'>Be Vigilant</h5></b>",
+			"content":"When you are faced with a potentially dangerous or threatening situation, you can attempt to be vigilant. Use this to spot an ambush or know the best way to sneak past the guards.<br><b><h5 onclick=’getFullDetails(this)’ style=’text-align:center;’>Be Vigilant</h5></b>",
 			"page":"8",
 			"details":"When you are faced with a potentially dangerous or threatening situation, you can attempt to be vigilant and roll +Mental. On a 10+, hold 3. On a 7–9, hold 1. On 12+, you can ask the GM any question about the situation that’s not in the list.<ul><li>What’s my best way in?</li><li>What’s my best way out?</li><li>Are there any dangers that I haven’t noticed?</li><li>What’s most vulnerable to me?</li><li>What seems to be the monster’s weakness?</li><li>What’s my best way to protect the area and victims here?</li></ul>If you act on these answers in a meaningful way, you gain +1 ongoing to all your rolls."
 		},
@@ -38,7 +38,7 @@
 		},
 		{
 			"name":"Thwart peril!",
-			"content":"Sometimes you find yourself trying to sneak past a mob of enemies, dodge an enemy's depression beam, or endure swimming in a swamp. This move sees how well you can do that.",
+			"content":"Sometimes you find yourself trying to sneak past a mob of enemies, dodge an enemy’s depression beam, or endure swimming in a swamp. This move sees how well you can do that.",
 			"page":"8",
 			"details":"Sometimes you find yourself trying to sneak past a mob of enemies, dodge an enemy’s depression beam, or endure swimming in a swamp. In these situations, say how you deal with these physical impasses and roll +Physical.<br>On a 10+, you do what you set out to do. On a 7–9, you slip, drop something, or call attention to yourself. The GM will offer you a worse outcome, a hard choice, or an extra price you must pay."
 		},

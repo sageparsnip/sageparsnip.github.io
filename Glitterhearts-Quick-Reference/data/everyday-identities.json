@@ -28,7 +28,7 @@
 			"name":"The Bodybuilder",
 			"primary-stat":"Physical",
 			"stat-changes":"+2 Physical, -1 Mental",
-			"description":"You've always been stronger, thicker, and beefier than everyone else. So what if your grades have suffered because of your pursuit of your body? You look amazing!",
+			"description":"You’ve always been stronger, thicker, and beefier than everyone else. So what if your grades have suffered because of your pursuit of your body? You look amazing!",
 			"page":"17",
 			"moves":[
 				{
@@ -109,12 +109,12 @@
 					"page":"19"
 				},
 				{
-					"name":"I've got a plan",
+					"name":"I’ve got a plan",
 					"content":"At the start of a session, roll +Mental. On a 10+ hold 2, on a 7–9 hold 1. Spend 1 hold to be where you need to be, prepared and ready, or spend 2 to have an ally be where they are most needed. On a miss, the GM holds 1 they can spend to put you at the wrong place at the wrong time.",
 					"page":"19"
 				},
 				{
-					"name":"I've read about this",
+					"name":"I’ve read about this",
 					"content":"When encountering something new, you can attempt to remember existing knowledge about it. Roll +Mental. On a 10+, the GM will tell you something interesting and useful about the subject relevant to your situation. On a 7–9, the GM will only tell you something interesting—it’s on you to make it useful. The GM might ask you how you know this. Tell them the truth.",
 					"page":"20"
 				}
@@ -234,7 +234,7 @@
 					"page":"22"
 				},
 				{
-					"name":"The fool's luck",
+					"name":"The fool’s luck",
 					"content":"Sometimes, your proclivity for goofing around uncovers something useful. Let the GM know if you want to find something randomly useful and important. It may not be related to the immediate threat or situation.",
 					"page":"23"
 				}
@@ -248,7 +248,7 @@
 			"page":"23",
 			"moves":[
 				{
-					"name":"Let's talk about it",
+					"name":"Let’s talk about it",
 					"content":"You are good at helping people work out their problems. When Resting and relaxing, you can roll +Emotional. On a 10+, you can remove another person’s condition and one of your own. On a 7–9, you can remove another person’s condition. On a 6 or less, you say all the wrong things and hurt that other person, gaining the isolated condition.",
 					"page":"23"
 				},
@@ -272,13 +272,13 @@
 			"page":"23",
 			"moves":[
 				{
-					"name":"We're all in this together",
+					"name":"We’re all in this together",
 					"content":"You gain a +1 to Thwart peril! rolls when you are working with one or more other heroes or allies.",
 					"page":"23"
 				},
 				{
 					"name":"Better together",
-					"content":"You gain the most benefit from cooperative types of relationships. You gain a +1 to all We can do this together rolls, but you can't have a competitive relationship with anyone and your relationships break on a 7–9 result.",
+					"content":"You gain the most benefit from cooperative types of relationships. You gain a +1 to all We can do this together rolls, but you can’t have a competitive relationship with anyone and your relationships break on a 7–9 result.",
 					"page":"23"
 				},
 				{
@@ -306,7 +306,7 @@
 					"page":"24"
 				},
 				{
-					"name":"The sky's the limit!",
+					"name":"The sky’s the limit!",
 					"content":"You gain the option to spend 2 points from your power pool to upgrade the result to the next level, instead of gaining advantage on the roll. This must be chosen before the dice are rolled.",
 					"page":"24"
 				}
@@ -325,7 +325,7 @@
 					"page":"24"
 				},
 				{
-					"name":"That doesn't sound like me",
+					"name":"That doesn’t sound like me",
 					"content":"Anyone trying to use Convince someone on you suffers a -1 penalty. You also have a +1 to Keep your wits rolls.",
 					"page":"24"
 				},
@@ -349,7 +349,7 @@
 					"page":"25"
 				},
 				{
-					"name":"I'm fine on my own",
+					"name":"I’m fine on my own",
 					"content":"You are immune to the Isolated condition.",
 					"page":"25"
 				},
@@ -368,7 +368,7 @@
 			"page":"25",
 			"moves":[
 				{
-					"name":"I know what's really going on",
+					"name":"I know what’s really going on",
 					"content":"When you Glimpse the truth, you gain a power point when you roll a 6 or less, and the outcome will reinforce your belief about the world no matter how wrong that belief is.",
 					"page":"25"
 				},
