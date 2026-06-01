@@ -71,6 +71,20 @@
 						"Bass"
 					],
 					"videoPath":"https://www.youtube.com/embed/hVqrW-fPOQ0?si=M1r10qmSVrupqIVq"
+				},
+				{
+					"name":"Mo Ghile Mear",
+					"language":"English",
+					"parts":[
+						"Tenor Solo",
+						"Soprano",
+						"Alto",
+						"Tenor 1",
+						"Tenor 2",
+						"Bass 1",
+						"Bass 2"
+					],
+					"videoPath":"https://www.youtube.com/embed/zxjvNUNXhkU?si=ShXMqjGIjY5iT6Aj"
 				}
 			]
 		}
