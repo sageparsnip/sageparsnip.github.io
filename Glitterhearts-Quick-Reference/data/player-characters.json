@@ -1,0 +1,216 @@
+{
+	"characters":[
+		{
+			"name":"Mitchell 'Mitchie' Heather Brown",
+			"player":"Bob",
+			"pronouns":"She/Her",
+			"color":"pink",
+			"text-color":"black",
+			"stats":{
+				"Physical":1,
+				"Emotional":2,
+				"Mental":0,
+				"Mystical":0,
+				"Persona":-1
+			},
+			"everyday-identity":"The Clown",
+			"magical-archetype":"The Defender",
+			"mystical-connection":"Joy",
+			"experience":4,
+			"ei-moves":[
+				"The fools' luck - page 23"
+			],
+			"ma-moves":[
+				"I'll save you! - page 34"
+			],
+			"mc-moves":[
+				"Palpable happiness - page 41",
+				"Happy place - page 41"
+			],
+			"heroic-achievements":[
+				"Found a book in the very obscure location for a struggling student"
+			]
+		},
+		{
+			"name":"Stella Crystal Reed",
+			"player":"Alison",
+			"pronouns":"She/Her",
+			"color":"navy",
+			"text-color":"white",
+			"stats":{
+				"Physical":0,
+				"Emotional":0,
+				"Mental":-1,
+				"Mystical":2,
+				"Persona":1
+			},
+			"everyday-identity":"True Believer",
+			"magical-archetype":"The Idol",
+			"mystical-connection":"Air",
+			"experience":0,
+			"ei-moves":[
+				"How did that get there?"
+			],
+			"ma-moves":[
+				"Gentle Winds of Healing"
+			],
+			"mc-moves":[
+				"One With Air",
+				"Air Arrows"
+			],
+			"heroic-achievements":[
+				"Bravely running into battle to save Mr Lucas and killing 3 evil plants"
+			]
+		},
+		{
+			"name":"Pippa",
+			"player":"Laura",
+			"pronouns":"She/Her",
+			"color":"green",
+			"text-color":"white",
+			"stats":{
+				"Physical":0,
+				"Emotional":0,
+				"Mental":0,
+				"Mystical":0,
+				"Persona":0
+			},
+			"everyday-identity":"",
+			"magical-archetype":"",
+			"mystical-connection":"",
+			"experience":0,
+			"ei-moves":[
+				
+			],
+			"ma-moves":[
+				
+			],
+			"mc-moves":[
+				
+			],
+			"heroic-achievements":[
+				
+			]
+		},
+		{
+			"name":"Cynthia",
+			"player":"Sam",
+			"pronouns":"She/Her",
+			"color":"orange",
+			"text-color":"black",
+			"stats":{
+				"Physical":0,
+				"Emotional":0,
+				"Mental":0,
+				"Mystical":0,
+				"Persona":0
+			},
+			"everyday-identity":"",
+			"magical-archetype":"",
+			"mystical-connection":"",
+			"experience":0,
+			"ei-moves":[
+				
+			],
+			"ma-moves":[
+				
+			],
+			"mc-moves":[
+				
+			],
+			"heroic-achievements":[
+				
+			]
+		},
+		{
+			"name":"Estelle",
+			"player":"Niall",
+			"pronouns":"She/Her",
+			"color":"maroon",
+			"text-color":"white",
+			"stats":{
+				"Physical":0,
+				"Emotional":0,
+				"Mental":0,
+				"Mystical":0,
+				"Persona":0
+			},
+			"everyday-identity":"",
+			"magical-archetype":"",
+			"mystical-connection":"",
+			"experience":0,
+			"ei-moves":[
+				
+			],
+			"ma-moves":[
+				
+			],
+			"mc-moves":[
+				
+			],
+			"heroic-achievements":[
+				
+			]
+		},
+		{
+			"name":"Meaghan",
+			"player":"Dave",
+			"pronouns":"She/Her",
+			"color":"gold",
+			"text-color":"black",
+			"stats":{
+				"Physical":0,
+				"Emotional":0,
+				"Mental":0,
+				"Mystical":0,
+				"Persona":0
+			},
+			"everyday-identity":"",
+			"magical-archetype":"",
+			"mystical-connection":"",
+			"experience":0,
+			"ei-moves":[
+				
+			],
+			"ma-moves":[
+				
+			],
+			"mc-moves":[
+				
+			],
+			"heroic-achievements":[
+				
+			]
+		},
+		{
+			"name":"Stephanie",
+			"player":"Andrew",
+			"pronouns":"She/Her",
+			"color":"purple",
+			"text-color":"white",
+			"stats":{
+				"Physical":0,
+				"Emotional":0,
+				"Mental":0,
+				"Mystical":0,
+				"Persona":0
+			},
+			"everyday-identity":"",
+			"magical-archetype":"",
+			"mystical-connection":"",
+			"experience":0,
+			"ei-moves":[
+				
+			],
+			"ma-moves":[
+				
+			],
+			"mc-moves":[
+				
+			],
+			"heroic-achievements":[
+				
+			]
+		}
+	]
+}

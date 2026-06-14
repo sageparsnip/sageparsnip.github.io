@@ -11,6 +11,7 @@ function onLoad(){
 	getEverydayIdentities();
 	getMagicalArchetypes();
 	getMysticalConnections();
+	getPlayerCharacters();
 }
 
 
@@ -54,6 +55,74 @@ function getBasicMoves(){
 			`;
 		});
 		basicMovesRow.innerHTML = sl;
+	});
+}
+
+function getPlayerCharacters(){
+	var playerCharactersRow = document.getElementById("player-characters-content");
+	var sl = "";			
+	$.getJSON("./data/player-characters.json?" + Date.now(), function(json) {
+		json["characters"].forEach(character => {
+			sl += `
+				<div class="col-12" id="pc-${character.name}" style="background-color:${character.color};color:${character["text-color"]};border:2px solid white">
+					<h5 style="text-align:center">Name: ${character.name}</h5>
+					<div class="row" style="text-align:center;padding-bottom:0.5rem">
+						<div class="col-5">Player: ${character.player}</div>
+						<div class="col-5">Pronouns: ${character.pronouns}</div>
+						<div class="col-2">EXP: ${character.experience}</div>
+					</div>
+					<div class="row" style="text-align:center;padding-bottom:0.5rem">
+						<div class="col">Physical: ${character.stats.Physical}</div>
+						<div class="col">Emotional: ${character.stats.Emotional}</div>
+						<div class="col">Mental: ${character.stats.Mental}</div>
+						<div class="col">Mystical: ${character.stats.Mystical}</div>
+						<div class="col">Persona: ${character.stats.Persona}</div>
+					</div>
+					<div class="row" style="text-align:center;padding-bottom:0.5rem">
+						<div class="col">Everyday Identity: <b>${character["everyday-identity"]}</b></div>
+						<div class="col">Magical Archetype: <b>${character["magical-archetype"]}</b></div>
+						<div class="col">Mystical Connection: <b>${character["mystical-connection"]}</b></div>
+					</div>
+					<div class="row" style="text-align:center;padding-bottom:0.5rem">
+						<div class="col" id="ei-moves-col" style="border:1px solid ${character["text-color"]}">
+							Everyday Identity Moves:<br>
+			`;
+			character["ei-moves"].forEach(move => {
+				sl += `${move}<br>`;
+			});
+			sl += `
+						</div>
+						<div class="col" id="ma-moves-col" style="border:1px solid ${character["text-color"]}">
+							Magical Archetype Moves:<br>
+			`;
+			character["ma-moves"].forEach(move => {
+				sl += `${move}<br>`;
+			});
+			sl +=`
+						</div>
+						<div class="col" id="mc-moves-col" style="border:1px solid ${character["text-color"]}">
+							Mystical Connection Moves:<br>
+			`;
+			character["mc-moves"].forEach(move => {
+				sl += `${move}<br>`;
+			});
+			sl += `
+						</div>
+					</div>
+					<div class="row" style="text-align:center">
+						<h5 style="text-align:center">Heroic Achievements:</h5>
+						<div class="col" id="ha-col">
+			`;
+			character["heroic-achievements"].forEach(achievement => {
+				sl += `• ${achievement}<br>`;
+			});
+			sl +=`
+						</div>
+					</div>
+				</div>
+			`;
+		});
+		playerCharactersRow.innerHTML = sl;
 	});
 }
 
@@ -221,6 +290,15 @@ function showHideMysticalConnections(){
 	}
 	else{
 		$("#mystical-connections-content").show();
+	}
+}
+
+function showHidePlayerCharacters(){
+	if($("#player-characters-content").is(':visible')){
+		$("#player-characters-content").hide();
+	}
+	else{
+		$("#player-characters-content").show();
 	}
 }
 
