@@ -3341,7 +3341,7 @@
                     "role": "Anne Bronte"
                 },
                 {
-                    "name": "Tom Connor",
+                    "name": "Tom Brady-Connor",
                     "role": "Branwell/Heathcliff"
                 },
                 {
@@ -3419,7 +3419,7 @@
                     "role": "Mary Warren"
                 },
                 {
-                    "name": "Tom Connor",
+                    "name": "Tom Brady-Connor",
                     "role": "John Proctor"
                 },
                 {
@@ -4368,6 +4368,176 @@
                 {"name":"Leanne Reilly","role":"Stage Manager"},
                 {"name":"Joe Canavan","role":"Lighting and Sound Design"}
             ]
+        },
+        {
+            "Play": "One Act Plays Autumn 2025",
+            "Year": "2025",
+            "Month": "November",
+            "DetailsComplete":"Yes",
+            "Playwright": "Various",
+            "Length": "Collection",
+            "Location": "Kildrought Lounge",
+            "Performances": [
+                {
+                    "Play": "There's Always Tomorrow",
+                    "Playwright": "Joe Bergin",
+                    "Director": "Joe Bergin",
+                    "Cast": [
+                        {
+                            "name": "Madeleine Martin",
+                            "role": "Sara"
+                        },
+                        {
+                            "name": "Brendan O'Sullivan",
+                            "role": "Peter"
+                        },
+                        {
+                            "name": "Bob Tysall",
+                            "role": "Ken"
+                        }
+                    ]
+                },
+                {
+                    "Play": "The Insanity of Mary Girard",
+                    "Playwright": "Lanie Robertson",
+                    "Director": "Joe Canavan",
+                    "Cast": [
+                        {
+                            "name": "Fran O'Connor",
+                            "role": "Mary Girard"
+                        },
+                        {
+                            "name": "Pete Butler",
+                            "role": "The Warder/Fury"
+                        },
+                        {
+                            "name": "Katie Noone",
+                            "role": "Mrs. Lum/Fury"
+                        },
+                        {
+                            "name": "Chris Fenlon",
+                            "role": "Stephen Girard/Fury"
+                        },
+                        {
+                            "name": "Bob Tysall",
+                            "role": "Mr. Phillips"
+                        },
+                        {
+                            "name": "Lisa Siddle",
+                            "role": "Polly Kenton/Fury"
+                        },
+                        {
+                            "name": "Abina Guinan",
+                            "role": "Mrs. Hatcher/Fury"
+                        },
+                        {
+                            "name": "Thandi Saul",
+                            "role": "Fury"
+                        }
+                    ]
+                },
+                {
+                    "Play": "A Little Box Of Oblivion",
+                    "Playwright": "Stephen Bean",
+                    "Director": "Rachel Butler",
+                    "Cast": [
+                        {
+                            "name": "Cathal Hayes",
+                            "role": "Cool"
+                        },
+                        {
+                            "name": "Dominique Gaydon-Pitts",
+                            "role": "Woman"
+                        },
+                        {
+                            "name":"Leanne Reilly",
+                            "role":"Neuro"
+                        },
+                        {
+                            "name":"Joy Murphy",
+                            "role":"Doom"
+                        },
+                        {
+                            "name":"Michelle O'Dea",
+                            "role":"Dick"
+                        }
+                    ]
+                }
+            ],
+            "Crew": []
+        },
+        {
+            "Play": "One Act Plays Spring 2026",
+            "Year": "2026",
+            "Month": "May",
+            "DetailsComplete":"Yes",
+            "Playwright": "Various",
+            "Length": "Collection",
+            "Location": "Kildrought Lounge",
+            "Performances": [
+                {
+                    "Play": "Lone Star",
+                    "Playwright": "James McLure",
+                    "Director": "Brendan O'Sullivan",
+                    "Cast": [
+                        {
+                            "name": "Chris Fenlon",
+                            "role": "Ray"
+                        },
+                        {
+                            "name": "Vini Casey",
+                            "role": "Roy"
+                        },
+                        {
+                            "name": "Matthew de Barra",
+                            "role": "Cletus"
+                        }
+                    ]
+                },
+                {
+                    "Play": "Her Big Chance",
+                    "Playwright": "Alan Bennett",
+                    "Director": "Breda Donnellan",
+                    "Cast": [
+                        {
+                            "name": "Lisa Siddle",
+                            "role": "Leslie"
+                        }
+                    ]
+                },
+                {
+                    "Play": "The Good Father",
+                    "Playwright": "Christian O'Reilly",
+                    "Director": "Pete Butler",
+                    "Cast": [
+                        {
+                            "name": "Cathal Hayes",
+                            "role": "Tim"
+                        },
+                        {
+                            "name": "Joy Murphy",
+                            "role": "Jane"
+                        },
+                        {
+                            "name": "Matthew de Barra",
+                            "role": "Tim"
+                        },
+                        {
+                            "name": "Sinead Oman",
+                            "role": "Jane"
+                        },
+                        {
+                            "name": "Graham Twomey",
+                            "role": "Tim"
+                        },
+                        {
+                            "name": "Julie O'Neill",
+                            "role": "Jane"
+                        }
+                    ]
+                }
+            ],
+            "Crew": []
         }
     ]
 }
