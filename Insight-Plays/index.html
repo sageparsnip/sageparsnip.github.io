@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<script src='./scripts/papaparse.min.js'></script>
+	<script src='./scripts/jquery-3.6.3.min.js'></script>
+	<script type='text/javascript'>    
+		const SHEET_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQcIJ8C-34_g8eDYCLrvYNjGtc74Gp2jPKu-7k5n6J6N-4Veip_dytjUgAsN4x6zyNLSOSxwChs3vaP/pub?gid=0&single=true&output=csv';
+	  	function init() {
+	  		$.get(SHEET_URL, function(csvData){
+	  			const result = Papa.parse(csvData, {header:true, skipEmptyLines:true});
+	  			const plays = result.data;
+	  			plays.forEach(play => {
+	  				if(play["In Consideration"] == "Yes"){
+	  					console.log("Consider: " + play["Playwright"] + "'s " + play["Title"]);
+	  				}
+	  			})
+	  			console.log(plays);
+	  		})
+		}
+		window.addEventListener('DOMContentLoaded', init)
+	</script>
+</head>
+<body>
+
+</body>
+</html>
