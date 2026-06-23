@@ -1,0 +1,8 @@
+### What Is Insight Theatre Celbridge?
+Since 1980, Insight Theatre Group Celbridge has had a mission: to bring fun, quality amateur drama to the fine folks of Kildare. Over the years we have been blessed with so many opportunities to share the highs and lows of the stage with a wonderful local community, without whose support we would not be here.
+
+As an amateur drama group, our members volunteer their time to making guts bust with laughter and hearts wrench with sorrow. We have put on a huge variety of pieces, from serious Irish dramas like Patricia Burke Brogan's "Eclipsed", to highbrow classic farce like Moliere's "Tartuffe", and even into the realms of the absurd with Michael West's "Dublin By Lamplight" - all directed, acted, built, costumed, staged, and occasionally correctly spoken by our membership.
+
+We owe a huge debt to our local community for our continued success. Both from our audience members, whose continued patronage lets us keep the lights on (literally), and from our members, whose dedication to the craft is unrivalled. In particular, we should thank the O'Connors of the Kildrought Bar and Lounge for providing us with a home for so many years, for which we can never overstate our gratitude.
+
+The best to find out what Insight is all about is to get involved! Come down for some readings, see a show, put a play forward or help out backstage - you'll get to know us very quickly indeed.

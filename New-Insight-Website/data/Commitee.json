@@ -1,0 +1,46 @@
+{
+	"members":[
+		{
+			"name":"Michelle O'Dea",
+			"title":"Chairperson",
+			"picture":"Michelle.jpg",
+			"bio":"Co-Chair - no wait, full Chair? Full Chair."
+		},
+		{
+			"name":"Leanne Reilly",
+			"title":"Treasurer",
+			"picture":"Leanne.jpg",
+			"bio":"Leo's Favourite"
+		},
+		{
+			"name":"Bob Tysall",
+			"title":"Secretary",
+			"picture":"Bob.jpg",
+			"bio":"Loves a good spreadsheet"
+		},
+		{
+			"name":"Chris Fenlon",
+			"title":"Properties Manager",
+			"picture":"Chris.jpg",
+			"bio":"The light(s) of my life"
+		},
+		{
+			"name":"Rachel Butler",
+			"title":"",
+			"picture":"Rachel.jpg",
+			"bio":"Turned Michelle into a right Dick"
+		},
+		{
+			"name":"Tom Brady-Connor",
+			"title":"",
+			"picture":"Tom.jpg",
+			"bio":"Have you heard him sing?"
+		},
+		{
+			"name":"Thandi Saul",
+			"title":"",
+			"picture":"Thandi.jpg",
+			"bio":"Could probably find your gqom"
+		}
+	]
+}
