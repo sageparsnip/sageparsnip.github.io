@@ -23,6 +23,47 @@
 		a{
 			color:white;
 		}
+		.bubble{
+			text-align: center;
+			border: 1px solid black;
+			border-radius: 50%;
+		}
+		#headerRow{
+			background-color: darkred;
+			color: gold;
+			font-weight: bold;
+			text-align:center;
+		}
+		.historyRowA{
+			background-color: white;
+		}
+		.historyRowB{
+			background-color: lightpink;
+		}
+		th{
+			padding-right: 1rem;
+			padding-left: 1rem;
+			border: 1px solid black;
+		}
+		td{
+			padding-right: 1rem;
+			padding-left: 1rem;
+			border: 1px solid black;
+		}
+		.headerCol{
+			text-align: center;
+		}
+		.detailCol{
+			text-align: center;
+		}
+		.modal-body {
+		  display: flex;
+		  flex-direction: column;
+		  align-items: center;
+		}
+		.modal-body hr {
+		  width: 100%;
+		}
 	</style>
 </head>
 <body class="bg-light">
@@ -63,6 +104,23 @@
 	    </div>
 	</div>
 </nav>
+<!--MODAL HERE-->
+<div class="modal" id="infoModal">
+	<div class="modal-dialog modal-fullscreen-sm-down modal-lg">
+		<div class="modal-content  text-dark bg-light">
+			<div class="modal-header text-dark bg-light" id="modalHeader">
+				<h3 id="modalTitle">Full Play Info:</h3>
+			</div>
+			<div class="modal-body text-dark bg-light" style="max-height: 70vh; overflow-y: auto;" id="modalBody" style="margin:auto; display:block;background-color: lightpink;">
+
+			</div>
+			<div class="modal-footer text-dark bg-light" id="modalFooter">
+				<button type="button" class="btn btn-secondary" onclick="hideModal()">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
 <div class="container-fluid" id="main-content" style="max-width: 80%;padding-top:2rem;margin-bottom:3rem">
 </div>
 <footer class="text-light py-2 px-3 fixed-bottom" style="background-color: darkred;">

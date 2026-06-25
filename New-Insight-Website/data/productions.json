@@ -1,0 +1,4899 @@
+{
+    "productions": [
+        {
+            "Play": "The Well of the Saints",
+            "Year": "1980",
+            "Month": "May",
+            "DetailsComplete":"No",
+            "ImageFolder":"",
+            "Playwright": "JM Synge",
+            "Length": "Full Slot",
+            "Location": "",
+            "Director": "Unknown",
+            "Cast": [],
+            "Crew": [],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "The Year of the Hiker",
+            "Year": "1981",
+            "Month": "December",
+            "DetailsComplete":"No",
+            "ImageFolder":"",
+            "Playwright": "JB Keane",
+            "Length": "Full Slot",
+            "Location": "",
+            "Director": "Unknown",
+            "Cast": [],
+            "Crew": [],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Juno and the Paycock",
+            "Year": "1982",
+            "Month": "November",
+            "DetailsComplete":"No",
+            "ImageFolder":"",
+            "Playwright": "Seán O'Casey",
+            "Length": "Full Slot",
+            "Location": "",
+            "Director": "Unknown",
+            "Cast": [],
+            "Crew": [],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "The Hostage",
+            "Year": "1983",
+            "Month": "April",
+            "DetailsComplete":"No",
+            "ImageFolder":"",
+            "Playwright": "Brendan Behan",
+            "Length": "Full Slot",
+            "Location": "",
+            "Director": "Unknown",
+            "Cast": [],
+            "Crew": [],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Canaries",
+            "Year": "1983",
+            "Month": "November",
+            "DetailsComplete":"No",
+            "ImageFolder":"",
+            "Playwright": "Bernard Farrell",
+            "Length": "Full Slot",
+            "Location": "",
+            "Director": "Unknown",
+            "Cast": [],
+            "Crew": [],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Rain",
+            "Year": "1984",
+            "Month": "April",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Somerset Maugham",
+            "Length": "Full Slot",
+            "Location": "The Abbey Hall",
+            "Director": "Nuala O'Byrne",
+            "Cast": [
+                {
+                    "name":"Bernie Greene",
+                    "role":"Mrs. Ameena Horn"
+                },
+                {
+                    "name":"Frank O'Neill",
+                    "role":"Corporal Hodgson"
+                },
+                {
+                    "name":"Pat Abbott",
+                    "role":"Private Griggs"
+                },
+                {
+                    "name":"Brendan O'Sullivan",
+                    "role":"Sergent O'Hara"
+                },
+                {
+                    "name":"Louis Darlington",
+                    "role":"Joe Horn"
+                },
+                {
+                    "name":"Aileen Hudson",
+                    "role":"Mrs. Davidson"
+                },
+                {
+                    "name":"Sean Ennis",
+                    "role":"Dr. McPhail"
+                },
+                {
+                    "name":"Clair Johnson",
+                    "role":"Mrs. McPhail"
+                },
+                {
+                    "name":"Helena Fagan",
+                    "role":"Sadie Thompson"
+                },
+                {
+                    "name":"Lisa Clarke",
+                    "role":"Sadie Thompson"
+                },
+                {
+                    "name":"Hugh Kane",
+                    "role":"Quartermaster Bates"
+                },
+                {
+                    "name":"Des McCloskey",
+                    "role":"Rev. Alfred Davidson"
+                },
+                {
+                    "name":"Julie Moloney",
+                    "role":"Native Girl"
+                },
+                {
+                    "name":"Paul Houston",
+                    "role":"Native Boy"
+                },
+                {
+                    "name":"Philip Clarke",
+                    "role":"Policeman"
+                }
+            ],
+            "Crew": [
+                {
+                    "name":"Miriam Breslin",
+                    "role":"Stage Management"
+                },
+                {
+                    "name":"Mary Hosty",
+                    "role":"Assistant Stage Manager"
+                },
+                {
+                    "name":"Dorothy Clarke",
+                    "role":"Assistant Stage Manager"
+                },
+                {
+                    "name":"Chris Ward",
+                    "role":"Sound"
+                },
+                {
+                    "name":"Dermot Cummins",
+                    "role":"Lighting"
+                },
+                {
+                    "name":"Ritchie Delaney",
+                    "role":"Lighting"
+                },
+                {
+                    "name":"Mary Fox",
+                    "role":"Assistant to Producer"
+                },
+                {
+                    "name":"Kim McCarthy",
+                    "role":"Make-Up"
+                },
+                {
+                    "name":"Nuala Farrelly",
+                    "role":"Make-Up"
+                },
+                {
+                    "name":"Tina Murphy",
+                    "role":"Make-Up"
+                },
+                {
+                    "name":"Karen McClean",
+                    "role":"Make-Up"
+                },
+                {
+                    "name":"John Greene",
+                    "role":"Floor Manager"
+                },
+                {
+                    "name":"Anne Connolly",
+                    "role":"Floor Manager"
+                },
+                {
+                    "name":"Paul Houston",
+                    "role":"Set Design & Construction"
+                },
+                {
+                    "name":"Sean Woods",
+                    "role":"Set Design & Construction"
+                }
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Hall of Healing",
+            "Year": "1984",
+            "Month": "October",
+            "DetailsComplete":"No",
+            "ImageFolder":"",
+            "Playwright": "Seán O'Casey",
+            "Length": "Full Slot",
+            "Location": "",
+            "Director": "Unknown",
+            "Cast": [],
+            "Crew": [],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Blythe Spirit",
+            "Year": "1984",
+            "Month": "December",
+            "DetailsComplete":"No",
+            "ImageFolder":"",
+            "Playwright": "Noel Coward",
+            "Length": "Full Slot",
+            "Location": "",
+            "Director": "Unknown",
+            "Cast": [],
+            "Crew": [],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Absurd Person Singular",
+            "Year": "1985",
+            "Month": "April",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Alan Ayckbourn",
+            "Length": "Full Slot",
+            "Location": "Salesian College Hall",
+            "Director": "Bryan O'Duffy",
+            "Cast": [
+                {
+                    "name":"Mary Hosty",
+                    "role":"Jane Hopcroft"
+                },
+                {
+                    "name":"Sean Ennis",
+                    "role":"Sidney Hopcroft"
+                },
+                {
+                    "name":"Trish Fallon",
+                    "role":"Eva Jackson"
+                },
+                {
+                    "name":"Brendan O'Sullivan",
+                    "role":"Geoffrey Jackson"
+                },
+                {
+                    "name":"Geraldine Reidy",
+                    "role":"Marion Brewster-Wright"
+                },
+                {
+                    "name":"Hugh Kane",
+                    "role":"Ronald Brewster-Wright"
+                }
+            ],
+            "Crew": [
+                {
+                    "name":"Miriam Breslin",
+                    "role":"Stage Manager"
+                },
+                {
+                    "name":"Mary Fox",
+                    "role":"Properties Manager"
+                },
+                {
+                    "name":"Maggie Higgins",
+                    "role":"Assistant Stage Manager"
+                },
+                {
+                    "name":"Liz Ennis",
+                    "role":"Assistant Stage Manager"
+                },
+                {
+                    "name":"David Abbott",
+                    "role":"Assistant Stage Manager"
+                },
+                {
+                    "name":"Paul Abbott",
+                    "role":"Assistant Stage Manager"
+                },
+                {
+                    "name":"Grant Nicholas",
+                    "role":"Assistant Stage Manager"
+                },
+                {
+                    "name":"Paul Houston",
+                    "role":"Set Construction"
+                },
+                {
+                    "name":"Sean Woods",
+                    "role":"Set Construction"
+                },
+                {
+                    "name":"Des McCloskey",
+                    "role":"Set Construction"
+                },
+                {
+                    "name":"Nuala O'Byrne",
+                    "role":"Make-Up"
+                },
+                {
+                    "name":"Dermot Cummins",
+                    "role":"Lighting/Sound"
+                },
+                {
+                    "name":"Geraldine Farrell",
+                    "role":"Lighting/Sound"
+                },
+                {
+                    "name":"Phyllis Greene",
+                    "role":"Floor Management"
+                },
+                {
+                    "name":"Anne Connolly",
+                    "role":"Floor Management"
+                },
+                {
+                    "name":"Fiona O'Kelly",
+                    "role":"Floor Management"
+                },
+                {
+                    "name":"Christine Harte",
+                    "role":"Floor Management"
+                }
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Abigail's Party",
+            "Year": "1986",
+            "Month": "June",
+            "DetailsComplete":"No",
+            "ImageFolder":"",
+            "Playwright": "Mike Leigh",
+            "Length": "Full Slot",
+            "Location": "",
+            "Director": "Unknown",
+            "Cast": [
+                {"name":"Christine Harte","role":""},
+                {"name":"Helena Fagan","role":""},
+                {"name":"Kieran Kane","role":""}
+            ],
+            "Crew": [],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "The Plough and the Stars",
+            "Year": "1986",
+            "Month": "December",
+            "DetailsComplete":"No",
+            "ImageFolder":"",
+            "Playwright": "Seán O'Casey",
+            "Length": "Full Slot",
+            "Location": "",
+            "Director": "Unknown",
+            "Cast": [],
+            "Crew": [],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Bedroom Farce",
+            "Year": "1987",
+            "Month": "May",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Alan Ayckbourn",
+            "Length": "Full Slot",
+            "Location": "",
+            "Director": "Ann Makitaria",
+            "Cast": [
+                {"name":"Brendan O'Sullivan","role":""},
+                {"name":"Christine Harte","role":""},
+                {"name":"Des McCloskey","role":""},
+                {"name":"Eugene","role":""},
+                {"name":"Liz Maxwell","role":""},
+                {"name":"Conor Holmes","role":""},
+                {"name":"Geraldine Reidy","role":""},
+                {"name":"Helena Fagan","role":""}
+            ],
+            "Crew": [
+                
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Brush with a Body",
+            "Year": "1988",
+            "Month": "March",
+            "DetailsComplete":"No",
+            "ImageFolder":"",
+            "Playwright": "Maurice McLoughlin",
+            "Length": "Full Slot",
+            "Location": "",
+            "Director": "Unknown",
+            "Cast": [],
+            "Crew": [],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "The Loves of Cass Maguire",
+            "Year": "1988",
+            "Month": "September",
+            "DetailsComplete":"No",
+            "ImageFolder":"",
+            "Playwright": "Brian Friel",
+            "Length": "Full Slot",
+            "Location": "",
+            "Director": "Unknown",
+            "Cast": [],
+            "Crew": [],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "The Factory Girls",
+            "Year": "1989",
+            "Month": "March",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Frank McGuinness",
+            "Length": "Full Slot",
+            "Location": "Abbey Hall",
+            "Director": "Dermot Cummins",
+            "Cast": [
+                {"name":"Pauline Harte","role":"Ellen"},
+                {"name":"Martina Blessing","role":"Vera"},
+                {"name":"Hazel Talbot","role":"Rebecca"},
+                {"name":"Liz Maxwell","role":"Una"},
+                {"name":"Nikki Killian","role":"Rosemary"},
+                {"name":"Des McCloskey","role":"Rohan"},
+                {"name":"Bert Carruthers","role":"Bonner"}
+            ],
+            "Crew": [
+                {"name":"Carol Greene","role":"Production Assistant"},
+                {"name":"Maggie Higgins","role":"Stage Manager"},
+                {"name":"Kathleen O'Connor","role":"Assistant Stage Manager, Set Construction"},
+                {"name":"Marie Madsen","role":"Assistant Stage Manager"},
+                {"name":"Dermot Cummins","role":"Set Design"},
+                {"name":"Mick Higgins","role":"Set Construction"},
+                {"name":"Brendan O'Sullivan","role":"Set Construction, Front of House"},
+                {"name":"Maria Ryan","role":"Set Construction"},
+                {"name":"Leo Reilly","role":"Set Construction"},
+                {"name":"Jenny Higgins","role":"Set Construction"},
+                {"name":"Lorcan Madsen","role":"Set Construction"},
+                {"name":"Miriam Breslin","role":"Lighting"},
+                {"name":"Christine Harte","role":"Sound"},
+                {"name":"Gayle Thompson","role":"Wardrobe, Stage Crew"},
+                {"name":"Monica Heksch","role":"Stage Crew"},
+                {"name":"Ger Reidy","role":"Front of House"},
+                {"name":"Gary O'Herlihy","role":"Front of House"},
+                {"name":"Maura Reidy","role":"Front of House"},
+                {"name":"Lillian Byrne","role":"Front of House"},
+                {"name":"Olwyn Keenan","role":"Front of House"},
+                {"name":"Jennifer Killian","role":"Front of House"},
+                {"name":"Maria Ryan","role":"Front of House"},
+                {"name":"Angie O'Duffy","role":"Front of House"},
+                {"name":"Nikki Killian","role":"PRO"}
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Semi Private",
+            "Year": "1989",
+            "Month": "November",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Mary Halpin",
+            "Length": "Full Slot",
+            "Location": "Abbey Hall",
+            "Director": "Mary Halpin",
+            "Cast": [
+                {"name":"Christine Harte","role":"Betty Hogan"},
+                {"name":"Liz Maxwell","role":"Mrs. O'Meara Hardy"},
+                {"name":"Martina Blessing","role":"Sr. Agnes Paul"},
+                {"name":"Sinead Flynn","role":"Nurse Farrell"},
+                {"name":"Geraldine Reidy","role":"Samantha Daly"},
+                {"name":"Penny Smith","role":"Sr. Monica"},
+                {"name":"Maria Martella","role":"Maggie (Old Lady)"},
+                {"name":"Des McCloskey","role":"Fr. O'Brien"},
+                {"name":"Fergal Reidy","role":"Dr. Prendergast"},
+                {"name":"Hazel Talbot","role":"Nurse Coughlan"},
+                {"name":"Aisling Mulreid","role":"Intern"},
+                {"name":"Neil Farrell","role":"Mr. Gilhooley"},
+                {"name":"Brendan O'Sullivan","role":"Frank Kavanagh"},
+                {"name":"Carol Greene","role":"Mrs. Quirke"},
+                {"name":"Karl Shiels","role":"Brendan Daly"}
+            ],
+            "Crew": [
+                {"name":"Miriam Breslin","role":"Stage Manager"},
+                {"name":"Gayle Thompson","role":"Properties Manager"},
+                {"name":"Sean Woods","role":"Set Construction"},
+                {"name":"Jim Campion","role":"Set Construction"},
+                {"name":"Lorcan Madsen","role":"Set Construction"},
+                {"name":"Kevin Chaney","role":"Set Construction"},
+                {"name":"Dermot Clarke","role":"Set Construction"},
+                {"name":"Marie Madsen","role":"Lighting/Sound"},
+                {"name":"John Breslin","role":"Lighting Technician"},
+                {"name":"Dermot Cummins","role":"Lighting Design"},
+                {"name":"Neil Farrell","role":"Stage Crew"},
+                {"name":"Maura Reidy","role":"Front of House"},
+                {"name":"Ann McCloskey","role":"Front of House"},
+                {"name":"Karen McClean","role":"Front of House"},
+                {"name":"Lillian Byrne","role":"Front of House"},
+                {"name":"Angie O'Duffy","role":"Front of House"},
+                {"name":"Angela Butler-Clarke","role":"Front of House"},
+                {"name":"Catriona Butler","role":"Front of House"},
+                {"name":"Betty Holliday","role":"Front of House"},
+                {"name":"Christine Harte","role":"PRO"}
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Separate Tables",
+            "Year": "1990",
+            "Month": "May",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Terrence Rattigan",
+            "Length": "Full Slot",
+            "Location": "Abbey Hall",
+            "Director": "John Breslin",
+            "Cast": [
+                {
+                    "name":"Siobhán Cooke",
+                    "role":"Mabel"
+                },
+                {
+                    "name":"Penny Smith",
+                    "role":"Lady Matheson"
+                },
+                {
+                    "name":"Carol Greene",
+                    "role":"Mrs. Railton-Bell"
+                },
+                {
+                    "name":"Liz Maxwell",
+                    "role":"Miss Meacham"
+                },
+                {
+                    "name":"Marie Madsen",
+                    "role":"Doreen"
+                },
+                {
+                    "name":"Seamus Henry",
+                    "role":"Mr. Fowler"
+                },
+                {
+                    "name":"Hazel Larkin",
+                    "role":"Mrs. Shankland"
+                },
+                {
+                    "name":"Gayle Thompson",
+                    "role":"Miss Cooper"
+                },
+                {
+                    "name":"Steve O'Brien",
+                    "role":"Mr. Malcolm"
+                },
+                {
+                    "name":"Karl Shiels",
+                    "role":"Mr. Stratton"
+                },
+                {
+                    "name":"Sinead Flynn",
+                    "role":"Miss Tanner"
+                },
+                {
+                    "name":"Des McCloskey",
+                    "role":"Major Pollock"
+                },
+                {
+                    "name":"Maria Martella",
+                    "role":"Miss Railton-Bell"
+                }
+            ],
+            "Crew": [
+                {
+                    "name":"Miriam Breslin",
+                    "role":"Stage Manager"
+                },
+                {
+                    "name":"Neil Farrell",
+                    "role":"Assistant Stage Manager"
+                },
+                {
+                    "name":"Christine Harte",
+                    "role":"Properties"
+                },
+                {
+                    "name":"Geraldine Reidy",
+                    "role":"Properties, Publicity Committee"
+                },
+                {
+                    "name":"Brendan O'Sullivan",
+                    "role":"Set Construction, Front of House"
+                },
+                {
+                    "name":"Lorcan Madsen",
+                    "role":"Set Construction"
+                },
+                {
+                    "name":"Dennis Thompson",
+                    "role":"Set Construction, Publicity Committee"
+                },
+                {
+                    "name":"Jim Campion",
+                    "role":"Set Construction"
+                },
+                {
+                    "name":"Martina Blessing",
+                    "role":"Front of House"
+                },
+                {
+                    "name":"Betty Holliday",
+                    "role":"Front of House"
+                },
+                {
+                    "name":"Maura Reidy",
+                    "role":"Front of House"
+                },
+                {
+                    "name":"Nikki Killian",
+                    "role":"Front of House"
+                },
+                {
+                    "name":"Lillian Byrne",
+                    "role":"Front of House"
+                },
+                {
+                    "name":"Christine Harte",
+                    "role":"Publicity Committee"
+                },
+                {
+                    "name":"Fergal Reidy",
+                    "role":"Publicity Committee"
+                }
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Winners and The Nightingale and not the Lark",
+            "Year": "1990",
+            "Month": "October",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Length": "Collection",
+            "Playwright":"Various",
+            "Director":"Various",
+            "Location": "Castletown Dining Room",
+            "Performances": [
+                {
+                    "Play": "Winners",
+                    "Playwright": "Brien Friel",
+                    "Director": "Dermot Cummins",
+                    "Cast": [
+                        {
+                            "name": "Hazel Larkin",
+                            "role": "Mag"
+                        },
+                        {
+                            "name": "Karl Shiels",
+                            "role": "Joe"
+                        },
+                        {
+                            "name": "Des McCloskey",
+                            "role": "Narrator Man"
+                        },
+                        {
+                            "name": "Penny Smith",
+                            "role": "Narrator Woman"
+                        }
+                    ]
+                },
+                {
+                    "Play": "The Nightingale and not the Lark",
+                    "Playwright": "Jennifer Johnston",
+                    "Director": "Bredha Sexton",
+                    "Cast": [
+                        {
+                            "name": "Liz Maxwell",
+                            "role": "Mamie"
+                        },
+                        {
+                            "name": "Steve O'Brien",
+                            "role": "Owen"
+                        },
+                        {
+                            "name": "Noreen McNamara",
+                            "role": "Janet"
+                        },
+                        {
+                            "name": "Karl Shiels",
+                            "role": "Tom"
+                        }
+                    ]
+                }
+            ],
+            "Crew": [
+                {
+                    "name":"Martina Blessing",
+                    "role":"Production Assistant (Winners)"
+                },
+                {
+                    "name":"Marie Madsen",
+                    "role":"Production Assistant (TNantL)"
+                },
+                {
+                    "name":"Lorna Mooney",
+                    "role":"Stage Manager"
+                },
+                {
+                    "name":"Elizabeth O'Sullivan",
+                    "role":"Properties Manager"
+                },
+                {
+                    "name":"Carol Greene",
+                    "role":"Sound & Lighting"
+                },
+                {
+                    "name":"Gayle Thompson",
+                    "role":"P.R.O., Front of House"
+                },
+                {
+                    "name":"Dermot Cummins",
+                    "role":"Set/Lighting Design"
+                },
+                {
+                    "name":"Brendan O'Sullivan",
+                    "role":"Set Construction"
+                },
+                {
+                    "name":"Dennis Thompson",
+                    "role":"Set Construction"
+                },
+                {
+                    "name":"Jim Campion",
+                    "role":"Set Construction"
+                },
+                {
+                    "name":"Lorcan Madsen",
+                    "role":"Set Construction"
+                },
+                {
+                    "name":"Ashling Mulreid",
+                    "role":"Stage Crew"
+                },
+                {
+                    "name":"Neil Farrell",
+                    "role":"Stage Crew"
+                },
+                {
+                    "name":"Gerald Mooney",
+                    "role":"Stage Crew"
+                },
+                {
+                    "name":"Chrstine Harte",
+                    "role":"Front of House"
+                },
+                {
+                    "name":"Tess O'Boyle",
+                    "role":"Front of House"
+                },
+                {
+                    "name":"Cathy Maxwell",
+                    "role":"Front of House"
+                },
+                {
+                    "name":"Miriam Breslin",
+                    "role":"Front of House"
+                },
+                {
+                    "name":"Betty Holliday",
+                    "role":"Front of House"
+                }
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "The Odd Couple",
+            "Year": "1991",
+            "Month": "April",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Neil Simon",
+            "Length": "Full Slot",
+            "Location": "Abbey Hall",
+            "Director": "Marie Madsen",
+            "Cast": [
+                {"name":"Martina Blessing","role":"Mickey"},{"name":"Christine Harte","role":"Renee"},
+                {"name":"Elizabeth O'Sullivan","role":"Vera"},{"name":"Geraldine Reidy","role":"Sylvie"},
+                {"name":"Gayle Thompson","role":"Olive"},{"name":"Lorna Mooney","role":"Florence"},
+                {"name":"Steve O'Brien","role":"Manolo"},{"name":"Bobby Barr","role":"Jesus"}
+            ],
+            "Crew": [
+                {"name":"Penny Smith","role":"Production Assistant, Lighting Operator"},{"name":"Miriam Breslin","role":"Stage Manager, Set Design"},
+                {"name":"Des McCloskey","role":"Assistant Stage Manager"},{"name":"Carol Greene","role":"Properties Manager"},
+                {"name":"John Breslin","role":"Lighting Technician/Rigger, Set Construction"},
+                {"name":"June Galligan","role":"Wardrobe"},
+                {"name":"Sean Woods","role":"Set Construction"},
+                {"name":"Lorcan Madsen","role":"Set Construction, Public Relations"},{"name":"Dennis Thompson","role":"Set Construction"},
+                {"name":"Gerald Mooney","role":"Set Construction"},{"name":"Brendan O'Sullivan","role":"Set Construction"},
+                {"name":"Michael Greene","role":"Set Construction"},
+                {"name":"Liz Maxwell","role":"Stage Crew"},{"name":"Neil Farrell","role":"Stage Crew"},
+                {"name":"Gayle Thompson","role":"Public Relations"},{"name":"Roisin McDermott","role":"Public Relations, Front of House"},
+                {"name":"Noreen McNamara","role":"Front of House"},
+                {"name":"Jess O'Boyle","role":"Front of House"},
+                {"name":"Seamus Henry","role":"Front of House"},{"name":"Betty Holliday","role":"Front of House"},
+                {"name":"Jenny Thompson","role":"Front of House"},{"name":"Michelle O'Boyle","role":"Front of House"}
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Losers & The Last of the Last of the Mohicans",
+            "Year": "1991",
+            "Month": "October",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Length": "Collection",
+            "Playwright":"Various",
+            "Director":"Various",
+            "Location": "Abbey Hall",
+            "Performances": [
+                {
+                    "Play": "Losers",
+                    "Playwright": "Brien Friel",
+                    "Director": "Dermot Cummins",
+                    "Cast": [
+                        {"name":"Paul Mescal","role":"Andy Treacy"},{"name":"Elizabeth O'Sullivan","role":"Hanna Wilson/Treacy"},
+                        {"name":"Kate Butler","role":"Mrs. Wilson"},{"name":"Helena Fagan","role":"Cissy Cassidy"}
+                    ]
+                },
+                {
+                    "Play": "The Last of the Last of the Mohicans",
+                    "Playwright": "Hugh Leonard",
+                    "Director": "Dermot Cummins",
+                    "Cast": [
+                        {"name":"Des McCloskey","role":"Dominick Studley"},{"name":"Declan Fahie","role":"Finbar Reidy"},
+                        {"name":"Lorna Mooney","role":"Grace Lamb"},{"name":"Liz Maxwell","role":"Ita Studley"},
+                        {"name":"Steve O'Brien","role":"Seamus Lamb"}
+                    ]
+                }
+            ],
+            "Crew": [
+                {"name":"Nikki Killian","role":"Production Assistant (Losers)"},
+                {"name":"Steve O'Brien","role":"Production Assistant (TLOTLOTM)"},
+                {"name":"Miriam Breslin","role":"Stage Manager"},
+                {"name":"Margaret Doyle","role":"Properties Manager"},
+                {"name":"Christine Harte","role":"Lighting"},
+                {"name":"John Breslin","role":"Sound"},
+                {"name":"Dermot Cummins","role":"Set Design"},
+                {"name":"Pauline McGonnell","role":"Costumes"},
+                {"name":"Bobby Barr","role":"Set Construction"},
+                {"name":"Sean Woods","role":"Set Construction"},
+                {"name":"Michael Greene","role":"Set Construction"},
+                {"name":"Brendan O'Sullivan","role":"Set Construction"},
+                {"name":"Maura Reidy","role":"Front of House"},
+                {"name":"Carol Greene","role":"Front of House"},
+                {"name":"Betty Holliday","role":"Front of House"},
+                {"name":"Roisin McDermott","role":"Front of House"},
+                {"name":"Neil Farrell","role":"Front of House"},
+                {"name":"June Galligan","role":"Front of House"},
+                {"name":"Ann McCloskey","role":"Front of House"},
+                {"name":"Seamus Henry","role":"Front of House"},
+                {"name":"Penny Smith","role":"Front of House"}
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Murder at Checkmate Manor",
+            "Year": "1992",
+            "Month": "May",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "David McGillivray",
+            "Length": "Full Slot",
+            "Location": "Kildrought Lounge",
+            "Director": "Steve O'Brien",
+            "Cast": [
+                {"name":"Christine Harte","role":"Sylvia"},
+                {"name":"Paula Farrelly","role":"Felicity"},
+                {"name":"Penny Smith","role":"Audrey"},
+                {"name":"Nikki Killian","role":"Thelma"},
+                {"name":"Mrs. Reece","role":"Carol Greene"},
+                {"name":"Steve O'Brien","role":"The Producer"}
+            ],
+            "Crew": [
+                {"name":"Miriam Breslin","role":"Stage Manager"},
+                {"name":"Emma O'Rourke","role":"Assistant Stage Manager"},
+                {"name":"Clare Feeney","role":"Stage Crew"},
+                {"name":"Kate Butler","role":"Properties"},
+                {"name":"Viv Butler-Rees","role":"Properties"},
+                {"name":"Cathy O'Loughlin","role":"Costumes"},
+                {"name":"Deirdre Hennigan","role":"Costumes"},
+                {"name":"Joe Canavan","role":"Sound Recordist/Lighting"},
+                {"name":"Steve O'Brien","role":"Sound Operator, Set Construction"},
+                {"name":"John Breslin","role":"Lighting Assistant"},
+                {"name":"Brendan O'Sullivan","role":"Set Construction"},
+                {"name":"Bobby Barr","role":"Set Construction"},
+                {"name":"Joe Butler","role":"Set Construction"},
+                {"name":"Des McCloskey","role":"Publicity"},
+                {"name":"Roisin McDermott","role":"Front of House"},
+                {"name":"Maura Reidy","role":"Front of House"},
+                {"name":"Ann McCloskey","role":"Front of House"},
+                {"name":"Elizabeth O'Sullivan","role":"Front of House"},
+                {"name":"Lorna Mooney","role":"Front of House"},
+                {"name":"Liz Maxwell","role":"Front of House"},
+                {"name":"Martina Blessing","role":"Front of House"},
+                {"name":"Neil Farrell","role":"Front of House"}
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Two One-Act Plays",
+            "Year": "1992",
+            "Month": "October",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Length": "Collection",
+            "Playwright":"Various",
+            "Director":"Various",
+            "Location": "Kildrought Lounge",
+            "Performances": [
+                {
+                    "Play":"The Donahue Sisters",
+                    "Playwright":"Geraldine Aron",
+                    "Director":"John Breslin",
+                    "Cast":[
+                        {"name":"Christine Harte","role":"Dunya"},
+                        {"name":"Emma O'Rourke","role":"Annie"},
+                        {"name":"Kate Butler","role":"Rosie"}
+                    ]
+                },
+                {
+                    "Play":"A Cut In The Rates",
+                    "Playwright":"Alan Ayckbourn",
+                    "Director":"Des McCloskey",
+                    "Cast":[
+                        {"name":"Carol Greene","role":"Miss Pickhart"},
+                        {"name":"Nikki Killian","role":"Woman/Rosalinda"},
+                        {"name":"Paul Mescal","role":"Ratchet"}
+                    ]
+                }
+            ],
+            "Crew": [
+                {"name":"Miriam Breslin","role":"Stage Manager"},
+                {"name":"Tommy O'Rourke","role":"Lighting"},
+                {"name":"Margaret Doyle","role":"Sound"},
+                {"name":"Jeremy Clarke","role":"Set Construction, Front of House"},
+                {"name":"Sean Woods","role":"Set Construction"},
+                {"name":"Jeremy Clarke","role":"Props"},
+                {"name":"Roisin McDermott","role":"Front of House"},
+                {"name":"Ann McCloskey","role":"Front of House"},
+                {"name":"June Galligan","role":"Front of House"},
+                {"name":"Viv Butler-Rees","role":"Front of House"},
+                {"name":"Paula Farrelly","role":"Front of House"},
+                {"name":"Paul Reidy","role":"Front of House"}
+            ],
+            "Images":[
+
+            ],
+            "Comments":"A Cut In The Rates won the All-Ireland One-Act Festival Confined in 1992"
+        },
+        {
+            "Play": "Big Maggie",
+            "Year": "1993",
+            "Month": "March",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "JB Keane",
+            "Length": "Full Slot",
+            "Location": "Kildrought Lounge",
+            "Director": "Unknown",
+            "Cast": [
+                {"name":"Carol Greene","role":"Maggie"},
+                {"name":"Jeremy Clarke","role":"Old Man"},
+                {"name":"Pauline Johnson","role":"Old Woman"},
+                {"name":"Kate Butler","role":"Gert"},
+                {"name":"Gabriel Martin","role":"Byrne"},
+                {"name":"Bert Carruthers","role":"Maurice Polpin"},
+                {"name":"Paul Reidy","role":"Mick Polpin"},
+                {"name":"Nikki Killian","role":"Katie Polpin"},
+                {"name":"Chris O'Connor","role":"Teddy Heelin"},
+                {"name":"Christine Harte","role":"Mary Madden"},
+                {"name":"June McGarr","role":"Mrs. Madden"}
+            ],
+            "Crew": [
+                {"name":"Miriam Breslin","role":"Stage Manager"},
+                {"name":"Jill Cotter","role":"Stage Crew"},
+                {"name":"Lisa Breslin","role":"Stage Crew"},
+                {"name":"John Breslin","role":"Stage Crew"},
+                {"name":"Carol Gallivan","role":"Stage Crew"},
+                {"name":"Jason Killian","role":"Stage Crew"},
+                {"name":"Tommy O'Rourke","role":"Lighting"},
+                {"name":"Anne Devilly","role":"Guitar"},
+                {"name":"Donal Hughes","role":"Button Accordion"},
+                {"name":"Sean Woods","role":"Set Construction"},
+                {"name":"Jeremy Clarke","role":"Set Construction"},
+                {"name":"Penny Smith","role":"Publicity"},
+                {"name":"Maura Reidy","role":"Front of House"},
+                {"name":"Roisin McDermott","role":"Front of House"},
+                {"name":"Cathy O'Loughlin","role":"Front of House"},
+                {"name":"Clare Feeney","role":"Front of House"},
+                {"name":"Ann McCloskey","role":"Front of House"},
+                {"name":"Emma O'Rourke","role":"Front of House"},
+                {"name":"Sive McGarr","role":"Front of House"}
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Losers",
+            "Year": "1993",
+            "Month": "",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Length": "One-Act",
+            "Location": "One-Act Festival Circuit",
+            "Play": "Losers",
+            "Playwright": "Brien Friel",
+            "Director": "Dermot Cummins",
+            "Cast": [
+                {"name":"Paul Mescal","role":"Andy Treacy"},{"name":"Elizabeth O'Sullivan","role":"Hanna Wilson/Treacy"},
+                {"name":"Kate Butler","role":"Mrs. Wilson"},{"name":"Helena Fagan","role":"Cissy Cassidy"}
+            ],
+            "Crew":[],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Leaving Home & There’s Always Spring",
+            "Year": "1994",
+            "Month": "",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Length": "Collection",
+            "Playwright":"Various",
+            "Director":"Various",
+            "Location": "Kildrought Lounge",
+            "Performances": [
+                {
+                    "Play":"Leaving Home",
+                    "Playwright":"Julia Kearsley",
+                    "Director":"John Breslin",
+                    "Cast": [
+                        {"name":"Con Delaney","role":""},
+                        {"name":"Breda Donnellan","role":""},
+                        {"name":"Kate Butler","role":""},
+                        {"name":"Lorna Mooney","role":""},
+                        {"name":"Brian O'Donoghue","role":""},
+                        {"name":"Elizabeth O'Sullivan","role":""}
+                    ]
+                },
+                {
+                    "Play":"There's Always Spring",
+                    "Playwright":"Arthur Lovegrove",
+                    "Director":"Des McCloskey",
+                    "Cast": [
+                        {"name":"Nikki Killian","role":"Jill"},
+                        {"name":"Carol Greene","role":"Mrs Watson"},
+                        {"name":"Carol Gallivan","role":"Brenda"},
+                        {"name":"Frank Houlihan","role":"Alan"},
+                        {"name":"Chris O'Connor","role":"Ian"},
+                        {"name":"Pete Butler","role":"Mr Withers"}
+                    ]
+                }
+            ],
+            "Crew": [
+                {"name":"Miriam Breslin","role":"Stage Manager"},
+                {"name":"Kate Butler","role":"Props, Stage Crew"},
+                {"name":"Gabriel Martin","role":"Stage Crew"},
+                {"name":"Jennifer Killian","role":"Lighting"},
+                {"name":"John Breslin","role":"Lighting"}
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Sive",
+            "Year": "1994",
+            "Month": "",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "JB Keane",
+            "Length": "Full Slot",
+            "Location": "Kildrought Lounge",
+            "Director": "Paul Mescal",
+            "Cast": [
+                {"name":"Carol Greene","role":"Nanna Glavin"},
+                {"name":"Carol Gallivan","role":"Mena Glavin"},
+                {"name":"Nikki Killian","role":"Sive"},
+                {"name":"Gabriel Martin","role":"Thomasheen Sean Rua"},
+                {"name":"Bert Carruthers","role":"Mike Glavin"},
+                {"name":"Chris O'Connor","role":"Liam Scuab"},
+                {"name":"Des McCloskey","role":"Sean Dota"},
+                {"name":"Frank Houlihan","role":"Pats Bocock"},
+                {"name":"Brian O'Donoghue","role":"Carthalawn"}
+            ],
+            "Crew": [
+                {"name":"John Breslin","role":"Assistant Director, Set Construction"},
+                {"name":"Miriam Breslin","role":"Stage Manager, Set Design"},
+                {"name":"Jeremy Clarke","role":"Set Construction"},
+                {"name":"Sean Woods","role":"Set Construction"},
+                {"name":"George Greene","role":"Set Construction"},
+                {"name":"Joe Butler","role":"Set Construction"},
+                {"name":"Christine Harte","role":"Lighting"},
+                {"name":"Kate Butler","role":"Properties"},
+                {"name":"Donal Hughes","role":"Music"},
+                {"name":"Jennifer Killian","role":"Stage Crew"},
+                {"name":"Ann McCloskey","role":"Front of House"},
+                {"name":"Maura Reidy","role":"Front of House"},
+                {"name":"Seamus Henry","role":"Front of House"},
+                {"name":"June Galligan","role":"Front of House"},
+                {"name":"Eileen O'Grady","role":"Front of House"}
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Say Cheese",
+            "Year": "1995",
+            "Month": "March",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Bernard Farrell",
+            "Length": "Full Slot",
+            "Location": "Kildrought Lounge",
+            "Director": "John Breslin",
+            "Cast": [
+                {"name":"Susan Costello","role":"Julie"},
+                {"name":"Chris O'Connor","role":"Mr. Bradshaw"},
+                {"name":"Con Delaney","role":"Mr. L'Estrange"},
+                {"name":"Caroline Flanagan","role":"Heather Fagan"},
+                {"name":"Carol Greene","role":"Bridie Fagan"},
+                {"name":"Des McCloskey","role":"Valentine Fagan"},
+                {"name":"Gavin Poole","role":"Ray Fagan"},
+                {"name":"Bert Carruthers","role":"Rory Henderson"},
+                {"name":"Pauline Johnson","role":"Goldie Regan"},
+                {"name":"Gabriel Martin","role":"Mr. L. Moore"},
+                {"name":"Aidan O'Keeffe","role":"Peter Moore"},
+                {"name":"Paul Mescal","role":"Fr. Shaughnessy"}
+            ],
+            "Crew": [
+                {"name":"Breda Donnellan","role":"Stage Manager"},
+                {"name":"Kate Butler","role":"Stage Manager"},
+                {"name":"Lucy Bell","role":"Wardrobe"},
+                {"name":"Tommy O'Rourke","role":"Lighting"},
+                {"name":"Robbie Galavan","role":"Lighting"},
+                {"name":"Lisa Breslin","role":"Programme Artwork, Stage Crew"},
+                {"name":"Viv Butler-Rees","role":"Stage Crew"},
+                {"name":"George Greene","role":"Set Construction"},
+                {"name":"Sean Woods","role":"Set Construction"},
+                {"name":"Joe Butler","role":"Set Construction"},
+                {"name":"Brian O'Donoghue","role":"Set Construction"},
+                {"name":"June McGarr","role":"Front of House Manager"},
+                {"name":"Ann McCloskey","role":"Front of House"},
+                {"name":"June Galligan","role":"Front of House"},
+                {"name":"Miriam Breslin","role":"Publicity"},
+                {"name":"Carol Greene","role":"Publicity"}
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Play On",
+            "Year": "1995",
+            "Month": "November",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Rick Abbot",
+            "Length": "Full Slot",
+            "Location": "Kildrought Lounge",
+            "Director": "Chris O'Connor",
+            "Cast": [
+                {"name":"Lorna Mooney","role":"Aggie Manville"},
+                {"name":"Leonard Jackson","role":"Jerome \"Jerry\" Dunbar"},
+                {"name":"Con Delaney","role":"Henry Benish"},
+                {"name":"Linda Jackson","role":"Polly Benish"},
+                {"name":"Susan Costello","role":"Marla \"Smitty\" Smith"},
+                {"name":"Bert Carruthers","role":"Saul Watson"},
+                {"name":"Gavin Poole","role":"Billy Carewe"},
+                {"name":"Caroline Flanagan","role":"Violet Imbry"},
+                {"name":"Breda Donnellan","role":"Louise Peary"},
+                {"name":"Carol Greene","role":"Phyllis Montague"}
+            ],
+            "Crew": [
+                {"name":"Miriam Breslin","role":"Stage Manager, Set Design"},
+                {"name":"Pauline Breen","role":"Production Assistant"},
+                {"name":"Tommy O'Rourke","role":"Lighting"},
+                {"name":"Lucy Bell","role":"Sound Effects"},
+                {"name":"Kate Butler","role":"Sound Operator"},
+                {"name":"Mary King","role":"Properties, Front of House"},
+                {"name":"George Greene","role":"Set Construction"},
+                {"name":"Joe Butler","role":"Set Construction"},
+                {"name":"Sean Woods","role":"Set Construction"},
+                {"name":"Frank Houlihan","role":"Set Construction"},
+                {"name":"Dylan Breslin","role":"Set Construction"},
+                {"name":"Pete Butler","role":"Set Construction"},
+                {"name":"Des McCloskey","role":"Set Construction"},
+                {"name":"Brian O'Donoghue","role":"Set Construction"},
+                {"name":"John Breslin","role":"Set Construction"},
+                {"name":"Seamus Henry","role":"Front of House Manager"},
+                {"name":"Ann McCloskey","role":"Front of House"},
+                {"name":"June Galligan","role":"Front of House"},
+                {"name":"June McGarr","role":"Front of House"},
+                {"name":"Laura Greene","role":"Front of House"},
+                {"name":"Cathy O'Loughlin","role":"Front of House"}
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Dancing at Lughnasa",
+            "Year": "1996",
+            "Month": "April",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Brian Friel",
+            "Length": "Full Slot",
+            "Location": "Kildrought Lounge",
+            "Director": "Frank Houlihan",
+            "Cast": [
+                {"name":"Brendan O'Sullivan","role":"Michael"},
+                {"name":"Carol Greene","role":"Kate"},
+                {"name":"Caroline Flanagan","role":"Maggie"},
+                {"name":"Kate Butler","role":"Agnes"},
+                {"name":"Breda Donnellan","role":"Rose"},
+                {"name":"Lorna Mooney","role":"Chris"},
+                {"name":"Chris O'Connor","role":"Gerry"},
+                {"name":"Bert Carruthers","role":"Jack"}
+            ],
+            "Crew": [
+                {"name":"Miriam Breslin","role":"Stage Manager"},
+                {"name":"Susan Costello","role":"Production Assistant"},
+                {"name":"Tommy O'Rourke","role":"Lighting"},
+                {"name":"Gareth O'Neill","role":"Sound"},
+                {"name":"Pauline Breen","role":"Properties"},
+                {"name":"Lisa Breslin","role":"Properties"},
+                {"name":"Deirdre O'Sullivan","role":"Choreography"},
+                {"name":"George Greene","role":"Set Construction"},
+                {"name":"John Breslin","role":"Set Construction"},
+                {"name":"Joe Butler","role":"Set Construction"},
+                {"name":"Sean Woods","role":"Set Construction"},
+                {"name":"Dylan Breslin","role":"Set Construction"},
+                {"name":"Kathleen O'Connor","role":"Set Construction"},
+                {"name":"Con Delaney","role":"Set Construction"},
+                {"name":"Des McCloskey","role":"Publicity"},
+                {"name":"Caroline Flanagan","role":"Publicity"},
+                {"name":"Chris O'Connor","role":"Publicity"},
+                {"name":"Seamus Henry","role":"Front of House"},
+                {"name":"Laura Greene","role":"Front of House"},
+                {"name":"Andrew Greene","role":"Front of House"},
+                {"name":"Kathy O'Loughlin","role":"Front of House"},
+                {"name":"Ann McCloskey","role":"Front of House"},
+                {"name":"Mary King","role":"Front of House"}
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "The Last Apache Reunion",
+            "Year": "1996",
+            "Month": "November",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Bernard Farrell",
+            "Length": "Full Slot",
+            "Location": "Kildrought Lounge",
+            "Director": "Frank Houlihan",
+            "Cast": [
+                {"name":"Pete Butler","role":"Harry"},
+                {"name":"Caroline Flanagan","role":"Deirdre"},
+                {"name":"Bert Carruthers","role":"Jimmy"},
+                {"name":"Con Delaney","role":"Maurice"},
+                {"name":"David Foley","role":"Nick"},
+                {"name":"Valerie Kennelly","role":"Jackie"},
+                {"name":"Brendan O'Sullivan","role":"Paudge"},
+                {"name":"Dylan Breslin","role":"Kevin"}
+            ],
+            "Crew": [
+                {"name":"Carol Greene","role":"Stage Manager"},
+                {"name":"Miriam Breslin","role":"Production Consultant"},
+                {"name":"Lorcan Byrne","role":"Asst. Stage Manager"},
+                {"name":"Ann O'Neill","role":"Prod. Assistant"},
+                {"name":"Tommy O'Rourke","role":"Lighting"},
+                {"name":"Paula Mulcahy","role":"Sound"},
+                {"name":"Des McCloskey","role":"Signwriter"},
+                {"name":"John Breslin","role":"Set Construction"},
+                {"name":"George Greene","role":"Set Construction"},
+                {"name":"Joe Butler","role":"Set Construction"},
+                {"name":"Sean Woods","role":"Set Construction"},
+                {"name":"Seamus Henry","role":"Front of House"},
+                {"name":"Ann McCloskey","role":"Front of House"},
+                {"name":"Mary King","role":"Front of House"},
+                {"name":"Kate Butler","role":"Front of House"},
+                {"name":"Lorna Mooney","role":"Front of House"},
+                {"name":"Chris O'Connor","role":"Publicity"}
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Shirley Valentine",
+            "Year": "1997",
+            "Month": "October",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Willy Russell",
+            "Length": "Full Slot",
+            "Location": "Kildrought Lounge",
+            "Director": "Frank Houlihan",
+            "Cast": [
+                {"name":"Carol Greene","role":"Shirley"}
+            ],
+            "Crew": [
+                {"name":"Miriam Breslin","role":"Stage Manager"},
+                {"name":"Breda Donnellan","role":"Production Assist."},
+                {"name":"Tommy O'Rourke","role":"Lighting"},
+                {"name":"Con Delaney","role":"Properties"},
+                {"name":"Caroline Flanagan","role":"Costume"},
+                {"name":"Pete Butler","role":"Publicity"},
+                {"name":"George Greene","role":"Set Construction"},
+                {"name":"John Breslin","role":"Set Construction"},
+                {"name":"Joe Butler","role":"Set Construction"},
+                {"name":"Sean Woods","role":"Set Construction"},
+                {"name":"Brendan O'Sullivan","role":"Set Construction"},
+                {"name":"Dylan Breslin","role":"Set Construction"},
+                {"name":"David Foley","role":"Set Construction"},
+                {"name":"Chris O'Connor","role":"Front of House"},
+                {"name":"Ann McCloskey","role":"Front of House"}
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "The Importance of Being Earnest",
+            "Year": "1997",
+            "Month": "",
+            "DetailsComplete":"No",
+            "ImageFolder":"",
+            "Playwright": "Oscar Wilde",
+            "Length": "Full Slot",
+            "Location": "",
+            "Director": "Michael Giblin",
+            "Cast": [],
+            "Crew": [],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "All in Favour Said No",
+            "Year": "1998",
+            "Month": "February",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Bernard Farrell",
+            "Length": "Full Slot",
+            "Location": "Kildrought Lounge",
+            "Director": "Noreen Grey",
+            "Cast": [
+                {"name":"Con Delaney","role":"Gilbert"},
+                {"name":"Bill Elliffe","role":"Christy"},
+                {"name":"Mary Higgins","role":"Ms. Temple"},
+                {"name":"Viv Butler-Rees","role":"Sally"},
+                {"name":"Dylan Breslin","role":"Liam"},
+                {"name":"Dave Foley","role":"Dave"},
+                {"name":"Simon Cunningham","role":"Eddie"},
+                {"name":"Caroline Flanagan","role":"Joan"},
+                {"name":"Helena Fagan","role":"Una"},
+                {"name":"Bert Carruthers","role":"Mike"},
+                {"name":"Brendan O'Sullivan","role":"Partridge"},
+                {"name":"Anne Mynes","role":"Dee"}
+            ],
+            "Crew": [
+                {"name":"Valerie Kennedy", "role":"Stage Manager"},
+                {"name":"Eve Costello", "role":"Production Assistant"},
+                {"name":"Nessa Moriart", "role":"Production Assistant"},
+                {"name":"Michael Giblin", "role":"Production Assistant"},
+                {"name":"Miriam Breslin", "role":"Set Design"},
+                {"name":"Tommy O'Rourke", "role":"Lighting"},
+                {"name":"Ann O'Neill", "role":"Sound"},
+                {"name":"Aine Kelly", "role":"Sound"},
+                {"name":"Pete Butler", "role":"Publicity"},
+                {"name":"John Breslin", "role":"Set Construction"},
+                {"name":"George Greene", "role":"Set Construction"},
+                {"name":"Joe Butler", "role":"Set Construction"},
+                {"name":"Sean Woods", "role":"Set Construction"},
+                {"name":"Trevor Griffin", "role":"Set Construction"},
+                {"name":"Lorna Mooney", "role":"Set Construction"},
+                {"name":"Carol Greene", "role":"Front of House"},
+                {"name":"Seamus Henry", "role":"Front of House"},
+                {"name":"Kate Butler", "role":"Front of House"},
+                {"name":"Ann McCloskey", "role":"Front of House"},
+                {"name":"Mary King", "role":"Front of House"}
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Same Old Moon",
+            "Year": "1998",
+            "Playwright": "Geraldine Aron",
+            "Length": "Full Slot",
+            "DetailsComplete":"Yes",
+            "Location": "Kildrought Lounge",
+            "Director": "Bill Elliffe",
+            "Cast": [
+                {"name":"Mary Higgins","role":"Brenda Barnes"},
+                {"name":"Martina Blessing","role":"Peace Cleary"},
+                {"name":"Breda Donnellan","role":"Bridie Barnes"},
+                {"name":"Martin Higgins","role":"Desmond Barnes"},
+                {"name":"Dave Lynch","role":"Bartender, Priest, Kevin Cleary"},
+                {"name":"Dave Foley","role":"Mooney, Enrico Caruso, Mark"},
+                {"name":"Lorna Mooney","role":"Mother Superior"},
+                {"name":"Anne Mynes","role":"Bella Rafferty, Andrews Sister"},
+                {"name":"Noreen Grey","role":"Granny Cleary"},
+                {"name":"Aine Kelly","role":"Cafe Daphne, Mrs Geeney, Andrews Sister"},
+                {"name":"Eugene Molumby","role":"Postman, Mr Mullen"},
+                {"name":"Viv Butler-Rees","role":"Mrs Brown, Di (At 21)"},
+                {"name":"Laura Greene","role":"Di (At 12), Andrews Sister"},
+                {"name":"Aisling Nolan","role":"Trish"},
+                {"name":"Rosemary Donohue","role":"Nurse"}
+            ],
+            "Crew": [
+                {"name":"Miriam Breslin","role":"Stage Manager"},
+                {"name":"Carol Greene","role":"Ass. Stage Manager"},
+                {"name":"Tommy O'Rourke","role":"Lighting"},
+                {"name":"Joe Canavan","role":"Lighting"},
+                {"name":"Pete Butler","role":"Sound"},
+                {"name":"Gayle Thompson","role":"Sound"},
+                {"name":"Miriam Breslin","role":"Props"},
+                {"name":"Carol Greene","role":"Props"},
+                {"name":"George Greene","role":"Set Building"},
+                {"name":"John Breslin","role":"Set Building"},
+                {"name":"Sean Woods","role":"Set Building"},
+                {"name":"Dylan Breslin","role":"Set Building"},
+                {"name":"Brendan O'Sullivan","role":"Set Building"},
+                {"name":"Caroline Flanagan","role":"Front Of House"},
+                {"name":"Anne McCloskey","role":"Front Of House"},
+                {"name":"Mary King","role":"Front Of House"},
+                {"name":"Seamus Henry","role":"Front Of House"},
+                {"name":"Con Delaney","role":"PR"},
+                {"name":"Pete Butler","role":"PR"},
+                {"name":"Helena Clements","role":"Costumes"},
+                {"name":"Aine Kelly","role":"Choreography"},
+                {"name":"Anne Mynes","role":"Programme"}
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Thy will be done",
+            "Year": "1998",
+            "Playwright": "Unclear",
+            "Length": "Full Slot",
+            "Location": "",
+            "Director": "Unknown",
+            "Cast": [],
+            "Crew": [],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "An Inspector Calls",
+            "Year": "1999",
+            "Month": "",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "JB Priestly",
+            "Length": "Full Slot",
+            "Location": "Kildrought Lounge",
+            "Director": "Bill Elliffe",
+            "Cast": [
+                {"name":"Pete Butler","role":"Arthur Birling"},
+                {"name":"Martina Blessing","role":"Sybil Birling"},
+                {"name":"Dave Lynch","role":"Eric Birling"},
+                {"name":"Anne Mynes","role":"Sheila Birling"},
+                {"name":"Dave Foley","role":"Gerald Croft"},
+                {"name":"Martin Higgins","role":"Inspector Goole"},
+                {"name":"Caroline Flanagan","role":"Edna"}
+            ],
+            "Crew": [
+                {"name":"Bill Elliffe","role":"Set Design, Set/Seating Construction"},
+                {"name":"Aine Kelly","role":"PR, Props/Set,Set/Seating Construction"},
+                {"name":"George Greene","role":"Set/Seating Construction"},
+                {"name":"Dave Foley","role":"Set/Seating Construction"},
+                {"name":"Dave Lynch","role":"Set/Seating Construction"},
+                {"name":"Carol Greene","role":"Set/Seating Construction, Props/Set"},
+                {"name":"Con Delaney","role":"Set/Seating Construction"},
+                {"name":"Brendan O'Sullivan","role":"Set/Seating Construction, Front of House"},
+                {"name":"Anne Mynes","role":"Props/Set, Programme/Poster"},
+                {"name":"Martina Blessing","role":"Props/Set"},
+                {"name":"Tommy O'Rourke","role":"Lighting"},
+                {"name":"Eugene Molumby","role":"Sound"},
+                {"name":"Pete Butler","role":"Sound, Set/Seating Construction, Props/Set"},
+                {"name":"Mary Higgins","role":"Front of House"},
+                {"name":"Mary King","role":"Front of House"},
+                {"name":"Helena Clements","role":"Front of House"},
+                {"name":"Breda Donnellan","role":"Production Assistant"},
+                {"name":"Caroline Flanagan","role":"Production Assistant"}
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Black Comedy & Portrait Of A Madonna",
+            "Year": "1999",
+            "Month": "",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Performances":[
+                {
+                    "Play":"Black Comedy",
+                    "Playwright": "Peter Schaffer",
+                    "Director": "Bill Elliffe",
+                    "Cast": [
+                        {"name":"Dave Lynch","role":"Brindsley Miller"},
+                        {"name":"Anne Mynes","role":"Carol Melkett"},
+                        {"name":"Aine Grace Kelly","role":"Miss Furnival"},
+                        {"name":"Michael Giblin","role":"Harold Gorringe"},
+                        {"name":"Dave Foley","role":"Colonel Melkett"},
+                        {"name":"Caroline Flanagan","role":"Clea"},
+                        {"name":"Martin Higgins","role":"Mr. Schupanzaig"},
+                        {"name":"Simon Cunningham","role":"George Bamberger"}
+                    ]
+                },
+                {
+                    "Play":"Portrait of a Madonna",
+                    "Playwright":"Tennessee Williams",
+                    "Director":"Frank Houlihan",
+                    "Cast":[
+                        {"name":"Lorna Mooney","role":"Lucretia Collins"},
+                        {"name":"Des McCloskey","role":"Porter"},
+                        {"name":"Dylan Breslin","role":"Elevator Boy"},
+                        {"name":"Bert Carruthers","role":"Mr. Abrahms"},
+                        {"name":"Brendan O'Sullivan","role":"Mr. Abrahms"},
+                        {"name":"Noreen Grey","role":"Doctor"},
+                        {"name":"Martina Blessing","role":"Nurse"}
+                    ]
+                }
+            ],
+            "Length": "Collection",
+            "Playwright":"Various",
+            "Director":"Various",
+            "Location": "Kildrought Lounge",
+            "Crew": [
+                {"name":"Miriam Breslin","role":"Stage Manager (PoaM)"},
+                {"name":"Carol Greene","role":"Stage Manager (BC)"},
+                {"name":"Caroline Flanagan","role":"Costume"},
+                {"name":"John Breslin","role":"Lighting"},
+                {"name":"Helena Clements","role":"Properties"},
+                {"name":"George Greene","role":"Stage Construction"},
+                {"name":"Sean Woods","role":"Stage Construction"},
+                {"name":"Pete Butler","role":"Stage Construction"},
+                {"name":"Con Delaney","role":"Stage Construction"},
+                {"name":"Tommy O'Rourke","role":"Stage Construction"},
+                {"name":"Seamus Henry","role":"Front of House"},
+                {"name":"Mary King","role":"Front of House"},
+                {"name":"Anne McCloskey","role":"Front of House"},
+                {"name":"Breda Donnellan","role":"Front of House"},
+                {"name":"Viv Butler-Rees","role":"Front of House"}
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Lady Windermere’s Fan",
+            "Year": "2000",
+            "Month": "",
+            "DetailsComplete":"No",
+            "ImageFolder":"",
+            "Playwright": "Oscar Wilde",
+            "Length": "Full Slot",
+            "Location": "",
+            "Director": "Unknown",
+            "Cast": [],
+            "Crew": [],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Pure of Heart",
+            "Year": "2000",
+            "Month": "",
+            "DetailsComplete":"No",
+            "ImageFolder":"",
+            "Playwright": "JB Keane",
+            "Length": "Full Slot",
+            "Location": "",
+            "Director": "Frank Houlihan",
+            "Cast": [
+                {"name":"Pete Butler", "role":""},
+                {"name":"John Heveran", "role":""},
+                {"name":"Brendan O'Sullivan", "role":""}
+            ],
+            "Crew": [
+                {"name":"Lorna Mooney","role":"Stage Manager"}
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "The Cripple of Inishmaan",
+            "Year": "2000",
+            "Month": "May",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Martin McDonagh",
+            "Length": "Full Slot",
+            "Location": "",
+            "Director": "Michael Giblin",
+            "Cast": [
+                {"name":"Frank Houlihan","role":"Johnnypateen Mike"},
+                {"name":"Brian Gorman","role":"Cripple Billy"},
+                {"name":"Carol Greene","role":"Kate"},
+                {"name":"Noreen Grey","role":"Mammy"},
+                {"name":"Caroline Flanagan","role":"Helen"},
+                {"name":"Bill Elliffe","role":"The Doctor"},
+                {"name":"Andrew Greene","role":"Bartley"},
+                {"name":"Breda Donnellan","role":"Eileen"},
+                {"name":"Dave Foley","role":"BabbyBobby Bennett"}
+            ],
+            "Crew": [
+                {"name":"Miriam Breslin","role":"Stage Manager"},
+                {"name":"Helena Clements","role":"Assistant Stage Manager"},
+                {"name":"Anne Mynes","role":"Stage Crew"},
+                {"name":"Elizabeth O'Sullivan","role":"Stage Crew"},
+                {"name":"Viv Butler-Rees","role":"Stage Crew"},
+                {"name":"Martina Blessing","role":"Lighting"},
+                {"name":"Gayle Thompson","role":"Sound"},
+                {"name":"Ann McCloskey","role":"Front of House"},
+                {"name":"Brendan O'Sullivan","role":"Front of House"},
+                {"name":"George Greene","role":"Set Construction"},
+                {"name":"John Breslin","role":"Set Construction"},
+                {"name":"John Foley","role":"Set Construction"},
+                {"name":"Pete Butler","role":"Set Construction"},
+                {"name":"Dylan Breslin","role":"Set Construction"},
+                {"name":"Emer O'Boyle","role":"Set Construction"},
+                {"name":"Sean Woods","role":"Set Construction"},
+                {"name":"Lorna Mooney","role":"Costumes"},
+                {"name":"Dave Lynch","role":"Programme"}
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Juno and the Paycock",
+            "Year": "2001",
+            "Month": "May",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Seán O'Casey",
+            "Length": "Full Slot",
+            "Location": "Kildrought Lounge",
+            "Director": "Frank Houlihan",
+            "Cast": [
+                {"name":"Bill Elliffe","role":"'Captain' Jack Boyle"},
+                {"name":"Carol Greene","role":"Juno Boyle"},
+                {"name":"Dylan Breslin","role":"Johnny Boyle"},
+                {"name":"Valerie Kennelly","role":"Mary Boyle"},
+                {"name":"Eugene Molumby","role":"Joxer Daly"},
+                {"name":"Mary Higgins","role":"Mrs. Maisie Madigan"},
+                {"name":"Michael Giblin","role":"'Needle' Nugent"},
+                {"name":"Anne Mynes","role":"Mrs. Tancred"},
+                {"name":"Dave Foley","role":"Charles Bentham"},
+                {"name":"Niall Campion","role":"Irregular Mobiliser, Furniture Removal Man"},
+                {"name":"Brendan O'Sullivan","role":"Irregular #1"},
+                {"name":"Donal Downes","role":"Irregular #2"},
+                {"name":"Brendan Walshe","role":"Coal Block Vendor, Furniture Removal Man"},
+                {"name":"Esther Muldowney","role":"Neighbour #1"},
+                {"name":"Siadbh Houlihan","role":"Bridget"},
+                {"name":"Donal O'Sullivan","role":"Thomas"},
+                {"name":"Jeff Greene","role":"Seamus"},
+                {"name":"Aifric Carroll","role":"Grace"}
+            ],
+            "Crew": [
+                {"name":"Anne Dempsey","role":"Production Assistant"},
+                {"name":"Niall Campion","role":"Lighting"},
+                {"name":"Tim McAuliffe","role":"Sound"},
+                {"name":"Lorna Mooney","role":"Costumes, Front of House"},
+                {"name":"Donal Downes","role":"Photography"},
+                {"name":"Dave Lynch","role":"Programme Design, Front of House"},
+                {"name":"Gayle Thompson","role":"Stage Management"},
+                {"name":"Ann Marie Blessing","role":"Stage Management"},
+                {"name":"Laura Ward","role":"Stage Management"},
+                {"name":"Viv Butler-Rees","role":"Front of House"},
+                {"name":"Breda Donnellan","role":"Front of House"},
+                {"name":"Mary Cahill","role":"Front of House"},
+                {"name":"Kate Houlihan","role":"Front of House"},
+                {"name":"Roisin O'Sullivan","role":"Front of House"},
+                {"name":"Miriam Breslin","role":"Set Design, Set Construction"},
+                {"name":"Frank Houlihan","role":"Set Design"},
+                {"name":"George Greene","role":"Set Construction"},
+                {"name":"Pete Butler","role":"Set Construction"},
+                {"name":"Sean Woods","role":"Set Construction"},
+                {"name":"John Breslin","role":"Set Construction"}
+            ],
+            "Images":[
+
+            ],
+            "Notes":"Was staged in London in October of same year."
+        },
+        {
+            "Play": "4 Short Plays",
+            "Year": "2001",
+            "Month": "October",
+            "DetailsComplete":"Yes",
+            "Length": "Collection",
+            "Playwright":"Various",
+            "Director":"Various",
+            "ImageFolder":"",
+            "Location": "Kildrought Lounge",
+            "Performances": [
+                {
+                    "Play":"Bitter Fruit",
+                    "Director":"Margaret Cosgrove",
+                    "Playwright":"Christian Lacey",
+                    "Cast":[
+                        {"name":"Glen McGrath","role":""},
+                        {"name":"Darren Coller","role":""},
+                        {"name":"Jennie O'Reilly","role":""},
+                        {"name":"Helen O'Dowd","role":""},
+                        {"name":"Pierce O'Reilly","role":""},
+                        {"name":"Andrew Greene","role":""},
+                        {"name":"Saragh Madsen","role":""}
+                    ]
+                },
+                {
+                    "Play":"Ritual For Dolls",
+                    "Director":"Bill Elliffe",
+                    "Playwright":"George Mac Ewan Green",
+                    "Cast":[
+                        {"name":"Eugene Molumby","role":"Joe-Joe"},
+                        {"name":"Michael Giblin","role":"Golly"},
+                        {"name":"Dave Foley","role":"Bravo"},
+                        {"name":"Gayle Thompson","role":"Arabella"}
+                    ]
+                },
+                {
+                    "Play":"Lady of Larkspur Lotion",
+                    "Director":"Brendan O'Sullivan",
+                    "Playwright":"Tennessee Williams",
+                    "Cast":[
+                        {"name":"Laura Greene","role":""},
+                        {"name":"Eoin Madsen","role":""},
+                        {"name":"Donna Bryan","role":""}
+                    ]
+                },
+                {
+                    "Play":"Wanda's Visit",
+                    "Director":"Frank Houlihan",
+                    "Playwright":"Christopher Durang",
+                    "Cast":[
+                        {"name":"John Heveran","role":"Jim"},
+                        {"name":"Mary Higgins","role":"Marsha"},
+                        {"name":"Lorna Mooney","role":"Wanda"},
+                        {"name":"Dave Lynch","role":"Waiter"}
+                    ]
+                }
+            ],
+            "Crew": [
+                {"name":"Lucy Bell","role":"Bitter Fruit Crew"},
+                {"name":"Anne Marie Blessing","role":"Bitter Fruit Crew"},
+                {"name":"Laura Ward","role":"Bitter Fruit Crew"},
+                {"name":"Christine Brady","role":"Bitter Fruit Crew"},
+                {"name":"Kevin Campion","role":"Bitter Fruit Crew"},
+                {"name":"Joe Cluxton","role":"Bitter Fruit Crew"},
+                {"name":"Susan Malone","role":"Bitter Fruit Crew"},
+                {"name":"Pete Butler","role":"Ritual For Dolls Crew"},
+                {"name":"Sean Woods","role":"Ritual For Dolls Crew"},
+                {"name":"George Greene","role":"Ritual For Dolls Crew"},
+                {"name":"Mary King","role":"Ritual For Dolls Crew"},
+                {"name":"Niall Campion","role":"Ritual For Dolls Crew"},
+                {"name":"Dylan Breslin","role":"Ritual For Dolls Crew, Lady of Larkspur Lotion Crew"},
+                {"name":"Roisin O'Sullivan","role":"Lady of Larkspur Lotion Crew"},
+                {"name":"Niamh O'Sullivan","role":"Lady of Larkspur Lotion Crew"},
+                {"name":"Breda Donnellan","role":"Lady of Larkspur Lotion Crew"},
+                {"name":"Viv Butler-Rees","role":"Lady of Larkspur Lotion Crew"},
+                {"name":"Anne Campion","role":"Lady of Larkspur Lotion Crew"},
+                {"name":"Aisling Nolan","role":"Lady of Larkspur Lotion Crew"},
+                {"name":"Anne Dempsey","role":"Wanda's Visit Crew"},
+                {"name":"Donal Downes","role":"Wanda's Visit Crew"},
+                {"name":"Kate Houlihan","role":"Wanda's Visit Crew"},
+                {"name":"Alison Campbell","role":"Wanda's Visit Crew"},
+                {"name":"Anne McCloskey","role":"Wanda's Visit Crew"},
+                {"name":"Donal Murphy","role":"Wanda's Visit Crew"},
+                {"name":"John Houlihan","role":"Wanda's Visit Crew"}
+            ],
+            "Images":[
+
+            ],
+            "Notes":"Ritual For Dolls and Wanda's Visits were both staged on the One-Act Circuit, 2001."
+        },
+        {
+            "Play": "Sharon's Grave",
+            "Year": "2002",
+            "Month": "March",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "JB Keane",
+            "Length": "Full Slot",
+            "Location": "Kildrought Lounge",
+            "Director": "Frank Houlihan",
+            "Cast": [
+                {"name":"Donal Healy","role":"Donal Conlee"},
+                {"name":"John Heveran","role":"Peader Minogue"},
+                {"name":"Mary Higgins","role":"Trassie Conlee"},
+                {"name":"Eugene Molumby","role":"Neelus Conlee"},
+                {"name":"Paul Mescal","role":"Dinzie Conlee"},
+                {"name":"Brian Carroll","role":"Jack Conlee"},
+                {"name":"Lorna Mooney","role":"Miss Dee"},
+                {"name":"Bill Elliffe","role":"Pats Bo Bwee"},
+                {"name":"Donal Downes","role":"Tom Shaun"},
+                {"name":"Valerie Kennelly","role":"Moll"},
+                {"name":"Darragh Toner","role":"Doanalin"},
+                {"name":"Dave Foley","role":"Mickeen Mick"}
+            ],
+            "Crew": [
+                {"name":"Donal Healy","role":"Songwriter"},
+                {"name":"Gayle Thompson","role":"Stage Manager"},
+                {"name":"Jan Davies","role":"Stage Crew"},
+                {"name":"Ann Dempsey","role":"Production Assistant"},
+                {"name":"Joe Canavan","role":"Lights, Set Design"},
+                {"name":"Kevin Campion","role":"Lighting Operator"},
+                {"name":"Herbie Corkey","role":"Sound"},
+                {"name":"Gorretti Slavin","role":"Costumes"},
+                {"name":"Martin Moran","role":"Set Construction"},
+                {"name":"Brendan O'Sullivan","role":"Set Construction"},
+                {"name":"Sean Woods","role":"Set Construction"},
+                {"name":"Martin Higgins","role":"Set Construction"},
+                {"name":"Michael Giblin","role":"Front of House"},
+                {"name":"Kate Houlihan","role":"Front of House"},
+                {"name":"Alison Campbell","role":"Front of House"},
+                {"name":"Tim McAuliffe","role":"Posters"},
+                {"name":"Saidhbh Houlihan","role":"Poster Distribution"},
+                {"name":"Margaret Cosgrove","role":"Programme"}
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "St Patrick’s Day",
+            "Year": "2002",
+            "Month": "",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Richard Brinsley-Sheridan",
+            "Length": "Full Slot",
+            "Location": "Kildrought Lounge",
+            "Director": "Frank Houlihan",
+            "Cast": [
+                {"name":"Dave Foley","role":"Sergeant Trounce"},
+                {"name":"Donal Healy","role":"Corporal Flint"},
+                {"name":"Valerie Kennelly","role":"Lauretta Credulous"},
+                {"name":"Mary Higgins","role":"Bridget Credulous"},
+                {"name":"John Heveran","role":"Lieutenant O'connor"},
+                {"name":"Brian Carroll","role":"Justice Credulous"},
+                {"name":"Michael Giblin","role":"Dr Rosy"}
+            ],
+            "Crew": [
+                {"name":"Joe Canavan","role":"Lighting, Set Construction"},
+                {"name":"Niall Campion","role":"Lighting"}, 
+                {"name":"Herbie Corkey","role":"Sound, Set Construction"}, 
+                {"name":"Gorretti Slavin","role":"Costumes"},
+                {"name":"Roberta Carey","role":"Costumes"}, 
+                {"name":"Ann Dempsey","role":"Production Assistant"},
+                {"name":"Miriam O'Brien","role":"Stage Manager"},
+                {"name":"Donal Downes","role":"Photography"}, 
+                {"name":"Joe Canavan","role":"Set Design"},
+                {"name":"Ann Devine","role":"Props"},
+                {"name":"Michael Giblin","role":"Set Construction"}, 
+                {"name":"Brendan O'Sullivan","role":"Set Construction"},
+                {"name":"Sean Woods","role":"Set Construction"},
+                {"name":"Dave Foley","role":"Set Construction"},
+                {"name":"Frank Houlihan","role":"Set Construction"},
+                {"name":"Martin Higgins","role":"Set Construction"},
+                {"name":"Tom Madden","role":"Advisor"},
+                {"name":"Bill Elliffe","role":"Advisor"},
+                {"name":"Sandra Crosby","role":"Advisor"},
+                {"name":"Kate Houlihan","role":"Posters"},
+                {"name":"Ann Mynes","role":"Helping Hands"},
+                {"name":"Tim McAuliffe","role":"Helping Hands"},
+                {"name":"Anne O'Flaherty","role":"Helping Hands"},
+                {"name":"Gerald Mooney","role":"Helping Hands"},
+                {"name":"Kevin Corbett","role":"Helping Hands"},
+                {"name":"Siobhan O'Sullivan","role":"Helping Hands"},
+                {"name":"Alison Campbell","role":"Helping Hands"},
+                {"name":"Gavin O'Reilly","role":"Helping Hands"},
+                {"name":"John Houlihan","role":"Helping Hands"},
+                {"name":"Eugene Molumby","role":"Helping Hands"},
+                {"name":"Gayle Thompson","role":"Helping Hands"},
+                {"name":"Lorna Mooney","role":"Helping Hands"},
+                {"name":"Noreen Grey","role":"Helping Hands"},
+                {"name":"Niamh O'Sullivan","role":"Helping Hands"},
+                {"name":"Marie Gormley","role":"Helping Hands"},
+                {"name":"Tony McKeown","role":"Helping Hands"},
+                {"name":"Donal Murphy","role":"Helping Hands"}
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "This Property is Condemned",
+            "Year": "2002",
+            "Month": "",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Tennessee Williams",
+            "Length": "Full Slot",
+            "Location": "Kildrought Lounge",
+            "Director": "Brendan O'Sullivan",
+            "Cast": [
+                {"name":"Pierce O'Reilly","role":"Tom"},
+                {"name":"Helen O'Dowd","role":"Willie"}
+            ],
+            "Crew": [],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Someone Who'll Watch Over Me",
+            "Year": "2003",
+            "Month": "",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Frank McGuinness",
+            "Length": "Full Slot",
+            "Location": "",
+            "Director": "Joe Canavan",
+            "Cast": [
+                {"name":"Brendan O'Sullivan","role":"Edward (the Irishman)"},
+                {"name":"John Heveran","role":"Adam (the American)"},
+                {"name":"Dave Foley","role":"Michael (the Englishman)"}
+            ],
+            "Crew": [
+                {"name":"Gorretti Slavin","role":"Stage Director, Set Construction"},
+                {"name":"Joe Canavan","role":"Lighting, Set Construction"},
+                {"name":"Frank Houlihan","role":"Crew, Set Construction"},
+                {"name":"Anne Dempsey","role":"Crew, Front of House"},
+                {"name":"Michael Giblin","role":"Crew"},
+                {"name":"Herbie Corkey","role":"Sound, Set Construction"},
+                {"name":"Margaret Cosgrove","role":"Front of House, Set Construction"},
+                {"name":"Geraldine Corkey","role":"Front of House"},
+                {"name":"Kate Houlihan","role":"Front of House"},
+                {"name":"Alison Campbell","role":"Front of House"},
+                {"name":"Marie Gormley","role":"Front of House"},
+                {"name":"Niamh O'Sullivan","role":"Front of House"},
+                {"name":"Siobhan O'Sullivan","role":"Front of House"},
+                {"name":"Lorna Mooney","role":"Front of House"},
+                {"name":"Noreen Grey","role":"Front of House"},
+                {"name":"Roisin O'Sullivan","role":"Front of House"},
+                {"name":"Dave Foley","role":"Set Construction"},
+                {"name":"Brendan O'Sullivan","role":"Set Construction"},
+                {"name":"Bill Elliffe","role":"Set Construction"},
+                {"name":"Ger Corkey","role":"Set Construction"},
+                {"name":"Pete Butler","role":"Set Construction"}
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Under Milk Wood",
+            "Year": "2003",
+            "Month": "November",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Dylan Thomas",
+            "Length": "Full Slot",
+            "Location": "Kildrought Lounge",
+            "Director": "Michael Giblin",
+            "Cast": [
+                {"name":"Miriam O'Brien","role":""},
+                {"name":"Terry Nealon","role":""},
+                {"name":"Dylan Breslin","role":""},
+                {"name":"Brian Carroll","role":""},
+                {"name":"Dave Foley","role":""},
+                {"name":"Donal Downes","role":""},
+                {"name":"Anne Mynes","role":""},
+                {"name":"Gayle Thompson","role":""},
+                {"name":"Glen McGrath","role":""},
+                {"name":"Bill Elliffe","role":""},
+                {"name":"Pierce O'Reilly","role":""},
+                {"name":"Pete Butler","role":""},
+                {"name":"Mary Higgins","role":""},
+                {"name":"Donal Healy","role":""},
+                {"name":"Rachel O'Connor","role":""},
+                {"name":"Nicola King","role":""},
+                {"name":"Eugene Molumby","role":""},
+                {"name":"Lee Ann McCarthy","role":""},
+                {"name":"Brian King","role":""},
+                {"name":"Gorretti Slavin","role":""},
+                {"name":"Ann Kelly","role":""},
+                {"name":"Martina Blessing","role":""}
+            ],
+            "Crew": [
+                {"name":"Margaret Cosgrove","role":""},
+                {"name":"Herbie Corkey","role":""},
+                {"name":"Geraldine Corkey","role":""},
+                {"name":"Dave Foley","role":""},
+                {"name":"Kate Houlihan","role":""},
+                {"name":"Bill Elliffe","role":""},
+                {"name":"Lorna Mooney","role":""},
+                {"name":"Ann Dempsey","role":""},
+                {"name":"Noreen Grey","role":""},
+                {"name":"Pete Butler","role":""},
+                {"name":"Joe Canavan","role":""},
+                {"name":"Martin Higgins","role":""},
+                {"name":"Frank Houlihan","role":""},
+                {"name":"Amy Lux","role":""},
+                {"name":"Brendan O'Sullivan","role":""},
+                {"name":"Gorretti Slavin","role":""},
+                {"name":"Alison Campbell","role":""},
+                {"name":"Clara Higgins","role":""},
+                {"name":"Sean Woods","role":""},
+                {"name":"Lisa Corcoran","role":""},
+                {"name":"Breda O'Shea","role":""}
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "A Bite of the Big Apple",
+            "Year": "2004",
+            "Month": "October",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Length": "Collection",
+            "Playwright":"Various",
+            "Director":"Various",
+            "Location": "Kildrought Lounge",
+            "Performances":[
+                {
+                    "Play":"Small Box Psychosis",
+                    "Playwright":"Barry McKinley",
+                    "Length":"One-Act",
+                    "Director":"Tom Byrne",
+                    "Cast":[
+                        {"name":"Pete Butler","role":"Charlie"},
+                        {"name":"Brian King","role":"Mr Schact"},
+                        {"name":"George Hogan","role":"Eddie"}
+                    ]
+                },
+                {
+                    "Play":"Stay Carl Stay",
+                    "Playwright":"Peter Tolan",
+                    "Length":"One-Act",
+                    "Director":"Bill Elliffe",
+                    "Cast":[
+                        {"name":"Rachel O'Connor","role":"Caroline"},
+                        {"name":"John Heveran","role":"Brian"},
+                        {"name":"Ursula Bracken","role":"Marysue"},
+                        {"name":"Mary Higgins","role":"Dr Weiss"},
+                        {"name":"Noel Wade","role":"Carl"},
+                        {"name":"Michael Giblin","role":"Bingo"}
+                    ]
+                },
+                {
+                    "Play":"Stranded",
+                    "Playwright":"Margaret Cosgrove",
+                    "Length":"One-Act",
+                    "Director":"Margaret Cosgrove and Helen McGlynn",
+                    "Cast":[
+
+                    ]
+                }
+            ],
+            "Crew": [
+                {"name":"Joe Canavan","role":"Set Design/Lighting"},
+                {"name":"Bob Armstrong","role":"Sound (Small Box Psychosis)"},
+                {"name":"Dave Foley","role":"Sound (Stay Carl Stay"},
+                {"name":"Herbie Corkey","role":"Sound (Stay Carl Stay)"},
+                {"name":"Deirdre King","role":"Stage Manager (Small Box Psychosis)"},
+                {"name":"Gayle Thompson","role":"Stage Manager (Stay Carl Stay)"}
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "The Plough and the Stars",
+            "Year": "2004",
+            "Month": "",
+            "DetailsComplete":"No",
+            "ImageFolder":"",
+            "Playwright": "Seán O'Casey",
+            "Length": "Full Slot",
+            "Location": "",
+            "Director": "Unknown",
+            "Cast": [],
+            "Crew": [],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Da",
+            "Year": "2005",
+            "Month": "April",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Hugh Leonard",
+            "Length": "Full Slot",
+            "Location": "Kildrought Lounge",
+            "Director": "Tom Byrne",
+            "Cast": [
+                {"name":"Bill Elliffe","role":"Da"},
+                {"name":"George Hogan","role":"Charlie"},
+                {"name":"Bob Armstrong","role":"Young Charlie"},
+                {"name":"Dave Foley","role":"Drumm"},
+                {"name":"Carol Greene","role":"Mother"},
+                {"name":"Eugene Molumby","role":"Oliver"},
+                {"name":"Breda Donnellan","role":"Mary Tate"},
+                {"name":"Gayle Thompson","role":"Mrs Prynne"},
+                {"name":"Brian Byrne","role":"Youngest Charlie"}
+            ],
+            "Crew": [
+                {"name":"Joe Canavan","role":"Set Design & Lighting, Set Construction"},
+                {"name":"Herbie Corkey","role":"Sound"},
+                {"name":"Frank Houlihan","role":"Costumes"},
+                {"name":"Anne Mynes","role":"Stage Manager"},
+                {"name":"Martina Blessing","role":"ASM"},
+                {"name":"Breda Konstantin","role":"Backstage"},
+                {"name":"Ciaran Molumby","role":"Backstage"},
+                {"name":"Viv Butler-Rees","role":"Backstage"},
+                {"name":"Sean Woods","role":"Set Construction"},
+                {"name":"Dave Foley","role":"Set Construction"},
+                {"name":"George Hogan","role":"Set Construction"},
+                {"name":"Pete Butler","role":"Set Construction"},
+                {"name":"Gorretti Slavin","role":"Front of House"},
+                {"name":"Michael Giblin","role":"Front of House"},
+                {"name":"Rachel O'Connor","role":"Front of House"},
+                {"name":"Ursula Bracken","role":"Front of House"},
+                {"name":"Lorna Mooney","role":"Front of House"},
+                {"name":"Geraldine O'Brien","role":"Front of House"},
+                {"name":"Mary Higgins","role":"Front of House"},
+                {"name":"Ger Corkey","role":"Front of House"}
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Dangerous Corner",
+            "Year": "2005",
+            "Month": "October",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "JB Priestly",
+            "Length": "Full Slot",
+            "Location": "Kildrought Lounge",
+            "Director": "Michael Giblin",
+            "Cast": [
+                {"name":"Ruth Brennan","role":"Freda Caplan, Olwen Peel"},
+                {"name":"Martina Blessing","role":"Miss Mookridge"},
+                {"name":"Breda Donnellan","role":"Betty Waterhouse"},
+                {"name":"Rob Habington","role":"Charles Stanton"},
+                {"name":"Bob Armstrong","role":"Gordon Waterhouse"},
+                {"name":"Dave Foley","role":"Robert Caplan"}
+            ],
+            "Crew": [
+                {"name":"Joe Canavan","role":"Set Design & Lighting"},
+                {"name":"Herbie Corkey","role":"Sound"},
+                {"name":"Gorretti Slavin","role":"Stage Manager"},
+                {"name":"Mary Higgins","role":"Costumes"},
+                {"name":"Gayle Thompson","role":"Backstage/Front of House/Set Building"},
+                {"name":"Eugene Molumby","role":"Backstage/Front of House/Set Building"},
+                {"name":"Martin Higgins","role":"Backstage/Front of House/Set Building"},
+                {"name":"Dave Foley","role":"Backstage/Front of House/Set Building"},
+                {"name":"Catherine McGuinness","role":"Backstage/Front of House/Set Building"},
+                {"name":"Pete Butler","role":"Backstage/Front of House/Set Building"},
+                {"name":"Sean Woods","role":"Backstage/Front of House/Set Building"},
+                {"name":"Bill Elliffe","role":"Backstage/Front of House/Set Building"}
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "A Midsummer Nights Dream",
+            "Year": "2006",
+            "Month": "",
+            "DetailsComplete":"No",
+            "ImageFolder":"",
+            "Playwright": "William Shakespeare",
+            "Length": "Full Slot",
+            "Location": "",
+            "Director": "Gorretti Slavin",
+            "Cast": [],
+            "Crew": [],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "By the Bog of Cats",
+            "Year": "2006",
+            "Month": "November",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Marina Carr",
+            "Length": "Full Slot",
+            "Location": "Kildrought Lounge",
+            "Director": "Bill Elliffe",
+            "Cast": [
+                {"name":"Valerie Nohilly","role":"Hester Swane"},
+                {"name":"Frank Houlihan","role":"Ghost Fancier"},
+                {"name":"Ann Kelly","role":"Monica Murray"},
+                {"name":"Lorna Mooney","role":"Catwoman"},
+                {"name":"Marion Gildea","role":"Josie Swane"},
+                {"name":"Saidhbh Houlihan","role":"Josie Swane"},
+                {"name":"Madeleine Martin","role":"Josie Swane"},
+                {"name":"Martina Blessing","role":"Mrs Kilbride"},
+                {"name":"Rob Habington","role":"Carthage Kilbride"},
+                {"name":"Martina Murphy","role":"Caroline Cassidy"},
+                {"name":"John Heveran","role":"Xavier Cassidy"},
+                {"name":"Ian Cummins","role":"Joseph Swane"},
+                {"name":"Ciaran O'Mahony","role":"Waiter"},
+                {"name":"Terry Nealon","role":"Father Willow"},
+                {"name":"Geraldine O'Brien","role":"Voice of Josie Swane"}
+            ],
+            "Crew": [
+                {"name":"Joe Canavan","role":"Set Design/Lighting, Set Building"},
+                {"name":"Brian King","role":"Set Design/Lighting, Sound"},
+                {"name":"Herbie Corkey","role":"Sound"},
+                {"name":"Gayle Thompson","role":"Stage Manager"},
+                {"name":"Julie McHugh","role":"Assistant Stage Manager"},
+                {"name":"Geraldine O'Brien","role":"Assistant Stage Manager"},
+                {"name":"Gorretti Slavin","role":"Costumes, Front of House"},
+                {"name":"Ann Kelly","role":"Costumes"},
+                {"name":"Frances Galligan","role":"Costumes"},
+                {"name":"Sean Woods","role":"Set Building"},
+                {"name":"Bill Elliffe","role":"Set Building"},
+                {"name":"Noel Wade","role":"Set Building"},
+                {"name":"Ruth Brennan","role":"Front of House"},
+                {"name":"Anne Mynes","role":"Front of House"},
+                {"name":"Mia Martin","role":"Front of House"},
+                {"name":"Dave Foley","role":"Front of House"},
+                {"name":"Michael Giblin","role":"Front of House"},
+                {"name":"Rose Landys","role":"Front of House"},
+                {"name":"June Galligan","role":"Front of House"}
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "On Such as We",
+            "Year": "2007",
+            "Month": "April",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Billy Roche",
+            "Length": "Full Slot",
+            "Location": "Kildrought Lounge",
+            "Director": "Frank Houlihan",
+            "Cast": [
+                {"name":"John Heveran","role":"Oweney"},
+                {"name":"Shaun Nugent","role":"Leonard"},
+                {"name":"Ian Cummins","role":"Matt"},
+                {"name":"Eugene Molumby","role":"Ritchie"},
+                {"name":"Noel Wade","role":"Eddie"},
+                {"name":"Breda Donnellan","role":"Maeve"},
+                {"name":"Ruth Mannion","role":"Sally"}
+            ],
+            "Crew": [
+                {"name":"Lorna Mooney","role":"Co-Director"},
+                {"name":"Viv Butler-Rees","role":"Stage Manager"},
+                {"name":"Julie McHugh","role":"ASM"},
+                {"name":"Frank Houlihan","role":"Set Design"},
+                {"name":"Martina Blessing","role":"Lighting"},
+                {"name":"Barry Donaldson","role":"Lighting"},
+                {"name":"Joan Healy","role":"Sound"},
+                {"name":"Terry Nealon","role":"Sound"},
+                {"name":"Herbie Corkey","role":"Sound"},
+                {"name":"Ruth Brennan","role":"Front of House"}
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play":"Two One-Act Plays (2007)",
+            "Year":"2007",
+            "Month":"October",
+            "DetailsComplete":"Yes",
+            "Length":"Collection",
+            "Playwright":"Various",
+            "Director":"Various",
+            "Location":"Kildrought Lounge",
+            "Crew":[
+                {"name":"Joe Canavan","role":"Set Design & Lighting, Set Building"},
+                {"name":"Herbie Corkey","role":"Sound"},
+                {"name":"Gorretti Slavin","role":"Stage Manager, Backstage"},
+                {"name":"Adrienne O'Reilly","role":"Backstage"},
+                {"name":"Frances Galligan","role":"Backstage"},
+                {"name":"Viv Butler-Rees","role":"Backstage"},
+                {"name":"Breda Donnellan","role":"Backstage"},
+                {"name":"Ian Cummins","role":"Backstage"},
+                {"name":"Lorna Mooney","role":"Backstage"},
+                {"name":"Dave Foley","role":"Set Building"},
+                {"name":"Martin Higgins","role":"Set Building"},
+                {"name":"Pete Butler","role":"Set Building"},
+                {"name":"Martina Blessing","role":"Set Building"}
+            ],
+            "Performances":[
+                {
+                    "Play": "Tartuffe",
+                    "Playwright": "Jean Baptiste Poquelin Molière (Jeffries/Munoz adaptation)",
+                    "Length": "One-Act",
+                    "Director": "Michael Giblin",
+                    "Cast": [
+                        {"name":"Ruth Brennan","role":"Mme Pernelle"},
+                        {"name":"Catriona Higgins","role":"Flipote"},
+                        {"name":"Mary Higgins","role":"Doreen"},
+                        {"name":"Shaun Nugent","role":"Damis"},
+                        {"name":"Jacinta Hayes","role":"Marianne"},
+                        {"name":"Geraldine O'Brien","role":"Elmire"},
+                        {"name":"Dave Foley","role":"Orgon"},
+                        {"name":"Vini Casey","role":"Valiere"},
+                        {"name":"Noel Wade","role":"Tartuffe"},
+                        {"name":"Frank Houlihan","role":"Laurent"},
+                        {"name":"Bill Elliffe","role":"Loyal"}
+                    ]
+                },
+                {
+                    "Play": "The Other Side",
+                    "Playwright": "Martina Reilly",
+                    "Length": "One-Act",
+                    "Location": "Kildrought Lounge",
+                    "Director": "Martina Reilly",
+                    "Cast": [
+                        {"name":"John Heveran","role":"Anthony St Clare"},
+                        {"name":"Brian King","role":"Larry"},
+                        {"name":"Martina Blessing","role":"Maureen"}
+                    ]
+                }                
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "The Memory of Water",
+            "Year": "2007",
+            "Month": "April",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Shelagh Stephenson",
+            "Length": "Full Slot",
+            "Location": "Kildrought Lounge",
+            "Director": "Bill Elliffe",
+            "Cast": [
+                {"name":"Geraldine O'Brien","role":"Mary"},
+                {"name":"Orla Gildea","role":"Vi"},
+                {"name":"Gayle Thompson","role":"Teresa"},
+                {"name":"Ursula Bracken","role":"Catherine"},
+                {"name":"Frank Houlihan","role":"Mike"},
+                {"name":"Brian King","role":"Frank"}
+            ],
+            "Crew": [
+                {"name":"Bill Elliffe","role":"Set Design"},
+                {"name":"Martina Blessing","role":"Lighting"},
+                {"name":"Barry Donaldson","role":"Lighting"},
+                {"name":"Terry Nealon","role":"Sound"},
+                {"name":"Herbie Corkey","role":"Sound"},
+                {"name":"Valerie Nohilly","role":"Stage Manager"},
+                {"name":"Rachel O'Connor","role":"ASM"},
+                {"name":"Ruth Brennan","role":"Front of House"}
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play":"Two One-Act Plays",
+            "Year":"2008",
+            "Month":"November",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Length":"Collection",
+            "Playwright":"Various",
+            "Director":"Various",
+            "Location":"Kildrought Lounge",
+            "Crew":[
+                 {"name":"Grace McGrath","role":"Choreography"},
+                 {"name":"Pete Butler","role":"Sound"},
+                 {"name":"Joe Canavan","role":"Lights"},
+                 {"name":"Breda Donnellan","role":"Continuity"}
+            ],
+            "Performances":[
+                {
+                    "Play": "A Tale Told by an Idiot: A Justin Thyme Mystery",
+                    "Playwright": "Bruce Kane",
+                    "Length": "One-Act",
+                    "Director": "Bill Elliffe",
+                    "Cast": [
+                        {"name":"Shaun Nugent","role":"Justin Thyme"},
+                        {"name":"Ciaran Molumby","role":"Effie, Latasha"},
+                        {"name":"Michael Giblin","role":"Malcolm"},
+                        {"name":"Gaile Thompson","role":"Hecate"},
+                        {"name":"Finbarr Coughlan","role":"Castle Guard"},
+                        {"name":"Mary Higgins","role":"Lady Macbeth"},
+                        {"name":"Tony Connolly","role":"Macduff"},
+                        {"name":"Noel Wade","role":"Macbeth"},
+                        {"name":"Orla Gildea","role":"Latoyah"},
+                        {"name":"Eugene Molumby","role":"Lufthansa"}                        
+                    ]
+                },
+                {
+                    "Play": "Coffee with God",
+                    "Playwright": "Kal Wagenheim",
+                    "Length": "One-Act",
+                    "Director": "Joe Canavan",
+                    "Cast": [
+                        {"name":"Dave Foley","role":"God"},
+                        {"name":"Vinnie Casey","role":"Kal"},
+                        {"name":"Frank Houlihan","role":"Harold"},
+                        {"name":"Catriona Higgins","role":"Rozlon"},
+                        {"name":"Breda Donnellan","role":"Waitress"}
+                    ]
+                }
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Eclipsed",
+            "Year": "2008",
+            "Month": "November",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Patricia Burke Brogan",
+            "Length": "Full Slot",
+            "Location": "Kildrought",
+            "Director": "Gorretti Slavin",
+            "Cast": [
+                {"name":"Ann Kelly","role":"Nellie Nora"},
+                {"name":"Valerie Nohilly","role":"Brigit"},
+                {"name":"Martina Murphy","role":"Cathy"},
+                {"name":"Niamh Ryan","role":"Mandy"},
+                {"name":"Jennifer Lee","role":"Juliet"},
+                {"name":"Miriam O'Brien","role":"Mother Victoria"},
+                {"name":"Colette Kinsella","role":"Sister Virginia"},
+                {"name":"Viv Butler-Rees","role":"Rosa"}
+            ],
+            "Crew": [
+                {"name":"Dave Foley","role":"Stage Manager"},
+                {"name":"Joe Canavan","role":"Set Design"},
+                {"name":"Breda Donnellan","role":"Crew"}
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Trad",
+            "Year": "2008",
+            "Month": "April",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Mark Doherty",
+            "Length": "Full Slot",
+            "Location": "Kildrought Lounge",
+            "Director": "Pete Butler",
+            "Cast": [
+                {"name":"Frank Houlihan","role":"Da"},
+                {"name":"John Heveran","role":"Son"},
+                {"name":"Eugene Molumby","role":"Sal/Rice"},
+                {"name":"Brian King","role":"Musician (Guitar)"},
+                {"name":"Liam Roe","role":"Musifican (Fiddle)"}
+            ],
+            "Crew": [
+                {"name":"Joe Canavan","role":"Lighting Design, Set Building"},
+                {"name":"Breda Donnellan","role":"Stage Crew"},
+                {"name":"Ciaran Molumby","role":"Stage Crew"},
+                {"name":"Viv Butler-Rees","role":"Stage Crew"},
+                {"name":"Noel Wade","role":"Photography"},
+                {"name":"Pete Butler","role":"Set Design"}
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "From These Green Heights",
+            "Year": "2008",
+            "Month": "May",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Dermot Bolger",
+            "Length": "Full Slot",
+            "Location": "Kildrought",
+            "Director": "Joe Canavan",
+            "Cast": [
+                {"name":"Bill Elliffe","role":"Christy"},
+                {"name":"George Hogan","role":"Dessie"},
+                {"name":"Miriam O'Brien","role":"Carmel"},
+                {"name":"Martina Murphy","role":"Marie"},
+                {"name":"Mary Higgins","role":"Jane"},
+                {"name":"Colette Kinsella","role":"Sharon"},
+                {"name":"Niamh Ryan","role":"Junkie"},
+                {"name":"Fiona Crilly","role":"Tara"},
+                {"name":"Shauna O'Grady","role":"Tara"}
+            ],
+            "Crew": [
+                {"name":"Helena Stout","role":"Stage Manager"},
+                {"name":"Sean Woods","role":"Set Building"},
+                {"name":"Brendan O'Sullivan","role":"Set Building"},
+                {"name":"Joe Canavan","role":"Set Building"}
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play":"One Acts 2009",
+            "Year":"2009",
+            "Month":"October",
+            "DetailsComplete":"Yes",
+            "Length": "Collection",
+            "Playwright":"Various",
+            "Director":"Various",
+            "Location":"Kildrought Lounge",
+            "Performances":[
+                {
+                    "Play": "Semper Fideles",
+                    "Year":"2009",
+                    "Playwright": "Henry Hudson",
+                    "Length": "One-Act",
+                    "Director": "Frank Houlihan",
+                    "Cast": [
+                        {"name":"Bill Elliffe","role":"Barney"},
+                        {"name":"John Heveran","role":"Male"},
+                        {"name":"Geraldine O'Brien","role":"Female"}
+                    ]
+                },
+                {
+                    "Play": "Suddenly Last Summer",
+                    "Year":"2009",
+                    "Playwright": "Tennessee Williams",
+                    "Length": "One-Act",
+                    "Director": "Bill Elliffe",
+                    "Cast": [
+                        {"name":"Lorna Mooney","role":"Mrs. Venable"},
+                        {"name":"Shaun Nugent","role":"Dr. Cukrowicz"},
+                        {"name":"Grainne McGill","role":"Miss Foxhill"},
+                        {"name":"Helena Stout","role":"Mrs. Holly"},
+                        {"name":"Bob Armstrong","role":"George Holly"},
+                        {"name":"Niamh Ryan","role":"Catherine Holly"},
+                        {"name":"Colette Kinsella","role":"Sister Felicity"}
+                    ]
+                },
+                {
+                    "Play": "Brenton V Brenton",
+                    "Year":"2009",
+                    "Playwright": "David Tristram",
+                    "Length": "One-Act",
+                    "Director": "Pete Butler",
+                    "Cast": [
+                        {"name":"Donal Downes","role":"Deke Brenton"},
+                        {"name":"Shane Brennan","role":"Bret Howard"},
+                        {"name":"Martina Murphy","role":"Foxglove Brenton"},
+                        {"name":"Breda Donnellan","role":"Lana Brenton"},
+                        {"name":"Dave Foley","role":"Matt Kirby"},
+                        {"name":"Gayle Thompson","role":"Blanche DeVille"}
+                    ]
+                }
+            ],
+            "Crew": [
+                {"name":"Viv Butler-Rees","role":"Backstage Manager"},
+                {"name":"Brian King","role":"Sound"},
+                {"name":"Niall O'Connor","role":"Lights"},
+                {"name":"Sylvia Beatley","role":"Assistant Director (BvB)"},
+                {"name":"Helena Stout","role":"Assistant Director (SLS)"},
+                {"name":"Ruth Shine","role":"Stage Manager"},
+                {"name":"Sean Woods","role":""},
+                {"name":"Joe Canavan","role":""},
+                {"name":"Pete Butler","role":""},
+                {"name":"Dave Foley","role":""},
+                {"name":"John Heveran","role":""},
+                {"name":"Gorretti Slavin","role":""},
+                {"name":"Bill Elliffe","role":""},
+                {"name":"Martin Moran","role":""},
+                {"name":"Breda Donnellan","role":""},
+                {"name":"Tony Connolly","role":""},
+                {"name":"Michael Giblin","role":""},
+                {"name":"Frank Houlihan","role":""},
+                {"name":"Stephen King","role":""},
+                {"name":"Ann Kelly","role":""},
+                {"name":"Eugene Molumby","role":""}
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Unforgiven",
+            "Year": "2009",
+            "Month": "May",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "John McDwyer",
+            "Length": "Full Slot",
+            "Location": "Kildrought Lounge",
+            "Director": "Joe Canavan",
+            "Cast": [
+                {"name":"Brendan O'Sullivan","role":"PJ"},
+                {"name":"Donal Downes","role":"Seamie"},
+                {"name":"Helena Stout","role":"Mary"},
+                {"name":"Dave Foley","role":"Eamonn"}
+            ],
+            "Crew": [                
+                {"name":"Joe Canavan","role":"Set Design & Lighting"},
+                {"name":"Martin Higgins","role":""},
+                {"name":"Sean Woods","role":""},
+                {"name":"Gorretti Slavin","role":""},
+                {"name":"Viv Butler-Rees","role":""},
+                {"name":"Pete Butler","role":""},
+                {"name":"Breda Donnellan","role":""},
+                {"name":"Martina Blessing","role":""},
+                {"name":"Valerie Nohilly","role":""},
+                {"name":"Martina Murphy","role":""},
+                {"name":"Bill Elliffe","role":""},
+                {"name":"Michael Giblin","role":""},
+                {"name":"Colette Kinsella","role":""},
+                {"name":"Ann Kelly","role":""},
+                {"name":"Eugene Molumby","role":""},
+                {"name":"Geraldine O'Brien","role":""},
+                {"name":"Noel Wade","role":""},
+                {"name":"Frank Houlihan","role":""},
+                {"name":"Brian King","role":""},
+                {"name":"Ruth Brennan","role":""}
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Playboy of the Western World",
+            "Year": "2010",
+            "Month": "October",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "JM Synge",
+            "Length": "Full Slot",
+            "Location": "Kildrought Lounge",
+            "Director": "Gorretti Slavin",
+            "Cast": [
+                {"name":"Shaun Nugent","role":"Christy Mahon"},
+                {"name":"Tony Connolly","role":"Old Mahon"},
+                {"name":"Dave Foley","role":"Michael James Flaherty"},
+                {"name":"Helena Stout","role":"Pegeen Mike"},
+                {"name":"Shane Brennan","role":"Sean Keogh"},
+                {"name":"Pete Butler","role":"Philly Cullen"},
+                {"name":"Eugene Molumby","role":"Jimmy Farrell"},
+                {"name":"Rosemary Landys","role":"Widow Quinn"},
+                {"name":"Niamh Ryan","role":"Sara Tansey"},
+                {"name":"Sylvia Beatley","role":"Susan Brady"},
+                {"name":"Colette Kinsella","role":"Honor Blake"},
+                {"name":"Tina O'Connor","role":"Nelly"},
+                {"name":"Viv Butler-Rees","role":"Villager"},
+                {"name":"Edel Hutchinson","role":"Villager"},
+                {"name":"Niall O'Connor","role":"Villager"},
+                {"name":"Vini Casey","role":"Villager"},
+                {"name":"Mick Farrelly","role":"Villager"}
+            ],
+            "Crew": [
+                {"name":"Joe Canavan","role":"Set Design & Lighting"},
+                {"name":"Brian King","role":"Stage Manager"},
+                {"name":"Rosemary Landys","role":"Costumes"},
+                {"name":"Geraldine O'Brien","role":"Front of House"}
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Shadow of a Gunman",
+            "Year": "2010",
+            "Month": "November",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Seán O'Casey",
+            "Length": "Full Slot",
+            "Location": "Kildrought Lounge",
+            "Director": "Joe Canavan",
+            "Cast": [
+                {"name":"Dave Foley","role":"Donal Davoren"},
+                {"name":"Pete Butler","role":"Seumas Shields"},
+                {"name":"Vini Casey","role":"Tommy Owens"},
+                {"name":"Eugene Molumby","role":"Adolphus Grigson"},
+                {"name":"Rose Landys","role":"Mrs. Grigson"},
+                {"name":"Niamh Ryan","role":"Minne Powell"},
+                {"name":"Donal Downes","role":"Mr. Mulligan"},
+                {"name":"Terry Nealon","role":"Mr. Maguire"},
+                {"name":"Miriam O'Brien","role":"Mrs. Henderson"},
+                {"name":"Paul McCrone","role":"Mr. Gallogher"},
+                {"name":"Finbar Coghlan","role":"An Auxiliary"}
+            ],
+            "Crew": [
+                {"name":"Colette Kinsella","role":"Costumes"},
+                {"name":"Mirriam O'Brien","role":"Costumes"},
+                {"name":"Herbie Corkey","role":"Sound"},
+                {"name":"Liam Roe","role":"Music"},
+                {"name":"Niall O'Connor","role":"Lighting"},
+                {"name":"Breda Donnellan","role":"Stage Manager"},
+                {"name":"Viv Butler-Rees","role":"Prompter, Set Building"},
+                {"name":"Pete Butler","role":"Set Building"},
+                {"name":"Sean Woods","role":"Set Building"},
+                {"name":"Mick Cussen","role":"Set Building"},
+                {"name":"Frank Houlihan","role":"Set Building"},
+                {"name":"John Heveran","role":"Set Building"},
+                {"name":"Brian King","role":"Set Building"},
+                {"name":"Brendan O'Sullivan","role":"Set Building"},
+                {"name":"Tony Connolly","role":"Set Building"},
+                {"name":"Dave Foley","role":"Set Building"},
+                {"name":"Breda Donnellan","role":"Set Building"}
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play":"Two One-Act Plays (2010)",
+            "Location":"Kildrought Lounge",
+            "Year":"2010",
+            "Month":"March",
+            "Length":"Collection",
+            "Playwright":"Various",
+            "Director":"Various",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Crew":[
+                {"name":"Herbie Corkey","role":""},
+                {"name":"Sean Woods","role":""}
+            ],
+            "Performances":[
+                {
+                    "Play":"Tough Cookies",
+                    "Playwright":"Edward Crosby Wells",
+                    "Director":"Michael Giblin",
+                    "Cast":[
+                        {"name":"Helena Stout","role":"Jo"},
+                        {"name":"Mary Higgins","role":"Billie"},
+                        {"name":"Lorna Mooney","role":"Mammaw"}
+                    ]
+                },
+                {
+                    "Play":"Clara",
+                    "Playwright":"Arthur Miller",
+                    "Director":"Geraldine O'Brien",
+                    "Cast":[
+                        {"name":"Bill Elliffe","role":"Kroll"},
+                        {"name":"Tina O'Connor","role":"Clara"},
+                        {"name":"Adam Connolly","role":"Tierney"},
+                        {"name":"John Heveran","role":"Fine"}
+                    ]
+                }
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Three One-Act Productions",
+            "Year": "2011",
+            "Month": "October",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Various",
+            "Length": "Collection",
+            "Playwright":"Various",
+            "Director":"Various",
+            "Location": "Kildrought Lounge",
+            "Performances":[
+                {
+                    "Play": "A Life Sentence",
+                    "Playwright": "Mark Seaman",
+                    "Length": "One-Act",
+                    "Director": "Joe Canavan",
+                    "Cast": [
+                        {"name":"Helena Stout","role":"Anne Bailey"},
+                        {"name":"Eugene Molumby","role":"Dave Bailey"}
+                    ]
+                },
+                {
+                    "Play": "The Collection",
+                    "Playwright": "Harold Pinter",
+                    "Length": "One-Act",
+                    "Director": "Bill Elliffe",
+                    "Cast": [
+                        {"name":"Michael Giblin","role":"Harry"},
+                        {"name":"Shaun Nugent","role":"James"},
+                        {"name":"Vini Casey","role":"Bill"},
+                        {"name":"Niamh Ryan","role":"Stella"}
+                    ]
+                },
+                {
+                    "Play": "All I Really need to know I learned by being in a Bad Play",
+                    "Playwright": "Werner Trieschmann",
+                    "Length": "One-Act",
+                    "Director": "Pete Butler",
+                    "Cast": [
+                        {"name":"Edel Hutchinson","role":"Kay, Kelly, Actors"},
+                        {"name":"Tina O'Connor","role":"Usher, Samantha, Actors"},
+                        {"name":"Brian King","role":"Tybalt, Directors, Inner voice and Actors"},
+                        {"name":"Colette Kinsella","role":"Terry, Actors"},
+                        {"name":"Miriam O'Brien","role":"Warm up coach, Actors"},
+                        {"name":"Viv Butler-Rees","role":"Francis, Actors and Inner voice"},
+                        {"name":"Terry Nealon","role":"Bill, Romeo and Actors"},
+                        {"name":"Orla Gildea","role":"Counsellor, Juliet and Actors"},
+                        {"name":"Dave Foley","role":"Director"},
+                        {"name":"Tony Murphy","role":"Flapjack"},
+                        {"name":"Mary Higgins","role":"Narrator"}
+                    ]
+                }
+            ],
+            "Crew":[
+                {"name":"Joe Canavan","role":"Lighting"},
+                {"name":"Niall O'Connor","role":"Lighting"},
+                {"name":"Frances Galligan","role":"Make-Up"},
+                {"name":"Breda Donnellan","role":"Stage Management (ALS)"},
+                {"name":"Viv Butler-Rees","role":"Stage Management (ALS)"},
+                {"name":"Gayle Thompson","role":"Stage Management (TC)"},
+                {"name":"Geraldine O'Brien","role":"Stage Management (TC)"},
+                {"name":"Frank Houlihan","role":"Stage Management (TC)"},
+                {"name":"John Heveran","role":"Stage Management (TC)"},
+                {"name":"Madeleine Martin","role":"Stage Management (TC)"}
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "The Weir",
+            "Year": "2011",
+            "Month": "March",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Conor McPherson",
+            "Length": "Full Slot",
+            "Location": "Kildrought Lounge",
+            "Director": "Bill Elliffe",
+            "Cast": [
+                {"name":"Brendan O'Sullivan","role":"Jack"},
+                {"name":"John Heveran","role":"Brendan"},
+                {"name":"Tony Connolly","role":"Jim"},
+                {"name":"Frank Houlihan","role":"Finbar"},
+                {"name":"Colette Kinsella","role":"Valerie"}
+            ],
+            "Crew": [],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play":"Three One-Act Productions 2012",
+            "Year":"2012",
+            "Month":"October",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Various",
+            "Location":"Kildrought Lounge",
+            "Length":"Collection",
+            "Performances":[
+                {
+                    "Play": "Play",
+                    "Playwright": "Samuel Beckett",
+                    "Length": "One-Act",
+                    "Director": "Joe Canavan",
+                    "Cast": [
+                        {"name":"Vini Casey","role":"M"},
+                        {"name":"Gayle Thompson","role":"W1"},
+                        {"name":"Michelle Reade","role":"W2"}
+                    ],
+                    "Notes":"All Ireland One-Act Finalist, 2012"
+                },
+                {
+                    "Play": "Babel's In Arms",
+                    "Playwright": "David Ives",
+                    "Length": "One-Act",
+                    "Director": "Bill Elliffe",
+                    "Cast": [
+                        {"name":"Eugene Molumby","role":"Gorph"},
+                        {"name":"Terry Nealon","role":"Cannapflit"},
+                        {"name":"Donal Healy","role":"Eunuch"},
+                        {"name":"Miriam O'Brien","role":"Priestess"},
+                        {"name":"Edel Hutchinson","role":"Businesswoman"}
+                    ]
+                },
+                {
+                    "Play": "Pedalling to Paradise",
+                    "Playwright": "Edward Crosby",
+                    "Length": "One-Act",
+                    "Director": "Michael Giblin",
+                    "Cast": [
+                        {"name":"Miriam O'Brien","role":"Teddy"},
+                        {"name":"Orla Gildea","role":"Sally"}
+                    ]
+                }
+            ],
+            "Crew": [
+                {"name":"Frances Galligan","role":"Make-Up"},
+                {"name":"Joe Canavan","role":"Lighting"},
+                {"name":"Breda Donnellan","role":"Stage Management"},
+                {"name":"Bill Elliffe","role":""},
+                {"name":"Frank Houlihan","role":""},
+                {"name":"John Heveran","role":""},
+                {"name":"Michael Giblin","role":""}
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "The Field",
+            "Year": "2012",
+            "Month": "",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "JB Keane",
+            "Length": "Full Slot",
+            "Location": "Kildrought Lounge",
+            "Director": "Frank Houlihan",
+            "Cast": [
+                {"name":"Emmet Stout","role":"Leamy Flanagan"},
+                {"name":"Eugene Molumby","role":"'The Bird' O'Donnell"},
+                {"name":"Paul Mescal","role":"Mick Flanagan"},
+                {"name":"Breda Donnellan","role":"Maggie Butler"},
+                {"name":"Helena Stout","role":"Maimie Flanagan"},
+                {"name":"Bill Elliffe","role":"'The Bull' McCabe"},
+                {"name":"John Heveran","role":"Tadgh McCabe"},
+                {"name":"Donal Downes","role":"Sergeant Tom Leahy"},
+                {"name":"Donal Healy","role":"Dandy McCabe"},
+                {"name":"Tina O'Connor","role":"Mrs. McCabe"},
+                {"name":"Vini Casey","role":"William Dee"},
+                {"name":"Tony Murphy","role":"Father Murphy"},
+                {"name":"Terry Nealon","role":"His Lordship the Bishop"}
+            ],
+            "Crew": [
+                {"name":"Viv Butler-Rees","role":"Assistant Director"},
+                {"name":"Edel Hutchinson","role":"Stage Manager"},
+                {"name":"Miriam O'Brien","role":"Costumes"},
+                {"name":"Frances Galligan","role":"Make-Up"},
+                {"name":"Joe Canavan","role":"Set Design & Lighting"},
+                {"name":"Colette Kinsella","role":"Front of House"},
+                {"name":"Herbie Corkey","role":"Sound"},
+                {"name":"Michael Giblin","role":"Festival Secretary"},
+                {"name":"Sean Woods","role":"Set Building"},
+                {"name":"Pete Butler","role":"Set Building"}
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "One Acts [MISSING DETAILS]",
+            "Year": "2013",
+            "Month": "",
+            "DetailsComplete":"No",
+            "ImageFolder":"",
+            "Playwright": "Various",
+            "Length": "Collection",
+            "Playwright":"Various",
+            "Director":"Various",
+            "Location": "",
+            "Crew":[
+                
+            ],
+            "Performances": [
+                {
+                    "Play": "Ghost Story",
+                    "Playwright": "Unclear",
+                    "Director": "Unknown",
+                    "Cast": [
+                        
+                    ]
+                },
+                {
+                    "Play": "My Narrator",
+                    "Playwright": "Norm Foster",
+                    "Director": "Michael Giblin",
+                    "Cast": [
+                        
+                    ]
+                },
+                {
+                    "Play": "On the Outside",
+                    "Playwright": "Tom Murphy",
+                    "Director": "Joe Bergin",
+                    "Cast": [
+                        
+                    ]
+                }
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Translations",
+            "Year": "2013",
+            "Month": "April",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Brian Friel",
+            "Length": "Full Slot",
+            "Location": "Kildrought Lounge",
+            "Director": "Pete Butler",
+            "Cast": [
+                {"name":"Vini Casey","role":"Manus"},
+                {"name":"Martina Murphy","role":"Sarah"},
+                {"name":"Terry Nealon","role":"Jimmy Jack"},
+                {"name":"Martina O'Connor","role":"Maire"},
+                {"name":"Dave Foley","role":"Doalty"},
+                {"name":"Breda Donnellan","role":"Bridget"},
+                {"name":"Bill Elliffe","role":"Hugh"},
+                {"name":"Donal O'Sullivan","role":"Owen"},
+                {"name":"Joe Bergin","role":"Captain Lancey"},
+                {"name":"Liam Cooney","role":"Lieutenant Yolland"}
+            ],
+            "Crew": [
+                {"name":"Frank Houlihan","role":"Assistant Director"},
+                {"name":"Joe Canavan","role":"Set Design & Lighting"},
+                {"name":"Pete Butler","role":"Sound"},
+                {"name":"Liam Roe","role":"Live Music"},
+                {"name":"Viv Butler-Rees","role":"Stage Manager"},
+                {"name":"Frances Galligan","role":"Make-Up & Costumes"},
+                {"name":"Sean Woods","role":"Set Construction"}
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Blood Relations",
+            "Year": "2014",
+            "Month": "",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Sharon Pollock",
+            "Length": "Full Slot",
+            "Location": "Festival Circuit",
+            "Director": "Bill Elliffe",
+            "Cast": [
+                {
+                    "name":"Colette Kinsella",
+                    "role":"Bridget"
+                },
+                {
+                    "name":"Valerie Kennelly",
+                    "role":"Lizzie Borden"
+                },
+                {
+                    "name":"Dave Foley",
+                    "role":"Harry Wingate"
+                },
+                {
+                    "name":"Geraldine O'Brien",
+                    "role":"Emma Borden"
+                },
+                {
+                    "name":"Eugene Molumby",
+                    "role":"Andrew Borden"
+                },
+                {
+                    "name":"Ann Kelly",
+                    "role":"Abigail Borden"
+                },
+                {
+                    "name":"John Heveran",
+                    "role":"Dr Patrick/The Defence"
+                }
+            ],
+            "Crew": [],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Burridans Ass",
+            "Year": "2014",
+            "Month": "",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "SR Plant",
+            "Length": "Full Slot",
+            "Location": "Festival Circuit",
+            "Director": "Frank Houlihan",
+            "Cast": [
+                {
+                    "name": "Bill Elliffe",
+                    "role": ""
+                },
+                {
+                    "name": "Ken Byrne",
+                    "role": ""
+                }
+            ],
+            "Crew": [],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "No Romance",
+            "Year": "2014",
+            "Month": "",
+            "DetailsComplete":"No",
+            "ImageFolder":"",
+            "Playwright": "Nancy Harris",
+            "Length": "Full Slot",
+            "Location": "",
+            "Director": "Orla Gildea, Pete Butler, and Joe Bergin",
+            "Cast": [
+                {
+                    "name": "Martina O'Connor",
+                    "role": ""
+                },
+                {
+                    "name": "Martina Murphy",
+                    "role": ""
+                },
+                {
+                    "name": "Brendan O'Sullivan",
+                    "role": ""
+                },
+                {
+                    "name": "Lorna Mooney",
+                    "role": ""
+                },
+                {
+                    "name": "Martina Blessing",
+                    "role": ""
+                },
+                {
+                    "name": "Dave Foley",
+                    "role": ""
+                },
+                {
+                    "name": "Kyle Burke",
+                    "role": ""
+                }
+            ],
+            "Crew": [],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Players and Pints [DETAILS MISSING]",
+            "Year": "2014",
+            "Month": "",
+            "DetailsComplete":"No",
+            "ImageFolder":"",
+            "Playwright": "Various",
+            "Length": "Collection",
+            "Playwright":"Various",
+            "Director":"Various",
+            "Location": "Kildrought Lounge",
+            "Performances": [
+                {
+                    "Play": "Nobody Knows",
+                    "Playwright": "",
+                    "Director": "Unknown",
+                    "Cast": [
+                        {
+                            "name": "Tina O'Connor",
+                            "role": ""
+                        },
+                        {
+                            "name": "Pete Butler",
+                            "role": ""
+                        },
+                        {
+                            "name": "Martina Reilly",
+                            "role": ""
+                        }
+                    ]
+                },
+                {
+                    "Play": "Ghost Story [MISSING DETAILS]",
+                    "Playwright": "Danny Robins",
+                    "Director": "Joe Canavan",
+                    "Cast": [
+                        {
+                            "name": "???",
+                            "role": ""
+                        },
+                        {
+                            "name": "???",
+                            "role": ""
+                        },
+                        {
+                            "name": "???",
+                            "role": ""
+                        }
+                    ]
+                }
+            ],
+            "Crew": [],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Spinning",
+            "Year": "2015",
+            "Month": "",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Deirdre Kinahan",
+            "Length": "Full Slot",
+            "Location": "Kildrought Lounge",
+            "Director": "Geraldine O'Brien",
+            "Cast": [
+                {
+                    "name": "Dave Foley",
+                    "role": "Conor"
+                },
+                {
+                    "name": "Colette Kinsella",
+                    "role": "Jen"
+                },
+                {
+                    "name": "Jennie McCahill",
+                    "role": "Susan"
+                },
+                {
+                    "name": "Kellie Ní Dhuibhir",
+                    "role": "Annie"
+                }
+            ],
+            "Crew": [
+                {"name":"Pete Butler","role":"Set Design, Sound"},
+                {"name":"Joe Canavan","role":"Lighting, Sound"},
+                {"name":"Miriam O'Brien","role":"Stage Manager"},
+                {"name":"Sean Woods","role":"Set Construction"}
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "The Hunt for Red Willie",
+            "Year": "2015",
+            "Month": "",
+            "DetailsComplete":"No",
+            "ImageFolder":"",
+            "Playwright": "Ken Bourke",
+            "Length": "Full Slot",
+            "Location": "Kildrought Lounge",
+            "Director": "Michael Giblin",
+            "Promo": "https://www.youtube.com/watch?v=qp6ardZ2aDc",
+            "Cast": [
+                {
+                    "name": "",
+                    "role": ""
+                },
+                {
+                    "name": "",
+                    "role": ""
+                },
+                {
+                    "name": "",
+                    "role": ""
+                },
+                {
+                    "name": "",
+                    "role": ""
+                }
+            ],
+            "Crew": [],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Endgame [WHO WAS IN THIS?]",
+            "Year": "2016",
+            "Month": "",
+            "DetailsComplete":"No",
+            "ImageFolder":"",
+            "Playwright": "Samuel Beckett",
+            "Length": "Full Slot",
+            "Location": "Kildrought Lounge",
+            "Director": "Joe Canavan",
+            "Cast": [
+                {
+                    "name": "Unknown",
+                    "role": "Hamm"
+                },
+                {
+                    "name": "Unknown",
+                    "role": "Clov"
+                },
+                {
+                    "name": "Unknown",
+                    "role": "Nagg"
+                },
+                {
+                    "name": "Unknown",
+                    "role": "Nell"
+                }
+            ],
+            "Crew": [],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Love in a Glass Jar",
+            "Year": "2016",
+            "Month": "",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Nancy Harris",
+            "Length": "Full Slot",
+            "Location": "Kildrought Lounge",
+            "Director": "Bill Elliffe",
+            "Cast": [
+                {
+                    "name": "Dave Foley",
+                    "role": "Patrick"
+                },
+                {
+                    "name": "Valerie Nohilly",
+                    "role": "Eve"
+                }
+            ],
+            "Crew": [],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Standing on Ceremony (The Gay Marriage Plays)",
+            "Year": "2016",
+            "Month": "",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Brian Shnipper, Mo Gaffney, Jordan Harrison, Moses Kaufman, Wendy MacLeod, Jose Rivera, Paul Rudnick, Doug Wright",
+            "Length": "Full Slot",
+            "Location": "Kildrought Lounge",
+            "Director": "Michael Giblin",
+            "Cast": [
+                {
+                    "name": "Mark Dooley",
+                    "role": ""
+                },
+                {
+                    "name": "Chris Fenlon",
+                    "role": ""
+                },
+                {
+                    "name": "Frances O’Connor",
+                    "role": ""
+                },
+                {
+                    "name": "Julie O’Neill",
+                    "role": ""
+                },
+                {
+                    "name": "Miriam O'Brien",
+                    "role": ""
+                },
+                {
+                    "name": "Michelle O’Dea",
+                    "role": ""
+                },
+                {
+                    "name": "Debbie Chamberlain",
+                    "role": ""
+                },
+                {
+                    "name": "Fiona O’Regan",
+                    "role": ""
+                },
+                {
+                    "name": "Leanne Reilly",
+                    "role": ""
+                },
+                {
+                    "name": "Vincent Casey",
+                    "role": ""
+                },
+                {
+                    "name": "Jack Flanagan",
+                    "role": ""
+                },
+                {
+                    "name": "Niall Hickey",
+                    "role": ""
+                },
+                {
+                    "name": "Geraldine O'Brien",
+                    "role": ""
+                },
+                {
+                    "name": "Edel Hutchinson",
+                    "role": ""
+                },
+                {
+                    "name": "Viv Butler-Rees",
+                    "role": ""
+                }
+            ],
+            "Crew": [],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "The Risen People",
+            "Year": "2016",
+            "Month": "",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "James Plunkett",
+            "Length": "Full Slot",
+            "Location": "Kildrought Lounge",
+            "Director": "Joe Bergin",
+            "Cast": [
+                {
+                    "name": "Donal Downes",
+                    "role": "Employer One/Ric Man"
+                },
+                {
+                    "name": "Eugene Molumby",
+                    "role": "Employer Two/Hegarty/Rector"
+                },
+                {
+                    "name": "Dave Foley",
+                    "role": "Fitz"
+                },
+                {
+                    "name": "John Heveran",
+                    "role": "Pat"
+                },
+                {
+                    "name": "Noel Wade",
+                    "role": "Joe"
+                },
+                {
+                    "name": "Pete Butler",
+                    "role": "Hennessy"
+                },
+                {
+                    "name": "Mary Higgins",
+                    "role": "Street Singer"
+                },
+                {
+                    "name": "Miriam O'Brien",
+                    "role": "Mrs. Mulhall"
+                },
+                {
+                    "name": "Colette Kinsella",
+                    "role": "Annie"
+                },
+                {
+                    "name": "Breda Donnellan",
+                    "role": "Mrs. Hennessy"
+                },
+                {
+                    "name": "Chris Fenlon",
+                    "role": "Keever"
+                },
+                {
+                    "name": "Bill Elliffe",
+                    "role": "Rashers Tierney"
+                },
+                {
+                    "name": "Brendan O'Sullivan",
+                    "role": "James Larkin"
+                },
+                {
+                    "name": "Martina Blessing",
+                    "role": "Woman/People Of Dublin"
+                },
+                {
+                    "name": "Frank Houlihan",
+                    "role": "Priest/People Of Dublin"
+                },
+                {
+                    "name": "Laura Brady",
+                    "role": "People Of Dublin"
+                },
+                {
+                    "name": "Tina Hughes",
+                    "role": "People Of Dublin"
+                },
+                {
+                    "name": "Debbie Chamberlain",
+                    "role": "People Of Dublin"
+                },
+                {
+                    "name": "Naoise NigFhloinn",
+                    "role": "People Of Dublin"
+                },
+                {
+                    "name": "Donal Healy",
+                    "role": "People Of Dublin"
+                }
+            ],
+            "Crew": [],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Bronte",
+            "Year": "2017",
+            "Month": "",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Polly Teale",
+            "Length": "Full Slot",
+            "Location": "Kildrought Lounge",
+            "Director": "Bill Elliffe",
+            "Cast": [
+                {
+                    "name": "Julie O'Neill",
+                    "role": "Charlotte Bronte"
+                },
+                {
+                    "name": "Michelle O'Dea",
+                    "role": "Emily Bronte"
+                },
+                {
+                    "name": "Fran O'Connor",
+                    "role": "Anne Bronte"
+                },
+                {
+                    "name": "Tom Brady-Connor",
+                    "role": "Branwell/Heathcliff"
+                },
+                {
+                    "name": "Dave Foley",
+                    "role": "Patrick Bronte"
+                },
+                {
+                    "name": "Chris Fenlon",
+                    "role": "Arthur Bell Nichols/Mr Heger"
+                },
+                {
+                    "name": "Graham Twomey",
+                    "role": "Rochester/Arthur Huntingdon"
+                },
+                {
+                    "name": "Thandeka Saul",
+                    "role": "Bertha"
+                },
+                {
+                    "name": "Rachel Dalton",
+                    "role": "Cathy"
+                }
+            ],
+            "Crew": [],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "The Crucible",
+            "Year": "2017",
+            "Month": "",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Arthur Miller",
+            "Length": "Full Slot",
+            "Location": "Kildrought Bar and Loung",
+            "Director": "Brendan O'Sullivan",
+            "Cast": [
+                {
+                    "name": "Laura Brady",
+                    "role": "Betty Paris"
+                },
+                {
+                    "name": "Netanya Curtis-Douglas",
+                    "role": "Betty Paris"
+                },
+                {
+                    "name": "Eugene Molumby",
+                    "role": "Rev. Samuel Parris"
+                },
+                {
+                    "name": "Thandi Monds",
+                    "role": "Tituba"
+                },
+                {
+                    "name": "Meadhbh Fitzgibbon-Moore",
+                    "role": "Abigail Williams"
+                },
+                {
+                    "name": "Leanne Reilly",
+                    "role": "Susanna Walcott"
+                },
+                {
+                    "name": "Mary Higgins",
+                    "role": "Goodwife Ann Putnam"
+                },
+                {
+                    "name": "John Heveran",
+                    "role": "Thomas Putnam"
+                },
+                {
+                    "name": "Naoise NigFhloinn",
+                    "role": "Mercy Lewis"
+                },
+                {
+                    "name": "Madeleine Martin",
+                    "role": "Mary Warren"
+                },
+                {
+                    "name": "Tom Brady-Connor",
+                    "role": "John Proctor"
+                },
+                {
+                    "name": "Breda Donnellan",
+                    "role": "Goodwife Rebecca Nurse"
+                },
+                {
+                    "name": "Tony Connolly",
+                    "role": "John Proctor"
+                },
+                {
+                    "name": "Joe Bergin",
+                    "role": "Rev. John Hale"
+                },
+                {
+                    "name": "Fran O'Connor",
+                    "role": "Goodwife Elizabeth Proctor"
+                },
+                {
+                    "name": "Michael Giblin",
+                    "role": "Francis Nurse"
+                },
+                {
+                    "name": "Tony Murphy",
+                    "role": "Ezekiel Cheever"
+                },
+                {
+                    "name": "Rian MagFhloinn",
+                    "role": "Marshal Herrick"
+                },
+                {
+                    "name": "Frank Houlihan",
+                    "role": "Judge Hathorne"
+                },
+                {
+                    "name": "Bill Elliffe",
+                    "role": "Deputy Governer Danforth"
+                },
+                {
+                    "name": "Tina Hughes",
+                    "role": "Martha Corey"
+                },
+                {
+                    "name": "Viv Butler-Rees",
+                    "role": "Sarah Good"
+                },
+                {
+                    "name": "Pete Butler",
+                    "role": "Deputy"
+                }
+            ],
+            "Crew": [],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Alone it Stands",
+            "Year": "2018",
+            "Month": "",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "John Breen",
+            "Length": "Full Slot",
+            "Location": "Kildought Bar and Lounge",
+            "Director": "Rian Glynn",
+            "Cast": [
+                {
+                    "name": "Katie Noone",
+                    "role": ""
+                },
+                {
+                    "name": "Meadhbh Fitzgibbon-Moore",
+                    "role": ""
+                },
+                {
+                    "name": "Donnagh Mayock",
+                    "role": ""
+                },
+                {
+                    "name": "Brendan O'Sullivan",
+                    "role": ""
+                },
+                {
+                    "name": "John Fitzgibbon-Moore",
+                    "role": ""
+                },
+                {
+                    "name": "Finbarr Coghlan",
+                    "role": ""
+                },
+                {
+                    "name": "John Heveran",
+                    "role": ""
+                }
+            ],
+            "Crew": [],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "An Evening Of One Act Plays",
+            "Year": "2018",
+            "Month": "",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Various",
+            "Length": "Collection",
+            "Playwright":"Various",
+            "Director":"Various",
+            "Location": "Kildrought Lounge",
+            "Performances": [
+                {
+                    "Play": "Time Warp",
+                    "Playwright": "Frank Houlihan",
+                    "Director": "Joe Bergin",
+                    "Cast": [
+                        {
+                            "name": "Dave Foley",
+                            "role": "Bob"
+                        },
+                        {
+                            "name": "Mary Higgins",
+                            "role": "Helen"
+                        },
+                        {
+                            "name": "Lorna Mooney",
+                            "role": "Christine"
+                        },
+                        {
+                            "name": "Brendan O'Sullivan",
+                            "role": "Man"
+                        }
+                    ]
+                },
+                {
+                    "Play": "Ruby Of Elsinore",
+                    "Playwright": "Bruce Kane",
+                    "Director": "Bill Elliffe",
+                    "Cast": [
+                        {
+                            "name": "Tina Hughes",
+                            "role": "Gertrude"
+                        },
+                        {
+                            "name": "Leanne Reilly",
+                            "role": "Ophelia"
+                        },
+                        {
+                            "name": "Thandi Saul",
+                            "role": "Ruby"
+                        },
+                        {
+                            "name": "Debbie Chamberlain",
+                            "role": "Ruby's Assistant"
+                        },
+                        {
+                            "name": "John Fitzgibbon-Moore",
+                            "role": "Hamlet"
+                        },
+                        {
+                            "name": "Eugene Molumby",
+                            "role": "Claudius"
+                        },
+                        {
+                            "name": "Tony Connolly",
+                            "role": "Hamlet's Father"
+                        }
+                    ]
+                },
+                {
+                    "Play": "Sex, Lies and Sticky Tape",
+                    "Playwright": "Martina O'Connor",
+                    "Director": "Martina O'Connor",
+                    "Cast": [
+                        {
+                            "name": "Naoise NigFhloinn",
+                            "role": "Woman 1"
+                        },
+                        {
+                            "name": "Vincent Casey",
+                            "role": "The Sailor"
+                        },
+                        {
+                            "name": "Colette Kinsella",
+                            "role": "Woman 2"
+                        },
+                        {
+                            "name": "Martina O'Connor",
+                            "role": "Woman 3"
+                        }
+                    ]
+                },
+                {
+                    "Play": "The Hebrew Lesson",
+                    "Playwright": "Wolf Mankowitz",
+                    "Director": "Joe Canavan",
+                    "Cast": [
+                        {
+                            "name": "Noel Wade",
+                            "role": "The Jew"
+                        },
+                        {
+                            "name": "Donnagh Mayock",
+                            "role": "The Young Man"
+                        },
+                        {
+                            "name": "Mick Lothian",
+                            "role": "Black & Tan"
+                        },
+                        {
+                            "name": "Matt Black",
+                            "role": "Black & Tan"
+                        }
+                    ]
+                },
+                {
+                    "Play": "Babels in Arms",
+                    "Playwright": "David Ives",
+                    "Director": "Michael Giblin",
+                    "Cast": [
+                        {
+                            "name": "Miriam O'Brien",
+                            "role": "Business Woman"
+                        },
+                        {
+                            "name": "Michelle O'Dea",
+                            "role": "The Priestess"
+                        },
+                        {
+                            "name": "Chris Fenlon",
+                            "role": "Gorph"
+                        },
+                        {
+                            "name": "Bill Casey",
+                            "role": "The Eunuch"
+                        },
+                        {
+                            "name": "Cathal Hayes",
+                            "role": "Cannaphlit"
+                        }
+                    ]
+                }
+            ],
+            "Crew": [],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Tuesdays with Morrie",
+            "Year": "2018",
+            "Month": "",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Mitch Albom and Jeffrey Hatcher",
+            "Length": "Full Slot",
+            "Location": "Kildrought Lounge",
+            "Director": "Miriam O'Brien",
+            "Cast": [
+                {
+                    "name": "Noel Wade",
+                    "role": ""
+                },
+                {
+                    "name": "Vincent Casey",
+                    "role": ""
+                }
+            ],
+            "Crew": [],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "All My Sons",
+            "Year": "2019",
+            "Month": "",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Arthur Miller",
+            "Length": "Full Slot",
+            "Location": "Kildrought Bar and Loung",
+            "Director": "Dave Foley",
+            "Cast": [
+                {
+                    "name": "Bill Elliffe",
+                    "role": "Joe Keller"
+                },
+                {
+                    "name": "Helena Stout",
+                    "role": "Kate Keller"
+                },
+                {
+                    "name": "Camilla Pedersen",
+                    "role": "Lydia Lubey"
+                },
+                {
+                    "name": "Tom Nohilly",
+                    "role": "Bert"
+                },
+                {
+                    "name": "Alex Rochford",
+                    "role": "Bert"
+                },
+                {
+                    "name": "John Fitzgibbon-Moore",
+                    "role": "Chris Keller"
+                },
+                {
+                    "name": "Sinéad Ennis",
+                    "role": "Ann Deever"
+                },
+                {
+                    "name": "Donnagh Mayock",
+                    "role": "George Deever"
+                },
+                {
+                    "name": "Matthew de Barra",
+                    "role": "Frank Lubey"
+                },
+                {
+                    "name": "Valerie Nohilly",
+                    "role": "Sue Bayliss"
+                },
+                {
+                    "name": "Brendan O'Sullivan",
+                    "role": "Dr. Jim Bayliss"
+                }
+            ],
+            "Crew": [],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Three One-Act Plays",
+            "Year": "2019",
+            "Month": "",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Various",
+            "Length": "Collection",
+            "Playwright":"Various",
+            "Director":"Various",
+            "Location": "Kildrought Lounge",
+            "Performances": [
+                {
+                    "Play": "The Autograph Hound",
+                    "Playwright": "James Prideaux",
+                    "Director": "Helena Stout",
+                    "Cast": [
+                        {
+                            "name": "Dave Foley",
+                            "role": "Harry Hooten"
+                        },
+                        {
+                            "name": "Miriam O'Brien",
+                            "role": "Lila Hooten"
+                        },
+                        {
+                            "name": "Julie O'Neill",
+                            "role": "Cissie Hooten"
+                        }
+                    ]
+                },
+                {
+                    "Play": "Specter",
+                    "Playwright": "Don Nigro",
+                    "Director": "Joe Canavan",
+                    "Cast": [
+                        {"name": "Michelle O'Dea","role": "Marla"},
+                        {"name": "Bob Tysall","role": "Norris"}
+                    ]
+                },
+                {
+                    "Play": "The Death Of Me",
+                    "Playwright": "Norm Foster",
+                    "Director": "Michael Giblin",
+                    "Cast": [
+                        {
+                            "name": "Christopher Brogan",
+                            "role": "Angel of Death"
+                        },
+                        {
+                            "name": "Chris Fenlon",
+                            "role": "John"
+                        },
+                        {
+                            "name": "Leanne Reilly",
+                            "role": ""
+                        },
+                        {
+                            "name": "Thomas Appleby",
+                            "role": ""
+                        }
+                    ]
+                }
+            ],
+            "Crew": [],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Plays, Poems, Songs and Pints!",
+            "Year": "2021",
+            "Month": "",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Various",
+            "Length": "Collection",
+            "Playwright":"Various",
+            "Director":"Various",
+            "Location": "Kildrought Lounge",
+            "Performances": [
+                {
+                    "Play": "Caught In The Spotlight",
+                    "Playwright": "Joe Bergin",
+                    "Director": "Joe Bergin",
+                    "Cast": [
+                        {
+                            "name": "John Fitzgibbon-Moore",
+                            "role": ""
+                        },
+                        {
+                            "name": "Rian Glynn",
+                            "role": ""
+                        },
+                        {
+                            "name": "Phil Darragh",
+                            "role": ""
+                        }
+                    ]
+                },
+                {
+                    "Play": "Rentals",
+                    "Playwright": "Greg Hardigan",
+                    "Director": "Miriam O'Brien",
+                    "Cast": [
+                        {
+                            "name": "Ray Lowry",
+                            "role": ""
+                        },
+                        {
+                            "name": "Pete Butler",
+                            "role": ""
+                        },
+                        {
+                            "name": "Tom Brady-Connor",
+                            "role": ""
+                        }
+                    ]
+                },
+                {
+                    "Play": "Monologue",
+                    "Playwright": "Martina Reilly Murphy",
+                    "Director": "Martina Reilly Murphy",
+                    "Cast": [
+                        {
+                            "name": "Martina Reilly Murphy",
+                            "role": ""
+                        }
+                    ]
+                },
+                {
+                    "Play": "Playboy Of The Western World (Excerpt)",
+                    "Playwright": "JM Synge",
+                    "Director": "N/A",
+                    "Cast": [
+                        {
+                            "name": "Bill Elliffe",
+                            "role": ""
+                        },
+                        {
+                            "name": "Eugene Molumby",
+                            "role": ""
+                        }
+                    ]
+                },
+                {
+                    "Play": "Home Sweet Home",
+                    "Playwright": "Joe Bergin",
+                    "Director": "Michael Giblin",
+                    "Cast": [
+                        {
+                            "name": "Tina Hughes",
+                            "role": ""
+                        },
+                        {
+                            "name": "Ann Kelly",
+                            "role": ""
+                        },
+                        {
+                            "name": "Breda Donnellan",
+                            "role": ""
+                        }
+                    ]
+                },
+                {
+                    "Play": "The Shooting of Dan McGrew (Poetry Recitation)",
+                    "Playwright": "Robert W. Service",
+                    "Director": "Self-Directed",
+                    "Cast": [
+                        {
+                            "name": "Tony Connolly",
+                            "role": ""
+                        }
+                    ]
+                },
+                {
+                    "Play": "Musical Performances",
+                    "Playwright": "Various",
+                    "Director": "Self-Directed",
+                    "Cast": [
+                        {
+                            "name": "Pete Butler",
+                            "role": ""
+                        },
+                        {
+                            "name": "Brendan O'Sullivan",
+                            "role": ""
+                        },
+                        {
+                            "name": "Mick Lothian",
+                            "role": ""
+                        },
+                        {
+                            "name": "Brian King",
+                            "role": ""
+                        }
+                    ]
+                }
+            ],
+            "Crew": [],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "An Evening of Theatre",
+            "Year": "2022",
+            "Month": "",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Various",
+            "Length": "Collection",
+            "Playwright":"Various",
+            "Director":"Various",
+            "Location": "Kildrought Lounge",
+            "Performances": [
+                {
+                    "Play": "The Actor's Nightmare",
+                    "Playwright": "Christopher Durang",
+                    "Director": "Joe Bergin",
+                    "Cast": [
+                        {
+                            "name": "Bob Tysall",
+                            "role": "George"
+                        },
+                        {
+                            "name": "Leanne Reilly",
+                            "role": "Meg"
+                        },
+                        {
+                            "name": "Michelle O'Dea",
+                            "role": "Sarah"
+                        },
+                        {
+                            "name": "Abina Guinan",
+                            "role": "Ellen"
+                        },
+                        {
+                            "name": "Graham Twomey",
+                            "role": "Henry"
+                        },
+                        {
+                            "name": "Chris Fenlon",
+                            "role": "The Executioner"
+                        },
+                        {
+                            "name": "Joe Bergin",
+                            "role": "The Announcer"
+                        }
+                    ]
+                },
+                {
+                    "Play": "A Galway Girl",
+                    "Playwright": "Geraldine Aron",
+                    "Director": "Helena Stout",
+                    "Cast": [
+                        {
+                            "name": "Breda Donnellan",
+                            "role": "Maisie"
+                        },
+                        {
+                            "name": "Brendan O'Sullivan",
+                            "role": "Dermot"
+                        }
+                    ]
+                },
+                {
+                    "Play": "The Telltale Heart",
+                    "Playwright": "Edgar Allan Poe",
+                    "Director": "Brendan O'Sullivan",
+                    "Cast": [
+                        {
+                            "name": "Graham Twomey",
+                            "role": "Orator"
+                        }
+                    ]
+                },
+                {
+                    "Play": "Little Gem (Monologue)",
+                    "Playwright": "Elaine Murphy",
+                    "Director": "Helena Stout",
+                    "Cast": [
+                        {
+                            "name": "Helena Stout",
+                            "role": "Kay"
+                        }
+                    ]
+                }
+            ],
+            "Crew": [],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Philadelphia, Here I Come!",
+            "Year": "2022",
+            "Month": "",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Brian Friel",
+            "Length": "Full Slot",
+            "Location": "Kildrought Lounge",
+            "Director": "Brendan O'Sullivan",
+            "Cast": [
+                {
+                    "name": "John Fitzgibbon Moore",
+                    "role": "Gar Public"
+                },
+                {
+                    "name": "Graham Twomey",
+                    "role": "Gar Private"
+                },
+                {
+                    "name": "Bill Elliffe",
+                    "role": "SB O'Donnell"
+                },
+                {
+                    "name": "Breda Donnellan",
+                    "role": "Madge Mulhern"
+                },
+                {
+                    "name": "Camilla Pedersen",
+                    "role": "Kate Doogan"
+                },
+                {
+                    "name": "John Heveran",
+                    "role": "Senator Doogan"
+                },
+                {
+                    "name": "Joe Bergin",
+                    "role": "Master Boyle"
+                },
+                {
+                    "name": "Helena Stout",
+                    "role": "Lizzie Sweeney"
+                },
+                {
+                    "name": "Dave Foley",
+                    "role": "Con Sweeney"
+                },
+                {
+                    "name": "George Hogan",
+                    "role": "Ben Burton"
+                },
+                {
+                    "name": "Robert Burns",
+                    "role": "Ned"
+                },
+                {
+                    "name": "Bob Tysall",
+                    "role": "Tom"
+                },
+                {
+                    "name": "Chris Fenlon",
+                    "role": "Joe"
+                },
+                {
+                    "name": "Eugene Molumby",
+                    "role": "Canon O'Byrne"
+                },
+                {
+                    "name": "Brendan O'Sullivan",
+                    "role": "Canon O'Byrne"
+                }
+            ],
+            "Crew": [],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Our Town",
+            "Year": "2023",
+            "Month": "",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Thornton Wilder",
+            "Length": "Full Slot",
+            "Location": "Kildrought Lounge",
+            "Director": "Michael Giblin",
+            "Cast": [
+                {
+                    "name": "John Heveran",
+                    "role": "Stage Manager"
+                },
+                {
+                    "name": "Brendan O'Sullivan",
+                    "role": "Dr. Gibbs"
+                },
+                {
+                    "name": "Conor Dunne",
+                    "role": "Joe / Si Crowell"
+                },
+                {
+                    "name": "Michael Comer",
+                    "role": "Joe / Si Crowell"
+                },
+                {
+                    "name": "Robert Burns",
+                    "role": "Howie Newsome"
+                },
+                {
+                    "name": "Breda Donnellan",
+                    "role": "Mrs Webb"
+                },
+                {
+                    "name": "Ann Kelly",
+                    "role": "Mrs Gibbs"
+                },
+                {
+                    "name": "Graham Twomey",
+                    "role": "George Gibbs"
+                },
+                {
+                    "name": "Bina Guinan",
+                    "role": "Rebecca Gibbs"
+                },
+                {
+                    "name": "Leanne Reilly",
+                    "role": "Mollie Webb"
+                },
+                {
+                    "name": "Michelle O'Dea",
+                    "role": "Emily Webb"
+                },
+                {
+                    "name": "Joe Bergin",
+                    "role": "Professor Wllard"
+                },
+                {
+                    "name": "Dave Foley",
+                    "role": "Mr. Webb"
+                },
+                {
+                    "name": "Bill Elliffe",
+                    "role": "Simon Stimpson"
+                },
+                {
+                    "name": "Martha Giblin",
+                    "role": "Mrs Soames"
+                },
+                {
+                    "name": "Finbarr Coughlan",
+                    "role": "Constable Warren"
+                },
+                {
+                    "name": "Chris Fenlon",
+                    "role": "Sam Craig"
+                },
+                {
+                    "name": "Cathal Hayes",
+                    "role": "Joe Stoddard"
+                },
+                {
+                    "name": "Miriam O'Brien",
+                    "role": "Townsperson"
+                },
+                {
+                    "name": "Katie Noone",
+                    "role": "Townsperson"
+                },
+                {
+                    "name": "Julie O'Neill",
+                    "role": "Townsperson"
+                },
+                {
+                    "name": "Mary Higgins",
+                    "role": "Townsperson"
+                },
+                {
+                    "name": "Tina Hughes",
+                    "role": "Townsperson"
+                }
+            ],
+            "Crew": [],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "Tarry Flynn",
+            "Year": "2023",
+            "Month": "",
+            "DetailsComplete":"Yes",
+            "ImageFolder":"",
+            "Playwright": "Patrick Kavanagh",
+            "Length": "Full Slot",
+            "Location": "Kildrought Lounge",
+            "Director": "Katie Noone",
+            "Cast": [
+                {
+                    "name": "Robert Burns",
+                    "role": "Tarry"
+                },
+                {
+                    "name": "Mary Higgins",
+                    "role": "Mrs Flynn"
+                },
+                {
+                    "name": "Caitríona Carr",
+                    "role": "Aggie"
+                },
+                {
+                    "name": "Victoria Dunne",
+                    "role": "Bridie"
+                },
+                {
+                    "name": "Michelle O'Dea",
+                    "role": "Mary Reilly"
+                },
+                {
+                    "name": "Bina Guinan",
+                    "role": "Eusebius"
+                },
+                {
+                    "name": "Finbarr Coghlan",
+                    "role": "Charlie"
+                },
+                {
+                    "name": "Cathal Hayes",
+                    "role": "Hughie"
+                },
+                {
+                    "name": "Breda Donnellan",
+                    "role": "Fr Markey"
+                },
+                {
+                    "name": "Bob Tysall",
+                    "role": "Tommy"
+                },
+                {
+                    "name": "Eugene Molumby",
+                    "role": "Patsy"
+                },
+                {
+                    "name": "Brendan O'Sullivan",
+                    "role": "Uncle Petey"
+                }
+            ],
+            "Crew": [],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "An Evening of Theatre",
+            "Year": "2024",
+            "Month": "",
+            "DetailsComplete":"Yes",
+            "Playwright": "Various",
+            "Length": "Collection",
+            "Playwright":"Various",
+            "Director":"Various",
+            "Location": "Kildrought Lounge",
+            "Performances": [
+                {
+                    "Play": "Centipede",
+                    "Playwright": "Frank Houlihan",
+                    "Director": "Brendan O'Sullivan",
+                    "Cast": [
+                        {
+                            "name": "Helena Stout",
+                            "role": ""
+                        },
+                        {
+                            "name": "Breda Donnellan",
+                            "role": ""
+                        }
+                    ]
+                },
+                {
+                    "Play": "Bar And Ger",
+                    "Playwright": "Geraldine Aron",
+                    "Director": "Camilla Pedersen",
+                    "Cast": [
+                        {
+                            "name": "Rachel Butler",
+                            "role": "Ger"
+                        },
+                        {
+                            "name": "Cathal Hayes",
+                            "role": "Bar"
+                        }
+                    ]
+                },
+                {
+                    "Play": "The Quiet Land",
+                    "Playwright": "Malachy McKenna",
+                    "Director": "Joe Canavan",
+                    "Cast": [
+                        {
+                            "name": "Brendan O'Sullivan",
+                            "role": ""
+                        },
+                        {
+                            "name": "Bill Elliffe",
+                            "role": ""
+                        }
+                    ]
+                }
+            ],
+            "Crew": [],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play":"Don't Dress For Dinner",
+            "Playwright":"Marc Carmoletti",
+            "DetailsComplete":"Yes",
+            "Year":"2024",
+            "Length":"Full Slot",
+            "Director":"Martha Giblin",
+            "Location":"Kildrought Lounge",
+            "Cast":[
+                {"name":"Chris Fenlon","role":"Bernard"},
+                {"name":"Julie O'Neill","role":"Jacqueline"},
+                {"name":"Graham Twomey","role":"Robert"},
+                {"name":"Abina Guinan","role":"Suzette"},
+                {"name":"Lisa Siddle","role":"Suzanne"},
+                {"name":"Cathal Hayes","role":"George"}
+            ],
+            "Crew":[
+                {"name":"Leanne Reilly","role":"Stage Manager"}
+            ],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play":"Dublin By Lamplight",
+            "Playwright":"Michael West",
+            "DetailsComplete":"Yes",
+            "Year":"2025",
+            "Length":"Full Slot",
+            "Director":"Helena Stout",
+            "Location":"Kildrought Lounge",
+            "Cast":[
+                {"name":"Cathal Hayes","role":"Frank Hayes"},
+                {"name":"Fran O'Connor","role":"Maggie"},
+                {"name":"Breda Donnellan","role":"Eva St. John"},
+                {"name":"George Hogan","role":"Martyn Wallace"},
+                {"name":"Chris Fenlon","role":"Willie Hayes"},
+                {"name":"Bob Tysall","role":"Jimmy Finnegan, Castle Agent"},
+                {"name":"Rachel Butler","role":"Mrs. Madden, Angry Mother, Waster, Whore 2"},
+                {"name":"Gillian Lake","role":"Maggies Mother, Trench, Whore 1"},
+                {"name":"Finbarr Coughlan","role":"Doherty, Maloney, Mr. Nobbs, Dung Dodger 2"},
+                {"name":"Eugene Molumby","role":"Boylan, Dung Dodger 1, Mendicant"},
+                {"name":"Abina Guinan","role":"Sergeant Kearns, Waster, Nora"},
+                {"name":"Michelle O'Dea","role":"Constable Flowers, Huzzar, Constable Eddie"},
+                {"name":"Leanne Reilly","role":"Floozie in Bar, Passerby, Whore 3"},
+                {"name":"Michael Comer","role":"Young Boy, Barman"}
+            ],
+            "Crew":[
+                {"name":"Pete Butler","role":"Assistant Director, Choreography"},
+                {"name":"Michael Giblin","role":"Prompter, Backstage"},
+                {"name":"Leanne Reilly","role":"Stage Manager"},
+                {"name":"Joe Canavan","role":"Lighting and Sound Design"}
+            ],
+            "Images":[
+                "01 - Full Cast.jpg",
+                "02 - Poster.jpg",
+                "03 - Chris.jpg",
+                "04 - Cathal.jpg",
+                "05 - Fran.jpg",
+                "06 - Breda.jpg",
+                "07 - Rachel.jpg",
+                "08 - Gillian.jpg",
+                "09 - Finbarr.jpg",
+                "10 - George.jpg",
+                "11 - Eugene.jpg",
+                "12 - Abina.jpg",
+                "13 - Michelle.jpg",
+                "14 - Bob.jpg",
+                "15 - Leanne.jpg",
+                "16 - Helena.jpg",
+                "17 - Pete.jpg",
+                "18 - Sides.jpg",
+                "19 - Fran, Breda.jpg",
+                "20 - Fran, Bob.jpg",
+                "21 - Chris, Finbarr, Eugene, Gillian.jpg",
+                "22 - Michelle, Abina, Leanne, Rachel.jpg"
+            ]
+        },
+        {
+            "Play": "One Act Plays Autumn 2025",
+            "Year": "2025",
+            "Month": "November",
+            "DetailsComplete":"Yes",
+            "Playwright": "Various",
+            "Length": "Collection",
+            "Playwright":"Various",
+            "Director":"Various",
+            "Location": "Kildrought Lounge",
+            "Performances": [
+                {
+                    "Play": "There's Always Tomorrow",
+                    "Playwright": "Joe Bergin",
+                    "Director": "Joe Bergin",
+                    "Cast": [
+                        {
+                            "name": "Madeleine Martin",
+                            "role": "Sara"
+                        },
+                        {
+                            "name": "Brendan O'Sullivan",
+                            "role": "Peter"
+                        },
+                        {
+                            "name": "Bob Tysall",
+                            "role": "Ken"
+                        }
+                    ]
+                },
+                {
+                    "Play": "The Insanity of Mary Girard",
+                    "Playwright": "Lanie Robertson",
+                    "Director": "Joe Canavan",
+                    "Cast": [
+                        {
+                            "name": "Fran O'Connor",
+                            "role": "Mary Girard"
+                        },
+                        {
+                            "name": "Pete Butler",
+                            "role": "The Warder/Fury"
+                        },
+                        {
+                            "name": "Katie Noone",
+                            "role": "Mrs. Lum/Fury"
+                        },
+                        {
+                            "name": "Chris Fenlon",
+                            "role": "Stephen Girard/Fury"
+                        },
+                        {
+                            "name": "Bob Tysall",
+                            "role": "Mr. Phillips"
+                        },
+                        {
+                            "name": "Lisa Siddle",
+                            "role": "Polly Kenton/Fury"
+                        },
+                        {
+                            "name": "Abina Guinan",
+                            "role": "Mrs. Hatcher/Fury"
+                        },
+                        {
+                            "name": "Thandi Saul",
+                            "role": "Fury"
+                        }
+                    ]
+                },
+                {
+                    "Play": "A Little Box Of Oblivion",
+                    "Playwright": "Stephen Bean",
+                    "Director": "Rachel Butler",
+                    "Cast": [
+                        {
+                            "name": "Cathal Hayes",
+                            "role": "Cool"
+                        },
+                        {
+                            "name": "Dominique Gaydon-Pitts",
+                            "role": "Woman"
+                        },
+                        {
+                            "name":"Leanne Reilly",
+                            "role":"Neuro"
+                        },
+                        {
+                            "name":"Joy Murphy",
+                            "role":"Doom"
+                        },
+                        {
+                            "name":"Michelle O'Dea",
+                            "role":"Dick"
+                        }
+                    ]
+                }
+            ],
+            "Crew": [],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play": "One Act Plays Spring 2026",
+            "Year": "2026",
+            "Month": "May",
+            "DetailsComplete":"Yes",
+            "Playwright": "Various",
+            "Length": "Collection",
+            "Playwright":"Various",
+            "Director":"Various",
+            "Location": "Kildrought Lounge",
+            "Performances": [
+                {
+                    "Play": "Lone Star",
+                    "Playwright": "James McLure",
+                    "Director": "Brendan O'Sullivan",
+                    "Cast": [
+                        {
+                            "name": "Chris Fenlon",
+                            "role": "Ray"
+                        },
+                        {
+                            "name": "Vini Casey",
+                            "role": "Roy"
+                        },
+                        {
+                            "name": "Matthew de Barra",
+                            "role": "Cletus"
+                        }
+                    ]
+                },
+                {
+                    "Play": "Her Big Chance",
+                    "Playwright": "Alan Bennett",
+                    "Director": "Breda Donnellan",
+                    "Cast": [
+                        {
+                            "name": "Lisa Siddle",
+                            "role": "Leslie"
+                        }
+                    ]
+                },
+                {
+                    "Play": "The Good Father",
+                    "Playwright": "Christian O'Reilly",
+                    "Director": "Pete Butler",
+                    "Cast": [
+                        {
+                            "name": "Cathal Hayes",
+                            "role": "Tim"
+                        },
+                        {
+                            "name": "Joy Murphy",
+                            "role": "Jane"
+                        },
+                        {
+                            "name": "Matthew de Barra",
+                            "role": "Tim"
+                        },
+                        {
+                            "name": "Sinead Oman",
+                            "role": "Jane"
+                        },
+                        {
+                            "name": "Graham Twomey",
+                            "role": "Tim"
+                        },
+                        {
+                            "name": "Julie O'Neill",
+                            "role": "Jane"
+                        }
+                    ]
+                }
+            ],
+            "Crew": [],
+            "Images":[
+
+            ]
+        }
+    ]
+}

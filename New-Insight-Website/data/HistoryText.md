@@ -1,6 +1,4 @@
 ### Insight's History
-This page is currently in progress! 
+This page is being actively updated - check in again for more!
 
-We have been hard at work documenting the full history of Insight Theatre, and our intent is to provide a page where you can search through the full archive of our shows. However, collating all that info into one page in a meaningful manner takes time.
-
-This page will be updated soon with the full history.
+We have been hard at work documenting the full history of Insight Theatre, and this page showcases the details we have gathered on every production Insight has staged. You can click on any of the shows to get full details and see what pictures we have saved from that production!
