@@ -74,7 +74,7 @@
 				},
 				{
 					"name":"Mo Ghile Mear",
-					"language":"English",
+					"language":"Irish",
 					"parts":[
 						"Tenor Solo",
 						"Soprano",
@@ -85,6 +85,38 @@
 						"Bass 2"
 					],
 					"videoPath":"https://www.youtube.com/embed/zxjvNUNXhkU?si=ShXMqjGIjY5iT6Aj"
+				},
+				{
+					"name":"Northwest Passage",
+					"language":"English",
+					"parts":[
+						"Alto Solo",
+						"Bass Solo",
+						"Soprano Solo",
+						"Tenor Solo",
+						"Alto",
+						"Bass",
+						"Soprano 1",
+						"Soprano 2",
+						"Tenor"
+					],
+					"videoPath":"https://www.youtube.com/embed/Y6bwE7qOX34?si=tGQ755u8iILVOZDK"
+				},
+				{
+					"name":"Mo Li Hua",
+					"language":"Mandarin Chinese",
+					"parts":[
+						"Soprano Solo",
+						"Alto 1",
+						"Alto 2",
+						"Bass 1",
+						"Bass 2",
+						"Soprano 1",
+						"Soprano 2",
+						"Tenor 1",
+						"Tenor 2"
+					],
+					"videoPath":"https://www.youtube.com/embed/4tEDhHY_6DQ?si=PJ1XFK8J3i6z57uF"
 				}
 			]
 		}
