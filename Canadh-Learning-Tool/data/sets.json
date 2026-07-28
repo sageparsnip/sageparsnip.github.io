@@ -131,6 +131,18 @@
 						"Tenor 2"
 					],
 					"videoPath":"https://www.youtube.com/embed/4tEDhHY_6DQ?si=PJ1XFK8J3i6z57uF"
+				},
+				{
+					"name":"Magalina Zoula",
+					"language":"Quechua",
+					"parts":[
+						"Alto",
+						"Bass",
+						"Soprano",
+						"Tenor",
+						"Full Choir"
+					],
+					"videoPath":"https://www.youtube.com/embed/ez7exV_7-5Q?si=Ru1hr3jDgpvHXD1"
 				}
 			]
 		}
