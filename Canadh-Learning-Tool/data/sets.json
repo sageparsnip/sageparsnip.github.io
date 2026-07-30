@@ -143,6 +143,20 @@
 						"Full Choir"
 					],
 					"videoPath":"https://www.youtube.com/embed/ez7exV_7-5Q?si=Ru1hr3jDgpvHXD1"
+				},
+				{
+					"name":"Rime",
+					"language":"Italian?",
+					"parts":[
+						"Alto 1",
+						"Alto 2",
+						"Bass",
+						"Soprano 1",
+						"Soprano 2",
+						"Tenor",
+						"Full Choir"
+					],
+					"videoPath":"https://www.youtube.com/embed/UGs1Vun-BoI?si=bWotG6lxUuMu0hgR"
 				}
 			]
 		}
