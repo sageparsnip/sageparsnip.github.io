@@ -157,6 +157,20 @@
 						"Full Choir"
 					],
 					"videoPath":"https://www.youtube.com/embed/UGs1Vun-BoI?si=bWotG6lxUuMu0hgR"
+				},
+				{
+					"name":"A La Nanita Nana",
+					"language":"Spanish",
+					"parts":[
+						"Alto 1",
+						"Alto 2",
+						"Bass 1",
+						"Bass 2",
+						"Soprano",
+						"Tenor",
+						"Full Choir"
+					],
+					"videoPath":"https://www.youtube.com/embed/YPwtni2eol0?si=J3G9iBitU8RF1qaR"
 				}
 			]
 		}
