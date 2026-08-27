@@ -173,6 +173,34 @@
 					"videoPath":"https://www.youtube.com/embed/YPwtni2eol0?si=J3G9iBitU8RF1qaR"
 				}
 			]
+		},
+		{
+			"name":"Alice In Wonderland (Panto 2026)",
+			"songs":[
+				{
+					"name":"1. Welcome To Wonderland",
+					"parts":[
+						"Solo 1",
+						"Solo 2",
+						"Solo 3",
+						"Soprano",
+						"Alto",
+						"Tenor",
+						"Bass"
+					],
+					"videoPath":"https://www.youtube.com/embed/pAM9YuhXLUk?si=TS2aF7GYmM-s3Lf-"
+				},
+				{
+					"name":"9. Ease On Down The Road",
+					"parts":[
+						"Solo",
+						"Ensemble 1",
+						"Ensemble 2",
+						"Ensemble 3"
+					],
+					"videoPath":"https://www.youtube.com/embed/rQPY6kJ8NzI?si=rJVXbwBXwkuVGaPa"
+				}
+			]
 		}
 	]
 }
