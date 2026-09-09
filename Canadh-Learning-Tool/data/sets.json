@@ -145,6 +145,20 @@
 					"videoPath":"https://www.youtube.com/embed/ez7exV_7-5Q?si=Ru1hr3jDgpvHXD1"
 				},
 				{
+					"name":"A La Nanita Nana",
+					"language":"Spanish",
+					"parts":[
+						"Alto 1",
+						"Alto 2",
+						"Bass 1",
+						"Bass 2",
+						"Soprano",
+						"Tenor",
+						"Full Choir"
+					],
+					"videoPath":"https://www.youtube.com/embed/YPwtni2eol0?si=J3G9iBitU8RF1qaR"
+				},
+				{
 					"name":"Rime",
 					"language":"Italian?",
 					"parts":[
@@ -159,18 +173,22 @@
 					"videoPath":"https://www.youtube.com/embed/UGs1Vun-BoI?si=bWotG6lxUuMu0hgR"
 				},
 				{
-					"name":"A La Nanita Nana",
-					"language":"Spanish",
+					"name":"Fill Iù Oro Hù Ó",
+					"language":"Irish/Scots Gaelic",
 					"parts":[
-						"Alto 1",
-						"Alto 2",
-						"Bass 1",
-						"Bass 2",
-						"Soprano",
-						"Tenor",
-						"Full Choir"
+						"Soloist",
+						"Group"
 					],
-					"videoPath":"https://www.youtube.com/embed/YPwtni2eol0?si=J3G9iBitU8RF1qaR"
+					"videoPath":"https://www.youtube.com/embed/gYEWEn0INuU?si=cRBPwy1Bsk9MYEgs"
+				},
+				{
+					"name":"Rasputin",
+					"language":"English",
+					"parts":[
+						"Soloist",
+						"Group"
+					],
+					"videoPath":"https://www.youtube.com/embed/HWd_N-9n7NM?si=aJ_ZR7xjYdVsqN10"
 				}
 			]
 		},
@@ -180,23 +198,24 @@
 				{
 					"name":"1. Welcome To Wonderland",
 					"parts":[
-						"Solo 1",
-						"Solo 2",
-						"Solo 3",
-						"Soprano",
-						"Alto",
-						"Tenor",
-						"Bass"
+						"Rehearsal Track - No Vox",
+						"Rehearsal Track - Vox"
 					],
 					"videoPath":"https://www.youtube.com/embed/pAM9YuhXLUk?si=TS2aF7GYmM-s3Lf-"
 				},
 				{
 					"name":"9. Ease On Down The Road",
 					"parts":[
-						"Solo",
-						"Ensemble 1",
-						"Ensemble 2",
-						"Ensemble 3"
+						"Rehearsal Track - No Vox",
+						"Rehearsal Track - Vox"
+					],
+					"videoPath":"https://www.youtube.com/embed/rQPY6kJ8NzI?si=rJVXbwBXwkuVGaPa"
+				},
+				{
+					"name":"15. You'll Be In My Heart",
+					"parts":[
+						"Rehearsal Track - No Vox",
+						"Rehearsal Track - Vox"
 					],
 					"videoPath":"https://www.youtube.com/embed/rQPY6kJ8NzI?si=rJVXbwBXwkuVGaPa"
 				}
