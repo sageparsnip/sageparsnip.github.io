@@ -1,6 +1,30 @@
 {
 	"Scenes":[
 		{
+			"Scene":"Silken Thomas",
+			"Lines":[
+				{"No":1, "Speaker":"Doorman","Line":"Excuse me but this is a pre booked event please scan here with your phones"},
+				{"No":2, "Speaker":"Page","Line":"Stand aside for our Lord Thomas.  Clear the passage … Now … Now.  "},
+				{"No":3, "Speaker":"Page","Line":"Bow before our Lord our gracious Earl of Kildare."},
+				{"No":4, "Speaker":"Page","Line":"I pray you gracious lady, but how are you known to this house?  "},
+				{"No":5, "Speaker":"Moyglare Lady","Line":"(she bows) I am …………………….. (giving her name) from Moyglare Manor"},
+				{"No":6, "Speaker":"Silken Thomas","Line":"(turns to the page) Is there now a Manor house in Moyglare?  How could there be in the six months since I departed my great house here?"},
+				{"No":7, "Speaker":"Silken Thomas","Line":"Do any of you good people in this assembly,  the congregation, know me, recognize me?  For I do not see any faces I remember or know … and your foreign garments … your hair … your strange speech"},
+				{"No":8, "Speaker":"Stage Directions","Line":"Silence follows.  Page advances towards the altar.  Silken Thomas follows and stops about halfway.  He looks at the congregation to the right and to the left."},
+				{"No":9, "Speaker":"Silken Thomas","Line":"Have you come to pray with me?  Or to pray for me in my Chapel.  I do not know any face. … And your clothes … so foreign.  (He points out a man).  What is your name Sir?"},
+				{"No":10, "Speaker":"Page","Line":"Stand. … Stand for your Lord Thomas"},
+				{"No":11, "Speaker":"Man","Line":"(stands)  I am …………….  (Asks hesitantly)  Pardon Sir but was your late father's name… Gerald and his title also Earl of Kildare?  Could  your name possibly be Thomas?"},
+				{"No":12, "Speaker":"Silken Thomas","Line":"Is fíor dhuit.  Gearóid Óg ab ea m’athair.  An labhrann  tú Béarla amháin?   Pause   silence  You only speak the language of Dublin the English not the Irish?"},
+				{"No":13, "Speaker":"Woman","Line":"(stands and asks)	Pardon me but could you be … or are you Silken Thomas  Fitzgerald? "},
+				{"No":14, "Speaker":"Silken Thomas","Line":"My lady,  I led my men 1000 on foot and horse to the Abbey of Saint Mary in Dublin and each man bore trimmings of silk on his helmet. "},
+				{"No":15, "Speaker":"Silken Thomas","Line":"Yes, I carry that name since I threw down my father's great sword there and declared the king a heretic.  But I am now a common fugitive.  Tomorrow I offer my surrender to his deputy Leonard Gray who promises me my life. (he turns to address another lady)"},
+				{"No":16, "Speaker":"Silken Thomas","Line":"Will his master spare me?  I have an English wife."},
+				{"No":17, "Speaker":"Dub","Line":"(in strong Dublin or cork accent) Your honor, from the little I learnt in school about that fella you haven't a snowballs. Paddy Power wouldn't touch you.  Soree  but if it'll help when I get home tonight I'll start an online novena for you … to Saint Jude who else?"},
+				{"No":18, "Speaker":"Silken Thomas","Line":"I now walk forth to confess my many sins to our gracious Lord and savior … and beg for His divine mercy should my life be forfeit after tomorrow."},
+				{"No":19, "Speaker":"Stage Directions","Line":"Silken Thomas followed by the page walks to the altar where the priest after dressed like a Franciscan Friar is standing. A mobile phone rings and is killed after about four rings. Thomas and his page are startled.  Each turns around and both advance towards the location of the phone.  They say nothing stand and look into each other's faces.  Silken Thomas turns again and advances towards the altar.  He kneels.  There is a short silent conversation (penance) then he sits on a nearby chair while Lord Offaly by David mcWilliam plays through the PA system."}
+			]
+		},
+		{
 			"Scene":"Lone Star Scene 1",
 			"Lines":[
 				{"No":1, "Speaker":"SD","Line":"(As lights come up, we hear the sound of music, laughter coming from Angel’s. Roy comes through the door with a bang, grinning and singing a snatch of a country song. He crosses down to the bench, gets himself a beer, sits, sips, and stares at the stars like a man who has got a grudge against them, and continues his reverie.)"},
