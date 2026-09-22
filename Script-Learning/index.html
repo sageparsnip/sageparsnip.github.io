@@ -36,7 +36,7 @@
 				}
 
 				function getScenes(){
-					$.getJSON("scripts.json", function(json) {
+					$.getJSON("scripts.json?foo=" + Date.now(), function(json) {
 						console.log(json);
 						json.Scenes.forEach(scene => {
 							document.getElementById("script-select").insertAdjacentHTML("beforeend", `<option value="${scene["Scene"]}">${scene["Scene"]}</option>`);

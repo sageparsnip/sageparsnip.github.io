@@ -14,100 +14,112 @@
 	<body class="bg-dark text-light">
 		<div class="container align-items-center">
 			<h1 style="text-align: center;">Sage Parsnip's Home Page</h1>
-			<p style="text-align: center;padding-top: 1rem;">
+			<p style="text-align: center;padding-top: 1rem; max-width: 60%; margin: auto">
 				Hey there! This is the homepage for my various Github-hosted web projects. <br>
 				I'm hopeful you'll find something useful from my ongoing projects.<br>
 				Please note that I am a hobbyist/enthusiast web designer; I make no guarantees that any of the below will be actively updated or that I'll respond to pull requests.<br>
 				Everything I make is licensed under the general MIT license, so feel free to take anything here for your own purposes.
 			</p>
-			<div class="container align-items-center" id="cardContainer">
+			<hr>
+			<h2 style="text-align: center;">Theatre & Music Resources</h2>
+			<div class="container align-items-center" id="theatreContainer">
+			</div>
+			<hr>
+			<h2 style="text-align: center;">Tabletop Resources</h2>
+			<div class="container align-items-center" id="tabletopContainer">
 			</div>
 			<script>
-				var containerDiv = document.getElementById("cardContainer");
-				let i = 0;
+				var theatreDiv = document.getElementById("theatreContainer");
+				var tabletopDiv = document.getElementById("tabletopContainer");
+				//let i = 0;
 				var cards = {
 					"cards":[
 						{
-							"page":"PF2e Quick Reference Sheet",
-							"description":"A webpage showing a brief summary of all of the actions that can be taken in Pathfinder 2nd Edition, as well as all conditions, with full descriptions available on clicking an item name.",
-							"link":"PF2e-Quick-Reference/index.html"
-						},
-						{
-							"page":"DND 5e Data Silo",
-							"description":"A webpage through which you can define characters and monsters, import and export that data to/from JSON format, and build PVP drafts based on the characters you set up!",
-							"link":"DND-5e-Data-Silo/index.html"
-						},
-						{
-							"page":"Guitar Chord Repo",
-							"description":"Repository of guitar chords that I like and use for playing",
-							"link":"Guitar-Chords/index.html"
-						},
-						{
-							"page":"Initiative Tracker",
-							"description":"A webpage through which you can define actors, import and export that data to/from JSON format, and track initiatives. Aims to be as responsive and quick to use as possible.",
-							"link":"Initiative-Tracker/index.html"
-						},
-						{
-							"page":"Play Suggestions",
-							"description":"List of various plays that I would recommend fellow Insight members put to stage",
-							"link":"Play-Suggestions/index.html"
-						},
-						{
-							"page":"Soggy DND Data Infodump",
-							"description":"Repository for various things specific to the SOGGY DND campaign; if you aren't a player in that campaign, you won't find much of interest here.",
-							"link":"BT-DND/index.html"
-						},
-						{
-							"page":"Map of Ferelden",
-							"description":"Interactable map of Ferelden with key political figures marked",
-							"link":"Ferelden-Map/index.html"
-						},
-						{
-							"page":"Axis Chart Game",
-							"description":"All credit to Chance for the idea for this game. <br>Define axes, then name characters that try to pick a random point on those axes to score points!",
-							"link":"Axis-Chart-Game/index.html"
-						},
-						{
-							"page":"Script Learning [BT Only]",
-							"description":"I need to learn my lines",
-							"link":"Script-Learning/index.html"
-						},
-						{
 							"page":"Canadh Le Cheile Learning Tool",
 							"description":"Simple tool to keep PDF, vocal line, and video in one place per song",
-							"link":"Canadh-Learning-Tool/index.html"
+							"link":"Canadh-Learning-Tool/index.html",
+							"set":"Theatre & Music"
+						},
+						{
+							"page":"PF2e Quick Reference Sheet",
+							"description":"A webpage showing a brief summary of all of the actions that can be taken in Pathfinder 2nd Edition, as well as all conditions, with full descriptions available on clicking an item name.",
+							"link":"PF2e-Quick-Reference/index.html",
+							"set":"Tabletop Resources"
 						},
 						{
 							"page":"Glitterhearts Quick Reference",
 							"description":"Quick reference page for the Glitterhearts TTRPG",
-							"link":"Glitterhearts-Quick-Reference/index.html"
+							"link":"Glitterhearts-Quick-Reference/index.html",
+							"set":"Tabletop Resources"
 						},
 						{
-							"page":"PM IO Mapping",
-							"description":"Need-to-know basis",
-							"link":"PM-IO-Mapping/index.html"
+							"page":"DND 5e Data Silo",
+							"description":"A webpage through which you can define characters and monsters, import and export that data to/from JSON format, and build PVP drafts based on the characters you set up!",
+							"link":"DND-5e-Data-Silo/index.html",
+							"set":"Tabletop Resources"
+						},
+						{
+							"page":"Play Suggestions",
+							"description":"List of various plays that I would recommend fellow Insight members put to stage",
+							"link":"Play-Suggestions/index.html",
+							"set":"Theatre & Music"
+						},
+						{
+							"page":"Guitar Chord Repo",
+							"description":"Repository of guitar chords that I like and use for playing",
+							"link":"Guitar-Chords/index.html",
+							"set":"Theatre & Music"
+						},
+						{
+							"page":"Initiative Tracker",
+							"description":"A webpage through which you can define actors, import and export that data to/from JSON format, and track initiatives. Aims to be as responsive and quick to use as possible.",
+							"link":"Initiative-Tracker/index.html",
+							"set":"Tabletop Resources"
+						},
+						{
+							"page":"DND Data Infodump",
+							"description":"Repository for various things specific to my home campaign; if you aren't a player in that campaign, you won't find much of interest here.",
+							"link":"BT-DND/index.html",
+							"set":"Tabletop Resources"
+						},
+						{
+							"page":"Map of Thedes",
+							"description":"Interactable map of Thedes with key political figures marked",
+							"link":"Ferelden-Map/index.html",
+							"set":"Tabletop Resources"
+						},
+						{
+							"page":"Script Learning [BT Only]",
+							"description":"I need to learn my lines",
+							"link":"Script-Learning/index.html",
+							"set":"Theatre & Music"
 						}
 					]
 				}
-				containerDiv.innerHTML += '<div class="row"></div>';
+				theatreDiv.innerHTML += '<div class="row"></div>';
+				tabletopDiv.innerHTML += '<div class="row"></div>';
 				cards["cards"].forEach(card => {
-					
-					/**
-					if (i % 2 == 0){
-						//Need to add a new row div
-						
+					if(card.set == "Theatre & Music"){
+						let currentRow = theatreDiv.childNodes[theatreDiv.childNodes.length - 1];
+						//Add card
+						currentRow.innerHTML += `
+							<div class="col-6" style="border: 1px solid white;padding:1rem">
+								<h3 style="text-align:center;"><a href="${card.link}">${card.page}</a></h3>
+								<p style="text-align:center;">${card.description}</p>
+							</div>
+						`;
 					}
-					**/
-					//Get bottom-most row
-					let currentRow = containerDiv.childNodes[containerDiv.childNodes.length - 1];
-					//Add card
-					currentRow.innerHTML += `
-						<div class="col-6" style="border: 1px solid white;padding:1rem">
-							<h3 style="text-align:center;"><a href="${card.link}">${card.page}</a></h3>
-							<p style="text-align:center;">${card.description}</p>
-						</div>
-					`;
-				i++;
+					else if(card.set == "Tabletop Resources"){
+						let currentRow = tabletopDiv.childNodes[tabletopDiv.childNodes.length - 1];
+						//Add card
+						currentRow.innerHTML += `
+							<div class="col-6" style="border: 1px solid white;padding:1rem">
+								<h3 style="text-align:center;"><a href="${card.link}">${card.page}</a></h3>
+								<p style="text-align:center;">${card.description}</p>
+							</div>
+						`;
+					};
+				//i++;
 				});
 			</script>
 			<!--
