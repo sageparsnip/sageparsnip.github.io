@@ -691,20 +691,197 @@
 		// ---- Starter templates below: fill in stages following the BiDirectional pattern above ----
 
 		UniDirectional: {
-			label: "Uni-Directional (template)",
-			truckStages: ["Idle", "Idle", "Idle", "Idle", "Idle"],
+			label: "Uni-Directional (with tares)",
+			truckStages: ["Idle", "ApproachingRoad", "SwipeBadge", "Idle", "Idle"],
 			visibleIO: { entryLight: true, exitLight: false, roadSideBarrier: true, siteSideBarrier: false },
 			stages: {
 				Idle: {
 					lines: [
 						header,
-						{ type: "text", size: "large",  text: "Uni-Directional" },
-						{ type: "text", size: "medium", text: "Template — build this scenario's stages here" }
+						{ type: "text", size: "large",  text: "Uni-Directional With Tares" }
 					],
 					io: { entryLight: false, exitLight: false, roadSideBarrier: false, siteSideBarrier: false },
-					onEnter: () => Object.keys(session).forEach(k => delete session[k])
+					onEnter: () => { 
+						Object.keys(session).forEach(k => delete session[k]);
+						session.weighingStage = 0;
+					}
+				},
+
+				ApproachingRoad: {
+					lines: [
+						header,
+						{ type: "text", size: "medium", text: "Vehicle Detected" },
+						{ type: "text", size: "medium", text: "Please Wait" },
+						{ type: "text", size: "medium", text: "Zeroing Weighbridge" }
+					],
+					onEnter: () => {
+						session.direction = "road";			//Truck approaching bridge; zero.
+						wait(bigWait, "EntryOpen");
+					}
+				},
+
+				EntryOpen: {
+					lines: [
+						header,
+						{ type: "text", size: "large",  text: "Weighbridge Zeroed" },
+						{ type: "text", size: "medium", text: "Drive Onto Weighbridge" }
+					],
+					io: { entryLight: true, roadSideBarrier: true }
+				},
+
+				SwipeBadge: {
+					lines: [
+						header,
+						{ type: "text", size: "large", text: "Please Swipe Badge" }
+					],
+					// Example "before" check: if this session already knows the vehicle
+					// (e.g. we looped back here from ConfirmDetails' "No"), skip straight
+					// past the badge step instead of asking again.
+					// onEnter: () => { if (session.vehicleReg) { setStage("SelectProduct"); } },
+					onBadge: () => {
+						if(session.weighingStage == 0){
+							if(enterReg == 1){
+								wait(smallWait, "EnterVehicleReg"); //Should be ConfirmBadge/EnterVehicleReg depending
+							}
+							else {
+								wait(smallWait, "ConfirmBadge");
+							}
+						}
+						else{
+							wait(smallWait, "ConfirmDetails");
+						}
+					},
+					io: { entryLight: false, exitLight: false }
+				},
+
+				ConfirmBadge: {
+					lines: [
+						header,
+						{ type: "text", size: "medium", text: "Please Confirm: "},
+						{ type: "text", size: "large", text: "Vehicle Reg: 142D12834" },
+						{ type: "buttons", labels: ["Yes", "No"], 
+						  onSelect: label => { 
+						  	session.vehicleReg = "142D12834"; 
+						  	setStage("SelectProduct");
+						  }
+						}
+					]
+				},
+
+				EnterVehicleReg: {
+					lines: [
+						header,
+						{ type: "text", "size":"large", text: "Please Enter Vehicle Reg: "},
+						{ type: "input", pleaceholder: "Vehicle Reg", 
+						  onConfirm: value => {
+							session.vehicleReg = value; 
+							setStage("SelectProduct");
+						  }
+						}
+					]
+				},
+
+				SelectProduct: {
+					lines: [
+						header,
+						{ type: "text", size: "large", text: "Select Product" },
+						{ type: "buttons", labels: ["Gravel", "Sand", "Cement", "Topsoil", "Bricks", "Timber"],
+						  onSelect: label => { 
+						  	session.product = label; 
+						  	setStage("SelectAccount"); 
+						  } 
+						}
+					]
+				},
+
+				SelectAccount: {
+					lines: () => [
+						header,
+						{ type: "text", size: "medium", text: "Product: " + session.product },
+						{ type: "text", size: "large",  text: "Select Account" },
+						{ type: "buttons", labels: ["Acme Ltd", "Byrne Haulage", "Cork Aggregates", "Cash Sale"],
+						  onSelect: label => { 
+						  	session.account = label; 
+						  	setStage("ConfirmDetails"); 
+						  } 
+						}
+					]
+				},
+
+				ConfirmDetails: {
+					lines: () => [
+						header,
+						{ type:"text", size:"medium", text: "Please Confirm: "},
+						{ type:"text", size:"medium", text: "Vehicle Reg: " + session.vehicleReg},
+						{ type:"text", size:"medium", text: "Account: " + session.account},
+						{ type:"text", size:"medium", text: "Product: " + session.product},
+						{ type: "buttons", labels: ["Yes", "No"],
+						  onSelect: label => { 
+						  	if(label == "Yes"){
+						  		setStage("TakeWeighing");
+						  	} else{
+						  		setStage("SwipeBadge"); 
+						  	} 
+						  }
+						}
+					]
+				},
+
+				TakeWeighing: {
+					lines: [
+						header,
+						{ type: "text", size: "large",  text: "Capturing Weight" }
+					],
+					onEnter: () => {
+						console.log("In TakeWeighing block; session.weighingStage is: " + session.weighingStage);
+						session.weighingStage = 1;
+						session.firstWeight = truckWeight;
+						session.secondWeight = 6000;
+						session.netWeight = Math.abs(session.firstWeight - session.secondWeight);
+						session.weight = truckWeight;
+						wait(bigWait, "GotWeight"); 
+					}
+				},
+
+				GotWeight: {
+					// A function, not a plain array: evaluated fresh each time this stage is entered,
+					// so it picks up the session.weight set just before we got here. A plain array here
+					// was the bug you hit — it gets built once at page load, while session.weight is
+					// still undefined, and that "undefined" gets baked into the string permanently.
+					lines: () => [
+						header,
+						{ type: "text", size: "large",  text: "1st Weight: " + session.firstWeight + "kg" },
+						{ type: "text", size: "large",  text: "Tare Weight: " + session.secondWeight + "kg" },
+						{ type: "text", size: "large",  text: "Net Weight: " + session.netWeight + "kg" }
+					],
+					onEnter: () => { 
+						session.weight = session.netWeight;
+						wait(bigWait, "Complete"); 
+					}
+				},
+
+				Complete: {
+					lines: () => [
+						header,
+						{ type: "text", size: "large",  text: "Weighing Complete" },
+						{ type: "text", size: "medium", text: "Account: " + session.account },
+						{ type: "text", size: "medium", text: "Product: " + session.product},
+						{ type: "text", size: "medium", text: "Net Weight: " + session.weight + "kg" },
+						{ type: "text", size: "medium", text: "Please Leave Weighbridge" }
+					],
+					// The truck leaves on the side OPPOSITE the one it arrived from, so the
+					// barrier/light to use here depends on session.direction, set back in
+					// ApproachingRoad / ApproachingSite. This is set with onEnter (rather than
+					// a fixed `io` object) precisely because it's conditional.
+					onEnter: () => {
+						const leavingViaExit = session.direction == "road";
+						setIO("entryLight", false);
+						setIO("exitLight", false);
+						setIO("siteSideBarrier", leavingViaExit);
+						setIO("roadSideBarrier", !leavingViaExit);
+					}
 				}
-				// Add ApproachingRoad / EntryOpen / SwipeBadge / ... here, one-way only.
+
 			}
 		},
 
