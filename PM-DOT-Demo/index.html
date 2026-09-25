@@ -118,24 +118,35 @@
 		.dot-buttons button:active { background: #a81818; }
 
 		/* ---------- Control panel ---------- */
+		/* Column layout: heading + truck section stay fixed, the middle section scrolls,
+		   the scenario picker stays fixed at the bottom. */
 		#control-panel {
 			height: var(--sh);
 			width: min(26vw, 460px);
 			min-width: 300px;
-			overflow-y: auto;
+			overflow: hidden;
 			background: #2b2f36;
 			color: #e8eaed;
 			border-radius: 8px;
 			padding: 14px;
 			font-size: clamp(12px, calc(var(--sh) * 0.02), 16px);
+			display: flex;
+			flex-direction: column;
 		}
-		#control-panel h2 { font-size: 1.3em; margin: 0 0 12px; }
+		#control-panel h2 { flex: none; font-size: 1.3em; margin: 0 0 12px; }
+		#control-panel-scroll {
+			flex: 1 1 auto;
+			min-height: 0;
+			overflow-y: auto;
+		}
 		.cp-section {
+			flex: none;
 			background: #383d46;
 			border-radius: 6px;
 			padding: 10px;
 			margin-bottom: 12px;
 		}
+		#control-panel-scroll .cp-section:last-child { margin-bottom: 0; }
 		.cp-title { font-weight: 600; margin-bottom: 8px; }
 
 		/* Truck track */
@@ -155,10 +166,11 @@
 		#truck {
 			position: absolute;
 			top: 50%;
-			left: 12.5%;
+			left: 10%;
 			font-size: 2.6em;
 			line-height: 1;
-			transform: translate(-50%, -50%) scaleX(-1); /* emoji faces left; flip to face right */
+			/* emoji faces left by default; --face is -1 (flipped, facing right) or 1 (facing left) */
+			transform: translate(-50%, -50%) scaleX(var(--face, -1));
 			transition: left .6s ease-in-out;
 			z-index: 2;
 		}
@@ -176,8 +188,8 @@
 		#weighbridge {
 			position: absolute;
 			top: 0; bottom: 0;
-			left: 50%;
-			width: 25%;
+			left: 40%;
+			width: 20%;
 			background: #7a8290;
 			border-left: 3px solid #444;
 			border-right: 3px solid #444;
@@ -190,20 +202,24 @@
 			color: #fff;
 			z-index: 0;
 		}
-		#light-dot {
+		/* Entry light sits just outside the road-side gate; exit light is its
+		   mirror image, sitting just outside the site-side gate. */
+		#light-dot-entry, #light-dot-exit {
 			position: absolute;
-			top: 6px; left: 44%;
+			top: 6px;
 			width: 1em; height: 1em;
 			border-radius: 50%;
 			background: #222;
 			border: 2px solid #999;
 			z-index: 1;
 		}
-		#light-dot.on { background: #3ddc84; box-shadow: 0 0 10px #3ddc84; }
+		#light-dot-entry { left: 32%; }
+		#light-dot-exit  { left: 66%; }
+		#light-dot-entry.on, #light-dot-exit.on { background: #3ddc84; box-shadow: 0 0 10px #3ddc84; }
 
 		#zones {
 			display: grid;
-			grid-template-columns: repeat(4, 1fr);
+			grid-template-columns: repeat(5, 1fr);
 			gap: 4px;
 			margin-top: 6px;
 		}
@@ -246,7 +262,7 @@
 <body>
 <div id="layout">
 
-	<!-- ================= DEVICE SCREEN ================= -->
+	<!-- ============ DEVICE SCREEN ============ -->
 	<div id="DOT-Screen">
 		<div id="topbar" style="height:13.5%;width:100%" class="d-flex">
 			<div id="topleft" style="width:35%;height:100%;background-color:red" class="d-flex align-items-center justify-content-center">
@@ -271,47 +287,65 @@
 		</div>
 	</div>
 
-	<!-- ================= CONTROL PANEL ================= -->
+	<!-- ============ CONTROL PANEL ============ -->
 	<div id="control-panel">
 		<h2>Control panel</h2>
 
+		<!-- Fixed: truck / weighbridge diagram and position buttons -->
 		<div class="cp-section">
 			<div class="cp-title">Truck position</div>
 			<div id="road">
 				<div id="weighbridge">&#8596;</div>
-				<div class="gate" id="gate-entry" style="left:50%"></div>
-				<div class="gate" id="gate-exit" style="left:75%"></div>
-				<div id="light-dot"></div>
+				<div class="gate" id="gate-roadSideBarrier" style="left:40%"></div>
+				<div class="gate" id="gate-siteSideBarrier" style="left:60%"></div>
+				<div id="light-dot-entry"></div>
+				<div id="light-dot-exit"></div>
 				<div id="truck">🚚</div>
 			</div>
 			<div id="zones">
 				<button class="zone" data-pos="0">On road</button>
-				<button class="zone" data-pos="1">Approaching weighbridge</button>
+				<button class="zone" data-pos="1">Approaching from Road</button>
 				<button class="zone" data-pos="2">On weighbridge</button>
-				<button class="zone" data-pos="3">Left weighbridge</button>
+				<button class="zone" data-pos="3">Approaching from Site</button>
+				<button class="zone" data-pos="4">Onsite</button>
 			</div>
+			<button id="flip-truck-btn" class="btn btn-sm btn-outline-light w-100 mt-2">Flip Truck</button>
 		</div>
 
-		<div class="cp-section">
-			<div class="cp-title">Truck weight (kg)</div>
-			<input id="weight-input" type="number" class="form-control" min="0" step="10" value="0">
-			<div class="presets">
-				<button class="btn btn-sm btn-secondary" data-weight="0">Empty</button>
-				<button class="btn btn-sm btn-secondary" data-weight="8000">8,000</button>
-				<button class="btn btn-sm btn-secondary" data-weight="18500">18,500</button>
-				<button class="btn btn-sm btn-secondary" data-weight="32000">32,000</button>
+		<!-- Scrollable: everything else -->
+		<div id="control-panel-scroll">
+			<div class="cp-section">
+				<div class="cp-title">Truck weight (kg)</div>
+				<input id="weight-input" type="number" class="form-control" min="0" step="10" value="0">
+				<div class="presets">
+					<button class="btn btn-sm btn-secondary" data-weight="0">Empty</button>
+					<button class="btn btn-sm btn-secondary" data-weight="8000">8,000</button>
+					<button class="btn btn-sm btn-secondary" data-weight="18500">18,500</button>
+					<button class="btn btn-sm btn-secondary" data-weight="32000">32,000</button>
+				</div>
 			</div>
+
+			<div class="cp-section">
+				<div class="cp-title">Badge reader</div>
+				<button id="badge-btn" class="btn btn-primary w-100">Badge Swipe</button>
+			</div>
+
+			<div class="cp-section">
+				<div class="cp-title">Inputs / outputs</div>
+				<div class="io-row" id="io-row-entryLight"><span>Entry traffic light</span><span id="io-entryLight" class="io-state">Off</span></div>
+				<div class="io-row" id="io-row-exitLight"><span>Exit traffic light</span><span id="io-exitLight" class="io-state">Off</span></div>
+				<div class="io-row" id="io-row-roadSideBarrier"><span>Road-side barrier</span><span id="io-roadSideBarrier" class="io-state">Closed</span></div>
+				<div class="io-row" id="io-row-siteSideBarrier"><span>Site-side barrier</span><span id="io-siteSideBarrier" class="io-state">Closed</span></div>
+			</div>
+
 		</div>
 
+		<!-- Fixed: scenario picker -->
 		<div class="cp-section">
-			<div class="cp-title">Inputs / outputs</div>
-			<div class="io-row"><span>Traffic light</span><span id="io-light" class="io-state">Off</span></div>
-			<div class="io-row"><span>Entry barrier</span><span id="io-entry" class="io-state">Closed</span></div>
-			<div class="io-row"><span>Exit barrier</span><span id="io-exit" class="io-state">Closed</span></div>
-		</div>
-		<div class="cp-section">
-			<div class="cp-title">Badge reader</div>
-			<button id="badge-btn" class="btn btn-primary w-100">Badge Swipe</button>
+			<div class="cp-title">Scenario</div>
+			<select id="scenario-select" class="form-select form-select-sm">
+				<!-- options are filled in from the `scenarios` object below -->
+			</select>
 		</div>
 	</div>
 
@@ -326,155 +360,396 @@
 	              { type: "input",   placeholder: "...", onConfirm: value => {} }       4 lines
 	              { type: "buttons", labels: ["A", "B", ...], onSelect: label => {} }   4 lines (max 8)
 	            Lines are drawn top to bottom in the order given, so put an input/buttons entry last.
+
 	   io       Optional. Only the outputs listed are changed; the rest keep their current state.
-	            light: true = on (green). entry / exit: true = open.
-	   next     Optional. { after: milliseconds, stage: "Name" } moves on automatically.
+	            entryLight / exitLight: true = on (green).
+	            roadSideBarrier / siteSideBarrier: true = open.
+
 	   onBadge  Optional. Stage name (string) or function, run when "Badge Swipe" is pressed.
-	   onEnter  Optional. Function run when the stage starts.
+
+	   onEnter  Optional. This is the stage's "before" block: plain code that runs the moment
+	            setStage() switches to this stage, BEFORE the screen lines are computed/drawn and
+	            BEFORE the stage's own `io` object is applied. Use it to:
+	              - read state and branch, e.g. "if (session.vehicleReg) { setStage("SelectProduct"); return; }"
+	              - check whether a session is already in progress, e.g. "if (Object.keys(session).length) {...}"
+	              - record context for later, e.g. "session.direction = 'road';"
+	              - set IO conditionally (rather than with a fixed `io` object), by calling setIO(...) directly.
+	              - move on after a pause, by calling wait(ms, "NextStage") (see below).
+	            If onEnter calls setStage() itself (directly, or via wait()), that redirect wins: the stage
+	            it was called on stops immediately and does not render its own lines or apply its own io.
+	            A `lines` function (as opposed to a plain array) is evaluated AFTER onEnter runs, so it can
+	            safely read anything onEnter just set (e.g. session.direction, session.product).
+
+	   There is no built-in "after N ms, go to stage X" field on a stage. Instead, call the wait()
+	   helper yourself, from inside onEnter, wherever a stage should move on automatically:
+	       onEnter: () => { wait(2000, "NextStage"); }
+	   wait() is just a thin wrapper around setTimeout that also registers the timer with setStage(),
+	   so that moving to any other stage in the meantime (a click, a badge swipe, etc.) automatically
+	   cancels it. Writing it explicitly in onEnter means you can guard it, e.g. only wait if some
+	   condition holds, or wait a different amount of time depending on session state.
 	   ------------------------------------------------------------ */
-	const session = {};   // scratch space for the current transaction (product, account, ...)
+	const session = {};   // scratch space for the current transaction (product, account, direction, ...)
 
 	const header = { type: "text", size: "small", text: "Precia Molen Weighbridge System" };
 
 	/* ---------- Truck, weight and stage logic ---------- */
 	let truckPos = 0;
+	let previousTruckPos = null;   // where the truck was before its last move; null until it first moves
 	let truckWeight = 0;
+	let truckFace = -1;            // -1 = facing right (toward site), 1 = facing left (toward road)
 	let currentStage = null;
 	let stageTimer = null;
 	let shown = 0;
+	let enterReg = 1;
+	let smallWait = 400;
+	let bigWait = 2000;
+	const ON_BRIDGE = 2;   // zone index for "on weighbridge" — the same physical position in every scenario
 
-	const stages = {
-		Idle: {
-			lines: [
-				header,
-				{ type: "text", size: "large",  text: "Key Waste" },
-				{ type: "text", size: "medium", text: "Waiting for Vehicle" }
-			],
-			io: { light: false, entry: false, exit: false },
-			onEnter: () => Object.keys(session).forEach(k => delete session[k])
-		},
+	/* ------------------------------------------------------------
+	   Scenarios: each is a fully independent { stages, truckStages, visibleIO } set.
+	   Only one scenario is "live" at a time (see currentScenario / applyScenario below);
+	   the rest of the code (setStage, moveTruck, badgeSwipe, ...) just reads whatever the
+	   active `stages` / `truckStages` variables point at, so it doesn't need to know or
+	   care how many scenarios exist.
 
-		Approaching: {
-			lines: [
-				header,
-				{ type: "text", size: "medium", text: "Vehicle Detected" },
-				{ type: "text", size: "medium", text: "Please Wait" },
-				{ type: "text", size: "medium", text: "Zeroing Weighbridge" }
-			],
-			next: { after: 2000, stage: "EntryOpen" }
-		},
+	     stages      Same stage-object shape described above.
+	     truckStages Same 5-entry array as before (one stage name per road zone 0-4).
+	     visibleIO   { entryLight, exitLight, roadSideBarrier, siteSideBarrier } — which of the
+	                 four IO rows (and their matching light/gate on the road diagram) are shown
+	                 for this scenario. Omit a key, or set it true, to keep it visible; set it
+	                 false to hide it. This ONLY affects visibility — setIO() still runs and
+	                 still updates state/classes for a hidden IO, so any stage logic that reads
+	                 or sets it keeps working normally in the background.
 
-		EntryOpen: {
-			lines: [
-				header,
-				{ type: "text", size: "large",  text: "Weighbridge Zeroed" },
-				{ type: "text", size: "medium", text: "Drive Onto Weighbridge" }
-			],
-			io: { light: true, entry: true }
-		},
+	   Only "BiDirectional" below is a complete, working flow — it's your current setup, just
+	   using the renamed IO keys. The others are minimal starting templates (an Idle stage plus
+	   a comment) for the systems you mentioned; copy the pattern from BiDirectional's stages
+	   into them as you design each one.
+	   ------------------------------------------------------------ */
+	const scenarios = {
 
-		SwipeBadge: {
-			lines: [
-				header,
-				{ type: "text", size: "large", text: "Please Swipe Badge" }
-			],
-			onBadge: "EnterVehicleReg", //Change this to "EnterVehicleReg" for Vehicle Reg entry
-			io: {light:false}
-		},
+		BiDirectional: {
+			label: "Bi-Directional",
+			truckStages: ["Idle", "ApproachingRoad", "SwipeBadge", "ApproachingSite", "Idle"],
+			visibleIO: { entryLight: true, exitLight: true, roadSideBarrier: true, siteSideBarrier: true },
+			stages: {
+				Idle: {
+					lines: [
+						header,
+						{ type: "text", size: "large",  text: "Key Waste" },
+						{ type: "text", size: "medium", text: "Waiting for Vehicle" }
+					],
+					io: { entryLight: false, exitLight: false, roadSideBarrier: false, siteSideBarrier: false },
+					onEnter: () => {
+						if(session.weighingStage == 2){
+							Object.keys(session).forEach(k => delete session[k]);
+							session.weighingStage = 0;
+						}
+						else if(session.weighingStage == 0){
+							//Need to clear session memory if vehicle left bridge before weighing
+							Object.keys(session).forEach(k => delete session[k]);
+							session.weighingStage = 0;
+						}
+						else if(session.weighingStage == undefined){
+							//Need to setup session.weighingstage if page just refreshed.
+							session.weighingStage = 0;
+						}
+						//No need to define a next stage here; just waits for the truck to move.
+					}
+				},
 
-		ConfirmBadge: {
-			lines: [
-				header,
-				{ type: "text", size: "medium", text: "Please Confirm: "},
-				{ type: "text", size: "large", text: "Vehicle Reg: 142D12834" },
-				{ type: "buttons", labels: ["Yes", "No"], 
-				  onSelect: label => { session.vehicleReg = "142D12834"; setStage("SelectProduct");}
+				ApproachingRoad: {
+					lines: [
+						header,
+						{ type: "text", size: "medium", text: "Vehicle Detected" },
+						{ type: "text", size: "medium", text: "Please Wait" },
+						{ type: "text", size: "medium", text: "Zeroing Weighbridge" }
+					],
+					onEnter: () => {
+						if (previousTruckPos == ON_BRIDGE) { 	//Truck leaving bridge; don't bother zeroing
+							setStage("Idle"); 
+							return; 
+						}
+						else{
+							session.direction = "road";			//Truck approaching bridge; zero.
+							wait(bigWait, "EntryOpen");
+						}
+					}
+				},
+
+				ApproachingSite: {
+					lines: [
+						header,
+						{ type: "text", size: "medium", text: "Vehicle Detected" },
+						{ type: "text", size: "medium", text: "Please Wait" },
+						{ type: "text", size: "medium", text: "Zeroing Weighbridge" }
+					],
+					onEnter: () => {
+						if (previousTruckPos == ON_BRIDGE) { 	//Truck leaving bridge; don't bother zeroing
+							setStage("Idle"); 
+							return; 
+						}
+						else{
+							session.direction = "site";			//Truck approaching bridge; zero.
+							wait(bigWait, "ExitOpen");
+						}
+					}
+				},
+
+				EntryOpen: {
+					lines: [
+						header,
+						{ type: "text", size: "large",  text: "Weighbridge Zeroed" },
+						{ type: "text", size: "medium", text: "Drive Onto Weighbridge" }
+					],
+					io: { entryLight: true, roadSideBarrier: true }
+				},
+
+				ExitOpen: {
+					lines: [
+						header,
+						{ type: "text", size: "large",  text: "Weighbridge Zeroed" },
+						{ type: "text", size: "medium", text: "Drive Onto Weighbridge" }
+					],
+					io: { exitLight: true, siteSideBarrier: true }
+				},
+
+				SwipeBadge: {
+					lines: [
+						header,
+						{ type: "text", size: "large", text: "Please Swipe Badge" }
+					],
+					// Example "before" check: if this session already knows the vehicle
+					// (e.g. we looped back here from ConfirmDetails' "No"), skip straight
+					// past the badge step instead of asking again.
+					// onEnter: () => { if (session.vehicleReg) { setStage("SelectProduct"); } },
+					onBadge: () => {
+						if(session.weighingStage == 0){
+							if(enterReg == 1){
+								wait(smallWait, "EnterVehicleReg"); //Should be ConfirmBadge/EnterVehicleReg depending
+							}
+							else {
+								wait(smallWait, "ConfirmBadge");
+							}
+						}
+						else{
+							wait(smallWait, "ConfirmDetails");
+						}
+					},
+					io: { entryLight: false, exitLight: false }
+				},
+
+				ConfirmBadge: {
+					lines: [
+						header,
+						{ type: "text", size: "medium", text: "Please Confirm: "},
+						{ type: "text", size: "large", text: "Vehicle Reg: 142D12834" },
+						{ type: "buttons", labels: ["Yes", "No"], 
+						  onSelect: label => { 
+						  	session.vehicleReg = "142D12834"; 
+						  	setStage("SelectProduct");
+						  }
+						}
+					]
+				},
+
+				EnterVehicleReg: {
+					lines: [
+						header,
+						{ type: "text", "size":"large", text: "Please Enter Vehicle Reg: "},
+						{ type: "input", pleaceholder: "Vehicle Reg", 
+						  onConfirm: value => {
+							session.vehicleReg = value; 
+							setStage("SelectProduct");
+						  }
+						}
+					]
+				},
+
+				SelectProduct: {
+					lines: [
+						header,
+						{ type: "text", size: "large", text: "Select Product" },
+						{ type: "buttons", labels: ["Gravel", "Sand", "Cement", "Topsoil", "Bricks", "Timber"],
+						  onSelect: label => { 
+						  	session.product = label; 
+						  	setStage("SelectAccount"); 
+						  } 
+						}
+					]
+				},
+
+				SelectAccount: {
+					lines: () => [
+						header,
+						{ type: "text", size: "medium", text: "Product: " + session.product },
+						{ type: "text", size: "large",  text: "Select Account" },
+						{ type: "buttons", labels: ["Acme Ltd", "Byrne Haulage", "Cork Aggregates", "Cash Sale"],
+						  onSelect: label => { 
+						  	session.account = label; 
+						  	setStage("ConfirmDetails"); 
+						  } 
+						}
+					]
+				},
+
+				ConfirmDetails: {
+					lines: () => [
+						header,
+						{ type:"text", size:"medium", text: "Please Confirm: "},
+						{ type:"text", size:"medium", text: session.vehicleReg},
+						{ type:"text", size:"medium", text: session.account},
+						{ type:"text", size:"medium", text: session.product},
+						{ type: "buttons", labels: ["Yes", "No"],
+						  onSelect: label => { 
+						  	if(label == "Yes"){
+						  		setStage("TakeWeighing");
+						  	} else{
+						  		setStage("SwipeBadge"); 
+						  	} 
+						  }
+						}
+					]
+				},
+
+				TakeWeighing: {
+					lines: [
+						header,
+						{ type: "text", size: "large",  text: "Capturing Weight" }
+					],
+					onEnter: () => {
+						console.log("In TakeWeighing block; session.weighingStage is: " + session.weighingStage);
+						if(session.weighingStage == 0){ 
+							session.weighingStage = 1;
+							session.firstWeight = truckWeight;
+							session.weight = truckWeight;
+							wait(bigWait, "GotFirstWeight"); 
+						}
+						else{
+							session.weighingStage = 2;
+							session.secondWeight = truckWeight;
+							session.netWeight = Math.abs(session.firstWeight - session.secondWeight);
+							session.weight = session.netWeight;
+							wait(bigWait, "GotSecondWeight"); 
+						}
+					}
+				},
+
+				GotFirstWeight: {
+					// A function, not a plain array: evaluated fresh each time this stage is entered,
+					// so it picks up the session.weight set just before we got here. A plain array here
+					// was the bug you hit — it gets built once at page load, while session.weight is
+					// still undefined, and that "undefined" gets baked into the string permanently.
+					lines: () => [
+						header,
+						{ type: "text", size: "large",  text: "1st Weight: " + session.firstWeight + "kg" }
+					],
+					onEnter: () => { 
+						wait(bigWait, "Complete"); 
+					}
+				},
+
+				GotSecondWeight: {
+					// A function, not a plain array: evaluated fresh each time this stage is entered,
+					// so it picks up the session.weight set just before we got here. A plain array here
+					// was the bug you hit — it gets built once at page load, while session.weight is
+					// still undefined, and that "undefined" gets baked into the string permanently.
+					lines: () => [
+						header,
+						{ type: "text", size: "large",  text: "2nd Weight: " + session.secondWeight + "kg" },
+						{ type: "text", size: "large",  text: "Net Weight: " + session.netWeight + "kg" }
+					],
+					onEnter: () => { 
+						wait(bigWait, "Complete"); 
+					}
+				},
+
+				Complete: {
+					lines: () => [
+						header,
+						{ type: "text", size: "large",  text: "Weighing Complete" },
+						{ type: "text", size: "medium", text: session.product + " / " + session.account },
+						{ type: "text", size: "medium", text: session.product},
+						{ type: "text", size: "medium", text: session.weight + "kg" },
+						{ type: "text", size: "medium", text: "Please Leave Weighbridge" }
+					],
+					// The truck leaves on the side OPPOSITE the one it arrived from, so the
+					// barrier/light to use here depends on session.direction, set back in
+					// ApproachingRoad / ApproachingSite. This is set with onEnter (rather than
+					// a fixed `io` object) precisely because it's conditional.
+					onEnter: () => {
+						const leavingViaExit = session.direction == "road";
+						setIO("entryLight", false);
+						setIO("exitLight", false);
+						setIO("siteSideBarrier", leavingViaExit);
+						setIO("roadSideBarrier", !leavingViaExit);
+					}
 				}
-			]
+			}
 		},
 
-		EnterVehicleReg: {
-			lines: [
-				header,
-				{ type: "text", "size":"large", text: "Please Enter Vehicle Reg: "},
-				{ type: "input", pleaceholder: "Vehicle Reg", onConfirm: value => {
-				session.vehicleReg = value; setStage("SelectProduct");}
+		// ---- Starter templates below: fill in stages following the BiDirectional pattern above ----
+
+		UniDirectional: {
+			label: "Uni-Directional (template)",
+			truckStages: ["Idle", "Idle", "Idle", "Idle", "Idle"],
+			visibleIO: { entryLight: true, exitLight: false, roadSideBarrier: true, siteSideBarrier: false },
+			stages: {
+				Idle: {
+					lines: [
+						header,
+						{ type: "text", size: "large",  text: "Uni-Directional" },
+						{ type: "text", size: "medium", text: "Template — build this scenario's stages here" }
+					],
+					io: { entryLight: false, exitLight: false, roadSideBarrier: false, siteSideBarrier: false },
+					onEnter: () => Object.keys(session).forEach(k => delete session[k])
 				}
-			]
+				// Add ApproachingRoad / EntryOpen / SwipeBadge / ... here, one-way only.
+			}
 		},
 
-		SelectProduct: {
-			lines: [
-				header,
-				{ type: "text", size: "large", text: "Select Product" },
-				{ type: "buttons", labels: ["Gravel", "Sand", "Cement", "Topsoil", "Bricks", "Timber"],
-				  onSelect: label => { session.product = label; setStage("SelectAccount"); } 
+		NoBadges: {
+			label: "No Badges (template)",
+			truckStages: ["Idle", "Idle", "Idle", "Idle", "Idle"],
+			visibleIO: { entryLight: true, exitLight: true, roadSideBarrier: true, siteSideBarrier: true },
+			stages: {
+				Idle: {
+					lines: [
+						header,
+						{ type: "text", size: "large",  text: "No Badges" },
+						{ type: "text", size: "medium", text: "Template — build this scenario's stages here" }
+					],
+					io: { entryLight: false, exitLight: false, roadSideBarrier: false, siteSideBarrier: false },
+					onEnter: () => Object.keys(session).forEach(k => delete session[k])
 				}
-			]
+				// Copy BiDirectional's flow but skip straight from OnBridge to SelectProduct —
+				// no SwipeBadge / ConfirmBadge / EnterVehicleReg step.
+			}
 		},
 
-		SelectAccount: {
-			lines: () => [
-				header,
-				{ type: "text", size: "medium", text: "Product: " + session.product },
-				{ type: "text", size: "large",  text: "Select Account" },
-				{ type: "buttons", labels: ["Acme Ltd", "Byrne Haulage", "Cork Aggregates", "Cash Sale"],
-				  onSelect: label => { session.account = label; setStage("ConfirmDetails"); } 
+		ExtendedFields: {
+			label: "Haulier / Account / Product / Location (template)",
+			truckStages: ["Idle", "Idle", "Idle", "Idle", "Idle"],
+			visibleIO: { entryLight: true, exitLight: true, roadSideBarrier: true, siteSideBarrier: true },
+			stages: {
+				Idle: {
+					lines: [
+						header,
+						{ type: "text", size: "large",  text: "Extended Fields" },
+						{ type: "text", size: "medium", text: "Template — build this scenario's stages here" }
+					],
+					io: { entryLight: false, exitLight: false, roadSideBarrier: false, siteSideBarrier: false },
+					onEnter: () => Object.keys(session).forEach(k => delete session[k])
 				}
-			]
-		},
-
-		ConfirmDetails: {
-			lines: () => [
-				header,
-				{ type:"text", size:"medium", text: "Please Confirm: "},
-				{ type:"text", size:"medium", text: session.vehicleReg},
-				{ type:"text", size:"medium", text: session.account},
-				{ type:"text", size:"medium", text: session.product},
-				{ type: "buttons", labels: ["Yes", "No"],
-				  onSelect: label => { 
-				  	if(label == "Yes"){
-				  		session.weight = String(truckWeight);
-				  		setStage("TakeWeighing");
-				  	} else{
-				  		setStage("SwipeBadge"); 
-				  	} 
-				}}
-			]
-		},
-
-		TakeWeighing: {
-			lines: [
-				header,
-				{ type: "text", size: "large",  text: "Capturing Weight" }
-			],
-			next: { after: 2000, stage: "GotWeight" }
-		},
-
-		GotWeight: {
-			lines: [
-				header,
-				{ type: "text", size: "large",  text: "Weight: " + session.weight + "kg" }
-			],
-			next: { after: 2000, stage: "Complete" }
-		},
-
-		Complete: {
-			lines: () => [
-				header,
-				{ type: "text", size: "large",  text: "Weighing Complete" },
-				{ type: "text", size: "medium", text: session.product + " / " + session.account },
-				{ type: "text", size: "medium", text: session.product},
-				{ type: "text", size: "medium", text: session.weight + "kg" },
-				{ type: "text", size: "medium", text: "Please Leave Weighbridge" }
-			],
-			io: { light: false, exit: true, entry:false }
+				// Copy BiDirectional's SelectProduct/SelectAccount pair, add a SelectHaulier and
+				// SelectLocation stage in the same shape, and chain all four before ConfirmDetails.
+			}
 		}
 	};
 
-	/* Stage entered when the truck is moved to each position (On road, Approaching, On bridge, Left) */
-	const truckStages = ["Idle", "Approaching", "SwipeBadge", "Idle"];
-	const ON_BRIDGE = 2;
+	let currentScenario = "BiDirectional";
+	let stages = scenarios[currentScenario].stages;
+	let truckStages = scenarios[currentScenario].truckStages;
 
 	/* ---------- Screen body renderer ---------- */
 	const MAX_UNITS = 8;   // capacity of the body, in medium lines
@@ -487,20 +762,20 @@
 		let used = 0;
 
 		lines.forEach(item => {
-			const key = item.type === "text" ? item.size : item.type;
+			const key = item.type == "text" ? item.size : item.type;
 			const units = UNITS[key];
-			if (units === undefined) { console.warn("Unknown screen line:", item); return; }
+			if (units == undefined) { console.warn("Unknown screen line:", item); return; }
 			used += units;
 
 			const row = document.createElement("div");
 			row.className = "dot-line";
 			row.style.height = "calc(var(--u) * " + units + ")";
 
-			if (item.type === "text") {
+			if (item.type == "text") {
 				row.classList.add(SIZE_CLASS[item.size]);
 				row.textContent = item.text;
 
-			} else if (item.type === "input") {
+			} else if (item.type == "input") {
 				const wrap = document.createElement("div");
 				wrap.className = "dot-input";
 				const input = document.createElement("input");
@@ -514,11 +789,11 @@
 					if (item.onConfirm) item.onConfirm(input.value);
 				};
 				tick.addEventListener("click", confirm);
-				input.addEventListener("keydown", e => { if (e.key === "Enter") confirm(); });
+				input.addEventListener("keydown", e => { if (e.key == "Enter") confirm(); });
 				wrap.append(input, tick);
 				row.appendChild(wrap);
 
-			} else if (item.type === "buttons") {
+			} else if (item.type == "buttons") {
 				const grid = document.createElement("div");
 				grid.className = "dot-buttons";
 				item.labels.slice(0, 8).forEach(label => {
@@ -538,20 +813,38 @@
 		if (used > MAX_UNITS) console.warn("Screen content is " + used + " lines; the maximum is " + MAX_UNITS + ".");
 	}
 
+	// name: "entryLight" / "exitLight" (traffic lights) or "roadSideBarrier" / "siteSideBarrier" (barriers).
+	// This always updates state/classes, regardless of whether that IO is currently visible in this
+	// scenario — visibility (applyIOVisibility, below) is a separate, purely cosmetic concern.
 	function setIO(name, state) {
-		const el = document.getElementById("io-" + name);
-		if (name === "light") {
+		if (name == "entryLight" || name == "exitLight") {
+			const el = document.getElementById("io-" + name);
 			el.textContent = state ? "On" : "Off";
 			el.className = "io-state" + (state ? " on" : "");
-			document.getElementById("light-dot").classList.toggle("on", state);
+			const dotId = name == "entryLight" ? "light-dot-entry" : "light-dot-exit";
+			document.getElementById(dotId).classList.toggle("on", state);
 		} else {
+			const el = document.getElementById("io-" + name);
 			el.textContent = state ? "Open" : "Closed";
 			el.className = "io-state " + (state ? "open" : "closed");
 			document.getElementById("gate-" + name).classList.toggle("open", state);
 		}
 	}
 
-	
+	// Shows/hides each IO's control-panel row and its matching light/gate on the road diagram,
+	// per the active scenario's visibleIO. Does NOT touch state — a hidden IO keeps working.
+	function applyIOVisibility(visibleIO) {
+		const names = ["entryLight", "exitLight", "roadSideBarrier", "siteSideBarrier"];
+		names.forEach(name => {
+			const visible = !visibleIO || visibleIO[name] !== false;
+			const row = document.getElementById("io-row-" + name);
+			if (row) row.style.display = visible ? "" : "none";
+
+			const isLight = name == "entryLight" || name == "exitLight";
+			const marker = document.getElementById(isLight ? (name == "entryLight" ? "light-dot-entry" : "light-dot-exit") : "gate-" + name);
+			if (marker) marker.style.display = visible ? "" : "none";
+		});
+	}
 
 	// The topbar only shows the truck's weight while the truck is on the bridge; otherwise 0
 	function updateWeightDisplay() {
@@ -577,30 +870,63 @@
 		clearTimeout(stageTimer);
 		currentStage = name;
 
-		renderScreen(typeof s.lines === "function" ? s.lines() : (s.lines || []));
-		if (s.io) Object.entries(s.io).forEach(([io, state]) => setIO(io, state));
+		// "before" block: runs first, so it can branch away (setStage) or set
+		// context (session.direction, etc.) that lines()/io below depend on.
 		if (s.onEnter) s.onEnter();
+		if (currentStage !== name) return;   // onEnter redirected to another stage
 
-		// onEnter may have moved to another stage; if so, that stage owns the timer
-		if (currentStage !== name) return;
-		if (s.next) stageTimer = setTimeout(() => setStage(s.next.stage), s.next.after);
+		renderScreen(typeof s.lines == "function" ? s.lines() : (s.lines || []));
+		if (s.io) Object.entries(s.io).forEach(([io, state]) => setIO(io, state));
+	}
+
+	// Call from inside a stage's onEnter to move on automatically after a pause.
+	// Tracked in stageTimer, so switching stages any other way cancels it cleanly.
+	function wait(ms, stageName) {
+		stageTimer = setTimeout(() => setStage(stageName), ms);
+	}
+
+	function setTruckFace(face) {
+		truckFace = face;
+		document.getElementById("truck").style.setProperty("--face", face);
 	}
 
 	function moveTruck(pos) {
+		// Automatic orientation: moving toward higher zone numbers (road -> site) faces
+		// right, moving toward lower numbers (site -> road) faces left. The Flip Truck
+		// button can override this at any time; the next move just recalculates as usual.
+		if (pos > truckPos) setTruckFace(-1);
+		else if (pos < truckPos) setTruckFace(1);
+
+		previousTruckPos = truckPos;
 		truckPos = pos;
 		updateWeightDisplay();
-		document.getElementById("truck").style.left = (pos * 25 + 12.5) + "%";
+		document.getElementById("truck").style.left = (pos * 20 + 10) + "%";
 		document.querySelectorAll(".zone").forEach(z =>
-			z.classList.toggle("active", Number(z.dataset.pos) === pos));
+			z.classList.toggle("active", Number(z.dataset.pos) == pos));
 		updateWeightDisplay();
 		setStage(truckStages[pos]);
 	}
 
 	function badgeSwipe() {
 		const handler = stages[currentStage] && stages[currentStage].onBadge;
-		if (typeof handler === "string") setStage(handler);
-		else if (typeof handler === "function") handler();
+		if (typeof handler == "string") setStage(handler);
+		else if (typeof handler == "function") handler();
 		else console.log("Badge swipe ignored in stage:", currentStage);
+	}
+
+	// Switches the active scenario: swaps in its stages/truckStages, applies its IO
+	// visibility, and resets the truck to "On road" so nothing is left mid-flow.
+	function applyScenario(name) {
+		const sc = scenarios[name];
+		if (!sc) { console.warn("Unknown scenario:", name); return; }
+
+		currentScenario = name;
+		stages = sc.stages;
+		truckStages = sc.truckStages;
+		applyIOVisibility(sc.visibleIO);
+
+		Object.keys(session).forEach(k => delete session[k]);
+		moveTruck(0);
 	}
 
 	document.querySelectorAll(".zone").forEach(z =>
@@ -609,6 +935,18 @@
 		b.addEventListener("click", () => setWeight(b.dataset.weight)));
 	document.getElementById("weight-input").addEventListener("input", e => setWeight(e.target.value, true));
 	document.getElementById("badge-btn").addEventListener("click", badgeSwipe);
+	document.getElementById("flip-truck-btn").addEventListener("click", () => setTruckFace(truckFace * -1));
+
+	// Build the scenario dropdown from the `scenarios` object above.
+	const scenarioSelect = document.getElementById("scenario-select");
+	Object.entries(scenarios).forEach(([key, sc]) => {
+		const opt = document.createElement("option");
+		opt.value = key;
+		opt.textContent = sc.label;
+		scenarioSelect.appendChild(opt);
+	});
+	scenarioSelect.value = currentScenario;
+	scenarioSelect.addEventListener("change", e => applyScenario(e.target.value));
 
 	/* ---------- Clock: shows the current date (DD/MM/YYYY) and time (HH:MM) ---------- */
 	const pad = n => String(n).padStart(2, "0");
@@ -628,6 +966,8 @@
 	updateClock();
 	setInterval(updateClock, 1000);   // check every second
 
+	setTruckFace(-1);
+	applyIOVisibility(scenarios[currentScenario].visibleIO);
 	moveTruck(0);
 	setWeight(0);
 </script>
