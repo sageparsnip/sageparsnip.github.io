@@ -16,6 +16,7 @@
 		<button onclick="nextLine()" style="position:fixed;top: 18rem; left:2rem">Next Line</button>
 		<div class="container align-items-center">
 			<h3>Learn Your Lines!</h3>
+			<select id="collection-select" onclick="getScenes()"></select>
 			<select id="script-select" onclick="loadScene()"></select>
 			<div class="container" id="lineContainer">
 				<div class="row">
@@ -26,22 +27,53 @@
 			<script>
 				let lineNo = 0;
 				let i=0,found=0;
+				let foundScene;
 				let flip=false;
 				let speaking = false;
 				let stageDirections = false;
 				console.log("SCRIPT");
 				onload = (event) => {
 					console.log("ONLOAD");
-					getScenes();
+					getCollections();
+					//getScenes();
+				}
+
+				function getCollections(){
+					$.getJSON("scripts.json?foo=" + Date.now(), function(json) {
+						//First, populate the Collections container
+						console.log(json);
+						let collections = [];
+						json.Scenes.forEach(scene => {
+							//Create an array of collections.
+							if(!collections.includes(scene["Collection"])){
+								collections.push(scene["Collection"]);
+							}
+						});
+						console.log(collections);
+						for(let j=0;j<collections.length;j++){
+							document.getElementById("collection-select").insertAdjacentHTML("beforeend", `<option value="${collections[j]}">${collections[j]}</option>`);
+						};
+						getScenes();
+					})
 				}
 
 				function getScenes(){
+					document.getElementById("script-select").innerHTML = '';
 					$.getJSON("scripts.json?foo=" + Date.now(), function(json) {
 						console.log(json);
+						let scenes = [];
 						json.Scenes.forEach(scene => {
-							document.getElementById("script-select").insertAdjacentHTML("beforeend", `<option value="${scene["Scene"]}">${scene["Scene"]}</option>`);
+							if(scene["Collection"] == document.getElementById("collection-select").value){
+								if(!scenes.includes(scene["Scene"])){
+									scenes.push(scene);
+								}
+							}
 						});
-					})
+						for(let j=0;j<scenes.length;j++){
+							document.getElementById("script-select").insertAdjacentHTML("beforeend", `<option value="${scenes[j]["Scene"]}">${scenes[j]["Scene"]}</option>`);
+						}
+						loadScene();
+					});
 				}
 
 				function nextLine(){
@@ -121,33 +153,35 @@
 				}
 
 				function loadScene(){
+					document.getElementById("lineContainer").innerHTML = `
+						<div class="row">
+							<div class="col-3"><b>Speaker:</b></div>
+							<div class="col-9"><b>Line:</b></div>
+						</div>
+					`;
 					lineNo = 0;
-					var sceneName = document.getElementById("script-select").options[document.getElementById("script-select").selectedIndex].text;
+					foundScene = "";
+					var collectionName = document.getElementById("collection-select").value;
+					var sceneName = document.getElementById("script-select").value;
 					$.getJSON("scripts.json", function(json) {
 						//Go to correct scene in JSON
 						i=0;
 						found=0;
 						while(i < json.Scenes.length && found == 0){
-							if(json.Scenes[i].Scene == sceneName){
-								found=1;
+							if(json.Scenes[i].Collection == collectionName){
+								if(json.Scenes[i].Scene == sceneName){
+									foundScene = json.Scenes[i];
+									found=1;
+								}
+								else{
+									i++;
+								}
 							}
 							else{
 								i++;
 							}
 						}
-						/**
-						if(json.Scenes[i].Lines.length > 0){
-							//Here we actually display all the text.
-							json.Scenes[i].Lines.forEach(line => {
-								document.getElementById("lineContainer").insertAdjacentHTML("beforeend", `
-									<div class="row">
-										<div class="col-3"><b>${line.Speaker}</b></div>
-										<div class="col-9">${line.Line}</div>
-									</div>
-								`);
-							});
-						}
-						**/
+						console.log(foundScene);
 					})
 				}
 			</script>

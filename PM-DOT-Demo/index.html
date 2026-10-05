@@ -121,7 +121,8 @@
 		/* Column layout: heading + truck section stay fixed, the middle section scrolls,
 		   the scenario picker stays fixed at the bottom. */
 		#control-panel {
-			height: var(--sh);
+			height: 80%;
+			/*height: var(--sh), */
 			width: min(26vw, 460px);
 			min-width: 300px;
 			overflow: hidden;
@@ -216,6 +217,20 @@
 		#light-dot-entry { left: 32%; }
 		#light-dot-exit  { left: 66%; }
 		#light-dot-entry.on, #light-dot-exit.on { background: #3ddc84; box-shadow: 0 0 10px #3ddc84; }
+		#gate-entryANPR, #gate-exitANPR{
+			position: absolute;
+			top: -5px;
+			width: 1em; height: 1em;
+			font-size: 1.6em;
+		}
+		#gate-exitANPR{
+			left: 20%;
+			transform: translate(-50%, -50%) scaleX(var(--face, -1));
+			top: 5px;
+		}
+		#gate-entryANPR{
+			left:80%;
+		}
 
 		#zones {
 			display: grid;
@@ -300,6 +315,8 @@
 				<div class="gate" id="gate-siteSideBarrier" style="left:60%"></div>
 				<div id="light-dot-entry"></div>
 				<div id="light-dot-exit"></div>
+				<div id="gate-entryANPR">📹</div>
+				<div id="gate-exitANPR">📹</div>
 				<div id="truck">🚚</div>
 			</div>
 			<div id="zones">
@@ -326,16 +343,26 @@
 			</div>
 
 			<div class="cp-section">
+				<div class="cp-title">ANPR Detection</div>
+				<input id="anpr-detection" type="text" class="form-control" placeholder="151LS12345">
+			</div>
+
+			<div class="cp-section">
 				<div class="cp-title">Badge reader</div>
 				<button id="badge-btn" class="btn btn-primary w-100">Badge Swipe</button>
 			</div>
 
-			<div class="cp-section">
+			<div class="cp-section" style="display:none">
 				<div class="cp-title">Inputs / outputs</div>
 				<div class="io-row" id="io-row-entryLight"><span>Entry traffic light</span><span id="io-entryLight" class="io-state">Off</span></div>
 				<div class="io-row" id="io-row-exitLight"><span>Exit traffic light</span><span id="io-exitLight" class="io-state">Off</span></div>
 				<div class="io-row" id="io-row-roadSideBarrier"><span>Road-side barrier</span><span id="io-roadSideBarrier" class="io-state">Closed</span></div>
 				<div class="io-row" id="io-row-siteSideBarrier"><span>Site-side barrier</span><span id="io-siteSideBarrier" class="io-state">Closed</span></div>
+			</div>
+
+			<div class="cp-section">
+				<div class="cp-title">Cabinet Ticket</div>
+				<div id="cabinet-ticket" style="width:100%"></div>
 			</div>
 
 		</div>
@@ -431,12 +458,12 @@
 		BiDirectional: {
 			label: "Bi-Directional",
 			truckStages: ["Idle", "ApproachingRoad", "SwipeBadge", "ApproachingSite", "Idle"],
-			visibleIO: { entryLight: true, exitLight: true, roadSideBarrier: true, siteSideBarrier: true },
+			visibleIO: { entryLight: true, exitLight: true, roadSideBarrier: true, siteSideBarrier: true, entryANPR: false, exitANPR: false },
 			stages: {
 				Idle: {
 					lines: [
 						header,
-						{ type: "text", size: "large",  text: "Key Waste" },
+						{ type: "text", size: "large",  text: "Customer Demo" },
 						{ type: "text", size: "medium", text: "Waiting for Vehicle" }
 					],
 					io: { entryLight: false, exitLight: false, roadSideBarrier: false, siteSideBarrier: false },
@@ -559,7 +586,7 @@
 						{ type: "text", "size":"large", text: "Please Enter Vehicle Reg: "},
 						{ type: "input", pleaceholder: "Vehicle Reg", 
 						  onConfirm: value => {
-							session.vehicleReg = value; 
+							session.vehicleReg = value.toUpperCase(); 
 							setStage("SelectProduct");
 						  }
 						}
@@ -584,9 +611,23 @@
 						header,
 						{ type: "text", size: "medium", text: "Product: " + session.product },
 						{ type: "text", size: "large",  text: "Select Account" },
-						{ type: "buttons", labels: ["Acme Ltd", "Byrne Haulage", "Cork Aggregates", "Cash Sale"],
+						{ type: "buttons", labels: ["Acme Ltd", "Precia Molen", "Cork Aggregates", "Cash Sale"],
 						  onSelect: label => { 
 						  	session.account = label; 
+						  	setStage("SelectHaulier"); 
+						  } 
+						}
+					]
+				},
+
+				SelectHaulier: {
+					lines: () => [
+						header,
+						{ type: "text", size: "medium", text: "Account: " + session.account },
+						{ type: "text", size: "large",  text: "Select Haulier" },
+						{ type: "buttons", labels: [ "Byrne Haulage", "Eurotrans", "Kennedy International Transport", "McCann Haulage" ],
+						  onSelect: label => { 
+						  	session.haulier = label; 
 						  	setStage("ConfirmDetails"); 
 						  } 
 						}
@@ -596,10 +637,10 @@
 				ConfirmDetails: {
 					lines: () => [
 						header,
-						{ type:"text", size:"medium", text: "Please Confirm: "},
-						{ type:"text", size:"medium", text: session.vehicleReg},
+						{ type:"text", size:"medium", text: "Please Confirm: " + session.vehicleReg},
 						{ type:"text", size:"medium", text: session.account},
 						{ type:"text", size:"medium", text: session.product},
+						{ type:"text", size:"medium", text: session.haulier},
 						{ type: "buttons", labels: ["Yes", "No"],
 						  onSelect: label => { 
 						  	if(label == "Yes"){
@@ -660,6 +701,72 @@
 						{ type: "text", size: "large",  text: "Net Weight: " + session.netWeight + "kg" }
 					],
 					onEnter: () => { 
+						wait(smallWait, "PrintTicket");
+					}
+				},
+
+				PrintTicket: {
+					lines: () => [
+						header,
+						{
+							type:" text", size: "large", text: "Please Take Ticket"
+						}
+					],
+					onEnter: () => {
+						let sl = "";
+						sl += `<h4>Customer Demo Ticket</h4>`;
+						sl += `============================<br>`;
+						if(typeof session.account != 'undefined' || typeof session.product != 'undefined' || typeof session.haulier != 'undefined' || typeof session.vehicleReg != 'undefined'){
+							sl += `<table>`;
+						}
+						if(typeof session.vehicleReg != 'undefined'){
+							sl += `<tr><th>Vehicle Reg: </th><td>${session.vehicleReg}</td></tr>`;
+						}
+						if(typeof session.account != 'undefined'){
+							sl += `<tr><th>Account: </th><td>${session.account}</td></tr>`;
+						}
+						if(typeof session.product != 'undefined'){
+							sl += `<tr><th>Product: </th><td>${session.product}</td></tr>`;
+						}
+						if(typeof session.haulier != 'undefined'){
+							sl += `<tr><th>Haulier: </th><td>${session.haulier}</td></tr>`;
+						}
+						if(typeof session.account != 'undefined' || typeof session.product != 'undefined' || typeof session.haulier != 'undefined'){
+							sl += `</table>============================<br>`;
+						}
+						sl += `<table>
+								<tr>
+									<th>#</th>
+									<th>Weighbridge</th>
+									<th>Weight</th>
+									<th>Serial</th>
+								</tr>`;
+						if(typeof session.firstWeight != 'undefined'){
+							sl += `<tr>
+									<td>1st Weight</td>
+							       	<td>Entry</td>
+									<td>${session.firstWeight}kg</td>
+									<td>10970</td>
+								   </tr>`;
+						}
+						if(typeof session.secondWeight != 'undefined'){
+							sl += `<tr>
+									<td>2nd Weight</td>
+							       	<td>Exit</td>
+									<td>${session.secondWeight}kg</td>
+									<td>10971</td>
+								   </tr>`;
+						}
+						if(typeof session.netWeight != 'undefined'){
+							sl += `<tr>
+									<th>Net Weight</td>
+							       	<td></td>
+									<th>${session.netWeight}kg</td>
+									<td></td>
+								   </tr>`;
+						}
+						sl += `</table>`;
+						document.getElementById("cabinet-ticket").innerHTML = sl;
 						wait(bigWait, "Complete"); 
 					}
 				},
@@ -693,7 +800,7 @@
 		UniDirectional: {
 			label: "Uni-Directional (with tares)",
 			truckStages: ["Idle", "ApproachingRoad", "SwipeBadge", "Idle", "Idle"],
-			visibleIO: { entryLight: true, exitLight: false, roadSideBarrier: true, siteSideBarrier: false },
+			visibleIO: { entryLight: true, exitLight: false, roadSideBarrier: true, siteSideBarrier: true },
 			stages: {
 				Idle: {
 					lines: [
@@ -1011,7 +1118,7 @@
 	// Shows/hides each IO's control-panel row and its matching light/gate on the road diagram,
 	// per the active scenario's visibleIO. Does NOT touch state — a hidden IO keeps working.
 	function applyIOVisibility(visibleIO) {
-		const names = ["entryLight", "exitLight", "roadSideBarrier", "siteSideBarrier"];
+		const names = ["entryLight", "exitLight", "roadSideBarrier", "siteSideBarrier", "entryANPR", "exitANPR"];
 		names.forEach(name => {
 			const visible = !visibleIO || visibleIO[name] !== false;
 			const row = document.getElementById("io-row-" + name);
