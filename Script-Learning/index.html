@@ -19,7 +19,7 @@
 			<select id="collection-select" onclick="getScenes()"></select>
 			<select id="script-select" onclick="loadScene()"></select>
 			Highlighter:
-			<select id="highlight-select" onclick="changeHighlight()"></select>
+			<select id="highlight-select" onclick="changeHighlight()" style="color:black;background-color:pink"></select>
 			<div class="container" id="lineContainer">
 				<div class="row">
 					<div class="col-3"><b>Speaker:</b></div>
@@ -37,7 +37,7 @@
 				//let highlightOptions;
 				let currentHighlight = "";
 				let currentSpeaker = "";
-				const highlightStyle ="color:black;background-color:violet";
+				const highlightStyle ="color:black;background-color:pink";
 				const lowlightStyle  ="color:white;background-color:bg-dark";
 				let currentStyle = lowlightStyle;
 				console.log("SCRIPT");
