@@ -42,7 +42,7 @@ async function showHomePage() {
 	const sections = ['HomeGreeting', 'HomeRecent', 'HomeOnNext'];
 
 	const responses = await Promise.all(
-		sections.map(id => $.get(`./data/${id}.md`))
+		sections.map(id => $.get(`./data/${id}.md?foo=` + Date.now()))
 	);
 	const [HomeGreeting, HomeRecent, HomeOnNext] = responses.map(md => marked.parse(md));
 
@@ -66,13 +66,15 @@ async function showWhatsOnPage(){
 	const sections = ['WhatsOnDetails'];
 
 	const responses = await Promise.all(
-		sections.map(id => $.get(`./data/${id}.md`))
+		sections.map(id => $.get(`./data/${id}.md?foo=` + Date.now()))
 	);
 
 	const [WhatsOnDetails] = responses.map(md => marked.parse(md));
+	//At this stage, this var should contain the content we're going to display.
 
 	const splits = WhatsOnDetails.split("h2");
 	//console.log(splits);
+	//splits[0] will be "<", then each odd-even pair will be Title-Content pairs.
 
 	if(splits.length > 4){
 		//Create 2 col-6s for desktop.
@@ -107,7 +109,7 @@ async function showWhoWeArePage() {
 	const sections = ['WhoWeArePicture', 'WhoWeAreMain', 'WhoWeAreGetInvolved'];
 
 	const responses = await Promise.all(
-		sections.map(id => $.get(`./data/${id}.md`))
+		sections.map(id => $.get(`./data/${id}.md?foo=` + Date.now()))
 	);
 	const [WhoWeArePicture, WhoWeAreMain, WhoWeAreGetInvolved] = responses.map(md => marked.parse(md));
 
@@ -131,7 +133,7 @@ async function showSubmitAPlayPage() {
 	const sections = ['SubmitAPlayMain'];
 
 	const responses = await Promise.all(
-		sections.map(id => $.get(`./data/${id}.md`))
+		sections.map(id => $.get(`./data/${id}.md?foo=` + Date.now()))
 	);
 	const [SubmitAPlayMain] = responses.map(md => marked.parse(md));
 	const FormEmbed = '<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfO7okhTj2PiTfvnrnI7gyAzP4m8_1EV2-HnZQ7ZCXeHiQrow/viewform?embedded=true" width="100%" height="300%" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>';
@@ -176,7 +178,7 @@ async function showHistoryPage(){
 	const sections = ['HistoryText'];
 
 	const responses = await Promise.all(
-		sections.map(id => $.get(`./data/${id}.md`))
+		sections.map(id => $.get(`./data/${id}.md?foo=` + Date.now()))
 	);
 	const [HistoryText] = responses.map(md => marked.parse(md));
 	

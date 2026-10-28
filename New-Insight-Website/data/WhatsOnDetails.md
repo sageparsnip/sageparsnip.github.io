@@ -1,17 +1,54 @@
-## Readings For Fun 2026
-![Readings For Fun Poster](./assets/Readings-For-Fun-2026-Poster.jpg)
-
-This July will see the much-anticipated return of our Readings for Fun series!
-
-These events are a casual gathering to read through scripts curated by our excellent facilitators. Come down to read through pieces old and new and have a good time!
-
-Our readings will be taking place on each Tuesday of July (7th, 14th, 21st, and 28th). Each night will kick off at 19:30. Free in for all members, with membership available on the night.
-
 ## Jane Eyre
-We are delighted to announce our intention to stage Charlotte Bronte's seminal work "Jane Eyre" in the Kildrought Lounge this November, as directed by our own Tom Brady-Connor. 
+![Jane Eyre Poster](./assets/Jane-Eyre-2026-Poster.jpg)
+We have been hard at work and are delighted to bring to stage Charlotte Bronte's seminal work "Jane Eyre" (as adapted by Willis Hall) in the Kildrought Lounge this November, as directed by our own Tom Brady-Connor. 
 
-We will be holding auditions for the show on the 11th, 13th, and 18th August. Roles are available for all ages, genders, and abilities, so if you're on the fence why not give it a go! We are always eager to welcome new members, and we all start somewhere, so give this show your full consideration.
+This production will run from Wednesday November 4th through Saturday 7th, and again from Tuesday November 10th through Saturday 14th. Doors will open nightly at 19:15, with the show commencing at 19:30.
 
-Auditions will take place at 19:30 each evening and are expected to run between an hour and a half and two hours. You are welcome to attend as many or few of the auditions as you like, though if attending multiple auditions, you may read less on subsequent nights (we want to make sure everyone gets a fair shake!).
+Tickets can be booked by contacting the booking office either by texting 089 269 4894, or by emailing insightcelbridge@gmail.com. Be sure to book early to avoid disappointment!
 
-Our shows always take a village to come together, and this show will be no exception. If you don't wish to audition but would be willing to lend a hand with Front of House, Lighting and Sound, Set Construction, or Backstage work, please reach out to the committee - we are always deeply grateful for the help.
+This show has been a real labour of love for the director, cast, and crew. You are certain not to want to miss it. The cast is as follows:
+
+| Actor            | Role(s)                                                         |
+|------------------|-----------------------------------------------------------------|
+| Leigh Brady      | Jane Eyre                                                       |
+| Joy Murphy       | Narrator / Country Girl                                         |
+| Julie O'Neill    | Narrator / Country Woman                                        |
+| Patricia Hanlon  | Mrs Alice Fairfax                                               |
+| Maria Fitzgibbon | Ms Abbot / Nurse / Lady Ingram / Hannah                         |
+| Fiona King       | Helen Burns / Adele Varens / Mary Rivers                        |
+| Fran O'Connor    | Bertha Mason / Aunt Reed                                        |
+| Abina Guinan     | Leah / Annie                                                    |
+| Helen McCarthy   | Barbara / Grace Poole / Mary Ingram / Alice                     |
+| Michelle O'Dea   | Ms Temple / Blanche Ingram / Diana Rivers                       |
+| Míde Ní Bhriain  | Bessie / Kitty                                                  |
+| Daniel McCarthy  | Edward Rochester                                                |
+| Harry Hall       | John Reed / John Manservant / Briggs / Builder                  |
+| Marc Cheevers    | Groom (Robert) / Porter / Richard Mason / Shopkeeper            |
+| John McCormack   | Mr Brocklehurst / Lord Ingram / Reverend Wood / St. John Rivers |
+
+## Lone Star on the One-Act Festival Circuit
+![Readings For Fun Poster](./assets/Lone-Star-Circuit-2026-Poster.jpg)
+
+In a very exciting foray for the group, Insight will be taking to the Festivals Circuit this October/November with the one-act play Lone Star! 
+
+This piece (written by James McLure) was originally staged by Brendan O'Sullivan as part of a collection of one-act plays early this year, and following the success of the staging we decided the rest of the country deserved to see what we had put together.
+
+The piece will be staged in Enniskillen, Ballybofey, Naas, Mullagh, and Ballina over the course of 2 weeks.
+
+The cast of the piece is as follows:
+
+| Actor           | Role   |
+| --------------- | ------ |
+| Vincent Casey   | Roy    |
+| Chris Fenlon    | Ray    |
+| Matthew De Bara | Cletus |
+
+The crew for the circuit run is as follows:
+
+| Crew Member |
+| ----------- |
+| Brendan O'Sullivan (also Director) |
+| Pete Butler |
+| Viv Butler-Rees |
+| Breda Donnellan |
+| Joe Bergin (also Light & Sound Technician) |
