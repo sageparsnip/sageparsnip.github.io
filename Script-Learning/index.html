@@ -309,13 +309,13 @@
 			</div>
 			<div class="row">
 				<div class="col-4">
-					<select id="collection-select" onclick="getScenes()" style="width:100%"></select><br>
+					<select id="collection-select" onchange="getScenes()" onfocus="this.selectedIndex = -1;" style="width:100%"></select><br>
 				</div>
 				<div class="col-4">
-					<select id="script-select" onclick="loadScene()" style="width:100%"></select><br>
+					<select id="script-select" onchange="loadScene()" onfocus="this.selectedIndex = -1;" style="width:100%"></select><br>
 				</div>
 				<div class="col-4">
-					<select id="highlight-select" onclick="changeHighlight()" style="color:black;background-color:pink; width:100%;"></select>
+					<select id="highlight-select" onchange="changeHighlight()" onfocus="this.selectedIndex = -1;" style="color:black;background-color:pink; width:100%;"></select>
 				</div>
 			</div>
 		</div>
