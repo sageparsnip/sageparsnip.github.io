@@ -1,278 +1,331 @@
+<!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Script Learning Tool</title>
 		<link rel="stylesheet" href="./bootstrap.css">
 		<script src="./jquery-3.6.3.min.js" type="text/javascript"></script>
 		<link rel="icon" type="image/x-icon" href="assets/favicon.ico">
 		<style>
-			.container{
-				width: 80%;
+			:root {
+				--buttons-height: 2rem;
+				--buttons-offset: 1rem;
+				--page-width: 80%;
+				--left-offset: 10%;
+			}
+			body {
+				margin: 0;
+				min-height: 100dvh;
+				padding-bottom:calc(var(--buttons-height) + var(--buttons-offset));
+			}
+			#script-section{
+				width: var(--page-width);
+				padding-bottom: 2rem;
+			}
+			#selector-section{
+				width: var(--page-width);
 				padding-top: 1rem;
 			}
+			#button-holder{
+				position: fixed;
+				bottom: var(--buttons-offset);
+				height: var(--buttons-height);
+				width: var(--page-width);
+				left: var(--left-offset);
+				text-align: center;
+				cursor: pointer; 
+			}
+			.lineClicker{
+				border:1px solid white;
+				background-color: lightgrey; 
+				color: black;
+			}
+			html {
+			  scroll-padding-bottom: calc(var(--buttons-height) + var(--buttons-offset));
+			}
 		</style>
-	</head>
-	<body class="bg-dark text-light">
-		<button onclick="previousLine()" style="position:fixed;top: 14rem; left:2rem">Previous Line</button>	
-		<button onclick="nextLine()" style="position:fixed;top: 18rem; left:2rem">Next Line</button>
-		<div class="container align-items-center">
-			<h3>Learn Your Lines!</h3>
-			<select id="collection-select" onclick="getScenes()"></select>
-			<select id="script-select" onclick="loadScene()"></select>
-			Highlighter:
-			<select id="highlight-select" onclick="changeHighlight()" style="color:black;background-color:pink"></select>
-			<div class="container" id="lineContainer">
-				<div class="row">
-					<div class="col-3"><b>Speaker:</b></div>
-					<div class="col-9"><b>Line:</b></div>
-				</div>
-			</div>
-			<script>
-				let lineNo = 0;
-				let i=0,found=0;
-				let foundScene;
-				let flip=false;
-				let speaking = false;
-				let stageDirections = false;
-				let currentScene = "";
-				//let highlightOptions;
-				let currentHighlight = "";
-				let currentSpeaker = "";
-				const highlightStyle ="color:black;background-color:pink";
-				const lowlightStyle  ="color:white;background-color:bg-dark";
-				let currentStyle = lowlightStyle;
-				console.log("SCRIPT");
-				onload = (event) => {
-					console.log("ONLOAD");
-					getCollections();
-					//getScenes();
-				}
+		<script>
+			let lineNo = 0;
+			let i=0,found=0;
+			let foundScene;
+			let flip=false;
+			let speaking = false;
+			let stageDirections = false;
+			let currentScene = "";
+			//let highlightOptions;
+			let currentHighlight = "";
+			let currentSpeaker = "";
+			const highlightStyle ="color:black;background-color:pink";
+			const lowlightStyle  ="color:white;background-color:bg-dark";
+			let currentStyle = lowlightStyle;
+			console.log("SCRIPT");
+			onload = (event) => {
+				console.log("ONLOAD");
+				getCollections();
+				//getScenes();
+			}
 
-				function getCollections(){
-					$.getJSON("scripts.json?foo=" + Date.now().toString(16), function(json) {
-						//First, populate the Collections container
-						console.log(json);
-						let collections = [];
-						json.Scenes.forEach(scene => {
-							//Create an array of collections.
-							if(!collections.includes(scene["Collection"])){
-								collections.push(scene["Collection"]);
-							}
-						});
-						console.log(collections);
-						for(let j=0;j<collections.length;j++){
-							document.getElementById("collection-select").insertAdjacentHTML("beforeend", `<option value="${collections[j]}">${collections[j]}</option>`);
-						};
-						getScenes();
-					})
-				}
-
-				function getScenes(){
-					document.getElementById("script-select").innerHTML = '';
-					$.getJSON("scripts.json?foo=" + Date.now().toString(16), function(json) {
-						console.log(json);
-						let scenes = [];
-						json.Scenes.forEach(scene => {
-							if(scene["Collection"] == document.getElementById("collection-select").value){
-								if(!scenes.includes(scene["Scene"])){
-									scenes.push(scene);
-								}
-							}
-						});
-						for(let j=0;j<scenes.length;j++){
-							document.getElementById("script-select").insertAdjacentHTML("beforeend", `<option value="${scenes[j]["Scene"]}">${scenes[j]["Scene"]}</option>`);
+			function getCollections(){
+				$.getJSON("scripts.json?foo=" + Date.now().toString(16), function(json) {
+					//First, populate the Collections container
+					console.log(json);
+					let collections = [];
+					json.Scenes.forEach(scene => {
+						//Create an array of collections.
+						if(!collections.includes(scene["Collection"])){
+							collections.push(scene["Collection"]);
 						}
-						loadScene();
 					});
-				}
+					console.log(collections);
+					for(let j=0;j<collections.length;j++){
+						document.getElementById("collection-select").insertAdjacentHTML("beforeend", `<option value="${collections[j]}">${collections[j]}</option>`);
+					};
+					getScenes();
+				})
+			}
 
-				function nextLine(){
-					if(currentSpeaker == currentHighlight){
-						currentStyle = highlightStyle;
+			function getScenes(){
+				document.getElementById("script-select").innerHTML = '';
+				$.getJSON("scripts.json?foo=" + Date.now().toString(16), function(json) {
+					console.log(json);
+					let scenes = [];
+					json.Scenes.forEach(scene => {
+						if(scene["Collection"] == document.getElementById("collection-select").value){
+							if(!scenes.includes(scene["Scene"])){
+								scenes.push(scene);
+							}
+						}
+					});
+					for(let j=0;j<scenes.length;j++){
+						document.getElementById("script-select").insertAdjacentHTML("beforeend", `<option value="${scenes[j]["Scene"]}">${scenes[j]["Scene"]}</option>`);
 					}
-					else{
-						currentStyle = lowlightStyle;
-					}
-					if(currentScene.Lines[lineNo].Speaker.length == 0){
-						//Previous speaker continuing; print as normal
-						document.getElementById("lineContainer").insertAdjacentHTML("beforeend", `
-							<div class="row" speaker="${currentSpeaker.trim()}" style="${currentStyle}">
-								<div class="col-3"><b>${currentScene.Lines[lineNo].Speaker.trim()}</b></div>
-								<div class="col-9">${currentScene.Lines[lineNo].Line}</div>
+					loadScene();
+				});
+			}
+
+			function nextLine(){
+				if(currentSpeaker == currentHighlight){
+					currentStyle = highlightStyle;
+				}
+				else{
+					currentStyle = lowlightStyle;
+				}
+				if(currentScene.Lines[lineNo].Speaker.length == 0){
+					//Previous speaker continuing; print as normal
+					document.getElementById("lineContainer").insertAdjacentHTML("beforeend", `
+						<div class="row" speaker="${currentSpeaker.trim()}" style="${currentStyle}">
+							<div class="col-3"><b>${currentScene.Lines[lineNo].Speaker.trim()}</b></div>
+							<div class="col-9">${currentScene.Lines[lineNo].Line}</div>
+						</div>
+					`);
+					lineNo++;
+					window.scrollTo(0, document.body.scrollHeight);
+				}
+				else{
+					//Speaker is defined; print the speaker's name if the flag is 0, line if 1
+					if(speaking){
+						speaking = false;
+						//Speaker's name printed last run; print line, and increment LineNo
+						if(stageDirections) {
+							document.getElementById("lineContainer").insertAdjacentHTML("beforeend", `
+							<div class="row" speaker="SD" style="${lowlightStyle}">
+								<div class="col-3"></div>
+								<div class="col-9"><i>${currentScene.Lines[lineNo].Line}</i></div>
 							</div>
 						`);
+						}
+						else{
+							document.getElementById("lineContainer").insertAdjacentHTML("beforeend", `
+								<div class="row" speaker="${currentSpeaker.trim()}" style="${currentStyle}">
+									<div class="col-3"></div>
+									<div class="col-9" speaker="${currentSpeaker.trim()}">${currentScene.Lines[lineNo].Line}</div>
+								</div>
+							`);
+						}
 						lineNo++;
 						window.scrollTo(0, document.body.scrollHeight);
 					}
 					else{
-						//Speaker is defined; print the speaker's name if the flag is 0, line if 1
-						if(speaking){
-							speaking = false;
-							//Speaker's name printed last run; print line, and increment LineNo
-							if(stageDirections) {
-								document.getElementById("lineContainer").insertAdjacentHTML("beforeend", `
-								<div class="row" speaker="SD" style="${lowlightStyle}">
-									<div class="col-3"></div>
-									<div class="col-9"><i>${currentScene.Lines[lineNo].Line}</i></div>
-								</div>
-							`);
-							}
-							else{
-								document.getElementById("lineContainer").insertAdjacentHTML("beforeend", `
-									<div class="row" speaker="${currentSpeaker.trim()}" style="${currentStyle}">
-										<div class="col-3"></div>
-										<div class="col-9" speaker="${currentSpeaker.trim()}">${currentScene.Lines[lineNo].Line}</div>
-									</div>
-								`);
-							}
-							lineNo++;
-							window.scrollTo(0, document.body.scrollHeight);
+						speaking = true;
+						if(currentScene.Lines[lineNo].Speaker!="SD"){
+							currentSpeaker = currentScene.Lines[lineNo].Speaker.trim();
+						}
+						if(currentSpeaker == currentHighlight){
+							currentStyle = highlightStyle;
 						}
 						else{
-							speaking = true;
-							if(currentScene.Lines[lineNo].Speaker!="SD"){
-								currentSpeaker = currentScene.Lines[lineNo].Speaker.trim();
-							}
-							if(currentSpeaker == currentHighlight){
-								currentStyle = highlightStyle;
-							}
-							else{
-								currentStyle = lowlightStyle;
-							}
-							if(currentScene.Lines[lineNo].Speaker == "SD")
-									{stageDirections = true;}
-							else
-									{stageDirections = false;}
-							//Just print the speaker's name
-							if(!stageDirections){
-								document.getElementById("lineContainer").insertAdjacentHTML("beforeend", `
-									<div class="row" speaker="${currentSpeaker.trim()}" style="${currentStyle}">
-										<div class="col-3"><b>${currentSpeaker.trim()}</b></div>
-										<div class="col-9"></div>
-									</div>
-								`);
-							}
-							else{
-								nextLine();
-							}
-							window.scrollTo(0, document.body.scrollHeight);
+							currentStyle = lowlightStyle;
 						}
+						if(currentScene.Lines[lineNo].Speaker == "SD")
+								{stageDirections = true;}
+						else
+								{stageDirections = false;}
+						//Just print the speaker's name
+						if(!stageDirections){
+							document.getElementById("lineContainer").insertAdjacentHTML("beforeend", `
+								<div class="row" speaker="${currentSpeaker.trim()}" style="${currentStyle}">
+									<div class="col-3"><b>${currentSpeaker.trim()}</b></div>
+									<div class="col-9"></div>
+								</div>
+							`);
+						}
+						else{
+							nextLine();
+						}
+						window.scrollTo(0, document.body.scrollHeight);
 					}
 				}
+			}
 
 
-				function previousLine(){
-					//find last row in the container and erase it.
-					var container = document.getElementById("lineContainer");
-					var lineDelete = container.childNodes[container.childNodes.length - 2];
-					if(String(lineDelete.childNodes[1].innerHTML).length > 0)
-						lineNo--;
-					lineDelete.remove();
-					var lineDelete = container.childNodes[container.childNodes.length - 2];
-					lineDelete.remove();
-					var lineDelete = container.childNodes[container.childNodes.length - 2];
-					lineDelete.remove();
-					window.scrollTo(0, document.body.scrollHeight);
-				}
+			function previousLine(){
+				//find last row in the container and erase it.
+				var container = document.getElementById("lineContainer");
+				var lineDelete = container.childNodes[container.childNodes.length - 2];
+				if(String(lineDelete.childNodes[1].innerHTML).length > 0)
+					lineNo--;
+				lineDelete.remove();
+				var lineDelete = container.childNodes[container.childNodes.length - 2];
+				lineDelete.remove();
+				var lineDelete = container.childNodes[container.childNodes.length - 2];
+				lineDelete.remove();
+				window.scrollTo(0, document.body.scrollHeight);
+			}
 
-				function loadScene(){
-					document.getElementById("lineContainer").innerHTML = `
-						<div class="row">
-							<div class="col-3"><b>Speaker:</b></div>
-							<div class="col-9"><b>Line:</b></div>
-						</div>
-					`;
-					lineNo = 0;
-					foundScene = "";
-					var collectionName = document.getElementById("collection-select").value;
-					var sceneName = document.getElementById("script-select").value;
-					$.getJSON("scripts.json", function(json) {
-						//Go to correct scene in JSON
-						i=0;
-						found=0;
-						while(i < json.Scenes.length && found == 0){
-							if(json.Scenes[i].Collection == collectionName){
-								if(json.Scenes[i].Scene == sceneName){
-									foundScene = json.Scenes[i];
-									currentScene = json.Scenes[i];
-									found=1;
-								}
-								else{
-									i++;
-								}
+			function loadScene(){
+				document.getElementById("lineContainer").innerHTML = `
+					<div class="row">
+						<div class="col-3"><b>Speaker:</b></div>
+						<div class="col-9"><b>Line:</b></div>
+					</div>
+				`;
+				lineNo = 0;
+				foundScene = "";
+				var collectionName = document.getElementById("collection-select").value;
+				var sceneName = document.getElementById("script-select").value;
+				$.getJSON("scripts.json", function(json) {
+					//Go to correct scene in JSON
+					i=0;
+					found=0;
+					while(i < json.Scenes.length && found == 0){
+						if(json.Scenes[i].Collection == collectionName){
+							if(json.Scenes[i].Scene == sceneName){
+								foundScene = json.Scenes[i];
+								currentScene = json.Scenes[i];
+								found=1;
 							}
 							else{
 								i++;
 							}
 						}
-						populateHighlightSelect();
-					})
-				}
-
-				function populateHighlightSelect(){
-					//Get distinct list of speakers in a scene, not including SD
-					let highlightOptions = ["None"];
-					
-					for(let lineNo=0;lineNo<currentScene.Lines.length;lineNo++){
-						let speaker = currentScene.Lines[lineNo].Speaker.trim();
-						if(speaker!=undefined && speaker!="" && speaker!="SD"){
-							if(!highlightOptions.includes(speaker)){
-								highlightOptions.push(speaker);
-							}
+						else{
+							i++;
 						}
 					}
-					document.getElementById("highlight-select").innerHTML = '';
-					for(let speakerNo=0;speakerNo<highlightOptions.length;speakerNo++){
-						document.getElementById("highlight-select").innerHTML += `
-							<option>${highlightOptions[speakerNo].trim()}</option>
-						`;
-					}
-				}
+					populateHighlightSelect();
+				})
+			}
 
-				function changeHighlight(){
-					currentHighlight = document.getElementById("highlight-select").value;
-					console.log("Higlighting " + currentHighlight);
-					highlightTextAll();
-				}
-
-				function highlightTextAll(){
-					//This function should loop through all text onscreen and 
-					//highlight if the speaker matches currentHighlight, or
-					//if the speaker is blank and the previous line was
-					//highlighted
-					let lineContainer = document.getElementById("lineContainer");
-					let containerChildren = [];
-					for(let no=0;no<lineContainer.childNodes.length;no++){
-						if(lineContainer.childNodes[no].className == "row"){
-							containerChildren.push(lineContainer.childNodes[no]);
+			function populateHighlightSelect(){
+				//Get distinct list of speakers in a scene, not including SD
+				let highlightOptions = ["None"];
+				
+				for(let lineNo=0;lineNo<currentScene.Lines.length;lineNo++){
+					let speaker = currentScene.Lines[lineNo].Speaker.trim();
+					if(speaker!=undefined && speaker!="" && speaker!="SD"){
+						if(!highlightOptions.includes(speaker)){
+							highlightOptions.push(speaker);
 						}
 					}
-					//containerChildren now contains the list of all lines.
-					//console.log(containerChildren);
-					let highlightedRows = [];
-					let lowlightedRows = [];
-					for(let no=0;no<containerChildren.length;no++){
-						if(containerChildren[no]["attributes"]["speaker"]!=undefined){
-							//console.log(containerChildren[no]["attributes"]["speaker"]["value"]);
-							if(containerChildren[no]["attributes"]["speaker"]["value"] == currentHighlight && containerChildren[no]["attributes"]["speaker"]!="SD"){
-								//console.log("Match! Going to push");
-								highlightedRows.push(containerChildren[no]);
-							}
-							else{
-								lowlightedRows.push(containerChildren[no]);
-							}
-						}
-					}
-					console.log(highlightedRows);
-					//highlightedRows now has the list of all <div class="row">s that are for this speaker.
-					//Update their styling
-					for(let no=0;no<highlightedRows.length;no++){
-						highlightedRows[no].style =highlightStyle;
-					}
-					for(let no=0;no<lowlightedRows.length;no++){
-						lowlightedRows[no].style = lowlightStyle;
+				}
+				document.getElementById("highlight-select").innerHTML = '';
+				for(let speakerNo=0;speakerNo<highlightOptions.length;speakerNo++){
+					document.getElementById("highlight-select").innerHTML += `
+						<option>${highlightOptions[speakerNo].trim()}</option>
+					`;
+				}
+			}
+
+			function changeHighlight(){
+				currentHighlight = document.getElementById("highlight-select").value;
+				console.log("Higlighting " + currentHighlight);
+				highlightTextAll();
+			}
+
+			function highlightTextAll(){
+				//This function should loop through all text onscreen and 
+				//highlight if the speaker matches currentHighlight, or
+				//if the speaker is blank and the previous line was
+				//highlighted
+				let lineContainer = document.getElementById("lineContainer");
+				let containerChildren = [];
+				for(let no=0;no<lineContainer.childNodes.length;no++){
+					if(lineContainer.childNodes[no].className == "row"){
+						containerChildren.push(lineContainer.childNodes[no]);
 					}
 				}
-			</script>
+				//containerChildren now contains the list of all lines.
+				//console.log(containerChildren);
+				let highlightedRows = [];
+				let lowlightedRows = [];
+				for(let no=0;no<containerChildren.length;no++){
+					if(containerChildren[no]["attributes"]["speaker"]!=undefined){
+						//console.log(containerChildren[no]["attributes"]["speaker"]["value"]);
+						if(containerChildren[no]["attributes"]["speaker"]["value"] == currentHighlight && containerChildren[no]["attributes"]["speaker"]!="SD"){
+							//console.log("Match! Going to push");
+							highlightedRows.push(containerChildren[no]);
+						}
+						else{
+							lowlightedRows.push(containerChildren[no]);
+						}
+					}
+				}
+				console.log(highlightedRows);
+				//highlightedRows now has the list of all <div class="row">s that are for this speaker.
+				//Update their styling
+				for(let no=0;no<highlightedRows.length;no++){
+					highlightedRows[no].style =highlightStyle;
+				}
+				for(let no=0;no<lowlightedRows.length;no++){
+					lowlightedRows[no].style = lowlightStyle;
+				}
+			}
+		</script>
+	</head>
+	<body class="bg-dark text-light">
+		<div id="button-holder">
+			<div class="row">
+				<div class="col-5 lineClicker" onclick="previousLine()">Previous Line</div>	
+				<div class="col-2"></div>
+				<div class="col-5 lineClicker" onclick="nextLine()">Next Line</div>	
+			</div>
+		</div>
+		<div id="selector-section" class="container align-items-center" >
+			<div class="row">
+				<div class="col-4"><b>Script:</b></div>
+				<div class="col-4"><b>Scene:</b></div>
+				<div class="col-4"><b>Character Highlight:</b></div>
+			</div>
+			<div class="row">
+				<div class="col-4">
+					<select id="collection-select" onclick="getScenes()" style="width:100%"></select><br>
+				</div>
+				<div class="col-4">
+					<select id="script-select" onclick="loadScene()" style="width:100%"></select><br>
+				</div>
+				<div class="col-4">
+					<select id="highlight-select" onclick="changeHighlight()" style="color:black;background-color:pink; width:100%;"></select>
+				</div>
+			</div>
+		</div>
+		<div id="script-section" class="container align-items-center">
+			<div class="container" id="lineContainer" style="max-height: 50%">
+				<div class="row">
+					<div class="col-3"><b>Speaker:</b></div>
+					<div class="col-9"><b>Line:</b></div>
+				</div>
+			</div>
 			<hr>
 		</div>
 	</body>
