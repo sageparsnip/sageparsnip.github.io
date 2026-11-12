@@ -176,6 +176,7 @@
 						window.scrollTo(0, document.body.scrollHeight);
 					}
 				}
+				console.log("nextLine call: currentSpeaker = " + currentSpeaker + "; speaking = " + speaking);
 			}
 
 
@@ -183,13 +184,22 @@
 				//find last row in the container and erase it.
 				var container = document.getElementById("lineContainer");
 				var lineDelete = container.childNodes[container.childNodes.length - 2];
-				if(String(lineDelete.childNodes[1].innerHTML).length > 0)
+				//if(String(lineDelete.childNodes[1].innerHTML).length > 0)
+				lineDelete.remove();
+				lineDelete = container.childNodes[container.childNodes.length - 2];
+				lineDelete.remove();
+				lineDelete = container.childNodes[container.childNodes.length - 2];
+				lineDelete.remove();
+				//Need to set currentSpeaker and speaking based on last line onscreen now
+				var lineInfo = container.childNodes[container.childNodes.length - 2];
+				if(speaking){
+					speaking = false;
+				}
+				else{
 					lineNo--;
-				lineDelete.remove();
-				var lineDelete = container.childNodes[container.childNodes.length - 2];
-				lineDelete.remove();
-				var lineDelete = container.childNodes[container.childNodes.length - 2];
-				lineDelete.remove();
+					let s = currentScene.Lines[lineNo].Speaker;
+					speaking = (s.length != 0 && s != "SD");
+				}
 				window.scrollTo(0, document.body.scrollHeight);
 			}
 
