@@ -3284,34 +3284,36 @@
             "Cast": [
                 {
                     "name": "Martina O'Connor",
-                    "role": ""
+                    "role": "Laura"
                 },
                 {
                     "name": "Martina Murphy",
-                    "role": ""
+                    "role": "Gail"
                 },
                 {
                     "name": "Brendan O'Sullivan",
-                    "role": ""
+                    "role": "Joe"
                 },
                 {
                     "name": "Lorna Mooney",
-                    "role": ""
+                    "role": "Carmel"
                 },
                 {
                     "name": "Martina Blessing",
-                    "role": ""
+                    "role": "Peg"
                 },
                 {
                     "name": "Dave Foley",
-                    "role": ""
+                    "role": "Michael (Son)"
                 },
                 {
                     "name": "Kyle Burke",
-                    "role": ""
+                    "role": "Johnny (Grandson)"
                 }
             ],
-            "Crew": [],
+            "Crew": [
+                {"name":"Sean Woods", "role":"Stage Construction"}
+            ],
             "Images":[
                 "01.jpg",
                 "02.jpg",
@@ -4787,6 +4789,7 @@
             "Playwright":"Michael West",
             "DetailsComplete":"Yes",
             "Year":"2025",
+            "Month":"May",
             "Length":"Full Slot",
             "Director":"Helena Stout",
             "Location":"Kildrought Lounge",
@@ -5013,6 +5016,44 @@
                 }
             ],
             "Crew": [],
+            "Images":[
+
+            ]
+        },
+        {
+            "Play":"Jane Eyre",
+            "Playwright":"Charlotte Bronte (Willis Hall Adaptation)",
+            "DetailsComplete":"Yes",
+            "Year":"2026",
+            "Month":"November",
+            "Length":"Full Slot",
+            "Director":"Tom Brady-Connor",
+            "Location":"Kildrought Lounge",
+            "Cast":[
+                {"name":"Leigh Brady","role":"Jane Eyre"},
+                {"name":"Daniel McCarthy","role":"Edward Rochester"},
+                {"name":"John McCormack","role":"Mr Brocklehurst, Lord Ingram, Rvd Wood, St.John Riverse"},
+                {"name":"Jess Gibson","role":"John Manservant, Briggs, Gorstone Guest, Mr Naysmith"},
+                {"name":"Abina Guinan","role":"Leah, Annie, Gorstone Guest, Lowood Girl"},
+                {"name":"Patricia Hanlon","role":"Mrs Alice Fairfax"},
+                {"name":"Michelle O'Dea","role":"Ms Temple, Blanche Ingram, Diana Rivers"},
+                {"name":"Fiona King","role":"Helen Burns, Adele Varens, Mary Rivers"},
+                {"name":"Fran O'Connor","role":"Bertha Mason, Aunt Reed"},
+                {"name":"Helen McCarthy","role":"Barbara, Grace Poole, Mary Ingram, Alice"},
+                {"name":"Maria Fitzgibbon","role":"Ms Abbott, Nurse, Lady Ingram, Hannah"},
+                {"name":"Míde Ní Bhriain","role":"Bessie, Kitty, Mrs Wrigley, Gorstone Guest"},
+                {"name":"Julie O'Neill","role":"Narrator, Country Woman, Lowood Girl, Gorstone Guest, Morton Schoolgirl"},
+                {"name":"Joy Murphy","role":"Narrator, Country Girl, Lowood Girl, Gorstone Guest, Morton Schoolgirl"},
+                {"name":"Marc Cheevers","role":"John Reed, Groom (Robert), Porter, Richard Mason, Builder, Gorstone Guest"}
+            ],
+            "Crew":[
+                {"name":"Chris Fenlon","role":"Lighting Design"},
+                {"name":"Tom Brady-Connor","role":"Sound Designer & Operator"},
+                {"name":"Netanya Curtis-Douglas","role":"Lighting Operator"},
+                {"name":"Rian Glynn","role":"Backstage Crew"},
+                {"name":"Leanne Reilly","role":"Backstage Crew"},
+                {"name":"Fran O'Connor","role":"Music Supervisor"}
+            ],
             "Images":[
 
             ]

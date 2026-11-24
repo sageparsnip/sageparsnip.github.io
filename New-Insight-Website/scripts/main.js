@@ -156,10 +156,10 @@ function showCommiteePage(){
 		var list = "";
 		data["members"].forEach(member => {
 			list += `
-				<div class="col-md-3 col-12">
+				<div class="col-md-4 col-12">
 					<h3>${member.name}</h3>
 					<h3>${member.title}</h3>
-					<img src="./assets/${member.picture}" class="commitee-picture">
+					<img src="./assets/Committee Members/${member.picture}" class="commitee-picture">
 					<p>${member.bio}</p>
 				</div>
 			`;
@@ -262,7 +262,7 @@ function showHistorySearch(){
 	`;
 	pagedHistory.forEach(page => {
 		bubbles += `
-			<div class="col" onclick="bubbleClick(this)" id="${page.number}"><p class="bubble">${page.number}</p></div>
+			<div class="col" onclick="bubbleClick(this)" id="${page.number}" style="cursor:pointer"><p class="bubble">${page.number}</p></div>
 		`;
 	});
 	bubbles += `</div>`;
@@ -283,7 +283,7 @@ function showHistorySearch(){
 		if(page.number == currentPage){
 			page.shows.forEach(show => {
 				historyPanel += `
-					<div class="row ${thisRowClass}" id="[${show.Year}] ${show.Play}" onclick="getShowDetails(this)">
+					<div class="row ${thisRowClass}" id="[${show.Year}] ${show.Play}" onclick="getShowDetails(this)" style="cursor:pointer">
 						<div class="col detailCol">${show.Year}</div>
 						<div class="col detailCol">${show.Play}</div>
 						<div class="col detailCol">${show.Playwright}</div>
